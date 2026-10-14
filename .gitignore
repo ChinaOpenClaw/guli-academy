@@ -1,0 +1,29 @@
+# 依赖
+node_modules/
+.pnp/
+.pnp.js
+
+# 构建产物
+dist/
+build/
+out/
+target/
+*.class
+
+#  IDE
+.idea/
+.vscode/
+*.iml
+.DS_Store
+
+# 日志
+*.log
+logs/
+
+# 环境变量 / 密钥（勿提交真实密钥）
+.env
+.env.local
+application-secret.properties
+
+# 系统 / OS
+Thumbs.db
