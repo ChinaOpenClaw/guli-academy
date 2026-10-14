@@ -1,0 +1,10 @@
+{
+  "name": "learn-center",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "谷粒学院学习中心演示后端：实现 /edu/chapter/nested-list/{courseId}，返回与 edu 微服务相同的 Guli R 结构。生产环境由 edu 微服务（8110）接管，本服务仅为本地演示兜底。",
+  "scripts": {
+    "start": "node server.mjs"
+  }
+}
