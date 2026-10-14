@@ -1,0 +1,15 @@
+2026-10-14 02:00:14.765 [main] INFO  com.guli.sysuser.SysuserApplication - Starting SysuserApplication v0.0.1-SNAPSHOT on sangjiexundeMac-mini.local with PID 71119 (/Users/sang/Desktop/谷粒学院项目/workspace/backend/guli/guli-microservice-sysuser/target/guli-microservice-sysuser-0.0.1-SNAPSHOT.jar started by sang in /Users/sang/Desktop/谷粒学院项目/workspace/backend/guli/guli-microservice-sysuser)
+2026-10-14 02:00:14.766 [main] INFO  com.guli.sysuser.SysuserApplication - The following profiles are active: dev
+2026-10-14 02:00:14.784 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2ac1fdc4: startup date [Wed Oct 14 02:00:14 CST 2026]; root of context hierarchy
+2026-10-14 02:00:15.277 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8120 (http)
+2026-10-14 02:00:15.283 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8120"]
+2026-10-14 02:00:15.289 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-10-14 02:00:15.289 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.35
+2026-10-14 02:00:15.293 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/sang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2026-10-14 02:00:15.332 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-10-14 02:00:15.332 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 548 ms
+2026-10-14 02:00:15.365 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2026-10-14 02:00:15.368 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2026-10-14 02:00:15.368 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2026-10-14 02:00:15.368 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2026-10-14 02:00:15.368 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
