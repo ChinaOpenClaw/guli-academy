@@ -1,0 +1,60 @@
+<mxfile host="app.diagrams.net" type="device">
+  <diagram name="谷粒学院 · 微服务架构图" id="guli-谷粒学院 · 微服务架构图">
+    <mxGraphModel dx="1400" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1500" pageHeight="1080" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="u1" value="管理员 / 学员" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fdecec;strokeColor=#e0a0a0;fontColor=#8a4a4a;fontSize=13;strokeWidth=2;" vertex="1" parent="1"><mxGeometry x="620" y="30" width="260" height="46" as="geometry" /></mxCell>
+        <mxCell id="fe1" value="管理后台 guli-admin
+Vue2 · :9528" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3f0ff;strokeColor=#6c8ebf;fontColor=#2d4a6e;fontSize=13;strokeWidth=2;" vertex="1" parent="1"><mxGeometry x="120" y="120" width="280" height="60" as="geometry" /></mxCell>
+        <mxCell id="fe2" value="前台门户 guli-portal
+Vue3 · :9529" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3f0ff;strokeColor=#6c8ebf;fontColor=#2d4a6e;fontSize=13;strokeWidth=2;" vertex="1" parent="1"><mxGeometry x="420" y="120" width="280" height="60" as="geometry" /></mxCell>
+        <mxCell id="proxy" value="dev server 代理 / Nginx 反向代理" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff6e0;strokeColor=#d8b96a;fontColor=#7a6320;fontSize=13;strokeWidth=2;" vertex="1" parent="1"><mxGeometry x="240" y="220" width="340" height="50" as="geometry" /></mxCell>
+        <mxCell id="eureka" value="Eureka 注册中心
+:8220" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f3e8ff;strokeColor=#9a7ab8;fontColor=#5a3d75;fontSize=13;strokeWidth=2;" vertex="1" parent="1"><mxGeometry x="1080" y="220" width="300" height="60" as="geometry" /></mxCell>
+        <mxCell id="edu" value="edu 课程服务
+:8110 · MySQL" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5f5e3;strokeColor=#58b08c;fontColor=#1f6b4a;fontSize=13;strokeWidth=2;" vertex="1" parent="1"><mxGeometry x="700" y="340" width="260" height="60" as="geometry" /></mxCell>
+        <mxCell id="sys" value="sysuser 登录服务
+:8120 · mock JWT" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5f5e3;strokeColor=#58b08c;fontColor=#1f6b4a;fontSize=13;strokeWidth=2;" vertex="1" parent="1"><mxGeometry x="980" y="340" width="260" height="60" as="geometry" /></mxCell>
+        <mxCell id="vod" value="vod 视频点播
+:8160 · 阿里云 VOD SDK" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5f5e3;strokeColor=#58b08c;fontColor=#1f6b4a;fontSize=13;strokeWidth=2;" vertex="1" parent="1"><mxGeometry x="700" y="450" width="260" height="60" as="geometry" /></mxCell>
+        <mxCell id="oss" value="oss 对象存储
+:8002 · 阿里云 OSS SDK" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5f5e3;strokeColor=#58b08c;fontColor=#1f6b4a;fontSize=13;strokeWidth=2;" vertex="1" parent="1"><mxGeometry x="980" y="450" width="260" height="60" as="geometry" /></mxCell>
+        <mxCell id="uc" value="ucenter 用户服务" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5f5e3;strokeColor=#58b08c;fontColor=#1f6b4a;fontSize=13;strokeWidth=2;" vertex="1" parent="1"><mxGeometry x="700" y="560" width="260" height="56" as="geometry" /></mxCell>
+        <mxCell id="st" value="statistics 统计服务" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5f5e3;strokeColor=#58b08c;fontColor=#1f6b4a;fontSize=13;strokeWidth=2;" vertex="1" parent="1"><mxGeometry x="980" y="560" width="260" height="56" as="geometry" /></mxCell>
+        <mxCell id="lc" value="learn-center（Node 演示）
+:8111 错开端口" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#9aa5a0;fontColor=#4a5a52;fontSize=13;strokeWidth=1.5;dashed=1;dashPattern=4 4;" vertex="1" parent="1"><mxGeometry x="700" y="660" width="260" height="56" as="geometry" /></mxCell>
+        <mxCell id="db" value="MySQL 3307
+guli_edu / ucenter / statistics" style="shape=cylinder;whiteSpace=wrap;html=1;fillColor=#fdeecb;strokeColor=#c9a35a;fontColor=#6e5416;fontSize=13;" vertex="1" parent="1"><mxGeometry x="1240" y="340" width="200" height="70" as="geometry" /></mxCell>
+        <mxCell id="redis" value="Redis" style="shape=cylinder;whiteSpace=wrap;html=1;fillColor=#fdeecb;strokeColor=#c9a35a;fontColor=#6e5416;fontSize=13;" vertex="1" parent="1"><mxGeometry x="1240" y="440" width="200" height="56" as="geometry" /></mxCell>
+        <mxCell id="ali" value="阿里云
+VOD / OSS" style="shape=cylinder;whiteSpace=wrap;html=1;fillColor=#fdecec;strokeColor=#e0a0a0;fontColor=#8a4a4a;fontSize=13;" vertex="1" parent="1"><mxGeometry x="1240" y="540" width="200" height="70" as="geometry" /></mxCell>
+        <mxCell id="e1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#8aa99b;endArrow=block;endFill=1;" edge="1" parent="1" source="u1" target="fe1"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#8aa99b;endArrow=block;endFill=1;" edge="1" parent="1" source="u1" target="fe2"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#8aa99b;endArrow=block;endFill=1;" edge="1" parent="1" source="fe1" target="proxy"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e4" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#8aa99b;endArrow=block;endFill=1;" edge="1" parent="1" source="fe2" target="proxy"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e5" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#8aa99b;endArrow=block;endFill=1;" edge="1" parent="1" source="proxy" target="edu"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e6" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#8aa99b;endArrow=block;endFill=1;" edge="1" parent="1" source="proxy" target="sys"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e7" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#8aa99b;endArrow=block;endFill=1;" edge="1" parent="1" source="proxy" target="vod"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e8" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#8aa99b;endArrow=block;endFill=1;" edge="1" parent="1" source="proxy" target="oss"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e9" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#8aa99b;endArrow=block;endFill=1;" edge="1" parent="1" source="proxy" target="uc"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e10" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#8aa99b;endArrow=block;endFill=1;" edge="1" parent="1" source="proxy" target="st"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e11" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#8aa99b;endArrow=block;endFill=1;" edge="1" parent="1" source="edu" target="eureka"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e12" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#8aa99b;endArrow=block;endFill=1;" edge="1" parent="1" source="sys" target="eureka"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e13" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#8aa99b;endArrow=block;endFill=1;" edge="1" parent="1" source="vod" target="eureka"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e14" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#8aa99b;endArrow=block;endFill=1;" edge="1" parent="1" source="oss" target="eureka"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e15" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#8aa99b;endArrow=block;endFill=1;" edge="1" parent="1" source="edu" target="db"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e16" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#8aa99b;endArrow=block;endFill=1;" edge="1" parent="1" source="uc" target="db"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e17" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#8aa99b;endArrow=block;endFill=1;" edge="1" parent="1" source="st" target="db"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e18" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#8aa99b;endArrow=block;endFill=1;" edge="1" parent="1" source="vod" target="ali"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e19" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#8aa99b;endArrow=block;endFill=1;" edge="1" parent="1" source="oss" target="ali"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e20" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#8aa99b;endArrow=block;endFill=1;" edge="1" parent="1" source="edu" target="redis"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e21" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#8aa99b;endArrow=block;endFill=1;" edge="1" parent="1" source="proxy" target="lc"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="l1" value="HTTP" style="edgeLabel;html=1;align=center;verticalAlign=middle;fontSize=11;fontColor=#4a6355;labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="e5"><mxGeometry x="610" y="300" relative="1" as="geometry"><mxPoint as="offset"/></mxGeometry></mxCell>
+        <mxCell id="l2" value="HTTP" style="edgeLabel;html=1;align=center;verticalAlign=middle;fontSize=11;fontColor=#4a6355;labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="e6"><mxGeometry x="940" y="300" relative="1" as="geometry"><mxPoint as="offset"/></mxGeometry></mxCell>
+        <mxCell id="l3" value="心跳" style="edgeLabel;html=1;align=center;verticalAlign=middle;fontSize=11;fontColor=#4a6355;labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="e11"><mxGeometry x="1000" y="320" relative="1" as="geometry"><mxPoint as="offset"/></mxGeometry></mxCell>
+        <mxCell id="l4" value="JDBC" style="edgeLabel;html=1;align=center;verticalAlign=middle;fontSize=11;fontColor=#4a6355;labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="e15"><mxGeometry x="1230" y="330" relative="1" as="geometry"><mxPoint as="offset"/></mxGeometry></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
