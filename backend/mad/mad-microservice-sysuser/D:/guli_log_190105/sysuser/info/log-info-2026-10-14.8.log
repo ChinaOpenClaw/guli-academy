@@ -1,8 +1,0 @@
-2026-10-14 16:43:53.589 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
-2026-10-14 16:43:53.598 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-2026-10-14 16:43:53.608 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
-2026-10-14 16:43:53.661 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8120"]
-2026-10-14 16:43:53.665 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
-2026-10-14 16:43:53.669 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8120 (http) with context path ''
-2026-10-14 16:43:53.671 [restartedMain] INFO  com.guli.sysuser.SysuserApplication - Started SysuserApplication in 1.271 seconds (JVM running for 1.441)
-2026-10-14 16:46:05.775 [http-nio-8120-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'

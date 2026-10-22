@@ -1,6 +1,0 @@
-2026-10-22 13:16:15.748 [Thread-9] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@469ecce6: startup date [Wed Oct 14 16:43:52 CST 2026]; root of context hierarchy
-2026-10-22 13:16:15.916 [Thread-9] INFO  o.s.context.support.DefaultLifecycleProcessor - Stopping beans in phase 2147483647
-2026-10-22 13:16:15.926 [Thread-9] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
-2026-10-22 16:38:18.944 [restartedMain] INFO  com.guli.sysuser.SysuserApplication - Starting SysuserApplication on sangjiexundeMac-mini.local with PID 63565 (started by sang in /Users/sang/Desktop/谷粒学院项目/workspace/backend/guli/guli-microservice-sysuser)
-2026-10-22 16:38:18.945 [restartedMain] INFO  com.guli.sysuser.SysuserApplication - The following profiles are active: dev
-2026-10-22 16:38:19.002 [restartedMain] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6eaffaee: startup date [Thu Oct 22 16:38:19 CST 2026]; root of context hierarchy
