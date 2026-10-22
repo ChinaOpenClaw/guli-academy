@@ -1,0 +1,26 @@
+# guli-academy MySQL 开发实例示例配置（端口 3307）
+# 用途：为 edu / ucenter / statistics 微服务提供独立于系统默认 3306 的数据库实例，
+#       避免与其它项目共用实例时互相干扰。
+# 用法：
+#   1. 初始化数据目录（仅首次）：
+#      /opt/homebrew/opt/mysql/bin/mysqld --initialize-insecure \
+#        --datadir=/opt/homebrew/var/mysql-dev
+#   2. 以本配置启动：
+#      /opt/homebrew/opt/mysql/bin/mysqld --defaults-extra-file=/tmp/mysql-dev.cnf
+#   3. 创建业务库与账号（见 docs/数据库说明.md）
+#
+[mysqld]
+port=3307
+datadir=/opt/homebrew/var/mysql-dev
+socket=/tmp/mysql-dev.sock
+pid-file=/tmp/mysql-dev.pid
+log-error=/tmp/mysql-dev.err
+user=<你的用户名>
+bind-address=127.0.0.1
+innodb_buffer_pool_size=512M
+
+[client]
+socket=/tmp/mysql-dev.sock
+
+[mysql]
+socket=/tmp/mysql-dev.sock
