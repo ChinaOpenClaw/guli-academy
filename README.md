@@ -51,10 +51,21 @@ guli-academy/
 ├── frontend/
 │   ├── guli-admin/          # Vue2 后台管理（课程内容管理）
 │   └── guli-portal/         # Vue3 前台门户（学员端）
+├── sql/                     # MySQL 建库脚本与初始数据
+│   ├── guli_edu.sql         #   课程库：讲师/课程/章节/课时/分类
+│   ├── guli_ucenter.sql     #   用户库
+│   └── guli_statistics.sql  #   统计库
+├── config/
+│   └── mysql-dev-3307.example.cnf   # 独立 MySQL 实例（3307）示例配置
 └── docs/
     ├── architecture.svg     # 架构图
+    ├── 数据库说明.md          # 建库/导数据/驱动兼容性（MySQL 8/9）
+    ├── 部署指南.md            # 本地部署步骤
+    ├── 图表索引.md            # 全部图表导航
     ├── SDK配置.md            # 阿里云 VOD / OSS SDK 配置
-    └── 部署指南.md           # 本地部署步骤
+    ├── 导图-*.svg            # 思维导图（架构/技术栈/功能模块）
+    ├── drawio/               # 可编辑架构图（.drawio 源文件 + SVG 预览）
+    └── edraw/                # 亿图原始课件图（.eddx）
 ```
 
 ## 🚀 快速开始
@@ -79,6 +90,12 @@ npm run dev          # http://localhost:9528
 
 ```bash
 # 需 JDK 8 + MySQL（默认 3307 端口，库名 guli_edu）
+# 一键建库导数据：
+mysql -u root -p -e "CREATE DATABASE guli_edu DEFAULT CHARACTER SET utf8mb4;
+CREATE USER 'guli'@'%' IDENTIFIED BY 'guli';
+GRANT ALL PRIVILEGES ON guli_edu.* TO 'guli'@'%';"
+mysql -u guli -pguli guli_edu < sql/guli_edu.sql
+
 cd backend/guli
 # 启动顺序：eureka -> 各微服务
 mvn -pl guli-commonservice-eureka -am spring-boot:run
@@ -86,10 +103,14 @@ mvn -pl guli-microservice-edu -am spring-boot:run
 mvn -pl guli-microservice-vod -am spring-boot:run
 ```
 
+> ⚠️ MySQL 8/9 用户注意：项目已在 `guli-microservice-edu/pom.xml` 钉住
+> `mysql-connector-java` 8.0.33（Spring Boot 2.0.7 默认解析的 5.1.47 连不上 MySQL 8+）。
+> 详见 [docs/数据库说明.md](./docs/数据库说明.md)。
+>
 > 不想起 MySQL？用 `backend/learn-center` 的 Node 演示后端即可联调门户：
-> `node backend/learn-center/server.mjs`（默认 8110），门户章节大纲走 `/edu/chapter/nested-list/{courseId}`。
+> `PORT=8111 node backend/learn-center/server.mjs`（用 8111 错开与 edu 微服务的 8110 端口冲突），门户章节大纲走 `/edu/chapter/nested-list/{courseId}`。
 
-详细的阿里云 **VOD / OSS SDK 配置**（AccessKey、地域、上传凭证）见 [docs/SDK配置.md](./docs/SDK配置.md)；完整部署步骤见 [docs/部署指南.md](./docs/部署指南.md)。
+详细的阿里云 **VOD / OSS SDK 配置**（AccessKey、地域、上传凭证）见 [docs/SDK配置.md](./docs/SDK配置.md)；完整部署步骤见 [docs/部署指南.md](./docs/部署指南.md)；图表（思维导图 / draw.io 可编辑架构图 / 亿图课件图）导航见 [docs/图表索引.md](./docs/图表索引.md)。
 
 ## 🔑 后台内容管理与 SDK 配置
 
