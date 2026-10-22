@@ -1,0 +1,67 @@
+<mxfile host="app.diagrams.net" type="device">
+  <diagram name="谷粒学院 · 数据库 ER 图（guli_edu）" id="guli-谷粒学院 · 数据库 ER 图（guli_edu）">
+    <mxGraphModel dx="1400" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="940" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="subject" value="edu_subject 课程分类" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5f5e3;strokeColor=#58b08c;fontColor=#1f6b4a;fontSize=13;strokeWidth=2;" vertex="1" parent="1"><mxGeometry x="60" y="60" width="240" height="30" as="geometry" /></mxCell>
+        <mxCell id="subject_c" value="id char(19) PK
+title varchar(50) 名称
+parent_id char(19) 父分类
+sort int 排序
+gmt_create / gmt_modified" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#8aa99b;fontColor=#3d4f46;fontSize=13;strokeWidth=2;" vertex="1" parent="1"><mxGeometry x="60" y="90" width="240" height="116" as="geometry" /></mxCell>
+        <mxCell id="teacher" value="edu_teacher 讲师" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5f5e3;strokeColor=#58b08c;fontColor=#1f6b4a;fontSize=13;strokeWidth=2;" vertex="1" parent="1"><mxGeometry x="60" y="260" width="240" height="30" as="geometry" /></mxCell>
+        <mxCell id="teacher_c" value="id char(19) PK
+name varchar(20) 姓名
+intro varchar(255) 简介
+career text 经历
+level int 等级
+avatar varchar(255) 头像
+sort int 排序
+gmt_create / gmt_modified" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#8aa99b;fontColor=#3d4f46;fontSize=13;strokeWidth=2;" vertex="1" parent="1"><mxGeometry x="60" y="290" width="240" height="146" as="geometry" /></mxCell>
+        <mxCell id="course" value="edu_course 课程" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5f5e3;strokeColor=#58b08c;fontColor=#1f6b4a;fontSize=13;strokeWidth=2;" vertex="1" parent="1"><mxGeometry x="480" y="60" width="260" height="30" as="geometry" /></mxCell>
+        <mxCell id="course_c" value="id char(19) PK
+teacher_id → edu_teacher.id
+subject_id → edu_subject.id
+subject_parent_id 一级分类
+Title varchar(50)
+price decimal(10,2)
+lesson_num int 总课时
+cover varchar(255) 封面
+buy_count / view_count
+status varchar 状态
+gmt_create / gmt_modified" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#8aa99b;fontColor=#3d4f46;fontSize=13;strokeWidth=2;" vertex="1" parent="1"><mxGeometry x="480" y="90" width="260" height="202" as="geometry" /></mxCell>
+        <mxCell id="desc" value="edu_course_description" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5f5e3;strokeColor=#58b08c;fontColor=#1f6b4a;fontSize=13;strokeWidth=2;" vertex="1" parent="1"><mxGeometry x="480" y="360" width="260" height="30" as="geometry" /></mxCell>
+        <mxCell id="desc_c" value="id char(19) PK = course.id
+description text 课程详情
+gmt_create / gmt_modified" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#8aa99b;fontColor=#3d4f46;fontSize=13;strokeWidth=2;" vertex="1" parent="1"><mxGeometry x="480" y="390" width="260" height="76" as="geometry" /></mxCell>
+        <mxCell id="chapter" value="edu_chapter 章节" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5f5e3;strokeColor=#58b08c;fontColor=#1f6b4a;fontSize=13;strokeWidth=2;" vertex="1" parent="1"><mxGeometry x="920" y="60" width="240" height="30" as="geometry" /></mxCell>
+        <mxCell id="chapter_c" value="id char(19) PK
+course_id → edu_course.id
+title varchar(50)
+sort int 排序
+gmt_create / gmt_modified" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#8aa99b;fontColor=#3d4f46;fontSize=13;strokeWidth=2;" vertex="1" parent="1"><mxGeometry x="920" y="90" width="240" height="116" as="geometry" /></mxCell>
+        <mxCell id="video" value="edu_video 课时" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5f5e3;strokeColor=#58b08c;fontColor=#1f6b4a;fontSize=13;strokeWidth=2;" vertex="1" parent="1"><mxGeometry x="920" y="260" width="240" height="30" as="geometry" /></mxCell>
+        <mxCell id="video_c" value="id char(19) PK
+chapter_id → edu_chapter.id
+course_id 冗余字段
+title varchar(100)
+video_source_id 阿里云ID
+video_original_name
+duration float 时长
+is_free tinyint 免费试看
+size bigint 大小
+gmt_create / gmt_modified" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#8aa99b;fontColor=#3d4f46;fontSize=13;strokeWidth=2;" vertex="1" parent="1"><mxGeometry x="920" y="290" width="240" height="176" as="geometry" /></mxCell>
+        <mxCell id="note" value="外键均按 char(19) 逻辑外键关联（无 DB 级 FK 约束），由 MyBatis-Plus 维护" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff6e0;strokeColor=#d8b96a;fontColor=#7a6320;fontSize=13;strokeWidth=1.5;dashed=1;dashPattern=4 4;" vertex="1" parent="1"><mxGeometry x="480" y="500" width="680" height="40" as="geometry" /></mxCell>
+        <mxCell id="er1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#8aa99b;endArrow=block;endFill=1;" edge="1" parent="1" source="teacher" target="course"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="er2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#8aa99b;endArrow=block;endFill=1;" edge="1" parent="1" source="subject" target="course"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="er3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#8aa99b;endArrow=block;endFill=1;" edge="1" parent="1" source="course" target="desc"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="er4" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#8aa99b;endArrow=block;endFill=1;" edge="1" parent="1" source="course" target="chapter"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="er5" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#8aa99b;endArrow=block;endFill=1;" edge="1" parent="1" source="chapter" target="video"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="erl1" value="1:N" style="edgeLabel;html=1;align=center;verticalAlign=middle;fontSize=11;fontColor=#4a6355;labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="er1"><mxGeometry x="420" y="100" relative="1" as="geometry"><mxPoint as="offset"/></mxGeometry></mxCell>
+        <mxCell id="erl2" value="1:N" style="edgeLabel;html=1;align=center;verticalAlign=middle;fontSize=11;fontColor=#4a6355;labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="er4"><mxGeometry x="880" y="110" relative="1" as="geometry"><mxPoint as="offset"/></mxGeometry></mxCell>
+        <mxCell id="erl3" value="1:N" style="edgeLabel;html=1;align=center;verticalAlign=middle;fontSize=11;fontColor=#4a6355;labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="er5"><mxGeometry x="860" y="300" relative="1" as="geometry"><mxPoint as="offset"/></mxGeometry></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
