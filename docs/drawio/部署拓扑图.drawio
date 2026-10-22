@@ -1,0 +1,42 @@
+<mxfile host="app.diagrams.net" type="device">
+  <diagram name="谷粒学院 · 部署拓扑图" id="guli-谷粒学院 · 部署拓扑图">
+    <mxGraphModel dx="1400" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="client" value="用户浏览器" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fdecec;strokeColor=#e0a0a0;fontColor=#8a4a4a;fontSize=13;strokeWidth=2;" vertex="1" parent="1"><mxGeometry x="600" y="30" width="200" height="46" as="geometry" /></mxCell>
+        <mxCell id="nginx" value="Nginx :80 / :443
+静态托管 + 反向代理" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff6e0;strokeColor=#d8b96a;fontColor=#7a6320;fontSize=13;strokeWidth=2;" vertex="1" parent="1"><mxGeometry x="570" y="130" width="260" height="56" as="geometry" /></mxCell>
+        <mxCell id="admin" value="guli-admin dist
+（后台管理静态包）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3f0ff;strokeColor=#6c8ebf;fontColor=#2d4a6e;fontSize=13;strokeWidth=2;" vertex="1" parent="1"><mxGeometry x="100" y="250" width="240" height="56" as="geometry" /></mxCell>
+        <mxCell id="portal" value="guli-portal dist
+（门户静态包）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3f0ff;strokeColor=#6c8ebf;fontColor=#2d4a6e;fontSize=13;strokeWidth=2;" vertex="1" parent="1"><mxGeometry x="100" y="350" width="240" height="56" as="geometry" /></mxCell>
+        <mxCell id="api" value="/api → 微服务组
+（代理转发）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff6e0;strokeColor=#d8b96a;fontColor=#7a6320;fontSize=13;strokeWidth=2;" vertex="1" parent="1"><mxGeometry x="420" y="250" width="240" height="56" as="geometry" /></mxCell>
+        <mxCell id="svc" value="微服务集群
+edu / sysuser / vod
+oss / ucenter / statistics" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5f5e3;strokeColor=#58b08c;fontColor=#1f6b4a;fontSize=13;strokeWidth=2;" vertex="1" parent="1"><mxGeometry x="740" y="250" width="260" height="70" as="geometry" /></mxCell>
+        <mxCell id="eureka2" value="Eureka :8220" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f3e8ff;strokeColor=#9a7ab8;fontColor=#5a3d75;fontSize=13;strokeWidth=2;" vertex="1" parent="1"><mxGeometry x="740" y="370" width="260" height="50" as="geometry" /></mxCell>
+        <mxCell id="mysql" value="MySQL :3307
+3 个业务库" style="shape=cylinder;whiteSpace=wrap;html=1;fillColor=#fdeecb;strokeColor=#c9a35a;fontColor=#6e5416;fontSize=13;" vertex="1" parent="1"><mxGeometry x="1060" y="250" width="220" height="60" as="geometry" /></mxCell>
+        <mxCell id="redis2" value="Redis" style="shape=cylinder;whiteSpace=wrap;html=1;fillColor=#fdeecb;strokeColor=#c9a35a;fontColor=#6e5416;fontSize=13;" vertex="1" parent="1"><mxGeometry x="1060" y="350" width="220" height="50" as="geometry" /></mxCell>
+        <mxCell id="ali2" value="阿里云 VOD / OSS" style="shape=cylinder;whiteSpace=wrap;html=1;fillColor=#fdecec;strokeColor=#e0a0a0;fontColor=#8a4a4a;fontSize=13;" vertex="1" parent="1"><mxGeometry x="1060" y="440" width="220" height="60" as="geometry" /></mxCell>
+        <mxCell id="dev" value="开发联调：Node 16 / JDK8
+Maven 本地构建" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#9aa5a0;fontColor=#4a5a52;fontSize=13;strokeWidth=1.5;dashed=1;dashPattern=4 4;" vertex="1" parent="1"><mxGeometry x="420" y="420" width="240" height="50" as="geometry" /></mxCell>
+        <mxCell id="d1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#8aa99b;endArrow=block;endFill=1;" edge="1" parent="1" source="client" target="nginx"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="d2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#8aa99b;endArrow=block;endFill=1;" edge="1" parent="1" source="nginx" target="admin"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="d3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#8aa99b;endArrow=block;endFill=1;" edge="1" parent="1" source="nginx" target="portal"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="d4" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#8aa99b;endArrow=block;endFill=1;" edge="1" parent="1" source="nginx" target="api"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="d5" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#8aa99b;endArrow=block;endFill=1;" edge="1" parent="1" source="api" target="svc"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="d6" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#8aa99b;endArrow=block;endFill=1;" edge="1" parent="1" source="svc" target="eureka2"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="d7" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#8aa99b;endArrow=block;endFill=1;" edge="1" parent="1" source="svc" target="mysql"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="d8" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#8aa99b;endArrow=block;endFill=1;" edge="1" parent="1" source="svc" target="redis2"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="d9" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#8aa99b;endArrow=block;endFill=1;" edge="1" parent="1" source="svc" target="ali2"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="d10" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#8aa99b;endArrow=block;endFill=1;" edge="1" parent="1" source="dev" target="svc"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="dl1" value="静态" style="edgeLabel;html=1;align=center;verticalAlign=middle;fontSize=11;fontColor=#4a6355;labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="d2"><mxGeometry x="340" y="240" relative="1" as="geometry"><mxPoint as="offset"/></mxGeometry></mxCell>
+        <mxCell id="dl2" value="HTTP" style="edgeLabel;html=1;align=center;verticalAlign=middle;fontSize=11;fontColor=#4a6355;labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="d4"><mxGeometry x="570" y="240" relative="1" as="geometry"><mxPoint as="offset"/></mxGeometry></mxCell>
+        <mxCell id="dl3" value="JDBC" style="edgeLabel;html=1;align=center;verticalAlign=middle;fontSize=11;fontColor=#4a6355;labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="d7"><mxGeometry x="1040" y="240" relative="1" as="geometry"><mxPoint as="offset"/></mxGeometry></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
