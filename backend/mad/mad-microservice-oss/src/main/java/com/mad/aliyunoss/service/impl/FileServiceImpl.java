@@ -1,1 +1,83 @@
-cGFja2FnZSBjb20ubWFkLmFsaXl1bm9zcy5zZXJ2aWNlLmltcGw7CgppbXBvcnQgY29tLmFsaXl1bi5vc3MuT1NTQ2xpZW50OwppbXBvcnQgY29tLmFsaXl1bi5vc3MubW9kZWwuQ2FubmVkQWNjZXNzQ29udHJvbExpc3Q7CmltcG9ydCBjb20ubWFkLmFsaXl1bm9zcy5zZXJ2aWNlLkZpbGVTZXJ2aWNlOwppbXBvcnQgY29tLm1hZC5hbGl5dW5vc3MudXRpbC5Db25zdGFudFByb3BlcnRpZXNVdGlsOwppbXBvcnQgY29tLm1hZC5jb21tb24uY29uc3RhbnRzLlJlc3VsdENvZGVFbnVtOwppbXBvcnQgY29tLm1hZC5jb21tb24uZXhjZXB0aW9uLk1hZEV4Y2VwdGlvbjsKaW1wb3J0IGxvbWJvay5leHRlcm4uc2xmNGouU2xmNGo7CmltcG9ydCBvcmcuam9kYS50aW1lLkRhdGVUaW1lOwppbXBvcnQgb3JnLnNwcmluZ2ZyYW1ld29yay5zdGVyZW90eXBlLlNlcnZpY2U7CmltcG9ydCBvcmcuc3ByaW5nZnJhbWV3b3JrLndlYi5tdWx0aXBhcnQuTXVsdGlwYXJ0RmlsZTsKCmltcG9ydCBqYXZhLmlvLklPRXhjZXB0aW9uOwppbXBvcnQgamF2YS5pby5JbnB1dFN0cmVhbTsKaW1wb3J0IGphdmEudXRpbC5VVUlEOwoKLyoqCiAqIEBhdXRob3IgaGVsZW4KICogQHNpbmNlIDIwMTkvNi8yOAogKi8KQFNlcnZpY2UKQFNsZjRqCnB1YmxpYyBjbGFzcyBGaWxlU2VydmljZUltcGwgaW1wbGVtZW50cyBGaWxlU2VydmljZSB7CgkKCUBPdmVycmlkZQoJcHVibGljIFN0cmluZyB1cGxvYWRGaWxlKE11bHRpcGFydEZpbGUgZmlsZSkgewoKCQlTdHJpbmcgZW5kUG9pbnQgPSBDb25zdGFudFByb3BlcnRpZXNVdGlsLkVORF9QT0lOVDsKCQlTdHJpbmcgYWNjZXNzS2V5SWQgPSBDb25zdGFudFByb3BlcnRpZXNVdGlsLkFDQ0VTU19LRVlfSUQ7CgkJU3RyaW5nIGFjY2Vzc0tleVNlY3JldCA9IENvbnN0YW50UHJvcGVydGllc1V0aWwuQUNDRVNTX0tFWV9TRUNSRVQ7CgkJU3RyaW5nIGJ1Y2tldE5hbWUgPSBDb25zdGFudFByb3BlcnRpZXNVdGlsLkJVQ0tFVF9OQU1FOwoJCVN0cmluZyBmaWxlSG9zdCA9IENvbnN0YW50UHJvcGVydGllc1V0aWwuRklMRV9IT1NUOwoKCQlTdHJpbmcgdXBsb2FkVXJsID0gbnVsbDsKCgkJdHJ5IHsKCgkJCS8vIOWIm+W7uk9TU0NsaWVudOWunuS+i+OAggoJCQlPU1NDbGllbnQgb3NzQ2xpZW50ID0gbmV3IE9TU0NsaWVudChlbmRQb2ludCwgYWNjZXNzS2V5SWQsIGFjY2Vzc0tleVNlY3JldCk7CgkJCWlmKCFvc3NDbGllbnQuZG9lc0J1Y2tldEV4aXN0KGJ1Y2tldE5hbWUpKXsKCQkJCW9zc0NsaWVudC5jcmVhdGVCdWNrZXQoYnVja2V0TmFtZSk7CgkJCQlvc3NDbGllbnQuc2V0QnVja2V0QWNsKGJ1Y2tldE5hbWUsIENhbm5lZEFjY2Vzc0NvbnRyb2xMaXN0LlB1YmxpY1JlYWQpOwoJCQl9CgoJCQkvL+iOt+WPluS4iuS8oOaWh+S7tua1gQoJCQlJbnB1dFN0cmVhbSBpbnB1dFN0cmVhbSA9IGZpbGUuZ2V0SW5wdXRTdHJlYW0oKTsKCgkJCS8v6I635Y+W5Y6f5aeL5paH5Lu25ZCNCgkJCVN0cmluZyBvcmlnaW5hbCA9IGZpbGUuZ2V0T3JpZ2luYWxGaWxlbmFtZSgpOwoJCQlTdHJpbmcgZmlsZU5hbWUgPSBVVUlELnJhbmRvbVVVSUQoKS50b1N0cmluZygpOwoJCQlTdHJpbmcgZmlsZVR5cGUgPSBvcmlnaW5hbC5zdWJzdHJpbmcob3JpZ2luYWwubGFzdEluZGV4T2YoIi4iKSk7CgkJCS8v57uE6KOF5paw55qE5paH5Lu25ZCNCgkJCVN0cmluZyBuZXdOYW1lID0gZmlsZU5hbWUgKyBmaWxlVHlwZTsKCgkJCS8v5Yib5bu65paH5Lu25LiK5Lyg55uu5b2VCgkJCVN0cmluZyBmaWxlUGF0aCA9IG5ldyBEYXRlVGltZSgpLnRvU3RyaW5nKCJ5eXl5L01NL2RkIik7CgoJCQkvL+aWh+S7tuS4iuS8oOiHs+acjeWKoeWZqOeahOWFt+S9k+S9jee9rgoJCQlTdHJpbmcgZmlsZVVybCA9IGZpbGVIb3N0ICsgIi8iICsgZmlsZVBhdGggKyAiLyIgKyBuZXdOYW1lOwoKCgkJCS8vIOS4iuS8oOaWh+S7tua1geOAggoJCQlvc3NDbGllbnQucHV0T2JqZWN0KGJ1Y2tldE5hbWUsIGZpbGVVcmwsIGlucHV0U3RyZWFtKTsKCgkJCS8vIOWFs+mXrU9TU0NsaWVudOOAggoJCQlvc3NDbGllbnQuc2h1dGRvd24oKTsKCgkJCS8v57uE6KOF5paH5Lu25pyA57uI55qEdXJs5Zyw5Z2ACgkJCXVwbG9hZFVybCA9ICJodHRwczovLyIgKyBidWNrZXROYW1lICsgIi4iICsgZW5kUG9pbnQgKyAiLyIgKyBmaWxlVXJsOwoKCQl9IGNhdGNoIChJT0V4Y2VwdGlvbiBlKSB7CgkJCWxvZy5lcnJvcihlLmdldE1lc3NhZ2UoKSk7OwoJCQl0aHJvdyBuZXcgTWFkRXhjZXB0aW9uKFJlc3VsdENvZGVFbnVtLkZJTEVfVVBMT0FEX0VSUk9SKTsKCQl9IGNhdGNoIChFeGNlcHRpb24gZSkgewoJCQlsb2cuaW5mbygi6ZSZ6K+v5L+h5oGvPT09PT09PT09PT09PT09PT09PT09PT09PT09PSIpOwoJCQlsb2cuZXJyb3IoZS5nZXRNZXNzYWdlKCkpOwoJCQl0aHJvdyBuZXcgTWFkRXhjZXB0aW9uKFJlc3VsdENvZGVFbnVtLlVOS05PV05fUkVBU09OKTsKCQl9CgoJCXJldHVybiB1cGxvYWRVcmw7Cgl9Cn0K
+package com.mad.aliyunoss.service.impl;
+
+import com.aliyun.oss.OSSClient;
+import com.aliyun.oss.model.CannedAccessControlList;
+import com.mad.aliyunoss.service.FileService;
+import com.mad.aliyunoss.util.ConstantPropertiesUtil;
+import com.mad.common.constants.ResultCodeEnum;
+import com.mad.common.exception.MadException;
+import lombok.extern.slf4j.Slf4j;
+import org.joda.time.DateTime;
+import org.springframework.stereotype.Service;
+import org.springframework.web.multipart.MultipartFile;
+
+import java.io.IOException;
+import java.io.InputStream;
+import java.util.UUID;
+
+/**
+ * @author helen
+ * @since 2019/6/28
+ */
+@Service
+@Slf4j
+public class FileServiceImpl implements FileService {
+	
+	@Override
+	public String uploadFile(MultipartFile file) {
+
+		String endPoint = ConstantPropertiesUtil.END_POINT;
+		String accessKeyId = ConstantPropertiesUtil.ACCESS_KEY_ID;
+		String accessKeySecret = ConstantPropertiesUtil.ACCESS_KEY_SECRET;
+		String bucketName = ConstantPropertiesUtil.BUCKET_NAME;
+		String fileHost = ConstantPropertiesUtil.FILE_HOST;
+
+		String uploadUrl = null;
+
+		try {
+
+			// 创建OSSClient实例。
+			OSSClient ossClient = new OSSClient(endPoint, accessKeyId, accessKeySecret);
+			if(!ossClient.doesBucketExist(bucketName)){
+				ossClient.createBucket(bucketName);
+				ossClient.setBucketAcl(bucketName, CannedAccessControlList.PublicRead);
+			}
+
+			//获取上传文件流
+			InputStream inputStream = file.getInputStream();
+
+			//获取原始文件名
+			String original = file.getOriginalFilename();
+			String fileName = UUID.randomUUID().toString();
+			String fileType = original.substring(original.lastIndexOf("."));
+			//组装新的文件名
+			String newName = fileName + fileType;
+
+			//创建文件上传目录
+			String filePath = new DateTime().toString("yyyy/MM/dd");
+
+			//文件上传至服务器的具体位置
+			String fileUrl = fileHost + "/" + filePath + "/" + newName;
+
+
+			// 上传文件流。
+			ossClient.putObject(bucketName, fileUrl, inputStream);
+
+			// 关闭OSSClient。
+			ossClient.shutdown();
+
+			//组装文件最终的url地址
+			uploadUrl = "https://" + bucketName + "." + endPoint + "/" + fileUrl;
+
+		} catch (IOException e) {
+			log.error(e.getMessage());;
+			throw new MadException(ResultCodeEnum.FILE_UPLOAD_ERROR);
+		} catch (Exception e) {
+			log.info("错误信息============================");
+			log.error(e.getMessage());
+			throw new MadException(ResultCodeEnum.UNKNOWN_REASON);
+		}
+
+		return uploadUrl;
+	}
+}

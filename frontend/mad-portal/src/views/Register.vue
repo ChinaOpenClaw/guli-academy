@@ -1,1 +1,50 @@
-PHRlbXBsYXRlPgogIDxkaXYgY2xhc3M9InNpZ24tcGFnZSI+CiAgICA8ZGl2IGNsYXNzPSJzaWduLWJveCI+CiAgICAgIDxkaXYgY2xhc3M9ImxvZ28iPjxpbWcgc3JjPSIvaW1nL2xvZ28ucG5nIiBhbHQ9Ik1BROe9keivvuezu+e7nyBNQUQiIC8+PC9kaXY+CiAgICAgIDxkaXYgY2xhc3M9InNpZ24tdGFicyI+CiAgICAgICAgPHJvdXRlci1saW5rIHRvPSIvbG9naW4iPueZu+W9lTwvcm91dGVyLWxpbms+CiAgICAgICAgPHJvdXRlci1saW5rIHRvPSIvcmVnaXN0ZXIiIGNsYXNzPSJhY3RpdmUiPuazqOWGjDwvcm91dGVyLWxpbms+CiAgICAgIDwvZGl2PgoKICAgICAgPGZvcm0gQHN1Ym1pdC5wcmV2ZW50PSJvblN1Ym1pdCI+CiAgICAgICAgPGRpdiBjbGFzcz0ic2lnbi1pbnB1dCI+CiAgICAgICAgICA8aW5wdXQgdi1tb2RlbD0icGhvbmUiIHR5cGU9InRleHQiIHBsYWNlaG9sZGVyPSLor7fovpPlhaXmiYvmnLrlj7ciIC8+CiAgICAgICAgPC9kaXY+CiAgICAgICAgPGRpdiBjbGFzcz0ic2lnbi1pbnB1dCI+CiAgICAgICAgICA8aW5wdXQgdi1tb2RlbD0iY29kZSIgdHlwZT0idGV4dCIgcGxhY2Vob2xkZXI9Iuivt+i+k+WFpemqjOivgeeggSIgLz4KICAgICAgICA8L2Rpdj4KICAgICAgICA8ZGl2IGNsYXNzPSJzaWduLWlucHV0Ij4KICAgICAgICAgIDxpbnB1dCB2LW1vZGVsPSJwd2QiIHR5cGU9InBhc3N3b3JkIiBwbGFjZWhvbGRlcj0i6K6+572u55m75b2V5a+G56CBIiAvPgogICAgICAgIDwvZGl2PgogICAgICAgIDxidXR0b24gdHlwZT0ic3VibWl0IiBjbGFzcz0ic2lnbi1zdWJtaXQiPuazqCDlhow8L2J1dHRvbj4KICAgICAgPC9mb3JtPgoKICAgICAgPGRpdiBjbGFzcz0ibW9yZS1zaWduIj4KICAgICAgICDms6jlhozljbPku6PooajlkIzmhI8KICAgICAgICA8YSBocmVmPSJqYXZhc2NyaXB0OnZvaWQoMCkiIGNsYXNzPSJjLW1hc3RlciI+44CKTUFE572R6K++57O757uf55So5oi35Y2P6K6u44CLPC9hPgogICAgICA8L2Rpdj4KICAgIDwvZGl2PgogIDwvZGl2Pgo8L3RlbXBsYXRlPgoKPHNjcmlwdCBzZXR1cD4KaW1wb3J0IHsgcmVmIH0gZnJvbSAndnVlJwppbXBvcnQgeyB1c2VSb3V0ZXIgfSBmcm9tICd2dWUtcm91dGVyJwppbXBvcnQgeyB1c2VBdXRoIH0gZnJvbSAnQC9jb21wb3NhYmxlcy91c2VBdXRoJwoKY29uc3QgeyBsb2dpbiB9ID0gdXNlQXV0aCgpCmNvbnN0IHJvdXRlciA9IHVzZVJvdXRlcigpCmNvbnN0IHBob25lID0gcmVmKCcnKQpjb25zdCBjb2RlID0gcmVmKCcnKQpjb25zdCBwd2QgPSByZWYoJycpCgpmdW5jdGlvbiBvblN1Ym1pdCgpIHsKICBpZiAoIXBob25lLnZhbHVlIHx8ICFjb2RlLnZhbHVlIHx8ICFwd2QudmFsdWUpIHsKICAgIGFsZXJ0KCfor7flrozmlbTloavlhpnms6jlhozkv6Hmga8nKQogICAgcmV0dXJuCiAgfQogIGxvZ2luKCdNQUTlrablkZgnICsgcGhvbmUudmFsdWUuc2xpY2UoLTQpKQogIHJvdXRlci5wdXNoKCcvdXNlcicpCn0KPC9zY3JpcHQ+Cg==
+<template>
+  <div class="sign-page">
+    <div class="sign-box">
+      <div class="logo"><img src="/img/logo.png" alt="MAD网课系统 MAD" /></div>
+      <div class="sign-tabs">
+        <router-link to="/login">登录</router-link>
+        <router-link to="/register" class="active">注册</router-link>
+      </div>
+
+      <form @submit.prevent="onSubmit">
+        <div class="sign-input">
+          <input v-model="phone" type="text" placeholder="请输入手机号" />
+        </div>
+        <div class="sign-input">
+          <input v-model="code" type="text" placeholder="请输入验证码" />
+        </div>
+        <div class="sign-input">
+          <input v-model="pwd" type="password" placeholder="设置登录密码" />
+        </div>
+        <button type="submit" class="sign-submit">注 册</button>
+      </form>
+
+      <div class="more-sign">
+        注册即代表同意
+        <a href="javascript:void(0)" class="c-master">《MAD网课系统用户协议》</a>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script setup>
+import { ref } from 'vue'
+import { useRouter } from 'vue-router'
+import { useAuth } from '@/composables/useAuth'
+
+const { login } = useAuth()
+const router = useRouter()
+const phone = ref('')
+const code = ref('')
+const pwd = ref('')
+
+function onSubmit() {
+  if (!phone.value || !code.value || !pwd.value) {
+    alert('请完整填写注册信息')
+    return
+  }
+  login('MAD学员' + phone.value.slice(-4))
+  router.push('/user')
+}
+</script>

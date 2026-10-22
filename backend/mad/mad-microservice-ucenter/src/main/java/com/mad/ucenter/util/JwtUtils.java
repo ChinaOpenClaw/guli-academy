@@ -1,1 +1,65 @@
-cGFja2FnZSBjb20ubWFkLnVjZW50ZXIudXRpbDsKCmltcG9ydCBjb20ubWFkLnVjZW50ZXIuZW50aXR5Lk1lbWJlcjsKaW1wb3J0IGlvLmpzb253ZWJ0b2tlbi5DbGFpbXM7CmltcG9ydCBpby5qc29ud2VidG9rZW4uSndzOwppbXBvcnQgaW8uanNvbndlYnRva2VuLkp3dHM7CmltcG9ydCBpby5qc29ud2VidG9rZW4uU2lnbmF0dXJlQWxnb3JpdGhtOwppbXBvcnQgb3JnLnNwcmluZ2ZyYW1ld29yay51dGlsLlN0cmluZ1V0aWxzOwoKaW1wb3J0IGphdmEudXRpbC5EYXRlOwoKLyoqCiAqIEBhdXRob3IgaGVsZW4KICogQHNpbmNlIDIwMTkvNy82CiAqLwpwdWJsaWMgY2xhc3MgSnd0VXRpbHMgewoKCXB1YmxpYyBzdGF0aWMgZmluYWwgU3RyaW5nIFNVQkpFQ1QgPSAibWFkLXVzZXIiOwoKCS8v56eY6ZKlCglwdWJsaWMgc3RhdGljIGZpbmFsIFN0cmluZyBBUFBTRUNSRVQgPSAibWFkNjY2IjsKCgkvL+i/h+acn+aXtumXtO+8jOavq+enku+8jDMw5YiG6ZKfCglwdWJsaWMgc3RhdGljIGZpbmFsIGxvbmcgRVhQSVJFID0gMTAwMCAqIDYwICogMTsKCgkvKioKCSAqIOeUn+aIkEp3dOS7pOeJjAoJICogQHBhcmFtIG1lbWJlcgoJICogQHJldHVybgoJICovCglwdWJsaWMgc3RhdGljIFN0cmluZyBnZW5lcmF0ZUpXVChNZW1iZXIgbWVtYmVyKXsKCgkJaWYobWVtYmVyID09IG51bGwKCQkJCXx8IFN0cmluZ1V0aWxzLmlzRW1wdHkobWVtYmVyLmdldElkKCkpCgkJCQl8fCBTdHJpbmdVdGlscy5pc0VtcHR5KG1lbWJlci5nZXROaWNrbmFtZSgpKQoJCQkJfHwgU3RyaW5nVXRpbHMuaXNFbXB0eShtZW1iZXIuZ2V0QXZhdGFyKCkpKXsKCQkJcmV0dXJuIG51bGw7CgkJfQoKCQlTdHJpbmcgdG9rZW4gPSBKd3RzLmJ1aWxkZXIoKQoJCQkJLnNldFN1YmplY3QoU1VCSkVDVCkKCQkJCS5jbGFpbSgiaWQiLCBtZW1iZXIuZ2V0SWQoKSkKCQkJCS5jbGFpbSgibmlja25hbWUiLCBtZW1iZXIuZ2V0Tmlja25hbWUoKSkKCQkJCS5jbGFpbSgiYXZhdGFyIiwgbWVtYmVyLmdldEF2YXRhcigpKQoJCQkJLnNldElzc3VlZEF0KG5ldyBEYXRlKCkpCgkJCQkuc2V0RXhwaXJhdGlvbihuZXcgRGF0ZShTeXN0ZW0uY3VycmVudFRpbWVNaWxsaXMoKSArIEVYUElSRSkpCgkJCQkuc2lnbldpdGgoU2lnbmF0dXJlQWxnb3JpdGhtLkhTMjU2LCBBUFBTRUNSRVQpLmNvbXBhY3QoKTsKCgkJcmV0dXJuIHRva2VuOwoJfQoKCgkvKioKCSAqIOagoemqjGp3dAoJICogQHBhcmFtIGp3dFRva2VuCgkgKiBAcmV0dXJuCgkgKi8KCXB1YmxpYyBzdGF0aWMgQ2xhaW1zIGNoZWNrSldUKFN0cmluZyBqd3RUb2tlbil7CgoJCUp3czxDbGFpbXM+IGNsYWltc0p3cyA9IEp3dHMucGFyc2VyKCkuc2V0U2lnbmluZ0tleShBUFBTRUNSRVQpLnBhcnNlQ2xhaW1zSndzKGp3dFRva2VuKTsKCQlDbGFpbXMgY2xhaW1zID0gY2xhaW1zSndzLmdldEJvZHkoKTsKCgkJcmV0dXJuIGNsYWltczsKCX0KfQo=
+package com.mad.ucenter.util;
+
+import com.mad.ucenter.entity.Member;
+import io.jsonwebtoken.Claims;
+import io.jsonwebtoken.Jws;
+import io.jsonwebtoken.Jwts;
+import io.jsonwebtoken.SignatureAlgorithm;
+import org.springframework.util.StringUtils;
+
+import java.util.Date;
+
+/**
+ * @author helen
+ * @since 2019/7/6
+ */
+public class JwtUtils {
+
+	public static final String SUBJECT = "mad-user";
+
+	//秘钥
+	public static final String APPSECRET = "mad666";
+
+	//过期时间，毫秒，30分钟
+	public static final long EXPIRE = 1000 * 60 * 1;
+
+	/**
+	 * 生成Jwt令牌
+	 * @param member
+	 * @return
+	 */
+	public static String generateJWT(Member member){
+
+		if(member == null
+				|| StringUtils.isEmpty(member.getId())
+				|| StringUtils.isEmpty(member.getNickname())
+				|| StringUtils.isEmpty(member.getAvatar())){
+			return null;
+		}
+
+		String token = Jwts.builder()
+				.setSubject(SUBJECT)
+				.claim("id", member.getId())
+				.claim("nickname", member.getNickname())
+				.claim("avatar", member.getAvatar())
+				.setIssuedAt(new Date())
+				.setExpiration(new Date(System.currentTimeMillis() + EXPIRE))
+				.signWith(SignatureAlgorithm.HS256, APPSECRET).compact();
+
+		return token;
+	}
+
+
+	/**
+	 * 校验jwt
+	 * @param jwtToken
+	 * @return
+	 */
+	public static Claims checkJWT(String jwtToken){
+
+		Jws<Claims> claimsJws = Jwts.parser().setSigningKey(APPSECRET).parseClaimsJws(jwtToken);
+		Claims claims = claimsJws.getBody();
+
+		return claims;
+	}
+}

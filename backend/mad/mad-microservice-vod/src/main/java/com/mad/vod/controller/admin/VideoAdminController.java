@@ -1,1 +1,64 @@
-cGFja2FnZSBjb20ubWFkLnZvZC5jb250cm9sbGVyLmFkbWluOwoKaW1wb3J0IGNvbS5hbGl5dW5jcy52b2QubW9kZWwudjIwMTcwMzIxLkNyZWF0ZVVwbG9hZFZpZGVvUmVzcG9uc2U7CmltcG9ydCBjb20uYWxpeXVuY3Mudm9kLm1vZGVsLnYyMDE3MDMyMS5SZWZyZXNoVXBsb2FkVmlkZW9SZXNwb25zZTsKaW1wb3J0IGNvbS5tYWQuY29tbW9uLnZvLlI7CmltcG9ydCBjb20ubWFkLnZvZC5zZXJ2aWNlLlZpZGVvU2VydmljZTsKaW1wb3J0IGlvLnN3YWdnZXIuYW5ub3RhdGlvbnMuQXBpOwppbXBvcnQgaW8uc3dhZ2dlci5hbm5vdGF0aW9ucy5BcGlQYXJhbTsKaW1wb3J0IG9yZy5zcHJpbmdmcmFtZXdvcmsuYmVhbnMuZmFjdG9yeS5hbm5vdGF0aW9uLkF1dG93aXJlZDsKaW1wb3J0IG9yZy5zcHJpbmdmcmFtZXdvcmsud2ViLmJpbmQuYW5ub3RhdGlvbi4qOwppbXBvcnQgb3JnLnNwcmluZ2ZyYW1ld29yay53ZWIubXVsdGlwYXJ0Lk11bHRpcGFydEZpbGU7CgovKioKICogQGF1dGhvciBoZWxlbgogKiBAc2luY2UgMjAxOS83LzMKICovCkBBcGkoZGVzY3JpcHRpb24gPSAi6Zi/6YeM5LqR6KeG6aKR566h55CGIikKQENyb3NzT3JpZ2luCkBSZXN0Q29udHJvbGxlcgpAUmVxdWVzdE1hcHBpbmcoIi9hZG1pbi92b2QvdmlkZW8iKQpwdWJsaWMgY2xhc3MgVmlkZW9BZG1pbkNvbnRyb2xsZXIgewoKCUBBdXRvd2lyZWQKCXByaXZhdGUgVmlkZW9TZXJ2aWNlIHZpZGVvU2VydmljZTsKCglAUG9zdE1hcHBpbmcoInVwbG9hZCIpCglwdWJsaWMgUiB1cGxvYWRWaWRlbygKCQkJQEFwaVBhcmFtKG5hbWUgPSAiZmlsZSIsIHZhbHVlID0gIuaWh+S7tiIsIHJlcXVpcmVkID0gdHJ1ZSkKCQkJQFJlcXVlc3RQYXJhbSgiZmlsZSIpIE11bHRpcGFydEZpbGUgZmlsZSl7CgoJCVN0cmluZyB2aWRlb0lkID0gdmlkZW9TZXJ2aWNlLnVwbG9hZFZpZGVvKGZpbGUpOwoJCXJldHVybiBSLm9rKCkubWVzc2FnZSgi6KeG6aKR5paH5Lu25LiK5Lyg5oiQ5YqfIikuZGF0YSgidmlkZW9JZCIsIHZpZGVvSWQpOwoJfQoKCUBEZWxldGVNYXBwaW5nKCJ7dmlkZW9JZH0iKQoJcHVibGljIFIgcmVtb3ZlVmlkZW8oCgkJCUBBcGlQYXJhbShuYW1lPSJ2aWRlb0lkIiwgdmFsdWU9IumYv+mHjOS6keinhumikWlkIiwgcmVxdWlyZWQgPSB0cnVlKQoJCQlAUGF0aFZhcmlhYmxlIFN0cmluZyB2aWRlb0lkKXsKCQl2aWRlb1NlcnZpY2UucmVtb3ZlVmlkZW8odmlkZW9JZCk7CgkJcmV0dXJuIFIub2soKS5tZXNzYWdlKCLop4bpopHliKDpmaTmiJDlip8iKTsKCX0KCglAR2V0TWFwcGluZygiZ2V0LXVwbG9hZC1hdXRoLWFuZC1hZGRyZXNzL3t0aXRsZX0ve2ZpbGVOYW1lfSIpCglwdWJsaWMgUiBnZXRVcGxvYWRBdXRoQW5kQWRkcmVzcygKCQkJQEFwaVBhcmFtKG5hbWU9InRpdGxlIiwgdmFsdWU9Iuinhumikeagh+mimCIsIHJlcXVpcmVkID0gdHJ1ZSkKCQkJQFBhdGhWYXJpYWJsZSBTdHJpbmcgdGl0bGUsCgoJCQlAQXBpUGFyYW0obmFtZT0iZmlsZU5hbWUiLCB2YWx1ZT0i6KeG6aKR5paH5Lu2IiwgcmVxdWlyZWQgPSB0cnVlKQoJCQlAUGF0aFZhcmlhYmxlIFN0cmluZyBmaWxlTmFtZSl7CgoJCUNyZWF0ZVVwbG9hZFZpZGVvUmVzcG9uc2UgcmVzcG9uc2UgPSB2aWRlb1NlcnZpY2UuZ2V0VXBsb2FkQXV0aEFuZEFkZHJlc3ModGl0bGUsIGZpbGVOYW1lKTsKCQlyZXR1cm4gUi5vaygpLm1lc3NhZ2UoIuiOt+WPluinhumikeS4iuS8oOWHreivgeWSjOWcsOWdgOaIkOWKnyIpLmRhdGEoInJlc3BvbnNlIiwgcmVzcG9uc2UpOwoJfQoKCglAR2V0TWFwcGluZygicmVmcmVzaC11cGxvYWQtYXV0aC1hbmQtYWRkcmVzcy97dmlkZW9JZH0iKQoJcHVibGljIFIgcmVmcmVzaFVwbG9hZEF1dGhBbmRBZGRyZXNzKAoJCQlAQXBpUGFyYW0obmFtZT0idmlkZW9JZCIsIHZhbHVlPSLop4bpopFpZCIsIHJlcXVpcmVkID0gdHJ1ZSkKCQkJQFBhdGhWYXJpYWJsZSBTdHJpbmcgdmlkZW9JZCl7CgoJCVJlZnJlc2hVcGxvYWRWaWRlb1Jlc3BvbnNlIHJlc3BvbnNlID0gdmlkZW9TZXJ2aWNlLnJlZnJlc2hVcGxvYWRBdXRoQW5kQWRkcmVzcyh2aWRlb0lkKTsKCQlyZXR1cm4gUi5vaygpLm1lc3NhZ2UoIuWIt+aWsOinhumikeS4iuS8oOWHreivgeWSjOWcsOWdgOaIkOWKnyIpLmRhdGEoInJlc3BvbnNlIiwgcmVzcG9uc2UpOwoJfQp9Cg==
+package com.mad.vod.controller.admin;
+
+import com.aliyuncs.vod.model.v20170321.CreateUploadVideoResponse;
+import com.aliyuncs.vod.model.v20170321.RefreshUploadVideoResponse;
+import com.mad.common.vo.R;
+import com.mad.vod.service.VideoService;
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiParam;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
+import org.springframework.web.multipart.MultipartFile;
+
+/**
+ * @author helen
+ * @since 2019/7/3
+ */
+@Api(description = "阿里云视频管理")
+@CrossOrigin
+@RestController
+@RequestMapping("/admin/vod/video")
+public class VideoAdminController {
+
+	@Autowired
+	private VideoService videoService;
+
+	@PostMapping("upload")
+	public R uploadVideo(
+			@ApiParam(name = "file", value = "文件", required = true)
+			@RequestParam("file") MultipartFile file){
+
+		String videoId = videoService.uploadVideo(file);
+		return R.ok().message("视频文件上传成功").data("videoId", videoId);
+	}
+
+	@DeleteMapping("{videoId}")
+	public R removeVideo(
+			@ApiParam(name="videoId", value="阿里云视频id", required = true)
+			@PathVariable String videoId){
+		videoService.removeVideo(videoId);
+		return R.ok().message("视频删除成功");
+	}
+
+	@GetMapping("get-upload-auth-and-address/{title}/{fileName}")
+	public R getUploadAuthAndAddress(
+			@ApiParam(name="title", value="视频标题", required = true)
+			@PathVariable String title,
+
+			@ApiParam(name="fileName", value="视频文件", required = true)
+			@PathVariable String fileName){
+
+		CreateUploadVideoResponse response = videoService.getUploadAuthAndAddress(title, fileName);
+		return R.ok().message("获取视频上传凭证和地址成功").data("response", response);
+	}
+
+
+	@GetMapping("refresh-upload-auth-and-address/{videoId}")
+	public R refreshUploadAuthAndAddress(
+			@ApiParam(name="videoId", value="视频id", required = true)
+			@PathVariable String videoId){
+
+		RefreshUploadVideoResponse response = videoService.refreshUploadAuthAndAddress(videoId);
+		return R.ok().message("刷新视频上传凭证和地址成功").data("response", response);
+	}
+}

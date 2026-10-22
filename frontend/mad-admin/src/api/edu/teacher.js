@@ -1,1 +1,50 @@
-aW1wb3J0IHJlcXVlc3QgZnJvbSAnQC91dGlscy9yZXF1ZXN0Jw0KDQpjb25zdCBhcGlfbmFtZSA9ICcvYWRtaW4vZWR1L3RlYWNoZXInDQoNCmV4cG9ydCBkZWZhdWx0ew0KICBnZXRMaXN0KCkgew0KICAgIHJldHVybiByZXF1ZXN0KHsvLyDlsIHoo4VheGlvcw0KICAgICAgdXJsOiAnL2FkbWluL2VkdS90ZWFjaGVyJywNCiAgICAgIG1ldGhvZDogJ2dldCcNCiAgICB9KQ0KICB9LA0KDQogIGdldFBhZ2VMaXN0KHBhZ2UsIGxpbWl0LCBzZWFyY2hPYmopIHsNCiAgICByZXR1cm4gcmVxdWVzdCh7DQogICAgICB1cmw6IGAke2FwaV9uYW1lfS8ke3BhZ2V9LyR7bGltaXR9YCwNCiAgICAgIG1ldGhvZDogJ2dldCcsDQogICAgICBwYXJhbXM6IHNlYXJjaE9iaiAvLyDlnKh1cmzlkI7pnaLov73liqDmn6Xor6LlrZfnrKbkuLINCiAgICB9KQ0KICB9LA0KDQogIHJlbW92ZUJ5SWQoaWQpIHsNCiAgICByZXR1cm4gcmVxdWVzdCh7DQogICAgICB1cmw6IGAke2FwaV9uYW1lfS8ke2lkfWAsDQogICAgICBtZXRob2Q6ICdkZWxldGUnDQogICAgfSkNCiAgfSwNCg0KICBzYXZlKHRlYWNoZXIpIHsNCiAgICByZXR1cm4gcmVxdWVzdCh7DQogICAgICB1cmw6IGFwaV9uYW1lLA0KICAgICAgbWV0aG9kOiAncG9zdCcsDQogICAgICBkYXRhOiB0ZWFjaGVyIC8vIOS9nOS4uuivt+axguaKpeaWh+S9k+S4reeahGpzb27mlbDmja7kvKDovpMNCiAgICB9KQ0KICB9LA0KDQogIGdldEJ5SWQoaWQpIHsNCiAgICByZXR1cm4gcmVxdWVzdCh7DQogICAgICB1cmw6IGAke2FwaV9uYW1lfS8ke2lkfWAsDQogICAgICBtZXRob2Q6ICdnZXQnDQogICAgfSkNCiAgfSwNCg0KICB1cGRhdGVCeUlkKHRlYWNoZXIpIHsNCiAgICByZXR1cm4gcmVxdWVzdCh7DQogICAgICB1cmw6IGAke2FwaV9uYW1lfS8ke3RlYWNoZXIuaWR9YCwNCiAgICAgIG1ldGhvZDogJ3B1dCcsDQogICAgICBkYXRhOiB0ZWFjaGVyIC8vIOS9nOS4uuivt+axguaKpeaWh+S9k+S4reeahGpzb27mlbDmja7kvKDovpMNCiAgICB9KQ0KICB9DQp9DQo=
+import request from '@/utils/request'
+
+const api_name = '/admin/edu/teacher'
+
+export default{
+  getList() {
+    return request({// 封装axios
+      url: '/admin/edu/teacher',
+      method: 'get'
+    })
+  },
+
+  getPageList(page, limit, searchObj) {
+    return request({
+      url: `${api_name}/${page}/${limit}`,
+      method: 'get',
+      params: searchObj // 在url后面追加查询字符串
+    })
+  },
+
+  removeById(id) {
+    return request({
+      url: `${api_name}/${id}`,
+      method: 'delete'
+    })
+  },
+
+  save(teacher) {
+    return request({
+      url: api_name,
+      method: 'post',
+      data: teacher // 作为请求报文体中的json数据传输
+    })
+  },
+
+  getById(id) {
+    return request({
+      url: `${api_name}/${id}`,
+      method: 'get'
+    })
+  },
+
+  updateById(teacher) {
+    return request({
+      url: `${api_name}/${teacher.id}`,
+      method: 'put',
+      data: teacher // 作为请求报文体中的json数据传输
+    })
+  }
+}

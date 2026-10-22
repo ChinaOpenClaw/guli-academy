@@ -1,1 +1,81 @@
-cGFja2FnZSBjb20ubWFkLmVkdS5lbnRpdHk7CgppbXBvcnQgY29tLmJhb21pZG91Lm15YmF0aXNwbHVzLmFubm90YXRpb24uKjsKaW1wb3J0IGlvLnN3YWdnZXIuYW5ub3RhdGlvbnMuQXBpTW9kZWw7CmltcG9ydCBpby5zd2FnZ2VyLmFubm90YXRpb25zLkFwaU1vZGVsUHJvcGVydHk7CmltcG9ydCBsb21ib2suRGF0YTsKaW1wb3J0IGxvbWJvay5FcXVhbHNBbmRIYXNoQ29kZTsKaW1wb3J0IGxvbWJvay5leHBlcmltZW50YWwuQWNjZXNzb3JzOwoKaW1wb3J0IGphdmEuaW8uU2VyaWFsaXphYmxlOwppbXBvcnQgamF2YS51dGlsLkRhdGU7CgovKioKICogPHA+CiAqIOivvueoi+inhumikQogKiA8L3A+CiAqCiAqIEBhdXRob3IgSGVsZW4KICogQHNpbmNlIDIwMTktMDYtMjQKICovCkBEYXRhCkBFcXVhbHNBbmRIYXNoQ29kZShjYWxsU3VwZXIgPSBmYWxzZSkKQEFjY2Vzc29ycyhjaGFpbiA9IHRydWUpCkBUYWJsZU5hbWUoImVkdV92aWRlbyIpCkBBcGlNb2RlbCh2YWx1ZT0iVmlkZW/lr7nosaEiLCBkZXNjcmlwdGlvbj0i6K++56iL6KeG6aKRIikKcHVibGljIGNsYXNzIFZpZGVvIGltcGxlbWVudHMgU2VyaWFsaXphYmxlIHsKCiAgICBwcml2YXRlIHN0YXRpYyBmaW5hbCBsb25nIHNlcmlhbFZlcnNpb25VSUQgPSAxTDsKCiAgICBAQXBpTW9kZWxQcm9wZXJ0eSh2YWx1ZSA9ICLop4bpopFJRCIpCiAgICBAVGFibGVJZCh2YWx1ZSA9ICJpZCIsIHR5cGUgPSBJZFR5cGUuSURfV09SS0VSX1NUUikKICAgIHByaXZhdGUgU3RyaW5nIGlkOwoKICAgIEBBcGlNb2RlbFByb3BlcnR5KHZhbHVlID0gIuivvueoi0lEIikKICAgIHByaXZhdGUgU3RyaW5nIGNvdXJzZUlkOwoKICAgIEBBcGlNb2RlbFByb3BlcnR5KHZhbHVlID0gIueroOiKgklEIikKICAgIHByaXZhdGUgU3RyaW5nIGNoYXB0ZXJJZDsKCiAgICBAQXBpTW9kZWxQcm9wZXJ0eSh2YWx1ZSA9ICLoioLngrnlkI3np7AiKQogICAgcHJpdmF0ZSBTdHJpbmcgdGl0bGU7CgogICAgQEFwaU1vZGVsUHJvcGVydHkodmFsdWUgPSAi5LqR56uv6KeG6aKR6LWE5rqQIikKICAgIHByaXZhdGUgU3RyaW5nIHZpZGVvU291cmNlSWQ7CgogICAgQEFwaU1vZGVsUHJvcGVydHkodmFsdWUgPSAi5Y6f5aeL5paH5Lu25ZCN56ewIikKICAgIHByaXZhdGUgU3RyaW5nIHZpZGVvT3JpZ2luYWxOYW1lOwoKICAgIEBBcGlNb2RlbFByb3BlcnR5KHZhbHVlID0gIuaOkuW6j+Wtl+autSIpCiAgICBwcml2YXRlIEludGVnZXIgc29ydDsKCiAgICBAQXBpTW9kZWxQcm9wZXJ0eSh2YWx1ZSA9ICLmkq3mlL7mrKHmlbAiKQogICAgcHJpdmF0ZSBMb25nIHBsYXlDb3VudDsKCiAgICBAQXBpTW9kZWxQcm9wZXJ0eSh2YWx1ZSA9ICLmmK/lkKblj6/ku6Xor5XlkKzvvJow5pS26LS5IDHlhY3otLkiKQogICAgQFRhYmxlRmllbGQodmFsdWUgPSAiaXNfZnJlZSIpCiAgICBwcml2YXRlIEJvb2xlYW4gZnJlZTsKCiAgICBAQXBpTW9kZWxQcm9wZXJ0eSh2YWx1ZSA9ICLop4bpopHml7bplb/vvIjnp5LvvIkiKQogICAgcHJpdmF0ZSBGbG9hdCBkdXJhdGlvbjsKCiAgICBAQXBpTW9kZWxQcm9wZXJ0eSh2YWx1ZSA9ICLop4bpopHnirbmgIEiKQogICAgcHJpdmF0ZSBTdHJpbmcgc3RhdHVzOwoKICAgIEBBcGlNb2RlbFByb3BlcnR5KHZhbHVlID0gIuinhumikea6kOaWh+S7tuWkp+Wwj++8iOWtl+iKgu+8iSIpCiAgICBwcml2YXRlIExvbmcgc2l6ZTsKCiAgICBAQXBpTW9kZWxQcm9wZXJ0eSh2YWx1ZSA9ICLkuZDop4LplIEiKQogICAgQFZlcnNpb24KICAgIHByaXZhdGUgTG9uZyB2ZXJzaW9uOwoKICAgIEBBcGlNb2RlbFByb3BlcnR5KHZhbHVlID0gIuWIm+W7uuaXtumXtCIpCiAgICBAVGFibGVGaWVsZChmaWxsID0gRmllbGRGaWxsLklOU0VSVCkKICAgIHByaXZhdGUgRGF0ZSBnbXRDcmVhdGU7CgogICAgQEFwaU1vZGVsUHJvcGVydHkodmFsdWUgPSAi5pu05paw5pe26Ze0IikKICAgIEBUYWJsZUZpZWxkKGZpbGwgPSBGaWVsZEZpbGwuSU5TRVJUX1VQREFURSkKICAgIHByaXZhdGUgRGF0ZSBnbXRNb2RpZmllZDsKCgp9Cg==
+package com.mad.edu.entity;
+
+import com.baomidou.mybatisplus.annotation.*;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
+import lombok.experimental.Accessors;
+
+import java.io.Serializable;
+import java.util.Date;
+
+/**
+ * <p>
+ * 课程视频
+ * </p>
+ *
+ * @author Helen
+ * @since 2019-06-24
+ */
+@Data
+@EqualsAndHashCode(callSuper = false)
+@Accessors(chain = true)
+@TableName("edu_video")
+@ApiModel(value="Video对象", description="课程视频")
+public class Video implements Serializable {
+
+    private static final long serialVersionUID = 1L;
+
+    @ApiModelProperty(value = "视频ID")
+    @TableId(value = "id", type = IdType.ID_WORKER_STR)
+    private String id;
+
+    @ApiModelProperty(value = "课程ID")
+    private String courseId;
+
+    @ApiModelProperty(value = "章节ID")
+    private String chapterId;
+
+    @ApiModelProperty(value = "节点名称")
+    private String title;
+
+    @ApiModelProperty(value = "云端视频资源")
+    private String videoSourceId;
+
+    @ApiModelProperty(value = "原始文件名称")
+    private String videoOriginalName;
+
+    @ApiModelProperty(value = "排序字段")
+    private Integer sort;
+
+    @ApiModelProperty(value = "播放次数")
+    private Long playCount;
+
+    @ApiModelProperty(value = "是否可以试听：0收费 1免费")
+    @TableField(value = "is_free")
+    private Boolean free;
+
+    @ApiModelProperty(value = "视频时长（秒）")
+    private Float duration;
+
+    @ApiModelProperty(value = "视频状态")
+    private String status;
+
+    @ApiModelProperty(value = "视频源文件大小（字节）")
+    private Long size;
+
+    @ApiModelProperty(value = "乐观锁")
+    @Version
+    private Long version;
+
+    @ApiModelProperty(value = "创建时间")
+    @TableField(fill = FieldFill.INSERT)
+    private Date gmtCreate;
+
+    @ApiModelProperty(value = "更新时间")
+    @TableField(fill = FieldFill.INSERT_UPDATE)
+    private Date gmtModified;
+
+
+}

@@ -1,1 +1,17 @@
-cGFja2FnZSBjb20ubWFkLnVjZW50ZXIubWFwcGVyOwoKaW1wb3J0IGNvbS5tYWQudWNlbnRlci5lbnRpdHkuTWVtYmVyOwppbXBvcnQgY29tLmJhb21pZG91Lm15YmF0aXNwbHVzLmNvcmUubWFwcGVyLkJhc2VNYXBwZXI7CgovKioKICogPHA+CiAqIOS8muWRmOihqCBNYXBwZXIg5o6l5Y+jCiAqIDwvcD4KICoKICogQGF1dGhvciBIZWxlbgogKiBAc2luY2UgMjAxOS0wNy0wMQogKi8KcHVibGljIGludGVyZmFjZSBNZW1iZXJNYXBwZXIgZXh0ZW5kcyBCYXNlTWFwcGVyPE1lbWJlcj4gewoKCUludGVnZXIgc2VsZWN0UmVnaXN0ZXJDb3VudChTdHJpbmcgZGF5KTsKfQo=
+package com.mad.ucenter.mapper;
+
+import com.mad.ucenter.entity.Member;
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+
+/**
+ * <p>
+ * 会员表 Mapper 接口
+ * </p>
+ *
+ * @author Helen
+ * @since 2019-07-01
+ */
+public interface MemberMapper extends BaseMapper<Member> {
+
+	Integer selectRegisterCount(String day);
+}

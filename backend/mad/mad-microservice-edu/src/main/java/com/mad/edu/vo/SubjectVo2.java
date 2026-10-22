@@ -1,1 +1,18 @@
-cGFja2FnZSBjb20ubWFkLmVkdS52bzsKCmltcG9ydCBsb21ib2suRGF0YTsKCmltcG9ydCBqYXZhLnV0aWwuQXJyYXlMaXN0OwppbXBvcnQgamF2YS51dGlsLkxpc3Q7CgovKioKICogQGF1dGhvciBoZWxlbgogKiBAc2luY2UgMjAxOS82LzI5CiAqLwpARGF0YQpwdWJsaWMgY2xhc3MgU3ViamVjdFZvMiB7CgoJcHJpdmF0ZSBTdHJpbmcgaWQ7Cglwcml2YXRlIFN0cmluZyB0aXRsZTsKCXByaXZhdGUgTGlzdDxTdWJqZWN0Vm8yPiBjaGlsZHJlbiA9IG5ldyBBcnJheUxpc3Q8PigpOwp9Cg==
+package com.mad.edu.vo;
+
+import lombok.Data;
+
+import java.util.ArrayList;
+import java.util.List;
+
+/**
+ * @author helen
+ * @since 2019/6/29
+ */
+@Data
+public class SubjectVo2 {
+
+	private String id;
+	private String title;
+	private List<SubjectVo2> children = new ArrayList<>();
+}

@@ -1,1 +1,94 @@
-J3VzZSBzdHJpY3QnCi8vIFRlbXBsYXRlIHZlcnNpb246IDEuMi42Ci8vIHNlZSBodHRwOi8vdnVlanMtdGVtcGxhdGVzLmdpdGh1Yi5pby93ZWJwYWNrIGZvciBkb2N1bWVudGF0aW9uLgoKY29uc3QgcGF0aCA9IHJlcXVpcmUoJ3BhdGgnKQoKbW9kdWxlLmV4cG9ydHMgPSB7CiAgZGV2OiB7CiAgICAvLyBQYXRocwogICAgYXNzZXRzU3ViRGlyZWN0b3J5OiAnc3RhdGljJywKICAgIGFzc2V0c1B1YmxpY1BhdGg6ICcvJywKICAgIHByb3h5VGFibGU6IHt9LAoKICAgIC8vIFZhcmlvdXMgRGV2IFNlcnZlciBzZXR0aW5ncwogICAgaG9zdDogJzAuMC4wLjAnLCAvLyBiaW5kIElQdjQgc28gaXQgaXMgcmVhY2hhYmxlIHZpYSAxMjcuMC4wLjEgKGxvY2FsaG9zdCByZXNvbHZlcyB0byBJUHY2IDo6MSBvbmx5IGluIHRoaXMgc2FuZGJveCkKICAgIHBvcnQ6IDk1MjgsIC8vIGNhbiBiZSBvdmVyd3JpdHRlbiBieSBwcm9jZXNzLmVudi5QT1JULCBpZiBwb3J0IGlzIGluIHVzZSwgYSBmcmVlIG9uZSB3aWxsIGJlIGRldGVybWluZWQKICAgIGF1dG9PcGVuQnJvd3NlcjogZmFsc2UsIC8vIGRpc2FibGVkOiBoZWFkbGVzcyBzYW5kYm94IGhhcyBubyBicm93c2VyIHRvIG9wZW47IGF2b2lkcyBzdGFydHVwIGhhbmcKICAgIGVycm9yT3ZlcmxheTogdHJ1ZSwKICAgIG5vdGlmeU9uRXJyb3JzOiBmYWxzZSwKICAgIHBvbGw6IGZhbHNlLCAvLyBodHRwczovL3dlYnBhY2suanMub3JnL2NvbmZpZ3VyYXRpb24vZGV2LXNlcnZlci8jZGV2c2VydmVyLXdhdGNob3B0aW9ucy0KCiAgICAvLyBQcm94eTogQkFTRV9BUEkgaXMgZW1wdHkgKHNhbWUtb3JpZ2luKSwgc28gYWxsIC9hZG1pbiBhbmQgL2VkdSBBUEkgY2FsbHMgaGl0IHRoaXMKICAgIC8vIGRldiBzZXJ2ZXIgYW5kIGFyZSBmb3J3YXJkZWQgdG8gdGhlIGFwcHJvcHJpYXRlIG1pY3Jvc2VydmljZS4KICAgIHByb3h5VGFibGU6IHsKICAgICAgJy9hZG1pbi9zeXN1c2VyJzogeyB0YXJnZXQ6ICdodHRwOi8vMTI3LjAuMC4xOjgxMjAnLCBjaGFuZ2VPcmlnaW46IHRydWUgfSwKICAgICAgJy9hZG1pbi9lZHUnOiB7IHRhcmdldDogJ2h0dHA6Ly8xMjcuMC4wLjE6ODExMCcsIGNoYW5nZU9yaWdpbjogdHJ1ZSB9LAogICAgICAnL2VkdSc6IHsgdGFyZ2V0OiAnaHR0cDovLzEyNy4wLjAuMTo4MTEwJywgY2hhbmdlT3JpZ2luOiB0cnVlIH0KICAgIH0sCgogICAgLy8gVXNlIEVzbGludCBMb2FkZXI/CiAgICAvLyBJZiB0cnVlLCB5b3VyIGNvZGUgd2lsbCBiZSBsaW50ZWQgZHVyaW5nIGJ1bmRsaW5nIGFuZAogICAgLy8gbGludGluZyBlcnJvcnMgYW5kIHdhcm5pbmdzIHdpbGwgYmUgc2hvd24gaW4gdGhlIGNvbnNvbGUuCiAgICB1c2VFc2xpbnQ6IHRydWUsCiAgICAvLyBJZiB0cnVlLCBlc2xpbnQgZXJyb3JzIGFuZCB3YXJuaW5ncyB3aWxsIGFsc28gYmUgc2hvd24gaW4gdGhlIGVycm9yIG92ZXJsYXkKICAgIC8vIGluIHRoZSBicm93c2VyLgogICAgc2hvd0VzbGludEVycm9yc0luT3ZlcmxheTogZmFsc2UsCgogICAgLyoqCiAgICAgKiBTb3VyY2UgTWFwcwogICAgICovCgogICAgLy8gaHR0cHM6Ly93ZWJwYWNrLmpzLm9yZy9jb25maWd1cmF0aW9uL2RldnRvb2wvI2RldmVsb3BtZW50CiAgICBkZXZ0b29sOiAnY2hlYXAtc291cmNlLW1hcCcsCgogICAgLy8gQ1NTIFNvdXJjZW1hcHMgb2ZmIGJ5IGRlZmF1bHQgYmVjYXVzZSByZWxhdGl2ZSBwYXRocyBhcmUgImJ1Z2d5IgogICAgLy8gd2l0aCB0aGlzIG9wdGlvbiwgYWNjb3JkaW5nIHRvIHRoZSBDU1MtTG9hZGVyIFJFQURNRQogICAgLy8gKGh0dHBzOi8vZ2l0aHViLmNvbS93ZWJwYWNrL2Nzcy1sb2FkZXIjc291cmNlbWFwcykKICAgIC8vIEluIG91ciBleHBlcmllbmNlLCB0aGV5IGdlbmVyYWxseSB3b3JrIGFzIGV4cGVjdGVkLAogICAgLy8ganVzdCBiZSBhd2FyZSBvZiB0aGlzIGlzc3VlIHdoZW4gZW5hYmxpbmcgdGhpcyBvcHRpb24uCiAgICBjc3NTb3VyY2VNYXA6IGZhbHNlCiAgfSwKCiAgYnVpbGQ6IHsKICAgIC8vIFRlbXBsYXRlIGZvciBpbmRleC5odG1sCiAgICBpbmRleDogcGF0aC5yZXNvbHZlKF9fZGlybmFtZSwgJy4uL2Rpc3QvaW5kZXguaHRtbCcpLAoKICAgIC8vIFBhdGhzCiAgICBhc3NldHNSb290OiBwYXRoLnJlc29sdmUoX19kaXJuYW1lLCAnLi4vZGlzdCcpLAogICAgYXNzZXRzU3ViRGlyZWN0b3J5OiAnc3RhdGljJywKCiAgICAvKioKICAgICAqIFlvdSBjYW4gc2V0IGJ5IHlvdXNlbGYgYWNjb3JkaW5nIHRvIGFjdHVhbCBjb25kaXRpb24KICAgICAqIFlvdSB3aWxsIG5lZWQgdG8gc2V0IHRoaXMgaWYgeW91IHBsYW4gdG8gZGVwbG95IHlvdXIgc2l0ZSB1bmRlciBhIHN1YiBwYXRoLAogICAgICogZm9yIGV4YW1wbGUgR2l0SHViIHBhZ2VzLiBJZiB5b3UgcGxhbiB0byBkZXBsb3kgeW91ciBzaXRlIHRvIGh0dHBzOi8vZm9vLmdpdGh1Yi5pby9iYXIvLAogICAgICogdGhlbiBhc3NldHNQdWJsaWNQYXRoIHNob3VsZCBiZSBzZXQgdG8gIi9iYXIvIi4KICAgICAqIEluIG1vc3QgY2FzZXMgcGxlYXNlIHVzZSAnLycgISEhCiAgICAgKi8KICAgIGFzc2V0c1B1YmxpY1BhdGg6ICcvJywKCiAgICAvKioKICAgICAqIFNvdXJjZSBNYXBzCiAgICAgKi8KCiAgICBwcm9kdWN0aW9uU291cmNlTWFwOiBmYWxzZSwKICAgIC8vIGh0dHBzOi8vd2VicGFjay5qcy5vcmcvY29uZmlndXJhdGlvbi9kZXZ0b29sLyNwcm9kdWN0aW9uCiAgICBkZXZ0b29sOiAnc291cmNlLW1hcCcsCgogICAgLy8gR3ppcCBvZmYgYnkgZGVmYXVsdCBhcyBtYW55IHBvcHVsYXIgc3RhdGljIGhvc3RzIHN1Y2ggYXMKICAgIC8vIFN1cmdlIG9yIE5ldGxpZnkgYWxyZWFkeSBnemlwIGFsbCBzdGF0aWMgYXNzZXRzIGZvciB5b3UuCiAgICAvLyBCZWZvcmUgc2V0dGluZyB0byBgdHJ1ZWAsIG1ha2Ugc3VyZSB0bzoKICAgIC8vIG5wbSBpbnN0YWxsIC0tc2F2ZS1kZXYgY29tcHJlc3Npb24td2VicGFjay1wbHVnaW4KICAgIHByb2R1Y3Rpb25HemlwOiBmYWxzZSwKICAgIHByb2R1Y3Rpb25HemlwRXh0ZW5zaW9uczogWydqcycsICdjc3MnXSwKCiAgICAvLyBSdW4gdGhlIGJ1aWxkIGNvbW1hbmQgd2l0aCBhbiBleHRyYSBhcmd1bWVudCB0bwogICAgLy8gVmlldyB0aGUgYnVuZGxlIGFuYWx5emVyIHJlcG9ydCBhZnRlciBidWlsZCBmaW5pc2hlczoKICAgIC8vIGBucG0gcnVuIGJ1aWxkIC0tcmVwb3J0YAogICAgLy8gU2V0IHRvIGB0cnVlYCBvciBgZmFsc2VgIHRvIGFsd2F5cyB0dXJuIGl0IG9uIG9yIG9mZgogICAgYnVuZGxlQW5hbHl6ZXJSZXBvcnQ6IHByb2Nlc3MuZW52Lm5wbV9jb25maWdfcmVwb3J0IHx8IGZhbHNlLAoKICAgIC8vIGBucG0gcnVuIGJ1aWxkOnByb2QgLS1nZW5lcmF0ZV9yZXBvcnRgCiAgICBnZW5lcmF0ZUFuYWx5emVyUmVwb3J0OiBwcm9jZXNzLmVudi5ucG1fY29uZmlnX2dlbmVyYXRlX3JlcG9ydCB8fCBmYWxzZQogIH0KfQo=
+'use strict'
+// Template version: 1.2.6
+// see http://vuejs-templates.github.io/webpack for documentation.
+
+const path = require('path')
+
+module.exports = {
+  dev: {
+    // Paths
+    assetsSubDirectory: 'static',
+    assetsPublicPath: '/',
+    proxyTable: {},
+
+    // Various Dev Server settings
+    host: '0.0.0.0', // bind IPv4 so it is reachable via 127.0.0.1 (localhost resolves to IPv6 ::1 only in this sandbox)
+    port: 9528, // can be overwritten by process.env.PORT, if port is in use, a free one will be determined
+    autoOpenBrowser: false, // disabled: headless sandbox has no browser to open; avoids startup hang
+    errorOverlay: true,
+    notifyOnErrors: false,
+    poll: false, // https://webpack.js.org/configuration/dev-server/#devserver-watchoptions-
+
+    // Proxy: BASE_API is empty (same-origin), so all /admin and /edu API calls hit this
+    // dev server and are forwarded to the appropriate microservice.
+    proxyTable: {
+      '/admin/sysuser': { target: 'http://127.0.0.1:8120', changeOrigin: true },
+      '/admin/edu': { target: 'http://127.0.0.1:8110', changeOrigin: true },
+      '/edu': { target: 'http://127.0.0.1:8110', changeOrigin: true }
+    },
+
+    // Use Eslint Loader?
+    // If true, your code will be linted during bundling and
+    // linting errors and warnings will be shown in the console.
+    useEslint: true,
+    // If true, eslint errors and warnings will also be shown in the error overlay
+    // in the browser.
+    showEslintErrorsInOverlay: false,
+
+    /**
+     * Source Maps
+     */
+
+    // https://webpack.js.org/configuration/devtool/#development
+    devtool: 'cheap-source-map',
+
+    // CSS Sourcemaps off by default because relative paths are "buggy"
+    // with this option, according to the CSS-Loader README
+    // (https://github.com/webpack/css-loader#sourcemaps)
+    // In our experience, they generally work as expected,
+    // just be aware of this issue when enabling this option.
+    cssSourceMap: false
+  },
+
+  build: {
+    // Template for index.html
+    index: path.resolve(__dirname, '../dist/index.html'),
+
+    // Paths
+    assetsRoot: path.resolve(__dirname, '../dist'),
+    assetsSubDirectory: 'static',
+
+    /**
+     * You can set by youself according to actual condition
+     * You will need to set this if you plan to deploy your site under a sub path,
+     * for example GitHub pages. If you plan to deploy your site to https://foo.github.io/bar/,
+     * then assetsPublicPath should be set to "/bar/".
+     * In most cases please use '/' !!!
+     */
+    assetsPublicPath: '/',
+
+    /**
+     * Source Maps
+     */
+
+    productionSourceMap: false,
+    // https://webpack.js.org/configuration/devtool/#production
+    devtool: 'source-map',
+
+    // Gzip off by default as many popular static hosts such as
+    // Surge or Netlify already gzip all static assets for you.
+    // Before setting to `true`, make sure to:
+    // npm install --save-dev compression-webpack-plugin
+    productionGzip: false,
+    productionGzipExtensions: ['js', 'css'],
+
+    // Run the build command with an extra argument to
+    // View the bundle analyzer report after build finishes:
+    // `npm run build --report`
+    // Set to `true` or `false` to always turn it on or off
+    bundleAnalyzerReport: process.env.npm_config_report || false,
+
+    // `npm run build:prod --generate_report`
+    generateAnalyzerReport: process.env.npm_config_generate_report || false
+  }
+}

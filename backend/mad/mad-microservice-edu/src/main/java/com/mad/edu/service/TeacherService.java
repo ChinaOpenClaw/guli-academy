@@ -1,1 +1,23 @@
-cGFja2FnZSBjb20ubWFkLmVkdS5zZXJ2aWNlOwoKaW1wb3J0IGNvbS5iYW9taWRvdS5teWJhdGlzcGx1cy5leHRlbnNpb24ucGx1Z2lucy5wYWdpbmF0aW9uLlBhZ2U7CmltcG9ydCBjb20uYmFvbWlkb3UubXliYXRpc3BsdXMuZXh0ZW5zaW9uLnNlcnZpY2UuSVNlcnZpY2U7CmltcG9ydCBjb20ubWFkLmVkdS5lbnRpdHkuVGVhY2hlcjsKaW1wb3J0IGNvbS5tYWQuZWR1LnF1ZXJ5LlRlYWNoZXJRdWVyeTsKCmltcG9ydCBqYXZhLnV0aWwuTWFwOwoKLyoqCiAqIDxwPgogKiDorrLluIgg5pyN5Yqh57G7CiAqIDwvcD4KICoKICogQGF1dGhvciBIZWxlbgogKiBAc2luY2UgMjAxOS0wNi0yNAogKi8KcHVibGljIGludGVyZmFjZSBUZWFjaGVyU2VydmljZSBleHRlbmRzIElTZXJ2aWNlPFRlYWNoZXI+IHsKCgl2b2lkIHBhZ2VRdWVyeShQYWdlPFRlYWNoZXI+IHBhZ2VQYXJhbSwgVGVhY2hlclF1ZXJ5IHRlYWNoZXJRdWVyeSk7CgoJcHVibGljIE1hcDxTdHJpbmcsIE9iamVjdD4gcGFnZUxpc3RXZWIoUGFnZTxUZWFjaGVyPiBwYWdlUGFyYW0pOwp9Cg==
+package com.mad.edu.service;
+
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+import com.baomidou.mybatisplus.extension.service.IService;
+import com.mad.edu.entity.Teacher;
+import com.mad.edu.query.TeacherQuery;
+
+import java.util.Map;
+
+/**
+ * <p>
+ * 讲师 服务类
+ * </p>
+ *
+ * @author Helen
+ * @since 2019-06-24
+ */
+public interface TeacherService extends IService<Teacher> {
+
+	void pageQuery(Page<Teacher> pageParam, TeacherQuery teacherQuery);
+
+	public Map<String, Object> pageListWeb(Page<Teacher> pageParam);
+}

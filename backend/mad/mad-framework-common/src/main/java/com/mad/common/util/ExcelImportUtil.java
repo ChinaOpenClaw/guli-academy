@@ -1,1 +1,81 @@
-cGFja2FnZSBjb20ubWFkLmNvbW1vbi51dGlsOw0KDQppbXBvcnQgbG9tYm9rLkRhdGE7DQppbXBvcnQgb3JnLmFwYWNoZS5wb2kuaHNzZi51c2VybW9kZWwuKjsNCmltcG9ydCBvcmcuYXBhY2hlLnBvaS5zcy51c2VybW9kZWwuQ2VsbDsNCmltcG9ydCBvcmcuYXBhY2hlLnBvaS5zcy51c2VybW9kZWwuQ2VsbFZhbHVlOw0KDQppbXBvcnQgamF2YS5pby5JT0V4Y2VwdGlvbjsNCmltcG9ydCBqYXZhLmlvLklucHV0U3RyZWFtOw0KaW1wb3J0IGphdmEudGV4dC5TaW1wbGVEYXRlRm9ybWF0Ow0KaW1wb3J0IGphdmEudXRpbC5EYXRlOw0KDQpARGF0YQ0KcHVibGljIGNsYXNzIEV4Y2VsSW1wb3J0VXRpbCB7DQoNCiAgICBwcml2YXRlIEhTU0ZGb3JtdWxhRXZhbHVhdG9yIGZvcm11bGFFdmFsdWF0b3I7DQogICAgcHJpdmF0ZSBIU1NGU2hlZXQgc2hlZXQ7DQogICAgcHJpdmF0ZSBTdHJpbmcgcGF0dGVybjsvLyDml6XmnJ/moLzlvI8NCg0KICAgIHB1YmxpYyBFeGNlbEltcG9ydFV0aWwoKSB7DQogICAgICAgIHN1cGVyKCk7DQogICAgfQ0KDQogICAgcHVibGljIEV4Y2VsSW1wb3J0VXRpbChJbnB1dFN0cmVhbSBpcykgdGhyb3dzIElPRXhjZXB0aW9uIHsNCiAgICAgICAgdGhpcyhpcywgMCwgdHJ1ZSk7DQogICAgfQ0KDQogICAgcHVibGljIEV4Y2VsSW1wb3J0VXRpbChJbnB1dFN0cmVhbSBpcywgaW50IHNoZWV0SW5kZXgpIHRocm93cyBJT0V4Y2VwdGlvbiB7DQogICAgICAgIHRoaXMoaXMsIHNoZWV0SW5kZXgsIHRydWUpOw0KICAgIH0NCg0KICAgIHB1YmxpYyBFeGNlbEltcG9ydFV0aWwoSW5wdXRTdHJlYW0gaXMsIGludCBzaGVldEluZGV4LCBib29sZWFuIGV2YWx1YXRlRm9ybXVsYXIpIHRocm93cyBJT0V4Y2VwdGlvbiB7DQogICAgICAgIHN1cGVyKCk7DQogICAgICAgIEhTU0ZXb3JrYm9vayB3b3JrYm9vayA9IG5ldyBIU1NGV29ya2Jvb2soaXMpOw0KICAgICAgICB0aGlzLnNoZWV0ID0gd29ya2Jvb2suZ2V0U2hlZXRBdChzaGVldEluZGV4KTsNCiAgICAgICAgaWYgKGV2YWx1YXRlRm9ybXVsYXIpIHsNCiAgICAgICAgICAgIHRoaXMuZm9ybXVsYUV2YWx1YXRvciA9IG5ldyBIU1NGRm9ybXVsYUV2YWx1YXRvcih3b3JrYm9vayk7DQogICAgICAgIH0NCiAgICB9DQoNCiAgICBwdWJsaWMgU3RyaW5nIGdldENlbGxWYWx1ZShDZWxsIGNlbGwpIHRocm93cyBFeGNlcHRpb24gew0KDQogICAgICAgIGludCBjZWxsVHlwZSA9IGNlbGwuZ2V0Q2VsbFR5cGUoKTsNCiAgICAgICAgc3dpdGNoIChjZWxsVHlwZSkgew0KICAgICAgICAgICAgY2FzZSBDZWxsLkNFTExfVFlQRV9OVU1FUklDOi8vMA0KDQogICAgICAgICAgICAgICAgaWYgKEhTU0ZEYXRlVXRpbC5pc0NlbGxEYXRlRm9ybWF0dGVkKGNlbGwpKSB7Ly/ml6XmnJ8NCiAgICAgICAgICAgICAgICAgICAgRGF0ZSBkYXRlID0gY2VsbC5nZXREYXRlQ2VsbFZhbHVlKCk7DQogICAgICAgICAgICAgICAgICAgIGlmIChwYXR0ZXJuICE9IG51bGwpIHsNCiAgICAgICAgICAgICAgICAgICAgICAgIFNpbXBsZURhdGVGb3JtYXQgc2RmID0gbmV3IFNpbXBsZURhdGVGb3JtYXQocGF0dGVybik7DQogICAgICAgICAgICAgICAgICAgICAgICByZXR1cm4gc2RmLmZvcm1hdChkYXRlKTsNCiAgICAgICAgICAgICAgICAgICAgfSBlbHNlIHsNCiAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiBkYXRlLnRvU3RyaW5nKCk7DQogICAgICAgICAgICAgICAgICAgIH0NCiAgICAgICAgICAgICAgICB9IGVsc2Ugew0KICAgICAgICAgICAgICAgICAgICAvLyDkuI3mmK/ml6XmnJ/moLzlvI/vvIzliJnpmLLmraLlvZPmlbDlrZfov4fplb/ml7bku6Xnp5HlraborqHmlbDms5XmmL7npLoNCiAgICAgICAgICAgICAgICAgICAgY2VsbC5zZXRDZWxsVHlwZShIU1NGQ2VsbC5DRUxMX1RZUEVfU1RSSU5HKTsNCiAgICAgICAgICAgICAgICAgICAgcmV0dXJuIGNlbGwudG9TdHJpbmcoKTsNCiAgICAgICAgICAgICAgICB9DQoNCiAgICAgICAgICAgIGNhc2UgQ2VsbC5DRUxMX1RZUEVfU1RSSU5HOi8vMQ0KICAgICAgICAgICAgICAgIHJldHVybiBjZWxsLmdldFN0cmluZ0NlbGxWYWx1ZSgpOw0KICAgICAgICAgICAgY2FzZSBDZWxsLkNFTExfVFlQRV9GT1JNVUxBOi8vMg0KDQogICAgICAgICAgICAgICAgaWYgKHRoaXMuZm9ybXVsYUV2YWx1YXRvciA9PSBudWxsKSB7Ly/lvpfliLDlhazlvI8NCiAgICAgICAgICAgICAgICAgICAgcmV0dXJuIGNlbGwuZ2V0Q2VsbEZvcm11bGEoKTsNCiAgICAgICAgICAgICAgICB9IGVsc2Ugey8v6K6h566X5YWs5byPDQogICAgICAgICAgICAgICAgICAgIENlbGxWYWx1ZSBldmFsdWF0ZSA9IHRoaXMuZm9ybXVsYUV2YWx1YXRvci5ldmFsdWF0ZShjZWxsKTsNCiAgICAgICAgICAgICAgICAgICAgcmV0dXJuIGV2YWx1YXRlLmZvcm1hdEFzU3RyaW5nKCk7DQogICAgICAgICAgICAgICAgfQ0KICAgICAgICAgICAgY2FzZSBDZWxsLkNFTExfVFlQRV9CTEFOSzovLzMNCiAgICAgICAgICAgICAgICAvL+azqOaEj+epuuWSjOayoeacieWAvOS4jeS4gOagt++8jOS7juadpeayoeacieW9leWFpei/h+WGheWuueeahOWNleWFg+agvOS4jeWxnuS6juS7u+S9leaVsOaNruexu+Wei++8jOS4jeS8mui1sOi/meS4qmNhc2UNCiAgICAgICAgICAgICAgICByZXR1cm4gIiI7DQogICAgICAgICAgICBjYXNlIENlbGwuQ0VMTF9UWVBFX0JPT0xFQU46Ly80DQogICAgICAgICAgICAgICAgcmV0dXJuIFN0cmluZy52YWx1ZU9mKGNlbGwuZ2V0Qm9vbGVhbkNlbGxWYWx1ZSgpKTsNCiAgICAgICAgICAgIGNhc2UgQ2VsbC5DRUxMX1RZUEVfRVJST1I6DQogICAgICAgICAgICBkZWZhdWx0Og0KICAgICAgICAgICAgICAgIHRocm93IG5ldyBFeGNlcHRpb24oIkV4Y2Vs5pWw5o2u57G75Z6L6ZSZ6K+vIik7DQogICAgICAgIH0NCiAgICB9DQp9DQo=
+package com.mad.common.util;
+
+import lombok.Data;
+import org.apache.poi.hssf.usermodel.*;
+import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.CellValue;
+
+import java.io.IOException;
+import java.io.InputStream;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+@Data
+public class ExcelImportUtil {
+
+    private HSSFFormulaEvaluator formulaEvaluator;
+    private HSSFSheet sheet;
+    private String pattern;// 日期格式
+
+    public ExcelImportUtil() {
+        super();
+    }
+
+    public ExcelImportUtil(InputStream is) throws IOException {
+        this(is, 0, true);
+    }
+
+    public ExcelImportUtil(InputStream is, int sheetIndex) throws IOException {
+        this(is, sheetIndex, true);
+    }
+
+    public ExcelImportUtil(InputStream is, int sheetIndex, boolean evaluateFormular) throws IOException {
+        super();
+        HSSFWorkbook workbook = new HSSFWorkbook(is);
+        this.sheet = workbook.getSheetAt(sheetIndex);
+        if (evaluateFormular) {
+            this.formulaEvaluator = new HSSFFormulaEvaluator(workbook);
+        }
+    }
+
+    public String getCellValue(Cell cell) throws Exception {
+
+        int cellType = cell.getCellType();
+        switch (cellType) {
+            case Cell.CELL_TYPE_NUMERIC://0
+
+                if (HSSFDateUtil.isCellDateFormatted(cell)) {//日期
+                    Date date = cell.getDateCellValue();
+                    if (pattern != null) {
+                        SimpleDateFormat sdf = new SimpleDateFormat(pattern);
+                        return sdf.format(date);
+                    } else {
+                        return date.toString();
+                    }
+                } else {
+                    // 不是日期格式，则防止当数字过长时以科学计数法显示
+                    cell.setCellType(HSSFCell.CELL_TYPE_STRING);
+                    return cell.toString();
+                }
+
+            case Cell.CELL_TYPE_STRING://1
+                return cell.getStringCellValue();
+            case Cell.CELL_TYPE_FORMULA://2
+
+                if (this.formulaEvaluator == null) {//得到公式
+                    return cell.getCellFormula();
+                } else {//计算公式
+                    CellValue evaluate = this.formulaEvaluator.evaluate(cell);
+                    return evaluate.formatAsString();
+                }
+            case Cell.CELL_TYPE_BLANK://3
+                //注意空和没有值不一样，从来没有录入过内容的单元格不属于任何数据类型，不会走这个case
+                return "";
+            case Cell.CELL_TYPE_BOOLEAN://4
+                return String.valueOf(cell.getBooleanCellValue());
+            case Cell.CELL_TYPE_ERROR:
+            default:
+                throw new Exception("Excel数据类型错误");
+        }
+    }
+}

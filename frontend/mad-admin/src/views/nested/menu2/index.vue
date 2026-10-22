@@ -1,1 +1,5 @@
-PHRlbXBsYXRlPgogIDxkaXYgc3R5bGU9InBhZGRpbmc6MzBweDsiPgogICAgPGVsLWFsZXJ0IDpjbG9zYWJsZT0iZmFsc2UiIHRpdGxlPSJtZW51IDIiIC8+CiAgPC9kaXY+CjwvdGVtcGxhdGU+Cg==
+<template>
+  <div style="padding:30px;">
+    <el-alert :closable="false" title="menu 2" />
+  </div>
+</template>

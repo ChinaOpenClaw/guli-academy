@@ -1,1 +1,95 @@
-cGFja2FnZSBjb20ubWFkLmVkdTsKCmltcG9ydCBjb20uYmFvbWlkb3UubXliYXRpc3BsdXMuYW5ub3RhdGlvbi5EYlR5cGU7CmltcG9ydCBjb20uYmFvbWlkb3UubXliYXRpc3BsdXMuYW5ub3RhdGlvbi5GaWVsZEZpbGw7CmltcG9ydCBjb20uYmFvbWlkb3UubXliYXRpc3BsdXMuYW5ub3RhdGlvbi5JZFR5cGU7CmltcG9ydCBjb20uYmFvbWlkb3UubXliYXRpc3BsdXMuZ2VuZXJhdG9yLkF1dG9HZW5lcmF0b3I7CmltcG9ydCBjb20uYmFvbWlkb3UubXliYXRpc3BsdXMuZ2VuZXJhdG9yLmNvbmZpZy5EYXRhU291cmNlQ29uZmlnOwppbXBvcnQgY29tLmJhb21pZG91Lm15YmF0aXNwbHVzLmdlbmVyYXRvci5jb25maWcuR2xvYmFsQ29uZmlnOwppbXBvcnQgY29tLmJhb21pZG91Lm15YmF0aXNwbHVzLmdlbmVyYXRvci5jb25maWcuUGFja2FnZUNvbmZpZzsKaW1wb3J0IGNvbS5iYW9taWRvdS5teWJhdGlzcGx1cy5nZW5lcmF0b3IuY29uZmlnLlN0cmF0ZWd5Q29uZmlnOwppbXBvcnQgY29tLmJhb21pZG91Lm15YmF0aXNwbHVzLmdlbmVyYXRvci5jb25maWcucG8uVGFibGVGaWxsOwppbXBvcnQgY29tLmJhb21pZG91Lm15YmF0aXNwbHVzLmdlbmVyYXRvci5jb25maWcucnVsZXMuRGF0ZVR5cGU7CmltcG9ydCBjb20uYmFvbWlkb3UubXliYXRpc3BsdXMuZ2VuZXJhdG9yLmNvbmZpZy5ydWxlcy5OYW1pbmdTdHJhdGVneTsKaW1wb3J0IG9yZy5qdW5pdC5UZXN0OwoKaW1wb3J0IGphdmEudXRpbC5BcnJheUxpc3Q7CgovKioKICogQGF1dGhvciBoZWxlbgogKiBAc2luY2UgMjAxOS82LzI0CiAqLwpwdWJsaWMgY2xhc3MgQ29kZUdlbmVyYXRvciB7CgoJQFRlc3QKCXB1YmxpYyB2b2lkIGdlbkNvZGUoKSB7CgoJCVN0cmluZyBtb2R1bGVOYW1lID0gImVkdSI7CgoJCS8vIDHjgIHliJvlu7rku6PnoIHnlJ/miJDlmagKCQlBdXRvR2VuZXJhdG9yIG1wZyA9IG5ldyBBdXRvR2VuZXJhdG9yKCk7CgoJCS8vIDLjgIHlhajlsYDphY3nva4KCQlHbG9iYWxDb25maWcgZ2MgPSBuZXcgR2xvYmFsQ29uZmlnKCk7CgkJU3RyaW5nIHByb2plY3RQYXRoID0gU3lzdGVtLmdldFByb3BlcnR5KCJ1c2VyLmRpciIpOwoJCWdjLnNldE91dHB1dERpcihwcm9qZWN0UGF0aCArICIvc3JjL21haW4vamF2YSIpOwoJCWdjLnNldEF1dGhvcigiSGVsZW4iKTsKCQlnYy5zZXRPcGVuKGZhbHNlKTsgLy/nlJ/miJDlkI7mmK/lkKbmiZPlvIDotYTmupDnrqHnkIblmagKCQlnYy5zZXRGaWxlT3ZlcnJpZGUoZmFsc2UpOyAvL+mHjeaWsOeUn+aIkOaXtuaWh+S7tuaYr+WQpuimhueblgoJCWdjLnNldFNlcnZpY2VOYW1lKCIlc1NlcnZpY2UiKTsJLy/ljrvmjolTZXJ2aWNl5o6l5Y+j55qE6aaW5a2X5q+NSQoJCWdjLnNldElkVHlwZShJZFR5cGUuSURfV09SS0VSX1NUUik7IC8v5Li76ZSu562W55WlCgkJZ2Muc2V0RGF0ZVR5cGUoRGF0ZVR5cGUuT05MWV9EQVRFKTsvL+WumuS5ieeUn+aIkOeahOWunuS9k+exu+S4reaXpeacn+exu+WeiwoJCWdjLnNldFN3YWdnZXIyKHRydWUpOy8v5byA5ZCvU3dhZ2dlcjLmqKHlvI8KCgkJbXBnLnNldEdsb2JhbENvbmZpZyhnYyk7CgoJCS8vIDPjgIHmlbDmja7mupDphY3nva4KCQlEYXRhU291cmNlQ29uZmlnIGRzYyA9IG5ldyBEYXRhU291cmNlQ29uZmlnKCk7CgkJZHNjLnNldFVybCgiamRiYzpteXNxbDovL2xvY2FsaG9zdDozMzA2L21hZF8iICsgbW9kdWxlTmFtZSArICJfMTkwMTA1Iik7CgkJZHNjLnNldERyaXZlck5hbWUoImNvbS5teXNxbC5qZGJjLkRyaXZlciIpOwoJCWRzYy5zZXRVc2VybmFtZSgicm9vdCIpOwoJCWRzYy5zZXRQYXNzd29yZCgiMTIzNDU2Iik7CgkJZHNjLnNldERiVHlwZShEYlR5cGUuTVlTUUwpOwoJCW1wZy5zZXREYXRhU291cmNlKGRzYyk7CgoJCS8vIDTjgIHljIXphY3nva4KCQlQYWNrYWdlQ29uZmlnIHBjID0gbmV3IFBhY2thZ2VDb25maWcoKTsKCQlwYy5zZXRNb2R1bGVOYW1lKG1vZHVsZU5hbWUpOyAvL+aooeWdl+WQjQoJCXBjLnNldFBhcmVudCgiY29tLm1hZCIpOwoJCXBjLnNldENvbnRyb2xsZXIoImNvbnRyb2xsZXIiKTsKCQlwYy5zZXRFbnRpdHkoImVudGl0eSIpOwoJCXBjLnNldFNlcnZpY2UoInNlcnZpY2UiKTsKCQlwYy5zZXRNYXBwZXIoIm1hcHBlciIpOwoJCW1wZy5zZXRQYWNrYWdlSW5mbyhwYyk7CgoJCS8vIDXjgIHnrZbnlaXphY3nva4KCQlTdHJhdGVneUNvbmZpZyBzdHJhdGVneSA9IG5ldyBTdHJhdGVneUNvbmZpZygpOwoJCXN0cmF0ZWd5LnNldEluY2x1ZGUobW9kdWxlTmFtZSArICJfXFx3KiIpOy8v6K6+572u6KaB5pig5bCE55qE6KGo5ZCNCgkJc3RyYXRlZ3kuc2V0TmFtaW5nKE5hbWluZ1N0cmF0ZWd5LnVuZGVybGluZV90b19jYW1lbCk7Ly/mlbDmja7lupPooajmmKDlsITliLDlrp7kvZPnmoTlkb3lkI3nrZbnlaUKCQlzdHJhdGVneS5zZXRUYWJsZVByZWZpeChwYy5nZXRNb2R1bGVOYW1lKCkgKyAiXyIpOy8v6K6+572u6KGo5YmN57yA5LiN55Sf5oiQCgoJCXN0cmF0ZWd5LnNldENvbHVtbk5hbWluZyhOYW1pbmdTdHJhdGVneS51bmRlcmxpbmVfdG9fY2FtZWwpOy8v5pWw5o2u5bqT6KGo5a2X5q615pig5bCE5Yiw5a6e5L2T55qE5ZG95ZCN562W55WlCgkJc3RyYXRlZ3kuc2V0RW50aXR5TG9tYm9rTW9kZWwodHJ1ZSk7IC8vIGxvbWJvayDmqKHlnosgQEFjY2Vzc29ycyhjaGFpbiA9IHRydWUpIHNldHRlcumTvuW8j+aTjeS9nAoKCQlzdHJhdGVneS5zZXRMb2dpY0RlbGV0ZUZpZWxkTmFtZSgiaXNfZGVsZXRlZCIpOy8v6YC76L6R5Yig6Zmk5a2X5q615ZCNCgkJc3RyYXRlZ3kuc2V0RW50aXR5Qm9vbGVhbkNvbHVtblJlbW92ZUlzUHJlZml4KHRydWUpOy8v5Y675o6J5biD5bCU5YC855qEaXNf5YmN57yACgoJCS8v6Ieq5Yqo5aGr5YWFCgkJVGFibGVGaWxsIGdtdENyZWF0ZSA9IG5ldyBUYWJsZUZpbGwoImdtdF9jcmVhdGUiLCBGaWVsZEZpbGwuSU5TRVJUKTsKCQlUYWJsZUZpbGwgZ210TW9kaWZpZWQgPSBuZXcgVGFibGVGaWxsKCJnbXRfbW9kaWZpZWQiLCBGaWVsZEZpbGwuSU5TRVJUX1VQREFURSk7CgkJQXJyYXlMaXN0PFRhYmxlRmlsbD4gdGFibGVGaWxscyA9IG5ldyBBcnJheUxpc3Q8PigpOwoJCXRhYmxlRmlsbHMuYWRkKGdtdENyZWF0ZSk7CgkJdGFibGVGaWxscy5hZGQoZ210TW9kaWZpZWQpOwoJCXN0cmF0ZWd5LnNldFRhYmxlRmlsbExpc3QodGFibGVGaWxscyk7CgoJCXN0cmF0ZWd5LnNldFZlcnNpb25GaWVsZE5hbWUoInZlcnNpb24iKTsvL+S5kOingumUgeWIlwoKCQlzdHJhdGVneS5zZXRSZXN0Q29udHJvbGxlclN0eWxlKHRydWUpOyAvL3Jlc3RmdWwgYXBp6aOO5qC85o6n5Yi25ZmoCgkJc3RyYXRlZ3kuc2V0Q29udHJvbGxlck1hcHBpbmdIeXBoZW5TdHlsZSh0cnVlKTsgLy91cmzkuK3pqbzls7Dovazov57lrZfnrKYKCgkJbXBnLnNldFN0cmF0ZWd5KHN0cmF0ZWd5KTsKCgkJLy8gNuOAgeaJp+ihjAoJCW1wZy5leGVjdXRlKCk7Cgl9Cn0K
+package com.mad.edu;
+
+import com.baomidou.mybatisplus.annotation.DbType;
+import com.baomidou.mybatisplus.annotation.FieldFill;
+import com.baomidou.mybatisplus.annotation.IdType;
+import com.baomidou.mybatisplus.generator.AutoGenerator;
+import com.baomidou.mybatisplus.generator.config.DataSourceConfig;
+import com.baomidou.mybatisplus.generator.config.GlobalConfig;
+import com.baomidou.mybatisplus.generator.config.PackageConfig;
+import com.baomidou.mybatisplus.generator.config.StrategyConfig;
+import com.baomidou.mybatisplus.generator.config.po.TableFill;
+import com.baomidou.mybatisplus.generator.config.rules.DateType;
+import com.baomidou.mybatisplus.generator.config.rules.NamingStrategy;
+import org.junit.Test;
+
+import java.util.ArrayList;
+
+/**
+ * @author helen
+ * @since 2019/6/24
+ */
+public class CodeGenerator {
+
+	@Test
+	public void genCode() {
+
+		String moduleName = "edu";
+
+		// 1、创建代码生成器
+		AutoGenerator mpg = new AutoGenerator();
+
+		// 2、全局配置
+		GlobalConfig gc = new GlobalConfig();
+		String projectPath = System.getProperty("user.dir");
+		gc.setOutputDir(projectPath + "/src/main/java");
+		gc.setAuthor("Helen");
+		gc.setOpen(false); //生成后是否打开资源管理器
+		gc.setFileOverride(false); //重新生成时文件是否覆盖
+		gc.setServiceName("%sService");	//去掉Service接口的首字母I
+		gc.setIdType(IdType.ID_WORKER_STR); //主键策略
+		gc.setDateType(DateType.ONLY_DATE);//定义生成的实体类中日期类型
+		gc.setSwagger2(true);//开启Swagger2模式
+
+		mpg.setGlobalConfig(gc);
+
+		// 3、数据源配置
+		DataSourceConfig dsc = new DataSourceConfig();
+		dsc.setUrl("jdbc:mysql://localhost:3306/mad_" + moduleName + "_190105");
+		dsc.setDriverName("com.mysql.jdbc.Driver");
+		dsc.setUsername("root");
+		dsc.setPassword("123456");
+		dsc.setDbType(DbType.MYSQL);
+		mpg.setDataSource(dsc);
+
+		// 4、包配置
+		PackageConfig pc = new PackageConfig();
+		pc.setModuleName(moduleName); //模块名
+		pc.setParent("com.mad");
+		pc.setController("controller");
+		pc.setEntity("entity");
+		pc.setService("service");
+		pc.setMapper("mapper");
+		mpg.setPackageInfo(pc);
+
+		// 5、策略配置
+		StrategyConfig strategy = new StrategyConfig();
+		strategy.setInclude(moduleName + "_\\w*");//设置要映射的表名
+		strategy.setNaming(NamingStrategy.underline_to_camel);//数据库表映射到实体的命名策略
+		strategy.setTablePrefix(pc.getModuleName() + "_");//设置表前缀不生成
+
+		strategy.setColumnNaming(NamingStrategy.underline_to_camel);//数据库表字段映射到实体的命名策略
+		strategy.setEntityLombokModel(true); // lombok 模型 @Accessors(chain = true) setter链式操作
+
+		strategy.setLogicDeleteFieldName("is_deleted");//逻辑删除字段名
+		strategy.setEntityBooleanColumnRemoveIsPrefix(true);//去掉布尔值的is_前缀
+
+		//自动填充
+		TableFill gmtCreate = new TableFill("gmt_create", FieldFill.INSERT);
+		TableFill gmtModified = new TableFill("gmt_modified", FieldFill.INSERT_UPDATE);
+		ArrayList<TableFill> tableFills = new ArrayList<>();
+		tableFills.add(gmtCreate);
+		tableFills.add(gmtModified);
+		strategy.setTableFillList(tableFills);
+
+		strategy.setVersionFieldName("version");//乐观锁列
+
+		strategy.setRestControllerStyle(true); //restful api风格控制器
+		strategy.setControllerMappingHyphenStyle(true); //url中驼峰转连字符
+
+		mpg.setStrategy(strategy);
+
+		// 6、执行
+		mpg.execute();
+	}
+}

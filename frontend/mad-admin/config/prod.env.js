@@ -1,1 +1,5 @@
-J3VzZSBzdHJpY3QnCm1vZHVsZS5leHBvcnRzID0gewogIE5PREVfRU5WOiAnInByb2R1Y3Rpb24iJywKICBCQVNFX0FQSTogJyJodHRwczovL2Vhc3ktbW9jay5jb20vbW9jay81OTUwYTI0MTlhZGMyMzFmMzU2YTY2MzYvdnVlLWFkbWluIicsCn0K
+'use strict'
+module.exports = {
+  NODE_ENV: '"production"',
+  BASE_API: '"https://easy-mock.com/mock/5950a2419adc231f356a6636/vue-admin"',
+}

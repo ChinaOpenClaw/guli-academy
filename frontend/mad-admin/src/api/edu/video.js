@@ -1,1 +1,39 @@
-aW1wb3J0IHJlcXVlc3QgZnJvbSAnQC91dGlscy9yZXF1ZXN0JwoKY29uc3QgYXBpX25hbWUgPSAnL2FkbWluL2VkdS92aWRlbycKCmV4cG9ydCBkZWZhdWx0IHsKICAvLyDmlrDlop7or77ml7YKICBzYXZlKHZpZGVvRm9ybSkgewogICAgcmV0dXJuIHJlcXVlc3QoewogICAgICB1cmw6IGAke2FwaV9uYW1lfS9zYXZlLXZpZGVvLWluZm9gLAogICAgICBtZXRob2Q6ICdwb3N0JywKICAgICAgZGF0YTogdmlkZW9Gb3JtCiAgICB9KQogIH0sCgogIC8vIOagueaNrklE5p+l6K+i6K++5pe2CiAgZ2V0QnlJZChpZCkgewogICAgcmV0dXJuIHJlcXVlc3QoewogICAgICB1cmw6IGAke2FwaV9uYW1lfS92aWRlby1pbmZvLyR7aWR9YCwKICAgICAgbWV0aG9kOiAnZ2V0JwogICAgfSkKICB9LAoKICAvLyDmm7TmlrDor77ml7YKICB1cGRhdGVCeUlkKGlkLCB2aWRlb0Zvcm0pIHsKICAgIHJldHVybiByZXF1ZXN0KHsKICAgICAgdXJsOiBgJHthcGlfbmFtZX0vdXBkYXRlLXZpZGVvLWluZm8vJHtpZH1gLAogICAgICBtZXRob2Q6ICdwdXQnLAogICAgICBkYXRhOiB2aWRlb0Zvcm0KICAgIH0pCiAgfSwKCiAgLy8g5qC55o2uSUTliKDpmaTor77ml7YKICByZW1vdmVCeUlkKGlkKSB7CiAgICByZXR1cm4gcmVxdWVzdCh7CiAgICAgIHVybDogYCR7YXBpX25hbWV9LyR7aWR9YCwKICAgICAgbWV0aG9kOiAnZGVsZXRlJwogICAgfSkKICB9Cn0K
+import request from '@/utils/request'
+
+const api_name = '/admin/edu/video'
+
+export default {
+  // 新增课时
+  save(videoForm) {
+    return request({
+      url: `${api_name}/save-video-info`,
+      method: 'post',
+      data: videoForm
+    })
+  },
+
+  // 根据ID查询课时
+  getById(id) {
+    return request({
+      url: `${api_name}/video-info/${id}`,
+      method: 'get'
+    })
+  },
+
+  // 更新课时
+  updateById(id, videoForm) {
+    return request({
+      url: `${api_name}/update-video-info/${id}`,
+      method: 'put',
+      data: videoForm
+    })
+  },
+
+  // 根据ID删除课时
+  removeById(id) {
+    return request({
+      url: `${api_name}/${id}`,
+      method: 'delete'
+    })
+  }
+}

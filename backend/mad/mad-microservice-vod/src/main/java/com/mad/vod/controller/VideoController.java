@@ -1,1 +1,29 @@
-cGFja2FnZSBjb20ubWFkLnZvZC5jb250cm9sbGVyOwoKaW1wb3J0IGNvbS5tYWQuY29tbW9uLnZvLlI7CmltcG9ydCBjb20ubWFkLnZvZC5zZXJ2aWNlLlZpZGVvU2VydmljZTsKaW1wb3J0IGlvLnN3YWdnZXIuYW5ub3RhdGlvbnMuQXBpOwppbXBvcnQgb3JnLnNwcmluZ2ZyYW1ld29yay5iZWFucy5mYWN0b3J5LmFubm90YXRpb24uQXV0b3dpcmVkOwppbXBvcnQgb3JnLnNwcmluZ2ZyYW1ld29yay53ZWIuYmluZC5hbm5vdGF0aW9uLio7CgovKioKICogQGF1dGhvciBoZWxlbgogKiBAc2luY2UgMjAxOS83LzYKICovCkBBcGkoZGVzY3JpcHRpb249IumYv+mHjOS6keinhumikeeCueaSreW+ruacjeWKoSIpCkBDcm9zc09yaWdpbiAvL+i3qOWfnwpAUmVzdENvbnRyb2xsZXIKQFJlcXVlc3RNYXBwaW5nKCIvdm9kL3ZpZGVvIikKcHVibGljIGNsYXNzIFZpZGVvQ29udHJvbGxlciB7CgoKCUBBdXRvd2lyZWQKCXByaXZhdGUgVmlkZW9TZXJ2aWNlIHZpZGVvU2VydmljZTsKCglAR2V0TWFwcGluZygiZ2V0LXBsYXktYXV0aC97dmlkZW9JZH0iKQoJcHVibGljIFIgZ2V0VmlkZW9QbGF5QXV0aChAUGF0aFZhcmlhYmxlIFN0cmluZyB2aWRlb0lkKXsKCgkJU3RyaW5nIHBsYXlBdXRoID0gdmlkZW9TZXJ2aWNlLmdldFZpZGVvUGxheUF1dGgodmlkZW9JZCk7CgkJcmV0dXJuIFIub2soKS5tZXNzYWdlKCLojrflj5bmkq3mlL7lh63or4HmiJDlip8iKS5kYXRhKCJwbGF5QXV0aCIsIHBsYXlBdXRoKTsKCX0KfQo=
+package com.mad.vod.controller;
+
+import com.mad.common.vo.R;
+import com.mad.vod.service.VideoService;
+import io.swagger.annotations.Api;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
+
+/**
+ * @author helen
+ * @since 2019/7/6
+ */
+@Api(description="阿里云视频点播微服务")
+@CrossOrigin //跨域
+@RestController
+@RequestMapping("/vod/video")
+public class VideoController {
+
+
+	@Autowired
+	private VideoService videoService;
+
+	@GetMapping("get-play-auth/{videoId}")
+	public R getVideoPlayAuth(@PathVariable String videoId){
+
+		String playAuth = videoService.getVideoPlayAuth(videoId);
+		return R.ok().message("获取播放凭证成功").data("playAuth", playAuth);
+	}
+}

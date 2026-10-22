@@ -1,1 +1,74 @@
-cGFja2FnZSBjb20ubWFkLmNvbW1vbi5oYW5kbGVyOwoKaW1wb3J0IGNvbS5tYWQuY29tbW9uLmNvbnN0YW50cy5SZXN1bHRDb2RlRW51bTsKaW1wb3J0IGNvbS5tYWQuY29tbW9uLmV4Y2VwdGlvbi5NYWRFeGNlcHRpb247CmltcG9ydCBjb20ubWFkLmNvbW1vbi51dGlsLkV4Y2VwdGlvblV0aWw7CmltcG9ydCBjb20ubWFkLmNvbW1vbi52by5SOwppbXBvcnQgbG9tYm9rLmV4dGVybi5zbGY0ai5TbGY0ajsKaW1wb3J0IG9yZy5zcHJpbmdmcmFtZXdvcmsuaHR0cC5jb252ZXJ0ZXIuSHR0cE1lc3NhZ2VOb3RSZWFkYWJsZUV4Y2VwdGlvbjsKaW1wb3J0IG9yZy5zcHJpbmdmcmFtZXdvcmsuamRiYy5CYWRTcWxHcmFtbWFyRXhjZXB0aW9uOwppbXBvcnQgb3JnLnNwcmluZ2ZyYW1ld29yay53ZWIuYmluZC5hbm5vdGF0aW9uLkNvbnRyb2xsZXJBZHZpY2U7CmltcG9ydCBvcmcuc3ByaW5nZnJhbWV3b3JrLndlYi5iaW5kLmFubm90YXRpb24uRXhjZXB0aW9uSGFuZGxlcjsKaW1wb3J0IG9yZy5zcHJpbmdmcmFtZXdvcmsud2ViLmJpbmQuYW5ub3RhdGlvbi5SZXNwb25zZUJvZHk7CgppbXBvcnQgamF2YXgubmFtaW5nLlNpemVMaW1pdEV4Y2VlZGVkRXhjZXB0aW9uOwoKLyoqCiAqIEBhdXRob3IgaGVsZW4KICogQHNpbmNlIDIwMTkvNi8yNQogKiDnu5/kuIDlvILluLjlpITnkIblmagKICovCkBDb250cm9sbGVyQWR2aWNlCkBTbGY0agpwdWJsaWMgY2xhc3MgR2xvYmFsRXhjZXB0aW9uSGFuZGxlciB7CgoJLyoqCgkgKiDlvILluLjlpITnkIbmlrnms5UKCSAqIEBwYXJhbSBlCgkgKiBAcmV0dXJuCgkgKi8KCUBFeGNlcHRpb25IYW5kbGVyKEV4Y2VwdGlvbi5jbGFzcykKCUBSZXNwb25zZUJvZHkKCXB1YmxpYyBSIGVycm9yKEV4Y2VwdGlvbiBlKXsKCQkvL2UucHJpbnRTdGFja1RyYWNlKCk7Ly/ovpPlh7rlvILluLjloIbmoIjkv6Hmga8KCQlsb2cuZXJyb3IoZS5nZXRNZXNzYWdlKCkpOwoJCXJldHVybiBSLmVycm9yKCk7Cgl9CgoJQEV4Y2VwdGlvbkhhbmRsZXIoQmFkU3FsR3JhbW1hckV4Y2VwdGlvbi5jbGFzcykKCUBSZXNwb25zZUJvZHkKCXB1YmxpYyBSIGVycm9yKEJhZFNxbEdyYW1tYXJFeGNlcHRpb24gZSl7CgkJLy9lLnByaW50U3RhY2tUcmFjZSgpOy8v6L6T5Ye65byC5bi45aCG5qCI5L+h5oGvCgkJbG9nLmVycm9yKGUuZ2V0TWVzc2FnZSgpKTsKCQkvL3JldHVybiBSLmVycm9yKCkuY29kZSgyMDAwMykubWVzc2FnZSgiU1FM6K+t5rOV6ZSZ6K+vIik7CgkJcmV0dXJuIFIuc2V0UmVzdWx0KFJlc3VsdENvZGVFbnVtLkJBRF9TUUxfR1JBTU1BUik7Cgl9CgoJQEV4Y2VwdGlvbkhhbmRsZXIoSHR0cE1lc3NhZ2VOb3RSZWFkYWJsZUV4Y2VwdGlvbi5jbGFzcykKCUBSZXNwb25zZUJvZHkKCXB1YmxpYyBSIGVycm9yKEh0dHBNZXNzYWdlTm90UmVhZGFibGVFeGNlcHRpb24gZSl7CgkJLy9lLnByaW50U3RhY2tUcmFjZSgpOy8v6L6T5Ye65byC5bi45aCG5qCI5L+h5oGvCgkJbG9nLmVycm9yKGUuZ2V0TWVzc2FnZSgpKTsKCQlyZXR1cm4gUi5zZXRSZXN1bHQoUmVzdWx0Q29kZUVudW0uSlNPTl9QQVJTRV9FUlJPUik7Cgl9CgoKCUBFeGNlcHRpb25IYW5kbGVyKFNpemVMaW1pdEV4Y2VlZGVkRXhjZXB0aW9uLmNsYXNzKQoJQFJlc3BvbnNlQm9keQoJcHVibGljIFIgZXJyb3IoU2l6ZUxpbWl0RXhjZWVkZWRFeGNlcHRpb24gZSl7CgkJLy9lLnByaW50U3RhY2tUcmFjZSgpOy8v6L6T5Ye65byC5bi45aCG5qCI5L+h5oGvCgkJLy9sb2cuZXJyb3IoZS5nZXRNZXNzYWdlKCkpOwoJCWxvZy5pbmZvKCLplJnor6/kv6Hmga8tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tIik7CgkJbG9nLmVycm9yKGUuZ2V0TWVzc2FnZSgpKTsKCQlyZXR1cm4gUi5zZXRSZXN1bHQoUmVzdWx0Q29kZUVudW0uRklMRV9VUExPQURfRVJST1IpOwoJfQoKCUBFeGNlcHRpb25IYW5kbGVyKE1hZEV4Y2VwdGlvbi5jbGFzcykKCUBSZXNwb25zZUJvZHkKCXB1YmxpYyBSIGVycm9yKE1hZEV4Y2VwdGlvbiBlKXsKCQkvL2UucHJpbnRTdGFja1RyYWNlKCk7Ly/ovpPlh7rlvILluLjloIbmoIjkv6Hmga8KCQkvL2xvZy5lcnJvcihlLmdldE1lc3NhZ2UoKSk7CgkJbG9nLmVycm9yKEV4Y2VwdGlvblV0aWwuZ2V0TWVzc2FnZShlKSk7CgkJcmV0dXJuIFIuZXJyb3IoKS5tZXNzYWdlKGUuZ2V0TWVzc2FnZSgpKS5jb2RlKGUuZ2V0Q29kZSgpKTsKCX0KfQo=
+package com.mad.common.handler;
+
+import com.mad.common.constants.ResultCodeEnum;
+import com.mad.common.exception.MadException;
+import com.mad.common.util.ExceptionUtil;
+import com.mad.common.vo.R;
+import lombok.extern.slf4j.Slf4j;
+import org.springframework.http.converter.HttpMessageNotReadableException;
+import org.springframework.jdbc.BadSqlGrammarException;
+import org.springframework.web.bind.annotation.ControllerAdvice;
+import org.springframework.web.bind.annotation.ExceptionHandler;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+import javax.naming.SizeLimitExceededException;
+
+/**
+ * @author helen
+ * @since 2019/6/25
+ * 统一异常处理器
+ */
+@ControllerAdvice
+@Slf4j
+public class GlobalExceptionHandler {
+
+	/**
+	 * 异常处理方法
+	 * @param e
+	 * @return
+	 */
+	@ExceptionHandler(Exception.class)
+	@ResponseBody
+	public R error(Exception e){
+		//e.printStackTrace();//输出异常堆栈信息
+		log.error(e.getMessage());
+		return R.error();
+	}
+
+	@ExceptionHandler(BadSqlGrammarException.class)
+	@ResponseBody
+	public R error(BadSqlGrammarException e){
+		//e.printStackTrace();//输出异常堆栈信息
+		log.error(e.getMessage());
+		//return R.error().code(20003).message("SQL语法错误");
+		return R.setResult(ResultCodeEnum.BAD_SQL_GRAMMAR);
+	}
+
+	@ExceptionHandler(HttpMessageNotReadableException.class)
+	@ResponseBody
+	public R error(HttpMessageNotReadableException e){
+		//e.printStackTrace();//输出异常堆栈信息
+		log.error(e.getMessage());
+		return R.setResult(ResultCodeEnum.JSON_PARSE_ERROR);
+	}
+
+
+	@ExceptionHandler(SizeLimitExceededException.class)
+	@ResponseBody
+	public R error(SizeLimitExceededException e){
+		//e.printStackTrace();//输出异常堆栈信息
+		//log.error(e.getMessage());
+		log.info("错误信息----------------------------");
+		log.error(e.getMessage());
+		return R.setResult(ResultCodeEnum.FILE_UPLOAD_ERROR);
+	}
+
+	@ExceptionHandler(MadException.class)
+	@ResponseBody
+	public R error(MadException e){
+		//e.printStackTrace();//输出异常堆栈信息
+		//log.error(e.getMessage());
+		log.error(ExceptionUtil.getMessage(e));
+		return R.error().message(e.getMessage()).code(e.getCode());
+	}
+}

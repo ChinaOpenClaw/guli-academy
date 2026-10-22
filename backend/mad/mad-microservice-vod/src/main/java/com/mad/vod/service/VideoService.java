@@ -1,1 +1,27 @@
-cGFja2FnZSBjb20ubWFkLnZvZC5zZXJ2aWNlOwoKaW1wb3J0IGNvbS5hbGl5dW5jcy52b2QubW9kZWwudjIwMTcwMzIxLkNyZWF0ZVVwbG9hZFZpZGVvUmVzcG9uc2U7CmltcG9ydCBjb20uYWxpeXVuY3Mudm9kLm1vZGVsLnYyMDE3MDMyMS5SZWZyZXNoVXBsb2FkVmlkZW9SZXNwb25zZTsKaW1wb3J0IG9yZy5zcHJpbmdmcmFtZXdvcmsud2ViLm11bHRpcGFydC5NdWx0aXBhcnRGaWxlOwoKLyoqCiAqIEBhdXRob3IgaGVsZW4KICogQHNpbmNlIDIwMTkvNy8zCiAqLwpwdWJsaWMgaW50ZXJmYWNlIFZpZGVvU2VydmljZSB7CgoJLyoqCgkgKiDosIPnlKjpmL/ph4zkupFqYXZhIHNka+aJp+ihjOaWh+S7tuS4iuS8oAoJICogQHBhcmFtIGZpbGUKCSAqIEByZXR1cm4g5paH5Lu255qEdmlkZW9JZAoJICovCglTdHJpbmcgdXBsb2FkVmlkZW8oTXVsdGlwYXJ0RmlsZSBmaWxlKTsKCgl2b2lkIHJlbW92ZVZpZGVvKFN0cmluZyB2aWRlb0lkKTsKCglDcmVhdGVVcGxvYWRWaWRlb1Jlc3BvbnNlIGdldFVwbG9hZEF1dGhBbmRBZGRyZXNzKFN0cmluZyB0aXRsZSwgU3RyaW5nIGZpbGVOYW1lKTsKCglSZWZyZXNoVXBsb2FkVmlkZW9SZXNwb25zZSByZWZyZXNoVXBsb2FkQXV0aEFuZEFkZHJlc3MoU3RyaW5nIHZpZGVvSWQpOwoKCVN0cmluZyBnZXRWaWRlb1BsYXlBdXRoKFN0cmluZyB2aWRlb0lkKTsKfQo=
+package com.mad.vod.service;
+
+import com.aliyuncs.vod.model.v20170321.CreateUploadVideoResponse;
+import com.aliyuncs.vod.model.v20170321.RefreshUploadVideoResponse;
+import org.springframework.web.multipart.MultipartFile;
+
+/**
+ * @author helen
+ * @since 2019/7/3
+ */
+public interface VideoService {
+
+	/**
+	 * 调用阿里云java sdk执行文件上传
+	 * @param file
+	 * @return 文件的videoId
+	 */
+	String uploadVideo(MultipartFile file);
+
+	void removeVideo(String videoId);
+
+	CreateUploadVideoResponse getUploadAuthAndAddress(String title, String fileName);
+
+	RefreshUploadVideoResponse refreshUploadAuthAndAddress(String videoId);
+
+	String getVideoPlayAuth(String videoId);
+}

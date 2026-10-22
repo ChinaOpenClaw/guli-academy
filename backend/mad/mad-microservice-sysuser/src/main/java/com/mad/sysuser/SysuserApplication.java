@@ -1,1 +1,16 @@
-cGFja2FnZSBjb20ubWFkLnN5c3VzZXI7CgppbXBvcnQgb3JnLnNwcmluZ2ZyYW1ld29yay5ib290LlNwcmluZ0FwcGxpY2F0aW9uOwppbXBvcnQgb3JnLnNwcmluZ2ZyYW1ld29yay5ib290LmF1dG9jb25maWd1cmUuU3ByaW5nQm9vdEFwcGxpY2F0aW9uOwoKLyoqCiAqIEBhdXRob3IgaGVsZW4KICogQHNpbmNlIDIwMTkvMy8xCiAqLwpAU3ByaW5nQm9vdEFwcGxpY2F0aW9uCnB1YmxpYyBjbGFzcyBTeXN1c2VyQXBwbGljYXRpb24gewoKCXB1YmxpYyBzdGF0aWMgdm9pZCBtYWluKFN0cmluZ1tdIGFyZ3MpIHsKCQlTcHJpbmdBcHBsaWNhdGlvbi5ydW4oU3lzdXNlckFwcGxpY2F0aW9uLmNsYXNzLCBhcmdzKTsKCX0KfQo=
+package com.mad.sysuser;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+/**
+ * @author helen
+ * @since 2019/3/1
+ */
+@SpringBootApplication
+public class SysuserApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(SysuserApplication.class, args);
+	}
+}

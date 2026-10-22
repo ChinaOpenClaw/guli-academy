@@ -1,1 +1,13 @@
-PHRlbXBsYXRlPgogIDxkaXYgY2xhc3M9ImNvbW0tdGl0bGUiPgogICAgPGgyPjxzcGFuPnt7IHRpdGxlIH19PC9zcGFuPjwvaDI+CiAgICA8cCBjbGFzcz0iYy05OTkgbXQxMCIgdi1pZj0ic3VidGl0bGUiPnt7IHN1YnRpdGxlIH19PC9wPgogIDwvZGl2Pgo8L3RlbXBsYXRlPgoKPHNjcmlwdCBzZXR1cD4KZGVmaW5lUHJvcHMoewogIHRpdGxlOiB7IHR5cGU6IFN0cmluZywgcmVxdWlyZWQ6IHRydWUgfSwKICBzdWJ0aXRsZTogeyB0eXBlOiBTdHJpbmcsIGRlZmF1bHQ6ICcnIH0KfSkKPC9zY3JpcHQ+Cg==
+<template>
+  <div class="comm-title">
+    <h2><span>{{ title }}</span></h2>
+    <p class="c-999 mt10" v-if="subtitle">{{ subtitle }}</p>
+  </div>
+</template>
+
+<script setup>
+defineProps({
+  title: { type: String, required: true },
+  subtitle: { type: String, default: '' }
+})
+</script>

@@ -1,1 +1,119 @@
-PHRlbXBsYXRlPgogIDxkaXYgY2xhc3M9ImFwcC1jb250YWluZXIiPgoKICAgIDxlbC1hbGVydAogICAgICB0aXRsZT0iTUFE572R6K++57O757uf6K++56iL5YiG57G777ya6YeR6J6N5oqV6LWEIC8gSVTlt6XnqIsgLyDkurrlt6Xmmbrog70g5LiJ5aSn5pa55ZCR77yM5LqM57qn5YiG57G755So5LqO6K++56iL5b2S57G744CCIgogICAgICB0eXBlPSJpbmZvIgogICAgICA6Y2xvc2FibGU9ImZhbHNlIgogICAgICBzaG93LWljb24KICAgICAgc3R5bGU9Im1hcmdpbi1ib3R0b206IDE2cHgiLz4KCiAgICA8ZWwtcm93IDpndXR0ZXI9IjE2Ij4KICAgICAgPGVsLWNvbCA6c3Bhbj0iMTIiPgogICAgICAgIDxlbC1jYXJkIHNoYWRvdz0ibmV2ZXIiIGNsYXNzPSJ0cmVlLWNhcmQiPgogICAgICAgICAgPGRpdiBzbG90PSJoZWFkZXIiPgogICAgICAgICAgICA8c3BhbiBjbGFzcz0iY2FyZC10aXRsZSI+5YiG57G75qCRPC9zcGFuPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8ZWwtdHJlZQogICAgICAgICAgICA6ZGF0YT0ic3ViamVjdFRyZWUiCiAgICAgICAgICAgIDpwcm9wcz0ieyBsYWJlbDogJ3RpdGxlJywgY2hpbGRyZW46ICdjaGlsZHJlbicgfSIKICAgICAgICAgICAgZGVmYXVsdC1leHBhbmQtYWxsCiAgICAgICAgICAgIG5vZGUta2V5PSJpZCI+CiAgICAgICAgICAgIDxzcGFuIHNsb3Qtc2NvcGU9InsgZGF0YSB9IiBjbGFzcz0idHJlZS1ub2RlIj4KICAgICAgICAgICAgICA8c3Bhbj57eyBkYXRhLnRpdGxlIH19PC9zcGFuPgogICAgICAgICAgICAgIDxzcGFuIGNsYXNzPSJ0cmVlLWlkIj5JRDoge3sgZGF0YS5pZCB9fTwvc3Bhbj4KICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgPC9lbC10cmVlPgogICAgICAgIDwvZWwtY2FyZD4KICAgICAgPC9lbC1jb2w+CgogICAgICA8ZWwtY29sIDpzcGFuPSIxMiI+CiAgICAgICAgPGVsLWNhcmQgc2hhZG93PSJuZXZlciIgY2xhc3M9InRyZWUtY2FyZCI+CiAgICAgICAgICA8ZGl2IHNsb3Q9ImhlYWRlciI+CiAgICAgICAgICAgIDxzcGFuIGNsYXNzPSJjYXJkLXRpdGxlIj7or77nqIvlvZLlsZ7nu5/orqE8L3NwYW4+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDxlbC10YWJsZSA6ZGF0YT0ic3RhdFJvd3MiIGJvcmRlciBmaXQgc2l6ZT0ic21hbGwiPgogICAgICAgICAgICA8ZWwtdGFibGUtY29sdW1uIHByb3A9InBhcmVudCIgbGFiZWw9IuS4gOe6p+WIhuexuyIgd2lkdGg9IjEyMCIvPgogICAgICAgICAgICA8ZWwtdGFibGUtY29sdW1uIHByb3A9ImNoaWxkIiBsYWJlbD0i5LqM57qn5YiG57G7IiB3aWR0aD0iMTQwIi8+CiAgICAgICAgICAgIDxlbC10YWJsZS1jb2x1bW4gcHJvcD0iY291bnQiIGxhYmVsPSLor77nqIvmlbAiIHdpZHRoPSI4MCIgYWxpZ249ImNlbnRlciIvPgogICAgICAgICAgICA8ZWwtdGFibGUtY29sdW1uIHByb3A9ImNvdXJzZVRpdGxlcyIgbGFiZWw9IuivvueoiyIgc2hvdy1vdmVyZmxvdy10b29sdGlwLz4KICAgICAgICAgIDwvZWwtdGFibGU+CiAgICAgICAgPC9lbC1jYXJkPgogICAgICA8L2VsLWNvbD4KICAgIDwvZWwtcm93PgoKICA8L2Rpdj4KPC90ZW1wbGF0ZT4KCjxzY3JpcHQ+CmltcG9ydCBzdWJqZWN0IGZyb20gJ0AvYXBpL2VkdS9zdWJqZWN0JwppbXBvcnQgY291cnNlQXBpIGZyb20gJ0AvYXBpL2VkdS9jb3Vyc2UnCgpleHBvcnQgZGVmYXVsdCB7CiAgZGF0YSgpIHsKICAgIHJldHVybiB7CiAgICAgIHN1YmplY3RUcmVlOiBbXSwKICAgICAgY291cnNlczogW10KICAgIH0KICB9LAoKICBjb21wdXRlZDogewogICAgc3RhdFJvd3MoKSB7CiAgICAgIGNvbnN0IHJvd3MgPSBbXQogICAgICB0aGlzLnN1YmplY3RUcmVlLmZvckVhY2gocGFyZW50ID0+IHsKICAgICAgICA7KHBhcmVudC5jaGlsZHJlbiB8fCBbXSkuZm9yRWFjaChjaGlsZCA9PiB7CiAgICAgICAgICBjb25zdCBtYXRjaGVkID0gdGhpcy5jb3Vyc2VzLmZpbHRlcihjID0+IGMuc3ViamVjdElkID09PSBjaGlsZC5pZCkKICAgICAgICAgIHJvd3MucHVzaCh7CiAgICAgICAgICAgIHBhcmVudDogcGFyZW50LnRpdGxlLAogICAgICAgICAgICBjaGlsZDogY2hpbGQudGl0bGUsCiAgICAgICAgICAgIGNvdW50OiBtYXRjaGVkLmxlbmd0aCwKICAgICAgICAgICAgY291cnNlVGl0bGVzOiBtYXRjaGVkLm1hcChjID0+IGMudGl0bGUpLmpvaW4oJ+OAgScpIHx8ICfigJQnCiAgICAgICAgICB9KQogICAgICAgIH0pCiAgICAgIH0pCiAgICAgIHJldHVybiByb3dzCiAgICB9CiAgfSwKCiAgY3JlYXRlZCgpIHsKICAgIHRoaXMubG9hZERhdGEoKQogIH0sCgogIG1ldGhvZHM6IHsKICAgIGxvYWREYXRhKCkgewogICAgICBzdWJqZWN0LmdldE5lc3RlZExpc3QoKS50aGVuKHJlc3BvbnNlID0+IHsKICAgICAgICBpZiAocmVzcG9uc2Uuc3VjY2VzcyA9PT0gdHJ1ZSkgewogICAgICAgICAgdGhpcy5zdWJqZWN0VHJlZSA9IHJlc3BvbnNlLmRhdGEuaXRlbXMgfHwgW10KICAgICAgICB9CiAgICAgIH0pCiAgICAgIGNvdXJzZUFwaS5nZXRQYWdlTGlzdCgxLCAxMDAsIHt9KS50aGVuKHJlc3BvbnNlID0+IHsKICAgICAgICBpZiAocmVzcG9uc2Uuc3VjY2VzcyA9PT0gdHJ1ZSkgewogICAgICAgICAgdGhpcy5jb3Vyc2VzID0gcmVzcG9uc2UuZGF0YS5yb3dzIHx8IFtdCiAgICAgICAgfQogICAgICB9KQogICAgfQogIH0KfQo8L3NjcmlwdD4KCjxzdHlsZSBzY29wZWQ+Ci50cmVlLWNhcmQgewogIG1pbi1oZWlnaHQ6IDQyMHB4Owp9CgouY2FyZC10aXRsZSB7CiAgZm9udC13ZWlnaHQ6IDYwMDsKICBjb2xvcjogIzJjN2E1ZDsKfQoKLnRyZWUtbm9kZSB7CiAgZGlzcGxheTogZmxleDsKICBqdXN0aWZ5LWNvbnRlbnQ6IHNwYWNlLWJldHdlZW47CiAgd2lkdGg6IDEwMCU7Cn0KCi50cmVlLWlkIHsKICBjb2xvcjogI2MwYzRjYzsKICBmb250LXNpemU6IDEycHg7Cn0KPC9zdHlsZT4K
+<template>
+  <div class="app-container">
+
+    <el-alert
+      title="MAD网课系统课程分类：金融投资 / IT工程 / 人工智能 三大方向，二级分类用于课程归类。"
+      type="info"
+      :closable="false"
+      show-icon
+      style="margin-bottom: 16px"/>
+
+    <el-row :gutter="16">
+      <el-col :span="12">
+        <el-card shadow="never" class="tree-card">
+          <div slot="header">
+            <span class="card-title">分类树</span>
+          </div>
+          <el-tree
+            :data="subjectTree"
+            :props="{ label: 'title', children: 'children' }"
+            default-expand-all
+            node-key="id">
+            <span slot-scope="{ data }" class="tree-node">
+              <span>{{ data.title }}</span>
+              <span class="tree-id">ID: {{ data.id }}</span>
+            </span>
+          </el-tree>
+        </el-card>
+      </el-col>
+
+      <el-col :span="12">
+        <el-card shadow="never" class="tree-card">
+          <div slot="header">
+            <span class="card-title">课程归属统计</span>
+          </div>
+          <el-table :data="statRows" border fit size="small">
+            <el-table-column prop="parent" label="一级分类" width="120"/>
+            <el-table-column prop="child" label="二级分类" width="140"/>
+            <el-table-column prop="count" label="课程数" width="80" align="center"/>
+            <el-table-column prop="courseTitles" label="课程" show-overflow-tooltip/>
+          </el-table>
+        </el-card>
+      </el-col>
+    </el-row>
+
+  </div>
+</template>
+
+<script>
+import subject from '@/api/edu/subject'
+import courseApi from '@/api/edu/course'
+
+export default {
+  data() {
+    return {
+      subjectTree: [],
+      courses: []
+    }
+  },
+
+  computed: {
+    statRows() {
+      const rows = []
+      this.subjectTree.forEach(parent => {
+        ;(parent.children || []).forEach(child => {
+          const matched = this.courses.filter(c => c.subjectId === child.id)
+          rows.push({
+            parent: parent.title,
+            child: child.title,
+            count: matched.length,
+            courseTitles: matched.map(c => c.title).join('、') || '—'
+          })
+        })
+      })
+      return rows
+    }
+  },
+
+  created() {
+    this.loadData()
+  },
+
+  methods: {
+    loadData() {
+      subject.getNestedList().then(response => {
+        if (response.success === true) {
+          this.subjectTree = response.data.items || []
+        }
+      })
+      courseApi.getPageList(1, 100, {}).then(response => {
+        if (response.success === true) {
+          this.courses = response.data.rows || []
+        }
+      })
+    }
+  }
+}
+</script>
+
+<style scoped>
+.tree-card {
+  min-height: 420px;
+}
+
+.card-title {
+  font-weight: 600;
+  color: #2c7a5d;
+}
+
+.tree-node {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.tree-id {
+  color: #c0c4cc;
+  font-size: 12px;
+}
+</style>

@@ -1,1 +1,20 @@
-cGFja2FnZSBjb20ubWFkLmVkdS5zZXJ2aWNlLmltcGw7CgppbXBvcnQgY29tLm1hZC5lZHUuZW50aXR5LkNvdXJzZURlc2NyaXB0aW9uOwppbXBvcnQgY29tLm1hZC5lZHUubWFwcGVyLkNvdXJzZURlc2NyaXB0aW9uTWFwcGVyOwppbXBvcnQgY29tLm1hZC5lZHUuc2VydmljZS5Db3Vyc2VEZXNjcmlwdGlvblNlcnZpY2U7CmltcG9ydCBjb20uYmFvbWlkb3UubXliYXRpc3BsdXMuZXh0ZW5zaW9uLnNlcnZpY2UuaW1wbC5TZXJ2aWNlSW1wbDsKaW1wb3J0IG9yZy5zcHJpbmdmcmFtZXdvcmsuc3RlcmVvdHlwZS5TZXJ2aWNlOwoKLyoqCiAqIDxwPgogKiDor77nqIvnroDku4sg5pyN5Yqh5a6e546w57G7CiAqIDwvcD4KICoKICogQGF1dGhvciBIZWxlbgogKiBAc2luY2UgMjAxOS0wNi0yNAogKi8KQFNlcnZpY2UKcHVibGljIGNsYXNzIENvdXJzZURlc2NyaXB0aW9uU2VydmljZUltcGwgZXh0ZW5kcyBTZXJ2aWNlSW1wbDxDb3Vyc2VEZXNjcmlwdGlvbk1hcHBlciwgQ291cnNlRGVzY3JpcHRpb24+IGltcGxlbWVudHMgQ291cnNlRGVzY3JpcHRpb25TZXJ2aWNlIHsKCn0K
+package com.mad.edu.service.impl;
+
+import com.mad.edu.entity.CourseDescription;
+import com.mad.edu.mapper.CourseDescriptionMapper;
+import com.mad.edu.service.CourseDescriptionService;
+import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import org.springframework.stereotype.Service;
+
+/**
+ * <p>
+ * 课程简介 服务实现类
+ * </p>
+ *
+ * @author Helen
+ * @since 2019-06-24
+ */
+@Service
+public class CourseDescriptionServiceImpl extends ServiceImpl<CourseDescriptionMapper, CourseDescription> implements CourseDescriptionService {
+
+}

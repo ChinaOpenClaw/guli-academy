@@ -1,1 +1,34 @@
-PHRlbXBsYXRlPgogIDxmb290ZXIgY2xhc3M9ImctZm9vdGVyIj4KICAgIDxkaXYgY2xhc3M9ImNvbnRhaW5lciI+CiAgICAgIDxkaXYgY2xhc3M9ImZsaW5rLWxpc3QiPgogICAgICAgIDxhIGhyZWY9Imh0dHBzOi8vd3d3LmF0Z3VpZ3UuY29tIiB0YXJnZXQ9Il9ibGFuayIgcmVsPSJub29wZW5lciI+5bCa56GF6LC3PC9hPgogICAgICAgIDxhIGhyZWY9Imh0dHBzOi8vd3d3LmF0Z3VpZ3UuY29tIiB0YXJnZXQ9Il9ibGFuayIgcmVsPSJub29wZW5lciI+TUFE572R6K++57O757ufPC9hPgogICAgICAgIDxhIGhyZWY9Imh0dHBzOi8vd3d3LmF0Z3VpZ3UuY29tIiB0YXJnZXQ9Il9ibGFuayIgcmVsPSJub29wZW5lciI+5LqR5Y6f55Sf5a2m6ZmiPC9hPgogICAgICAgIDxhIGhyZWY9Imh0dHBzOi8vd3d3LmF0Z3VpZ3UuY29tIiB0YXJnZXQ9Il9ibGFuayIgcmVsPSJub29wZW5lciI+5aSn5pWw5o2u5a2m6ZmiPC9hPgogICAgICA8L2Rpdj4KICAgICAgPGRpdiBjbGFzcz0iYi1mLWxpbmsiPgogICAgICAgIDxyb3V0ZXItbGluayB0bz0iL2FydGljbGVzIj7lhbPkuo7miJHku6w8L3JvdXRlci1saW5rPgogICAgICAgIDxyb3V0ZXItbGluayB0bz0iL3F1ZXN0aW9ucyI+6IGU57O75oiR5LusPC9yb3V0ZXItbGluaz4KICAgICAgICA8cm91dGVyLWxpbmsgdG89Ii9jb3Vyc2VzIj7luK7liqnkuK3lv4M8L3JvdXRlci1saW5rPgogICAgICAgIDxyb3V0ZXItbGluayB0bz0iL3VzZXIiPui1hOa6kOS4i+i9vTwvcm91dGVyLWxpbms+CiAgICAgIDwvZGl2PgoKICAgICAgPGRpdiBjbGFzcz0iZ2YtdHgiPgogICAgICAgIDxhIGhyZWY9ImphdmFzY3JpcHQ6dm9pZCgwKSIgdGl0bGU9IuW+ruS/oSI+PGltZyBzcmM9Ii9pbWcvd3gtaWNvbi5wbmciIGFsdD0i5b6u5L+hIiAvPjwvYT4KICAgICAgICA8YSBocmVmPSJqYXZhc2NyaXB0OnZvaWQoMCkiIHRpdGxlPSLlvq7ljZoiPjxpbWcgc3JjPSIvaW1nL3diLWljb24ucG5nIiBhbHQ9IuW+ruWNmiIgLz48L2E+CiAgICAgIDwvZGl2PgoKICAgICAgPGRpdiBjbGFzcz0iY29weXJpZ2h0Ij4KICAgICAgICDmnI3liqHng63nur/vvJowMTAtNTYyNTM4MjXvvIjljJfkuqzvvIkmbmJzcDsmbmJzcDt8Jm5ic3A7Jm5ic3A75LqsSUNQ5aSHMTcwNTUyNTLlj7cKICAgICAgPC9kaXY+CiAgICAgIDxkaXYgY2xhc3M9ImNvcHlyaWdodCIgc3R5bGU9Im1hcmdpbi10b3A6NnB4Ij4KICAgICAgICDCqSAyMDI2IE1BROe9keivvuezu+e7nyDniYjmnYPmiYDmnIkmbmJzcDsmbmJzcDtNQUTnvZHor77ns7vnu58g5Zyo57q/SVTmioDog73lrabkuaDlubPlj7AKICAgICAgPC9kaXY+CiAgICA8L2Rpdj4KICA8L2Zvb3Rlcj4KPC90ZW1wbGF0ZT4KCjxzY3JpcHQgc2V0dXA+Ci8vIOe6r+WxleekuuWei+WFrOWFseW6le+8jOaXoOmcgOmAu+i+kQo8L3NjcmlwdD4K
+<template>
+  <footer class="g-footer">
+    <div class="container">
+      <div class="flink-list">
+        <a href="https://www.atguigu.com" target="_blank" rel="noopener">尚硅谷</a>
+        <a href="https://www.atguigu.com" target="_blank" rel="noopener">MAD网课系统</a>
+        <a href="https://www.atguigu.com" target="_blank" rel="noopener">云原生学院</a>
+        <a href="https://www.atguigu.com" target="_blank" rel="noopener">大数据学院</a>
+      </div>
+      <div class="b-f-link">
+        <router-link to="/articles">关于我们</router-link>
+        <router-link to="/questions">联系我们</router-link>
+        <router-link to="/courses">帮助中心</router-link>
+        <router-link to="/user">资源下载</router-link>
+      </div>
+
+      <div class="gf-tx">
+        <a href="javascript:void(0)" title="微信"><img src="/img/wx-icon.png" alt="微信" /></a>
+        <a href="javascript:void(0)" title="微博"><img src="/img/wb-icon.png" alt="微博" /></a>
+      </div>
+
+      <div class="copyright">
+        服务热线：010-56253825（北京）&nbsp;&nbsp;|&nbsp;&nbsp;京ICP备17055252号
+      </div>
+      <div class="copyright" style="margin-top:6px">
+        © 2026 MAD网课系统 版权所有&nbsp;&nbsp;MAD网课系统 在线IT技能学习平台
+      </div>
+    </div>
+  </footer>
+</template>
+
+<script setup>
+// 纯展示型公共底，无需逻辑
+</script>

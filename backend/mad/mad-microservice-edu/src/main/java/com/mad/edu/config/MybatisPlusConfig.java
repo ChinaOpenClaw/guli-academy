@@ -1,1 +1,50 @@
-cGFja2FnZSBjb20ubWFkLmVkdS5jb25maWc7CgppbXBvcnQgY29tLmJhb21pZG91Lm15YmF0aXNwbHVzLmNvcmUuaW5qZWN0b3IuSVNxbEluamVjdG9yOwppbXBvcnQgY29tLmJhb21pZG91Lm15YmF0aXNwbHVzLmV4dGVuc2lvbi5pbmplY3Rvci5Mb2dpY1NxbEluamVjdG9yOwppbXBvcnQgY29tLmJhb21pZG91Lm15YmF0aXNwbHVzLmV4dGVuc2lvbi5wbHVnaW5zLlBhZ2luYXRpb25JbnRlcmNlcHRvcjsKaW1wb3J0IGNvbS5iYW9taWRvdS5teWJhdGlzcGx1cy5leHRlbnNpb24ucGx1Z2lucy5QZXJmb3JtYW5jZUludGVyY2VwdG9yOwppbXBvcnQgb3JnLm15YmF0aXMuc3ByaW5nLmFubm90YXRpb24uTWFwcGVyU2NhbjsKaW1wb3J0IG9yZy5zcHJpbmdmcmFtZXdvcmsuY29udGV4dC5hbm5vdGF0aW9uLkJlYW47CmltcG9ydCBvcmcuc3ByaW5nZnJhbWV3b3JrLmNvbnRleHQuYW5ub3RhdGlvbi5Db25maWd1cmF0aW9uOwppbXBvcnQgb3JnLnNwcmluZ2ZyYW1ld29yay5jb250ZXh0LmFubm90YXRpb24uUHJvZmlsZTsKaW1wb3J0IG9yZy5zcHJpbmdmcmFtZXdvcmsudHJhbnNhY3Rpb24uYW5ub3RhdGlvbi5FbmFibGVUcmFuc2FjdGlvbk1hbmFnZW1lbnQ7CgovKioKICogQGF1dGhvciBoZWxlbgogKiBAc2luY2UgMjAxOS82LzI0CiAqLwpAQ29uZmlndXJhdGlvbgpARW5hYmxlVHJhbnNhY3Rpb25NYW5hZ2VtZW50CkBNYXBwZXJTY2FuKCJjb20ubWFkLmVkdS5tYXBwZXIiKQpwdWJsaWMgY2xhc3MgTXliYXRpc1BsdXNDb25maWcgewoKCS8qKgoJICogU1FMIOaJp+ihjOaAp+iDveWIhuaekOaPkuS7tgoJICog5byA5Y+R546v5aKD5L2/55So77yM57q/5LiK5LiN5o6o6I2Q44CCIG1heFRpbWUg5oyH55qE5pivIHNxbCDmnIDlpKfmiafooYzml7bplb8KCSAqLwoJQEJlYW4KCUBQcm9maWxlKHsiZGV2IiwidGVzdCJ9KS8vIOiuvue9riBkZXYgdGVzdCDnjq/looPlvIDlkK8KCXB1YmxpYyBQZXJmb3JtYW5jZUludGVyY2VwdG9yIHBlcmZvcm1hbmNlSW50ZXJjZXB0b3IoKSB7CgkJUGVyZm9ybWFuY2VJbnRlcmNlcHRvciBwZXJmb3JtYW5jZUludGVyY2VwdG9yID0gbmV3IFBlcmZvcm1hbmNlSW50ZXJjZXB0b3IoKTsKCQlwZXJmb3JtYW5jZUludGVyY2VwdG9yLnNldE1heFRpbWUoMTAwMCk7Ly9tc++8jOi2hei/h+atpOWkhOiuvue9rueahG1z5YiZc3Fs5LiN5omn6KGMCgkJcGVyZm9ybWFuY2VJbnRlcmNlcHRvci5zZXRGb3JtYXQodHJ1ZSk7CgkJcmV0dXJuIHBlcmZvcm1hbmNlSW50ZXJjZXB0b3I7Cgl9CgoJLyoqCgkgKiDpgLvovpHliKDpmaTmj5Lku7YKCSAqLwoJQEJlYW4KCXB1YmxpYyBJU3FsSW5qZWN0b3Igc3FsSW5qZWN0b3IoKSB7CgkJcmV0dXJuIG5ldyBMb2dpY1NxbEluamVjdG9yKCk7Cgl9CgoJLyoqCgkgKiDliIbpobXmj5Lku7YKCSAqLwoJQEJlYW4KCXB1YmxpYyBQYWdpbmF0aW9uSW50ZXJjZXB0b3IgcGFnaW5hdGlvbkludGVyY2VwdG9yKCkgewoJCXJldHVybiBuZXcgUGFnaW5hdGlvbkludGVyY2VwdG9yKCk7Cgl9Cn0K
+package com.mad.edu.config;
+
+import com.baomidou.mybatisplus.core.injector.ISqlInjector;
+import com.baomidou.mybatisplus.extension.injector.LogicSqlInjector;
+import com.baomidou.mybatisplus.extension.plugins.PaginationInterceptor;
+import com.baomidou.mybatisplus.extension.plugins.PerformanceInterceptor;
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Profile;
+import org.springframework.transaction.annotation.EnableTransactionManagement;
+
+/**
+ * @author helen
+ * @since 2019/6/24
+ */
+@Configuration
+@EnableTransactionManagement
+@MapperScan("com.mad.edu.mapper")
+public class MybatisPlusConfig {
+
+	/**
+	 * SQL 执行性能分析插件
+	 * 开发环境使用，线上不推荐。 maxTime 指的是 sql 最大执行时长
+	 */
+	@Bean
+	@Profile({"dev","test"})// 设置 dev test 环境开启
+	public PerformanceInterceptor performanceInterceptor() {
+		PerformanceInterceptor performanceInterceptor = new PerformanceInterceptor();
+		performanceInterceptor.setMaxTime(1000);//ms，超过此处设置的ms则sql不执行
+		performanceInterceptor.setFormat(true);
+		return performanceInterceptor;
+	}
+
+	/**
+	 * 逻辑删除插件
+	 */
+	@Bean
+	public ISqlInjector sqlInjector() {
+		return new LogicSqlInjector();
+	}
+
+	/**
+	 * 分页插件
+	 */
+	@Bean
+	public PaginationInterceptor paginationInterceptor() {
+		return new PaginationInterceptor();
+	}
+}

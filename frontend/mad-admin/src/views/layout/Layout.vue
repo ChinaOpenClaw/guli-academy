@@ -1,1 +1,69 @@
-PHRlbXBsYXRlPgogIDxkaXYgOmNsYXNzPSJjbGFzc09iaiIgY2xhc3M9ImFwcC13cmFwcGVyIj4KICAgIDxkaXYgdi1pZj0iZGV2aWNlPT09J21vYmlsZScmJnNpZGViYXIub3BlbmVkIiBjbGFzcz0iZHJhd2VyLWJnIiBAY2xpY2s9ImhhbmRsZUNsaWNrT3V0c2lkZSIvPgogICAgPHNpZGViYXIgY2xhc3M9InNpZGViYXItY29udGFpbmVyIi8+CiAgICA8ZGl2IGNsYXNzPSJtYWluLWNvbnRhaW5lciI+CiAgICAgIDxuYXZiYXIvPgogICAgICA8YXBwLW1haW4vPgogICAgPC9kaXY+CiAgPC9kaXY+CjwvdGVtcGxhdGU+Cgo8c2NyaXB0PgppbXBvcnQgeyBOYXZiYXIsIFNpZGViYXIsIEFwcE1haW4gfSBmcm9tICcuL2NvbXBvbmVudHMnCmltcG9ydCBSZXNpemVNaXhpbiBmcm9tICcuL21peGluL1Jlc2l6ZUhhbmRsZXInCgpleHBvcnQgZGVmYXVsdCB7CiAgbmFtZTogJ0xheW91dCcsCiAgY29tcG9uZW50czogewogICAgTmF2YmFyLAogICAgU2lkZWJhciwKICAgIEFwcE1haW4KICB9LAogIG1peGluczogW1Jlc2l6ZU1peGluXSwKICBjb21wdXRlZDogewogICAgc2lkZWJhcigpIHsKICAgICAgcmV0dXJuIHRoaXMuJHN0b3JlLnN0YXRlLmFwcC5zaWRlYmFyCiAgICB9LAogICAgZGV2aWNlKCkgewogICAgICByZXR1cm4gdGhpcy4kc3RvcmUuc3RhdGUuYXBwLmRldmljZQogICAgfSwKICAgIGNsYXNzT2JqKCkgewogICAgICByZXR1cm4gewogICAgICAgIGhpZGVTaWRlYmFyOiAhdGhpcy5zaWRlYmFyLm9wZW5lZCwKICAgICAgICBvcGVuU2lkZWJhcjogdGhpcy5zaWRlYmFyLm9wZW5lZCwKICAgICAgICB3aXRob3V0QW5pbWF0aW9uOiB0aGlzLnNpZGViYXIud2l0aG91dEFuaW1hdGlvbiwKICAgICAgICBtb2JpbGU6IHRoaXMuZGV2aWNlID09PSAnbW9iaWxlJwogICAgICB9CiAgICB9CiAgfSwKICBtZXRob2RzOiB7CiAgICBoYW5kbGVDbGlja091dHNpZGUoKSB7CiAgICAgIHRoaXMuJHN0b3JlLmRpc3BhdGNoKCdDbG9zZVNpZGVCYXInLCB7IHdpdGhvdXRBbmltYXRpb246IGZhbHNlIH0pCiAgICB9CiAgfQp9Cjwvc2NyaXB0PgoKPHN0eWxlIHJlbD0ic3R5bGVzaGVldC9zY3NzIiBsYW5nPSJzY3NzIiBzY29wZWQ+CiAgQGltcG9ydCAic3JjL3N0eWxlcy9taXhpbi5zY3NzIjsKICAuYXBwLXdyYXBwZXIgewogICAgQGluY2x1ZGUgY2xlYXJmaXg7CiAgICBwb3NpdGlvbjogcmVsYXRpdmU7CiAgICBoZWlnaHQ6IDEwMCU7CiAgICB3aWR0aDogMTAwJTsKICAgICYubW9iaWxlLm9wZW5TaWRlYmFyewogICAgICBwb3NpdGlvbjogZml4ZWQ7CiAgICAgIHRvcDogMDsKICAgIH0KICB9CiAgLmRyYXdlci1iZyB7CiAgICBiYWNrZ3JvdW5kOiAjMDAwOwogICAgb3BhY2l0eTogMC4zOwogICAgd2lkdGg6IDEwMCU7CiAgICB0b3A6IDA7CiAgICBoZWlnaHQ6IDEwMCU7CiAgICBwb3NpdGlvbjogYWJzb2x1dGU7CiAgICB6LWluZGV4OiA5OTk7CiAgfQo8L3N0eWxlPgo=
+<template>
+  <div :class="classObj" class="app-wrapper">
+    <div v-if="device==='mobile'&&sidebar.opened" class="drawer-bg" @click="handleClickOutside"/>
+    <sidebar class="sidebar-container"/>
+    <div class="main-container">
+      <navbar/>
+      <app-main/>
+    </div>
+  </div>
+</template>
+
+<script>
+import { Navbar, Sidebar, AppMain } from './components'
+import ResizeMixin from './mixin/ResizeHandler'
+
+export default {
+  name: 'Layout',
+  components: {
+    Navbar,
+    Sidebar,
+    AppMain
+  },
+  mixins: [ResizeMixin],
+  computed: {
+    sidebar() {
+      return this.$store.state.app.sidebar
+    },
+    device() {
+      return this.$store.state.app.device
+    },
+    classObj() {
+      return {
+        hideSidebar: !this.sidebar.opened,
+        openSidebar: this.sidebar.opened,
+        withoutAnimation: this.sidebar.withoutAnimation,
+        mobile: this.device === 'mobile'
+      }
+    }
+  },
+  methods: {
+    handleClickOutside() {
+      this.$store.dispatch('CloseSideBar', { withoutAnimation: false })
+    }
+  }
+}
+</script>
+
+<style rel="stylesheet/scss" lang="scss" scoped>
+  @import "src/styles/mixin.scss";
+  .app-wrapper {
+    @include clearfix;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    &.mobile.openSidebar{
+      position: fixed;
+      top: 0;
+    }
+  }
+  .drawer-bg {
+    background: #000;
+    opacity: 0.3;
+    width: 100%;
+    top: 0;
+    height: 100%;
+    position: absolute;
+    z-index: 999;
+  }
+</style>

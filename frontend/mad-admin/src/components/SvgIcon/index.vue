@@ -1,1 +1,43 @@
-PHRlbXBsYXRlPgogIDxzdmcgOmNsYXNzPSJzdmdDbGFzcyIgYXJpYS1oaWRkZW49InRydWUiPgogICAgPHVzZSA6eGxpbms6aHJlZj0iaWNvbk5hbWUiLz4KICA8L3N2Zz4KPC90ZW1wbGF0ZT4KCjxzY3JpcHQ+CmV4cG9ydCBkZWZhdWx0IHsKICBuYW1lOiAnU3ZnSWNvbicsCiAgcHJvcHM6IHsKICAgIGljb25DbGFzczogewogICAgICB0eXBlOiBTdHJpbmcsCiAgICAgIHJlcXVpcmVkOiB0cnVlCiAgICB9LAogICAgY2xhc3NOYW1lOiB7CiAgICAgIHR5cGU6IFN0cmluZywKICAgICAgZGVmYXVsdDogJycKICAgIH0KICB9LAogIGNvbXB1dGVkOiB7CiAgICBpY29uTmFtZSgpIHsKICAgICAgcmV0dXJuIGAjaWNvbi0ke3RoaXMuaWNvbkNsYXNzfWAKICAgIH0sCiAgICBzdmdDbGFzcygpIHsKICAgICAgaWYgKHRoaXMuY2xhc3NOYW1lKSB7CiAgICAgICAgcmV0dXJuICdzdmctaWNvbiAnICsgdGhpcy5jbGFzc05hbWUKICAgICAgfSBlbHNlIHsKICAgICAgICByZXR1cm4gJ3N2Zy1pY29uJwogICAgICB9CiAgICB9CiAgfQp9Cjwvc2NyaXB0PgoKPHN0eWxlIHNjb3BlZD4KLnN2Zy1pY29uIHsKICB3aWR0aDogMWVtOwogIGhlaWdodDogMWVtOwogIHZlcnRpY2FsLWFsaWduOiAtMC4xNWVtOwogIGZpbGw6IGN1cnJlbnRDb2xvcjsKICBvdmVyZmxvdzogaGlkZGVuOwp9Cjwvc3R5bGU+Cg==
+<template>
+  <svg :class="svgClass" aria-hidden="true">
+    <use :xlink:href="iconName"/>
+  </svg>
+</template>
+
+<script>
+export default {
+  name: 'SvgIcon',
+  props: {
+    iconClass: {
+      type: String,
+      required: true
+    },
+    className: {
+      type: String,
+      default: ''
+    }
+  },
+  computed: {
+    iconName() {
+      return `#icon-${this.iconClass}`
+    },
+    svgClass() {
+      if (this.className) {
+        return 'svg-icon ' + this.className
+      } else {
+        return 'svg-icon'
+      }
+    }
+  }
+}
+</script>
+
+<style scoped>
+.svg-icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+</style>

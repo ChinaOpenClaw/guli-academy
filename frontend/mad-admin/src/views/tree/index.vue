@@ -1,1 +1,78 @@
-PHRlbXBsYXRlPgogIDxkaXYgY2xhc3M9ImFwcC1jb250YWluZXIiPgogICAgPGVsLWlucHV0IHYtbW9kZWw9ImZpbHRlclRleHQiIHBsYWNlaG9sZGVyPSJGaWx0ZXIga2V5d29yZCIgc3R5bGU9Im1hcmdpbi1ib3R0b206MzBweDsiIC8+CgogICAgPGVsLXRyZWUKICAgICAgcmVmPSJ0cmVlMiIKICAgICAgOmRhdGE9ImRhdGEyIgogICAgICA6cHJvcHM9ImRlZmF1bHRQcm9wcyIKICAgICAgOmZpbHRlci1ub2RlLW1ldGhvZD0iZmlsdGVyTm9kZSIKICAgICAgY2xhc3M9ImZpbHRlci10cmVlIgogICAgICBkZWZhdWx0LWV4cGFuZC1hbGwKICAgIC8+CgogIDwvZGl2Pgo8L3RlbXBsYXRlPgoKPHNjcmlwdD4KZXhwb3J0IGRlZmF1bHQgewoKICBkYXRhKCkgewogICAgcmV0dXJuIHsKICAgICAgZmlsdGVyVGV4dDogJycsCiAgICAgIGRhdGEyOiBbewogICAgICAgIGlkOiAxLAogICAgICAgIGxhYmVsOiAnTGV2ZWwgb25lIDEnLAogICAgICAgIGNoaWxkcmVuOiBbewogICAgICAgICAgaWQ6IDQsCiAgICAgICAgICBsYWJlbDogJ0xldmVsIHR3byAxLTEnLAogICAgICAgICAgY2hpbGRyZW46IFt7CiAgICAgICAgICAgIGlkOiA5LAogICAgICAgICAgICBsYWJlbDogJ0xldmVsIHRocmVlIDEtMS0xJwogICAgICAgICAgfSwgewogICAgICAgICAgICBpZDogMTAsCiAgICAgICAgICAgIGxhYmVsOiAnTGV2ZWwgdGhyZWUgMS0xLTInCiAgICAgICAgICB9XQogICAgICAgIH1dCiAgICAgIH0sIHsKICAgICAgICBpZDogMiwKICAgICAgICBsYWJlbDogJ0xldmVsIG9uZSAyJywKICAgICAgICBjaGlsZHJlbjogW3sKICAgICAgICAgIGlkOiA1LAogICAgICAgICAgbGFiZWw6ICdMZXZlbCB0d28gMi0xJwogICAgICAgIH0sIHsKICAgICAgICAgIGlkOiA2LAogICAgICAgICAgbGFiZWw6ICdMZXZlbCB0d28gMi0yJwogICAgICAgIH1dCiAgICAgIH0sIHsKICAgICAgICBpZDogMywKICAgICAgICBsYWJlbDogJ0xldmVsIG9uZSAzJywKICAgICAgICBjaGlsZHJlbjogW3sKICAgICAgICAgIGlkOiA3LAogICAgICAgICAgbGFiZWw6ICdMZXZlbCB0d28gMy0xJwogICAgICAgIH0sIHsKICAgICAgICAgIGlkOiA4LAogICAgICAgICAgbGFiZWw6ICdMZXZlbCB0d28gMy0yJwogICAgICAgIH1dCiAgICAgIH1dLAogICAgICBkZWZhdWx0UHJvcHM6IHsKICAgICAgICBjaGlsZHJlbjogJ2NoaWxkcmVuJywKICAgICAgICBsYWJlbDogJ2xhYmVsJwogICAgICB9CiAgICB9CiAgfSwKICB3YXRjaDogewogICAgZmlsdGVyVGV4dCh2YWwpIHsKICAgICAgdGhpcy4kcmVmcy50cmVlMi5maWx0ZXIodmFsKQogICAgfQogIH0sCgogIG1ldGhvZHM6IHsKICAgIGZpbHRlck5vZGUodmFsdWUsIGRhdGEpIHsKICAgICAgaWYgKCF2YWx1ZSkgcmV0dXJuIHRydWUKICAgICAgcmV0dXJuIGRhdGEubGFiZWwuaW5kZXhPZih2YWx1ZSkgIT09IC0xCiAgICB9CiAgfQp9Cjwvc2NyaXB0PgoK
+<template>
+  <div class="app-container">
+    <el-input v-model="filterText" placeholder="Filter keyword" style="margin-bottom:30px;" />
+
+    <el-tree
+      ref="tree2"
+      :data="data2"
+      :props="defaultProps"
+      :filter-node-method="filterNode"
+      class="filter-tree"
+      default-expand-all
+    />
+
+  </div>
+</template>
+
+<script>
+export default {
+
+  data() {
+    return {
+      filterText: '',
+      data2: [{
+        id: 1,
+        label: 'Level one 1',
+        children: [{
+          id: 4,
+          label: 'Level two 1-1',
+          children: [{
+            id: 9,
+            label: 'Level three 1-1-1'
+          }, {
+            id: 10,
+            label: 'Level three 1-1-2'
+          }]
+        }]
+      }, {
+        id: 2,
+        label: 'Level one 2',
+        children: [{
+          id: 5,
+          label: 'Level two 2-1'
+        }, {
+          id: 6,
+          label: 'Level two 2-2'
+        }]
+      }, {
+        id: 3,
+        label: 'Level one 3',
+        children: [{
+          id: 7,
+          label: 'Level two 3-1'
+        }, {
+          id: 8,
+          label: 'Level two 3-2'
+        }]
+      }],
+      defaultProps: {
+        children: 'children',
+        label: 'label'
+      }
+    }
+  },
+  watch: {
+    filterText(val) {
+      this.$refs.tree2.filter(val)
+    }
+  },
+
+  methods: {
+    filterNode(value, data) {
+      if (!value) return true
+      return data.label.indexOf(value) !== -1
+    }
+  }
+}
+</script>
+

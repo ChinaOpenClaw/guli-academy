@@ -1,1 +1,50 @@
-cGFja2FnZSBjb20ubWFkLnVjZW50ZXIuY29uZmlnOwoKaW1wb3J0IGNvbS5iYW9taWRvdS5teWJhdGlzcGx1cy5jb3JlLmluamVjdG9yLklTcWxJbmplY3RvcjsKaW1wb3J0IGNvbS5iYW9taWRvdS5teWJhdGlzcGx1cy5leHRlbnNpb24uaW5qZWN0b3IuTG9naWNTcWxJbmplY3RvcjsKaW1wb3J0IGNvbS5iYW9taWRvdS5teWJhdGlzcGx1cy5leHRlbnNpb24ucGx1Z2lucy5QYWdpbmF0aW9uSW50ZXJjZXB0b3I7CmltcG9ydCBjb20uYmFvbWlkb3UubXliYXRpc3BsdXMuZXh0ZW5zaW9uLnBsdWdpbnMuUGVyZm9ybWFuY2VJbnRlcmNlcHRvcjsKaW1wb3J0IG9yZy5teWJhdGlzLnNwcmluZy5hbm5vdGF0aW9uLk1hcHBlclNjYW47CmltcG9ydCBvcmcuc3ByaW5nZnJhbWV3b3JrLmNvbnRleHQuYW5ub3RhdGlvbi5CZWFuOwppbXBvcnQgb3JnLnNwcmluZ2ZyYW1ld29yay5jb250ZXh0LmFubm90YXRpb24uQ29uZmlndXJhdGlvbjsKaW1wb3J0IG9yZy5zcHJpbmdmcmFtZXdvcmsuY29udGV4dC5hbm5vdGF0aW9uLlByb2ZpbGU7CmltcG9ydCBvcmcuc3ByaW5nZnJhbWV3b3JrLnRyYW5zYWN0aW9uLmFubm90YXRpb24uRW5hYmxlVHJhbnNhY3Rpb25NYW5hZ2VtZW50OwoKLyoqCiAqIEBhdXRob3IgaGVsZW4KICogQHNpbmNlIDIwMTkvNi8yNAogKi8KQENvbmZpZ3VyYXRpb24KQEVuYWJsZVRyYW5zYWN0aW9uTWFuYWdlbWVudApATWFwcGVyU2NhbigiY29tLm1hZC51Y2VudGVyLm1hcHBlciIpCnB1YmxpYyBjbGFzcyBNeWJhdGlzUGx1c0NvbmZpZyB7CgoJLyoqCgkgKiBTUUwg5omn6KGM5oCn6IO95YiG5p6Q5o+S5Lu2CgkgKiDlvIDlj5Hnjq/looPkvb/nlKjvvIznur/kuIrkuI3mjqjojZDjgIIgbWF4VGltZSDmjIfnmoTmmK8gc3FsIOacgOWkp+aJp+ihjOaXtumVvwoJICovCglAQmVhbgoJQFByb2ZpbGUoeyJkZXYiLCJ0ZXN0In0pLy8g6K6+572uIGRldiB0ZXN0IOeOr+Wig+W8gOWQrwoJcHVibGljIFBlcmZvcm1hbmNlSW50ZXJjZXB0b3IgcGVyZm9ybWFuY2VJbnRlcmNlcHRvcigpIHsKCQlQZXJmb3JtYW5jZUludGVyY2VwdG9yIHBlcmZvcm1hbmNlSW50ZXJjZXB0b3IgPSBuZXcgUGVyZm9ybWFuY2VJbnRlcmNlcHRvcigpOwoJCXBlcmZvcm1hbmNlSW50ZXJjZXB0b3Iuc2V0TWF4VGltZSgxMDAwKTsvL21z77yM6LaF6L+H5q2k5aSE6K6+572u55qEbXPliJlzcWzkuI3miafooYwKCQlwZXJmb3JtYW5jZUludGVyY2VwdG9yLnNldEZvcm1hdCh0cnVlKTsKCQlyZXR1cm4gcGVyZm9ybWFuY2VJbnRlcmNlcHRvcjsKCX0KCgkvKioKCSAqIOmAu+i+keWIoOmZpOaPkuS7tgoJICovCglAQmVhbgoJcHVibGljIElTcWxJbmplY3RvciBzcWxJbmplY3RvcigpIHsKCQlyZXR1cm4gbmV3IExvZ2ljU3FsSW5qZWN0b3IoKTsKCX0KCgkvKioKCSAqIOWIhumhteaPkuS7tgoJICovCglAQmVhbgoJcHVibGljIFBhZ2luYXRpb25JbnRlcmNlcHRvciBwYWdpbmF0aW9uSW50ZXJjZXB0b3IoKSB7CgkJcmV0dXJuIG5ldyBQYWdpbmF0aW9uSW50ZXJjZXB0b3IoKTsKCX0KfQo=
+package com.mad.ucenter.config;
+
+import com.baomidou.mybatisplus.core.injector.ISqlInjector;
+import com.baomidou.mybatisplus.extension.injector.LogicSqlInjector;
+import com.baomidou.mybatisplus.extension.plugins.PaginationInterceptor;
+import com.baomidou.mybatisplus.extension.plugins.PerformanceInterceptor;
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Profile;
+import org.springframework.transaction.annotation.EnableTransactionManagement;
+
+/**
+ * @author helen
+ * @since 2019/6/24
+ */
+@Configuration
+@EnableTransactionManagement
+@MapperScan("com.mad.ucenter.mapper")
+public class MybatisPlusConfig {
+
+	/**
+	 * SQL 执行性能分析插件
+	 * 开发环境使用，线上不推荐。 maxTime 指的是 sql 最大执行时长
+	 */
+	@Bean
+	@Profile({"dev","test"})// 设置 dev test 环境开启
+	public PerformanceInterceptor performanceInterceptor() {
+		PerformanceInterceptor performanceInterceptor = new PerformanceInterceptor();
+		performanceInterceptor.setMaxTime(1000);//ms，超过此处设置的ms则sql不执行
+		performanceInterceptor.setFormat(true);
+		return performanceInterceptor;
+	}
+
+	/**
+	 * 逻辑删除插件
+	 */
+	@Bean
+	public ISqlInjector sqlInjector() {
+		return new LogicSqlInjector();
+	}
+
+	/**
+	 * 分页插件
+	 */
+	@Bean
+	public PaginationInterceptor paginationInterceptor() {
+		return new PaginationInterceptor();
+	}
+}

@@ -1,1 +1,131 @@
-cGFja2FnZSBjb20ubWFkLmVkdS5jb250cm9sbGVyLmFkbWluOwoKaW1wb3J0IGNvbS5iYW9taWRvdS5teWJhdGlzcGx1cy5leHRlbnNpb24ucGx1Z2lucy5wYWdpbmF0aW9uLlBhZ2U7CmltcG9ydCBjb20ubWFkLmNvbW1vbi5jb25zdGFudHMuUmVzdWx0Q29kZUVudW07CmltcG9ydCBjb20ubWFkLmNvbW1vbi5leGNlcHRpb24uTWFkRXhjZXB0aW9uOwppbXBvcnQgY29tLm1hZC5jb21tb24udm8uUjsKaW1wb3J0IGNvbS5tYWQuZWR1LmVudGl0eS5UZWFjaGVyOwppbXBvcnQgY29tLm1hZC5lZHUucXVlcnkuVGVhY2hlclF1ZXJ5OwppbXBvcnQgY29tLm1hZC5lZHUuc2VydmljZS5UZWFjaGVyU2VydmljZTsKaW1wb3J0IGlvLnN3YWdnZXIuYW5ub3RhdGlvbnMuQXBpOwppbXBvcnQgaW8uc3dhZ2dlci5hbm5vdGF0aW9ucy5BcGlPcGVyYXRpb247CmltcG9ydCBpby5zd2FnZ2VyLmFubm90YXRpb25zLkFwaVBhcmFtOwppbXBvcnQgb3JnLnNwcmluZ2ZyYW1ld29yay5iZWFucy5mYWN0b3J5LmFubm90YXRpb24uQXV0b3dpcmVkOwppbXBvcnQgb3JnLnNwcmluZ2ZyYW1ld29yay53ZWIuYmluZC5hbm5vdGF0aW9uLio7CgppbXBvcnQgamF2YS51dGlsLkxpc3Q7CgovKioKICogQGF1dGhvciBoZWxlbgogKiBAc2luY2UgMjAxOS82LzI0CiAqLwpAUmVzdENvbnRyb2xsZXIKQFJlcXVlc3RNYXBwaW5nKCIvYWRtaW4vZWR1L3RlYWNoZXIiKQpAQ3Jvc3NPcmlnaW4gLy/ot6jln58KQEFwaShkZXNjcmlwdGlvbiA9ICLorrLluIjnrqHnkIYiKQpwdWJsaWMgY2xhc3MgVGVhY2hlckFkbWluQ29udHJvbGxlciB7CgoJQEF1dG93aXJlZAoJcHJpdmF0ZSBUZWFjaGVyU2VydmljZSB0ZWFjaGVyU2VydmljZTsKCglAQXBpT3BlcmF0aW9uKHZhbHVlID0gIuaJgOacieiusuW4iOWIl+ihqCIpCglAR2V0TWFwcGluZwoJcHVibGljIFIgbGlzdCgpewoKCQlMaXN0PFRlYWNoZXI+IGxpc3QgPSB0ZWFjaGVyU2VydmljZS5saXN0KG51bGwpOwoJCS8qSGFzaE1hcDxTdHJpbmcsIExpc3Q8VGVhY2hlcj4+IG1hcCA9IG5ldyBIYXNoTWFwPD4oKTsKCQltYXAucHV0KCJpdGVtcyIsIGxpc3QpOwoJCXJldHVybiBSLm9rKCkuZGF0YShtYXApOyovCgkJcmV0dXJuIFIub2soKQoJCQkJLm1lc3NhZ2UoIuafpeivouiusuW4iOWIl+ihqOaIkOWKnyIpCgkJCQkuZGF0YSgiaXRlbXMiLCBsaXN0KTsKCX0KCglAQXBpT3BlcmF0aW9uKHZhbHVlID0gIuagueaNrmlk5Yig6Zmk6K6y5biIIikKCUBEZWxldGVNYXBwaW5nKCJ7aWR9IikKCXB1YmxpYyBSIHJlbW92ZUJ5SWQoCgkJCUBBcGlQYXJhbShuYW1lID0gImlkIiwgdmFsdWU9IuiusuW4iGlkIiwgcmVxdWlyZWQgPSB0cnVlKQoJCQlAUGF0aFZhcmlhYmxlIFN0cmluZyBpZCl7CgkJdGVhY2hlclNlcnZpY2UucmVtb3ZlQnlJZChpZCk7CgoJCXJldHVybiBSLm9rKCk7Cgl9CgoJLypAQXBpT3BlcmF0aW9uKHZhbHVlID0gIuWIhumhteiusuW4iOWIl+ihqCIpCglAR2V0TWFwcGluZygie3BhZ2V9L3tsaW1pdH0iKQoJcHVibGljIFIgcGFnZUxpc3QoCgkJCUBBcGlQYXJhbShuYW1lID0gInBhZ2UiLCB2YWx1ZT0i5b2T5YmN6aG156CBIiwgcmVxdWlyZWQgPSB0cnVlKQoJCQlAUGF0aFZhcmlhYmxlIExvbmcgcGFnZSwKCQkJQEFwaVBhcmFtKG5hbWUgPSAibGltaXQiLCB2YWx1ZT0i5q+P6aG16K6w5b2V5pWwIiwgcmVxdWlyZWQgPSB0cnVlKQoJCQlAUGF0aFZhcmlhYmxlIExvbmcgbGltaXQKCSl7CgoJCVBhZ2U8VGVhY2hlcj4gcGFnZVBhcmFtID0gbmV3IFBhZ2U8PihwYWdlLCBsaW1pdCk7CgoJCXRlYWNoZXJTZXJ2aWNlLnBhZ2UocGFnZVBhcmFtLCBudWxsKTsKCQlMaXN0PFRlYWNoZXI+IHJlY29yZHMgPSBwYWdlUGFyYW0uZ2V0UmVjb3JkcygpOwoJCWxvbmcgdG90YWwgPSBwYWdlUGFyYW0uZ2V0VG90YWwoKTsKCgkJcmV0dXJuIFIub2soKS5kYXRhKCJ0b3RhbCIsIHRvdGFsKS5kYXRhKCJyb3dzIiwgcmVjb3Jkcyk7Cgl9Ki8KCglAQXBpT3BlcmF0aW9uKHZhbHVlID0gIuWIhumhteiusuW4iOWIl+ihqCIpCglAR2V0TWFwcGluZygie3BhZ2V9L3tsaW1pdH0iKQoJcHVibGljIFIgcGFnZVF1ZXJ5KAoJCQlAQXBpUGFyYW0obmFtZSA9ICJwYWdlIiwgdmFsdWUgPSAi5b2T5YmN6aG156CBIiwgcmVxdWlyZWQgPSB0cnVlKQoJCQlAUGF0aFZhcmlhYmxlIExvbmcgcGFnZSwKCgkJCUBBcGlQYXJhbShuYW1lID0gImxpbWl0IiwgdmFsdWUgPSAi5q+P6aG16K6w5b2V5pWwIiwgcmVxdWlyZWQgPSB0cnVlKQoJCQlAUGF0aFZhcmlhYmxlIExvbmcgbGltaXQsCgoJCQlAQXBpUGFyYW0obmFtZSA9ICJ0ZWFjaGVyUXVlcnkiLCB2YWx1ZSA9ICLmn6Xor6Llr7nosaEiLCByZXF1aXJlZCA9IGZhbHNlKQoJCQkJCVRlYWNoZXJRdWVyeSB0ZWFjaGVyUXVlcnkpewoKCQkvL+S4muWKoemAu+i+kemUmeivr++8jOaKm+WHuuiHquWumuS5ieW8guW4uAoJCWlmKHBhZ2UgPD0gMCB8fCBsaW1pdCA8PSAwKXsKCQkJdGhyb3cgbmV3IE1hZEV4Y2VwdGlvbihSZXN1bHRDb2RlRW51bS5QQVJBTV9FUlJPUik7CgkJfQoKCQlQYWdlPFRlYWNoZXI+IHBhZ2VQYXJhbSA9IG5ldyBQYWdlPD4ocGFnZSwgbGltaXQpOwoKCQl0ZWFjaGVyU2VydmljZS5wYWdlUXVlcnkocGFnZVBhcmFtLCB0ZWFjaGVyUXVlcnkpOwoJCUxpc3Q8VGVhY2hlcj4gcmVjb3JkcyA9IHBhZ2VQYXJhbS5nZXRSZWNvcmRzKCk7CgkJbG9uZyB0b3RhbCA9IHBhZ2VQYXJhbS5nZXRUb3RhbCgpOwoKCQlyZXR1cm4gIFIub2soKS5kYXRhKCJ0b3RhbCIsIHRvdGFsKS5kYXRhKCJyb3dzIiwgcmVjb3Jkcyk7Cgl9CgoJQEFwaU9wZXJhdGlvbih2YWx1ZSA9ICLmlrDlop7orrLluIgiKQoJQFBvc3RNYXBwaW5nCglwdWJsaWMgUiBzYXZlKAoJCQlAQXBpUGFyYW0obmFtZSA9ICJ0ZWFjaGVyIiwgdmFsdWUgPSAi6K6y5biI5a+56LGhIiwgcmVxdWlyZWQgPSB0cnVlKQoJCQlAUmVxdWVzdEJvZHkgVGVhY2hlciB0ZWFjaGVyKXsKCgkJdGVhY2hlclNlcnZpY2Uuc2F2ZSh0ZWFjaGVyKTsKCQlyZXR1cm4gUi5vaygpOwoJfQoKCUBBcGlPcGVyYXRpb24odmFsdWUgPSAi5qC55o2uSUTmn6Xor6LorrLluIgiKQoJQEdldE1hcHBpbmcoIntpZH0iKQoJcHVibGljIFIgZ2V0QnlJZCgKCQkJQEFwaVBhcmFtKG5hbWUgPSAiaWQiLCB2YWx1ZSA9ICLorrLluIhJRCIsIHJlcXVpcmVkID0gdHJ1ZSkKCQkJQFBhdGhWYXJpYWJsZSBTdHJpbmcgaWQpewoKCQlUZWFjaGVyIHRlYWNoZXIgPSB0ZWFjaGVyU2VydmljZS5nZXRCeUlkKGlkKTsKCQlyZXR1cm4gUi5vaygpLmRhdGEoIml0ZW0iLCB0ZWFjaGVyKTsKCX0KCglAQXBpT3BlcmF0aW9uKHZhbHVlID0gIuagueaNrklE5L+u5pS56K6y5biIIikKCUBQdXRNYXBwaW5nKCJ7aWR9IikKCXB1YmxpYyBSIHVwZGF0ZUJ5SWQoCgkJCUBBcGlQYXJhbShuYW1lID0gImlkIiwgdmFsdWUgPSAi6K6y5biISUQiLCByZXF1aXJlZCA9IHRydWUpCgkJCUBQYXRoVmFyaWFibGUgU3RyaW5nIGlkLAoKCQkJQEFwaVBhcmFtKG5hbWUgPSAidGVhY2hlciIsIHZhbHVlID0gIuiusuW4iOWvueixoSIsIHJlcXVpcmVkID0gdHJ1ZSkKCQkJQFJlcXVlc3RCb2R5IFRlYWNoZXIgdGVhY2hlcil7CgoJCXRlYWNoZXIuc2V0SWQoaWQpOwoJCXRlYWNoZXJTZXJ2aWNlLnVwZGF0ZUJ5SWQodGVhY2hlcik7CgkJcmV0dXJuIFIub2soKTsKCX0KfQo=
+package com.mad.edu.controller.admin;
+
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+import com.mad.common.constants.ResultCodeEnum;
+import com.mad.common.exception.MadException;
+import com.mad.common.vo.R;
+import com.mad.edu.entity.Teacher;
+import com.mad.edu.query.TeacherQuery;
+import com.mad.edu.service.TeacherService;
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
+import io.swagger.annotations.ApiParam;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
+
+/**
+ * @author helen
+ * @since 2019/6/24
+ */
+@RestController
+@RequestMapping("/admin/edu/teacher")
+@CrossOrigin //跨域
+@Api(description = "讲师管理")
+public class TeacherAdminController {
+
+	@Autowired
+	private TeacherService teacherService;
+
+	@ApiOperation(value = "所有讲师列表")
+	@GetMapping
+	public R list(){
+
+		List<Teacher> list = teacherService.list(null);
+		/*HashMap<String, List<Teacher>> map = new HashMap<>();
+		map.put("items", list);
+		return R.ok().data(map);*/
+		return R.ok()
+				.message("查询讲师列表成功")
+				.data("items", list);
+	}
+
+	@ApiOperation(value = "根据id删除讲师")
+	@DeleteMapping("{id}")
+	public R removeById(
+			@ApiParam(name = "id", value="讲师id", required = true)
+			@PathVariable String id){
+		teacherService.removeById(id);
+
+		return R.ok();
+	}
+
+	/*@ApiOperation(value = "分页讲师列表")
+	@GetMapping("{page}/{limit}")
+	public R pageList(
+			@ApiParam(name = "page", value="当前页码", required = true)
+			@PathVariable Long page,
+			@ApiParam(name = "limit", value="每页记录数", required = true)
+			@PathVariable Long limit
+	){
+
+		Page<Teacher> pageParam = new Page<>(page, limit);
+
+		teacherService.page(pageParam, null);
+		List<Teacher> records = pageParam.getRecords();
+		long total = pageParam.getTotal();
+
+		return R.ok().data("total", total).data("rows", records);
+	}*/
+
+	@ApiOperation(value = "分页讲师列表")
+	@GetMapping("{page}/{limit}")
+	public R pageQuery(
+			@ApiParam(name = "page", value = "当前页码", required = true)
+			@PathVariable Long page,
+
+			@ApiParam(name = "limit", value = "每页记录数", required = true)
+			@PathVariable Long limit,
+
+			@ApiParam(name = "teacherQuery", value = "查询对象", required = false)
+					TeacherQuery teacherQuery){
+
+		//业务逻辑错误，抛出自定义异常
+		if(page <= 0 || limit <= 0){
+			throw new MadException(ResultCodeEnum.PARAM_ERROR);
+		}
+
+		Page<Teacher> pageParam = new Page<>(page, limit);
+
+		teacherService.pageQuery(pageParam, teacherQuery);
+		List<Teacher> records = pageParam.getRecords();
+		long total = pageParam.getTotal();
+
+		return  R.ok().data("total", total).data("rows", records);
+	}
+
+	@ApiOperation(value = "新增讲师")
+	@PostMapping
+	public R save(
+			@ApiParam(name = "teacher", value = "讲师对象", required = true)
+			@RequestBody Teacher teacher){
+
+		teacherService.save(teacher);
+		return R.ok();
+	}
+
+	@ApiOperation(value = "根据ID查询讲师")
+	@GetMapping("{id}")
+	public R getById(
+			@ApiParam(name = "id", value = "讲师ID", required = true)
+			@PathVariable String id){
+
+		Teacher teacher = teacherService.getById(id);
+		return R.ok().data("item", teacher);
+	}
+
+	@ApiOperation(value = "根据ID修改讲师")
+	@PutMapping("{id}")
+	public R updateById(
+			@ApiParam(name = "id", value = "讲师ID", required = true)
+			@PathVariable String id,
+
+			@ApiParam(name = "teacher", value = "讲师对象", required = true)
+			@RequestBody Teacher teacher){
+
+		teacher.setId(id);
+		teacherService.updateById(teacher);
+		return R.ok();
+	}
+}

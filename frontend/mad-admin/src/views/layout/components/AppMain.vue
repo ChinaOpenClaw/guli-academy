@@ -1,1 +1,29 @@
-PHRlbXBsYXRlPgogIDxzZWN0aW9uIGNsYXNzPSJhcHAtbWFpbiI+CiAgICA8dHJhbnNpdGlvbiBuYW1lPSJmYWRlLXRyYW5zZm9ybSIgbW9kZT0ib3V0LWluIj4KICAgICAgPCEtLSBvciBuYW1lPSJmYWRlIiAtLT4KICAgICAgPCEtLSA8cm91dGVyLXZpZXcgOmtleT0ia2V5Ij48L3JvdXRlci12aWV3PiAtLT4KICAgICAgPHJvdXRlci12aWV3Lz4KICAgIDwvdHJhbnNpdGlvbj4KICA8L3NlY3Rpb24+CjwvdGVtcGxhdGU+Cgo8c2NyaXB0PgpleHBvcnQgZGVmYXVsdCB7CiAgbmFtZTogJ0FwcE1haW4nLAogIGNvbXB1dGVkOiB7CiAgICAvLyBrZXkoKSB7CiAgICAvLyAgIHJldHVybiB0aGlzLiRyb3V0ZS5uYW1lICE9PSB1bmRlZmluZWQgPyB0aGlzLiRyb3V0ZS5uYW1lICsgK25ldyBEYXRlKCkgOiB0aGlzLiRyb3V0ZSArICtuZXcgRGF0ZSgpCiAgICAvLyB9CiAgfQp9Cjwvc2NyaXB0PgoKPHN0eWxlIHNjb3BlZD4KLmFwcC1tYWluIHsKICAvKjUwID0gbmF2YmFyICAqLwogIG1pbi1oZWlnaHQ6IGNhbGMoMTAwdmggLSA1MHB4KTsKICBwb3NpdGlvbjogcmVsYXRpdmU7CiAgb3ZlcmZsb3c6IGhpZGRlbjsKfQo8L3N0eWxlPgo=
+<template>
+  <section class="app-main">
+    <transition name="fade-transform" mode="out-in">
+      <!-- or name="fade" -->
+      <!-- <router-view :key="key"></router-view> -->
+      <router-view/>
+    </transition>
+  </section>
+</template>
+
+<script>
+export default {
+  name: 'AppMain',
+  computed: {
+    // key() {
+    //   return this.$route.name !== undefined ? this.$route.name + +new Date() : this.$route + +new Date()
+    // }
+  }
+}
+</script>
+
+<style scoped>
+.app-main {
+  /*50 = navbar  */
+  min-height: calc(100vh - 50px);
+  position: relative;
+  overflow: hidden;
+}
+</style>

@@ -1,1 +1,32 @@
-LyoqCiAqIENyZWF0ZWQgYnkgamlhY2hlbnBhbiBvbiAxNi8xMS8xOC4KICovCgpleHBvcnQgZnVuY3Rpb24gaXN2YWxpZFVzZXJuYW1lKHN0cikgewogIGNvbnN0IHZhbGlkX21hcCA9IFsnYWRtaW4nLCAnZWRpdG9yJ10KICByZXR1cm4gdmFsaWRfbWFwLmluZGV4T2Yoc3RyLnRyaW0oKSkgPj0gMAp9CgovKiDlkIjms5V1cmkqLwpleHBvcnQgZnVuY3Rpb24gdmFsaWRhdGVVUkwodGV4dHZhbCkgewogIGNvbnN0IHVybHJlZ2V4ID0gL14oaHR0cHM/fGZ0cCk6XC9cLyhbYS16QS1aMC05Li1dKyg6W2EtekEtWjAtOS4mJSQtXSspKkApKigoMjVbMC01XXwyWzAtNF1bMC05XXwxWzAtOV17Mn18WzEtOV1bMC05XT8pKFwuKDI1WzAtNV18MlswLTRdWzAtOV18MVswLTldezJ9fFsxLTldP1swLTldKSl7M318KFthLXpBLVowLTktXStcLikqW2EtekEtWjAtOS1dK1wuKGNvbXxlZHV8Z292fGludHxtaWx8bmV0fG9yZ3xiaXp8YXJwYXxpbmZvfG5hbWV8cHJvfGFlcm98Y29vcHxtdXNldW18W2EtekEtWl17Mn0pKSg6WzAtOV0rKSooXC8oJHxbYS16QS1aMC05Liw/J1xcKyYlJCM9fl8tXSspKSokLwogIHJldHVybiB1cmxyZWdleC50ZXN0KHRleHR2YWwpCn0KCi8qIOWwj+WGmeWtl+avjSovCmV4cG9ydCBmdW5jdGlvbiB2YWxpZGF0ZUxvd2VyQ2FzZShzdHIpIHsKICBjb25zdCByZWcgPSAvXlthLXpdKyQvCiAgcmV0dXJuIHJlZy50ZXN0KHN0cikKfQoKLyog5aSn5YaZ5a2X5q+NKi8KZXhwb3J0IGZ1bmN0aW9uIHZhbGlkYXRlVXBwZXJDYXNlKHN0cikgewogIGNvbnN0IHJlZyA9IC9eW0EtWl0rJC8KICByZXR1cm4gcmVnLnRlc3Qoc3RyKQp9CgovKiDlpKflsI/lhpnlrZfmr40qLwpleHBvcnQgZnVuY3Rpb24gdmFsaWRhdEFscGhhYmV0cyhzdHIpIHsKICBjb25zdCByZWcgPSAvXltBLVphLXpdKyQvCiAgcmV0dXJuIHJlZy50ZXN0KHN0cikKfQo=
+/**
+ * Created by jiachenpan on 16/11/18.
+ */
+
+export function isvalidUsername(str) {
+  const valid_map = ['admin', 'editor']
+  return valid_map.indexOf(str.trim()) >= 0
+}
+
+/* 合法uri*/
+export function validateURL(textval) {
+  const urlregex = /^(https?|ftp):\/\/([a-zA-Z0-9.-]+(:[a-zA-Z0-9.&%$-]+)*@)*((25[0-5]|2[0-4][0-9]|1[0-9]{2}|[1-9][0-9]?)(\.(25[0-5]|2[0-4][0-9]|1[0-9]{2}|[1-9]?[0-9])){3}|([a-zA-Z0-9-]+\.)*[a-zA-Z0-9-]+\.(com|edu|gov|int|mil|net|org|biz|arpa|info|name|pro|aero|coop|museum|[a-zA-Z]{2}))(:[0-9]+)*(\/($|[a-zA-Z0-9.,?'\\+&%$#=~_-]+))*$/
+  return urlregex.test(textval)
+}
+
+/* 小写字母*/
+export function validateLowerCase(str) {
+  const reg = /^[a-z]+$/
+  return reg.test(str)
+}
+
+/* 大写字母*/
+export function validateUpperCase(str) {
+  const reg = /^[A-Z]+$/
+  return reg.test(str)
+}
+
+/* 大小写字母*/
+export function validatAlphabets(str) {
+  const reg = /^[A-Za-z]+$/
+  return reg.test(str)
+}

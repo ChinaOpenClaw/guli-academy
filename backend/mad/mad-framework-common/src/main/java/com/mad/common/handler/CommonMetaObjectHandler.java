@@ -1,1 +1,30 @@
-cGFja2FnZSBjb20ubWFkLmNvbW1vbi5oYW5kbGVyOwoKaW1wb3J0IGNvbS5iYW9taWRvdS5teWJhdGlzcGx1cy5jb3JlLmhhbmRsZXJzLk1ldGFPYmplY3RIYW5kbGVyOwppbXBvcnQgbG9tYm9rLmV4dGVybi5zbGY0ai5TbGY0ajsKaW1wb3J0IG9yZy5hcGFjaGUuaWJhdGlzLnJlZmxlY3Rpb24uTWV0YU9iamVjdDsKaW1wb3J0IG9yZy5zcHJpbmdmcmFtZXdvcmsuc3RlcmVvdHlwZS5Db21wb25lbnQ7CgppbXBvcnQgamF2YS51dGlsLkRhdGU7CgovKioKICogQGF1dGhvciBoZWxlbgogKiBAc2luY2UgMjAxOS82LzI0CiAqLwpAQ29tcG9uZW50CkBTbGY0agpwdWJsaWMgY2xhc3MgQ29tbW9uTWV0YU9iamVjdEhhbmRsZXIgaW1wbGVtZW50cyBNZXRhT2JqZWN0SGFuZGxlciB7CgoJQE92ZXJyaWRlCglwdWJsaWMgdm9pZCBpbnNlcnRGaWxsKE1ldGFPYmplY3QgbWV0YU9iamVjdCkgewoJCWxvZy5pbmZvKCJzdGFydCBpbnNlcnQgZmlsbCAuLi4uIik7CgkJdGhpcy5zZXRGaWVsZFZhbEJ5TmFtZSgiZ210Q3JlYXRlIiwgbmV3IERhdGUoKSwgbWV0YU9iamVjdCk7CgkJdGhpcy5zZXRGaWVsZFZhbEJ5TmFtZSgiZ210TW9kaWZpZWQiLCBuZXcgRGF0ZSgpLCBtZXRhT2JqZWN0KTsKCX0KCglAT3ZlcnJpZGUKCXB1YmxpYyB2b2lkIHVwZGF0ZUZpbGwoTWV0YU9iamVjdCBtZXRhT2JqZWN0KSB7CgkJbG9nLmluZm8oInN0YXJ0IHVwZGF0ZSBmaWxsIC4uLi4iKTsKCQl0aGlzLnNldEZpZWxkVmFsQnlOYW1lKCJnbXRNb2RpZmllZCIsIG5ldyBEYXRlKCksIG1ldGFPYmplY3QpOwoJfQp9
+package com.mad.common.handler;
+
+import com.baomidou.mybatisplus.core.handlers.MetaObjectHandler;
+import lombok.extern.slf4j.Slf4j;
+import org.apache.ibatis.reflection.MetaObject;
+import org.springframework.stereotype.Component;
+
+import java.util.Date;
+
+/**
+ * @author helen
+ * @since 2019/6/24
+ */
+@Component
+@Slf4j
+public class CommonMetaObjectHandler implements MetaObjectHandler {
+
+	@Override
+	public void insertFill(MetaObject metaObject) {
+		log.info("start insert fill ....");
+		this.setFieldValByName("gmtCreate", new Date(), metaObject);
+		this.setFieldValByName("gmtModified", new Date(), metaObject);
+	}
+
+	@Override
+	public void updateFill(MetaObject metaObject) {
+		log.info("start update fill ....");
+		this.setFieldValByName("gmtModified", new Date(), metaObject);
+	}
+}

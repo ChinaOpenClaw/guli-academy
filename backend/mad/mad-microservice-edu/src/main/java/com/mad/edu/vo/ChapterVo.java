@@ -1,1 +1,23 @@
-cGFja2FnZSBjb20ubWFkLmVkdS52bzsKCmltcG9ydCBpby5zd2FnZ2VyLmFubm90YXRpb25zLkFwaU1vZGVsOwppbXBvcnQgbG9tYm9rLkRhdGE7CgppbXBvcnQgamF2YS5pby5TZXJpYWxpemFibGU7CmltcG9ydCBqYXZhLnV0aWwuQXJyYXlMaXN0OwppbXBvcnQgamF2YS51dGlsLkxpc3Q7CgovKioKICogQGF1dGhvciBoZWxlbgogKiBAc2luY2UgMjAxOS83LzIKICovCkBBcGlNb2RlbCh2YWx1ZSA9ICLnq6DoioLkv6Hmga8iKQpARGF0YQpwdWJsaWMgY2xhc3MgQ2hhcHRlclZvIGltcGxlbWVudHMgU2VyaWFsaXphYmxlIHsKCglwcml2YXRlIHN0YXRpYyBmaW5hbCBsb25nIHNlcmlhbFZlcnNpb25VSUQgPSAxTDsKCglwcml2YXRlIFN0cmluZyBpZDsKCXByaXZhdGUgU3RyaW5nIHRpdGxlOwoJcHJpdmF0ZSBMaXN0PFZpZGVvVm8+IGNoaWxkcmVuID0gbmV3IEFycmF5TGlzdDw+KCk7Cn0=
+package com.mad.edu.vo;
+
+import io.swagger.annotations.ApiModel;
+import lombok.Data;
+
+import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.List;
+
+/**
+ * @author helen
+ * @since 2019/7/2
+ */
+@ApiModel(value = "章节信息")
+@Data
+public class ChapterVo implements Serializable {
+
+	private static final long serialVersionUID = 1L;
+
+	private String id;
+	private String title;
+	private List<VideoVo> children = new ArrayList<>();
+}

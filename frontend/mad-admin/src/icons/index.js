@@ -1,1 +1,9 @@
-aW1wb3J0IFZ1ZSBmcm9tICd2dWUnCmltcG9ydCBTdmdJY29uIGZyb20gJ0AvY29tcG9uZW50cy9TdmdJY29uJyAvLyBzdmfnu4Tku7YKCi8vIHJlZ2lzdGVyIGdsb2JhbGx5ClZ1ZS5jb21wb25lbnQoJ3N2Zy1pY29uJywgU3ZnSWNvbikKCmNvbnN0IHJlcXVpcmVBbGwgPSByZXF1aXJlQ29udGV4dCA9PiByZXF1aXJlQ29udGV4dC5rZXlzKCkubWFwKHJlcXVpcmVDb250ZXh0KQpjb25zdCByZXEgPSByZXF1aXJlLmNvbnRleHQoJy4vc3ZnJywgZmFsc2UsIC9cLnN2ZyQvKQpyZXF1aXJlQWxsKHJlcSkK
+import Vue from 'vue'
+import SvgIcon from '@/components/SvgIcon' // svg组件
+
+// register globally
+Vue.component('svg-icon', SvgIcon)
+
+const requireAll = requireContext => requireContext.keys().map(requireContext)
+const req = require.context('./svg', false, /\.svg$/)
+requireAll(req)

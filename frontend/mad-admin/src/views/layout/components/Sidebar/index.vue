@@ -1,1 +1,35 @@
-PHRlbXBsYXRlPgogIDxlbC1zY3JvbGxiYXIgd3JhcC1jbGFzcz0ic2Nyb2xsYmFyLXdyYXBwZXIiPgogICAgPGVsLW1lbnUKICAgICAgOnNob3ctdGltZW91dD0iMjAwIgogICAgICA6ZGVmYXVsdC1hY3RpdmU9IiRyb3V0ZS5wYXRoIgogICAgICA6Y29sbGFwc2U9ImlzQ29sbGFwc2UiCiAgICAgIG1vZGU9InZlcnRpY2FsIgogICAgICBiYWNrZ3JvdW5kLWNvbG9yPSIjMzA0MTU2IgogICAgICB0ZXh0LWNvbG9yPSIjYmZjYmQ5IgogICAgICBhY3RpdmUtdGV4dC1jb2xvcj0iIzQwOUVGRiIKICAgID4KICAgICAgPHNpZGViYXItaXRlbSB2LWZvcj0icm91dGUgaW4gcm91dGVzIiA6a2V5PSJyb3V0ZS5wYXRoIiA6aXRlbT0icm91dGUiIDpiYXNlLXBhdGg9InJvdXRlLnBhdGgiLz4KICAgIDwvZWwtbWVudT4KICA8L2VsLXNjcm9sbGJhcj4KPC90ZW1wbGF0ZT4KCjxzY3JpcHQ+CmltcG9ydCB7IG1hcEdldHRlcnMgfSBmcm9tICd2dWV4JwppbXBvcnQgU2lkZWJhckl0ZW0gZnJvbSAnLi9TaWRlYmFySXRlbScKCmV4cG9ydCBkZWZhdWx0IHsKICBjb21wb25lbnRzOiB7IFNpZGViYXJJdGVtIH0sCiAgY29tcHV0ZWQ6IHsKICAgIC4uLm1hcEdldHRlcnMoWwogICAgICAnc2lkZWJhcicKICAgIF0pLAogICAgcm91dGVzKCkgewogICAgICByZXR1cm4gdGhpcy4kcm91dGVyLm9wdGlvbnMucm91dGVzCiAgICB9LAogICAgaXNDb2xsYXBzZSgpIHsKICAgICAgcmV0dXJuICF0aGlzLnNpZGViYXIub3BlbmVkCiAgICB9CiAgfQp9Cjwvc2NyaXB0Pgo=
+<template>
+  <el-scrollbar wrap-class="scrollbar-wrapper">
+    <el-menu
+      :show-timeout="200"
+      :default-active="$route.path"
+      :collapse="isCollapse"
+      mode="vertical"
+      background-color="#304156"
+      text-color="#bfcbd9"
+      active-text-color="#409EFF"
+    >
+      <sidebar-item v-for="route in routes" :key="route.path" :item="route" :base-path="route.path"/>
+    </el-menu>
+  </el-scrollbar>
+</template>
+
+<script>
+import { mapGetters } from 'vuex'
+import SidebarItem from './SidebarItem'
+
+export default {
+  components: { SidebarItem },
+  computed: {
+    ...mapGetters([
+      'sidebar'
+    ]),
+    routes() {
+      return this.$router.options.routes
+    },
+    isCollapse() {
+      return !this.sidebar.opened
+    }
+  }
+}
+</script>

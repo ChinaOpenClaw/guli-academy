@@ -1,1 +1,30 @@
-PHRlbXBsYXRlPgogIDxUaGVIZWFkZXIgdi1pZj0iIXN0YW5kYWxvbmUiIC8+CiAgPHJvdXRlci12aWV3IHYtc2xvdD0ieyBDb21wb25lbnQgfSI+CiAgICA8dHJhbnNpdGlvbiBuYW1lPSJmYWRlIiBtb2RlPSJvdXQtaW4iPgogICAgICA8Y29tcG9uZW50IDppcz0iQ29tcG9uZW50IiAvPgogICAgPC90cmFuc2l0aW9uPgogIDwvcm91dGVyLXZpZXc+CiAgPFRoZUZvb3RlciB2LWlmPSIhc3RhbmRhbG9uZSIgLz4KPC90ZW1wbGF0ZT4KCjxzY3JpcHQgc2V0dXA+CmltcG9ydCB7IGNvbXB1dGVkIH0gZnJvbSAndnVlJwppbXBvcnQgeyB1c2VSb3V0ZSB9IGZyb20gJ3Z1ZS1yb3V0ZXInCmltcG9ydCBUaGVIZWFkZXIgZnJvbSAnQC9jb21wb25lbnRzL1RoZUhlYWRlci52dWUnCmltcG9ydCBUaGVGb290ZXIgZnJvbSAnQC9jb21wb25lbnRzL1RoZUZvb3Rlci52dWUnCgpjb25zdCByb3V0ZSA9IHVzZVJvdXRlKCkKY29uc3Qgc3RhbmRhbG9uZSA9IGNvbXB1dGVkKCgpID0+IHJvdXRlLm1ldGEuaGlkZUxheW91dCkKPC9zY3JpcHQ+Cgo8c3R5bGU+Ci5mYWRlLWVudGVyLWFjdGl2ZSwKLmZhZGUtbGVhdmUtYWN0aXZlIHsKICB0cmFuc2l0aW9uOiBvcGFjaXR5IDAuMThzIGVhc2U7Cn0KLmZhZGUtZW50ZXItZnJvbSwKLmZhZGUtbGVhdmUtdG8gewogIG9wYWNpdHk6IDA7Cn0KPC9zdHlsZT4K
+<template>
+  <TheHeader v-if="!standalone" />
+  <router-view v-slot="{ Component }">
+    <transition name="fade" mode="out-in">
+      <component :is="Component" />
+    </transition>
+  </router-view>
+  <TheFooter v-if="!standalone" />
+</template>
+
+<script setup>
+import { computed } from 'vue'
+import { useRoute } from 'vue-router'
+import TheHeader from '@/components/TheHeader.vue'
+import TheFooter from '@/components/TheFooter.vue'
+
+const route = useRoute()
+const standalone = computed(() => route.meta.hideLayout)
+</script>
+
+<style>
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.18s ease;
+}
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+</style>

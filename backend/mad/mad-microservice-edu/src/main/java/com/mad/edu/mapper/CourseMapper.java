@@ -1,1 +1,21 @@
-cGFja2FnZSBjb20ubWFkLmVkdS5tYXBwZXI7CgppbXBvcnQgY29tLmJhb21pZG91Lm15YmF0aXNwbHVzLmNvcmUubWFwcGVyLkJhc2VNYXBwZXI7CmltcG9ydCBjb20ubWFkLmVkdS5lbnRpdHkuQ291cnNlOwppbXBvcnQgY29tLm1hZC5lZHUudm8uQ291cnNlUHVibGlzaFZvOwppbXBvcnQgY29tLm1hZC5lZHUudm8uQ291cnNlV2ViVm87CgovKioKICogPHA+CiAqIOivvueoiyBNYXBwZXIg5o6l5Y+jCiAqIDwvcD4KICoKICogQGF1dGhvciBIZWxlbgogKiBAc2luY2UgMjAxOS0wNi0yNAogKi8KcHVibGljIGludGVyZmFjZSBDb3Vyc2VNYXBwZXIgZXh0ZW5kcyBCYXNlTWFwcGVyPENvdXJzZT4gewoKCUNvdXJzZVB1Ymxpc2hWbyBzZWxlY3RDb3Vyc2VQdWJsaXNoVm9CeUlkKFN0cmluZyBpZCk7CgoJQ291cnNlV2ViVm8gc2VsZWN0Q291cnNlV2ViVm9CeUlkKFN0cmluZyBjb3Vyc2VJZCk7Cn0K
+package com.mad.edu.mapper;
+
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.mad.edu.entity.Course;
+import com.mad.edu.vo.CoursePublishVo;
+import com.mad.edu.vo.CourseWebVo;
+
+/**
+ * <p>
+ * 课程 Mapper 接口
+ * </p>
+ *
+ * @author Helen
+ * @since 2019-06-24
+ */
+public interface CourseMapper extends BaseMapper<Course> {
+
+	CoursePublishVo selectCoursePublishVoById(String id);
+
+	CourseWebVo selectCourseWebVoById(String courseId);
+}

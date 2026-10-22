@@ -1,1 +1,50 @@
-aW1wb3J0IHsgY3JlYXRlUm91dGVyLCBjcmVhdGVXZWJIaXN0b3J5IH0gZnJvbSAndnVlLXJvdXRlcicKCmltcG9ydCBIb21lIGZyb20gJ0Avdmlld3MvSG9tZS52dWUnCmltcG9ydCBDb3Vyc2VzIGZyb20gJ0Avdmlld3MvQ291cnNlcy52dWUnCmltcG9ydCBDb3Vyc2VEZXRhaWwgZnJvbSAnQC92aWV3cy9Db3Vyc2VEZXRhaWwudnVlJwppbXBvcnQgTGVhcm4gZnJvbSAnQC92aWV3cy9MZWFybi52dWUnCmltcG9ydCBUZWFjaGVycyBmcm9tICdAL3ZpZXdzL1RlYWNoZXJzLnZ1ZScKaW1wb3J0IFRlYWNoZXJEZXRhaWwgZnJvbSAnQC92aWV3cy9UZWFjaGVyRGV0YWlsLnZ1ZScKaW1wb3J0IEFydGljbGVzIGZyb20gJ0Avdmlld3MvQXJ0aWNsZXMudnVlJwppbXBvcnQgQXJ0aWNsZURldGFpbCBmcm9tICdAL3ZpZXdzL0FydGljbGVEZXRhaWwudnVlJwppbXBvcnQgQWlLbm93bGVkZ2UgZnJvbSAnQC92aWV3cy9BaUtub3dsZWRnZS52dWUnCmltcG9ydCBRdWVzdGlvbnMgZnJvbSAnQC92aWV3cy9RdWVzdGlvbnMudnVlJwppbXBvcnQgUXVlc3Rpb25EZXRhaWwgZnJvbSAnQC92aWV3cy9RdWVzdGlvbkRldGFpbC52dWUnCmltcG9ydCBMb2dpbiBmcm9tICdAL3ZpZXdzL0xvZ2luLnZ1ZScKaW1wb3J0IFJlZ2lzdGVyIGZyb20gJ0Avdmlld3MvUmVnaXN0ZXIudnVlJwppbXBvcnQgVXNlckNlbnRlciBmcm9tICdAL3ZpZXdzL1VzZXJDZW50ZXIudnVlJwppbXBvcnQgTm90Rm91bmQgZnJvbSAnQC92aWV3cy9Ob3RGb3VuZC52dWUnCgpjb25zdCByb3V0ZXMgPSBbCiAgeyBwYXRoOiAnLycsIG5hbWU6ICdob21lJywgY29tcG9uZW50OiBIb21lLCBtZXRhOiB7IHRpdGxlOiAn6aaW6aG1JyB9IH0sCiAgeyBwYXRoOiAnL2NvdXJzZXMnLCBuYW1lOiAnY291cnNlcycsIGNvbXBvbmVudDogQ291cnNlcywgbWV0YTogeyB0aXRsZTogJ+ivvueoiycgfSB9LAogIHsgcGF0aDogJy9jb3Vyc2VzLzppZCcsIG5hbWU6ICdjb3Vyc2UtZGV0YWlsJywgY29tcG9uZW50OiBDb3Vyc2VEZXRhaWwsIG1ldGE6IHsgdGl0bGU6ICfor77nqIvor6bmg4UnIH0gfSwKICB7IHBhdGg6ICcvbGVhcm4vOmlkJywgbmFtZTogJ2xlYXJuJywgY29tcG9uZW50OiBMZWFybiwgbWV0YTogeyB0aXRsZTogJ+WtpuS5oOS4reW/gycgfSB9LAogIHsgcGF0aDogJy90ZWFjaGVycycsIG5hbWU6ICd0ZWFjaGVycycsIGNvbXBvbmVudDogVGVhY2hlcnMsIG1ldGE6IHsgdGl0bGU6ICflkI3luIgnIH0gfSwKICB7IHBhdGg6ICcvdGVhY2hlcnMvOmlkJywgbmFtZTogJ3RlYWNoZXItZGV0YWlsJywgY29tcG9uZW50OiBUZWFjaGVyRGV0YWlsLCBtZXRhOiB7IHRpdGxlOiAn5ZCN5biI6K+m5oOFJyB9IH0sCiAgeyBwYXRoOiAnL2FydGljbGVzJywgbmFtZTogJ2FydGljbGVzJywgY29tcG9uZW50OiBBcnRpY2xlcywgbWV0YTogeyB0aXRsZTogJ+aWh+eroCcgfSB9LAogIHsgcGF0aDogJy9hcnRpY2xlcy86aWQnLCBuYW1lOiAnYXJ0aWNsZS1kZXRhaWwnLCBjb21wb25lbnQ6IEFydGljbGVEZXRhaWwsIG1ldGE6IHsgdGl0bGU6ICfmlofnq6Dor6bmg4UnIH0gfSwKICB7IHBhdGg6ICcvYWktY2FzZXMnLCBuYW1lOiAnYWktY2FzZXMnLCBjb21wb25lbnQ6IEFpS25vd2xlZGdlLCBtZXRhOiB7IHRpdGxlOiAnQUnnn6Xor4bmoYjkvosnIH0gfSwKICB7IHBhdGg6ICcvcXVlc3Rpb25zJywgbmFtZTogJ3F1ZXN0aW9ucycsIGNvbXBvbmVudDogUXVlc3Rpb25zLCBtZXRhOiB7IHRpdGxlOiAn6Zeu562UJyB9IH0sCiAgeyBwYXRoOiAnL3F1ZXN0aW9ucy86aWQnLCBuYW1lOiAncXVlc3Rpb24tZGV0YWlsJywgY29tcG9uZW50OiBRdWVzdGlvbkRldGFpbCwgbWV0YTogeyB0aXRsZTogJ+mXruetlOivpuaDhScgfSB9LAogIHsgcGF0aDogJy9sb2dpbicsIG5hbWU6ICdsb2dpbicsIGNvbXBvbmVudDogTG9naW4sIG1ldGE6IHsgdGl0bGU6ICfnmbvlvZUnLCBoaWRlTGF5b3V0OiB0cnVlIH0gfSwKICB7IHBhdGg6ICcvcmVnaXN0ZXInLCBuYW1lOiAncmVnaXN0ZXInLCBjb21wb25lbnQ6IFJlZ2lzdGVyLCBtZXRhOiB7IHRpdGxlOiAn5rOo5YaMJywgaGlkZUxheW91dDogdHJ1ZSB9IH0sCiAgeyBwYXRoOiAnL3VzZXInLCBuYW1lOiAndXNlcicsIGNvbXBvbmVudDogVXNlckNlbnRlciwgbWV0YTogeyB0aXRsZTogJ+S4quS6uuS4reW/gycgfSB9LAogIHsgcGF0aDogJy86cGF0aE1hdGNoKC4qKSonLCBuYW1lOiAnbm90LWZvdW5kJywgY29tcG9uZW50OiBOb3RGb3VuZCwgbWV0YTogeyB0aXRsZTogJ+mhtemdouS4jeWtmOWcqCcgfSB9Cl0KCmNvbnN0IHJvdXRlciA9IGNyZWF0ZVJvdXRlcih7CiAgaGlzdG9yeTogY3JlYXRlV2ViSGlzdG9yeSgpLAogIHJvdXRlcywKICBzY3JvbGxCZWhhdmlvcigpIHsKICAgIHJldHVybiB7IHRvcDogMCB9CiAgfQp9KQoKcm91dGVyLmFmdGVyRWFjaCgodG8pID0+IHsKICBjb25zdCBiYXNlID0gJ01BROe9keivvuezu+e7nycKICBkb2N1bWVudC50aXRsZSA9IHRvLm1ldGEudGl0bGUgPyBgJHtiYXNlfSAtICR7dG8ubWV0YS50aXRsZX1gIDogYmFzZQp9KQoKZXhwb3J0IGRlZmF1bHQgcm91dGVyCg==
+import { createRouter, createWebHistory } from 'vue-router'
+
+import Home from '@/views/Home.vue'
+import Courses from '@/views/Courses.vue'
+import CourseDetail from '@/views/CourseDetail.vue'
+import Learn from '@/views/Learn.vue'
+import Teachers from '@/views/Teachers.vue'
+import TeacherDetail from '@/views/TeacherDetail.vue'
+import Articles from '@/views/Articles.vue'
+import ArticleDetail from '@/views/ArticleDetail.vue'
+import AiKnowledge from '@/views/AiKnowledge.vue'
+import Questions from '@/views/Questions.vue'
+import QuestionDetail from '@/views/QuestionDetail.vue'
+import Login from '@/views/Login.vue'
+import Register from '@/views/Register.vue'
+import UserCenter from '@/views/UserCenter.vue'
+import NotFound from '@/views/NotFound.vue'
+
+const routes = [
+  { path: '/', name: 'home', component: Home, meta: { title: '首页' } },
+  { path: '/courses', name: 'courses', component: Courses, meta: { title: '课程' } },
+  { path: '/courses/:id', name: 'course-detail', component: CourseDetail, meta: { title: '课程详情' } },
+  { path: '/learn/:id', name: 'learn', component: Learn, meta: { title: '学习中心' } },
+  { path: '/teachers', name: 'teachers', component: Teachers, meta: { title: '名师' } },
+  { path: '/teachers/:id', name: 'teacher-detail', component: TeacherDetail, meta: { title: '名师详情' } },
+  { path: '/articles', name: 'articles', component: Articles, meta: { title: '文章' } },
+  { path: '/articles/:id', name: 'article-detail', component: ArticleDetail, meta: { title: '文章详情' } },
+  { path: '/ai-cases', name: 'ai-cases', component: AiKnowledge, meta: { title: 'AI知识案例' } },
+  { path: '/questions', name: 'questions', component: Questions, meta: { title: '问答' } },
+  { path: '/questions/:id', name: 'question-detail', component: QuestionDetail, meta: { title: '问答详情' } },
+  { path: '/login', name: 'login', component: Login, meta: { title: '登录', hideLayout: true } },
+  { path: '/register', name: 'register', component: Register, meta: { title: '注册', hideLayout: true } },
+  { path: '/user', name: 'user', component: UserCenter, meta: { title: '个人中心' } },
+  { path: '/:pathMatch(.*)*', name: 'not-found', component: NotFound, meta: { title: '页面不存在' } }
+]
+
+const router = createRouter({
+  history: createWebHistory(),
+  routes,
+  scrollBehavior() {
+    return { top: 0 }
+  }
+})
+
+router.afterEach((to) => {
+  const base = 'MAD网课系统'
+  document.title = to.meta.title ? `${base} - ${to.meta.title}` : base
+})
+
+export default router

@@ -1,1 +1,62 @@
-cGFja2FnZSBjb20ubWFkLnN0YXRpc3RpY3MuZW50aXR5OwoKaW1wb3J0IGNvbS5iYW9taWRvdS5teWJhdGlzcGx1cy5hbm5vdGF0aW9uLlRhYmxlTmFtZTsKaW1wb3J0IGNvbS5iYW9taWRvdS5teWJhdGlzcGx1cy5hbm5vdGF0aW9uLklkVHlwZTsKaW1wb3J0IGphdmEudXRpbC5EYXRlOwppbXBvcnQgY29tLmJhb21pZG91Lm15YmF0aXNwbHVzLmFubm90YXRpb24uVmVyc2lvbjsKaW1wb3J0IGNvbS5iYW9taWRvdS5teWJhdGlzcGx1cy5hbm5vdGF0aW9uLlRhYmxlSWQ7CmltcG9ydCBjb20uYmFvbWlkb3UubXliYXRpc3BsdXMuYW5ub3RhdGlvbi5GaWVsZEZpbGw7CmltcG9ydCBjb20uYmFvbWlkb3UubXliYXRpc3BsdXMuYW5ub3RhdGlvbi5UYWJsZUZpZWxkOwppbXBvcnQgamF2YS5pby5TZXJpYWxpemFibGU7CmltcG9ydCBpby5zd2FnZ2VyLmFubm90YXRpb25zLkFwaU1vZGVsOwppbXBvcnQgaW8uc3dhZ2dlci5hbm5vdGF0aW9ucy5BcGlNb2RlbFByb3BlcnR5OwppbXBvcnQgbG9tYm9rLkRhdGE7CmltcG9ydCBsb21ib2suRXF1YWxzQW5kSGFzaENvZGU7CmltcG9ydCBsb21ib2suZXhwZXJpbWVudGFsLkFjY2Vzc29yczsKCi8qKgogKiA8cD4KICog572R56uZ57uf6K6h5pel5pWw5o2uCiAqIDwvcD4KICoKICogQGF1dGhvciBIZWxlbgogKiBAc2luY2UgMjAxOS0wNy0wMQogKi8KQERhdGEKQEVxdWFsc0FuZEhhc2hDb2RlKGNhbGxTdXBlciA9IGZhbHNlKQpAQWNjZXNzb3JzKGNoYWluID0gdHJ1ZSkKQFRhYmxlTmFtZSgic3RhdGlzdGljc19kYWlseSIpCkBBcGlNb2RlbCh2YWx1ZT0iRGFpbHnlr7nosaEiLCBkZXNjcmlwdGlvbj0i572R56uZ57uf6K6h5pel5pWw5o2uIikKcHVibGljIGNsYXNzIERhaWx5IGltcGxlbWVudHMgU2VyaWFsaXphYmxlIHsKCiAgICBwcml2YXRlIHN0YXRpYyBmaW5hbCBsb25nIHNlcmlhbFZlcnNpb25VSUQgPSAxTDsKCiAgICBAQXBpTW9kZWxQcm9wZXJ0eSh2YWx1ZSA9ICLkuLvplK4iKQogICAgQFRhYmxlSWQodmFsdWUgPSAiaWQiLCB0eXBlID0gSWRUeXBlLklEX1dPUktFUl9TVFIpCiAgICBwcml2YXRlIFN0cmluZyBpZDsKCiAgICBAQXBpTW9kZWxQcm9wZXJ0eSh2YWx1ZSA9ICLnu5/orqHml6XmnJ8iKQogICAgcHJpdmF0ZSBTdHJpbmcgZGF0ZUNhbGN1bGF0ZWQ7CgogICAgQEFwaU1vZGVsUHJvcGVydHkodmFsdWUgPSAi5rOo5YaM5Lq65pWwIikKICAgIHByaXZhdGUgSW50ZWdlciByZWdpc3Rlck51bTsKCiAgICBAQXBpTW9kZWxQcm9wZXJ0eSh2YWx1ZSA9ICLnmbvlvZXkurrmlbAiKQogICAgcHJpdmF0ZSBJbnRlZ2VyIGxvZ2luTnVtOwoKICAgIEBBcGlNb2RlbFByb3BlcnR5KHZhbHVlID0gIuavj+aXpeaSreaUvuinhumikeaVsCIpCiAgICBwcml2YXRlIEludGVnZXIgdmlkZW9WaWV3TnVtOwoKICAgIEBBcGlNb2RlbFByb3BlcnR5KHZhbHVlID0gIuavj+aXpeaWsOWinuivvueoi+aVsCIpCiAgICBwcml2YXRlIEludGVnZXIgY291cnNlTnVtOwoKICAgIEBBcGlNb2RlbFByb3BlcnR5KHZhbHVlID0gIuWIm+W7uuaXtumXtCIpCiAgICBAVGFibGVGaWVsZChmaWxsID0gRmllbGRGaWxsLklOU0VSVCkKICAgIHByaXZhdGUgRGF0ZSBnbXRDcmVhdGU7CgogICAgQEFwaU1vZGVsUHJvcGVydHkodmFsdWUgPSAi5pu05paw5pe26Ze0IikKICAgIEBUYWJsZUZpZWxkKGZpbGwgPSBGaWVsZEZpbGwuSU5TRVJUX1VQREFURSkKICAgIHByaXZhdGUgRGF0ZSBnbXRNb2RpZmllZDsKCgp9Cg==
+package com.mad.statistics.entity;
+
+import com.baomidou.mybatisplus.annotation.TableName;
+import com.baomidou.mybatisplus.annotation.IdType;
+import java.util.Date;
+import com.baomidou.mybatisplus.annotation.Version;
+import com.baomidou.mybatisplus.annotation.TableId;
+import com.baomidou.mybatisplus.annotation.FieldFill;
+import com.baomidou.mybatisplus.annotation.TableField;
+import java.io.Serializable;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
+import lombok.experimental.Accessors;
+
+/**
+ * <p>
+ * 网站统计日数据
+ * </p>
+ *
+ * @author Helen
+ * @since 2019-07-01
+ */
+@Data
+@EqualsAndHashCode(callSuper = false)
+@Accessors(chain = true)
+@TableName("statistics_daily")
+@ApiModel(value="Daily对象", description="网站统计日数据")
+public class Daily implements Serializable {
+
+    private static final long serialVersionUID = 1L;
+
+    @ApiModelProperty(value = "主键")
+    @TableId(value = "id", type = IdType.ID_WORKER_STR)
+    private String id;
+
+    @ApiModelProperty(value = "统计日期")
+    private String dateCalculated;
+
+    @ApiModelProperty(value = "注册人数")
+    private Integer registerNum;
+
+    @ApiModelProperty(value = "登录人数")
+    private Integer loginNum;
+
+    @ApiModelProperty(value = "每日播放视频数")
+    private Integer videoViewNum;
+
+    @ApiModelProperty(value = "每日新增课程数")
+    private Integer courseNum;
+
+    @ApiModelProperty(value = "创建时间")
+    @TableField(fill = FieldFill.INSERT)
+    private Date gmtCreate;
+
+    @ApiModelProperty(value = "更新时间")
+    @TableField(fill = FieldFill.INSERT_UPDATE)
+    private Date gmtModified;
+
+
+}

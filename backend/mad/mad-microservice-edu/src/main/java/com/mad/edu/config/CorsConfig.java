@@ -1,1 +1,21 @@
-cGFja2FnZSBjb20ubWFkLmVkdS5jb25maWc7CgppbXBvcnQgb3JnLnNwcmluZ2ZyYW1ld29yay5jb250ZXh0LmFubm90YXRpb24uQ29uZmlndXJhdGlvbjsKaW1wb3J0IG9yZy5zcHJpbmdmcmFtZXdvcmsud2ViLnNlcnZsZXQuY29uZmlnLmFubm90YXRpb24uQ29yc1JlZ2lzdHJ5OwppbXBvcnQgb3JnLnNwcmluZ2ZyYW1ld29yay53ZWIuc2VydmxldC5jb25maWcuYW5ub3RhdGlvbi5XZWJNdmNDb25maWd1cmVyOwoKLyoqCiAqIOacrOWcsOW8gOWPkei3qOWfn+mFjee9ru+8muWFgeiuuOWJjeerryBkZXYgc2VydmVyIChsb2NhbGhvc3Q6OTUyOCDnrYkpIOi3qOWfn+iwg+eUqOacrOacjeWKoeOAggogKiDku4XnlKjkuo7mnKzlnLDogZTosIPnjq/looPjgIIKICovCkBDb25maWd1cmF0aW9uCnB1YmxpYyBjbGFzcyBDb3JzQ29uZmlnIGltcGxlbWVudHMgV2ViTXZjQ29uZmlndXJlciB7CgogICAgQE92ZXJyaWRlCiAgICBwdWJsaWMgdm9pZCBhZGRDb3JzTWFwcGluZ3MoQ29yc1JlZ2lzdHJ5IHJlZ2lzdHJ5KSB7CiAgICAgICAgcmVnaXN0cnkuYWRkTWFwcGluZygiLyoqIikKICAgICAgICAgICAgICAgIC5hbGxvd2VkT3JpZ2lucygiKiIpCiAgICAgICAgICAgICAgICAuYWxsb3dlZE1ldGhvZHMoIkdFVCIsICJQT1NUIiwgIlBVVCIsICJERUxFVEUiLCAiT1BUSU9OUyIpCiAgICAgICAgICAgICAgICAuYWxsb3dlZEhlYWRlcnMoIioiKTsKICAgIH0KfQo=
+package com.mad.edu.config;
+
+import org.springframework.context.annotation.Configuration;
+import org.springframework.web.servlet.config.annotation.CorsRegistry;
+import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
+
+/**
+ * 本地开发跨域配置：允许前端 dev server (localhost:9528 等) 跨域调用本服务。
+ * 仅用于本地联调环境。
+ */
+@Configuration
+public class CorsConfig implements WebMvcConfigurer {
+
+    @Override
+    public void addCorsMappings(CorsRegistry registry) {
+        registry.addMapping("/**")
+                .allowedOrigins("*")
+                .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
+                .allowedHeaders("*");
+    }
+}

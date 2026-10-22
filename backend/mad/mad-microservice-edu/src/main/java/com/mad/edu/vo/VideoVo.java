@@ -1,1 +1,24 @@
-cGFja2FnZSBjb20ubWFkLmVkdS52bzsKCmltcG9ydCBpby5zd2FnZ2VyLmFubm90YXRpb25zLkFwaU1vZGVsOwppbXBvcnQgbG9tYm9rLkRhdGE7CgppbXBvcnQgamF2YS5pby5TZXJpYWxpemFibGU7CgovKioKICogQGF1dGhvciBoZWxlbgogKiBAc2luY2UgMjAxOS83LzIKICovCkBBcGlNb2RlbCh2YWx1ZSA9ICLor77ml7bkv6Hmga8iKQpARGF0YQpwdWJsaWMgY2xhc3MgVmlkZW9WbyBpbXBsZW1lbnRzIFNlcmlhbGl6YWJsZSB7CgoJcHJpdmF0ZSBzdGF0aWMgZmluYWwgbG9uZyBzZXJpYWxWZXJzaW9uVUlEID0gMUw7CgoJcHJpdmF0ZSBTdHJpbmcgaWQ7Cglwcml2YXRlIFN0cmluZyB0aXRsZTsKCXByaXZhdGUgQm9vbGVhbiBmcmVlOwoKCXByaXZhdGUgU3RyaW5nIHZpZGVvU291cmNlSWQ7Cgp9Cg==
+package com.mad.edu.vo;
+
+import io.swagger.annotations.ApiModel;
+import lombok.Data;
+
+import java.io.Serializable;
+
+/**
+ * @author helen
+ * @since 2019/7/2
+ */
+@ApiModel(value = "课时信息")
+@Data
+public class VideoVo implements Serializable {
+
+	private static final long serialVersionUID = 1L;
+
+	private String id;
+	private String title;
+	private Boolean free;
+
+	private String videoSourceId;
+
+}

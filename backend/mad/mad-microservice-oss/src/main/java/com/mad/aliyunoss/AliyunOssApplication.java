@@ -1,1 +1,19 @@
-cGFja2FnZSBjb20ubWFkLmFsaXl1bm9zczsKCmltcG9ydCBvcmcuc3ByaW5nZnJhbWV3b3JrLmJvb3QuU3ByaW5nQXBwbGljYXRpb247CmltcG9ydCBvcmcuc3ByaW5nZnJhbWV3b3JrLmJvb3QuYXV0b2NvbmZpZ3VyZS5TcHJpbmdCb290QXBwbGljYXRpb247CmltcG9ydCBvcmcuc3ByaW5nZnJhbWV3b3JrLmJvb3QuYXV0b2NvbmZpZ3VyZS5qZGJjLkRhdGFTb3VyY2VBdXRvQ29uZmlndXJhdGlvbjsKaW1wb3J0IG9yZy5zcHJpbmdmcmFtZXdvcmsuY29udGV4dC5hbm5vdGF0aW9uLkNvbXBvbmVudFNjYW47CgovKioKICogQGF1dGhvciBoZWxlbgogKiBAc2luY2UgMjAxOS82LzI4CiAqLwpAU3ByaW5nQm9vdEFwcGxpY2F0aW9uKGV4Y2x1ZGUgPSBEYXRhU291cmNlQXV0b0NvbmZpZ3VyYXRpb24uY2xhc3MpCkBDb21wb25lbnRTY2FuKGJhc2VQYWNrYWdlcz17ImNvbS5tYWQuYWxpeXVub3NzIiwiY29tLm1hZC5jb21tb24ifSkKcHVibGljIGNsYXNzIEFsaXl1bk9zc0FwcGxpY2F0aW9uIHsKCglwdWJsaWMgc3RhdGljIHZvaWQgbWFpbihTdHJpbmdbXSBhcmdzKXsKCQlTcHJpbmdBcHBsaWNhdGlvbi5ydW4oQWxpeXVuT3NzQXBwbGljYXRpb24uY2xhc3MsIGFyZ3MpOwoJfQp9Cg==
+package com.mad.aliyunoss;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
+import org.springframework.context.annotation.ComponentScan;
+
+/**
+ * @author helen
+ * @since 2019/6/28
+ */
+@SpringBootApplication(exclude = DataSourceAutoConfiguration.class)
+@ComponentScan(basePackages={"com.mad.aliyunoss","com.mad.common"})
+public class AliyunOssApplication {
+
+	public static void main(String[] args){
+		SpringApplication.run(AliyunOssApplication.class, args);
+	}
+}

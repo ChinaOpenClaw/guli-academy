@@ -1,1 +1,31 @@
-cGFja2FnZSBjb20ubWFkLmVkdS5xdWVyeTsKCmltcG9ydCBpby5zd2FnZ2VyLmFubm90YXRpb25zLkFwaU1vZGVsOwppbXBvcnQgaW8uc3dhZ2dlci5hbm5vdGF0aW9ucy5BcGlNb2RlbFByb3BlcnR5OwppbXBvcnQgbG9tYm9rLkRhdGE7CgppbXBvcnQgamF2YS5pby5TZXJpYWxpemFibGU7CgovKioKICogQGF1dGhvciBoZWxlbgogKiBAc2luY2UgMjAxOS83LzIKICovCkBBcGlNb2RlbCh2YWx1ZSA9ICJDb3Vyc2Xmn6Xor6Llr7nosaEiLCBkZXNjcmlwdGlvbiA9ICLor77nqIvmn6Xor6Llr7nosaHlsIHoo4UiKQpARGF0YQpwdWJsaWMgY2xhc3MgQ291cnNlUXVlcnkgaW1wbGVtZW50cyBTZXJpYWxpemFibGUgewoKCXByaXZhdGUgc3RhdGljIGZpbmFsIGxvbmcgc2VyaWFsVmVyc2lvblVJRCA9IDFMOwoKCUBBcGlNb2RlbFByb3BlcnR5KHZhbHVlID0gIuivvueoi+WQjeensCIpCglwcml2YXRlIFN0cmluZyB0aXRsZTsKCglAQXBpTW9kZWxQcm9wZXJ0eSh2YWx1ZSA9ICLorrLluIhpZCIpCglwcml2YXRlIFN0cmluZyB0ZWFjaGVySWQ7CgoJQEFwaU1vZGVsUHJvcGVydHkodmFsdWUgPSAi5LiA57qn57G75YiraWQiKQoJcHJpdmF0ZSBTdHJpbmcgc3ViamVjdFBhcmVudElkOwoKCUBBcGlNb2RlbFByb3BlcnR5KHZhbHVlID0gIuS6jOe6p+exu+WIq2lkIikKCXByaXZhdGUgU3RyaW5nIHN1YmplY3RJZDsKCn0=
+package com.mad.edu.query;
+
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
+import lombok.Data;
+
+import java.io.Serializable;
+
+/**
+ * @author helen
+ * @since 2019/7/2
+ */
+@ApiModel(value = "Course查询对象", description = "课程查询对象封装")
+@Data
+public class CourseQuery implements Serializable {
+
+	private static final long serialVersionUID = 1L;
+
+	@ApiModelProperty(value = "课程名称")
+	private String title;
+
+	@ApiModelProperty(value = "讲师id")
+	private String teacherId;
+
+	@ApiModelProperty(value = "一级类别id")
+	private String subjectParentId;
+
+	@ApiModelProperty(value = "二级类别id")
+	private String subjectId;
+
+}

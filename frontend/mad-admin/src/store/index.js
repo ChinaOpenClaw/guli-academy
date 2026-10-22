@@ -1,1 +1,17 @@
-aW1wb3J0IFZ1ZSBmcm9tICd2dWUnCmltcG9ydCBWdWV4IGZyb20gJ3Z1ZXgnCmltcG9ydCBhcHAgZnJvbSAnLi9tb2R1bGVzL2FwcCcKaW1wb3J0IHVzZXIgZnJvbSAnLi9tb2R1bGVzL3VzZXInCmltcG9ydCBnZXR0ZXJzIGZyb20gJy4vZ2V0dGVycycKClZ1ZS51c2UoVnVleCkKCmNvbnN0IHN0b3JlID0gbmV3IFZ1ZXguU3RvcmUoewogIG1vZHVsZXM6IHsKICAgIGFwcCwKICAgIHVzZXIKICB9LAogIGdldHRlcnMKfSkKCmV4cG9ydCBkZWZhdWx0IHN0b3JlCg==
+import Vue from 'vue'
+import Vuex from 'vuex'
+import app from './modules/app'
+import user from './modules/user'
+import getters from './getters'
+
+Vue.use(Vuex)
+
+const store = new Vuex.Store({
+  modules: {
+    app,
+    user
+  },
+  getters
+})
+
+export default store

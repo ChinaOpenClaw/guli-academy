@@ -1,1 +1,25 @@
-cGFja2FnZSBjb20ubWFkLmVkdS52bzsKCmltcG9ydCBpby5zd2FnZ2VyLmFubm90YXRpb25zLkFwaU1vZGVsOwppbXBvcnQgbG9tYm9rLkRhdGE7CgppbXBvcnQgamF2YS5pby5TZXJpYWxpemFibGU7CgovKioKICogQGF1dGhvciBoZWxlbgogKiBAc2luY2UgMjAxOS83LzIKICovCkBBcGlNb2RlbCh2YWx1ZSA9ICLor77nqIvlj5HluIPkv6Hmga8iKQpARGF0YQpwdWJsaWMgY2xhc3MgQ291cnNlUHVibGlzaFZvICBpbXBsZW1lbnRzIFNlcmlhbGl6YWJsZSB7CgoJcHJpdmF0ZSBzdGF0aWMgZmluYWwgbG9uZyBzZXJpYWxWZXJzaW9uVUlEID0gMUw7CgoJcHJpdmF0ZSBTdHJpbmcgdGl0bGU7Cglwcml2YXRlIFN0cmluZyBjb3ZlcjsKCXByaXZhdGUgSW50ZWdlciBsZXNzb25OdW07Cglwcml2YXRlIFN0cmluZyBzdWJqZWN0TGV2ZWxPbmU7Cglwcml2YXRlIFN0cmluZyBzdWJqZWN0TGV2ZWxUd287Cglwcml2YXRlIFN0cmluZyB0ZWFjaGVyTmFtZTsKCXByaXZhdGUgU3RyaW5nIHByaWNlOy8v5Y+q55So5LqO5pi+56S6Cn0=
+package com.mad.edu.vo;
+
+import io.swagger.annotations.ApiModel;
+import lombok.Data;
+
+import java.io.Serializable;
+
+/**
+ * @author helen
+ * @since 2019/7/2
+ */
+@ApiModel(value = "课程发布信息")
+@Data
+public class CoursePublishVo  implements Serializable {
+
+	private static final long serialVersionUID = 1L;
+
+	private String title;
+	private String cover;
+	private Integer lessonNum;
+	private String subjectLevelOne;
+	private String subjectLevelTwo;
+	private String teacherName;
+	private String price;//只用于显示
+}

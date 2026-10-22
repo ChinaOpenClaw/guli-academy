@@ -1,1 +1,27 @@
-aW1wb3J0IFZ1ZSBmcm9tICd2dWUnCgppbXBvcnQgJ25vcm1hbGl6ZS5jc3Mvbm9ybWFsaXplLmNzcycgLy8gQSBtb2Rlcm4gYWx0ZXJuYXRpdmUgdG8gQ1NTIHJlc2V0cwoKaW1wb3J0IEVsZW1lbnRVSSBmcm9tICdlbGVtZW50LXVpJwppbXBvcnQgJ2VsZW1lbnQtdWkvbGliL3RoZW1lLWNoYWxrL2luZGV4LmNzcycKaW1wb3J0IGxvY2FsZSBmcm9tICdlbGVtZW50LXVpL2xpYi9sb2NhbGUvbGFuZy96aC1DTicgLy8gbGFuZyBpMThuCgppbXBvcnQgJ0Avc3R5bGVzL2luZGV4LnNjc3MnIC8vIGdsb2JhbCBjc3MKCmltcG9ydCBBcHAgZnJvbSAnLi9BcHAnCmltcG9ydCByb3V0ZXIgZnJvbSAnLi9yb3V0ZXInCmltcG9ydCBzdG9yZSBmcm9tICcuL3N0b3JlJwoKaW1wb3J0ICdAL2ljb25zJyAvLyBpY29uCmltcG9ydCAnQC9wZXJtaXNzaW9uJyAvLyBwZXJtaXNzaW9uIGNvbnRyb2wKClZ1ZS51c2UoRWxlbWVudFVJLCB7IGxvY2FsZSB9KQoKVnVlLmNvbmZpZy5wcm9kdWN0aW9uVGlwID0gZmFsc2UKCm5ldyBWdWUoewogIGVsOiAnI2FwcCcsCiAgcm91dGVyLAogIHN0b3JlLAogIHJlbmRlcjogaCA9PiBoKEFwcCkKfSkK
+import Vue from 'vue'
+
+import 'normalize.css/normalize.css' // A modern alternative to CSS resets
+
+import ElementUI from 'element-ui'
+import 'element-ui/lib/theme-chalk/index.css'
+import locale from 'element-ui/lib/locale/lang/zh-CN' // lang i18n
+
+import '@/styles/index.scss' // global css
+
+import App from './App'
+import router from './router'
+import store from './store'
+
+import '@/icons' // icon
+import '@/permission' // permission control
+
+Vue.use(ElementUI, { locale })
+
+Vue.config.productionTip = false
+
+new Vue({
+  el: '#app',
+  router,
+  store,
+  render: h => h(App)
+})

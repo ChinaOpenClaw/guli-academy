@@ -1,1 +1,20 @@
-cGFja2FnZSBjb20ubWFkLmVkdS5tYXBwZXI7CgppbXBvcnQgY29tLmJhb21pZG91Lm15YmF0aXNwbHVzLmNvcmUubWFwcGVyLkJhc2VNYXBwZXI7CmltcG9ydCBjb20ubWFkLmVkdS5lbnRpdHkuU3ViamVjdDsKaW1wb3J0IGNvbS5tYWQuZWR1LnZvLlN1YmplY3RWbzI7CgppbXBvcnQgamF2YS51dGlsLkxpc3Q7CgovKioKICogPHA+CiAqIOivvueoi+enkeebriBNYXBwZXIg5o6l5Y+jCiAqIDwvcD4KICoKICogQGF1dGhvciBIZWxlbgogKiBAc2luY2UgMjAxOS0wNi0yNAogKi8KcHVibGljIGludGVyZmFjZSBTdWJqZWN0TWFwcGVyIGV4dGVuZHMgQmFzZU1hcHBlcjxTdWJqZWN0PiB7CgoJTGlzdDxTdWJqZWN0Vm8yPiBzZWxlY3ROZXN0ZWRMaXN0QnlQYXJlbnRJZChTdHJpbmcgcGFyZW50SWQpOwp9Cg==
+package com.mad.edu.mapper;
+
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.mad.edu.entity.Subject;
+import com.mad.edu.vo.SubjectVo2;
+
+import java.util.List;
+
+/**
+ * <p>
+ * 课程科目 Mapper 接口
+ * </p>
+ *
+ * @author Helen
+ * @since 2019-06-24
+ */
+public interface SubjectMapper extends BaseMapper<Subject> {
+
+	List<SubjectVo2> selectNestedListByParentId(String parentId);
+}

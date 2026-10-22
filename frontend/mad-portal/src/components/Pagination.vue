@@ -1,1 +1,45 @@
-PHRlbXBsYXRlPgogIDxuYXYgY2xhc3M9InBhZ2luZyIgdi1pZj0idG90YWxQYWdlcyA+IDEiPgogICAgPGEgY2xhc3M9InVuZGlzYWJsZSIgdi1pZj0iY3VycmVudCA9PT0gMSIgQGNsaWNrLnByZXZlbnQ+wqsg6aaW6aG1PC9hPgogICAgPGEgdi1lbHNlIEBjbGljaz0iZ28oMSkiPsKrIOmmlumhtTwvYT4KCiAgICA8YSBjbGFzcz0idW5kaXNhYmxlIiB2LWlmPSJjdXJyZW50ID09PSAxIiBAY2xpY2sucHJldmVudD7igLkg5LiK5LiA6aG1PC9hPgogICAgPGEgdi1lbHNlIEBjbGljaz0iZ28oY3VycmVudCAtIDEpIj7igLkg5LiK5LiA6aG1PC9hPgoKICAgIDxhCiAgICAgIHYtZm9yPSJwIGluIHBhZ2VzIgogICAgICA6a2V5PSJwIgogICAgICA6Y2xhc3M9InsgYWN0aXZlOiBwID09PSBjdXJyZW50IH0iCiAgICAgIEBjbGljaz0iZ28ocCkiCiAgICA+e3sgcCB9fTwvYT4KCiAgICA8YSBjbGFzcz0idW5kaXNhYmxlIiB2LWlmPSJjdXJyZW50ID09PSB0b3RhbFBhZ2VzIiBAY2xpY2sucHJldmVudD7kuIvkuIDpobUg4oC6PC9hPgogICAgPGEgdi1lbHNlIEBjbGljaz0iZ28oY3VycmVudCArIDEpIj7kuIvkuIDpobUg4oC6PC9hPgoKICAgIDxhIGNsYXNzPSJ1bmRpc2FibGUiIHYtaWY9ImN1cnJlbnQgPT09IHRvdGFsUGFnZXMiIEBjbGljay5wcmV2ZW50PuWwvumhtSDCuzwvYT4KICAgIDxhIHYtZWxzZSBAY2xpY2s9ImdvKHRvdGFsUGFnZXMpIj7lsL7pobUgwrs8L2E+CiAgPC9uYXY+CjwvdGVtcGxhdGU+Cgo8c2NyaXB0IHNldHVwPgppbXBvcnQgeyBjb21wdXRlZCB9IGZyb20gJ3Z1ZScKCmNvbnN0IHByb3BzID0gZGVmaW5lUHJvcHMoewogIGN1cnJlbnQ6IHsgdHlwZTogTnVtYmVyLCBkZWZhdWx0OiAxIH0sCiAgdG90YWxQYWdlczogeyB0eXBlOiBOdW1iZXIsIGRlZmF1bHQ6IDEgfQp9KQpjb25zdCBlbWl0ID0gZGVmaW5lRW1pdHMoWydjaGFuZ2UnXSkKCi8vIOaYvuekuuW9k+WJjemhteWJjeWQjuWQhCAyIOmhte+8jOmmluWwvuWni+e7iOWPr+ingQpjb25zdCBwYWdlcyA9IGNvbXB1dGVkKCgpID0+IHsKICBjb25zdCB0b3RhbCA9IHByb3BzLnRvdGFsUGFnZXMKICBjb25zdCBjdXIgPSBwcm9wcy5jdXJyZW50CiAgY29uc3Qgc2V0ID0gbmV3IFNldChbMSwgdG90YWwsIGN1ciwgY3VyIC0gMSwgY3VyICsgMSwgY3VyIC0gMiwgY3VyICsgMl0pCiAgcmV0dXJuIFsuLi5zZXRdLmZpbHRlcigobikgPT4gbiA+PSAxICYmIG4gPD0gdG90YWwpLnNvcnQoKGEsIGIpID0+IGEgLSBiKQp9KQoKZnVuY3Rpb24gZ28ocCkgewogIGlmIChwIDwgMSB8fCBwID4gcHJvcHMudG90YWxQYWdlcyB8fCBwID09PSBwcm9wcy5jdXJyZW50KSByZXR1cm4KICBlbWl0KCdjaGFuZ2UnLCBwKQp9Cjwvc2NyaXB0Pgo=
+<template>
+  <nav class="paging" v-if="totalPages > 1">
+    <a class="undisable" v-if="current === 1" @click.prevent>« 首页</a>
+    <a v-else @click="go(1)">« 首页</a>
+
+    <a class="undisable" v-if="current === 1" @click.prevent>‹ 上一页</a>
+    <a v-else @click="go(current - 1)">‹ 上一页</a>
+
+    <a
+      v-for="p in pages"
+      :key="p"
+      :class="{ active: p === current }"
+      @click="go(p)"
+    >{{ p }}</a>
+
+    <a class="undisable" v-if="current === totalPages" @click.prevent>下一页 ›</a>
+    <a v-else @click="go(current + 1)">下一页 ›</a>
+
+    <a class="undisable" v-if="current === totalPages" @click.prevent>尾页 »</a>
+    <a v-else @click="go(totalPages)">尾页 »</a>
+  </nav>
+</template>
+
+<script setup>
+import { computed } from 'vue'
+
+const props = defineProps({
+  current: { type: Number, default: 1 },
+  totalPages: { type: Number, default: 1 }
+})
+const emit = defineEmits(['change'])
+
+// 显示当前页前后各 2 页，首尾始终可见
+const pages = computed(() => {
+  const total = props.totalPages
+  const cur = props.current
+  const set = new Set([1, total, cur, cur - 1, cur + 1, cur - 2, cur + 2])
+  return [...set].filter((n) => n >= 1 && n <= total).sort((a, b) => a - b)
+})
+
+function go(p) {
+  if (p < 1 || p > props.totalPages || p === props.current) return
+  emit('change', p)
+}
+</script>

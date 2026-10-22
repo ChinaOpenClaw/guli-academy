@@ -1,1 +1,83 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHByb2plY3QgeG1sbnM9Imh0dHA6Ly9tYXZlbi5hcGFjaGUub3JnL1BPTS80LjAuMCIKICAgICAgICAgeG1sbnM6eHNpPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxL1hNTFNjaGVtYS1pbnN0YW5jZSIKICAgICAgICAgeHNpOnNjaGVtYUxvY2F0aW9uPSJodHRwOi8vbWF2ZW4uYXBhY2hlLm9yZy9QT00vNC4wLjAgaHR0cDovL21hdmVuLmFwYWNoZS5vcmcveHNkL21hdmVuLTQuMC4wLnhzZCI+CiAgICA8cGFyZW50PgogICAgICAgIDxhcnRpZmFjdElkPm1hZC1mcmFtZXdvcmstcGFyZW50PC9hcnRpZmFjdElkPgogICAgICAgIDxncm91cElkPmNvbS5tYWQ8L2dyb3VwSWQ+CiAgICAgICAgPHZlcnNpb24+MC4wLjEtU05BUFNIT1Q8L3ZlcnNpb24+CiAgICAgICAgPHJlbGF0aXZlUGF0aD4uLi9tYWQtZnJhbWV3b3JrLXBhcmVudC9wb20ueG1sPC9yZWxhdGl2ZVBhdGg+CiAgICA8L3BhcmVudD4KICAgIDxtb2RlbFZlcnNpb24+NC4wLjA8L21vZGVsVmVyc2lvbj4KCiAgICA8YXJ0aWZhY3RJZD5tYWQtZnJhbWV3b3JrLWNvbW1vbjwvYXJ0aWZhY3RJZD4KCgogICAgPGRlcGVuZGVuY2llcz4KCiAgICAgICAgPGRlcGVuZGVuY3k+CiAgICAgICAgICAgIDxncm91cElkPm9yZy5zcHJpbmdmcmFtZXdvcms8L2dyb3VwSWQ+CiAgICAgICAgICAgIDxhcnRpZmFjdElkPnNwcmluZy13ZWJtdmM8L2FydGlmYWN0SWQ+CiAgICAgICAgICAgIDxvcHRpb25hbD50cnVlPC9vcHRpb25hbD4KICAgICAgICA8L2RlcGVuZGVuY3k+CgogICAgICAgIDxkZXBlbmRlbmN5PgogICAgICAgICAgICA8Z3JvdXBJZD5vcmcuc3ByaW5nZnJhbWV3b3JrLmJvb3Q8L2dyb3VwSWQ+CiAgICAgICAgICAgIDxhcnRpZmFjdElkPnNwcmluZy1ib290LXN0YXJ0ZXItanNvbjwvYXJ0aWZhY3RJZD4KICAgICAgICAgICAgPG9wdGlvbmFsPnRydWU8L29wdGlvbmFsPgogICAgICAgIDwvZGVwZW5kZW5jeT4KCiAgICAgICAgPCEtLXN3YWdnZXItLT4KICAgICAgICA8ZGVwZW5kZW5jeT4KICAgICAgICAgICAgPGdyb3VwSWQ+aW8uc3ByaW5nZm94PC9ncm91cElkPgogICAgICAgICAgICA8YXJ0aWZhY3RJZD5zcHJpbmdmb3gtc3dhZ2dlcjI8L2FydGlmYWN0SWQ+CiAgICAgICAgICAgIDxvcHRpb25hbD50cnVlPC9vcHRpb25hbD4KICAgICAgICA8L2RlcGVuZGVuY3k+CiAgICAgICAgPGRlcGVuZGVuY3k+CiAgICAgICAgICAgIDxncm91cElkPmlvLnNwcmluZ2ZveDwvZ3JvdXBJZD4KICAgICAgICAgICAgPGFydGlmYWN0SWQ+c3ByaW5nZm94LXN3YWdnZXItdWk8L2FydGlmYWN0SWQ+CiAgICAgICAgICAgIDxvcHRpb25hbD50cnVlPC9vcHRpb25hbD4KICAgICAgICA8L2RlcGVuZGVuY3k+CgogICAgICAgIDwhLS1sb21ib2vnlKjmnaXnroDljJblrp7kvZPnsbvvvJrpnIDopoHlronoo4Vsb21ib2vmj5Lku7YtLT4KICAgICAgICA8ZGVwZW5kZW5jeT4KICAgICAgICAgICAgPGdyb3VwSWQ+b3JnLnByb2plY3Rsb21ib2s8L2dyb3VwSWQ+CiAgICAgICAgICAgIDxhcnRpZmFjdElkPmxvbWJvazwvYXJ0aWZhY3RJZD4KICAgICAgICAgICAgPG9wdGlvbmFsPnRydWU8L29wdGlvbmFsPgogICAgICAgIDwvZGVwZW5kZW5jeT4KCiAgICAgICAgPCEtLW15YmF0aXMtcGx1cy0tPgogICAgICAgIDxkZXBlbmRlbmN5PgogICAgICAgICAgICA8Z3JvdXBJZD5jb20uYmFvbWlkb3U8L2dyb3VwSWQ+CiAgICAgICAgICAgIDxhcnRpZmFjdElkPm15YmF0aXMtcGx1cy1ib290LXN0YXJ0ZXI8L2FydGlmYWN0SWQ+CiAgICAgICAgICAgIDxvcHRpb25hbD50cnVlPC9vcHRpb25hbD4KICAgICAgICA8L2RlcGVuZGVuY3k+CgogICAgICAgIDwhLS14bHMtLT4KICAgICAgICA8ZGVwZW5kZW5jeT4KICAgICAgICAgICAgPGdyb3VwSWQ+b3JnLmFwYWNoZS5wb2k8L2dyb3VwSWQ+CiAgICAgICAgICAgIDxhcnRpZmFjdElkPnBvaTwvYXJ0aWZhY3RJZD4KICAgICAgICAgICAgPG9wdGlvbmFsPnRydWU8L29wdGlvbmFsPgogICAgICAgIDwvZGVwZW5kZW5jeT4KCiAgICAgICAgPCEtLXhsc3gtLT4KICAgICAgICA8ZGVwZW5kZW5jeT4KICAgICAgICAgICAgPGdyb3VwSWQ+b3JnLmFwYWNoZS5wb2k8L2dyb3VwSWQ+CiAgICAgICAgICAgIDxhcnRpZmFjdElkPnBvaS1vb3htbDwvYXJ0aWZhY3RJZD4KICAgICAgICAgICAgPG9wdGlvbmFsPnRydWU8L29wdGlvbmFsPgogICAgICAgIDwvZGVwZW5kZW5jeT4KICAgIDwvZGVwZW5kZW5jaWVzPgoKICAgIDxidWlsZD4KICAgICAgICA8cGx1Z2lucz4KICAgICAgICAgICAgPCEtLSBjb21tb24g5piv5YWs5YWx5bqT5qih5Z2X77yM5peg5Y+v5omn6KGMIG1haW4g57G777yM6Lez6L+HIHNwcmluZy1ib290IOWPr+aJp+ihjCBqYXIg6YeN5omT5YyFIC0tPgogICAgICAgICAgICA8cGx1Z2luPgogICAgICAgICAgICAgICAgPGdyb3VwSWQ+b3JnLnNwcmluZ2ZyYW1ld29yay5ib290PC9ncm91cElkPgogICAgICAgICAgICAgICAgPGFydGlmYWN0SWQ+c3ByaW5nLWJvb3QtbWF2ZW4tcGx1Z2luPC9hcnRpZmFjdElkPgogICAgICAgICAgICAgICAgPGNvbmZpZ3VyYXRpb24+CiAgICAgICAgICAgICAgICAgICAgPHNraXA+dHJ1ZTwvc2tpcD4KICAgICAgICAgICAgICAgIDwvY29uZmlndXJhdGlvbj4KICAgICAgICAgICAgPC9wbHVnaW4+CiAgICAgICAgPC9wbHVnaW5zPgogICAgPC9idWlsZD4KPC9wcm9qZWN0Pg==
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>mad-framework-parent</artifactId>
+        <groupId>com.mad</groupId>
+        <version>0.0.1-SNAPSHOT</version>
+        <relativePath>../mad-framework-parent/pom.xml</relativePath>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>mad-framework-common</artifactId>
+
+
+    <dependencies>
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-webmvc</artifactId>
+            <optional>true</optional>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-json</artifactId>
+            <optional>true</optional>
+        </dependency>
+
+        <!--swagger-->
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger2</artifactId>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger-ui</artifactId>
+            <optional>true</optional>
+        </dependency>
+
+        <!--lombok用来简化实体类：需要安装lombok插件-->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <optional>true</optional>
+        </dependency>
+
+        <!--mybatis-plus-->
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-boot-starter</artifactId>
+            <optional>true</optional>
+        </dependency>
+
+        <!--xls-->
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi</artifactId>
+            <optional>true</optional>
+        </dependency>
+
+        <!--xlsx-->
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-ooxml</artifactId>
+            <optional>true</optional>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <!-- common 是公共库模块，无可执行 main 类，跳过 spring-boot 可执行 jar 重打包 -->
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <skip>true</skip>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>

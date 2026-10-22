@@ -1,1 +1,15 @@
-cGFja2FnZSBjb20ubWFkLnN5c3VzZXIuZW50aXR5OwoKaW1wb3J0IGxvbWJvay5EYXRhOwoKLyoqCiAqIEBhdXRob3IgaGVsZW4KICogQHNpbmNlIDIwMTkvMy8yCiAqLwpARGF0YQpwdWJsaWMgY2xhc3MgU3lzdXNlciB7CgoJcHJpdmF0ZSBTdHJpbmcgaWQ7Cglwcml2YXRlIFN0cmluZyB1c2VybmFtZTsKCXByaXZhdGUgU3RyaW5nIHBhc3N3b3JkOwp9Cg==
+package com.mad.sysuser.entity;
+
+import lombok.Data;
+
+/**
+ * @author helen
+ * @since 2019/3/2
+ */
+@Data
+public class Sysuser {
+
+	private String id;
+	private String username;
+	private String password;
+}

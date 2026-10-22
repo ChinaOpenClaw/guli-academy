@@ -1,1 +1,34 @@
-PHRlbXBsYXRlPgogIDxhcnRpY2xlIGNsYXNzPSJjb250YWluZXIgbXQyMCIgdi1pZj0iYXJ0aWNsZSI+CiAgICA8ZGl2IGNsYXNzPSJhLWRldGFpbCI+CiAgICAgIDxoMSBjbGFzcz0iYS1kZXRhaWwtdGl0bGUiPnt7IGFydGljbGUudGl0bGUgfX08L2gxPgogICAgICA8ZGl2IGNsYXNzPSJhLWRldGFpbC1tZXRhIGMtOTk5Ij4KICAgICAgICB7eyBhcnRpY2xlLmF1dGhvciB9fSDCtyB7eyBhcnRpY2xlLmRhdGUgfX0gwrcge3sgYXJ0aWNsZS52aWV3cyB9fSDpmIXor7sKICAgICAgPC9kaXY+CiAgICAgIDxkaXYgY2xhc3M9ImEtZGV0YWlsLWJvZHkiPgogICAgICAgIDxwIHYtZm9yPSIocGFyYSwgaSkgaW4gcGFyYWdyYXBocyIgOmtleT0iaSI+e3sgcGFyYSB9fTwvcD4KICAgICAgPC9kaXY+CiAgICAgIDxkaXYgY2xhc3M9InRhYyBtdDQwIj4KICAgICAgICA8cm91dGVyLWxpbmsgdG89Ii9hcnRpY2xlcyIgY2xhc3M9ImNvbW0tYnRuIGMtYnRuLTIiPui/lOWbnuaWh+eroOWIl+ihqDwvcm91dGVyLWxpbms+CiAgICAgIDwvZGl2PgogICAgPC9kaXY+CiAgPC9hcnRpY2xlPgogIDxkaXYgY2xhc3M9ImVtcHR5IGNvbnRhaW5lciIgdi1lbHNlPuaWh+eroOS4jeWtmOWcqOOAgjwvZGl2Pgo8L3RlbXBsYXRlPgoKPHNjcmlwdCBzZXR1cD4KaW1wb3J0IHsgY29tcHV0ZWQgfSBmcm9tICd2dWUnCmltcG9ydCB7IHVzZVJvdXRlIH0gZnJvbSAndnVlLXJvdXRlcicKaW1wb3J0IHsgZ2V0QXJ0aWNsZSB9IGZyb20gJ0AvZGF0YS9hcnRpY2xlcycKCmNvbnN0IHJvdXRlID0gdXNlUm91dGUoKQpjb25zdCBhcnRpY2xlID0gY29tcHV0ZWQoKCkgPT4gZ2V0QXJ0aWNsZShyb3V0ZS5wYXJhbXMuaWQpKQpjb25zdCBwYXJhZ3JhcGhzID0gY29tcHV0ZWQoKCkgPT4gKGFydGljbGUudmFsdWUgPyBhcnRpY2xlLnZhbHVlLmNvbnRlbnQuc3BsaXQoJ1xuXG4nKS5maWx0ZXIoQm9vbGVhbikgOiBbXSkpCjwvc2NyaXB0PgoKPHN0eWxlIHNjb3BlZD4KLmEtZGV0YWlsIHsgbWF4LXdpZHRoOiA4MjBweDsgbWFyZ2luOiAwIGF1dG87IGJhY2tncm91bmQ6ICNmZmY7IGJvcmRlcjogMXB4IHNvbGlkIHZhcigtLWxpbmUpOyBib3JkZXItcmFkaXVzOiAxMHB4OyBwYWRkaW5nOiAzNHB4IDQwcHg7IH0KLmEtZGV0YWlsLXRpdGxlIHsgZm9udC1zaXplOiAyNnB4OyBmb250LXdlaWdodDogODAwOyB9Ci5hLWRldGFpbC1tZXRhIHsgbWFyZ2luOiAxMnB4IDAgMjRweDsgcGFkZGluZy1ib3R0b206IDE4cHg7IGJvcmRlci1ib3R0b206IDFweCBkYXNoZWQgdmFyKC0tbGluZSk7IH0KLmEtZGV0YWlsLWJvZHkgcCB7IG1hcmdpbi1ib3R0b206IDE4cHg7IGxpbmUtaGVpZ2h0OiAyOyBjb2xvcjogdmFyKC0tdGV4dC0yKTsgfQo8L3N0eWxlPgo=
+<template>
+  <article class="container mt20" v-if="article">
+    <div class="a-detail">
+      <h1 class="a-detail-title">{{ article.title }}</h1>
+      <div class="a-detail-meta c-999">
+        {{ article.author }} · {{ article.date }} · {{ article.views }} 阅读
+      </div>
+      <div class="a-detail-body">
+        <p v-for="(para, i) in paragraphs" :key="i">{{ para }}</p>
+      </div>
+      <div class="tac mt40">
+        <router-link to="/articles" class="comm-btn c-btn-2">返回文章列表</router-link>
+      </div>
+    </div>
+  </article>
+  <div class="empty container" v-else>文章不存在。</div>
+</template>
+
+<script setup>
+import { computed } from 'vue'
+import { useRoute } from 'vue-router'
+import { getArticle } from '@/data/articles'
+
+const route = useRoute()
+const article = computed(() => getArticle(route.params.id))
+const paragraphs = computed(() => (article.value ? article.value.content.split('\n\n').filter(Boolean) : []))
+</script>
+
+<style scoped>
+.a-detail { max-width: 820px; margin: 0 auto; background: #fff; border: 1px solid var(--line); border-radius: 10px; padding: 34px 40px; }
+.a-detail-title { font-size: 26px; font-weight: 800; }
+.a-detail-meta { margin: 12px 0 24px; padding-bottom: 18px; border-bottom: 1px dashed var(--line); }
+.a-detail-body p { margin-bottom: 18px; line-height: 2; color: var(--text-2); }
+</style>

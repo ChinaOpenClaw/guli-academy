@@ -1,1 +1,189 @@
-PHRlbXBsYXRlPgogIDxkaXYgY2xhc3M9ImxlYXJuIGNvbnRhaW5lciIgdi1pZj0iY291cnNlIj4KICAgIDwhLS0g5pyq55m75b2V77ya5a2m5Lmg5Lit5b+D6Zeo56aBIC0tPgogICAgPGRpdiBjbGFzcz0ibGVhcm4tZ2F0ZSIgdi1pZj0iIWlzTG9naW4iPgogICAgICA8ZGl2IGNsYXNzPSJsZy1pY29uIj7wn5SSPC9kaXY+CiAgICAgIDxoMj7nmbvlvZXlkI7ljbPlj6/ov5vlhaXlrabkuaDkuK3lv4M8L2gyPgogICAgICA8cCBjbGFzcz0iYy02NjYiPuiusOW9leWtpuS5oOi/m+W6puOAgee7reaSreS4iuasoeivvueoi++8jOeZu+W9leWQjuS9k+mqjOWujOaVtOWtpuS5oOS4reW/g+OAgjwvcD4KICAgICAgPGJ1dHRvbiBjbGFzcz0iY29tbS1idG4gYy1idG4tMSIgQGNsaWNrPSJnb0xvZ2luIj7nmbvlvZXlrabkuaA8L2J1dHRvbj4KICAgIDwvZGl2PgoKICAgIDwhLS0g5a2m5Lmg5Lit5b+D5Li75L2TIC0tPgogICAgPGRpdiBjbGFzcz0ibGVhcm4tYm9keSIgdi1lbHNlPgogICAgICA8ZGl2IGNsYXNzPSJsZWFybi1oZWFkIj4KICAgICAgICA8cm91dGVyLWxpbmsgOnRvPSJgL2NvdXJzZXMvJHtjb3Vyc2UuaWR9YCIgY2xhc3M9ImMtOTk5Ij7igLkg6L+U5Zue6K++56iLPC9yb3V0ZXItbGluaz4KICAgICAgICA8aDEgY2xhc3M9ImxlYXJuLXRpdGxlIj57eyBjb3Vyc2UudGl0bGUgfX08L2gxPgogICAgICA8L2Rpdj4KCiAgICAgIDxkaXYgY2xhc3M9ImxlYXJuLWdyaWQiPgogICAgICAgIDwhLS0g5bem5L6n56ug6IqC55uu5b2VIC0tPgogICAgICAgIDxhc2lkZSBjbGFzcz0ibGVhcm4tc2lkZSI+CiAgICAgICAgICA8ZGl2IGNsYXNzPSJscy1wcm9ncmVzcyI+CiAgICAgICAgICAgIDxkaXYgY2xhc3M9ImxzLWJhciI+PHNwYW4gOnN0eWxlPSJ7IHdpZHRoOiBwcm9ncmVzc1BjdCArICclJyB9Ij48L3NwYW4+PC9kaXY+CiAgICAgICAgICAgIDxkaXYgY2xhc3M9ImMtOTk5IiBzdHlsZT0iZm9udC1zaXplOjEzcHg7bWFyZ2luLXRvcDo2cHgiPgogICAgICAgICAgICAgIOW3suWtpiB7eyBkb25lQ291bnQgfX0gLyB7eyB0b3RhbCB9fSDoioLvvIh7eyBwcm9ncmVzc1BjdCB9fSXvvIkKICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDxkaXYgY2xhc3M9ImxzLWNoYXB0ZXJzIj4KICAgICAgICAgICAgPGRpdiBjbGFzcz0ibHMtY2hhcHRlciIgdi1mb3I9IihjaCwgY2kpIGluIG91dGxpbmUiIDprZXk9ImNoLmlkIj4KICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJscy1jaC10aXRsZSI+56yse3sgY2kgKyAxIH1956ugIMK3IHt7IGNoLnRpdGxlIH19PC9kaXY+CiAgICAgICAgICAgICAgPHVsPgogICAgICAgICAgICAgICAgPGxpCiAgICAgICAgICAgICAgICAgIHYtZm9yPSJ2IGluIGNoLnZpZGVvcyIKICAgICAgICAgICAgICAgICAgOmtleT0idi5pZCIKICAgICAgICAgICAgICAgICAgOmNsYXNzPSJ7IGFjdGl2ZTogdi5pZCA9PT0gY3VycmVudFZpZGVvSWQsIGRvbmU6IGNvbXBsZXRlZC5oYXModi5pZCkgfSIKICAgICAgICAgICAgICAgICAgQGNsaWNrPSJzZWxlY3RWaWRlbyh2KSIKICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3M9ImxzLWRvdCI+e3sgY29tcGxldGVkLmhhcyh2LmlkKSA/ICfinJMnIDogJ+KWtycgfX08L3NwYW4+CiAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzPSJscy12LXRpdGxlIHR4dE9mIj57eyB2LnRpdGxlIH19PC9zcGFuPgogICAgICAgICAgICAgICAgICA8c3BhbiB2LWlmPSJ2LmZyZWUiIGNsYXNzPSJscy1mcmVlIj7lhY3otLk8L3NwYW4+CiAgICAgICAgICAgICAgICA8L2xpPgogICAgICAgICAgICAgIDwvdWw+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9hc2lkZT4KCiAgICAgICAgPCEtLSDlj7Pkvqfmkq3mlL7lmaggLS0+CiAgICAgICAgPG1haW4gY2xhc3M9ImxlYXJuLW1haW4iPgogICAgICAgICAgPFZpZGVvUGxheWVyCiAgICAgICAgICAgIHYtaWY9ImN1cnJlbnRWaWRlbyIKICAgICAgICAgICAgOnNyYz0icGxheWVyLnR5cGUgPT09ICdtcDQnID8gcGxheWVyLnNyYyA6ICcnIgogICAgICAgICAgICA6dGl0bGU9ImN1cnJlbnRWaWRlby50aXRsZSIKICAgICAgICAgICAgOmZyZWU9ImN1cnJlbnRWaWRlby5mcmVlIgogICAgICAgICAgICA6cG9zdGVyPSJjb3Vyc2UuY292ZXIiCiAgICAgICAgICAgIDpidmlkPSJwbGF5ZXIudHlwZSA9PT0gJ2JpbGliaWxpJyA/IHBsYXllci5idmlkIDogJyciCiAgICAgICAgICAgIDpwYWdlPSJwbGF5ZXIucGFnZSIKICAgICAgICAgICAgOnBsYXlsaXN0LWlkPSJwbGF5ZXIudHlwZSA9PT0gJ3lvdXR1YmUnID8gcGxheWVyLnBsYXlsaXN0SWQgOiAnJyIKICAgICAgICAgICAgOmluZGV4PSJwbGF5ZXIudHlwZSA9PT0gJ3lvdXR1YmUnID8gcGxheWVyLmluZGV4IDogMCIKICAgICAgICAgICAgQGVuZGVkPSJvbkVuZGVkIgogICAgICAgICAgLz4KICAgICAgICAgIDxkaXYgdi1pZj0iY3VycmVudFZpZGVvIiBjbGFzcz0ibG0tYWN0aW9ucyI+CiAgICAgICAgICAgIDxidXR0b24gY2xhc3M9ImNvbW0tYnRuIGMtYnRuLTMgc20iIEBjbGljaz0ib25FbmRlZCI+4pyTIOagh+iusOacrOiKguW3suWtpjwvYnV0dG9uPgogICAgICAgICAgICA8YSB2LWlmPSJzb3VyY2VVcmwiIDpocmVmPSJzb3VyY2VVcmwiIHRhcmdldD0iX2JsYW5rIiByZWw9Im5vb3BlbmVyIiBjbGFzcz0ibG0tYmlsaS1saW5rIj7lnKjljp/nq5nop4LnnIsg4oaXPC9hPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8ZGl2IHYtaWY9ImN1cnJlbnRWaWRlbyIgY2xhc3M9ImxtLWluZm8iPgogICAgICAgICAgICA8aDM+e3sgY3VycmVudFZpZGVvLnRpdGxlIH19PC9oMz4KICAgICAgICAgICAgPHAgY2xhc3M9ImMtOTk5Ij7orrLluIjvvJoKICAgICAgICAgICAgICA8cm91dGVyLWxpbmsgdi1pZj0idGVhY2hlciIgOnRvPSJgL3RlYWNoZXJzLyR7dGVhY2hlci5pZH1gIiBjbGFzcz0iYy1tYXN0ZXIiPnt7IHRlYWNoZXIubmFtZSB9fTwvcm91dGVyLWxpbms+CiAgICAgICAgICAgICAgPHNwYW4gdi1lbHNlPuKAlDwvc3Bhbj4KICAgICAgICAgICAgPC9wPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8ZGl2IGNsYXNzPSJlbXB0eSIgdi1lbHNlPuacrOeroOaaguaXoOinhumikeOAgjwvZGl2PgogICAgICAgIDwvbWFpbj4KICAgICAgPC9kaXY+CiAgICA8L2Rpdj4KICA8L2Rpdj4KCiAgPGRpdiBjbGFzcz0iZW1wdHkgY29udGFpbmVyIiB2LWVsc2U+6K++56iL5LiN5a2Y5Zyo44CCPC9kaXY+CjwvdGVtcGxhdGU+Cgo8c2NyaXB0IHNldHVwPgppbXBvcnQgeyByZWYsIGNvbXB1dGVkLCB3YXRjaCwgb25Nb3VudGVkIH0gZnJvbSAndnVlJwppbXBvcnQgeyB1c2VSb3V0ZSwgdXNlUm91dGVyIH0gZnJvbSAndnVlLXJvdXRlcicKaW1wb3J0IHsgdXNlQXV0aCB9IGZyb20gJ0AvY29tcG9zYWJsZXMvdXNlQXV0aCcKaW1wb3J0IHsgZ2V0Q291cnNlIH0gZnJvbSAnQC9kYXRhL2NvdXJzZXMnCmltcG9ydCB7IGdldFRlYWNoZXIgfSBmcm9tICdAL2RhdGEvdGVhY2hlcnMnCmltcG9ydCB7IGZldGNoQ291cnNlT3V0bGluZSwgbG9jYWxPdXRsaW5lLCBsb2FkUHJvZ3Jlc3MsIHNhdmVQcm9ncmVzcywgbWFya1N0YXJ0ZWQsIHJlc29sdmVQbGF5ZXIsIHNvdXJjZVBhZ2VVcmwgfSBmcm9tICdAL2FwaS9sZWFybicKaW1wb3J0IFZpZGVvUGxheWVyIGZyb20gJ0AvY29tcG9uZW50cy9WaWRlb1BsYXllci52dWUnCgpjb25zdCB7IGlzTG9naW4gfSA9IHVzZUF1dGgoKQpjb25zdCByb3V0ZSA9IHVzZVJvdXRlKCkKY29uc3Qgcm91dGVyID0gdXNlUm91dGVyKCkKCmNvbnN0IGNvdXJzZSA9IGNvbXB1dGVkKCgpID0+IGdldENvdXJzZShyb3V0ZS5wYXJhbXMuaWQpKQpjb25zdCB0ZWFjaGVyID0gY29tcHV0ZWQoKCkgPT4gKGNvdXJzZS52YWx1ZSA/IGdldFRlYWNoZXIoY291cnNlLnZhbHVlLnRlYWNoZXJJZCkgOiBudWxsKSkKCmNvbnN0IG91dGxpbmUgPSByZWYoW10pCmNvbnN0IGxvYWRpbmcgPSByZWYoZmFsc2UpCmNvbnN0IGN1cnJlbnRWaWRlb0lkID0gcmVmKCcnKQpjb25zdCBjb21wbGV0ZWQgPSByZWYobmV3IFNldCgpKQoKY29uc3QgZmxhdFZpZGVvcyA9IGNvbXB1dGVkKCgpID0+IG91dGxpbmUudmFsdWUuZmxhdE1hcCgoY2gpID0+IGNoLnZpZGVvcykpCmNvbnN0IGN1cnJlbnRWaWRlbyA9IGNvbXB1dGVkKAogICgpID0+IGZsYXRWaWRlb3MudmFsdWUuZmluZCgodikgPT4gdi5pZCA9PT0gY3VycmVudFZpZGVvSWQudmFsdWUpIHx8IGZsYXRWaWRlb3MudmFsdWVbMF0gfHwgbnVsbAopCi8vIOaSreaUvuaWueahiO+8muacieivvueoi+e6p+aSreaUvua6kO+8iFlvdVR1YmUgLyBCIOerme+8ieWImei1sOWvueW6lOW1jOWFpe+8jOWQpuWImea8lOekuiBNUDQKY29uc3QgcGxheWVyID0gY29tcHV0ZWQoKCkgPT4gcmVzb2x2ZVBsYXllcihjdXJyZW50VmlkZW8udmFsdWUsIGNvdXJzZS52YWx1ZSkpCmNvbnN0IHNvdXJjZVVybCA9IGNvbXB1dGVkKCgpID0+IHNvdXJjZVBhZ2VVcmwoY291cnNlLnZhbHVlKSkKY29uc3QgdG90YWwgPSBjb21wdXRlZCgoKSA9PiBmbGF0VmlkZW9zLnZhbHVlLmxlbmd0aCkKY29uc3QgZG9uZUNvdW50ID0gY29tcHV0ZWQoKCkgPT4gZmxhdFZpZGVvcy52YWx1ZS5maWx0ZXIoKHYpID0+IGNvbXBsZXRlZC52YWx1ZS5oYXModi5pZCkpLmxlbmd0aCkKY29uc3QgcHJvZ3Jlc3NQY3QgPSBjb21wdXRlZCgoKSA9PiAodG90YWwudmFsdWUgPyBNYXRoLnJvdW5kKChkb25lQ291bnQudmFsdWUgLyB0b3RhbC52YWx1ZSkgKiAxMDApIDogMCkpCgphc3luYyBmdW5jdGlvbiBsb2FkT3V0bGluZSgpIHsKICBsb2FkaW5nLnZhbHVlID0gdHJ1ZQogIGNvbnN0IGJhY2tlbmQgPSBhd2FpdCBmZXRjaENvdXJzZU91dGxpbmUocm91dGUucGFyYW1zLmlkKQogIG91dGxpbmUudmFsdWUgPSBiYWNrZW5kICYmIGJhY2tlbmQubGVuZ3RoID8gYmFja2VuZCA6IGxvY2FsT3V0bGluZShjb3Vyc2UudmFsdWUpCiAgbG9hZGluZy52YWx1ZSA9IGZhbHNlCgogIGNvbnN0IHAgPSBsb2FkUHJvZ3Jlc3MoKVtyb3V0ZS5wYXJhbXMuaWRdCiAgaWYgKHAgJiYgcC5jdXJyZW50VmlkZW9JZCkgewogICAgY29tcGxldGVkLnZhbHVlID0gbmV3IFNldChwLmNvbXBsZXRlZCB8fCBbXSkKICAgIGN1cnJlbnRWaWRlb0lkLnZhbHVlID0gb3V0bGluZS52YWx1ZS5mbGF0TWFwKChjKSA9PiBjLnZpZGVvcykuc29tZSgodikgPT4gdi5pZCA9PT0gcC5jdXJyZW50VmlkZW9JZCkKICAgICAgPyBwLmN1cnJlbnRWaWRlb0lkCiAgICAgIDogKGZsYXRWaWRlb3MudmFsdWVbMF0gJiYgZmxhdFZpZGVvcy52YWx1ZVswXS5pZCkgfHwgJycKICB9IGVsc2UgewogICAgY3VycmVudFZpZGVvSWQudmFsdWUgPSAoZmxhdFZpZGVvcy52YWx1ZVswXSAmJiBmbGF0VmlkZW9zLnZhbHVlWzBdLmlkKSB8fCAnJwogIH0KICBtYXJrU3RhcnRlZChyb3V0ZS5wYXJhbXMuaWQpCn0KCmZ1bmN0aW9uIHNlbGVjdFZpZGVvKHYpIHsKICBjdXJyZW50VmlkZW9JZC52YWx1ZSA9IHYuaWQKICBwZXJzaXN0KCkKfQpmdW5jdGlvbiBvbkVuZGVkKCkgewogIGlmIChjdXJyZW50VmlkZW8udmFsdWUpIHsKICAgIGNvbnN0IHMgPSBuZXcgU2V0KGNvbXBsZXRlZC52YWx1ZSkKICAgIHMuYWRkKGN1cnJlbnRWaWRlby52YWx1ZS5pZCkKICAgIGNvbXBsZXRlZC52YWx1ZSA9IHMKICAgIHBlcnNpc3QoKQogIH0KfQpmdW5jdGlvbiBwZXJzaXN0KCkgewogIHNhdmVQcm9ncmVzcyhyb3V0ZS5wYXJhbXMuaWQsIHsgY3VycmVudFZpZGVvSWQ6IGN1cnJlbnRWaWRlb0lkLnZhbHVlLCBjb21wbGV0ZWQ6IFsuLi5jb21wbGV0ZWQudmFsdWVdIH0pCn0KZnVuY3Rpb24gZ29Mb2dpbigpIHsKICByb3V0ZXIucHVzaCh7IHBhdGg6ICcvbG9naW4nLCBxdWVyeTogeyByZWRpcmVjdDogYC9sZWFybi8ke3JvdXRlLnBhcmFtcy5pZH1gIH0gfSkKfQoKd2F0Y2goaXNMb2dpbiwgKHYpID0+IHsgaWYgKHYpIGxvYWRPdXRsaW5lKCkgfSkKb25Nb3VudGVkKCgpID0+IHsgaWYgKGlzTG9naW4udmFsdWUpIGxvYWRPdXRsaW5lKCkgfSkKPC9zY3JpcHQ+Cgo8c3R5bGUgc2NvcGVkPgoubGVhcm4geyBwYWRkaW5nOiAyMHB4IDAgNDBweDsgfQoubGVhcm4tZ2F0ZSB7IHRleHQtYWxpZ246IGNlbnRlcjsgcGFkZGluZzogODBweCAwOyB9Ci5sZy1pY29uIHsgZm9udC1zaXplOiA0OHB4OyB9Ci5sZWFybi1nYXRlIGgyIHsgbWFyZ2luOiAxNHB4IDAgOHB4OyBmb250LXNpemU6IDIycHg7IH0KLmxlYXJuLWdhdGUgcCB7IG1hcmdpbi1ib3R0b206IDIycHg7IH0KLmxlYXJuLWhlYWQgeyBtYXJnaW4tYm90dG9tOiAxOHB4OyB9Ci5sZWFybi10aXRsZSB7IGZvbnQtc2l6ZTogMjJweDsgbWFyZ2luLXRvcDogNnB4OyB9Ci5sZWFybi1ncmlkIHsgZGlzcGxheTogZmxleDsgZ2FwOiAyMnB4OyBhbGlnbi1pdGVtczogZmxleC1zdGFydDsgfQoubGVhcm4tc2lkZSB7IHdpZHRoOiAzNDBweDsgZmxleDogbm9uZTsgYmFja2dyb3VuZDogI2ZmZjsgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tbGluZSk7IGJvcmRlci1yYWRpdXM6IDEwcHg7IG92ZXJmbG93OiBoaWRkZW47IH0KLmxzLXByb2dyZXNzIHsgcGFkZGluZzogMTZweCAxOHB4OyBib3JkZXItYm90dG9tOiAxcHggc29saWQgdmFyKC0tbGluZSk7IGJhY2tncm91bmQ6IHZhcigtLWJyYW5kLWxpZ2h0KTsgfQoubHMtYmFyIHsgaGVpZ2h0OiA4cHg7IGJvcmRlci1yYWRpdXM6IDVweDsgYmFja2dyb3VuZDogI2Q4ZjBlNjsgb3ZlcmZsb3c6IGhpZGRlbjsgfQoubHMtYmFyIHNwYW4geyBkaXNwbGF5OiBibG9jazsgaGVpZ2h0OiAxMDAlOyBiYWNrZ3JvdW5kOiB2YXIoLS1icmFuZCk7IHRyYW5zaXRpb246IHdpZHRoIC4zczsgfQoubHMtY2hhcHRlcnMgeyBtYXgtaGVpZ2h0OiA2MjBweDsgb3ZlcmZsb3c6IGF1dG87IH0KLmxzLWNoYXB0ZXIgeyBib3JkZXItYm90dG9tOiAxcHggc29saWQgdmFyKC0tbGluZSk7IH0KLmxzLWNoLXRpdGxlIHsgcGFkZGluZzogMTJweCAxOHB4OyBmb250LXdlaWdodDogNjAwOyBiYWNrZ3JvdW5kOiB2YXIoLS1iZy1mYSk7IH0KLmxzLWNoYXB0ZXJzIGxpIHsgZGlzcGxheTogZmxleDsgYWxpZ24taXRlbXM6IGNlbnRlcjsgZ2FwOiA4cHg7IHBhZGRpbmc6IDEwcHggMThweCAxMHB4IDMwcHg7IGN1cnNvcjogcG9pbnRlcjsgYm9yZGVyLWxlZnQ6IDNweCBzb2xpZCB0cmFuc3BhcmVudDsgfQoubHMtY2hhcHRlcnMgbGk6aG92ZXIgeyBiYWNrZ3JvdW5kOiB2YXIoLS1icmFuZC1saWdodCk7IH0KLmxzLWNoYXB0ZXJzIGxpLmFjdGl2ZSB7IGJhY2tncm91bmQ6IHZhcigtLWJyYW5kLWxpZ2h0KTsgYm9yZGVyLWxlZnQtY29sb3I6IHZhcigtLWJyYW5kKTsgY29sb3I6IHZhcigtLWJyYW5kKTsgfQoubHMtY2hhcHRlcnMgbGkuZG9uZSAubHMtZG90IHsgY29sb3I6IHZhcigtLWJyYW5kKTsgfQoubHMtZG90IHsgZmxleDogbm9uZTsgd2lkdGg6IDE4cHg7IHRleHQtYWxpZ246IGNlbnRlcjsgfQoubHMtdi10aXRsZSB7IGZsZXg6IDE7IH0KLmxzLWZyZWUgeyBmbGV4OiBub25lOyBmb250LXNpemU6IDExcHg7IGNvbG9yOiB2YXIoLS1icmFuZCk7IGJvcmRlcjogMXB4IHNvbGlkIHZhcigtLWJyYW5kKTsgYm9yZGVyLXJhZGl1czogM3B4OyBwYWRkaW5nOiAwIDVweDsgfQoubGVhcm4tbWFpbiB7IGZsZXg6IDE7IG1pbi13aWR0aDogMDsgfQoubG0tYWN0aW9ucyB7IGRpc3BsYXk6IGZsZXg7IGFsaWduLWl0ZW1zOiBjZW50ZXI7IGdhcDogMTRweDsgbWFyZ2luLXRvcDogMTJweDsgfQoubG0tYWN0aW9ucyAuc20geyBwYWRkaW5nOiA3cHggMTZweDsgZm9udC1zaXplOiAxM3B4OyB9Ci5sbS1iaWxpLWxpbmsgeyBjb2xvcjogI2ZiNzI5OTsgZm9udC1zaXplOiAxM3B4OyB9Ci5sbS1iaWxpLWxpbms6aG92ZXIgeyB0ZXh0LWRlY29yYXRpb246IHVuZGVybGluZTsgfQoubG0taW5mbyB7IG1hcmdpbi10b3A6IDE0cHg7IH0KLmxtLWluZm8gaDMgeyBmb250LXNpemU6IDE4cHg7IH0KLmxtLWluZm8gcCB7IG1hcmdpbi10b3A6IDZweDsgfQoKQG1lZGlhIChtYXgtd2lkdGg6IDk5MnB4KSB7CiAgLmxlYXJuLWdyaWQgeyBmbGV4LWRpcmVjdGlvbjogY29sdW1uOyB9CiAgLmxlYXJuLXNpZGUgeyB3aWR0aDogMTAwJTsgfQp9Cjwvc3R5bGU+Cg==
+<template>
+  <div class="learn container" v-if="course">
+    <!-- 未登录：学习中心门禁 -->
+    <div class="learn-gate" v-if="!isLogin">
+      <div class="lg-icon">🔒</div>
+      <h2>登录后即可进入学习中心</h2>
+      <p class="c-666">记录学习进度、续播上次课程，登录后体验完整学习中心。</p>
+      <button class="comm-btn c-btn-1" @click="goLogin">登录学习</button>
+    </div>
+
+    <!-- 学习中心主体 -->
+    <div class="learn-body" v-else>
+      <div class="learn-head">
+        <router-link :to="`/courses/${course.id}`" class="c-999">‹ 返回课程</router-link>
+        <h1 class="learn-title">{{ course.title }}</h1>
+      </div>
+
+      <div class="learn-grid">
+        <!-- 左侧章节目录 -->
+        <aside class="learn-side">
+          <div class="ls-progress">
+            <div class="ls-bar"><span :style="{ width: progressPct + '%' }"></span></div>
+            <div class="c-999" style="font-size:13px;margin-top:6px">
+              已学 {{ doneCount }} / {{ total }} 节（{{ progressPct }}%）
+            </div>
+          </div>
+          <div class="ls-chapters">
+            <div class="ls-chapter" v-for="(ch, ci) in outline" :key="ch.id">
+              <div class="ls-ch-title">第{{ ci + 1 }}章 · {{ ch.title }}</div>
+              <ul>
+                <li
+                  v-for="v in ch.videos"
+                  :key="v.id"
+                  :class="{ active: v.id === currentVideoId, done: completed.has(v.id) }"
+                  @click="selectVideo(v)"
+                >
+                  <span class="ls-dot">{{ completed.has(v.id) ? '✓' : '▷' }}</span>
+                  <span class="ls-v-title txtOf">{{ v.title }}</span>
+                  <span v-if="v.free" class="ls-free">免费</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </aside>
+
+        <!-- 右侧播放器 -->
+        <main class="learn-main">
+          <VideoPlayer
+            v-if="currentVideo"
+            :src="player.type === 'mp4' ? player.src : ''"
+            :title="currentVideo.title"
+            :free="currentVideo.free"
+            :poster="course.cover"
+            :bvid="player.type === 'bilibili' ? player.bvid : ''"
+            :page="player.page"
+            :playlist-id="player.type === 'youtube' ? player.playlistId : ''"
+            :index="player.type === 'youtube' ? player.index : 0"
+            @ended="onEnded"
+          />
+          <div v-if="currentVideo" class="lm-actions">
+            <button class="comm-btn c-btn-3 sm" @click="onEnded">✓ 标记本节已学</button>
+            <a v-if="sourceUrl" :href="sourceUrl" target="_blank" rel="noopener" class="lm-bili-link">在原站观看 ↗</a>
+          </div>
+          <div v-if="currentVideo" class="lm-info">
+            <h3>{{ currentVideo.title }}</h3>
+            <p class="c-999">讲师：
+              <router-link v-if="teacher" :to="`/teachers/${teacher.id}`" class="c-master">{{ teacher.name }}</router-link>
+              <span v-else>—</span>
+            </p>
+          </div>
+          <div class="empty" v-else>本章暂无视频。</div>
+        </main>
+      </div>
+    </div>
+  </div>
+
+  <div class="empty container" v-else>课程不存在。</div>
+</template>
+
+<script setup>
+import { ref, computed, watch, onMounted } from 'vue'
+import { useRoute, useRouter } from 'vue-router'
+import { useAuth } from '@/composables/useAuth'
+import { getCourse } from '@/data/courses'
+import { getTeacher } from '@/data/teachers'
+import { fetchCourseOutline, localOutline, loadProgress, saveProgress, markStarted, resolvePlayer, sourcePageUrl } from '@/api/learn'
+import VideoPlayer from '@/components/VideoPlayer.vue'
+
+const { isLogin } = useAuth()
+const route = useRoute()
+const router = useRouter()
+
+const course = computed(() => getCourse(route.params.id))
+const teacher = computed(() => (course.value ? getTeacher(course.value.teacherId) : null))
+
+const outline = ref([])
+const loading = ref(false)
+const currentVideoId = ref('')
+const completed = ref(new Set())
+
+const flatVideos = computed(() => outline.value.flatMap((ch) => ch.videos))
+const currentVideo = computed(
+  () => flatVideos.value.find((v) => v.id === currentVideoId.value) || flatVideos.value[0] || null
+)
+// 播放方案：有课程级播放源（YouTube / B 站）则走对应嵌入，否则演示 MP4
+const player = computed(() => resolvePlayer(currentVideo.value, course.value))
+const sourceUrl = computed(() => sourcePageUrl(course.value))
+const total = computed(() => flatVideos.value.length)
+const doneCount = computed(() => flatVideos.value.filter((v) => completed.value.has(v.id)).length)
+const progressPct = computed(() => (total.value ? Math.round((doneCount.value / total.value) * 100) : 0))
+
+async function loadOutline() {
+  loading.value = true
+  const backend = await fetchCourseOutline(route.params.id)
+  outline.value = backend && backend.length ? backend : localOutline(course.value)
+  loading.value = false
+
+  const p = loadProgress()[route.params.id]
+  if (p && p.currentVideoId) {
+    completed.value = new Set(p.completed || [])
+    currentVideoId.value = outline.value.flatMap((c) => c.videos).some((v) => v.id === p.currentVideoId)
+      ? p.currentVideoId
+      : (flatVideos.value[0] && flatVideos.value[0].id) || ''
+  } else {
+    currentVideoId.value = (flatVideos.value[0] && flatVideos.value[0].id) || ''
+  }
+  markStarted(route.params.id)
+}
+
+function selectVideo(v) {
+  currentVideoId.value = v.id
+  persist()
+}
+function onEnded() {
+  if (currentVideo.value) {
+    const s = new Set(completed.value)
+    s.add(currentVideo.value.id)
+    completed.value = s
+    persist()
+  }
+}
+function persist() {
+  saveProgress(route.params.id, { currentVideoId: currentVideoId.value, completed: [...completed.value] })
+}
+function goLogin() {
+  router.push({ path: '/login', query: { redirect: `/learn/${route.params.id}` } })
+}
+
+watch(isLogin, (v) => { if (v) loadOutline() })
+onMounted(() => { if (isLogin.value) loadOutline() })
+</script>
+
+<style scoped>
+.learn { padding: 20px 0 40px; }
+.learn-gate { text-align: center; padding: 80px 0; }
+.lg-icon { font-size: 48px; }
+.learn-gate h2 { margin: 14px 0 8px; font-size: 22px; }
+.learn-gate p { margin-bottom: 22px; }
+.learn-head { margin-bottom: 18px; }
+.learn-title { font-size: 22px; margin-top: 6px; }
+.learn-grid { display: flex; gap: 22px; align-items: flex-start; }
+.learn-side { width: 340px; flex: none; background: #fff; border: 1px solid var(--line); border-radius: 10px; overflow: hidden; }
+.ls-progress { padding: 16px 18px; border-bottom: 1px solid var(--line); background: var(--brand-light); }
+.ls-bar { height: 8px; border-radius: 5px; background: #d8f0e6; overflow: hidden; }
+.ls-bar span { display: block; height: 100%; background: var(--brand); transition: width .3s; }
+.ls-chapters { max-height: 620px; overflow: auto; }
+.ls-chapter { border-bottom: 1px solid var(--line); }
+.ls-ch-title { padding: 12px 18px; font-weight: 600; background: var(--bg-fa); }
+.ls-chapters li { display: flex; align-items: center; gap: 8px; padding: 10px 18px 10px 30px; cursor: pointer; border-left: 3px solid transparent; }
+.ls-chapters li:hover { background: var(--brand-light); }
+.ls-chapters li.active { background: var(--brand-light); border-left-color: var(--brand); color: var(--brand); }
+.ls-chapters li.done .ls-dot { color: var(--brand); }
+.ls-dot { flex: none; width: 18px; text-align: center; }
+.ls-v-title { flex: 1; }
+.ls-free { flex: none; font-size: 11px; color: var(--brand); border: 1px solid var(--brand); border-radius: 3px; padding: 0 5px; }
+.learn-main { flex: 1; min-width: 0; }
+.lm-actions { display: flex; align-items: center; gap: 14px; margin-top: 12px; }
+.lm-actions .sm { padding: 7px 16px; font-size: 13px; }
+.lm-bili-link { color: #fb7299; font-size: 13px; }
+.lm-bili-link:hover { text-decoration: underline; }
+.lm-info { margin-top: 14px; }
+.lm-info h3 { font-size: 18px; }
+.lm-info p { margin-top: 6px; }
+
+@media (max-width: 992px) {
+  .learn-grid { flex-direction: column; }
+  .learn-side { width: 100%; }
+}
+</style>

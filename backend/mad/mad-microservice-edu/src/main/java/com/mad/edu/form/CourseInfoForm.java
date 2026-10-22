@@ -1,1 +1,46 @@
-cGFja2FnZSBjb20ubWFkLmVkdS5mb3JtOwoKaW1wb3J0IGlvLnN3YWdnZXIuYW5ub3RhdGlvbnMuQXBpTW9kZWw7CmltcG9ydCBpby5zd2FnZ2VyLmFubm90YXRpb25zLkFwaU1vZGVsUHJvcGVydHk7CmltcG9ydCBsb21ib2suRGF0YTsKCmltcG9ydCBqYXZhLmlvLlNlcmlhbGl6YWJsZTsKaW1wb3J0IGphdmEubWF0aC5CaWdEZWNpbWFsOwoKLyoqCiAqIEBhdXRob3IgaGVsZW4KICogQHNpbmNlIDIwMTkvNy8xCiAqLwpAQXBpTW9kZWwodmFsdWUgPSAi6K++56iL5Z+65pys5L+h5oGvIiwgZGVzY3JpcHRpb24gPSAi57yW6L6R6K++56iL5Z+65pys5L+h5oGv55qE6KGo5Y2V5a+56LGhIikKQERhdGEKcHVibGljIGNsYXNzIENvdXJzZUluZm9Gb3JtIGltcGxlbWVudHMgU2VyaWFsaXphYmxlIHsKCglwcml2YXRlIHN0YXRpYyBmaW5hbCBsb25nIHNlcmlhbFZlcnNpb25VSUQgPSAxTDsKCglAQXBpTW9kZWxQcm9wZXJ0eSh2YWx1ZSA9ICLor77nqItJRCIpCglwcml2YXRlIFN0cmluZyBpZDsKCglAQXBpTW9kZWxQcm9wZXJ0eSh2YWx1ZSA9ICLor77nqIvorrLluIhJRCIpCglwcml2YXRlIFN0cmluZyB0ZWFjaGVySWQ7CgoJQEFwaU1vZGVsUHJvcGVydHkodmFsdWUgPSAi6K++56iL5LiT5LiaSUQiKQoJcHJpdmF0ZSBTdHJpbmcgc3ViamVjdElkOwoKCUBBcGlNb2RlbFByb3BlcnR5KHZhbHVlID0gIuivvueoi+S4k+S4mueItue6p0lEIikKCXByaXZhdGUgU3RyaW5nIHN1YmplY3RQYXJlbnRJZDsKCglAQXBpTW9kZWxQcm9wZXJ0eSh2YWx1ZSA9ICLor77nqIvmoIfpopgiKQoJcHJpdmF0ZSBTdHJpbmcgdGl0bGU7CgoJQEFwaU1vZGVsUHJvcGVydHkodmFsdWUgPSAi6K++56iL6ZSA5ZSu5Lu35qC877yM6K6+572u5Li6MOWImeWPr+WFjei0ueingueciyIpCglwcml2YXRlIEJpZ0RlY2ltYWwgcHJpY2U7CgoJQEFwaU1vZGVsUHJvcGVydHkodmFsdWUgPSAi5oC76K++5pe2IikKCXByaXZhdGUgSW50ZWdlciBsZXNzb25OdW07CgoJQEFwaU1vZGVsUHJvcGVydHkodmFsdWUgPSAi6K++56iL5bCB6Z2i5Zu+54mH6Lev5b6EIikKCXByaXZhdGUgU3RyaW5nIGNvdmVyOwoKCUBBcGlNb2RlbFByb3BlcnR5KHZhbHVlID0gIuivvueoi+eugOS7iyIpCglwcml2YXRlIFN0cmluZyBkZXNjcmlwdGlvbjsKfQ==
+package com.mad.edu.form;
+
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
+import lombok.Data;
+
+import java.io.Serializable;
+import java.math.BigDecimal;
+
+/**
+ * @author helen
+ * @since 2019/7/1
+ */
+@ApiModel(value = "课程基本信息", description = "编辑课程基本信息的表单对象")
+@Data
+public class CourseInfoForm implements Serializable {
+
+	private static final long serialVersionUID = 1L;
+
+	@ApiModelProperty(value = "课程ID")
+	private String id;
+
+	@ApiModelProperty(value = "课程讲师ID")
+	private String teacherId;
+
+	@ApiModelProperty(value = "课程专业ID")
+	private String subjectId;
+
+	@ApiModelProperty(value = "课程专业父级ID")
+	private String subjectParentId;
+
+	@ApiModelProperty(value = "课程标题")
+	private String title;
+
+	@ApiModelProperty(value = "课程销售价格，设置为0则可免费观看")
+	private BigDecimal price;
+
+	@ApiModelProperty(value = "总课时")
+	private Integer lessonNum;
+
+	@ApiModelProperty(value = "课程封面图片路径")
+	private String cover;
+
+	@ApiModelProperty(value = "课程简介")
+	private String description;
+}

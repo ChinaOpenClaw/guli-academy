@@ -1,1 +1,38 @@
-cGFja2FnZSBjb20ubWFkLmNvbW1vbi51dGlsOwoKaW1wb3J0IGphdmEuaW8uSU9FeGNlcHRpb247CmltcG9ydCBqYXZhLmlvLlByaW50V3JpdGVyOwppbXBvcnQgamF2YS5pby5TdHJpbmdXcml0ZXI7CgovKioKICogQGF1dGhvciBoZWxlbgogKiBAc2luY2UgMjAxOS82LzI1CiAqIOaJk+WNsOW8guW4uOWghuagiOS/oeaBrwogKi8KcHVibGljIGNsYXNzIEV4Y2VwdGlvblV0aWwgewoKCXB1YmxpYyBzdGF0aWMgU3RyaW5nIGdldE1lc3NhZ2UoRXhjZXB0aW9uIGUpIHsKCQlTdHJpbmdXcml0ZXIgc3cgPSBudWxsOwoJCVByaW50V3JpdGVyIHB3ID0gbnVsbDsKCQl0cnkgewoJCQlzdyA9IG5ldyBTdHJpbmdXcml0ZXIoKTsKCQkJcHcgPSBuZXcgUHJpbnRXcml0ZXIoc3cpOwoJCQkvLyDlsIblh7rplJnnmoTmoIjkv6Hmga/ovpPlh7rliLBwcmludFdyaXRlcuS4rQoJCQllLnByaW50U3RhY2tUcmFjZShwdyk7CgkJCXB3LmZsdXNoKCk7CgkJCXN3LmZsdXNoKCk7CgkJfSBmaW5hbGx5IHsKCQkJaWYgKHN3ICE9IG51bGwpIHsKCQkJCXRyeSB7CgkJCQkJc3cuY2xvc2UoKTsKCQkJCX0gY2F0Y2ggKElPRXhjZXB0aW9uIGUxKSB7CgkJCQkJZTEucHJpbnRTdGFja1RyYWNlKCk7CgkJCQl9CgkJCX0KCQkJaWYgKHB3ICE9IG51bGwpIHsKCQkJCXB3LmNsb3NlKCk7CgkJCX0KCQl9CgkJcmV0dXJuIHN3LnRvU3RyaW5nKCk7Cgl9Cn0=
+package com.mad.common.util;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.io.StringWriter;
+
+/**
+ * @author helen
+ * @since 2019/6/25
+ * 打印异常堆栈信息
+ */
+public class ExceptionUtil {
+
+	public static String getMessage(Exception e) {
+		StringWriter sw = null;
+		PrintWriter pw = null;
+		try {
+			sw = new StringWriter();
+			pw = new PrintWriter(sw);
+			// 将出错的栈信息输出到printWriter中
+			e.printStackTrace(pw);
+			pw.flush();
+			sw.flush();
+		} finally {
+			if (sw != null) {
+				try {
+					sw.close();
+				} catch (IOException e1) {
+					e1.printStackTrace();
+				}
+			}
+			if (pw != null) {
+				pw.close();
+			}
+		}
+		return sw.toString();
+	}
+}

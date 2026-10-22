@@ -1,1 +1,344 @@
-cGFja2FnZSBjb20ubWFkLnVjZW50ZXIudXRpbDsKCmltcG9ydCBvcmcuYXBhY2hlLmNvbW1vbnMuaW8uSU9VdGlsczsKaW1wb3J0IG9yZy5hcGFjaGUuY29tbW9ucy5sYW5nLlN0cmluZ1V0aWxzOwppbXBvcnQgb3JnLmFwYWNoZS5odHRwLkNvbnN0czsKaW1wb3J0IG9yZy5hcGFjaGUuaHR0cC5IdHRwRW50aXR5OwppbXBvcnQgb3JnLmFwYWNoZS5odHRwLkh0dHBSZXNwb25zZTsKaW1wb3J0IG9yZy5hcGFjaGUuaHR0cC5OYW1lVmFsdWVQYWlyOwppbXBvcnQgb3JnLmFwYWNoZS5odHRwLmNsaWVudC5IdHRwQ2xpZW50OwppbXBvcnQgb3JnLmFwYWNoZS5odHRwLmNsaWVudC5jb25maWcuUmVxdWVzdENvbmZpZzsKaW1wb3J0IG9yZy5hcGFjaGUuaHR0cC5jbGllbnQuY29uZmlnLlJlcXVlc3RDb25maWcuQnVpbGRlcjsKaW1wb3J0IG9yZy5hcGFjaGUuaHR0cC5jbGllbnQuZW50aXR5LlVybEVuY29kZWRGb3JtRW50aXR5OwppbXBvcnQgb3JnLmFwYWNoZS5odHRwLmNsaWVudC5tZXRob2RzLkh0dHBHZXQ7CmltcG9ydCBvcmcuYXBhY2hlLmh0dHAuY2xpZW50Lm1ldGhvZHMuSHR0cFBvc3Q7CmltcG9ydCBvcmcuYXBhY2hlLmh0dHAuY29ubi5Db25uZWN0VGltZW91dEV4Y2VwdGlvbjsKaW1wb3J0IG9yZy5hcGFjaGUuaHR0cC5jb25uLnNzbC5TU0xDb25uZWN0aW9uU29ja2V0RmFjdG9yeTsKaW1wb3J0IG9yZy5hcGFjaGUuaHR0cC5jb25uLnNzbC5TU0xDb250ZXh0QnVpbGRlcjsKaW1wb3J0IG9yZy5hcGFjaGUuaHR0cC5jb25uLnNzbC5UcnVzdFN0cmF0ZWd5OwppbXBvcnQgb3JnLmFwYWNoZS5odHRwLmNvbm4uc3NsLlg1MDlIb3N0bmFtZVZlcmlmaWVyOwppbXBvcnQgb3JnLmFwYWNoZS5odHRwLmVudGl0eS5Db250ZW50VHlwZTsKaW1wb3J0IG9yZy5hcGFjaGUuaHR0cC5lbnRpdHkuU3RyaW5nRW50aXR5OwppbXBvcnQgb3JnLmFwYWNoZS5odHRwLmltcGwuY2xpZW50LkNsb3NlYWJsZUh0dHBDbGllbnQ7CmltcG9ydCBvcmcuYXBhY2hlLmh0dHAuaW1wbC5jbGllbnQuSHR0cENsaWVudHM7CmltcG9ydCBvcmcuYXBhY2hlLmh0dHAuaW1wbC5jb25uLlBvb2xpbmdIdHRwQ2xpZW50Q29ubmVjdGlvbk1hbmFnZXI7CmltcG9ydCBvcmcuYXBhY2hlLmh0dHAubWVzc2FnZS5CYXNpY05hbWVWYWx1ZVBhaXI7CgppbXBvcnQgamF2YXgubmV0LnNzbC5TU0xDb250ZXh0OwppbXBvcnQgamF2YXgubmV0LnNzbC5TU0xFeGNlcHRpb247CmltcG9ydCBqYXZheC5uZXQuc3NsLlNTTFNlc3Npb247CmltcG9ydCBqYXZheC5uZXQuc3NsLlNTTFNvY2tldDsKaW1wb3J0IGphdmEuaW8uSU9FeGNlcHRpb247CmltcG9ydCBqYXZhLm5ldC5Tb2NrZXRUaW1lb3V0RXhjZXB0aW9uOwppbXBvcnQgamF2YS5zZWN1cml0eS5HZW5lcmFsU2VjdXJpdHlFeGNlcHRpb247CmltcG9ydCBqYXZhLnNlY3VyaXR5LmNlcnQuQ2VydGlmaWNhdGVFeGNlcHRpb247CmltcG9ydCBqYXZhLnNlY3VyaXR5LmNlcnQuWDUwOUNlcnRpZmljYXRlOwppbXBvcnQgamF2YS51dGlsLkFycmF5TGlzdDsKaW1wb3J0IGphdmEudXRpbC5MaXN0OwppbXBvcnQgamF2YS51dGlsLk1hcDsKaW1wb3J0IGphdmEudXRpbC5NYXAuRW50cnk7CmltcG9ydCBqYXZhLnV0aWwuU2V0OwoKLyoqCiAqICDkvp3otZbnmoRqYXLljIXmnInvvJpjb21tb25zLWxhbmctMi42LmphcuOAgWh0dHBjbGllbnQtNC4zLjIuamFy44CBaHR0cGNvcmUtNC4zLjEuamFy44CBY29tbW9ucy1pby0yLjQuamFyCiAqIEBhdXRob3Igemhhb3liCiAqCiAqLwpwdWJsaWMgY2xhc3MgSHR0cENsaWVudFV0aWxzIHsKCglwdWJsaWMgc3RhdGljIGZpbmFsIGludCBjb25uVGltZW91dD0xMDAwMDsKCXB1YmxpYyBzdGF0aWMgZmluYWwgaW50IHJlYWRUaW1lb3V0PTEwMDAwOwoJcHVibGljIHN0YXRpYyBmaW5hbCBTdHJpbmcgY2hhcnNldD0iVVRGLTgiOwoJcHJpdmF0ZSBzdGF0aWMgSHR0cENsaWVudCBjbGllbnQgPSBudWxsOwoKCXN0YXRpYyB7CgkJUG9vbGluZ0h0dHBDbGllbnRDb25uZWN0aW9uTWFuYWdlciBjbSA9IG5ldyBQb29saW5nSHR0cENsaWVudENvbm5lY3Rpb25NYW5hZ2VyKCk7CgkJY20uc2V0TWF4VG90YWwoMTI4KTsKCQljbS5zZXREZWZhdWx0TWF4UGVyUm91dGUoMTI4KTsKCQljbGllbnQgPSBIdHRwQ2xpZW50cy5jdXN0b20oKS5zZXRDb25uZWN0aW9uTWFuYWdlcihjbSkuYnVpbGQoKTsKCX0KCglwdWJsaWMgc3RhdGljIFN0cmluZyBwb3N0UGFyYW1ldGVycyhTdHJpbmcgdXJsLCBTdHJpbmcgcGFyYW1ldGVyU3RyKSB0aHJvd3MgQ29ubmVjdFRpbWVvdXRFeGNlcHRpb24sIFNvY2tldFRpbWVvdXRFeGNlcHRpb24sIEV4Y2VwdGlvbnsKCQlyZXR1cm4gcG9zdCh1cmwscGFyYW1ldGVyU3RyLCJhcHBsaWNhdGlvbi94LXd3dy1mb3JtLXVybGVuY29kZWQiLGNoYXJzZXQsY29ublRpbWVvdXQscmVhZFRpbWVvdXQpOwoJfQoKCXB1YmxpYyBzdGF0aWMgU3RyaW5nIHBvc3RQYXJhbWV0ZXJzKFN0cmluZyB1cmwsIFN0cmluZyBwYXJhbWV0ZXJTdHIsU3RyaW5nIGNoYXJzZXQsIEludGVnZXIgY29ublRpbWVvdXQsIEludGVnZXIgcmVhZFRpbWVvdXQpIHRocm93cyBDb25uZWN0VGltZW91dEV4Y2VwdGlvbiwgU29ja2V0VGltZW91dEV4Y2VwdGlvbiwgRXhjZXB0aW9uewoJCXJldHVybiBwb3N0KHVybCxwYXJhbWV0ZXJTdHIsImFwcGxpY2F0aW9uL3gtd3d3LWZvcm0tdXJsZW5jb2RlZCIsY2hhcnNldCxjb25uVGltZW91dCxyZWFkVGltZW91dCk7Cgl9CgoJcHVibGljIHN0YXRpYyBTdHJpbmcgcG9zdFBhcmFtZXRlcnMoU3RyaW5nIHVybCwgTWFwPFN0cmluZywgU3RyaW5nPiBwYXJhbXMpIHRocm93cyBDb25uZWN0VGltZW91dEV4Y2VwdGlvbiwKCQkJU29ja2V0VGltZW91dEV4Y2VwdGlvbiwgRXhjZXB0aW9uIHsKCQlyZXR1cm4gcG9zdEZvcm0odXJsLCBwYXJhbXMsIG51bGwsIGNvbm5UaW1lb3V0LCByZWFkVGltZW91dCk7Cgl9CgoJcHVibGljIHN0YXRpYyBTdHJpbmcgcG9zdFBhcmFtZXRlcnMoU3RyaW5nIHVybCwgTWFwPFN0cmluZywgU3RyaW5nPiBwYXJhbXMsIEludGVnZXIgY29ublRpbWVvdXQsSW50ZWdlciByZWFkVGltZW91dCkgdGhyb3dzIENvbm5lY3RUaW1lb3V0RXhjZXB0aW9uLAoJCQlTb2NrZXRUaW1lb3V0RXhjZXB0aW9uLCBFeGNlcHRpb24gewoJCXJldHVybiBwb3N0Rm9ybSh1cmwsIHBhcmFtcywgbnVsbCwgY29ublRpbWVvdXQsIHJlYWRUaW1lb3V0KTsKCX0KCglwdWJsaWMgc3RhdGljIFN0cmluZyBnZXQoU3RyaW5nIHVybCkgdGhyb3dzIEV4Y2VwdGlvbiB7CgkJcmV0dXJuIGdldCh1cmwsIGNoYXJzZXQsIG51bGwsIG51bGwpOwoJfQoKCXB1YmxpYyBzdGF0aWMgU3RyaW5nIGdldChTdHJpbmcgdXJsLCBTdHJpbmcgY2hhcnNldCkgdGhyb3dzIEV4Y2VwdGlvbiB7CgkJcmV0dXJuIGdldCh1cmwsIGNoYXJzZXQsIGNvbm5UaW1lb3V0LCByZWFkVGltZW91dCk7Cgl9CgoJLyoqCgkgKiDlj5HpgIHkuIDkuKogUG9zdCDor7fmsYIsIOS9v+eUqOaMh+WumueahOWtl+espumbhue8lueggS4KCSAqCgkgKiBAcGFyYW0gdXJsCgkgKiBAcGFyYW0gYm9keSBSZXF1ZXN0Qm9keQoJICogQHBhcmFtIG1pbWVUeXBlIOS+i+WmgiBhcHBsaWNhdGlvbi94bWwgImFwcGxpY2F0aW9uL3gtd3d3LWZvcm0tdXJsZW5jb2RlZCIgYT0xJmI9MiZjPTMKCSAqIEBwYXJhbSBjaGFyc2V0IOe8lueggQoJICogQHBhcmFtIGNvbm5UaW1lb3V0IOW7uueri+mTvuaOpei2heaXtuaXtumXtCzmr6vnp5IuCgkgKiBAcGFyYW0gcmVhZFRpbWVvdXQg5ZON5bqU6LaF5pe25pe26Ze0LOavq+enki4KCSAqIEByZXR1cm4gUmVzcG9uc2VCb2R5LCDkvb/nlKjmjIflrprnmoTlrZfnrKbpm4bnvJbnoIEuCgkgKiBAdGhyb3dzIENvbm5lY3RUaW1lb3V0RXhjZXB0aW9uIOW7uueri+mTvuaOpei2heaXtuW8guW4uAoJICogQHRocm93cyBTb2NrZXRUaW1lb3V0RXhjZXB0aW9uICDlk43lupTotoXml7YKCSAqIEB0aHJvd3MgRXhjZXB0aW9uCgkgKi8KCXB1YmxpYyBzdGF0aWMgU3RyaW5nIHBvc3QoU3RyaW5nIHVybCwgU3RyaW5nIGJvZHksIFN0cmluZyBtaW1lVHlwZSxTdHJpbmcgY2hhcnNldCwgSW50ZWdlciBjb25uVGltZW91dCwgSW50ZWdlciByZWFkVGltZW91dCkKCQkJdGhyb3dzIENvbm5lY3RUaW1lb3V0RXhjZXB0aW9uLCBTb2NrZXRUaW1lb3V0RXhjZXB0aW9uLCBFeGNlcHRpb24gewoJCUh0dHBDbGllbnQgY2xpZW50ID0gbnVsbDsKCQlIdHRwUG9zdCBwb3N0ID0gbmV3IEh0dHBQb3N0KHVybCk7CgkJU3RyaW5nIHJlc3VsdCA9ICIiOwoJCXRyeSB7CgkJCWlmIChTdHJpbmdVdGlscy5pc05vdEJsYW5rKGJvZHkpKSB7CgkJCQlIdHRwRW50aXR5IGVudGl0eSA9IG5ldyBTdHJpbmdFbnRpdHkoYm9keSwgQ29udGVudFR5cGUuY3JlYXRlKG1pbWVUeXBlLCBjaGFyc2V0KSk7CgkJCQlwb3N0LnNldEVudGl0eShlbnRpdHkpOwoJCQl9CgkJCS8vIOiuvue9ruWPguaVsAoJCQlCdWlsZGVyIGN1c3RvbVJlcUNvbmYgPSBSZXF1ZXN0Q29uZmlnLmN1c3RvbSgpOwoJCQlpZiAoY29ublRpbWVvdXQgIT0gbnVsbCkgewoJCQkJY3VzdG9tUmVxQ29uZi5zZXRDb25uZWN0VGltZW91dChjb25uVGltZW91dCk7CgkJCX0KCQkJaWYgKHJlYWRUaW1lb3V0ICE9IG51bGwpIHsKCQkJCWN1c3RvbVJlcUNvbmYuc2V0U29ja2V0VGltZW91dChyZWFkVGltZW91dCk7CgkJCX0KCQkJcG9zdC5zZXRDb25maWcoY3VzdG9tUmVxQ29uZi5idWlsZCgpKTsKCgkJCUh0dHBSZXNwb25zZSByZXM7CgkJCWlmICh1cmwuc3RhcnRzV2l0aCgiaHR0cHMiKSkgewoJCQkJLy8g5omn6KGMIEh0dHBzIOivt+axgi4KCQkJCWNsaWVudCA9IGNyZWF0ZVNTTEluc2VjdXJlQ2xpZW50KCk7CgkJCQlyZXMgPSBjbGllbnQuZXhlY3V0ZShwb3N0KTsKCQkJfSBlbHNlIHsKCQkJCS8vIOaJp+ihjCBIdHRwIOivt+axgi4KCQkJCWNsaWVudCA9IEh0dHBDbGllbnRVdGlscy5jbGllbnQ7CgkJCQlyZXMgPSBjbGllbnQuZXhlY3V0ZShwb3N0KTsKCQkJfQoJCQlyZXN1bHQgPSBJT1V0aWxzLnRvU3RyaW5nKHJlcy5nZXRFbnRpdHkoKS5nZXRDb250ZW50KCksIGNoYXJzZXQpOwoJCX0gZmluYWxseSB7CgkJCXBvc3QucmVsZWFzZUNvbm5lY3Rpb24oKTsKCQkJaWYgKHVybC5zdGFydHNXaXRoKCJodHRwcyIpICYmIGNsaWVudCAhPSBudWxsJiYgY2xpZW50IGluc3RhbmNlb2YgQ2xvc2VhYmxlSHR0cENsaWVudCkgewoJCQkJKChDbG9zZWFibGVIdHRwQ2xpZW50KSBjbGllbnQpLmNsb3NlKCk7CgkJCX0KCQl9CgkJcmV0dXJuIHJlc3VsdDsKCX0KCgoJLyoqCgkgKiDmj5DkuqRmb3Jt6KGo5Y2VCgkgKgoJICogQHBhcmFtIHVybAoJICogQHBhcmFtIHBhcmFtcwoJICogQHBhcmFtIGNvbm5UaW1lb3V0CgkgKiBAcGFyYW0gcmVhZFRpbWVvdXQKCSAqIEByZXR1cm4KCSAqIEB0aHJvd3MgQ29ubmVjdFRpbWVvdXRFeGNlcHRpb24KCSAqIEB0aHJvd3MgU29ja2V0VGltZW91dEV4Y2VwdGlvbgoJICogQHRocm93cyBFeGNlcHRpb24KCSAqLwoJcHVibGljIHN0YXRpYyBTdHJpbmcgcG9zdEZvcm0oU3RyaW5nIHVybCwgTWFwPFN0cmluZywgU3RyaW5nPiBwYXJhbXMsIE1hcDxTdHJpbmcsIFN0cmluZz4gaGVhZGVycywgSW50ZWdlciBjb25uVGltZW91dCxJbnRlZ2VyIHJlYWRUaW1lb3V0KSB0aHJvd3MgQ29ubmVjdFRpbWVvdXRFeGNlcHRpb24sCgkJCVNvY2tldFRpbWVvdXRFeGNlcHRpb24sIEV4Y2VwdGlvbiB7CgoJCUh0dHBDbGllbnQgY2xpZW50ID0gbnVsbDsKCQlIdHRwUG9zdCBwb3N0ID0gbmV3IEh0dHBQb3N0KHVybCk7CgkJdHJ5IHsKCQkJaWYgKHBhcmFtcyAhPSBudWxsICYmICFwYXJhbXMuaXNFbXB0eSgpKSB7CgkJCQlMaXN0PE5hbWVWYWx1ZVBhaXI+IGZvcm1QYXJhbXMgPSBuZXcgQXJyYXlMaXN0PE5hbWVWYWx1ZVBhaXI+KCk7CgkJCQlTZXQ8RW50cnk8U3RyaW5nLCBTdHJpbmc+PiBlbnRyeVNldCA9IHBhcmFtcy5lbnRyeVNldCgpOwoJCQkJZm9yIChFbnRyeTxTdHJpbmcsIFN0cmluZz4gZW50cnkgOiBlbnRyeVNldCkgewoJCQkJCWZvcm1QYXJhbXMuYWRkKG5ldyBCYXNpY05hbWVWYWx1ZVBhaXIoZW50cnkuZ2V0S2V5KCksIGVudHJ5LmdldFZhbHVlKCkpKTsKCQkJCX0KCQkJCVVybEVuY29kZWRGb3JtRW50aXR5IGVudGl0eSA9IG5ldyBVcmxFbmNvZGVkRm9ybUVudGl0eShmb3JtUGFyYW1zLCBDb25zdHMuVVRGXzgpOwoJCQkJcG9zdC5zZXRFbnRpdHkoZW50aXR5KTsKCQkJfQoKCQkJaWYgKGhlYWRlcnMgIT0gbnVsbCAmJiAhaGVhZGVycy5pc0VtcHR5KCkpIHsKCQkJCWZvciAoRW50cnk8U3RyaW5nLCBTdHJpbmc+IGVudHJ5IDogaGVhZGVycy5lbnRyeVNldCgpKSB7CgkJCQkJcG9zdC5hZGRIZWFkZXIoZW50cnkuZ2V0S2V5KCksIGVudHJ5LmdldFZhbHVlKCkpOwoJCQkJfQoJCQl9CgkJCS8vIOiuvue9ruWPguaVsAoJCQlCdWlsZGVyIGN1c3RvbVJlcUNvbmYgPSBSZXF1ZXN0Q29uZmlnLmN1c3RvbSgpOwoJCQlpZiAoY29ublRpbWVvdXQgIT0gbnVsbCkgewoJCQkJY3VzdG9tUmVxQ29uZi5zZXRDb25uZWN0VGltZW91dChjb25uVGltZW91dCk7CgkJCX0KCQkJaWYgKHJlYWRUaW1lb3V0ICE9IG51bGwpIHsKCQkJCWN1c3RvbVJlcUNvbmYuc2V0U29ja2V0VGltZW91dChyZWFkVGltZW91dCk7CgkJCX0KCQkJcG9zdC5zZXRDb25maWcoY3VzdG9tUmVxQ29uZi5idWlsZCgpKTsKCQkJSHR0cFJlc3BvbnNlIHJlcyA9IG51bGw7CgkJCWlmICh1cmwuc3RhcnRzV2l0aCgiaHR0cHMiKSkgewoJCQkJLy8g5omn6KGMIEh0dHBzIOivt+axgi4KCQkJCWNsaWVudCA9IGNyZWF0ZVNTTEluc2VjdXJlQ2xpZW50KCk7CgkJCQlyZXMgPSBjbGllbnQuZXhlY3V0ZShwb3N0KTsKCQkJfSBlbHNlIHsKCQkJCS8vIOaJp+ihjCBIdHRwIOivt+axgi4KCQkJCWNsaWVudCA9IEh0dHBDbGllbnRVdGlscy5jbGllbnQ7CgkJCQlyZXMgPSBjbGllbnQuZXhlY3V0ZShwb3N0KTsKCQkJfQoJCQlyZXR1cm4gSU9VdGlscy50b1N0cmluZyhyZXMuZ2V0RW50aXR5KCkuZ2V0Q29udGVudCgpLCAiVVRGLTgiKTsKCQl9IGZpbmFsbHkgewoJCQlwb3N0LnJlbGVhc2VDb25uZWN0aW9uKCk7CgkJCWlmICh1cmwuc3RhcnRzV2l0aCgiaHR0cHMiKSAmJiBjbGllbnQgIT0gbnVsbAoJCQkJCSYmIGNsaWVudCBpbnN0YW5jZW9mIENsb3NlYWJsZUh0dHBDbGllbnQpIHsKCQkJCSgoQ2xvc2VhYmxlSHR0cENsaWVudCkgY2xpZW50KS5jbG9zZSgpOwoJCQl9CgkJfQoJfQoKCgoKCS8qKgoJICog5Y+R6YCB5LiA5LiqIEdFVCDor7fmsYIKCSAqCgkgKiBAcGFyYW0gdXJsCgkgKiBAcGFyYW0gY2hhcnNldAoJICogQHBhcmFtIGNvbm5UaW1lb3V0ICDlu7rnq4vpk77mjqXotoXml7bml7bpl7Qs5q+r56eSLgoJICogQHBhcmFtIHJlYWRUaW1lb3V0ICDlk43lupTotoXml7bml7bpl7Qs5q+r56eSLgoJICogQHJldHVybgoJICogQHRocm93cyBDb25uZWN0VGltZW91dEV4Y2VwdGlvbiAgIOW7uueri+mTvuaOpei2heaXtgoJICogQHRocm93cyBTb2NrZXRUaW1lb3V0RXhjZXB0aW9uICAg5ZON5bqU6LaF5pe2CgkgKiBAdGhyb3dzIEV4Y2VwdGlvbgoJICovCglwdWJsaWMgc3RhdGljIFN0cmluZyBnZXQoU3RyaW5nIHVybCwgU3RyaW5nIGNoYXJzZXQsIEludGVnZXIgY29ublRpbWVvdXQsSW50ZWdlciByZWFkVGltZW91dCkKCQkJdGhyb3dzIENvbm5lY3RUaW1lb3V0RXhjZXB0aW9uLFNvY2tldFRpbWVvdXRFeGNlcHRpb24sIEV4Y2VwdGlvbiB7CgoJCUh0dHBDbGllbnQgY2xpZW50ID0gbnVsbDsKCQlIdHRwR2V0IGdldCA9IG5ldyBIdHRwR2V0KHVybCk7CgkJU3RyaW5nIHJlc3VsdCA9ICIiOwoJCXRyeSB7CgkJCS8vIOiuvue9ruWPguaVsAoJCQlCdWlsZGVyIGN1c3RvbVJlcUNvbmYgPSBSZXF1ZXN0Q29uZmlnLmN1c3RvbSgpOwoJCQlpZiAoY29ublRpbWVvdXQgIT0gbnVsbCkgewoJCQkJY3VzdG9tUmVxQ29uZi5zZXRDb25uZWN0VGltZW91dChjb25uVGltZW91dCk7CgkJCX0KCQkJaWYgKHJlYWRUaW1lb3V0ICE9IG51bGwpIHsKCQkJCWN1c3RvbVJlcUNvbmYuc2V0U29ja2V0VGltZW91dChyZWFkVGltZW91dCk7CgkJCX0KCQkJZ2V0LnNldENvbmZpZyhjdXN0b21SZXFDb25mLmJ1aWxkKCkpOwoKCQkJSHR0cFJlc3BvbnNlIHJlcyA9IG51bGw7CgoJCQlpZiAodXJsLnN0YXJ0c1dpdGgoImh0dHBzIikpIHsKCQkJCS8vIOaJp+ihjCBIdHRwcyDor7fmsYIuCgkJCQljbGllbnQgPSBjcmVhdGVTU0xJbnNlY3VyZUNsaWVudCgpOwoJCQkJcmVzID0gY2xpZW50LmV4ZWN1dGUoZ2V0KTsKCQkJfSBlbHNlIHsKCQkJCS8vIOaJp+ihjCBIdHRwIOivt+axgi4KCQkJCWNsaWVudCA9IEh0dHBDbGllbnRVdGlscy5jbGllbnQ7CgkJCQlyZXMgPSBjbGllbnQuZXhlY3V0ZShnZXQpOwoJCQl9CgoJCQlyZXN1bHQgPSBJT1V0aWxzLnRvU3RyaW5nKHJlcy5nZXRFbnRpdHkoKS5nZXRDb250ZW50KCksIGNoYXJzZXQpOwoJCX0gZmluYWxseSB7CgkJCWdldC5yZWxlYXNlQ29ubmVjdGlvbigpOwoJCQlpZiAodXJsLnN0YXJ0c1dpdGgoImh0dHBzIikgJiYgY2xpZW50ICE9IG51bGwgJiYgY2xpZW50IGluc3RhbmNlb2YgQ2xvc2VhYmxlSHR0cENsaWVudCkgewoJCQkJKChDbG9zZWFibGVIdHRwQ2xpZW50KSBjbGllbnQpLmNsb3NlKCk7CgkJCX0KCQl9CgkJcmV0dXJuIHJlc3VsdDsKCX0KCgoJLyoqCgkgKiDku44gcmVzcG9uc2Ug6YeM6I635Y+WIGNoYXJzZXQKCSAqCgkgKiBAcGFyYW0gcmVzc3BvbnNlCgkgKiBAcmV0dXJuCgkgKi8KCUBTdXBwcmVzc1dhcm5pbmdzKCJ1bnVzZWQiKQoJcHJpdmF0ZSBzdGF0aWMgU3RyaW5nIGdldENoYXJzZXRGcm9tUmVzcG9uc2UoSHR0cFJlc3BvbnNlIHJlc3Nwb25zZSkgewoJCS8vIENvbnRlbnQtVHlwZTp0ZXh0L2h0bWw7IGNoYXJzZXQ9R0JLCgkJaWYgKHJlc3Nwb25zZS5nZXRFbnRpdHkoKSAhPSBudWxsICAmJiByZXNzcG9uc2UuZ2V0RW50aXR5KCkuZ2V0Q29udGVudFR5cGUoKSAhPSBudWxsICYmIHJlc3Nwb25zZS5nZXRFbnRpdHkoKS5nZXRDb250ZW50VHlwZSgpLmdldFZhbHVlKCkgIT0gbnVsbCkgewoJCQlTdHJpbmcgY29udGVudFR5cGUgPSByZXNzcG9uc2UuZ2V0RW50aXR5KCkuZ2V0Q29udGVudFR5cGUoKS5nZXRWYWx1ZSgpOwoJCQlpZiAoY29udGVudFR5cGUuY29udGFpbnMoImNoYXJzZXQ9IikpIHsKCQkJCXJldHVybiBjb250ZW50VHlwZS5zdWJzdHJpbmcoY29udGVudFR5cGUuaW5kZXhPZigiY2hhcnNldD0iKSArIDgpOwoJCQl9CgkJfQoJCXJldHVybiBudWxsOwoJfQoKCgoJLyoqCgkgKiDliJvlu7ogU1NM6L+e5o6lCgkgKiBAcmV0dXJuCgkgKiBAdGhyb3dzIEdlbmVyYWxTZWN1cml0eUV4Y2VwdGlvbgoJICovCglwcml2YXRlIHN0YXRpYyBDbG9zZWFibGVIdHRwQ2xpZW50IGNyZWF0ZVNTTEluc2VjdXJlQ2xpZW50KCkgdGhyb3dzIEdlbmVyYWxTZWN1cml0eUV4Y2VwdGlvbiB7CgkJdHJ5IHsKCQkJU1NMQ29udGV4dCBzc2xDb250ZXh0ID0gbmV3IFNTTENvbnRleHRCdWlsZGVyKCkubG9hZFRydXN0TWF0ZXJpYWwobnVsbCwgbmV3IFRydXN0U3RyYXRlZ3koKSB7CgkJCQlwdWJsaWMgYm9vbGVhbiBpc1RydXN0ZWQoWDUwOUNlcnRpZmljYXRlW10gY2hhaW4sU3RyaW5nIGF1dGhUeXBlKSB0aHJvd3MgQ2VydGlmaWNhdGVFeGNlcHRpb24gewoJCQkJCXJldHVybiB0cnVlOwoJCQkJfQoJCQl9KS5idWlsZCgpOwoKCQkJU1NMQ29ubmVjdGlvblNvY2tldEZhY3Rvcnkgc3Nsc2YgPSBuZXcgU1NMQ29ubmVjdGlvblNvY2tldEZhY3Rvcnkoc3NsQ29udGV4dCwgbmV3IFg1MDlIb3N0bmFtZVZlcmlmaWVyKCkgewoKCQkJCUBPdmVycmlkZQoJCQkJcHVibGljIGJvb2xlYW4gdmVyaWZ5KFN0cmluZyBhcmcwLCBTU0xTZXNzaW9uIGFyZzEpIHsKCQkJCQlyZXR1cm4gdHJ1ZTsKCQkJCX0KCgkJCQlAT3ZlcnJpZGUKCQkJCXB1YmxpYyB2b2lkIHZlcmlmeShTdHJpbmcgaG9zdCwgU1NMU29ja2V0IHNzbCkKCQkJCQkJdGhyb3dzIElPRXhjZXB0aW9uIHsKCQkJCX0KCgkJCQlAT3ZlcnJpZGUKCQkJCXB1YmxpYyB2b2lkIHZlcmlmeShTdHJpbmcgaG9zdCwgWDUwOUNlcnRpZmljYXRlIGNlcnQpCgkJCQkJCXRocm93cyBTU0xFeGNlcHRpb24gewoJCQkJfQoKCQkJCUBPdmVycmlkZQoJCQkJcHVibGljIHZvaWQgdmVyaWZ5KFN0cmluZyBob3N0LCBTdHJpbmdbXSBjbnMsCgkJCQkJCQkJICAgU3RyaW5nW10gc3ViamVjdEFsdHMpIHRocm93cyBTU0xFeGNlcHRpb24gewoJCQkJfQoKCQkJfSk7CgoJCQlyZXR1cm4gSHR0cENsaWVudHMuY3VzdG9tKCkuc2V0U1NMU29ja2V0RmFjdG9yeShzc2xzZikuYnVpbGQoKTsKCgkJfSBjYXRjaCAoR2VuZXJhbFNlY3VyaXR5RXhjZXB0aW9uIGUpIHsKCQkJdGhyb3cgZTsKCQl9Cgl9CgoJcHVibGljIHN0YXRpYyB2b2lkIG1haW4oU3RyaW5nW10gYXJncykgewoJCXRyeSB7CgkJCVN0cmluZyBzdHI9IHBvc3QoImh0dHBzOi8vbG9jYWxob3N0OjQ0My9zc2wvdGVzdC5zaHRtbCIsIm5hbWU9MTImcGFnZT0zNCIsImFwcGxpY2F0aW9uL3gtd3d3LWZvcm0tdXJsZW5jb2RlZCIsICJVVEYtOCIsIDEwMDAwLCAxMDAwMCk7CgkJCS8vU3RyaW5nIHN0cj0gZ2V0KCJodHRwczovL2xvY2FsaG9zdDo0NDMvc3NsL3Rlc3Quc2h0bWw/bmFtZT0xMiZwYWdlPTM0IiwiR0JLIik7CiAgICAgICAgICAgIC8qTWFwPFN0cmluZyxTdHJpbmc+IG1hcCA9IG5ldyBIYXNoTWFwPFN0cmluZyxTdHJpbmc+KCk7CiAgICAgICAgICAgIG1hcC5wdXQoIm5hbWUiLCAiMTExIik7CiAgICAgICAgICAgIG1hcC5wdXQoInBhZ2UiLCAiMjIyIik7CiAgICAgICAgICAgIFN0cmluZyBzdHI9IHBvc3RGb3JtKCJodHRwczovL2xvY2FsaG9zdDo0NDMvc3NsL3Rlc3Quc2h0bWwiLG1hcCxudWxsLCAxMDAwMCwgMTAwMDApOyovCgkJCVN5c3RlbS5vdXQucHJpbnRsbihzdHIpOwoJCX0gY2F0Y2ggKENvbm5lY3RUaW1lb3V0RXhjZXB0aW9uIGUpIHsKCQkJLy8gVE9ETyBBdXRvLWdlbmVyYXRlZCBjYXRjaCBibG9jawoJCQllLnByaW50U3RhY2tUcmFjZSgpOwoJCX0gY2F0Y2ggKFNvY2tldFRpbWVvdXRFeGNlcHRpb24gZSkgewoJCQkvLyBUT0RPIEF1dG8tZ2VuZXJhdGVkIGNhdGNoIGJsb2NrCgkJCWUucHJpbnRTdGFja1RyYWNlKCk7CgkJfSBjYXRjaCAoRXhjZXB0aW9uIGUpIHsKCQkJLy8gVE9ETyBBdXRvLWdlbmVyYXRlZCBjYXRjaCBibG9jawoJCQllLnByaW50U3RhY2tUcmFjZSgpOwoJCX0KCX0KCn0=
+package com.mad.ucenter.util;
+
+import org.apache.commons.io.IOUtils;
+import org.apache.commons.lang.StringUtils;
+import org.apache.http.Consts;
+import org.apache.http.HttpEntity;
+import org.apache.http.HttpResponse;
+import org.apache.http.NameValuePair;
+import org.apache.http.client.HttpClient;
+import org.apache.http.client.config.RequestConfig;
+import org.apache.http.client.config.RequestConfig.Builder;
+import org.apache.http.client.entity.UrlEncodedFormEntity;
+import org.apache.http.client.methods.HttpGet;
+import org.apache.http.client.methods.HttpPost;
+import org.apache.http.conn.ConnectTimeoutException;
+import org.apache.http.conn.ssl.SSLConnectionSocketFactory;
+import org.apache.http.conn.ssl.SSLContextBuilder;
+import org.apache.http.conn.ssl.TrustStrategy;
+import org.apache.http.conn.ssl.X509HostnameVerifier;
+import org.apache.http.entity.ContentType;
+import org.apache.http.entity.StringEntity;
+import org.apache.http.impl.client.CloseableHttpClient;
+import org.apache.http.impl.client.HttpClients;
+import org.apache.http.impl.conn.PoolingHttpClientConnectionManager;
+import org.apache.http.message.BasicNameValuePair;
+
+import javax.net.ssl.SSLContext;
+import javax.net.ssl.SSLException;
+import javax.net.ssl.SSLSession;
+import javax.net.ssl.SSLSocket;
+import java.io.IOException;
+import java.net.SocketTimeoutException;
+import java.security.GeneralSecurityException;
+import java.security.cert.CertificateException;
+import java.security.cert.X509Certificate;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+import java.util.Map.Entry;
+import java.util.Set;
+
+/**
+ *  依赖的jar包有：commons-lang-2.6.jar、httpclient-4.3.2.jar、httpcore-4.3.1.jar、commons-io-2.4.jar
+ * @author zhaoyb
+ *
+ */
+public class HttpClientUtils {
+
+	public static final int connTimeout=10000;
+	public static final int readTimeout=10000;
+	public static final String charset="UTF-8";
+	private static HttpClient client = null;
+
+	static {
+		PoolingHttpClientConnectionManager cm = new PoolingHttpClientConnectionManager();
+		cm.setMaxTotal(128);
+		cm.setDefaultMaxPerRoute(128);
+		client = HttpClients.custom().setConnectionManager(cm).build();
+	}
+
+	public static String postParameters(String url, String parameterStr) throws ConnectTimeoutException, SocketTimeoutException, Exception{
+		return post(url,parameterStr,"application/x-www-form-urlencoded",charset,connTimeout,readTimeout);
+	}
+
+	public static String postParameters(String url, String parameterStr,String charset, Integer connTimeout, Integer readTimeout) throws ConnectTimeoutException, SocketTimeoutException, Exception{
+		return post(url,parameterStr,"application/x-www-form-urlencoded",charset,connTimeout,readTimeout);
+	}
+
+	public static String postParameters(String url, Map<String, String> params) throws ConnectTimeoutException,
+			SocketTimeoutException, Exception {
+		return postForm(url, params, null, connTimeout, readTimeout);
+	}
+
+	public static String postParameters(String url, Map<String, String> params, Integer connTimeout,Integer readTimeout) throws ConnectTimeoutException,
+			SocketTimeoutException, Exception {
+		return postForm(url, params, null, connTimeout, readTimeout);
+	}
+
+	public static String get(String url) throws Exception {
+		return get(url, charset, null, null);
+	}
+
+	public static String get(String url, String charset) throws Exception {
+		return get(url, charset, connTimeout, readTimeout);
+	}
+
+	/**
+	 * 发送一个 Post 请求, 使用指定的字符集编码.
+	 *
+	 * @param url
+	 * @param body RequestBody
+	 * @param mimeType 例如 application/xml "application/x-www-form-urlencoded" a=1&b=2&c=3
+	 * @param charset 编码
+	 * @param connTimeout 建立链接超时时间,毫秒.
+	 * @param readTimeout 响应超时时间,毫秒.
+	 * @return ResponseBody, 使用指定的字符集编码.
+	 * @throws ConnectTimeoutException 建立链接超时异常
+	 * @throws SocketTimeoutException  响应超时
+	 * @throws Exception
+	 */
+	public static String post(String url, String body, String mimeType,String charset, Integer connTimeout, Integer readTimeout)
+			throws ConnectTimeoutException, SocketTimeoutException, Exception {
+		HttpClient client = null;
+		HttpPost post = new HttpPost(url);
+		String result = "";
+		try {
+			if (StringUtils.isNotBlank(body)) {
+				HttpEntity entity = new StringEntity(body, ContentType.create(mimeType, charset));
+				post.setEntity(entity);
+			}
+			// 设置参数
+			Builder customReqConf = RequestConfig.custom();
+			if (connTimeout != null) {
+				customReqConf.setConnectTimeout(connTimeout);
+			}
+			if (readTimeout != null) {
+				customReqConf.setSocketTimeout(readTimeout);
+			}
+			post.setConfig(customReqConf.build());
+
+			HttpResponse res;
+			if (url.startsWith("https")) {
+				// 执行 Https 请求.
+				client = createSSLInsecureClient();
+				res = client.execute(post);
+			} else {
+				// 执行 Http 请求.
+				client = HttpClientUtils.client;
+				res = client.execute(post);
+			}
+			result = IOUtils.toString(res.getEntity().getContent(), charset);
+		} finally {
+			post.releaseConnection();
+			if (url.startsWith("https") && client != null&& client instanceof CloseableHttpClient) {
+				((CloseableHttpClient) client).close();
+			}
+		}
+		return result;
+	}
+
+
+	/**
+	 * 提交form表单
+	 *
+	 * @param url
+	 * @param params
+	 * @param connTimeout
+	 * @param readTimeout
+	 * @return
+	 * @throws ConnectTimeoutException
+	 * @throws SocketTimeoutException
+	 * @throws Exception
+	 */
+	public static String postForm(String url, Map<String, String> params, Map<String, String> headers, Integer connTimeout,Integer readTimeout) throws ConnectTimeoutException,
+			SocketTimeoutException, Exception {
+
+		HttpClient client = null;
+		HttpPost post = new HttpPost(url);
+		try {
+			if (params != null && !params.isEmpty()) {
+				List<NameValuePair> formParams = new ArrayList<NameValuePair>();
+				Set<Entry<String, String>> entrySet = params.entrySet();
+				for (Entry<String, String> entry : entrySet) {
+					formParams.add(new BasicNameValuePair(entry.getKey(), entry.getValue()));
+				}
+				UrlEncodedFormEntity entity = new UrlEncodedFormEntity(formParams, Consts.UTF_8);
+				post.setEntity(entity);
+			}
+
+			if (headers != null && !headers.isEmpty()) {
+				for (Entry<String, String> entry : headers.entrySet()) {
+					post.addHeader(entry.getKey(), entry.getValue());
+				}
+			}
+			// 设置参数
+			Builder customReqConf = RequestConfig.custom();
+			if (connTimeout != null) {
+				customReqConf.setConnectTimeout(connTimeout);
+			}
+			if (readTimeout != null) {
+				customReqConf.setSocketTimeout(readTimeout);
+			}
+			post.setConfig(customReqConf.build());
+			HttpResponse res = null;
+			if (url.startsWith("https")) {
+				// 执行 Https 请求.
+				client = createSSLInsecureClient();
+				res = client.execute(post);
+			} else {
+				// 执行 Http 请求.
+				client = HttpClientUtils.client;
+				res = client.execute(post);
+			}
+			return IOUtils.toString(res.getEntity().getContent(), "UTF-8");
+		} finally {
+			post.releaseConnection();
+			if (url.startsWith("https") && client != null
+					&& client instanceof CloseableHttpClient) {
+				((CloseableHttpClient) client).close();
+			}
+		}
+	}
+
+
+
+
+	/**
+	 * 发送一个 GET 请求
+	 *
+	 * @param url
+	 * @param charset
+	 * @param connTimeout  建立链接超时时间,毫秒.
+	 * @param readTimeout  响应超时时间,毫秒.
+	 * @return
+	 * @throws ConnectTimeoutException   建立链接超时
+	 * @throws SocketTimeoutException   响应超时
+	 * @throws Exception
+	 */
+	public static String get(String url, String charset, Integer connTimeout,Integer readTimeout)
+			throws ConnectTimeoutException,SocketTimeoutException, Exception {
+
+		HttpClient client = null;
+		HttpGet get = new HttpGet(url);
+		String result = "";
+		try {
+			// 设置参数
+			Builder customReqConf = RequestConfig.custom();
+			if (connTimeout != null) {
+				customReqConf.setConnectTimeout(connTimeout);
+			}
+			if (readTimeout != null) {
+				customReqConf.setSocketTimeout(readTimeout);
+			}
+			get.setConfig(customReqConf.build());
+
+			HttpResponse res = null;
+
+			if (url.startsWith("https")) {
+				// 执行 Https 请求.
+				client = createSSLInsecureClient();
+				res = client.execute(get);
+			} else {
+				// 执行 Http 请求.
+				client = HttpClientUtils.client;
+				res = client.execute(get);
+			}
+
+			result = IOUtils.toString(res.getEntity().getContent(), charset);
+		} finally {
+			get.releaseConnection();
+			if (url.startsWith("https") && client != null && client instanceof CloseableHttpClient) {
+				((CloseableHttpClient) client).close();
+			}
+		}
+		return result;
+	}
+
+
+	/**
+	 * 从 response 里获取 charset
+	 *
+	 * @param ressponse
+	 * @return
+	 */
+	@SuppressWarnings("unused")
+	private static String getCharsetFromResponse(HttpResponse ressponse) {
+		// Content-Type:text/html; charset=GBK
+		if (ressponse.getEntity() != null  && ressponse.getEntity().getContentType() != null && ressponse.getEntity().getContentType().getValue() != null) {
+			String contentType = ressponse.getEntity().getContentType().getValue();
+			if (contentType.contains("charset=")) {
+				return contentType.substring(contentType.indexOf("charset=") + 8);
+			}
+		}
+		return null;
+	}
+
+
+
+	/**
+	 * 创建 SSL连接
+	 * @return
+	 * @throws GeneralSecurityException
+	 */
+	private static CloseableHttpClient createSSLInsecureClient() throws GeneralSecurityException {
+		try {
+			SSLContext sslContext = new SSLContextBuilder().loadTrustMaterial(null, new TrustStrategy() {
+				public boolean isTrusted(X509Certificate[] chain,String authType) throws CertificateException {
+					return true;
+				}
+			}).build();
+
+			SSLConnectionSocketFactory sslsf = new SSLConnectionSocketFactory(sslContext, new X509HostnameVerifier() {
+
+				@Override
+				public boolean verify(String arg0, SSLSession arg1) {
+					return true;
+				}
+
+				@Override
+				public void verify(String host, SSLSocket ssl)
+						throws IOException {
+				}
+
+				@Override
+				public void verify(String host, X509Certificate cert)
+						throws SSLException {
+				}
+
+				@Override
+				public void verify(String host, String[] cns,
+								   String[] subjectAlts) throws SSLException {
+				}
+
+			});
+
+			return HttpClients.custom().setSSLSocketFactory(sslsf).build();
+
+		} catch (GeneralSecurityException e) {
+			throw e;
+		}
+	}
+
+	public static void main(String[] args) {
+		try {
+			String str= post("https://localhost:443/ssl/test.shtml","name=12&page=34","application/x-www-form-urlencoded", "UTF-8", 10000, 10000);
+			//String str= get("https://localhost:443/ssl/test.shtml?name=12&page=34","GBK");
+            /*Map<String,String> map = new HashMap<String,String>();
+            map.put("name", "111");
+            map.put("page", "222");
+            String str= postForm("https://localhost:443/ssl/test.shtml",map,null, 10000, 10000);*/
+			System.out.println(str);
+		} catch (ConnectTimeoutException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (SocketTimeoutException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+
+}

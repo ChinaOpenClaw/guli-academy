@@ -1,1 +1,45 @@
-J3VzZSBzdHJpY3QnCnJlcXVpcmUoJy4vY2hlY2stdmVyc2lvbnMnKSgpCgpwcm9jZXNzLmVudi5OT0RFX0VOViA9ICdwcm9kdWN0aW9uJwoKY29uc3Qgb3JhID0gcmVxdWlyZSgnb3JhJykKY29uc3Qgcm0gPSByZXF1aXJlKCdyaW1yYWYnKQpjb25zdCBwYXRoID0gcmVxdWlyZSgncGF0aCcpCmNvbnN0IGNoYWxrID0gcmVxdWlyZSgnY2hhbGsnKQpjb25zdCB3ZWJwYWNrID0gcmVxdWlyZSgnd2VicGFjaycpCmNvbnN0IGNvbmZpZyA9IHJlcXVpcmUoJy4uL2NvbmZpZycpCmNvbnN0IHdlYnBhY2tDb25maWcgPSByZXF1aXJlKCcuL3dlYnBhY2sucHJvZC5jb25mJykKCmNvbnN0IHNwaW5uZXIgPSBvcmEoJ2J1aWxkaW5nIGZvciBwcm9kdWN0aW9uLi4uJykKc3Bpbm5lci5zdGFydCgpCgpybShwYXRoLmpvaW4oY29uZmlnLmJ1aWxkLmFzc2V0c1Jvb3QsIGNvbmZpZy5idWlsZC5hc3NldHNTdWJEaXJlY3RvcnkpLCBlcnIgPT4gewogIGlmIChlcnIpIHRocm93IGVycgogIHdlYnBhY2sod2VicGFja0NvbmZpZywgKGVyciwgc3RhdHMpID0+IHsKICAgIHNwaW5uZXIuc3RvcCgpCiAgICBpZiAoZXJyKSB0aHJvdyBlcnIKICAgIHByb2Nlc3Muc3Rkb3V0LndyaXRlKAogICAgICBzdGF0cy50b1N0cmluZyh7CiAgICAgICAgY29sb3JzOiB0cnVlLAogICAgICAgIG1vZHVsZXM6IGZhbHNlLAogICAgICAgIGNoaWxkcmVuOiBmYWxzZSwKICAgICAgICBjaHVua3M6IGZhbHNlLAogICAgICAgIGNodW5rTW9kdWxlczogZmFsc2UKICAgICAgfSkgKyAnXG5cbicKICAgICkKCiAgICBpZiAoc3RhdHMuaGFzRXJyb3JzKCkpIHsKICAgICAgY29uc29sZS5sb2coY2hhbGsucmVkKCcgIEJ1aWxkIGZhaWxlZCB3aXRoIGVycm9ycy5cbicpKQogICAgICBwcm9jZXNzLmV4aXQoMSkKICAgIH0KCiAgICBjb25zb2xlLmxvZyhjaGFsay5jeWFuKCcgIEJ1aWxkIGNvbXBsZXRlLlxuJykpCiAgICBjb25zb2xlLmxvZygKICAgICAgY2hhbGsueWVsbG93KAogICAgICAgICcgIFRpcDogYnVpbHQgZmlsZXMgYXJlIG1lYW50IHRvIGJlIHNlcnZlZCBvdmVyIGFuIEhUVFAgc2VydmVyLlxuJyArCiAgICAgICAgICAiICBPcGVuaW5nIGluZGV4Lmh0bWwgb3ZlciBmaWxlOi8vIHdvbid0IHdvcmsuXG4iCiAgICAgICkKICAgICkKICB9KQp9KQo=
+'use strict'
+require('./check-versions')()
+
+process.env.NODE_ENV = 'production'
+
+const ora = require('ora')
+const rm = require('rimraf')
+const path = require('path')
+const chalk = require('chalk')
+const webpack = require('webpack')
+const config = require('../config')
+const webpackConfig = require('./webpack.prod.conf')
+
+const spinner = ora('building for production...')
+spinner.start()
+
+rm(path.join(config.build.assetsRoot, config.build.assetsSubDirectory), err => {
+  if (err) throw err
+  webpack(webpackConfig, (err, stats) => {
+    spinner.stop()
+    if (err) throw err
+    process.stdout.write(
+      stats.toString({
+        colors: true,
+        modules: false,
+        children: false,
+        chunks: false,
+        chunkModules: false
+      }) + '\n\n'
+    )
+
+    if (stats.hasErrors()) {
+      console.log(chalk.red('  Build failed with errors.\n'))
+      process.exit(1)
+    }
+
+    console.log(chalk.cyan('  Build complete.\n'))
+    console.log(
+      chalk.yellow(
+        '  Tip: built files are meant to be served over an HTTP server.\n' +
+          "  Opening index.html over file:// won't work.\n"
+      )
+    )
+  })
+})

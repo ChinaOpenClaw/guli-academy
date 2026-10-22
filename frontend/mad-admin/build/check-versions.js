@@ -1,1 +1,64 @@
-J3VzZSBzdHJpY3QnCmNvbnN0IGNoYWxrID0gcmVxdWlyZSgnY2hhbGsnKQpjb25zdCBzZW12ZXIgPSByZXF1aXJlKCdzZW12ZXInKQpjb25zdCBwYWNrYWdlQ29uZmlnID0gcmVxdWlyZSgnLi4vcGFja2FnZS5qc29uJykKY29uc3Qgc2hlbGwgPSByZXF1aXJlKCdzaGVsbGpzJykKCmZ1bmN0aW9uIGV4ZWMoY21kKSB7CiAgcmV0dXJuIHJlcXVpcmUoJ2NoaWxkX3Byb2Nlc3MnKQogICAgLmV4ZWNTeW5jKGNtZCkKICAgIC50b1N0cmluZygpCiAgICAudHJpbSgpCn0KCmNvbnN0IHZlcnNpb25SZXF1aXJlbWVudHMgPSBbCiAgewogICAgbmFtZTogJ25vZGUnLAogICAgY3VycmVudFZlcnNpb246IHNlbXZlci5jbGVhbihwcm9jZXNzLnZlcnNpb24pLAogICAgdmVyc2lvblJlcXVpcmVtZW50OiBwYWNrYWdlQ29uZmlnLmVuZ2luZXMubm9kZQogIH0KXQoKaWYgKHNoZWxsLndoaWNoKCducG0nKSkgewogIHZlcnNpb25SZXF1aXJlbWVudHMucHVzaCh7CiAgICBuYW1lOiAnbnBtJywKICAgIGN1cnJlbnRWZXJzaW9uOiBleGVjKCducG0gLS12ZXJzaW9uJyksCiAgICB2ZXJzaW9uUmVxdWlyZW1lbnQ6IHBhY2thZ2VDb25maWcuZW5naW5lcy5ucG0KICB9KQp9Cgptb2R1bGUuZXhwb3J0cyA9IGZ1bmN0aW9uKCkgewogIGNvbnN0IHdhcm5pbmdzID0gW10KCiAgZm9yIChsZXQgaSA9IDA7IGkgPCB2ZXJzaW9uUmVxdWlyZW1lbnRzLmxlbmd0aDsgaSsrKSB7CiAgICBjb25zdCBtb2QgPSB2ZXJzaW9uUmVxdWlyZW1lbnRzW2ldCgogICAgaWYgKCFzZW12ZXIuc2F0aXNmaWVzKG1vZC5jdXJyZW50VmVyc2lvbiwgbW9kLnZlcnNpb25SZXF1aXJlbWVudCkpIHsKICAgICAgd2FybmluZ3MucHVzaCgKICAgICAgICBtb2QubmFtZSArCiAgICAgICAgICAnOiAnICsKICAgICAgICAgIGNoYWxrLnJlZChtb2QuY3VycmVudFZlcnNpb24pICsKICAgICAgICAgICcgc2hvdWxkIGJlICcgKwogICAgICAgICAgY2hhbGsuZ3JlZW4obW9kLnZlcnNpb25SZXF1aXJlbWVudCkKICAgICAgKQogICAgfQogIH0KCiAgaWYgKHdhcm5pbmdzLmxlbmd0aCkgewogICAgY29uc29sZS5sb2coJycpCiAgICBjb25zb2xlLmxvZygKICAgICAgY2hhbGsueWVsbG93KAogICAgICAgICdUbyB1c2UgdGhpcyB0ZW1wbGF0ZSwgeW91IG11c3QgdXBkYXRlIGZvbGxvd2luZyB0byBtb2R1bGVzOicKICAgICAgKQogICAgKQogICAgY29uc29sZS5sb2coKQoKICAgIGZvciAobGV0IGkgPSAwOyBpIDwgd2FybmluZ3MubGVuZ3RoOyBpKyspIHsKICAgICAgY29uc3Qgd2FybmluZyA9IHdhcm5pbmdzW2ldCiAgICAgIGNvbnNvbGUubG9nKCcgICcgKyB3YXJuaW5nKQogICAgfQoKICAgIGNvbnNvbGUubG9nKCkKICAgIHByb2Nlc3MuZXhpdCgxKQogIH0KfQo=
+'use strict'
+const chalk = require('chalk')
+const semver = require('semver')
+const packageConfig = require('../package.json')
+const shell = require('shelljs')
+
+function exec(cmd) {
+  return require('child_process')
+    .execSync(cmd)
+    .toString()
+    .trim()
+}
+
+const versionRequirements = [
+  {
+    name: 'node',
+    currentVersion: semver.clean(process.version),
+    versionRequirement: packageConfig.engines.node
+  }
+]
+
+if (shell.which('npm')) {
+  versionRequirements.push({
+    name: 'npm',
+    currentVersion: exec('npm --version'),
+    versionRequirement: packageConfig.engines.npm
+  })
+}
+
+module.exports = function() {
+  const warnings = []
+
+  for (let i = 0; i < versionRequirements.length; i++) {
+    const mod = versionRequirements[i]
+
+    if (!semver.satisfies(mod.currentVersion, mod.versionRequirement)) {
+      warnings.push(
+        mod.name +
+          ': ' +
+          chalk.red(mod.currentVersion) +
+          ' should be ' +
+          chalk.green(mod.versionRequirement)
+      )
+    }
+  }
+
+  if (warnings.length) {
+    console.log('')
+    console.log(
+      chalk.yellow(
+        'To use this template, you must update following to modules:'
+      )
+    )
+    console.log()
+
+    for (let i = 0; i < warnings.length; i++) {
+      const warning = warnings[i]
+      console.log('  ' + warning)
+    }
+
+    console.log()
+    process.exit(1)
+  }
+}

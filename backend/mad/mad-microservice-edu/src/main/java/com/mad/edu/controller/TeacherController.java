@@ -1,1 +1,78 @@
-cGFja2FnZSBjb20ubWFkLmVkdS5jb250cm9sbGVyOwoKCmltcG9ydCBjb20uYmFvbWlkb3UubXliYXRpc3BsdXMuZXh0ZW5zaW9uLnBsdWdpbnMucGFnaW5hdGlvbi5QYWdlOwppbXBvcnQgY29tLm1hZC5jb21tb24udm8uUjsKaW1wb3J0IGNvbS5tYWQuZWR1LmVudGl0eS5Db3Vyc2U7CmltcG9ydCBjb20ubWFkLmVkdS5lbnRpdHkuVGVhY2hlcjsKaW1wb3J0IGNvbS5tYWQuZWR1LnNlcnZpY2UuQ291cnNlU2VydmljZTsKaW1wb3J0IGNvbS5tYWQuZWR1LnNlcnZpY2UuVGVhY2hlclNlcnZpY2U7CmltcG9ydCBpby5zd2FnZ2VyLmFubm90YXRpb25zLkFwaTsKaW1wb3J0IGlvLnN3YWdnZXIuYW5ub3RhdGlvbnMuQXBpT3BlcmF0aW9uOwppbXBvcnQgaW8uc3dhZ2dlci5hbm5vdGF0aW9ucy5BcGlQYXJhbTsKaW1wb3J0IG9yZy5zcHJpbmdmcmFtZXdvcmsuYmVhbnMuZmFjdG9yeS5hbm5vdGF0aW9uLkF1dG93aXJlZDsKaW1wb3J0IG9yZy5zcHJpbmdmcmFtZXdvcmsud2ViLmJpbmQuYW5ub3RhdGlvbi4qOwoKaW1wb3J0IGphdmEudXRpbC5MaXN0OwppbXBvcnQgamF2YS51dGlsLk1hcDsKCi8qKgogKiA8cD4KICog6K6y5biIIOWJjeerr+aOp+WItuWZqAogKiA8L3A+CiAqCiAqIEBhdXRob3IgSGVsZW4KICogQHNpbmNlIDIwMTktMDYtMjQKICovCkBBcGkoZGVzY3JpcHRpb24gPSAi6K6y5biI5qih5Z2XIikKQENyb3NzT3JpZ2luCkBSZXN0Q29udHJvbGxlcgpAUmVxdWVzdE1hcHBpbmcoIi9lZHUvdGVhY2hlciIpCnB1YmxpYyBjbGFzcyBUZWFjaGVyQ29udHJvbGxlciB7CgoJQEF1dG93aXJlZAoJcHJpdmF0ZSBUZWFjaGVyU2VydmljZSB0ZWFjaGVyU2VydmljZTsKCglAQXV0b3dpcmVkCglwcml2YXRlIENvdXJzZVNlcnZpY2UgY291cnNlU2VydmljZTsKCglAQXBpT3BlcmF0aW9uKHZhbHVlPSLorrLluIjliJfooagiKQoJQEdldE1hcHBpbmcKCXB1YmxpYyBSIGxpc3QoKXsKCQlMaXN0PFRlYWNoZXI+IGxpc3QgPSB0ZWFjaGVyU2VydmljZS5saXN0KG51bGwpOwoJCXJldHVybiBSLm9rKCkuZGF0YSgiaXRlbXMiLCBsaXN0KTsKCX0KCglAQXBpT3BlcmF0aW9uKHZhbHVlID0gIuWIhumhteiusuW4iOWIl+ihqCIpCglAR2V0TWFwcGluZyh2YWx1ZSA9ICJ7cGFnZX0ve2xpbWl0fSIpCglwdWJsaWMgUiBwYWdlTGlzdCgKCQkJQEFwaVBhcmFtKG5hbWUgPSAicGFnZSIsIHZhbHVlID0gIuW9k+WJjemhteeggSIsIHJlcXVpcmVkID0gdHJ1ZSkKCQkJQFBhdGhWYXJpYWJsZSBMb25nIHBhZ2UsCgoJCQlAQXBpUGFyYW0obmFtZSA9ICJsaW1pdCIsIHZhbHVlID0gIuavj+mhteiusOW9leaVsCIsIHJlcXVpcmVkID0gdHJ1ZSkKCQkJQFBhdGhWYXJpYWJsZSBMb25nIGxpbWl0KXsKCgkJUGFnZTxUZWFjaGVyPiBwYWdlUGFyYW0gPSBuZXcgUGFnZTxUZWFjaGVyPihwYWdlLCBsaW1pdCk7CgoJCU1hcDxTdHJpbmcsIE9iamVjdD4gbWFwID0gdGVhY2hlclNlcnZpY2UucGFnZUxpc3RXZWIocGFnZVBhcmFtKTsKCgkJcmV0dXJuICBSLm9rKCkuZGF0YShtYXApOwoJfQoKCUBBcGlPcGVyYXRpb24odmFsdWUgPSAi5qC55o2uSUTmn6Xor6LorrLluIgiKQoJQEdldE1hcHBpbmcodmFsdWUgPSAie2lkfSIpCglwdWJsaWMgUiBnZXRCeUlkKAoJCQlAQXBpUGFyYW0obmFtZSA9ICJpZCIsIHZhbHVlID0gIuiusuW4iElEIiwgcmVxdWlyZWQgPSB0cnVlKQoJCQlAUGF0aFZhcmlhYmxlIFN0cmluZyBpZCl7CgoJCS8v5p+l6K+i6K6y5biI5L+h5oGvCgkJVGVhY2hlciB0ZWFjaGVyID0gdGVhY2hlclNlcnZpY2UuZ2V0QnlJZChpZCk7CgoJCS8v5qC55o2u6K6y5biIaWTmn6Xor6Lov5nkuKrorrLluIjnmoTor77nqIvliJfooagKCQlMaXN0PENvdXJzZT4gY291cnNlTGlzdCA9IGNvdXJzZVNlcnZpY2Uuc2VsZWN0QnlUZWFjaGVySWQoaWQpOwoKCQlyZXR1cm4gUi5vaygpLmRhdGEoInRlYWNoZXIiLCB0ZWFjaGVyKS5kYXRhKCJjb3Vyc2VMaXN0IiwgY291cnNlTGlzdCk7Cgl9Cgp9Cgo=
+package com.mad.edu.controller;
+
+
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+import com.mad.common.vo.R;
+import com.mad.edu.entity.Course;
+import com.mad.edu.entity.Teacher;
+import com.mad.edu.service.CourseService;
+import com.mad.edu.service.TeacherService;
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
+import io.swagger.annotations.ApiParam;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
+import java.util.Map;
+
+/**
+ * <p>
+ * 讲师 前端控制器
+ * </p>
+ *
+ * @author Helen
+ * @since 2019-06-24
+ */
+@Api(description = "讲师模块")
+@CrossOrigin
+@RestController
+@RequestMapping("/edu/teacher")
+public class TeacherController {
+
+	@Autowired
+	private TeacherService teacherService;
+
+	@Autowired
+	private CourseService courseService;
+
+	@ApiOperation(value="讲师列表")
+	@GetMapping
+	public R list(){
+		List<Teacher> list = teacherService.list(null);
+		return R.ok().data("items", list);
+	}
+
+	@ApiOperation(value = "分页讲师列表")
+	@GetMapping(value = "{page}/{limit}")
+	public R pageList(
+			@ApiParam(name = "page", value = "当前页码", required = true)
+			@PathVariable Long page,
+
+			@ApiParam(name = "limit", value = "每页记录数", required = true)
+			@PathVariable Long limit){
+
+		Page<Teacher> pageParam = new Page<Teacher>(page, limit);
+
+		Map<String, Object> map = teacherService.pageListWeb(pageParam);
+
+		return  R.ok().data(map);
+	}
+
+	@ApiOperation(value = "根据ID查询讲师")
+	@GetMapping(value = "{id}")
+	public R getById(
+			@ApiParam(name = "id", value = "讲师ID", required = true)
+			@PathVariable String id){
+
+		//查询讲师信息
+		Teacher teacher = teacherService.getById(id);
+
+		//根据讲师id查询这个讲师的课程列表
+		List<Course> courseList = courseService.selectByTeacherId(id);
+
+		return R.ok().data("teacher", teacher).data("courseList", courseList);
+	}
+
+}
+

@@ -1,1 +1,114 @@
-cGFja2FnZSBjb20ubWFkLnN0YXRpc3RpY3Muc2VydmljZS5pbXBsOwoKaW1wb3J0IGNvbS5iYW9taWRvdS5teWJhdGlzcGx1cy5jb3JlLmNvbmRpdGlvbnMucXVlcnkuUXVlcnlXcmFwcGVyOwppbXBvcnQgY29tLmJhb21pZG91Lm15YmF0aXNwbHVzLmNvcmUubWFwcGVyLkJhc2VNYXBwZXI7CmltcG9ydCBjb20uYmFvbWlkb3UubXliYXRpc3BsdXMuZXh0ZW5zaW9uLnNlcnZpY2UuaW1wbC5TZXJ2aWNlSW1wbDsKaW1wb3J0IGNvbS5tYWQuY29tbW9uLnZvLlI7CmltcG9ydCBjb20ubWFkLnN0YXRpc3RpY3MuY2xpZW50LlVjZW50ZXJDbGluZXQ7CmltcG9ydCBjb20ubWFkLnN0YXRpc3RpY3MuZW50aXR5LkRhaWx5OwppbXBvcnQgY29tLm1hZC5zdGF0aXN0aWNzLm1hcHBlci5EYWlseU1hcHBlcjsKaW1wb3J0IGNvbS5tYWQuc3RhdGlzdGljcy5zZXJ2aWNlLkRhaWx5U2VydmljZTsKaW1wb3J0IG9yZy5hcGFjaGUuY29tbW9ucy5sYW5nMy5SYW5kb21VdGlsczsKaW1wb3J0IG9yZy5zcHJpbmdmcmFtZXdvcmsuYmVhbnMuZmFjdG9yeS5hbm5vdGF0aW9uLkF1dG93aXJlZDsKaW1wb3J0IG9yZy5zcHJpbmdmcmFtZXdvcmsuc3RlcmVvdHlwZS5TZXJ2aWNlOwoKaW1wb3J0IGphdmEudXRpbC5BcnJheUxpc3Q7CmltcG9ydCBqYXZhLnV0aWwuSGFzaE1hcDsKaW1wb3J0IGphdmEudXRpbC5MaXN0OwppbXBvcnQgamF2YS51dGlsLk1hcDsKCi8qKgogKiA8cD4KICog572R56uZ57uf6K6h5pel5pWw5o2uIOacjeWKoeWunueOsOexuwogKiA8L3A+CiAqCiAqIEBhdXRob3IgSGVsZW4KICogQHNpbmNlIDIwMTktMDctMDEKICovCkBTZXJ2aWNlCnB1YmxpYyBjbGFzcyBEYWlseVNlcnZpY2VJbXBsIGV4dGVuZHMgU2VydmljZUltcGw8RGFpbHlNYXBwZXIsIERhaWx5PiBpbXBsZW1lbnRzIERhaWx5U2VydmljZSB7CgoJQEF1dG93aXJlZAoJcHJpdmF0ZSBVY2VudGVyQ2xpbmV0IHVjZW50ZXJDbGluZXQ7CgoJQEF1dG93aXJlZAoJcHJpdmF0ZSBCYXNlTWFwcGVyIGJhc2VNYXBwZXI7CgoJQE92ZXJyaWRlCglwdWJsaWMgdm9pZCBjcmVhdGVTdGF0aXN0aWNzQnlEYXkoU3RyaW5nIGRheSkgewoKCQkvL+iOt+WPluS4gOadoee7n+iuoeS/oeaBr++8iOi/nOeoi+iwg+eUqO+8iQoJCVIgciA9IHVjZW50ZXJDbGluZXQucmVnaXN0ZXJDb3VudChkYXkpOwoJCUludGVnZXIgcmVnaXN0ZXJOdW0gPSAoSW50ZWdlcilyLmdldERhdGEoKS5nZXQoImNvdW50UmVnaXN0ZXIiKTsKCQlJbnRlZ2VyIGxvZ2luTnVtID0gUmFuZG9tVXRpbHMubmV4dEludCgxMDAsIDIwMCk7CgkJSW50ZWdlciB2aWRlb1ZpZXdOdW0gPSBSYW5kb21VdGlscy5uZXh0SW50KDEwMCwgMjAwKTsKCQlJbnRlZ2VyIGNvdXJzZU51bSA9IFJhbmRvbVV0aWxzLm5leHRJbnQoMTAwLCAyMDApOwoJCS8vCgkJLy8g5bm25bCG57uf6K6h5L+h5oGv5pS+5YWl5pWw5o2u5bqTCgkJRGFpbHkgZGFpbHkgPSBuZXcgRGFpbHkoKTsKCQlkYWlseS5zZXRSZWdpc3Rlck51bShyZWdpc3Rlck51bSk7CgkJZGFpbHkuc2V0TG9naW5OdW0obG9naW5OdW0pOwoJCWRhaWx5LnNldFZpZGVvVmlld051bSh2aWRlb1ZpZXdOdW0pOwoJCWRhaWx5LnNldENvdXJzZU51bShjb3Vyc2VOdW0pOwoJCWRhaWx5LnNldERhdGVDYWxjdWxhdGVkKGRheSk7CgoJCWJhc2VNYXBwZXIuaW5zZXJ0KGRhaWx5KTsKCX0KCgkvKioKCSAqIC8vbWFwICAgZGF0YUxpc3QgWzEwLCAyMF0gICBkYXRlTGlzdCBbIjIwMTktMDctMDEiLCAiMjAxOS0wNy0wMiJdCgkgKiBAcGFyYW0gYmVnaW4KCSAqIEBwYXJhbSBlbmQKCSAqIEBwYXJhbSB0eXBlCgkgKiBAcmV0dXJuCgkgKi8KCUBPdmVycmlkZQoJcHVibGljIE1hcDxTdHJpbmcsIE9iamVjdD4gZ2V0Q2hhcnREYXRhKFN0cmluZyBiZWdpbiwgU3RyaW5nIGVuZCwgU3RyaW5nIHR5cGUpIHsKCgoJCVF1ZXJ5V3JhcHBlcjxEYWlseT4gcXVlcnlXcmFwcGVyID0gbmV3IFF1ZXJ5V3JhcHBlcjw+KCk7CgkJcXVlcnlXcmFwcGVyLnNlbGVjdCh0eXBlLCAiZGF0ZV9jYWxjdWxhdGVkIik7CgkJcXVlcnlXcmFwcGVyLmJldHdlZW4oImRhdGVfY2FsY3VsYXRlZCIsIGJlZ2luLCBlbmQpOwoKCQlMaXN0PERhaWx5PiBkYWlseUxpc3QgPSBiYXNlTWFwcGVyLnNlbGVjdExpc3QocXVlcnlXcmFwcGVyKTsKCgkJSGFzaE1hcDxTdHJpbmcsIE9iamVjdD4gbWFwID0gbmV3IEhhc2hNYXA8PigpOwoJCUFycmF5TGlzdDxJbnRlZ2VyPiBkYXRhTGlzdCA9IG5ldyBBcnJheUxpc3Q8PigpOwoJCUFycmF5TGlzdDxTdHJpbmc+IGRhdGVMaXN0ID0gbmV3IEFycmF5TGlzdDw+KCk7CgkJbWFwLnB1dCgiZGF0YUxpc3QiLCBkYXRhTGlzdCk7CgkJbWFwLnB1dCgiZGF0ZUxpc3QiLCBkYXRlTGlzdCk7CgoKCQlmb3IgKERhaWx5IGRhaWx5IDogZGFpbHlMaXN0KSB7CgoJCQkvL+mBjeWOhuafpeivouaVsOaNru+8jOWwhuavj+S4gOadoeiusOW9leeahOe7n+iuoeeahOaVsOWAvOWPluWHuuaUvuWFpeaVsOaNruWIl+ihqAoJCQlzd2l0Y2ggKHR5cGUpewoJCQkJLy9gcmVnaXN0ZXJfbnVtYGBsb2dpbl9udW1gYHZpZGVvX3ZpZXdfbnVtYGBjb3Vyc2VfbnVtYAoJCQkJY2FzZSAicmVnaXN0ZXJfbnVtIjoKCQkJCQlJbnRlZ2VyIHJlZ2lzdGVyTnVtID0gZGFpbHkuZ2V0UmVnaXN0ZXJOdW0oKTsKCQkJCQlkYXRhTGlzdC5hZGQocmVnaXN0ZXJOdW0pOwoJCQkJCWJyZWFrOwoJCQkJY2FzZSAibG9naW5fbnVtIjoKCQkJCQlJbnRlZ2VyIGxvZ2luTnVtID0gZGFpbHkuZ2V0TG9naW5OdW0oKTsKCQkJCQlkYXRhTGlzdC5hZGQobG9naW5OdW0pOwoJCQkJCWJyZWFrOwoJCQkJY2FzZSAidmlkZW9fdmlld19udW0iOgoJCQkJCUludGVnZXIgdmlkZW9WaWV3TnVtID0gZGFpbHkuZ2V0VmlkZW9WaWV3TnVtKCk7CgkJCQkJZGF0YUxpc3QuYWRkKHZpZGVvVmlld051bSk7CgkJCQkJYnJlYWs7CgkJCQljYXNlICJjb3Vyc2VfbnVtIjoKCQkJCQlJbnRlZ2VyIGNvdXJzZU51bSA9IGRhaWx5LmdldENvdXJzZU51bSgpOwoJCQkJCWRhdGFMaXN0LmFkZChjb3Vyc2VOdW0pOwoJCQkJCWJyZWFrOwoJCQkJZGVmYXVsdDoKCQkJCQlicmVhazsKCgkJCX0KCgkJCS8v6YGN5Y6G5p+l6K+i5pWw5o2u77yM5bCG5q+P5LiA5p2h6K6w5b2V55qE5pel5pyf5Y+W5Ye65pS+5YWl5pel5pyf5YiX6KGoCgkJCWRhdGVMaXN0LmFkZChkYWlseS5nZXREYXRlQ2FsY3VsYXRlZCgpKTsKCQl9CgoJCXJldHVybiBtYXA7Cgl9Cn0K
+package com.mad.statistics.service.impl;
+
+import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.mad.common.vo.R;
+import com.mad.statistics.client.UcenterClinet;
+import com.mad.statistics.entity.Daily;
+import com.mad.statistics.mapper.DailyMapper;
+import com.mad.statistics.service.DailyService;
+import org.apache.commons.lang3.RandomUtils;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+/**
+ * <p>
+ * 网站统计日数据 服务实现类
+ * </p>
+ *
+ * @author Helen
+ * @since 2019-07-01
+ */
+@Service
+public class DailyServiceImpl extends ServiceImpl<DailyMapper, Daily> implements DailyService {
+
+	@Autowired
+	private UcenterClinet ucenterClinet;
+
+	@Autowired
+	private BaseMapper baseMapper;
+
+	@Override
+	public void createStatisticsByDay(String day) {
+
+		//获取一条统计信息（远程调用）
+		R r = ucenterClinet.registerCount(day);
+		Integer registerNum = (Integer)r.getData().get("countRegister");
+		Integer loginNum = RandomUtils.nextInt(100, 200);
+		Integer videoViewNum = RandomUtils.nextInt(100, 200);
+		Integer courseNum = RandomUtils.nextInt(100, 200);
+		//
+		// 并将统计信息放入数据库
+		Daily daily = new Daily();
+		daily.setRegisterNum(registerNum);
+		daily.setLoginNum(loginNum);
+		daily.setVideoViewNum(videoViewNum);
+		daily.setCourseNum(courseNum);
+		daily.setDateCalculated(day);
+
+		baseMapper.insert(daily);
+	}
+
+	/**
+	 * //map   dataList [10, 20]   dateList ["2019-07-01", "2019-07-02"]
+	 * @param begin
+	 * @param end
+	 * @param type
+	 * @return
+	 */
+	@Override
+	public Map<String, Object> getChartData(String begin, String end, String type) {
+
+
+		QueryWrapper<Daily> queryWrapper = new QueryWrapper<>();
+		queryWrapper.select(type, "date_calculated");
+		queryWrapper.between("date_calculated", begin, end);
+
+		List<Daily> dailyList = baseMapper.selectList(queryWrapper);
+
+		HashMap<String, Object> map = new HashMap<>();
+		ArrayList<Integer> dataList = new ArrayList<>();
+		ArrayList<String> dateList = new ArrayList<>();
+		map.put("dataList", dataList);
+		map.put("dateList", dateList);
+
+
+		for (Daily daily : dailyList) {
+
+			//遍历查询数据，将每一条记录的统计的数值取出放入数据列表
+			switch (type){
+				//`register_num``login_num``video_view_num``course_num`
+				case "register_num":
+					Integer registerNum = daily.getRegisterNum();
+					dataList.add(registerNum);
+					break;
+				case "login_num":
+					Integer loginNum = daily.getLoginNum();
+					dataList.add(loginNum);
+					break;
+				case "video_view_num":
+					Integer videoViewNum = daily.getVideoViewNum();
+					dataList.add(videoViewNum);
+					break;
+				case "course_num":
+					Integer courseNum = daily.getCourseNum();
+					dataList.add(courseNum);
+					break;
+				default:
+					break;
+
+			}
+
+			//遍历查询数据，将每一条记录的日期取出放入日期列表
+			dateList.add(daily.getDateCalculated());
+		}
+
+		return map;
+	}
+}

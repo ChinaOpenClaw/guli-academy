@@ -1,1 +1,227 @@
-cGFja2FnZSBjb20ubWFkLnVjZW50ZXIuY29udHJvbGxlci5hcGk7CgppbXBvcnQgY29tLmdvb2dsZS5nc29uLkdzb247CmltcG9ydCBjb20ubWFkLmNvbW1vbi5jb25zdGFudHMuUmVzdWx0Q29kZUVudW07CmltcG9ydCBjb20ubWFkLmNvbW1vbi5leGNlcHRpb24uTWFkRXhjZXB0aW9uOwppbXBvcnQgY29tLm1hZC5jb21tb24udm8uUjsKaW1wb3J0IGNvbS5tYWQudWNlbnRlci5lbnRpdHkuTWVtYmVyOwppbXBvcnQgY29tLm1hZC51Y2VudGVyLnNlcnZpY2UuTWVtYmVyU2VydmljZTsKaW1wb3J0IGNvbS5tYWQudWNlbnRlci51dGlsLkNvbnN0YW50UHJvcGVydGllc1V0aWw7CmltcG9ydCBjb20ubWFkLnVjZW50ZXIudXRpbC5Db29raWVVdGlsczsKaW1wb3J0IGNvbS5tYWQudWNlbnRlci51dGlsLkh0dHBDbGllbnRVdGlsczsKaW1wb3J0IGNvbS5tYWQudWNlbnRlci51dGlsLkp3dFV0aWxzOwppbXBvcnQgY29tLm1hZC51Y2VudGVyLnZvLkxvZ2luSW5mb1ZvOwppbXBvcnQgaW8uanNvbndlYnRva2VuLkNsYWltczsKaW1wb3J0IG9yZy5zcHJpbmdmcmFtZXdvcmsuYmVhbnMuZmFjdG9yeS5hbm5vdGF0aW9uLkF1dG93aXJlZDsKaW1wb3J0IG9yZy5zcHJpbmdmcmFtZXdvcmsuc3RlcmVvdHlwZS5Db250cm9sbGVyOwppbXBvcnQgb3JnLnNwcmluZ2ZyYW1ld29yay51dGlsLlN0cmluZ1V0aWxzOwppbXBvcnQgb3JnLnNwcmluZ2ZyYW1ld29yay53ZWIuYmluZC5hbm5vdGF0aW9uLio7CgppbXBvcnQgamF2YXguc2VydmxldC5odHRwLkh0dHBTZXJ2bGV0UmVxdWVzdDsKaW1wb3J0IGphdmF4LnNlcnZsZXQuaHR0cC5IdHRwU2VydmxldFJlc3BvbnNlOwppbXBvcnQgamF2YXguc2VydmxldC5odHRwLkh0dHBTZXNzaW9uOwppbXBvcnQgamF2YS5pby5VbnN1cHBvcnRlZEVuY29kaW5nRXhjZXB0aW9uOwppbXBvcnQgamF2YS5uZXQuVVJMRW5jb2RlcjsKaW1wb3J0IGphdmEudXRpbC5IYXNoTWFwOwoKLyoqCiAqIEBhdXRob3IgaGVsZW4KICogQHNpbmNlIDIwMTkvNy83CiAqLwpAQ3Jvc3NPcmlnaW4KQENvbnRyb2xsZXIKQFJlcXVlc3RNYXBwaW5nKCIvYXBpL3VjZW50ZXIvd3giKQpwdWJsaWMgY2xhc3MgV3hBcGlDb250cm9sbGVyIHsKCglAQXV0b3dpcmVkCglwcml2YXRlIE1lbWJlclNlcnZpY2UgbWVtYmVyU2VydmljZTsKCgkvKioKCSAqIOaYvuekuueZu+W9leS6jOe7tOeggQoJICogQHJldHVybgoJICovCglAR2V0TWFwcGluZygibG9naW4iKQoJcHVibGljIFN0cmluZyBnZW5RckNvbm5lY3QoSHR0cFNlc3Npb24gc2Vzc2lvbil7CgoJCVN5c3RlbS5vdXQucHJpbnRsbigi6K+35rGC5b6u5L+hT0F1dGgyLjDmjojmnYPnmbvlvZUiKTsKCgkJLy8x44CB5b6u5L+h5byA5pS+5bmz5Y+w55qE5o6I5p2DdXJsCgkJU3RyaW5nIGJhc2VVcmwgPSAiaHR0cHM6Ly9vcGVuLndlaXhpbi5xcS5jb20vY29ubmVjdC9xcmNvbm5lY3QiICsKCQkJCSI/YXBwaWQ9JXMiICsKCQkJCSImcmVkaXJlY3RfdXJpPSVzIiArCgkJCQkiJnJlc3BvbnNlX3R5cGU9Y29kZSIgKwoJCQkJIiZzY29wZT1zbnNhcGlfbG9naW4iICsKCQkJCSImc3RhdGU9JXMiICsKCQkJCSIjd2VjaGF0X3JlZGlyZWN0IjsKCgkJLy8y44CB5Zue6LCD5Zyw5Z2ACgkJU3RyaW5nIHJlZGlyZWN0VXJsID0gQ29uc3RhbnRQcm9wZXJ0aWVzVXRpbC5XWF9PUEVOX1JFRElSRUNUX1VSTDsKCQl0cnkgewoJCQlyZWRpcmVjdFVybCA9IFVSTEVuY29kZXIuZW5jb2RlKHJlZGlyZWN0VXJsLCAiVVRGLTgiKTsKCQl9IGNhdGNoIChVbnN1cHBvcnRlZEVuY29kaW5nRXhjZXB0aW9uIGUpIHsKCQkJdGhyb3cgbmV3IE1hZEV4Y2VwdGlvbihSZXN1bHRDb2RlRW51bS5VUkxfRU5DT0RFX0VSUk9SKTsKCQl9CgoKCQkvLzPjgIHnlJ/miJBzdGF0ZeWPguaVsAoJCVN0cmluZyBzdGF0ZSA9ICJpbWhlbGVuIjsgLy/mraPlvI/nmoTnlJ/kuqfnjq/looPkuK3vvIzpnIDopoHnlJ/miJDkuIDkuKrpmo/mnLrlrZfnrKbkuLIKLy8JCVN0cmluZyBzdGF0ZSA9IFVVSUQucmFuZG9tVVVJRCgpLnRvU3RyaW5nKCkucmVwbGFjZUFsbCgiLSIsICIiKTsKCQlzZXNzaW9uLnNldEF0dHJpYnV0ZSgid3gtb3Blbi1zdGF0ZSIsIHN0YXRlKTsKCQlTeXN0ZW0ub3V0LnByaW50bG4oIueUn+aIkCBzdGF0ZSA9ICIgKyBzdGF0ZSk7CgoJCS8vNOOAgeeUn+aIkHFyVXJsCgkJU3RyaW5nIHFyY29kZVVybCA9IFN0cmluZy5mb3JtYXQoCgkJCQliYXNlVXJsLAoJCQkJQ29uc3RhbnRQcm9wZXJ0aWVzVXRpbC5XWF9PUEVOX0FQUF9JRCwKCQkJCXJlZGlyZWN0VXJsLAoJCQkJc3RhdGUKCQkpOwoKCgkJcmV0dXJuICJyZWRpcmVjdDoiICsgcXJjb2RlVXJsOwoJfQoKCgkvKioKCSAqIOaOiOadg+Wbnuiwg+aOpeWPowoJICovCglAR2V0TWFwcGluZygiY2FsbGJhY2siKQoJcHVibGljIFN0cmluZyBjYWxsYmFjayhTdHJpbmcgY29kZSwKCQkJCQkJICAgU3RyaW5nIHN0YXRlLAoJCQkJCQkgICBIdHRwU2Vzc2lvbiBzZXNzaW9uLAoJCQkJCQkgICBIdHRwU2VydmxldFJlcXVlc3QgcmVxdWVzdCwKCQkJCQkJICAgSHR0cFNlcnZsZXRSZXNwb25zZSByZXNwb25zZSl7CgoJCVN5c3RlbS5vdXQucHJpbnRsbigi5Zue6LCD5o6l5Y+j6KKr6LCD55SoIik7CgoJCVN5c3RlbS5vdXQucHJpbnRsbigi5o6I5p2D5Li05pe256Wo5o2uIGNvZGUgPSAiICsgY29kZSk7CgkJU3lzdGVtLm91dC5wcmludGxuKCJzdGF0ZeWPguaVsCBzdGF0ZSA9ICIgKyBzdGF0ZSk7CgoJCS8v5Yik5pat5Zue6LCD5Y+C5pWw5piv5ZCm5ZCI5rOVCgkJU3RyaW5nIHN0YXRlU3RyID0gKFN0cmluZylzZXNzaW9uLmdldEF0dHJpYnV0ZSgid3gtb3Blbi1zdGF0ZSIpOwoJCVN5c3RlbS5vdXQucHJpbnRsbigic2Vzc2lvbiDkuK3nmoRzdGF0ZeWPgiBzdGF0ZSA9ICIgKyBzdGF0ZVN0cik7CgkJaWYoU3RyaW5nVXRpbHMuaXNFbXB0eShjb2RlKSB8fCBTdHJpbmdVdGlscy5pc0VtcHR5KHN0YXRlKSB8fCAhc3RhdGUuZXF1YWxzKHN0YXRlU3RyKSl7CgkJCXRocm93IG5ldyBNYWRFeGNlcHRpb24oUmVzdWx0Q29kZUVudW0uSUxMRUdBTF9DQUxMQkFDS19SRVFVRVNUX0VSUk9SKTsKCQl9CgoJCS8v5Y+R6YCB6YCa6L+HY29kZeiOt+WPlmFjY2Vzc190b2tlbueahOivt+axggoJCVN0cmluZyBiYXNlQWNjZXNzVG9rZW5VcmwgPSAiaHR0cHM6Ly9hcGkud2VpeGluLnFxLmNvbS9zbnMvb2F1dGgyL2FjY2Vzc190b2tlbiIgKwoJCQkJIj9hcHBpZD0lcyIgKwoJCQkJIiZzZWNyZXQ9JXMiICsKCQkJCSImY29kZT0lcyIgKwoJCQkJIiZncmFudF90eXBlPWF1dGhvcml6YXRpb25fY29kZSI7CgoJCVN0cmluZyBhY2Nlc3NUb2tlblVybCA9IFN0cmluZy5mb3JtYXQoCgkJCQliYXNlQWNjZXNzVG9rZW5VcmwsCgkJCQlDb25zdGFudFByb3BlcnRpZXNVdGlsLldYX09QRU5fQVBQX0lELAoJCQkJQ29uc3RhbnRQcm9wZXJ0aWVzVXRpbC5XWF9PUEVOX0FQUF9TRUNSRVQsCgkJCQljb2RlCgkJKTsKCgkJLy/lkJHmjojmnYPmnI3liqHlmajnlLPor7fmjojmnYPnoIHvvJrlkJHlm7TmrrTmlrDmnI3liqHlmajlj5HpgIHov5znqItodHRw6K+35rGCCgkJU3RyaW5nIHJlc3VsdCA9IG51bGw7CgkJdHJ5IHsKCQkJLy/ojrflvpflk43lupTnmoRqc29u5a2X56ym5LiyCgkJCXJlc3VsdCA9IEh0dHBDbGllbnRVdGlscy5nZXQoYWNjZXNzVG9rZW5VcmwpOwoJCX0gY2F0Y2ggKEV4Y2VwdGlvbiBlKSB7CgkJCXRocm93IG5ldyBNYWRFeGNlcHRpb24oUmVzdWx0Q29kZUVudW0uRkVUQ0hfQUNDRVNTX1RPS0VOX0VSUk9SKTsKCQl9CgoJCS8v5bCGanNvbuWtl+espuS4sui9rOaNouaIkGphdmHlr7nosaEKCQlHc29uIGdzb24gPSBuZXcgR3NvbigpOwoJCUhhc2hNYXA8U3RyaW5nLCBPYmplY3Q+IHJlc3VsdE1hcCA9IGdzb24uZnJvbUpzb24ocmVzdWx0LCBIYXNoTWFwLmNsYXNzKTsKCQlpZihyZXN1bHRNYXAuZ2V0KCJlcnJjb2RlIikgIT0gbnVsbCl7CgkJCXRocm93IG5ldyBNYWRFeGNlcHRpb24oUmVzdWx0Q29kZUVudW0uRkVUQ0hfQUNDRVNTX1RPS0VOX0VSUk9SKTsKCQl9CgoJCS8v5LuO6L+U5Zue57uT5p6c5Lit6I635Y+WYWNjZXNzX3Rva2Vu5ZKM55So5oi355qEb3BlbmlkCgkJU3RyaW5nIGFjY2Vzc1Rva2VuID0gKFN0cmluZylyZXN1bHRNYXAuZ2V0KCJhY2Nlc3NfdG9rZW4iKTsKCQlTdHJpbmcgb3BlbmlkID0gKFN0cmluZylyZXN1bHRNYXAuZ2V0KCJvcGVuaWQiKTsKCgkJaWYoU3RyaW5nVXRpbHMuaXNFbXB0eShhY2Nlc3NUb2tlbikgfHwgU3RyaW5nVXRpbHMuaXNFbXB0eShvcGVuaWQpKXsKCQkJdGhyb3cgbmV3IE1hZEV4Y2VwdGlvbihSZXN1bHRDb2RlRW51bS5GRVRDSF9BQ0NFU1NfVE9LRU5fRVJST1IpOwoJCX0KCQlTeXN0ZW0ub3V0LnByaW50bG4oImFjY2Vzc1Rva2VuID0gIiArIGFjY2Vzc1Rva2VuKTsKCQlTeXN0ZW0ub3V0LnByaW50bG4oIm9wZW5pZCA9ICIgKyBvcGVuaWQpOwoKCQkvL+agueaNrm9wZW5pZOafpeivoueUqOaIt+WcqOaVsOaNruW6k+S4reaYr+WQpuWtmOWcqAoJCVN5c3RlbS5vdXQucHJpbnRsbigi5qC55o2ub3Blbmlk5p+l6K+i55So5oi35Zyo5pWw5o2u5bqT5Lit5piv5ZCm5a2Y5ZyoIik7CgoJCU1lbWJlciBtZW1iZXIgPSBtZW1iZXJTZXJ2aWNlLmdldEJ5T3BlbmlkKG9wZW5pZCk7CgoJCWlmKG1lbWJlciA9PSBudWxsKXsvL+aWsOeUqOaItwoJCQlTeXN0ZW0ub3V0LnByaW50bG4oIuazqOWGjOW+ruS/oeaWsOeUqOaItyIpOwoKCQkJU3RyaW5nIGJhc2VVc2VySW5mb1VybCA9ICJodHRwczovL2FwaS53ZWl4aW4ucXEuY29tL3Nucy91c2VyaW5mbyIgKwoJCQkJCSI/YWNjZXNzX3Rva2VuPSVzIiArCgkJCQkJIiZvcGVuaWQ9JXMiOwoJCQlTdHJpbmcgdXNlckluZm9VcmwgPSBTdHJpbmcuZm9ybWF0KAoJCQkJCWJhc2VVc2VySW5mb1VybCwKCQkJCQlhY2Nlc3NUb2tlbiwKCQkJCQlvcGVuaWQpOwoJCQkvL+WQkeW+ruS/oeacjeWKoeWZqOWPkemAgei/nOeoi+ivt+axggoJCQlTdHJpbmcgcmVzdWx0dXNlckluZm8gPSBudWxsOwoJCQl0cnkgewoJCQkJcmVzdWx0dXNlckluZm8gPSBIdHRwQ2xpZW50VXRpbHMuZ2V0KHVzZXJJbmZvVXJsKTsKCQkJfSBjYXRjaCAoRXhjZXB0aW9uIGUpIHsKCQkJCXRocm93IG5ldyBNYWRFeGNlcHRpb24oUmVzdWx0Q29kZUVudW0uRkVUQ0hfVVNFUl9JTkZPX0VSUk9SKTsKCQkJfQoKCQkJSGFzaE1hcDxTdHJpbmcsIE9iamVjdD4gcmVzdWx0VXNlckluZm9NYXAgPSBnc29uLmZyb21Kc29uKHJlc3VsdHVzZXJJbmZvLCBIYXNoTWFwLmNsYXNzKTsKCQkJaWYocmVzdWx0VXNlckluZm9NYXAuZ2V0KCJlcnJjb2RlIikgIT0gbnVsbCl7CgkJCQl0aHJvdyBuZXcgTWFkRXhjZXB0aW9uKFJlc3VsdENvZGVFbnVtLkZFVENIX1VTRVJfSU5GT19FUlJPUik7CgkJCX0KCgkJCVN0cmluZyBuaWNrbmFtZSA9IChTdHJpbmcpcmVzdWx0VXNlckluZm9NYXAuZ2V0KCJuaWNrbmFtZSIpOwoJCQlTdHJpbmcgaGVhZGltZ3VybCA9IChTdHJpbmcpcmVzdWx0VXNlckluZm9NYXAuZ2V0KCJoZWFkaW1ndXJsIik7CgoJCQltZW1iZXIgPSBuZXcgTWVtYmVyKCk7CgkJCW1lbWJlci5zZXROaWNrbmFtZShuaWNrbmFtZSk7CgkJCW1lbWJlci5zZXRBdmF0YXIoaGVhZGltZ3VybCk7CgkJCW1lbWJlci5zZXRPcGVuaWQob3BlbmlkKTsKCQkJbWVtYmVyU2VydmljZS5zYXZlKG1lbWJlcik7CgkJfQoKCQkvL+eZu+W9lQoJCVN5c3RlbS5vdXQucHJpbnRsbigi55m75b2V77ya55Sf5oiQand05Luk54mM77yM5Lyg5Yiw5a6i5oi356uv5a2Y5YKoIik7CgkJLy/nlJ/miJBqd3QgdG9rZW4KCQlTdHJpbmcgand0VG9rZW4gPSBKd3RVdGlscy5nZW5lcmF0ZUpXVChtZW1iZXIpOwoJCS8v5bCGand0IHRva2Vu5a2Y5YWlY29va2llCi8vCQlDb29raWVVdGlscy5zZXRDb29raWUoCi8vCQkJCXJlcXVlc3QsCi8vCQkJCXJlc3BvbnNlLAovLwkJCQkibWFkX2p3dF90b2tlbiIsCi8vCQkJCWp3dFRva2VuLAovLwkJCQk2MCAqIDMwKTsKCgkJLy/ot7PovazliLDnvZHnq5nnmoTkuLvpobXpnaIKCQlyZXR1cm4gInJlZGlyZWN0Omh0dHA6Ly9sb2NhbGhvc3Q6MzAwMD90b2tlbj0iICsgand0VG9rZW47Cgl9CgoJQEdldE1hcHBpbmcoImdldC1qd3QiKQoJQFJlc3BvbnNlQm9keQoJcHVibGljIFIgZ2V0Snd0KEh0dHBTZXJ2bGV0UmVxdWVzdCByZXF1ZXN0KXsKCgkJU3RyaW5nIGp3dFRva2VuID0gQ29va2llVXRpbHMuZ2V0Q29va2llVmFsdWUocmVxdWVzdCwgIm1hZF9qd3RfdG9rZW4iKTsKCQlyZXR1cm4gUi5vaygpLmRhdGEoIm1hZF9qd3RfdG9rZW4iLCBqd3RUb2tlbik7Cgl9CgoJQFBvc3RNYXBwaW5nKCJwYXJzZS1qd3QiKQoJQFJlc3BvbnNlQm9keQoJcHVibGljIFIgZ2V0TG9naW5JbmZvQnlKd3RUb2tlbihAUmVxdWVzdEJvZHkgU3RyaW5nIGp3dFRva2VuKXsKCgkJQ2xhaW1zIGNsYWltcyA9IEp3dFV0aWxzLmNoZWNrSldUKGp3dFRva2VuKTsKCgkJU3RyaW5nIGlkID0gKFN0cmluZyljbGFpbXMuZ2V0KCJpZCIpOwoJCVN0cmluZyBuaWNrbmFtZSA9IChTdHJpbmcpY2xhaW1zLmdldCgibmlja25hbWUiKTsKCQlTdHJpbmcgYXZhdGFyID0gKFN0cmluZyljbGFpbXMuZ2V0KCJhdmF0YXIiKTsKCgkJLy/moLnmja7nlKjmiLdpZOafpeivoueUqOaIt+aOiOadg+S/oeaBr+aIluS8muWRmOe6p+WIqwoJCUxvZ2luSW5mb1ZvIGxvZ2luSW5mb1ZvID0gbmV3IExvZ2luSW5mb1ZvKCk7CgkJbG9naW5JbmZvVm8uc2V0SWQoaWQpOwoJCWxvZ2luSW5mb1ZvLnNldE5pY2tuYW1lKG5pY2tuYW1lKTsKCQlsb2dpbkluZm9Wby5zZXRBdmF0YXIoYXZhdGFyKTsKCgkJcmV0dXJuIFIub2soKS5kYXRhKCJsb2dpbkluZm8iLCBsb2dpbkluZm9Wbyk7Cgl9Cn0K
+package com.mad.ucenter.controller.api;
+
+import com.google.gson.Gson;
+import com.mad.common.constants.ResultCodeEnum;
+import com.mad.common.exception.MadException;
+import com.mad.common.vo.R;
+import com.mad.ucenter.entity.Member;
+import com.mad.ucenter.service.MemberService;
+import com.mad.ucenter.util.ConstantPropertiesUtil;
+import com.mad.ucenter.util.CookieUtils;
+import com.mad.ucenter.util.HttpClientUtils;
+import com.mad.ucenter.util.JwtUtils;
+import com.mad.ucenter.vo.LoginInfoVo;
+import io.jsonwebtoken.Claims;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.util.StringUtils;
+import org.springframework.web.bind.annotation.*;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
+import java.io.UnsupportedEncodingException;
+import java.net.URLEncoder;
+import java.util.HashMap;
+
+/**
+ * @author helen
+ * @since 2019/7/7
+ */
+@CrossOrigin
+@Controller
+@RequestMapping("/api/ucenter/wx")
+public class WxApiController {
+
+	@Autowired
+	private MemberService memberService;
+
+	/**
+	 * 显示登录二维码
+	 * @return
+	 */
+	@GetMapping("login")
+	public String genQrConnect(HttpSession session){
+
+		System.out.println("请求微信OAuth2.0授权登录");
+
+		//1、微信开放平台的授权url
+		String baseUrl = "https://open.weixin.qq.com/connect/qrconnect" +
+				"?appid=%s" +
+				"&redirect_uri=%s" +
+				"&response_type=code" +
+				"&scope=snsapi_login" +
+				"&state=%s" +
+				"#wechat_redirect";
+
+		//2、回调地址
+		String redirectUrl = ConstantPropertiesUtil.WX_OPEN_REDIRECT_URL;
+		try {
+			redirectUrl = URLEncoder.encode(redirectUrl, "UTF-8");
+		} catch (UnsupportedEncodingException e) {
+			throw new MadException(ResultCodeEnum.URL_ENCODE_ERROR);
+		}
+
+
+		//3、生成state参数
+		String state = "imhelen"; //正式的生产环境中，需要生成一个随机字符串
+//		String state = UUID.randomUUID().toString().replaceAll("-", "");
+		session.setAttribute("wx-open-state", state);
+		System.out.println("生成 state = " + state);
+
+		//4、生成qrUrl
+		String qrcodeUrl = String.format(
+				baseUrl,
+				ConstantPropertiesUtil.WX_OPEN_APP_ID,
+				redirectUrl,
+				state
+		);
+
+
+		return "redirect:" + qrcodeUrl;
+	}
+
+
+	/**
+	 * 授权回调接口
+	 */
+	@GetMapping("callback")
+	public String callback(String code,
+						   String state,
+						   HttpSession session,
+						   HttpServletRequest request,
+						   HttpServletResponse response){
+
+		System.out.println("回调接口被调用");
+
+		System.out.println("授权临时票据 code = " + code);
+		System.out.println("state参数 state = " + state);
+
+		//判断回调参数是否合法
+		String stateStr = (String)session.getAttribute("wx-open-state");
+		System.out.println("session 中的state参 state = " + stateStr);
+		if(StringUtils.isEmpty(code) || StringUtils.isEmpty(state) || !state.equals(stateStr)){
+			throw new MadException(ResultCodeEnum.ILLEGAL_CALLBACK_REQUEST_ERROR);
+		}
+
+		//发送通过code获取access_token的请求
+		String baseAccessTokenUrl = "https://api.weixin.qq.com/sns/oauth2/access_token" +
+				"?appid=%s" +
+				"&secret=%s" +
+				"&code=%s" +
+				"&grant_type=authorization_code";
+
+		String accessTokenUrl = String.format(
+				baseAccessTokenUrl,
+				ConstantPropertiesUtil.WX_OPEN_APP_ID,
+				ConstantPropertiesUtil.WX_OPEN_APP_SECRET,
+				code
+		);
+
+		//向授权服务器申请授权码：向围殴新服务器发送远程http请求
+		String result = null;
+		try {
+			//获得响应的json字符串
+			result = HttpClientUtils.get(accessTokenUrl);
+		} catch (Exception e) {
+			throw new MadException(ResultCodeEnum.FETCH_ACCESS_TOKEN_ERROR);
+		}
+
+		//将json字符串转换成java对象
+		Gson gson = new Gson();
+		HashMap<String, Object> resultMap = gson.fromJson(result, HashMap.class);
+		if(resultMap.get("errcode") != null){
+			throw new MadException(ResultCodeEnum.FETCH_ACCESS_TOKEN_ERROR);
+		}
+
+		//从返回结果中获取access_token和用户的openid
+		String accessToken = (String)resultMap.get("access_token");
+		String openid = (String)resultMap.get("openid");
+
+		if(StringUtils.isEmpty(accessToken) || StringUtils.isEmpty(openid)){
+			throw new MadException(ResultCodeEnum.FETCH_ACCESS_TOKEN_ERROR);
+		}
+		System.out.println("accessToken = " + accessToken);
+		System.out.println("openid = " + openid);
+
+		//根据openid查询用户在数据库中是否存在
+		System.out.println("根据openid查询用户在数据库中是否存在");
+
+		Member member = memberService.getByOpenid(openid);
+
+		if(member == null){//新用户
+			System.out.println("注册微信新用户");
+
+			String baseUserInfoUrl = "https://api.weixin.qq.com/sns/userinfo" +
+					"?access_token=%s" +
+					"&openid=%s";
+			String userInfoUrl = String.format(
+					baseUserInfoUrl,
+					accessToken,
+					openid);
+			//向微信服务器发送远程请求
+			String resultuserInfo = null;
+			try {
+				resultuserInfo = HttpClientUtils.get(userInfoUrl);
+			} catch (Exception e) {
+				throw new MadException(ResultCodeEnum.FETCH_USER_INFO_ERROR);
+			}
+
+			HashMap<String, Object> resultUserInfoMap = gson.fromJson(resultuserInfo, HashMap.class);
+			if(resultUserInfoMap.get("errcode") != null){
+				throw new MadException(ResultCodeEnum.FETCH_USER_INFO_ERROR);
+			}
+
+			String nickname = (String)resultUserInfoMap.get("nickname");
+			String headimgurl = (String)resultUserInfoMap.get("headimgurl");
+
+			member = new Member();
+			member.setNickname(nickname);
+			member.setAvatar(headimgurl);
+			member.setOpenid(openid);
+			memberService.save(member);
+		}
+
+		//登录
+		System.out.println("登录：生成jwt令牌，传到客户端存储");
+		//生成jwt token
+		String jwtToken = JwtUtils.generateJWT(member);
+		//将jwt token存入cookie
+//		CookieUtils.setCookie(
+//				request,
+//				response,
+//				"mad_jwt_token",
+//				jwtToken,
+//				60 * 30);
+
+		//跳转到网站的主页面
+		return "redirect:http://localhost:3000?token=" + jwtToken;
+	}
+
+	@GetMapping("get-jwt")
+	@ResponseBody
+	public R getJwt(HttpServletRequest request){
+
+		String jwtToken = CookieUtils.getCookieValue(request, "mad_jwt_token");
+		return R.ok().data("mad_jwt_token", jwtToken);
+	}
+
+	@PostMapping("parse-jwt")
+	@ResponseBody
+	public R getLoginInfoByJwtToken(@RequestBody String jwtToken){
+
+		Claims claims = JwtUtils.checkJWT(jwtToken);
+
+		String id = (String)claims.get("id");
+		String nickname = (String)claims.get("nickname");
+		String avatar = (String)claims.get("avatar");
+
+		//根据用户id查询用户授权信息或会员级别
+		LoginInfoVo loginInfoVo = new LoginInfoVo();
+		loginInfoVo.setId(id);
+		loginInfoVo.setNickname(nickname);
+		loginInfoVo.setAvatar(avatar);
+
+		return R.ok().data("loginInfo", loginInfoVo);
+	}
+}

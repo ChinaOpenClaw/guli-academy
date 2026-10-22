@@ -1,1 +1,38 @@
-cGFja2FnZSBjb20ubWFkLmVkdS5mb3JtOwoKaW1wb3J0IGlvLnN3YWdnZXIuYW5ub3RhdGlvbnMuQXBpTW9kZWw7CmltcG9ydCBpby5zd2FnZ2VyLmFubm90YXRpb25zLkFwaU1vZGVsUHJvcGVydHk7CmltcG9ydCBsb21ib2suRGF0YTsKCi8qKgogKiBAYXV0aG9yIGhlbGVuCiAqIEBzaW5jZSAyMDE5LzcvMgogKi8KQEFwaU1vZGVsKHZhbHVlID0gIuivvuaXtuWfuuacrOS/oeaBryIsIGRlc2NyaXB0aW9uID0gIue8lui+keivvuaXtuWfuuacrOS/oeaBr+eahOihqOWNleWvueixoSIpCkBEYXRhCnB1YmxpYyBjbGFzcyBWaWRlb0luZm9Gb3JtIHsKCglAQXBpTW9kZWxQcm9wZXJ0eSh2YWx1ZSA9ICLop4bpopFJRCIpCglwcml2YXRlIFN0cmluZyBpZDsKCglAQXBpTW9kZWxQcm9wZXJ0eSh2YWx1ZSA9ICLoioLngrnlkI3np7AiKQoJcHJpdmF0ZSBTdHJpbmcgdGl0bGU7CgoJQEFwaU1vZGVsUHJvcGVydHkodmFsdWUgPSAi6K++56iLSUQiKQoJcHJpdmF0ZSBTdHJpbmcgY291cnNlSWQ7CgoJQEFwaU1vZGVsUHJvcGVydHkodmFsdWUgPSAi56ug6IqCSUQiKQoJcHJpdmF0ZSBTdHJpbmcgY2hhcHRlcklkOwoKCUBBcGlNb2RlbFByb3BlcnR5KHZhbHVlID0gIuinhumikei1hOa6kCIpCglwcml2YXRlIFN0cmluZyB2aWRlb1NvdXJjZUlkOwoKCUBBcGlNb2RlbFByb3BlcnR5KHZhbHVlID0gIuaYvuekuuaOkuW6jyIpCglwcml2YXRlIEludGVnZXIgc29ydDsKCglAQXBpTW9kZWxQcm9wZXJ0eSh2YWx1ZSA9ICLmmK/lkKblj6/ku6Xor5XlkKzvvJow6buY6K6kIDHlhY3otLkiKQoJcHJpdmF0ZSBCb29sZWFuIGZyZWU7CgoJQEFwaU1vZGVsUHJvcGVydHkodmFsdWUgPSAi6KeG6aKR5paH5Lu25ZCN56ewIikKCXByaXZhdGUgU3RyaW5nIHZpZGVvT3JpZ2luYWxOYW1lOwp9
+package com.mad.edu.form;
+
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
+import lombok.Data;
+
+/**
+ * @author helen
+ * @since 2019/7/2
+ */
+@ApiModel(value = "课时基本信息", description = "编辑课时基本信息的表单对象")
+@Data
+public class VideoInfoForm {
+
+	@ApiModelProperty(value = "视频ID")
+	private String id;
+
+	@ApiModelProperty(value = "节点名称")
+	private String title;
+
+	@ApiModelProperty(value = "课程ID")
+	private String courseId;
+
+	@ApiModelProperty(value = "章节ID")
+	private String chapterId;
+
+	@ApiModelProperty(value = "视频资源")
+	private String videoSourceId;
+
+	@ApiModelProperty(value = "显示排序")
+	private Integer sort;
+
+	@ApiModelProperty(value = "是否可以试听：0默认 1免费")
+	private Boolean free;
+
+	@ApiModelProperty(value = "视频文件名称")
+	private String videoOriginalName;
+}

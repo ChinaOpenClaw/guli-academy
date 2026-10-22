@@ -1,1 +1,52 @@
-PHRlbXBsYXRlPgogIDxkaXYgY2xhc3M9ImNvbnRhaW5lciB1Yy13cmFwIiB2LWlmPSJpc0xvZ2luIj4KICAgIDwhLS0g5L6n5qCPIC0tPgogICAgPGFzaWRlIGNsYXNzPSJ1Yy1zaWRlIj4KICAgICAgPGRpdiBjbGFzcz0idWMtYXZhdGFyIj4KICAgICAgICA8aW1nIDpzcmM9Iih1c2VyICYmIHVzZXIuYXZhdGFyKSB8fCAnL2ltZy9hdmF0YXItYm95LmdpZiciIGFsdD0i5aS05YOPIiAvPgogICAgICAgIDxkaXYgY2xhc3M9ImMtMzMzIiBzdHlsZT0iZm9udC13ZWlnaHQ6NjAwIj57eyB1c2VyTmFtZSB9fTwvZGl2PgogICAgICAgIDxkaXYgY2xhc3M9ImMtOTk5IiBzdHlsZT0iZm9udC1zaXplOjEycHgiIHYtaWY9InVzZXIgJiYgdXNlci5tb2JpbGUiPnt7IHVzZXIubW9iaWxlIH19PC9kaXY+CiAgICAgIDwvZGl2PgogICAgICA8bmF2IGNsYXNzPSJ1Yy1tZW51Ij4KICAgICAgICA8cm91dGVyLWxpbmsgdG89Ii91c2VyIiBjbGFzcz0icm91dGVyLWxpbmstYWN0aXZlIj7miJHnmoTkuLvpobU8L3JvdXRlci1saW5rPgogICAgICAgIDxhIGhyZWY9ImphdmFzY3JpcHQ6dm9pZCgwKSIgQGNsaWNrPSIkcm91dGVyLnB1c2goJy9jb3Vyc2VzJykiPuaIkeeahOivvueoizwvYT4KICAgICAgICA8YSBocmVmPSJqYXZhc2NyaXB0OnZvaWQoMCkiPuaIkeeahOiuouWNlTwvYT4KICAgICAgICA8YSBocmVmPSJqYXZhc2NyaXB0OnZvaWQoMCkiPuaIkeeahOaUtuiXjzwvYT4KICAgICAgICA8YSBocmVmPSJqYXZhc2NyaXB0OnZvaWQoMCkiIEBjbGljaz0ibG9nb3V0Ij7pgIDlh7rnmbvlvZU8L2E+CiAgICAgIDwvbmF2PgogICAgPC9hc2lkZT4KCiAgICA8IS0tIOS4u+WMuiAtLT4KICAgIDxtYWluIGNsYXNzPSJ1Yy1tYWluIj4KICAgICAgPGgyIHN0eWxlPSJmb250LXNpemU6MjBweCI+5oiR55qE6K++56iLPC9oMj4KICAgICAgPGRpdiBjbGFzcz0iY29tbS1jb3Vyc2UtbGlzdCBtdDIwIj4KICAgICAgICA8dWw+CiAgICAgICAgICA8Q291cnNlQ2FyZCB2LWZvcj0iYyBpbiBteUNvdXJzZXMiIDprZXk9ImMuaWQiIDpjb3Vyc2U9ImMiIC8+CiAgICAgICAgPC91bD4KICAgICAgPC9kaXY+CiAgICAgIDxkaXYgY2xhc3M9ImVtcHR5IiB2LWlmPSIhbXlDb3Vyc2VzLmxlbmd0aCI+6L+Y5rKh5pyJ5a2m5Lmg6K6w5b2V77yM5Y67PGEgaHJlZj0iamF2YXNjcmlwdDp2b2lkKDApIiBAY2xpY2s9IiRyb3V0ZXIucHVzaCgnL2NvdXJzZXMnKSIgY2xhc3M9ImMtbWFzdGVyIj7pgInor748L2E+5ZCn772ePC9kaXY+CiAgICA8L21haW4+CiAgPC9kaXY+CgogIDxkaXYgY2xhc3M9ImVtcHR5IGNvbnRhaW5lciIgdi1lbHNlPgogICAg5oKo6L+Y5pyq55m75b2V77yMCiAgICA8cm91dGVyLWxpbmsgdG89Ii9sb2dpbiIgY2xhc3M9ImMtbWFzdGVyIj7ljrvnmbvlvZU8L3JvdXRlci1saW5rPgogIDwvZGl2Pgo8L3RlbXBsYXRlPgoKPHNjcmlwdCBzZXR1cD4KaW1wb3J0IHsgY29tcHV0ZWQgfSBmcm9tICd2dWUnCmltcG9ydCB7IHVzZVJvdXRlciB9IGZyb20gJ3Z1ZS1yb3V0ZXInCmltcG9ydCBDb3Vyc2VDYXJkIGZyb20gJ0AvY29tcG9uZW50cy9Db3Vyc2VDYXJkLnZ1ZScKaW1wb3J0IHsgdXNlQXV0aCB9IGZyb20gJ0AvY29tcG9zYWJsZXMvdXNlQXV0aCcKaW1wb3J0IHsgY291cnNlcywgZ2V0Q291cnNlIH0gZnJvbSAnQC9kYXRhL2NvdXJzZXMnCmltcG9ydCB7IG15Q291cnNlSWRzIH0gZnJvbSAnQC9hcGkvbGVhcm4nCgpjb25zdCB7IGlzTG9naW4sIHVzZXJOYW1lLCB1c2VyLCBsb2dvdXQgfSA9IHVzZUF1dGgoKQpjb25zdCByb3V0ZXIgPSB1c2VSb3V0ZXIoKQovLyDkvJjlhYjlsZXnpLrnlKjmiLflrp7pmYXlvIDlp4vlrabkuaDnmoTor77nqIvvvIjmnaXoh6rlrabkuaDkuK3lv4PorrDlvZXvvInvvIzml6DorrDlvZXml7bnu5nmjqjojZAKY29uc3QgbXlDb3Vyc2VzID0gY29tcHV0ZWQoKCkgPT4gewogIGNvbnN0IGxpc3QgPSBteUNvdXJzZUlkcygpLm1hcCgoaWQpID0+IGdldENvdXJzZShpZCkpLmZpbHRlcihCb29sZWFuKQogIHJldHVybiBsaXN0Lmxlbmd0aCA/IGxpc3QgOiBjb3Vyc2VzLnNsaWNlKDAsIDQpCn0pCjwvc2NyaXB0Pgo=
+<template>
+  <div class="container uc-wrap" v-if="isLogin">
+    <!-- 侧栏 -->
+    <aside class="uc-side">
+      <div class="uc-avatar">
+        <img :src="(user && user.avatar) || '/img/avatar-boy.gif'" alt="头像" />
+        <div class="c-333" style="font-weight:600">{{ userName }}</div>
+        <div class="c-999" style="font-size:12px" v-if="user && user.mobile">{{ user.mobile }}</div>
+      </div>
+      <nav class="uc-menu">
+        <router-link to="/user" class="router-link-active">我的主页</router-link>
+        <a href="javascript:void(0)" @click="$router.push('/courses')">我的课程</a>
+        <a href="javascript:void(0)">我的订单</a>
+        <a href="javascript:void(0)">我的收藏</a>
+        <a href="javascript:void(0)" @click="logout">退出登录</a>
+      </nav>
+    </aside>
+
+    <!-- 主区 -->
+    <main class="uc-main">
+      <h2 style="font-size:20px">我的课程</h2>
+      <div class="comm-course-list mt20">
+        <ul>
+          <CourseCard v-for="c in myCourses" :key="c.id" :course="c" />
+        </ul>
+      </div>
+      <div class="empty" v-if="!myCourses.length">还没有学习记录，去<a href="javascript:void(0)" @click="$router.push('/courses')" class="c-master">选课</a>吧～</div>
+    </main>
+  </div>
+
+  <div class="empty container" v-else>
+    您还未登录，
+    <router-link to="/login" class="c-master">去登录</router-link>
+  </div>
+</template>
+
+<script setup>
+import { computed } from 'vue'
+import { useRouter } from 'vue-router'
+import CourseCard from '@/components/CourseCard.vue'
+import { useAuth } from '@/composables/useAuth'
+import { courses, getCourse } from '@/data/courses'
+import { myCourseIds } from '@/api/learn'
+
+const { isLogin, userName, user, logout } = useAuth()
+const router = useRouter()
+// 优先展示用户实际开始学习的课程（来自学习中心记录），无记录时给推荐
+const myCourses = computed(() => {
+  const list = myCourseIds().map((id) => getCourse(id)).filter(Boolean)
+  return list.length ? list : courses.slice(0, 4)
+})
+</script>

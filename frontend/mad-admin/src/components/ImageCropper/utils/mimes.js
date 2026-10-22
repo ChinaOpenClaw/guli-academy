@@ -1,1 +1,7 @@
-ZXhwb3J0IGRlZmF1bHQgewogICdqcGcnOiAnaW1hZ2UvanBlZycsCiAgJ3BuZyc6ICdpbWFnZS9wbmcnLAogICdnaWYnOiAnaW1hZ2UvZ2lmJywKICAnc3ZnJzogJ2ltYWdlL3N2Zyt4bWwnLAogICdwc2QnOiAnaW1hZ2UvcGhvdG9zaG9wJwp9Cg==
+export default {
+  'jpg': 'image/jpeg',
+  'png': 'image/png',
+  'gif': 'image/gif',
+  'svg': 'image/svg+xml',
+  'psd': 'image/photoshop'
+}

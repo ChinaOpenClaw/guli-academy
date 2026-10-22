@@ -1,1 +1,13 @@
-PHRlbXBsYXRlPgogIDxkaXYgY2xhc3M9Im5vdGZvdW5kIGNvbnRhaW5lciI+CiAgICA8aDE+NDA0PC9oMT4KICAgIDxwIGNsYXNzPSJjLTY2NiI+5oqx5q2J77yM5oKo6K6/6Zeu55qE6aG16Z2i5LiN5a2Y5Zyo5oiW5bey6KKr56e76Zmk44CCPC9wPgogICAgPGRpdiBjbGFzcz0ibmYtYmFjayI+CiAgICAgIDxyb3V0ZXItbGluayB0bz0iLyIgY2xhc3M9ImNvbW0tYnRuIGMtYnRuLTEiPui/lOWbnummlumhtTwvcm91dGVyLWxpbms+CiAgICA8L2Rpdj4KICA8L2Rpdj4KPC90ZW1wbGF0ZT4KCjxzY3JpcHQgc2V0dXA+Ci8vIDQwNCDljaDkvY3pobUKPC9zY3JpcHQ+Cg==
+<template>
+  <div class="notfound container">
+    <h1>404</h1>
+    <p class="c-666">抱歉，您访问的页面不存在或已被移除。</p>
+    <div class="nf-back">
+      <router-link to="/" class="comm-btn c-btn-1">返回首页</router-link>
+    </div>
+  </div>
+</template>
+
+<script setup>
+// 404 占位页
+</script>

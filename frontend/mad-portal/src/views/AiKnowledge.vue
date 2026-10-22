@@ -1,1 +1,170 @@
-PHRlbXBsYXRlPgogIDxkaXYgY2xhc3M9ImNvbnRhaW5lciBtdDIwIGFpLWNhc2VzIj4KICAgIDwhLS0g5qaC6KeIIC0tPgogICAgPHNlY3Rpb24gY2xhc3M9ImFjLWhlcm8iPgogICAgICA8ZGl2IGNsYXNzPSJhYy1oZXJvLW1haW4iPgogICAgICAgIDxzcGFuIGNsYXNzPSJhYy1iYWRnZSI+55+l6K+G5qGI5L6LIMK3IOihjOS4muWunuaImDwvc3Bhbj4KICAgICAgICA8aDE+e3sgb3ZlcnZpZXcudGl0bGUgfX08L2gxPgogICAgICAgIDxwIGNsYXNzPSJhYy1zdWIiPnt7IG92ZXJ2aWV3LnN1YnRpdGxlIH19PC9wPgogICAgICAgIDxwIGNsYXNzPSJhYy1kZXNjIj57eyBvdmVydmlldy5kZXNjIH19PC9wPgogICAgICAgIDxkaXYgY2xhc3M9ImFjLXRhZ3MiPgogICAgICAgICAgPHNwYW4gdi1mb3I9InQgaW4gb3ZlcnZpZXcudGFncyIgOmtleT0idCIgY2xhc3M9ImFjLXRhZyI+e3sgdCB9fTwvc3Bhbj4KICAgICAgICA8L2Rpdj4KICAgICAgPC9kaXY+CiAgICAgIDxkaXYgY2xhc3M9ImFjLWhlcm8tc2lkZSI+CiAgICAgICAgPGRpdiBjbGFzcz0iYWMtc3RhdCI+CiAgICAgICAgICA8ZGl2IGNsYXNzPSJhYy1zdGF0LW51bSI+e3sgb3ZlcnZpZXcuc2FsYXJ5IH19PC9kaXY+CiAgICAgICAgICA8ZGl2IGNsYXNzPSJhYy1zdGF0LWxhYmVsIj7lspfkvY3olqrotYTljLrpl7Q8L2Rpdj4KICAgICAgICA8L2Rpdj4KICAgICAgICA8ZGl2IGNsYXNzPSJhYy1zdGF0Ij4KICAgICAgICAgIDxkaXYgY2xhc3M9ImFjLXN0YXQtbnVtIj4xMCDpmLbmrrU8L2Rpdj4KICAgICAgICAgIDxkaXYgY2xhc3M9ImFjLXN0YXQtbGFiZWwiPuS9k+ezu+WMluivvueoi+Wkp+e6sjwvZGl2PgogICAgICAgIDwvZGl2PgogICAgICAgIDxkaXYgY2xhc3M9ImFjLXN0YXQiPgogICAgICAgICAgPGRpdiBjbGFzcz0iYWMtc3RhdC1udW0iPjE5KzwvZGl2PgogICAgICAgICAgPGRpdiBjbGFzcz0iYWMtc3RhdC1sYWJlbCI+55yf5a6e6aG555uu5bqTPC9kaXY+CiAgICAgICAgPC9kaXY+CiAgICAgICAgPGRpdiBjbGFzcz0iYWMtc3RhdCBobCI+CiAgICAgICAgICA8ZGl2IGNsYXNzPSJhYy1zdGF0LW51bSI+e3sgb3ZlcnZpZXcuaGlnaGxpZ2h0IH19PC9kaXY+CiAgICAgICAgICA8ZGl2IGNsYXNzPSJhYy1zdGF0LWxhYmVsIj7lsJrnoYXosLfotYvog708L2Rpdj4KICAgICAgICA8L2Rpdj4KICAgICAgPC9kaXY+CiAgICA8L3NlY3Rpb24+CgogICAgPCEtLSAxMCDpmLbmrrXlpKfnurIgLS0+CiAgICA8c2VjdGlvbiBjbGFzcz0ibXQ0MCI+CiAgICAgIDxTZWN0aW9uVGl0bGUgdGl0bGU9IjEwIOmYtuauteivvueoi+S9k+ezuyIgc3VidGl0bGU9IuS7jiBQeXRob24g5Z+656GA5Yiw5bCx5Lia5Yay5Yi655qE5a6M5pW05oiQ6ZW/6ZO+6LevIiAvPgogICAgICA8ZGl2IGNsYXNzPSJhYy1zdGFnZXMiPgogICAgICAgIDxkaXYgY2xhc3M9ImFjLXN0YWdlIiB2LWZvcj0icyBpbiBzdGFnZXMiIDprZXk9InMubm8iPgogICAgICAgICAgPGRpdiBjbGFzcz0iYWMtc3RhZ2Utbm8iPnt7IHMubm8gPCAxMCA/ICcwJyArIHMubm8gOiBzLm5vIH19PC9kaXY+CiAgICAgICAgICA8ZGl2IGNsYXNzPSJhYy1zdGFnZS1ib2R5Ij4KICAgICAgICAgICAgPGRpdiBjbGFzcz0iYWMtc3RhZ2UtbmFtZSI+e3sgcy5uYW1lIH19PC9kaXY+CiAgICAgICAgICAgIDxkaXYgY2xhc3M9ImFjLXN0YWdlLWRlc2MiPnt7IHMuZGVzYyB9fTwvZGl2PgogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvZGl2PgogICAgPC9zZWN0aW9uPgoKICAgIDwhLS0g6aG555uu5bqTIC0tPgogICAgPHNlY3Rpb24gY2xhc3M9Im10NDAiPgogICAgICA8U2VjdGlvblRpdGxlIHRpdGxlPSLnnJ/lrp7pobnnm67lupMiIHN1YnRpdGxlPSJSQUcgLyDmmbrog73kvZMgLyDlvq7osIMgLyDlhajmoIjvvIzopobnm5bkuLvmtYEgQUkg6JC95Zyw5Zy65pmvIiAvPgogICAgICA8ZGl2IGNsYXNzPSJhYy1ncmlkIj4KICAgICAgICA8ZGl2CiAgICAgICAgICBjbGFzcz0iYWMtY2FyZCIKICAgICAgICAgIHYtZm9yPSJwIGluIHByb2plY3RzIgogICAgICAgICAgOmtleT0icC5pZCIKICAgICAgICAgIDpjbGFzcz0ieyBmZWF0dXJlZDogcC5mZWF0dXJlZCB9IgogICAgICAgID4KICAgICAgICAgIDxkaXYgY2xhc3M9ImFjLWNhcmQtdG9wIj4KICAgICAgICAgICAgPHNwYW4gY2xhc3M9ImFjLWNhcmQtY2F0Ij57eyBwLmNhdCB9fTwvc3Bhbj4KICAgICAgICAgICAgPHNwYW4gdi1pZj0icC5mZWF0dXJlZCIgY2xhc3M9ImFjLWNhcmQtZmxhZyI+6YeN54K5PC9zcGFuPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8ZGl2IGNsYXNzPSJhYy1jYXJkLW5hbWUiPnt7IHAubmFtZSB9fTwvZGl2PgogICAgICAgICAgPGRpdiBjbGFzcz0iYWMtY2FyZC1kZXNjIj57eyBwLmRlc2MgfX08L2Rpdj4KICAgICAgICAgIDxkaXYgY2xhc3M9ImFjLWNhcmQtdGVjaCI+CiAgICAgICAgICAgIDxzcGFuIHYtZm9yPSJ0IGluIHAudGVjaCIgOmtleT0idCIgY2xhc3M9ImFjLWNoaXAiPnt7IHQgfX08L3NwYW4+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KICAgICAgPC9kaXY+CiAgICA8L3NlY3Rpb24+CgogICAgPCEtLSDph43ngrnmoYjkvovvvJrmjozmn5zmmbrlupMgUkFHIC0tPgogICAgPHNlY3Rpb24gY2xhc3M9Im10NDAiPgogICAgICA8U2VjdGlvblRpdGxlIHRpdGxlPSLph43ngrnmoYjkvovor6bop6MiIHN1YnRpdGxlPSLmjozmn5zmmbrlupMgwrcg5LyB5Lia57qnIFJBRyDnn6Xor4blupPmioDmnK/moIgiIC8+CiAgICAgIDxkaXYgY2xhc3M9ImFjLWZlYXR1cmUiPgogICAgICAgIDxkaXYgY2xhc3M9ImFjLWZlYXR1cmUtaW5mbyI+CiAgICAgICAgICA8aDM+e3sgZmVhdHVyZWQubmFtZSB9fTwvaDM+CiAgICAgICAgICA8cD57eyBmZWF0dXJlZC5zdW1tYXJ5IH19PC9wPgogICAgICAgIDwvZGl2PgogICAgICAgIDxkaXYgY2xhc3M9ImFjLWZlYXR1cmUtZmxvdyI+CiAgICAgICAgICA8ZGl2IGNsYXNzPSJhYy1mbG93LWl0ZW0iIHYtZm9yPSIoZiwgaSkgaW4gZmVhdHVyZWQuZmxvdyIgOmtleT0iaSI+CiAgICAgICAgICAgIDxzcGFuIGNsYXNzPSJhYy1mbG93LW5vIj57eyBpICsgMSB9fTwvc3Bhbj4KICAgICAgICAgICAgPHNwYW4+e3sgZiB9fTwvc3Bhbj4KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgogICAgICAgIDxkaXYgY2xhc3M9ImFjLWZlYXR1cmUtc3RhY2siPgogICAgICAgICAgPHNwYW4gdi1mb3I9InQgaW4gZmVhdHVyZWQuc3RhY2siIDprZXk9InQiIGNsYXNzPSJhYy1jaGlwIGJyYW5kIj57eyB0IH19PC9zcGFuPgogICAgICAgIDwvZGl2PgogICAgICA8L2Rpdj4KICAgIDwvc2VjdGlvbj4KCiAgICA8IS0tIOadpea6kCAtLT4KICAgIDxzZWN0aW9uIGNsYXNzPSJtdDQwIGFjLXNvdXJjZSI+CiAgICAgIDxwPgogICAgICAgIOacrOadv+Wdl+WGheWuueaVtOeQhuiHqgogICAgICAgIDxhIDpocmVmPSJzb3VyY2VVcmwiIHRhcmdldD0iX2JsYW5rIiByZWw9Im5vb3BlbmVyIj7lsJrnoYXosLcgQUkg5YWo6IO95byA5Y+R77yIYXRndWlndS5jb20vYWljb2RpbmfvvIk8L2E+CiAgICAgICAg77yM5L2c5Li6TUFE572R6K++57O757uf44CM55+l6K+G5qGI5L6L44CN6KGl5YWF77yM5biu5Yqp5a2m5ZGY5LqG6KejIEFJIOaXtuS7o+ecn+WunumhueebruW9ouaAgeOAggogICAgICA8L3A+CiAgICA8L3NlY3Rpb24+CiAgPC9kaXY+CjwvdGVtcGxhdGU+Cgo8c2NyaXB0IHNldHVwPgppbXBvcnQgU2VjdGlvblRpdGxlIGZyb20gJ0AvY29tcG9uZW50cy9TZWN0aW9uVGl0bGUudnVlJwppbXBvcnQgeyBhaUNhc2VPdmVydmlldywgYWlTdGFnZXMsIGFpUHJvamVjdHMsIGFpRmVhdHVyZWRDYXNlLCBhaVNvdXJjZVVybCB9IGZyb20gJ0AvZGF0YS9jYXNlcycKCmNvbnN0IG92ZXJ2aWV3ID0gYWlDYXNlT3ZlcnZpZXcKY29uc3Qgc3RhZ2VzID0gYWlTdGFnZXMKY29uc3QgcHJvamVjdHMgPSBhaVByb2plY3RzCmNvbnN0IGZlYXR1cmVkID0gYWlGZWF0dXJlZENhc2UKY29uc3Qgc291cmNlVXJsID0gYWlTb3VyY2VVcmwKPC9zY3JpcHQ+Cgo8c3R5bGUgc2NvcGVkPgouYWktY2FzZXMgeyBwYWRkaW5nLWJvdHRvbTogMzBweDsgfQouYWMtaGVybyB7CiAgZGlzcGxheTogZmxleDsgZ2FwOiAyNHB4OyBhbGlnbi1pdGVtczogc3RyZXRjaDsgZmxleC13cmFwOiB3cmFwOwogIGJhY2tncm91bmQ6IGxpbmVhci1ncmFkaWVudCgxMjBkZWcsIHZhcigtLWJyYW5kLWxpZ2h0KSwgI2ZmZik7CiAgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tbGluZSk7IGJvcmRlci1yYWRpdXM6IDE0cHg7IHBhZGRpbmc6IDI2cHggMjhweDsKfQouYWMtaGVyby1tYWluIHsgZmxleDogMTsgbWluLXdpZHRoOiAzMjBweDsgfQouYWMtYmFkZ2UgeyBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7IGJhY2tncm91bmQ6IHZhcigtLWJyYW5kKTsgY29sb3I6ICNmZmY7IGZvbnQtc2l6ZTogMTJweDsgcGFkZGluZzogM3B4IDEwcHg7IGJvcmRlci1yYWRpdXM6IDIwcHg7IH0KLmFjLWhlcm8tbWFpbiBoMSB7IGZvbnQtc2l6ZTogMjZweDsgbWFyZ2luOiAxMnB4IDAgNnB4OyB9Ci5hYy1zdWIgeyBjb2xvcjogdmFyKC0tYnJhbmQpOyBmb250LXdlaWdodDogNjAwOyBtYXJnaW4tYm90dG9tOiAxMHB4OyB9Ci5hYy1kZXNjIHsgY29sb3I6ICM1NTU7IGxpbmUtaGVpZ2h0OiAxLjg7IH0KLmFjLXRhZ3MgeyBkaXNwbGF5OiBmbGV4OyBmbGV4LXdyYXA6IHdyYXA7IGdhcDogOHB4OyBtYXJnaW4tdG9wOiAxNHB4OyB9Ci5hYy10YWcgeyBmb250LXNpemU6IDEycHg7IGNvbG9yOiB2YXIoLS1icmFuZCk7IGJvcmRlcjogMXB4IHNvbGlkIHZhcigtLWJyYW5kKTsgYm9yZGVyLXJhZGl1czogMjBweDsgcGFkZGluZzogMnB4IDEwcHg7IH0KLmFjLWhlcm8tc2lkZSB7IHdpZHRoOiAyODBweDsgZmxleDogbm9uZTsgZGlzcGxheTogZ3JpZDsgZ3JpZC10ZW1wbGF0ZS1jb2x1bW5zOiAxZnIgMWZyOyBnYXA6IDEycHg7IGFsaWduLWNvbnRlbnQ6IGNlbnRlcjsgfQouYWMtc3RhdCB7IGJhY2tncm91bmQ6ICNmZmY7IGJvcmRlcjogMXB4IHNvbGlkIHZhcigtLWxpbmUpOyBib3JkZXItcmFkaXVzOiAxMHB4OyBwYWRkaW5nOiAxNHB4OyB0ZXh0LWFsaWduOiBjZW50ZXI7IH0KLmFjLXN0YXQuaGwgeyBncmlkLWNvbHVtbjogc3BhbiAyOyBiYWNrZ3JvdW5kOiB2YXIoLS1icmFuZCk7IGJvcmRlci1jb2xvcjogdmFyKC0tYnJhbmQpOyB9Ci5hYy1zdGF0LmhsIC5hYy1zdGF0LW51bSwgLmFjLXN0YXQuaGwgLmFjLXN0YXQtbGFiZWwgeyBjb2xvcjogI2ZmZjsgfQouYWMtc3RhdC1udW0geyBmb250LXNpemU6IDE4cHg7IGZvbnQtd2VpZ2h0OiA3MDA7IGNvbG9yOiB2YXIoLS1icmFuZCk7IH0KLmFjLXN0YXQtbGFiZWwgeyBmb250LXNpemU6IDEycHg7IGNvbG9yOiAjODg4OyBtYXJnaW4tdG9wOiA0cHg7IH0KCi5hYy1zdGFnZXMgeyBkaXNwbGF5OiBncmlkOyBncmlkLXRlbXBsYXRlLWNvbHVtbnM6IHJlcGVhdCgyLCAxZnIpOyBnYXA6IDEycHg7IG1hcmdpbi10b3A6IDE2cHg7IH0KLmFjLXN0YWdlIHsgZGlzcGxheTogZmxleDsgZ2FwOiAxNHB4OyBiYWNrZ3JvdW5kOiAjZmZmOyBib3JkZXI6IDFweCBzb2xpZCB2YXIoLS1saW5lKTsgYm9yZGVyLXJhZGl1czogMTBweDsgcGFkZGluZzogMTRweCAxNnB4OyB9Ci5hYy1zdGFnZS1ubyB7IGZsZXg6IG5vbmU7IHdpZHRoOiA0MHB4OyBoZWlnaHQ6IDQwcHg7IGJvcmRlci1yYWRpdXM6IDUwJTsgYmFja2dyb3VuZDogdmFyKC0tYnJhbmQtbGlnaHQpOyBjb2xvcjogdmFyKC0tYnJhbmQpOyBmb250LXdlaWdodDogODAwOyBkaXNwbGF5OiBmbGV4OyBhbGlnbi1pdGVtczogY2VudGVyOyBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjsgfQouYWMtc3RhZ2UtbmFtZSB7IGZvbnQtd2VpZ2h0OiA2MDA7IH0KLmFjLXN0YWdlLWRlc2MgeyBjb2xvcjogIzg4ODsgZm9udC1zaXplOiAxM3B4OyBtYXJnaW4tdG9wOiA0cHg7IGxpbmUtaGVpZ2h0OiAxLjY7IH0KCi5hYy1ncmlkIHsgZGlzcGxheTogZ3JpZDsgZ3JpZC10ZW1wbGF0ZS1jb2x1bW5zOiByZXBlYXQoMywgMWZyKTsgZ2FwOiAxNHB4OyBtYXJnaW4tdG9wOiAxNnB4OyB9Ci5hYy1jYXJkIHsgYmFja2dyb3VuZDogI2ZmZjsgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tbGluZSk7IGJvcmRlci1yYWRpdXM6IDEycHg7IHBhZGRpbmc6IDE2cHg7IGRpc3BsYXk6IGZsZXg7IGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47IGdhcDogOHB4OyB0cmFuc2l0aW9uOiBib3gtc2hhZG93IC4ycywgdHJhbnNmb3JtIC4yczsgfQouYWMtY2FyZDpob3ZlciB7IGJveC1zaGFkb3c6IDAgOHB4IDIycHggcmdiYSgwLDAsMCwuMDgpOyB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoLTJweCk7IH0KLmFjLWNhcmQuZmVhdHVyZWQgeyBib3JkZXItY29sb3I6IHZhcigtLWJyYW5kKTsgYm94LXNoYWRvdzogMCA2cHggMThweCByZ2JhKDEwNCwyMDMsMTU1LC4yKTsgfQouYWMtY2FyZC10b3AgeyBkaXNwbGF5OiBmbGV4OyBhbGlnbi1pdGVtczogY2VudGVyOyBqdXN0aWZ5LWNvbnRlbnQ6IHNwYWNlLWJldHdlZW47IH0KLmFjLWNhcmQtY2F0IHsgZm9udC1zaXplOiAxMnB4OyBjb2xvcjogIzk5OTsgfQouYWMtY2FyZC1mbGFnIHsgZm9udC1zaXplOiAxMXB4OyBjb2xvcjogI2ZmZjsgYmFja2dyb3VuZDogI2ZiNzI5OTsgYm9yZGVyLXJhZGl1czogM3B4OyBwYWRkaW5nOiAxcHggN3B4OyB9Ci5hYy1jYXJkLW5hbWUgeyBmb250LXNpemU6IDE3cHg7IGZvbnQtd2VpZ2h0OiA3MDA7IH0KLmFjLWNhcmQtZGVzYyB7IGNvbG9yOiAjNjY2OyBmb250LXNpemU6IDEzcHg7IGxpbmUtaGVpZ2h0OiAxLjc7IGZsZXg6IDE7IH0KLmFjLWNhcmQtdGVjaCB7IGRpc3BsYXk6IGZsZXg7IGZsZXgtd3JhcDogd3JhcDsgZ2FwOiA2cHg7IH0KLmFjLWNoaXAgeyBmb250LXNpemU6IDExcHg7IGNvbG9yOiAjNTU1OyBiYWNrZ3JvdW5kOiAjZjNmNWY3OyBib3JkZXItcmFkaXVzOiA0cHg7IHBhZGRpbmc6IDJweCA3cHg7IH0KLmFjLWNoaXAuYnJhbmQgeyBjb2xvcjogdmFyKC0tYnJhbmQpOyBiYWNrZ3JvdW5kOiB2YXIoLS1icmFuZC1saWdodCk7IH0KCi5hYy1mZWF0dXJlIHsgZGlzcGxheTogZ3JpZDsgZ3JpZC10ZW1wbGF0ZS1jb2x1bW5zOiAxLjFmciAuOWZyOyBnYXA6IDIwcHg7IGJhY2tncm91bmQ6ICNmZmY7IGJvcmRlcjogMXB4IHNvbGlkIHZhcigtLWxpbmUpOyBib3JkZXItcmFkaXVzOiAxMnB4OyBwYWRkaW5nOiAyMHB4OyB9Ci5hYy1mZWF0dXJlLWluZm8gaDMgeyBmb250LXNpemU6IDE5cHg7IG1hcmdpbi1ib3R0b206IDEwcHg7IH0KLmFjLWZlYXR1cmUtaW5mbyBwIHsgY29sb3I6ICM2NjY7IGxpbmUtaGVpZ2h0OiAxLjg7IH0KLmFjLWZlYXR1cmUtZmxvdyB7IGRpc3BsYXk6IGZsZXg7IGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47IGdhcDogOHB4OyB9Ci5hYy1mbG93LWl0ZW0geyBkaXNwbGF5OiBmbGV4OyBnYXA6IDEwcHg7IGFsaWduLWl0ZW1zOiBmbGV4LXN0YXJ0OyBmb250LXNpemU6IDEzcHg7IGNvbG9yOiAjNTU1OyBsaW5lLWhlaWdodDogMS42OyB9Ci5hYy1mbG93LW5vIHsgZmxleDogbm9uZTsgd2lkdGg6IDIwcHg7IGhlaWdodDogMjBweDsgYm9yZGVyLXJhZGl1czogNTAlOyBiYWNrZ3JvdW5kOiB2YXIoLS1icmFuZCk7IGNvbG9yOiAjZmZmOyBmb250LXNpemU6IDEycHg7IGRpc3BsYXk6IGZsZXg7IGFsaWduLWl0ZW1zOiBjZW50ZXI7IGp1c3RpZnktY29udGVudDogY2VudGVyOyB9Ci5hYy1mZWF0dXJlLXN0YWNrIHsgZ3JpZC1jb2x1bW46IHNwYW4gMjsgZGlzcGxheTogZmxleDsgZmxleC13cmFwOiB3cmFwOyBnYXA6IDhweDsgbWFyZ2luLXRvcDogNHB4OyBwYWRkaW5nLXRvcDogMTRweDsgYm9yZGVyLXRvcDogMXB4IGRhc2hlZCB2YXIoLS1saW5lKTsgfQoKLmFjLXNvdXJjZSB7IGNvbG9yOiAjODg4OyBmb250LXNpemU6IDEzcHg7IGxpbmUtaGVpZ2h0OiAxLjg7IH0KLmFjLXNvdXJjZSBhIHsgY29sb3I6IHZhcigtLWJyYW5kKTsgfQoKQG1lZGlhIChtYXgtd2lkdGg6IDk5MnB4KSB7CiAgLmFjLWhlcm8tc2lkZSB7IHdpZHRoOiAxMDAlOyB9CiAgLmFjLXN0YWdlcywgLmFjLWdyaWQgeyBncmlkLXRlbXBsYXRlLWNvbHVtbnM6IDFmcjsgfQogIC5hYy1mZWF0dXJlIHsgZ3JpZC10ZW1wbGF0ZS1jb2x1bW5zOiAxZnI7IH0KICAuYWMtZmVhdHVyZS1zdGFjayB7IGdyaWQtY29sdW1uOiBzcGFuIDE7IH0KfQo8L3N0eWxlPgo=
+<template>
+  <div class="container mt20 ai-cases">
+    <!-- 概览 -->
+    <section class="ac-hero">
+      <div class="ac-hero-main">
+        <span class="ac-badge">知识案例 · 行业实战</span>
+        <h1>{{ overview.title }}</h1>
+        <p class="ac-sub">{{ overview.subtitle }}</p>
+        <p class="ac-desc">{{ overview.desc }}</p>
+        <div class="ac-tags">
+          <span v-for="t in overview.tags" :key="t" class="ac-tag">{{ t }}</span>
+        </div>
+      </div>
+      <div class="ac-hero-side">
+        <div class="ac-stat">
+          <div class="ac-stat-num">{{ overview.salary }}</div>
+          <div class="ac-stat-label">岗位薪资区间</div>
+        </div>
+        <div class="ac-stat">
+          <div class="ac-stat-num">10 阶段</div>
+          <div class="ac-stat-label">体系化课程大纲</div>
+        </div>
+        <div class="ac-stat">
+          <div class="ac-stat-num">19+</div>
+          <div class="ac-stat-label">真实项目库</div>
+        </div>
+        <div class="ac-stat hl">
+          <div class="ac-stat-num">{{ overview.highlight }}</div>
+          <div class="ac-stat-label">尚硅谷赋能</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 10 阶段大纲 -->
+    <section class="mt40">
+      <SectionTitle title="10 阶段课程体系" subtitle="从 Python 基础到就业冲刺的完整成长链路" />
+      <div class="ac-stages">
+        <div class="ac-stage" v-for="s in stages" :key="s.no">
+          <div class="ac-stage-no">{{ s.no < 10 ? '0' + s.no : s.no }}</div>
+          <div class="ac-stage-body">
+            <div class="ac-stage-name">{{ s.name }}</div>
+            <div class="ac-stage-desc">{{ s.desc }}</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 项目库 -->
+    <section class="mt40">
+      <SectionTitle title="真实项目库" subtitle="RAG / 智能体 / 微调 / 全栈，覆盖主流 AI 落地场景" />
+      <div class="ac-grid">
+        <div
+          class="ac-card"
+          v-for="p in projects"
+          :key="p.id"
+          :class="{ featured: p.featured }"
+        >
+          <div class="ac-card-top">
+            <span class="ac-card-cat">{{ p.cat }}</span>
+            <span v-if="p.featured" class="ac-card-flag">重点</span>
+          </div>
+          <div class="ac-card-name">{{ p.name }}</div>
+          <div class="ac-card-desc">{{ p.desc }}</div>
+          <div class="ac-card-tech">
+            <span v-for="t in p.tech" :key="t" class="ac-chip">{{ t }}</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 重点案例：掌柜智库 RAG -->
+    <section class="mt40">
+      <SectionTitle title="重点案例详解" subtitle="掌柜智库 · 企业级 RAG 知识库技术栈" />
+      <div class="ac-feature">
+        <div class="ac-feature-info">
+          <h3>{{ featured.name }}</h3>
+          <p>{{ featured.summary }}</p>
+        </div>
+        <div class="ac-feature-flow">
+          <div class="ac-flow-item" v-for="(f, i) in featured.flow" :key="i">
+            <span class="ac-flow-no">{{ i + 1 }}</span>
+            <span>{{ f }}</span>
+          </div>
+        </div>
+        <div class="ac-feature-stack">
+          <span v-for="t in featured.stack" :key="t" class="ac-chip brand">{{ t }}</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- 来源 -->
+    <section class="mt40 ac-source">
+      <p>
+        本板块内容整理自
+        <a :href="sourceUrl" target="_blank" rel="noopener">尚硅谷 AI 全能开发（atguigu.com/aicoding）</a>
+        ，作为MAD网课系统「知识案例」补充，帮助学员了解 AI 时代真实项目形态。
+      </p>
+    </section>
+  </div>
+</template>
+
+<script setup>
+import SectionTitle from '@/components/SectionTitle.vue'
+import { aiCaseOverview, aiStages, aiProjects, aiFeaturedCase, aiSourceUrl } from '@/data/cases'
+
+const overview = aiCaseOverview
+const stages = aiStages
+const projects = aiProjects
+const featured = aiFeaturedCase
+const sourceUrl = aiSourceUrl
+</script>
+
+<style scoped>
+.ai-cases { padding-bottom: 30px; }
+.ac-hero {
+  display: flex; gap: 24px; align-items: stretch; flex-wrap: wrap;
+  background: linear-gradient(120deg, var(--brand-light), #fff);
+  border: 1px solid var(--line); border-radius: 14px; padding: 26px 28px;
+}
+.ac-hero-main { flex: 1; min-width: 320px; }
+.ac-badge { display: inline-block; background: var(--brand); color: #fff; font-size: 12px; padding: 3px 10px; border-radius: 20px; }
+.ac-hero-main h1 { font-size: 26px; margin: 12px 0 6px; }
+.ac-sub { color: var(--brand); font-weight: 600; margin-bottom: 10px; }
+.ac-desc { color: #555; line-height: 1.8; }
+.ac-tags { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
+.ac-tag { font-size: 12px; color: var(--brand); border: 1px solid var(--brand); border-radius: 20px; padding: 2px 10px; }
+.ac-hero-side { width: 280px; flex: none; display: grid; grid-template-columns: 1fr 1fr; gap: 12px; align-content: center; }
+.ac-stat { background: #fff; border: 1px solid var(--line); border-radius: 10px; padding: 14px; text-align: center; }
+.ac-stat.hl { grid-column: span 2; background: var(--brand); border-color: var(--brand); }
+.ac-stat.hl .ac-stat-num, .ac-stat.hl .ac-stat-label { color: #fff; }
+.ac-stat-num { font-size: 18px; font-weight: 700; color: var(--brand); }
+.ac-stat-label { font-size: 12px; color: #888; margin-top: 4px; }
+
+.ac-stages { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; margin-top: 16px; }
+.ac-stage { display: flex; gap: 14px; background: #fff; border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px; }
+.ac-stage-no { flex: none; width: 40px; height: 40px; border-radius: 50%; background: var(--brand-light); color: var(--brand); font-weight: 800; display: flex; align-items: center; justify-content: center; }
+.ac-stage-name { font-weight: 600; }
+.ac-stage-desc { color: #888; font-size: 13px; margin-top: 4px; line-height: 1.6; }
+
+.ac-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin-top: 16px; }
+.ac-card { background: #fff; border: 1px solid var(--line); border-radius: 12px; padding: 16px; display: flex; flex-direction: column; gap: 8px; transition: box-shadow .2s, transform .2s; }
+.ac-card:hover { box-shadow: 0 8px 22px rgba(0,0,0,.08); transform: translateY(-2px); }
+.ac-card.featured { border-color: var(--brand); box-shadow: 0 6px 18px rgba(104,203,155,.2); }
+.ac-card-top { display: flex; align-items: center; justify-content: space-between; }
+.ac-card-cat { font-size: 12px; color: #999; }
+.ac-card-flag { font-size: 11px; color: #fff; background: #fb7299; border-radius: 3px; padding: 1px 7px; }
+.ac-card-name { font-size: 17px; font-weight: 700; }
+.ac-card-desc { color: #666; font-size: 13px; line-height: 1.7; flex: 1; }
+.ac-card-tech { display: flex; flex-wrap: wrap; gap: 6px; }
+.ac-chip { font-size: 11px; color: #555; background: #f3f5f7; border-radius: 4px; padding: 2px 7px; }
+.ac-chip.brand { color: var(--brand); background: var(--brand-light); }
+
+.ac-feature { display: grid; grid-template-columns: 1.1fr .9fr; gap: 20px; background: #fff; border: 1px solid var(--line); border-radius: 12px; padding: 20px; }
+.ac-feature-info h3 { font-size: 19px; margin-bottom: 10px; }
+.ac-feature-info p { color: #666; line-height: 1.8; }
+.ac-feature-flow { display: flex; flex-direction: column; gap: 8px; }
+.ac-flow-item { display: flex; gap: 10px; align-items: flex-start; font-size: 13px; color: #555; line-height: 1.6; }
+.ac-flow-no { flex: none; width: 20px; height: 20px; border-radius: 50%; background: var(--brand); color: #fff; font-size: 12px; display: flex; align-items: center; justify-content: center; }
+.ac-feature-stack { grid-column: span 2; display: flex; flex-wrap: wrap; gap: 8px; margin-top: 4px; padding-top: 14px; border-top: 1px dashed var(--line); }
+
+.ac-source { color: #888; font-size: 13px; line-height: 1.8; }
+.ac-source a { color: var(--brand); }
+
+@media (max-width: 992px) {
+  .ac-hero-side { width: 100%; }
+  .ac-stages, .ac-grid { grid-template-columns: 1fr; }
+  .ac-feature { grid-template-columns: 1fr; }
+  .ac-feature-stack { grid-column: span 1; }
+}
+</style>

@@ -1,1 +1,14 @@
-PHRlbXBsYXRlPgogIDxyb3V0ZXItbGluayBjbGFzcz0idGVhY2hlci1jYXJkIiA6dG89ImAvdGVhY2hlcnMvJHt0ZWFjaGVyLmlkfWAiPgogICAgPGRpdiBjbGFzcz0idGVhY2hlci1waWMiPjxpbWcgOnNyYz0idGVhY2hlci5hdmF0YXIiIDphbHQ9InRlYWNoZXIubmFtZSIgbG9hZGluZz0ibGF6eSIgLz48L2Rpdj4KICAgIDxkaXYgY2xhc3M9InRlYWNoZXItbmFtZSI+e3sgdGVhY2hlci5uYW1lIH19PC9kaXY+CiAgICA8ZGl2IGNsYXNzPSJ0ZWFjaGVyLXRpdGxlIj57eyB0ZWFjaGVyLnRpdGxlIH19PC9kaXY+CiAgICA8ZGl2IGNsYXNzPSJ0ZWFjaGVyLWludHJvIj57eyB0ZWFjaGVyLmludHJvIH19PC9kaXY+CiAgPC9yb3V0ZXItbGluaz4KPC90ZW1wbGF0ZT4KCjxzY3JpcHQgc2V0dXA+CmRlZmluZVByb3BzKHsKICB0ZWFjaGVyOiB7IHR5cGU6IE9iamVjdCwgcmVxdWlyZWQ6IHRydWUgfQp9KQo8L3NjcmlwdD4K
+<template>
+  <router-link class="teacher-card" :to="`/teachers/${teacher.id}`">
+    <div class="teacher-pic"><img :src="teacher.avatar" :alt="teacher.name" loading="lazy" /></div>
+    <div class="teacher-name">{{ teacher.name }}</div>
+    <div class="teacher-title">{{ teacher.title }}</div>
+    <div class="teacher-intro">{{ teacher.intro }}</div>
+  </router-link>
+</template>
+
+<script setup>
+defineProps({
+  teacher: { type: Object, required: true }
+})
+</script>

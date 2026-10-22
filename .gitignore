@@ -1,1 +1,29 @@
-IyDkvp3otZYKbm9kZV9tb2R1bGVzLwoucG5wLwoucG5wLmpzCgojIOaehOW7uuS6p+eJqQpkaXN0LwpidWlsZC8Kb3V0Lwp0YXJnZXQvCiouY2xhc3MKCiMgIElERQouaWRlYS8KLnZzY29kZS8KKi5pbWwKLkRTX1N0b3JlCgojIOaXpeW/lwoqLmxvZwpsb2dzLwoKIyDnjq/looPlj5jph48gLyDlr4bpkqXvvIjli7/mj5DkuqTnnJ/lrp7lr4bpkqXvvIkKLmVudgouZW52LmxvY2FsCmFwcGxpY2F0aW9uLXNlY3JldC5wcm9wZXJ0aWVzCgojIOezu+e7nyAvIE9TClRodW1icy5kYgo=
+# 依赖
+node_modules/
+.pnp/
+.pnp.js
+
+# 构建产物
+dist/
+build/
+out/
+target/
+*.class
+
+#  IDE
+.idea/
+.vscode/
+*.iml
+.DS_Store
+
+# 日志
+*.log
+logs/
+
+# 环境变量 / 密钥（勿提交真实密钥）
+.env
+.env.local
+application-secret.properties
+
+# 系统 / OS
+Thumbs.db

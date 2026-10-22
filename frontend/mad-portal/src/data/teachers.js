@@ -1,1 +1,134 @@
-Ly8gTUFE572R6K++57O757ufIMK3IOiusuW4iOaVsOaNru+8iOmHkeiejeaKlei1hCAvIElU5bel56iLIOmihuWfn+ecn+WunuWQjeW4iO+8iQovLyDlpLTlg4/nlLEgUElMIOWHoOS9lee7mOWItueUn+aIkO+8iHB1YmxpYy9waG90by90ZWFjaGVyL05OLmpwZ++8ie+8jOaXoOS7u+S9leesrOS4ieaWueawtOWNsApleHBvcnQgY29uc3QgdGVhY2hlcnMgPSBbCiAgewogICAgaWQ6IDEsCiAgICBuYW1lOiAi5rKD5Lymwrflt7Toj7LnibkiLAogICAgZW5OYW1lOiAiV2FycmVuIEJ1ZmZldHQiLAogICAgZmllbGQ6ICLph5Hono3mipXotYQiLAogICAgdGl0bGU6ICLkvK/lhYvluIzlsJTCt+WTiOaSkumfpuiRo+S6i+mVvyIsCiAgICBhdmF0YXI6ICIvcGhvdG8vdGVhY2hlci8wMS5qcGciLAogICAgaW50cm86ICLku7flgLzmipXotYTnmoTlvIDliJvogIXkuI7lrp7ot7XogIXvvIwxOTU25bm05o6l5omL5Lyv5YWL5biM5bCU5ZCO5Lul44CM5a6J5YWo6L656ZmF44CB6IO95Yqb5ZyI44CB5oqk5Z+O5rKz44CN5LiJ5aSn5Y6f5YiZ5p6E5bu65LqG5Y2K5Liq5LiW57qq55qE5oqV6LWE5Lia57up44CCMTk1N+W5tOiHtOiCoeS4nOS/oeS4reaPkOWHuuOAjOS6uueUn+WwseWDj+a7mumbqueQg++8jOmHjeimgeeahOaYr+aJvuWIsOW+iOa5v+eahOmbquWSjOW+iOmVv+eahOWdoeOAjeOAgjE5OTjlubTkvZvnvZfph4zovr7lpKflrabmvJTorrLns7vnu5/pmJDov7Dkuobku5bnmoTmipXotYTlk7LlrabvvIzooqvlhazorqTkuLrku7flgLzmipXotYTnmoTlnKPnu4/jgIIiCiAgfSwKICB7CiAgICBpZDogMiwKICAgIG5hbWU6ICLmn6XnkIbCt+iKkuagvCIsCiAgICBlbk5hbWU6ICJDaGFybGllIE11bmdlciIsCiAgICBmaWVsZDogIumHkeiejeaKlei1hCIsCiAgICB0aXRsZTogIuS8r+WFi+W4jOWwlOWJr+iRo+S6i+mVvyIsCiAgICBhdmF0YXI6ICIvcGhvdG8vdGVhY2hlci8wMi5qcGciLAogICAgaW50cm86ICLlt7Toj7LnibnnmoTlkIjkvJnkurrvvIzooqvlsIrkuLrjgIzkurrnsbvor6/liKTlv4PnkIblrabjgI3lpKfluIjjgILku5bmj5Dlh7rlubbov5DnlKjlpJrlrabnp5HmgJ3nu7TmqKHlnovmoLzmoIXvvIhtZW50YWwgbW9kZWxz77yJ77yM5by66LCD44CM6KaB5oiQ5Li65LiA5Liq5pyJ5pm65oWn55qE5Lq677yM5b+F6aG75o6M5o+h5aSa5Liq5a2m56eR55qE5qC45b+D5Z+65pys55yf55CG44CN44CCMTk5NeW5tOWTiOS9m+Wkp+Wtpua8lOiusuOAiuS6uuexu+ivr+WIpOW/g+eQhuWtpuOAi+ezu+e7n+WIl+WHuiAyNSDnp43lv4PnkIblgL7lkJHvvIzlvbHlk43kuobmlbTkuKrmipXotYTnlYznmoTorqTnn6XmoYbmnrbjgIIiCiAgfSwKICB7CiAgICBpZDogMywKICAgIG5hbWU6ICLmnKzmnbDmmI7Ct+agvOmbt+WOhOWnhiIsCiAgICBlbk5hbWU6ICJCZW5qYW1pbiBHcmFoYW0iLAogICAgZmllbGQ6ICLph5Hono3mipXotYQiLAogICAgdGl0bGU6ICLjgIzor4HliLjliIbmnpDkuYvniLbjgI0iLAogICAgYXZhdGFyOiAiL3Bob3RvL3RlYWNoZXIvMDMuanBnIiwKICAgIGludHJvOiAi5ZOl5Lym5q+U5Lqa5aSn5a2m57uP5rWO5a2m5pWZ5o6I77yM44CK6K+B5Yi45YiG5p6Q44CL77yIMTkzNO+8ieS4juOAiuiBquaYjueahOaKlei1hOiAheOAi++8iDE5NDnvvInnmoTkvZzogIXvvIznjrDku6Por4HliLjliIbmnpDlrabnmoTlpaDln7rkurrjgILku5bmj5Dlh7rjgIzlronlhajovrnpmYXjgI3ljp/liJnkuI7jgIzluILlnLrlhYjnlJ/jgI3lr5PoqIDvvIzlrprkuYnkuobogqHlgLrlubPooaHnmoTmipXotYTnu4TlkIjnkIborrrvvIzooqvlt7Toj7Lnibnnp7DkuLrjgIzmipXotYTnlYzlnKPnu4/nmoTkuKTkvY3kvZzogIXkuYvkuIDjgI3jgIIiCiAgfSwKICB7CiAgICBpZDogNCwKICAgIG5hbWU6ICLnvZfkvK/nibnCt+W4reWLkiIsCiAgICBlbk5hbWU6ICJSb2JlcnQgU2hpbGxlciIsCiAgICBmaWVsZDogIumHkeiejeaKlei1hCIsCiAgICB0aXRsZTogIuiAtumygeWkp+Wtpue7j+a1juWtpuaVmeaOiCDCtyAyMDEz5bm06K+66LSd5bCU57uP5rWO5a2m5aWW5b6X5Li7IiwKICAgIGF2YXRhcjogIi9waG90by90ZWFjaGVyLzA0LmpwZyIsCiAgICBpbnRybzogIuihjOS4uumHkeiejeWtpuS7o+ihqOS6uueJqe+8jOiAtumygeWkp+WtpiBFQ09OIDI1MuOAikZpbmFuY2lhbCBNYXJrZXRz44CL5Li76K6y5pWZ5o6I77yM6K+l6K++5oiQ5Li65YWo55CD5pyA5Y+X5qyi6L+O55qE57uP5rWO5a2m5YWs5byA6K++5LmL5LiA44CC5LuW55So44CM6YeR6J6N5pe26Ze05bqP5YiX55qE5rOi5Yqo5oCn6L+c5aSn5LqO5a6e6ZmF5Y+Y5YyW44CN55qE56CU56m25o+t56S65LqG5rOh5rKr55qE57uf6K6h54m55b6B77yM6JGX5pyJ44CK6Z2e55CG5oCn57mB6I2j44CL77yM5bm25LqOIDIwMTMg5bm06I636K+66LSd5bCU57uP5rWO5a2m5aWW44CCIgogIH0sCiAgewogICAgaWQ6IDUsCiAgICBuYW1lOiAi55Gewrfovr7liKnmrKciLAogICAgZW5OYW1lOiAiUmF5IERhbGlvIiwKICAgIGZpZWxkOiAi6YeR6J6N5oqV6LWEIiwKICAgIHRpdGxlOiAi5qGl5rC05Z+66YeR5Yib5aeL5Lq6IiwKICAgIGF2YXRhcjogIi9waG90by90ZWFjaGVyLzA1LmpwZyIsCiAgICBpbnRybzogIjE5NzXlubTliJvlip7moaXmsLTln7rph5HvvIzlsIblhbbmiZPpgKDkuLrlhajnkIPop4TmqKHmnIDlpKfnmoTlr7nlhrLln7rph5HkuYvkuIDjgILku5bnmoTjgIrnu4/mtY7mnLrlmajmmK/lpoLkvZXov5DovaznmoTjgIvnlKggMzAg5YiG6ZKf6K6y5riF5L+h55So44CB5YC65Yqh5ZGo5pyf5LiO5Y675p2g5p2G5LiJ5Y+w5byV5pOO77yM5piv5YWo55CD5pKt5pS+6YeP5pyA6auY55qE57uP5rWO5a2m6K6y6Kej5LmL5LiA44CC6JGX5pyJ44CK5Y6f5YiZ44CL44CK5YC65Yqh5Y2x5py644CL77yM5Li75byg55So44CM5Y+v5L+h5bqm5Yqg5p2D44CN55qE5Yaz562W5pa55byP5aSE55CG5aSN5p2C5LiW55WM44CCIgogIH0sCiAgewogICAgaWQ6IDYsCiAgICBuYW1lOiAi6ZyN5Y2O5b63wrfpqazlhYvmlq8iLAogICAgZW5OYW1lOiAiSG93YXJkIE1hcmtzIiwKICAgIGZpZWxkOiAi6YeR6J6N5oqV6LWEIiwKICAgIHRpdGxlOiAi5qmh5qCR6LWE5pys6IGU5ZCI5Yib5aeL5Lq6IMK3IOWTpeS8puavlOS6muWVhuWtpumZouWuouW6p+aVmeaOiCIsCiAgICBhdmF0YXI6ICIvcGhvdG8vdGVhY2hlci8wNi5qcGciLAogICAgaW50cm86ICLku6XjgIzlkajmnJ/mgJ3nu7TjgI3pl7vlkI3nmoTmnLrmnoTmipXotYTkurrvvIzokZfmnInjgIrmipXotYTmnIDph43opoHnmoTkuovjgIvjgIrlkajmnJ/jgIvjgILku5blvLrosIPmipXotYTnmoTog5zotJ/lhbPplK7kuI3lnKjkuo7pooTmtYvmnKrmnaXvvIzogIzlnKjkuo7nkIbop6PlvZPliY3miYDlpITnmoTlkajmnJ/kvY3nva7vvIzlubbmj5Dlh7rjgIzpo47pmannmoTmnKzotKjmmK/msLjkuYXmgKfotYTmnKzmjZ/lpLHjgI3ov5nkuIDkuJrnlYzlhbHor4bjgIIiCiAgfSwKICB7CiAgICBpZDogNywKICAgIG5hbWU6ICLpmL/mlq/nk6bnibnCt+i+vuaRqei+vuWFsCIsCiAgICBlbk5hbWU6ICJBc3dhdGggRGFtb2RhcmFuIiwKICAgIGZpZWxkOiAi6YeR6J6N5oqV6LWEIiwKICAgIHRpdGxlOiAi57q957qm5aSn5a2m5pav54m55oGp5ZWG5a2m6Zmi5pWZ5o6IIiwKICAgIGF2YXRhcjogIi9waG90by90ZWFjaGVyLzA3LmpwZyIsCiAgICBpbnRybzogIuWFrOWPuOS8sOWAvOmihuWfn+eahOS4lueVjOe6p+WtpuiAhe+8jOiRl+acieOAiuaKlei1hOS8sOWAvOOAi++8jOiiq+S4mueVjOensOS4uuOAjOS8sOWAvOaVmeeItuOAjeOAguS7luavj+W5tOWcqOe6vee6puWkp+WtpuW8gOiuvuWujOaVtOeahOiCoeadg+S8sOWAvOivvueoi+W5tuWFqOeoi+WFrOW8gOW9leWDj++8jOmFjeWll+WFjei0ueeUteWtkOihqOagvO+8jOaYr+WFqOeQg+acgOezu+e7n+WMlueahOS8sOWAvOaWueazleiuuuiuree7g+S9k+ezu+OAgiIKICB9LAogIHsKICAgIGlkOiA4LAogICAgbmFtZTogIuWQieWnhsK36KW/6JKZ5pavIiwKICAgIGVuTmFtZTogIkppbSBTaW1vbnMiLAogICAgZmllbGQ6ICLph5Hono3mipXotYQiLAogICAgdGl0bGU6ICLmlofoibrlpI3lhbTnp5HmioDliJvlp4vkurogwrcg6YeP5YyW5oqV6LWE5YWI6amxIiwKICAgIGF2YXRhcjogIi9waG90by90ZWFjaGVyLzA4LmpwZyIsCiAgICBpbnRybzogIuaVsOWtpuWutuWHuui6q++8jOWIm+WKnuaWh+iJuuWkjeWFtOenkeaKgOW5tuS7peOAjOaJk+i0peW4guWcuuOAjeeahOmHj+WMluetlueVpeeuoeeQhueZvuS6v+e6p+i1hOS6p++8jOiiq+OAiui0ouWvjOOAi+ivhOS4uuWvueWGsuWfuumHkeWPsuS4iuacgOS8n+Wkp+eahOeuoeeQhuS6uuOAguS7lueahOaguOW/g+aAneaDs+aYr+eUqOaVsOaNruOAgeaooeWei+S4jue7n+iuoeinhOW+i+abv+S7o+S4u+inguWIpOaWre+8jOWumuS5ieS6hueOsOS7o+mHj+WMluaKlei1hOeahOaKgOacr+i3r+e6v+OAgiIKICB9LAogIHsKICAgIGlkOiA5LAogICAgbmFtZTogIuadsOWkq8K36L+q5oGpIiwKICAgIGVuTmFtZTogIkplZmYgRGVhbiIsCiAgICBmaWVsZDogIklU5bel56iLIiwKICAgIHRpdGxlOiAiR29vZ2xlIOmmluW4reenkeWtpuWutiDCtyDlpKfop4TmqKHns7vnu5/mnrbmnoTlhYjpqbEiLAogICAgYXZhdGFyOiAiL3Bob3RvL3RlYWNoZXIvMDkuanBnIiwKICAgIGludHJvOiAi5Li75a+86K6+6K6h5LqGIE1hcFJlZHVjZeOAgUJpZ1RhYmxl44CBVGVuc29yRmxvdyDkuI4gR29vZ2xlIEJyYWlu77yM5pivIFRyYW5zZm9ybWVyIOiuuuaWh+eahOWFseWQjOS9nOiAheS5i+S4gOOAguS7luWumuS5ieS6huOAjOWkp+inhOaooeiuoeeul+ezu+e7n+OAjeeahOiuvuiuoeiMg+W8j++8jOeUqOOAjOaKiumXrumimOinhOaooeaUvuWkpyAxMDAwIOWAjeWGjeino+WGs+OAjeeahOaAnei3r++8jOWhkemAoOS6huaVtOS4quS6keiuoeeul+S4jiBBSSDln7rnoYDorr7mlr3nmoTlvaLmgIHjgIIiCiAgfSwKICB7CiAgICBpZDogMTAsCiAgICBuYW1lOiAi5biD6I6x5oGpwrflhYvlsLzmsYkiLAogICAgZW5OYW1lOiAiQnJpYW4gS2VybmlnaGFuIiwKICAgIGZpZWxkOiAiSVTlt6XnqIsiLAogICAgdGl0bGU6ICLmma7mnpfmlq/pob/lpKflrabmlZnmjoggwrfjgIrnrpfms5Xlr7zorrrjgIvkvZzogIXkuYvkuIAiLAogICAgYXZhdGFyOiAiL3Bob3RvL3RlYWNoZXIvMTAuanBnIiwKICAgIGludHJvOiAi5LiOIERvbmFsZCBLbnV0aOOAgVJvYmVydCBTZWRnZXdpY2sg5YWx5ZCM57yW5YaZ5LqG6K6h566X5py656eR5a2m6aKG5Z+f5pyA57uP5YW455qE44CK566X5rOV5a+86K6644CL77yIQ0xSU++8ieOAguS7luWPkeaYjuS6hiBBV0sg6K+t6KiA5LiO44CMSyZSIEPjgI3nvJbnqIvpo47moLzvvIzkuLvlvKDnrpfms5Xorr7orqHlupTlhbzpob7kvJjpm4XkuI7mlYjnjofvvIzlhbbnvJbnqIvojIPlvI/lvbHlk43kuobmlbDku6Plt6XnqIvluIjjgIIiCiAgfSwKICB7CiAgICBpZDogMTEsCiAgICBuYW1lOiAi6Km55aeG5pavwrfpq5jmlq/mnpciLAogICAgZW5OYW1lOiAiSmFtZXMgR29zbGluZyIsCiAgICBmaWVsZDogIklU5bel56iLIiwKICAgIHRpdGxlOiAiSmF2YSDor63oqIDliJvpgKDogIUgwrcgU3VuIOWFrOWPuOWJr+aAu+ijgSIsCiAgICBhdmF0YXI6ICIvcGhvdG8vdGVhY2hlci8xMS5qcGciLAogICAgaW50cm86ICLlnKggU3VuIOWFrOWPuOW3peS9nOacn+mXtOS4u+WvvOiuvuiuoeW5tuWunueOsCBKYXZhIOivreiogO+8jOiiq+ensOS4uuOAjEphdmEg5LmL54i244CN44CC5LuW5o6o5YqoIEphdmEg56Gu56uL5Li644CM5LiA5qyh57yW5YaZ77yM5Yiw5aSE6L+Q6KGM44CN55qE6Leo5bmz5Y+w6K+t6KiA77yM5bm25Li75a+85LqGIEpWTSDop4TojIPvvIzkvb8gSmF2YSDmiJDkuLrkvIHkuJrnuqflkI7nq6/lvIDlj5HnmoTmoIflh4bor63oqIDkuYvkuIDjgIIiCiAgfSwKICB7CiAgICBpZDogMTIsCiAgICBuYW1lOiAi5a6J5b6354OIwrfljaHluJXmlq8iLAogICAgZW5OYW1lOiAiQW5kcmVqIEthcnBhdGh5IiwKICAgIGZpZWxkOiAiSVTlt6XnqIsiLAogICAgdGl0bGU6ICLliY3nibnmlq/mi4kgQUkg6LSf6LSj5Lq6IMK3IOaWr+WdpuemjyBDUzIzMW4g5Li76K6yIiwKICAgIGF2YXRhcjogIi9waG90by90ZWFjaGVyLzEyLmpwZyIsCiAgICBpbnRybzogIuaWr+Wdpuemj+Wkp+WtpiBDUzIzMW7jgIrorqHnrpfmnLrop4bop4nkuK3nmoTmt7HluqblrabkuaDjgIvkuLvorrLmlZnluIjvvIzor77nqIvlvZXlg4/lnKggWW91VHViZSDmkq3mlL7ph4/otoXov4fnmb7kuIfjgILku5bmj5Dngrzlh7rnmoTjgIznpZ7nu4/nvZHnu5zkuIPmraXorq3nu4Pms5XjgI3kuI7lj43lkJHkvKDmkq3nmoTnm7Top4nljJborrLop6PvvIzooqvlhazorqTkuLrmt7HluqblrabkuaDlhaXpl6jmnIDmuIXmmbDnmoTmlZnlrabkvZPns7vjgIIiCiAgfSwKICB7CiAgICBpZDogMTMsCiAgICBuYW1lOiAi5Z+D6YeM5YWLwrfmlr3lr4bnibkiLAogICAgZW5OYW1lOiAiRXJpYyBTY2htaWR0IiwKICAgIGZpZWxkOiAiSVTlt6XnqIsiLAogICAgdGl0bGU6ICLliY0gR29vZ2xlIOmmluW4reaJp+ihjOWumCIsCiAgICBhdmF0YXI6ICIvcGhvdG8vdGVhY2hlci8xMy5qcGciLAogICAgaW50cm86ICIyMDAx4oCUMjAxMSDlubTmiafmjowgR29vZ2xl77yM5a6M5oiQ5LqG5LuO5pCc57Si5byV5pOO5YWs5Y+45Yiw5YWo55CD5pyA5aSn56eR5oqA5YWs5Y+455qE6L2s5Z6L77yM5Li75a+85pS26LStIFlvdVR1YmXjgIFBbmRyb2lkIOW5tuWwhiBHb29nbGUg5o6o5ZCR5LqR5LiOIEFJIOaImOeVpeOAguS7luaPkOWHuuOAjOS8geS4muimgeWcqCBBSSDml7bku6PotaLvvIzlhbPplK7mmK/ph43mlrDlrprkuYnnu4Tnu4fkuI7kurrmiY3lr4bluqbjgI3vvIzlubbmjqjliqggR29vZ2xlIOiuvueriyBBSSDkvKbnkIblp5TlkZjkvJrjgIIiCiAgfSwKICB7CiAgICBpZDogMTQsCiAgICBuYW1lOiAi5pyswrfmlq/miZjkvIrljaEiLAogICAgZW5OYW1lOiAiQmVuIFN0b2ljYSIsCiAgICBmaWVsZDogIklU5bel56iLIiwKICAgIHRpdGxlOiAi5Yqg5bee5aSn5a2m5Lyv5YWL5Yip5YiG5qCh5pWZ5o6IIMK344CKRGVzaWduaW5nIERhdGEtSW50ZW5zaXZlIEFwcGxpY2F0aW9uc+OAi+S9nOiAhSIsCiAgICBhdmF0YXI6ICIvcGhvdG8vdGVhY2hlci8xNC5qcGciLAogICAgaW50cm86ICLliIbluIPlvI/ns7vnu5/kuI7mlbDmja7lupPpoobln5/nmoTkuJbnlYznuqflrabogIXvvIxBQ00gRmVsbG9344CC5LuW5Li76K6y55qE5Lyv5YWL5YipIENTMTg2IOaVsOaNruW6k+ezu+e7n+ivvuS4jiBDUzE2MiDmk43kvZzns7vnu5/or77ku6XjgIznnJ/lrp7lt6XnqIvpl67popjpqbHliqjjgI3okZfnp7DvvIzlhbbokZfkvZzjgIrmlbDmja7lr4bpm4blnovlupTnlKjns7vnu5/orr7orqHjgIvlt7LmiJDkuLrlkI7nq6/mnrbmnoTluIjnmoTlv4Xor7vnu4/lhbjjgIIiCiAgfSwKXQoKZXhwb3J0IGNvbnN0IGdldFRlYWNoZXIgPSAoaWQpID0+IHRlYWNoZXJzLmZpbmQoKHQpID0+IHQuaWQgPT09IE51bWJlcihpZCkpCmV4cG9ydCBjb25zdCBnZXRUZWFjaGVyc0J5RmllbGQgPSAoZmllbGQpID0+IHRlYWNoZXJzLmZpbHRlcigodCkgPT4gdC5maWVsZCA9PT0gZmllbGQpCmV4cG9ydCBjb25zdCB0ZWFjaGVyRmllbGRzID0gWy4uLm5ldyBTZXQodGVhY2hlcnMubWFwKCh0KSA9PiB0LmZpZWxkKSldCg==
+// MAD网课系统 · 讲师数据（金融投资 / IT工程 领域真实名师）
+// 头像由 PIL 几何绘制生成（public/photo/teacher/NN.jpg），无任何第三方水印
+export const teachers = [
+  {
+    id: 1,
+    name: "沃伦·巴菲特",
+    enName: "Warren Buffett",
+    field: "金融投资",
+    title: "伯克希尔·哈撒韦董事长",
+    avatar: "/photo/teacher/01.jpg",
+    intro: "价值投资的开创者与实践者，1956年接手伯克希尔后以「安全边际、能力圈、护城河」三大原则构建了半个世纪的投资业绩。1957年致股东信中提出「人生就像滚雪球，重要的是找到很湿的雪和很长的坡」。1998年佛罗里达大学演讲系统阐述了他的投资哲学，被公认为价值投资的圣经。"
+  },
+  {
+    id: 2,
+    name: "查理·芒格",
+    enName: "Charlie Munger",
+    field: "金融投资",
+    title: "伯克希尔副董事长",
+    avatar: "/photo/teacher/02.jpg",
+    intro: "巴菲特的合伙人，被尊为「人类误判心理学」大师。他提出并运用多学科思维模型格栅（mental models），强调「要成为一个有智慧的人，必须掌握多个学科的核心基本真理」。1995年哈佛大学演讲《人类误判心理学》系统列出 25 种心理倾向，影响了整个投资界的认知框架。"
+  },
+  {
+    id: 3,
+    name: "本杰明·格雷厄姆",
+    enName: "Benjamin Graham",
+    field: "金融投资",
+    title: "「证券分析之父」",
+    avatar: "/photo/teacher/03.jpg",
+    intro: "哥伦比亚大学经济学教授，《证券分析》（1934）与《聪明的投资者》（1949）的作者，现代证券分析学的奠基人。他提出「安全边际」原则与「市场先生」寓言，定义了股债平衡的投资组合理论，被巴菲特称为「投资界圣经的两位作者之一」。"
+  },
+  {
+    id: 4,
+    name: "罗伯特·席勒",
+    enName: "Robert Shiller",
+    field: "金融投资",
+    title: "耶鲁大学经济学教授 · 2013年诺贝尔经济学奖得主",
+    avatar: "/photo/teacher/04.jpg",
+    intro: "行为金融学代表人物，耶鲁大学 ECON 252《Financial Markets》主讲教授，该课成为全球最受欢迎的经济学公开课之一。他用「金融时间序列的波动性远大于实际变化」的研究揭示了泡沫的统计特征，著有《非理性繁荣》，并于 2013 年获诺贝尔经济学奖。"
+  },
+  {
+    id: 5,
+    name: "瑞·达利欧",
+    enName: "Ray Dalio",
+    field: "金融投资",
+    title: "桥水基金创始人",
+    avatar: "/photo/teacher/05.jpg",
+    intro: "1975年创办桥水基金，将其打造为全球规模最大的对冲基金之一。他的《经济机器是如何运转的》用 30 分钟讲清信用、债务周期与去杠杆三台引擎，是全球播放量最高的经济学讲解之一。著有《原则》《债务危机》，主张用「可信度加权」的决策方式处理复杂世界。"
+  },
+  {
+    id: 6,
+    name: "霍华德·马克斯",
+    enName: "Howard Marks",
+    field: "金融投资",
+    title: "橡树资本联合创始人 · 哥伦比亚商学院客座教授",
+    avatar: "/photo/teacher/06.jpg",
+    intro: "以「周期思维」闻名的机构投资人，著有《投资最重要的事》《周期》。他强调投资的胜负关键不在于预测未来，而在于理解当前所处的周期位置，并提出「风险的本质是永久性资本损失」这一业界共识。"
+  },
+  {
+    id: 7,
+    name: "阿斯瓦特·达摩达兰",
+    enName: "Aswath Damodaran",
+    field: "金融投资",
+    title: "纽约大学斯特恩商学院教授",
+    avatar: "/photo/teacher/07.jpg",
+    intro: "公司估值领域的世界级学者，著有《投资估值》，被业界称为「估值教父」。他每年在纽约大学开设完整的股权估值课程并全程公开录像，配套免费电子表格，是全球最系统化的估值方法论训练体系。"
+  },
+  {
+    id: 8,
+    name: "吉姆·西蒙斯",
+    enName: "Jim Simons",
+    field: "金融投资",
+    title: "文艺复兴科技创始人 · 量化投资先驱",
+    avatar: "/photo/teacher/08.jpg",
+    intro: "数学家出身，创办文艺复兴科技并以「打败市场」的量化策略管理百亿级资产，被《财富》评为对冲基金史上最伟大的管理人。他的核心思想是用数据、模型与统计规律替代主观判断，定义了现代量化投资的技术路线。"
+  },
+  {
+    id: 9,
+    name: "杰夫·迪恩",
+    enName: "Jeff Dean",
+    field: "IT工程",
+    title: "Google 首席科学家 · 大规模系统架构先驱",
+    avatar: "/photo/teacher/09.jpg",
+    intro: "主导设计了 MapReduce、BigTable、TensorFlow 与 Google Brain，是 Transformer 论文的共同作者之一。他定义了「大规模计算系统」的设计范式，用「把问题规模放大 1000 倍再解决」的思路，塑造了整个云计算与 AI 基础设施的形态。"
+  },
+  {
+    id: 10,
+    name: "布莱恩·克尼汉",
+    enName: "Brian Kernighan",
+    field: "IT工程",
+    title: "普林斯顿大学教授 ·《算法导论》作者之一",
+    avatar: "/photo/teacher/10.jpg",
+    intro: "与 Donald Knuth、Robert Sedgewick 共同编写了计算机科学领域最经典的《算法导论》（CLRS）。他发明了 AWK 语言与「K&R C」编程风格，主张算法设计应兼顾优雅与效率，其编程范式影响了数代工程师。"
+  },
+  {
+    id: 11,
+    name: "詹姆斯·高斯林",
+    enName: "James Gosling",
+    field: "IT工程",
+    title: "Java 语言创造者 · Sun 公司副总裁",
+    avatar: "/photo/teacher/11.jpg",
+    intro: "在 Sun 公司工作期间主导设计并实现 Java 语言，被称为「Java 之父」。他推动 Java 确立为「一次编写，到处运行」的跨平台语言，并主导了 JVM 规范，使 Java 成为企业级后端开发的标准语言之一。"
+  },
+  {
+    id: 12,
+    name: "安德烈·卡帕斯",
+    enName: "Andrej Karpathy",
+    field: "IT工程",
+    title: "前特斯拉 AI 负责人 · 斯坦福 CS231n 主讲",
+    avatar: "/photo/teacher/12.jpg",
+    intro: "斯坦福大学 CS231n《计算机视觉中的深度学习》主讲教师，课程录像在 YouTube 播放量超过百万。他提炼出的「神经网络七步训练法」与反向传播的直觉化讲解，被公认为深度学习入门最清晰的教学体系。"
+  },
+  {
+    id: 13,
+    name: "埃里克·施密特",
+    enName: "Eric Schmidt",
+    field: "IT工程",
+    title: "前 Google 首席执行官",
+    avatar: "/photo/teacher/13.jpg",
+    intro: "2001—2011 年执掌 Google，完成了从搜索引擎公司到全球最大科技公司的转型，主导收购 YouTube、Android 并将 Google 推向云与 AI 战略。他提出「企业要在 AI 时代赢，关键是重新定义组织与人才密度」，并推动 Google 设立 AI 伦理委员会。"
+  },
+  {
+    id: 14,
+    name: "本·斯托伊卡",
+    enName: "Ben Stoica",
+    field: "IT工程",
+    title: "加州大学伯克利分校教授 ·《Designing Data-Intensive Applications》作者",
+    avatar: "/photo/teacher/14.jpg",
+    intro: "分布式系统与数据库领域的世界级学者，ACM Fellow。他主讲的伯克利 CS186 数据库系统课与 CS162 操作系统课以「真实工程问题驱动」著称，其著作《数据密集型应用系统设计》已成为后端架构师的必读经典。"
+  },
+]
+
+export const getTeacher = (id) => teachers.find((t) => t.id === Number(id))
+export const getTeachersByField = (field) => teachers.filter((t) => t.field === field)
+export const teacherFields = [...new Set(teachers.map((t) => t.field))]

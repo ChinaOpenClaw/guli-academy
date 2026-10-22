@@ -1,1 +1,5 @@
-J3VzZSBzdHJpY3QnCgptb2R1bGUuZXhwb3J0cyA9IHsKICAvL1lvdSBjYW4gc2V0IHRoZSB2dWUtbG9hZGVyIGNvbmZpZ3VyYXRpb24gYnkgeW91cnNlbGYuCn0K
+'use strict'
+
+module.exports = {
+  //You can set the vue-loader configuration by yourself.
+}

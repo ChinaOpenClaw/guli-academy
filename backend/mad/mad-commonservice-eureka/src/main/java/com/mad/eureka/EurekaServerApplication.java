@@ -1,1 +1,19 @@
-cGFja2FnZSBjb20ubWFkLmV1cmVrYTsKCmltcG9ydCBvcmcuc3ByaW5nZnJhbWV3b3JrLmJvb3QuU3ByaW5nQXBwbGljYXRpb247CmltcG9ydCBvcmcuc3ByaW5nZnJhbWV3b3JrLmJvb3QuYXV0b2NvbmZpZ3VyZS5TcHJpbmdCb290QXBwbGljYXRpb247CmltcG9ydCBvcmcuc3ByaW5nZnJhbWV3b3JrLmNsb3VkLm5ldGZsaXguZXVyZWthLnNlcnZlci5FbmFibGVFdXJla2FTZXJ2ZXI7CgovKioKICogQGF1dGhvciBoZWxlbgogKiBAc2luY2UgMjAxOS82LzI5CiAqLwpAU3ByaW5nQm9vdEFwcGxpY2F0aW9uCkBFbmFibGVFdXJla2FTZXJ2ZXIKcHVibGljIGNsYXNzIEV1cmVrYVNlcnZlckFwcGxpY2F0aW9uIHsKCglwdWJsaWMgc3RhdGljIHZvaWQgbWFpbihTdHJpbmdbXSBhcmdzKXsKCQlTcHJpbmdBcHBsaWNhdGlvbi5ydW4oRXVyZWthU2VydmVyQXBwbGljYXRpb24uY2xhc3MpOwoJfQp9Cgo=
+package com.mad.eureka;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
+
+/**
+ * @author helen
+ * @since 2019/6/29
+ */
+@SpringBootApplication
+@EnableEurekaServer
+public class EurekaServerApplication {
+
+	public static void main(String[] args){
+		SpringApplication.run(EurekaServerApplication.class);
+	}
+}
+

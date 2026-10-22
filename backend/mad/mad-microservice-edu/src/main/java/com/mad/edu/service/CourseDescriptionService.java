@@ -1,1 +1,16 @@
-cGFja2FnZSBjb20ubWFkLmVkdS5zZXJ2aWNlOwoKaW1wb3J0IGNvbS5tYWQuZWR1LmVudGl0eS5Db3Vyc2VEZXNjcmlwdGlvbjsKaW1wb3J0IGNvbS5iYW9taWRvdS5teWJhdGlzcGx1cy5leHRlbnNpb24uc2VydmljZS5JU2VydmljZTsKCi8qKgogKiA8cD4KICog6K++56iL566A5LuLIOacjeWKoeexuwogKiA8L3A+CiAqCiAqIEBhdXRob3IgSGVsZW4KICogQHNpbmNlIDIwMTktMDYtMjQKICovCnB1YmxpYyBpbnRlcmZhY2UgQ291cnNlRGVzY3JpcHRpb25TZXJ2aWNlIGV4dGVuZHMgSVNlcnZpY2U8Q291cnNlRGVzY3JpcHRpb24+IHsKCn0K
+package com.mad.edu.service;
+
+import com.mad.edu.entity.CourseDescription;
+import com.baomidou.mybatisplus.extension.service.IService;
+
+/**
+ * <p>
+ * 课程简介 服务类
+ * </p>
+ *
+ * @author Helen
+ * @since 2019-06-24
+ */
+public interface CourseDescriptionService extends IService<CourseDescription> {
+
+}

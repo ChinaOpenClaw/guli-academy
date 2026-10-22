@@ -1,1 +1,21 @@
-cGFja2FnZSBjb20ubWFkLmVkdS5jb250cm9sbGVyOwoKCmltcG9ydCBvcmcuc3ByaW5nZnJhbWV3b3JrLndlYi5iaW5kLmFubm90YXRpb24uUmVxdWVzdE1hcHBpbmc7CgppbXBvcnQgb3JnLnNwcmluZ2ZyYW1ld29yay53ZWIuYmluZC5hbm5vdGF0aW9uLlJlc3RDb250cm9sbGVyOwoKLyoqCiAqIDxwPgogKiDor77nqIvnp5Hnm64g5YmN56uv5o6n5Yi25ZmoCiAqIDwvcD4KICoKICogQGF1dGhvciBIZWxlbgogKiBAc2luY2UgMjAxOS0wNi0yNAogKi8KQFJlc3RDb250cm9sbGVyCkBSZXF1ZXN0TWFwcGluZygiL2VkdS9zdWJqZWN0IikKcHVibGljIGNsYXNzIFN1YmplY3RDb250cm9sbGVyIHsKCn0KCg==
+package com.mad.edu.controller;
+
+
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import org.springframework.web.bind.annotation.RestController;
+
+/**
+ * <p>
+ * 课程科目 前端控制器
+ * </p>
+ *
+ * @author Helen
+ * @since 2019-06-24
+ */
+@RestController
+@RequestMapping("/edu/subject")
+public class SubjectController {
+
+}
+

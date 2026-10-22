@@ -1,1 +1,48 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHByb2plY3QgeG1sbnM9Imh0dHA6Ly9tYXZlbi5hcGFjaGUub3JnL1BPTS80LjAuMCIKICAgICAgICAgeG1sbnM6eHNpPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxL1hNTFNjaGVtYS1pbnN0YW5jZSIKICAgICAgICAgeHNpOnNjaGVtYUxvY2F0aW9uPSJodHRwOi8vbWF2ZW4uYXBhY2hlLm9yZy9QT00vNC4wLjAgaHR0cDovL21hdmVuLmFwYWNoZS5vcmcveHNkL21hdmVuLTQuMC4wLnhzZCI+CiAgICA8cGFyZW50PgogICAgICAgIDxhcnRpZmFjdElkPm1hZC1mcmFtZXdvcmstcGFyZW50PC9hcnRpZmFjdElkPgogICAgICAgIDxncm91cElkPmNvbS5tYWQ8L2dyb3VwSWQ+CiAgICAgICAgPHZlcnNpb24+MC4wLjEtU05BUFNIT1Q8L3ZlcnNpb24+CiAgICAgICAgPHJlbGF0aXZlUGF0aD4uLi9tYWQtZnJhbWV3b3JrLXBhcmVudC9wb20ueG1sPC9yZWxhdGl2ZVBhdGg+CiAgICA8L3BhcmVudD4KICAgIDxtb2RlbFZlcnNpb24+NC4wLjA8L21vZGVsVmVyc2lvbj4KCiAgICA8YXJ0aWZhY3RJZD5tYWQtY29tbW9uc2VydmljZS1ldXJla2E8L2FydGlmYWN0SWQ+CgogICAgPGRlcGVuZGVuY2llcz4KICAgICAgICA8IS0t5rOo5YaM5Lit5b+DLS0+CiAgICAgICAgPGRlcGVuZGVuY3k+CiAgICAgICAgICAgIDxncm91cElkPm9yZy5zcHJpbmdmcmFtZXdvcmsuY2xvdWQ8L2dyb3VwSWQ+CiAgICAgICAgICAgIDxhcnRpZmFjdElkPnNwcmluZy1jbG91ZC1zdGFydGVyLW5ldGZsaXgtZXVyZWthLXNlcnZlcjwvYXJ0aWZhY3RJZD4KICAgICAgICA8L2RlcGVuZGVuY3k+CgogICAgICAgIDwhLS0gSkFYQu+8mkpESyAxMSsg5bey5LuOIEpESyDkuK3np7vpmaQgamF2YXgueG1sLmJpbmTvvIxFdXJla2EgU2VydmVyIOeahAogICAgICAgICAgICAgSkFYQiBGaWx0ZXIg5ZyoIEpESyAxNyDkuIrkvJrmipsgQ2xhc3NOb3RGb3VuZEV4Y2VwdGlvbjogamF2YXgueG1sLmJpbmQuSkFYQkNvbnRleHQgLS0+CiAgICAgICAgPGRlcGVuZGVuY3k+CiAgICAgICAgICAgIDxncm91cElkPmphdmF4LnhtbC5iaW5kPC9ncm91cElkPgogICAgICAgICAgICA8YXJ0aWZhY3RJZD5qYXhiLWFwaTwvYXJ0aWZhY3RJZD4KICAgICAgICAgICAgPHZlcnNpb24+Mi4zLjE8L3ZlcnNpb24+CiAgICAgICAgPC9kZXBlbmRlbmN5PgogICAgICAgIDxkZXBlbmRlbmN5PgogICAgICAgICAgICA8Z3JvdXBJZD5jb20uc3VuLnhtbC5iaW5kPC9ncm91cElkPgogICAgICAgICAgICA8YXJ0aWZhY3RJZD5qYXhiLWltcGw8L2FydGlmYWN0SWQ+CiAgICAgICAgICAgIDx2ZXJzaW9uPjIuMy4yPC92ZXJzaW9uPgogICAgICAgIDwvZGVwZW5kZW5jeT4KICAgICAgICA8ZGVwZW5kZW5jeT4KICAgICAgICAgICAgPGdyb3VwSWQ+amF2YXguYWN0aXZhdGlvbjwvZ3JvdXBJZD4KICAgICAgICAgICAgPGFydGlmYWN0SWQ+amF2YXguYWN0aXZhdGlvbi1hcGk8L2FydGlmYWN0SWQ+CiAgICAgICAgICAgIDx2ZXJzaW9uPjEuMi4wPC92ZXJzaW9uPgogICAgICAgIDwvZGVwZW5kZW5jeT4KICAgICAgICA8IS0tIEpBWEIg6L+Q6KGM5pyf5L6d6LWW77yaaXN0YWNrLWNvbW1vbnMtcnVudGltZSDmj5DkvpsgY29tLnN1bi5pc3RhY2suKiDlhoXpg6jnsbvvvIwKICAgICAgICAgICAgIOe8uuWkseS8muaKmyBOb0NsYXNzRGVmRm91bmRFcnJvcjogY29tL3N1bi9pc3RhY2svRmluYWxBcnJheUxpc3QgLS0+CiAgICAgICAgPGRlcGVuZGVuY3k+CiAgICAgICAgICAgIDxncm91cElkPmNvbS5zdW4uaXN0YWNrPC9ncm91cElkPgogICAgICAgICAgICA8YXJ0aWZhY3RJZD5pc3RhY2stY29tbW9ucy1ydW50aW1lPC9hcnRpZmFjdElkPgogICAgICAgICAgICA8dmVyc2lvbj4zLjAuMTE8L3ZlcnNpb24+CiAgICAgICAgPC9kZXBlbmRlbmN5PgogICAgPC9kZXBlbmRlbmNpZXM+Cgo8L3Byb2plY3Q+
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>mad-framework-parent</artifactId>
+        <groupId>com.mad</groupId>
+        <version>0.0.1-SNAPSHOT</version>
+        <relativePath>../mad-framework-parent/pom.xml</relativePath>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>mad-commonservice-eureka</artifactId>
+
+    <dependencies>
+        <!--注册中心-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
+        </dependency>
+
+        <!-- JAXB：JDK 11+ 已从 JDK 中移除 javax.xml.bind，Eureka Server 的
+             JAXB Filter 在 JDK 17 上会抛 ClassNotFoundException: javax.xml.bind.JAXBContext -->
+        <dependency>
+            <groupId>javax.xml.bind</groupId>
+            <artifactId>jaxb-api</artifactId>
+            <version>2.3.1</version>
+        </dependency>
+        <dependency>
+            <groupId>com.sun.xml.bind</groupId>
+            <artifactId>jaxb-impl</artifactId>
+            <version>2.3.2</version>
+        </dependency>
+        <dependency>
+            <groupId>javax.activation</groupId>
+            <artifactId>javax.activation-api</artifactId>
+            <version>1.2.0</version>
+        </dependency>
+        <!-- JAXB 运行期依赖：istack-commons-runtime 提供 com.sun.istack.* 内部类，
+             缺失会抛 NoClassDefFoundError: com/sun/istack/FinalArrayList -->
+        <dependency>
+            <groupId>com.sun.istack</groupId>
+            <artifactId>istack-commons-runtime</artifactId>
+            <version>3.0.11</version>
+        </dependency>
+    </dependencies>
+
+</project>

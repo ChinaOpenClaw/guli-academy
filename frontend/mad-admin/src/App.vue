@@ -1,1 +1,11 @@
-PHRlbXBsYXRlPgogIDxkaXYgaWQ9ImFwcCI+CiAgICA8cm91dGVyLXZpZXcvPgogIDwvZGl2Pgo8L3RlbXBsYXRlPgoKPHNjcmlwdD4KZXhwb3J0IGRlZmF1bHQgewogIG5hbWU6ICdBcHAnCn0KPC9zY3JpcHQ+Cg==
+<template>
+  <div id="app">
+    <router-view/>
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'App'
+}
+</script>

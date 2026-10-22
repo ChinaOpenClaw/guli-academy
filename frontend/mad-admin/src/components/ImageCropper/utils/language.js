@@ -1,1 +1,232 @@
-ZXhwb3J0IGRlZmF1bHQgewogIHpoOiB7CiAgICBoaW50OiAn54K55Ye777yM5oiW5ouW5Yqo5Zu+54mH6Iez5q2k5aSEJywKICAgIGxvYWRpbmc6ICfmraPlnKjkuIrkvKDigKbigKYnLAogICAgbm9TdXBwb3J0ZWQ6ICfmtY/op4jlmajkuI3mlK/mjIHor6Xlip/og73vvIzor7fkvb/nlKhJRTEw5Lul5LiK5oiW5YW25LuW546w5Zyo5rWP6KeI5Zmo77yBJywKICAgIHN1Y2Nlc3M6ICfkuIrkvKDmiJDlip8nLAogICAgZmFpbDogJ+WbvueJh+S4iuS8oOWksei0pScsCiAgICBwcmV2aWV3OiAn5aS05YOP6aKE6KeIJywKICAgIGJ0bjogewogICAgICBvZmY6ICflj5bmtognLAogICAgICBjbG9zZTogJ+WFs+mXrScsCiAgICAgIGJhY2s6ICfkuIrkuIDmraUnLAogICAgICBzYXZlOiAn5L+d5a2YJwogICAgfSwKICAgIGVycm9yOiB7CiAgICAgIG9ubHlJbWc6ICfku4XpmZDlm77niYfmoLzlvI8nLAogICAgICBvdXRPZlNpemU6ICfljZXmlofku7blpKflsI/kuI3og73otoXov4cgJywKICAgICAgbG93ZXN0UHg6ICflm77niYfmnIDkvY7lg4/ntKDkuLrvvIjlrr0q6auY77yJ77yaJwogICAgfQogIH0sCiAgJ3poLXR3JzogewogICAgaGludDogJ+m7nuaTiu+8jOaIluaLluWLleWclueJh+iHs+atpOiZlScsCiAgICBsb2FkaW5nOiAn5q2j5Zyo5LiK5YKz4oCm4oCmJywKICAgIG5vU3VwcG9ydGVkOiAn54CP6Ka95Zmo5LiN5pSv5oyB6Kmy5Yqf6IO977yM6KuL5L2/55SoSUUxMOS7peS4iuaIluWFtuS7luePvuS7o+eAj+imveWZqO+8gScsCiAgICBzdWNjZXNzOiAn5LiK5YKz5oiQ5YqfJywKICAgIGZhaWw6ICflnJbniYfkuIrlgrPlpLHmlZcnLAogICAgcHJldmlldzogJ+mgreWDj+mgkOimvScsCiAgICBidG46IHsKICAgICAgb2ZmOiAn5Y+W5raIJywKICAgICAgY2xvc2U6ICfpl5zploknLAogICAgICBiYWNrOiAn5LiK5LiA5q2lJywKICAgICAgc2F2ZTogJ+S/neWtmCcKICAgIH0sCiAgICBlcnJvcjogewogICAgICBvbmx5SW1nOiAn5YOF6ZmQ5ZyW54mH5qC85byPJywKICAgICAgb3V0T2ZTaXplOiAn5Zau5paH5Lu25aSn5bCP5LiN6IO96LaF6YGOICcsCiAgICAgIGxvd2VzdFB4OiAn5ZyW54mH5pyA5L2O5YOP57Sg54K677yI5a+sKumrmO+8ie+8micKICAgIH0KICB9LAogIGVuOiB7CiAgICBoaW50OiAnQ2xpY2sgb3IgZHJhZyB0aGUgZmlsZSBoZXJlIHRvIHVwbG9hZCcsCiAgICBsb2FkaW5nOiAnVXBsb2FkaW5n4oCmJywKICAgIG5vU3VwcG9ydGVkOiAnQnJvd3NlciBpcyBub3Qgc3VwcG9ydGVkLCBwbGVhc2UgdXNlIElFMTArIG9yIG90aGVyIGJyb3dzZXJzJywKICAgIHN1Y2Nlc3M6ICdVcGxvYWQgc3VjY2VzcycsCiAgICBmYWlsOiAnVXBsb2FkIGZhaWxlZCcsCiAgICBwcmV2aWV3OiAnUHJldmlldycsCiAgICBidG46IHsKICAgICAgb2ZmOiAnQ2FuY2VsJywKICAgICAgY2xvc2U6ICdDbG9zZScsCiAgICAgIGJhY2s6ICdCYWNrJywKICAgICAgc2F2ZTogJ1NhdmUnCiAgICB9LAogICAgZXJyb3I6IHsKICAgICAgb25seUltZzogJ0ltYWdlIG9ubHknLAogICAgICBvdXRPZlNpemU6ICdJbWFnZSBleGNlZWRzIHNpemUgbGltaXQ6ICcsCiAgICAgIGxvd2VzdFB4OiAnSW1hZ2VcJ3Mgc2l6ZSBpcyB0b28gbG93LiBFeHBlY3RlZCBhdCBsZWFzdDogJwogICAgfQogIH0sCiAgcm86IHsKICAgIGhpbnQ6ICdBdGluZ2Ugc2F1IHRyYWdlIGZpyJlpZXJ1bCBhaWNpJywKICAgIGxvYWRpbmc6ICdTZSDDrm5jYXJjxIMnLAogICAgbm9TdXBwb3J0ZWQ6ICdCcm93c2VyLXVsIHTEg3UgbnUgc3Vwb3J0xIMgYWNlc3QgZmVhdHVyZS4gVGUgcnVnxINtIMOubmNlYXJjxIMgY3UgYWx0IGJyb3dzZXIuJywKICAgIHN1Y2Nlc3M6ICdTLWEgw65uY8SDcmNhdCBjdSBzdWNjZXMnLAogICAgZmFpbDogJ0EgYXDEg3J1dCBvIHByb2JsZW3EgyBsYSDDrm5jxINyY2FyZScsCiAgICBwcmV2aWV3OiAnUHJldml6dWFsaXplYXrEgycsCgogICAgYnRuOiB7CiAgICAgIG9mZjogJ0FudWxlYXrEgycsCiAgICAgIGNsb3NlOiAnw45uY2hpZGUnLAogICAgICBiYWNrOiAnw45uYXBvaScsCiAgICAgIHNhdmU6ICdTYWx2ZWF6xIMnCiAgICB9LAoKICAgIGVycm9yOiB7CiAgICAgIG9ubHlJbWc6ICdEb2FyIGltYWdpbmknLAogICAgICBvdXRPZlNpemU6ICdJbWFnaW5lYSBkZXDEg8iZZciZdGUgbGltaXRhIGRlOiAnLAogICAgICBsb2V3c3RQeDogJ0ltYWdpbmVhIGVzdGUgcHJlYSBtaWPEgzsgTWluaW06ICcKICAgIH0KICB9LAogIHJ1OiB7CiAgICBoaW50OiAn0J3QsNC20LzQuNGC0LUsINC40LvQuCDQv9C10YDQtdGC0LDRidC40YLQtSDRhNCw0LnQuyDQsiDRjdGC0L4g0L7QutC90L4nLAogICAgbG9hZGluZzogJ9CX0LDQs9GA0YPQttCw0Y7igKbigKYnLAogICAgbm9TdXBwb3J0ZWQ6ICfQktCw0Ygg0LHRgNCw0YPQt9C10YAg0L3QtSDQv9C+0LTQtNC10YDQttC40LLQsNC10YLRgdGPLCDQv9C+0LbQsNC70YPQudGB0YLQsCwg0LjRgdC/0L7Qu9GM0LfRg9C50YLQtSBJRTEwICsg0LjQu9C4INC00YDRg9Cz0LjQtSDQsdGA0LDRg9C30LXRgNGLJywKICAgIHN1Y2Nlc3M6ICfQl9Cw0LPRgNGD0LfQutCwINCy0YvQv9C+0LvQvdC10L3QsCDRg9GB0L/QtdGI0L3QvicsCiAgICBmYWlsOiAn0J7RiNC40LHQutCwINC30LDQs9GA0YPQt9C60LgnLAogICAgcHJldmlldzogJ9Cf0YDQtdC00L/RgNC+0YHQvNC+0YLRgCcsCiAgICBidG46IHsKICAgICAgb2ZmOiAn0J7RgtC80LXQvdC40YLRjCcsCiAgICAgIGNsb3NlOiAn0JfQsNC60YDRi9GC0YwnLAogICAgICBiYWNrOiAn0J3QsNC30LDQtCcsCiAgICAgIHNhdmU6ICfQodC+0YXRgNCw0L3QuNGC0YwnCiAgICB9LAogICAgZXJyb3I6IHsKICAgICAgb25seUltZzogJ9Ci0L7Qu9GM0LrQviDQuNC30L7QsdGA0LDQttC10L3QuNGPJywKICAgICAgb3V0T2ZTaXplOiAn0JjQt9C+0LHRgNCw0LbQtdC90LjQtSDQv9GA0LXQstGL0YjQsNC10YIg0L/RgNC10LTQtdC70YzQvdGL0Lkg0YDQsNC30LzQtdGAOiAnLAogICAgICBsb3dlc3RQeDogJ9Cc0LjQvdC40LzQsNC70YzQvdGL0Lkg0YDQsNC30LzQtdGAINC40LfQvtCx0YDQsNC20LXQvdC40Y86ICcKICAgIH0KICB9LAogICdwdC1icic6IHsKICAgIGhpbnQ6ICdDbGlxdWUgb3UgYXJyYXN0ZSBvIGFycXVpdm8gYXF1aSBwYXJhIGNhcnJlZ2FyJywKICAgIGxvYWRpbmc6ICdDYXJyZWdhbmRv4oCmJywKICAgIG5vU3VwcG9ydGVkOiAnQnJvd3NlciBuw6NvIHN1cG9ydGFkbywgdXNlIG8gSUUxMCsgb3Ugb3V0cm8gYnJvd3NlcicsCiAgICBzdWNjZXNzOiAnU3VjZXNzbyBhbyBjYXJyZWdhciBpbWFnZW0nLAogICAgZmFpbDogJ0ZhbGhhIGFvIGNhcnJlZ2FyIGltYWdlbScsCiAgICBwcmV2aWV3OiAnUHLDqS12aXN1YWxpemFyJywKICAgIGJ0bjogewogICAgICBvZmY6ICdDYW5jZWxhcicsCiAgICAgIGNsb3NlOiAnRmVjaGFyJywKICAgICAgYmFjazogJ1ZvbHRhcicsCiAgICAgIHNhdmU6ICdTYWx2YXInCiAgICB9LAogICAgZXJyb3I6IHsKICAgICAgb25seUltZzogJ0FwZW5hcyBpbWFnZW5zJywKICAgICAgb3V0T2ZTaXplOiAnQSBpbWFnZW0gZXhjZWRlIG8gbGltaXRlIGRlIHRhbWFuaG86ICcsCiAgICAgIGxvd2VzdFB4OiAnTyB0YW1hbmhvIGRhIGltYWdlbSDDqSBtdWl0byBwZXF1ZW5vLiBUYW1hbmhvIG3DrW5pbW86ICcKICAgIH0KICB9LAogIGZyOiB7CiAgICBoaW50OiAnQ2xpcXVleiBvdSBnbGlzc2V6IGxlIGZpY2hpZXIgaWNpLicsCiAgICBsb2FkaW5nOiAnVMOpbMOpY2hhcmdlbWVudOKApicsCiAgICBub1N1cHBvcnRlZDogJ1ZvdHJlIG5hdmlnYXRldXIgblwnZXN0IHBhcyBzdXBwb3J0w6kuIFV0aWxpc2V6IElFMTAgKyBvdSB1biBhdXRyZSBuYXZpZ2F0ZXVyIHNcJ2lsIHZvdXMgcGxhw650LicsCiAgICBzdWNjZXNzOiAnVMOpbMOpY2hhcmdlbWVudCByw6l1c3NpdCcsCiAgICBmYWlsOiAnVMOpbMOpY2hhcmdlbWVudCBlY2hvdcOpJywKICAgIHByZXZpZXc6ICdBcGVyw6d1JywKICAgIGJ0bjogewogICAgICBvZmY6ICdBbm51bGVyJywKICAgICAgY2xvc2U6ICdGZXJtZXInLAogICAgICBiYWNrOiAnUmV0b3VyJywKICAgICAgc2F2ZTogJ0VucmVnaXN0cmVyJwogICAgfSwKICAgIGVycm9yOiB7CiAgICAgIG9ubHlJbWc6ICdJbWFnZSB1bmlxdWVtZW50JywKICAgICAgb3V0T2ZTaXplOiAnTFwnaW1hZ2Ugc8OpbGVjdGlvbm7DqWUgZMOpcGFzc2UgbGEgdGFpbGxlIG1heGltdW06ICcsCiAgICAgIGxvd2VzdFB4OiAnTFwnaW1hZ2Ugc8OpbGVjdGlvbm7DqWUgZXN0IHRyb3AgcGV0aXRlLiBEaW1lbnNpb25zIGF0dGVuZHVlczogJwogICAgfQogIH0sCiAgbmw6IHsKICAgIGhpbnQ6ICdLbGlrIGhpZXIgb2Ygc2xlZXAgZWVuIGFmYmVlbGRpbmcgaW4gZGl0IHZsYWsnLAogICAgbG9hZGluZzogJ1VwbG9hZGVu4oCmJywKICAgIG5vU3VwcG9ydGVkOiAnSmUgYnJvd3NlciB3b3JkdCBoZWxhYXMgbmlldCBvbmRlcnN0ZXVuZC4gR2VicnVpayBJRTEwKyBvZiBlZW4gYW5kZXJlIGJyb3dzZXIuJywKICAgIHN1Y2Nlc3M6ICdVcGxvYWQgc3VjY2Vzdm9sJywKICAgIGZhaWw6ICdVcGxvYWQgbWlzbHVrdCcsCiAgICBwcmV2aWV3OiAnVm9vcmJlZWxkJywKICAgIGJ0bjogewogICAgICBvZmY6ICdBbm51bGVyZW4nLAogICAgICBjbG9zZTogJ1NsdWl0ZW4nLAogICAgICBiYWNrOiAnVGVydWcnLAogICAgICBzYXZlOiAnT3BzbGFhbicKICAgIH0sCiAgICBlcnJvcjogewogICAgICBvbmx5SW1nOiAnQWxsZWVuIGFmYmVlbGRpbmdlbicsCiAgICAgIG91dE9mU2l6ZTogJ0RlIGFmYmVlbGRpbmcgaXMgZ3JvdGVyIGRhbjogJywKICAgICAgbG93ZXN0UHg6ICdEZSBhZmJlZWxkaW5nIGlzIHRlIGtsZWluISBNaW5pbWFsZSBhZm1ldGluZ2VuOiAnCiAgICB9CiAgfSwKICB0cjogewogICAgaGludDogJ1TEsWtsYSB2ZXlhIHnDvGtsZW1layBpc3RlZGnEn2luaSBidXJheWEgc8O8csO8a2xlJywKICAgIGxvYWRpbmc6ICdZw7xrbGVuaXlvcuKApicsCiAgICBub1N1cHBvcnRlZDogJ1RhcmF5xLFjxLEgZGVzdGVrbGVubWl5b3IsIGzDvHRmZW4gSUUxMCsgdmV5YSBmYXJrbMSxIHRhcmF5xLFjxLEga3VsbGFuxLFuJywKICAgIHN1Y2Nlc3M6ICdZw7xrbGVtZSBiYcWfYXLEsWzEsScsCiAgICBmYWlsOiAnWcO8a2xlbWVkZSBoYXRhIG9sdcWfdHUnLAogICAgcHJldmlldzogJ8OWbml6bGUnLAogICAgYnRuOiB7CiAgICAgIG9mZjogJ8SwcHRhbCcsCiAgICAgIGNsb3NlOiAnS2FwYXQnLAogICAgICBiYWNrOiAnR2VyaScsCiAgICAgIHNhdmU6ICdLYXlkZXQnCiAgICB9LAogICAgZXJyb3I6IHsKICAgICAgb25seUltZzogJ1NhZGVjZSByZXNpbScsCiAgICAgIG91dE9mU2l6ZTogJ1Jlc2ltIHnDvGtsZW1lIGxpbWl0aW5pIGHFn8SxeW9yOiAnLAogICAgICBsb3dlc3RQeDogJ1Jlc21pbiBib3l1dHUgw6dvayBrw7zDp8O8ay4gRW4gYXogb2xtYXPEsSBnZXJla2VuOiAnCiAgICB9CiAgfSwKICAnZXMtTVgnOiB7CiAgICBoaW50OiAnU2VsZWNjaW9uYSBvIGFycmFzdHJhIHVuYSBpbWFnZW4nLAogICAgbG9hZGluZzogJ1N1YmllbmRvLi4uJywKICAgIG5vU3VwcG9ydGVkOiAnVHUgbmF2ZWdhZG9yIG5vIGVzIHNvcG9ydGFkbywgcG9yZmF2b3IgdXNhIElFMTArIHUgb3Ryb3MgbmF2ZWdhZG9yZXMgbWFzIHJlY2llbnRlcycsCiAgICBzdWNjZXNzOiAnU3ViaWRvIGV4aXRvc2FtZW50ZScsCiAgICBmYWlsOiAnU3VjZWRpw7MgdW4gZXJyb3InLAogICAgcHJldmlldzogJ1Zpc3RhIHByZXZpYScsCiAgICBidG46IHsKICAgICAgb2ZmOiAnQ2FuY2VsYXInLAogICAgICBjbG9zZTogJ0NlcnJhcicsCiAgICAgIGJhY2s6ICdBdHJhcycsCiAgICAgIHNhdmU6ICdHdWFyZGFyJwogICAgfSwKICAgIGVycm9yOiB7CiAgICAgIG9ubHlJbWc6ICdVbmljYW1lbnRlIGltYWdlbmVzJywKICAgICAgb3V0T2ZTaXplOiAnTGEgaW1hZ2VuIGV4Y2VkZSBlbCB0YW1hw7FvIG1heGltbzonLAogICAgICBsb3dlc3RQeDogJ0xhIGltYWdlbiBlcyBkZW1hc2lhZG8gcGVxdWXDsW8uIFNlIGVzcGVyYSBwb3IgbG8gbWVub3M6JwogICAgfQogIH0sCiAgZGU6IHsKICAgIGhpbnQ6ICdLbGljayBoaWVyIG9kZXIgemllaCBlaW5lIERhdGVpIGhpZXIgcmVpbiB6dW0gSG9jaGxhZGVuJywKICAgIGxvYWRpbmc6ICdIb2NobGFkZW7igKYnLAogICAgbm9TdXBwb3J0ZWQ6ICdCcm93c2VyIHdpcmQgbmljaHQgdW50ZXJzdMO8dHp0LCBiaXR0ZSB2ZXJ3ZW5kZSBJRTEwKyBvZGVyIGFuZGVyZSBCcm93c2VyJywKICAgIHN1Y2Nlc3M6ICdVcGxvYWQgZXJmb2xncmVpY2gnLAogICAgZmFpbDogJ1VwbG9hZCBmZWhsZ2VzY2hsYWdlbicsCiAgICBwcmV2aWV3OiAnVm9yc2NoYXUnLAogICAgYnRuOiB7CiAgICAgIG9mZjogJ0FiYnJlY2hlbicsCiAgICAgIGNsb3NlOiAnU2NobGllw59lbicsCiAgICAgIGJhY2s6ICdadXLDvGNrJywKICAgICAgc2F2ZTogJ1NwZWljaGVybicKICAgIH0sCiAgICBlcnJvcjogewogICAgICBvbmx5SW1nOiAnTnVyIEJpbGRlcicsCiAgICAgIG91dE9mU2l6ZTogJ0RhcyBCaWxkIGlzdCB6dSBncm/DnzogJywKICAgICAgbG93ZXN0UHg6ICdEYXMgQmlsZCBpc3QgenUga2xlaW4uIE1pbmRlc3RlbnM6ICcKICAgIH0KICB9LAogIGphOiB7CiAgICBoaW50OiAn44Kv44Oq44OD44Kv44O744OJ44Op44OD44Kw44GX44Gm44OV44Kh44Kk44Or44KS44Ki44OD44OX44Ot44O844OJJywKICAgIGxvYWRpbmc6ICfjgqLjg4Pjg5fjg63jg7zjg4nkuK0uLi4nLAogICAgbm9TdXBwb3J0ZWQ6ICfjgZPjga7jg5bjg6njgqbjgrbjga/lr77lv5zjgZXjgozjgabjgYTjgb7jgZvjgpPjgIJJRTEwK+OBi+OBneOBruS7luOBruS4u+imgeODluODqeOCpuOCtuOCkuOBiuS9v+OBhOOBj+OBoOOBleOBhOOAgicsCiAgICBzdWNjZXNzOiAn44Ki44OD44OX44Ot44O844OJ5oiQ5YqfJywKICAgIGZhaWw6ICfjgqLjg4Pjg5fjg63jg7zjg4nlpLHmlZcnLAogICAgcHJldmlldzogJ+ODl+ODrOODk+ODpeODvCcsCiAgICBidG46IHsKICAgICAgb2ZmOiAn44Kt44Oj44Oz44K744OrJywKICAgICAgY2xvc2U6ICfplonjgZjjgosnLAogICAgICBiYWNrOiAn5oi744KLJywKICAgICAgc2F2ZTogJ+S/neWtmCcKICAgIH0sCiAgICBlcnJvcjogewogICAgICBvbmx5SW1nOiAn55S75YOP44Gu44G/JywKICAgICAgb3V0T2ZTaXplOiAn55S75YOP44K144Kk44K644GM5LiK6ZmQ44KS6LaF44GI44Gm44GE44G+44GZ44CC5LiK6ZmQOiAnLAogICAgICBsb3dlc3RQeDogJ+eUu+WDj+OBjOWwj+OBleOBmeOBjuOBvuOBmeOAguacgOWwj+OCteOCpOOCujogJwogICAgfQogIH0KfQo=
+export default {
+  zh: {
+    hint: '点击，或拖动图片至此处',
+    loading: '正在上传……',
+    noSupported: '浏览器不支持该功能，请使用IE10以上或其他现在浏览器！',
+    success: '上传成功',
+    fail: '图片上传失败',
+    preview: '头像预览',
+    btn: {
+      off: '取消',
+      close: '关闭',
+      back: '上一步',
+      save: '保存'
+    },
+    error: {
+      onlyImg: '仅限图片格式',
+      outOfSize: '单文件大小不能超过 ',
+      lowestPx: '图片最低像素为（宽*高）：'
+    }
+  },
+  'zh-tw': {
+    hint: '點擊，或拖動圖片至此處',
+    loading: '正在上傳……',
+    noSupported: '瀏覽器不支持該功能，請使用IE10以上或其他現代瀏覽器！',
+    success: '上傳成功',
+    fail: '圖片上傳失敗',
+    preview: '頭像預覽',
+    btn: {
+      off: '取消',
+      close: '關閉',
+      back: '上一步',
+      save: '保存'
+    },
+    error: {
+      onlyImg: '僅限圖片格式',
+      outOfSize: '單文件大小不能超過 ',
+      lowestPx: '圖片最低像素為（寬*高）：'
+    }
+  },
+  en: {
+    hint: 'Click or drag the file here to upload',
+    loading: 'Uploading…',
+    noSupported: 'Browser is not supported, please use IE10+ or other browsers',
+    success: 'Upload success',
+    fail: 'Upload failed',
+    preview: 'Preview',
+    btn: {
+      off: 'Cancel',
+      close: 'Close',
+      back: 'Back',
+      save: 'Save'
+    },
+    error: {
+      onlyImg: 'Image only',
+      outOfSize: 'Image exceeds size limit: ',
+      lowestPx: 'Image\'s size is too low. Expected at least: '
+    }
+  },
+  ro: {
+    hint: 'Atinge sau trage fișierul aici',
+    loading: 'Se încarcă',
+    noSupported: 'Browser-ul tău nu suportă acest feature. Te rugăm încearcă cu alt browser.',
+    success: 'S-a încărcat cu succes',
+    fail: 'A apărut o problemă la încărcare',
+    preview: 'Previzualizează',
+
+    btn: {
+      off: 'Anulează',
+      close: 'Închide',
+      back: 'Înapoi',
+      save: 'Salvează'
+    },
+
+    error: {
+      onlyImg: 'Doar imagini',
+      outOfSize: 'Imaginea depășește limita de: ',
+      loewstPx: 'Imaginea este prea mică; Minim: '
+    }
+  },
+  ru: {
+    hint: 'Нажмите, или перетащите файл в это окно',
+    loading: 'Загружаю……',
+    noSupported: 'Ваш браузер не поддерживается, пожалуйста, используйте IE10 + или другие браузеры',
+    success: 'Загрузка выполнена успешно',
+    fail: 'Ошибка загрузки',
+    preview: 'Предпросмотр',
+    btn: {
+      off: 'Отменить',
+      close: 'Закрыть',
+      back: 'Назад',
+      save: 'Сохранить'
+    },
+    error: {
+      onlyImg: 'Только изображения',
+      outOfSize: 'Изображение превышает предельный размер: ',
+      lowestPx: 'Минимальный размер изображения: '
+    }
+  },
+  'pt-br': {
+    hint: 'Clique ou arraste o arquivo aqui para carregar',
+    loading: 'Carregando…',
+    noSupported: 'Browser não suportado, use o IE10+ ou outro browser',
+    success: 'Sucesso ao carregar imagem',
+    fail: 'Falha ao carregar imagem',
+    preview: 'Pré-visualizar',
+    btn: {
+      off: 'Cancelar',
+      close: 'Fechar',
+      back: 'Voltar',
+      save: 'Salvar'
+    },
+    error: {
+      onlyImg: 'Apenas imagens',
+      outOfSize: 'A imagem excede o limite de tamanho: ',
+      lowestPx: 'O tamanho da imagem é muito pequeno. Tamanho mínimo: '
+    }
+  },
+  fr: {
+    hint: 'Cliquez ou glissez le fichier ici.',
+    loading: 'Téléchargement…',
+    noSupported: 'Votre navigateur n\'est pas supporté. Utilisez IE10 + ou un autre navigateur s\'il vous plaît.',
+    success: 'Téléchargement réussit',
+    fail: 'Téléchargement echoué',
+    preview: 'Aperçu',
+    btn: {
+      off: 'Annuler',
+      close: 'Fermer',
+      back: 'Retour',
+      save: 'Enregistrer'
+    },
+    error: {
+      onlyImg: 'Image uniquement',
+      outOfSize: 'L\'image sélectionnée dépasse la taille maximum: ',
+      lowestPx: 'L\'image sélectionnée est trop petite. Dimensions attendues: '
+    }
+  },
+  nl: {
+    hint: 'Klik hier of sleep een afbeelding in dit vlak',
+    loading: 'Uploaden…',
+    noSupported: 'Je browser wordt helaas niet ondersteund. Gebruik IE10+ of een andere browser.',
+    success: 'Upload succesvol',
+    fail: 'Upload mislukt',
+    preview: 'Voorbeeld',
+    btn: {
+      off: 'Annuleren',
+      close: 'Sluiten',
+      back: 'Terug',
+      save: 'Opslaan'
+    },
+    error: {
+      onlyImg: 'Alleen afbeeldingen',
+      outOfSize: 'De afbeelding is groter dan: ',
+      lowestPx: 'De afbeelding is te klein! Minimale afmetingen: '
+    }
+  },
+  tr: {
+    hint: 'Tıkla veya yüklemek istediğini buraya sürükle',
+    loading: 'Yükleniyor…',
+    noSupported: 'Tarayıcı desteklenmiyor, lütfen IE10+ veya farklı tarayıcı kullanın',
+    success: 'Yükleme başarılı',
+    fail: 'Yüklemede hata oluştu',
+    preview: 'Önizle',
+    btn: {
+      off: 'İptal',
+      close: 'Kapat',
+      back: 'Geri',
+      save: 'Kaydet'
+    },
+    error: {
+      onlyImg: 'Sadece resim',
+      outOfSize: 'Resim yükleme limitini aşıyor: ',
+      lowestPx: 'Resmin boyutu çok küçük. En az olması gereken: '
+    }
+  },
+  'es-MX': {
+    hint: 'Selecciona o arrastra una imagen',
+    loading: 'Subiendo...',
+    noSupported: 'Tu navegador no es soportado, porfavor usa IE10+ u otros navegadores mas recientes',
+    success: 'Subido exitosamente',
+    fail: 'Sucedió un error',
+    preview: 'Vista previa',
+    btn: {
+      off: 'Cancelar',
+      close: 'Cerrar',
+      back: 'Atras',
+      save: 'Guardar'
+    },
+    error: {
+      onlyImg: 'Unicamente imagenes',
+      outOfSize: 'La imagen excede el tamaño maximo:',
+      lowestPx: 'La imagen es demasiado pequeño. Se espera por lo menos:'
+    }
+  },
+  de: {
+    hint: 'Klick hier oder zieh eine Datei hier rein zum Hochladen',
+    loading: 'Hochladen…',
+    noSupported: 'Browser wird nicht unterstützt, bitte verwende IE10+ oder andere Browser',
+    success: 'Upload erfolgreich',
+    fail: 'Upload fehlgeschlagen',
+    preview: 'Vorschau',
+    btn: {
+      off: 'Abbrechen',
+      close: 'Schließen',
+      back: 'Zurück',
+      save: 'Speichern'
+    },
+    error: {
+      onlyImg: 'Nur Bilder',
+      outOfSize: 'Das Bild ist zu groß: ',
+      lowestPx: 'Das Bild ist zu klein. Mindestens: '
+    }
+  },
+  ja: {
+    hint: 'クリック・ドラッグしてファイルをアップロード',
+    loading: 'アップロード中...',
+    noSupported: 'このブラウザは対応されていません。IE10+かその他の主要ブラウザをお使いください。',
+    success: 'アップロード成功',
+    fail: 'アップロード失敗',
+    preview: 'プレビュー',
+    btn: {
+      off: 'キャンセル',
+      close: '閉じる',
+      back: '戻る',
+      save: '保存'
+    },
+    error: {
+      onlyImg: '画像のみ',
+      outOfSize: '画像サイズが上限を超えています。上限: ',
+      lowestPx: '画像が小さすぎます。最小サイズ: '
+    }
+  }
+}

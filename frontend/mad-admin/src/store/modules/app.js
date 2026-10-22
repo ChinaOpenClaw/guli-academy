@@ -1,1 +1,43 @@
-aW1wb3J0IENvb2tpZXMgZnJvbSAnanMtY29va2llJwoKY29uc3QgYXBwID0gewogIHN0YXRlOiB7CiAgICBzaWRlYmFyOiB7CiAgICAgIG9wZW5lZDogIStDb29raWVzLmdldCgnc2lkZWJhclN0YXR1cycpLAogICAgICB3aXRob3V0QW5pbWF0aW9uOiBmYWxzZQogICAgfSwKICAgIGRldmljZTogJ2Rlc2t0b3AnCiAgfSwKICBtdXRhdGlvbnM6IHsKICAgIFRPR0dMRV9TSURFQkFSOiBzdGF0ZSA9PiB7CiAgICAgIGlmIChzdGF0ZS5zaWRlYmFyLm9wZW5lZCkgewogICAgICAgIENvb2tpZXMuc2V0KCdzaWRlYmFyU3RhdHVzJywgMSkKICAgICAgfSBlbHNlIHsKICAgICAgICBDb29raWVzLnNldCgnc2lkZWJhclN0YXR1cycsIDApCiAgICAgIH0KICAgICAgc3RhdGUuc2lkZWJhci5vcGVuZWQgPSAhc3RhdGUuc2lkZWJhci5vcGVuZWQKICAgICAgc3RhdGUuc2lkZWJhci53aXRob3V0QW5pbWF0aW9uID0gZmFsc2UKICAgIH0sCiAgICBDTE9TRV9TSURFQkFSOiAoc3RhdGUsIHdpdGhvdXRBbmltYXRpb24pID0+IHsKICAgICAgQ29va2llcy5zZXQoJ3NpZGViYXJTdGF0dXMnLCAxKQogICAgICBzdGF0ZS5zaWRlYmFyLm9wZW5lZCA9IGZhbHNlCiAgICAgIHN0YXRlLnNpZGViYXIud2l0aG91dEFuaW1hdGlvbiA9IHdpdGhvdXRBbmltYXRpb24KICAgIH0sCiAgICBUT0dHTEVfREVWSUNFOiAoc3RhdGUsIGRldmljZSkgPT4gewogICAgICBzdGF0ZS5kZXZpY2UgPSBkZXZpY2UKICAgIH0KICB9LAogIGFjdGlvbnM6IHsKICAgIFRvZ2dsZVNpZGVCYXI6ICh7IGNvbW1pdCB9KSA9PiB7CiAgICAgIGNvbW1pdCgnVE9HR0xFX1NJREVCQVInKQogICAgfSwKICAgIENsb3NlU2lkZUJhcih7IGNvbW1pdCB9LCB7IHdpdGhvdXRBbmltYXRpb24gfSkgewogICAgICBjb21taXQoJ0NMT1NFX1NJREVCQVInLCB3aXRob3V0QW5pbWF0aW9uKQogICAgfSwKICAgIFRvZ2dsZURldmljZSh7IGNvbW1pdCB9LCBkZXZpY2UpIHsKICAgICAgY29tbWl0KCdUT0dHTEVfREVWSUNFJywgZGV2aWNlKQogICAgfQogIH0KfQoKZXhwb3J0IGRlZmF1bHQgYXBwCg==
+import Cookies from 'js-cookie'
+
+const app = {
+  state: {
+    sidebar: {
+      opened: !+Cookies.get('sidebarStatus'),
+      withoutAnimation: false
+    },
+    device: 'desktop'
+  },
+  mutations: {
+    TOGGLE_SIDEBAR: state => {
+      if (state.sidebar.opened) {
+        Cookies.set('sidebarStatus', 1)
+      } else {
+        Cookies.set('sidebarStatus', 0)
+      }
+      state.sidebar.opened = !state.sidebar.opened
+      state.sidebar.withoutAnimation = false
+    },
+    CLOSE_SIDEBAR: (state, withoutAnimation) => {
+      Cookies.set('sidebarStatus', 1)
+      state.sidebar.opened = false
+      state.sidebar.withoutAnimation = withoutAnimation
+    },
+    TOGGLE_DEVICE: (state, device) => {
+      state.device = device
+    }
+  },
+  actions: {
+    ToggleSideBar: ({ commit }) => {
+      commit('TOGGLE_SIDEBAR')
+    },
+    CloseSideBar({ commit }, { withoutAnimation }) {
+      commit('CLOSE_SIDEBAR', withoutAnimation)
+    },
+    ToggleDevice({ commit }, device) {
+      commit('TOGGLE_DEVICE', device)
+    }
+  }
+}
+
+export default app

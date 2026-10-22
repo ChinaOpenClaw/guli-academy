@@ -1,1 +1,41 @@
-cGFja2FnZSBjb20ubWFkLmNvbW1vbi5jb25zdGFudHM7CgppbXBvcnQgbG9tYm9rLkdldHRlcjsKCi8qKgogKiBAYXV0aG9yIGhlbGVuCiAqIEBzaW5jZSAyMDE5LzYvMjQKICovCkBHZXR0ZXIKcHVibGljIGVudW0gUmVzdWx0Q29kZUVudW0gewoKCVNVQ0NFU1ModHJ1ZSwgMjAwMDAsIuaIkOWKnyIpLAoJVU5LTk9XTl9SRUFTT04oZmFsc2UsIDIwMDAxLCAi5pyq55+l6ZSZ6K+vIiksCglCQURfU1FMX0dSQU1NQVIoZmFsc2UsIDIxMDAxLCAic3Fs6K+t5rOV6ZSZ6K+vIiksCglKU09OX1BBUlNFX0VSUk9SKGZhbHNlLCAyMTAwMiwgImpzb27op6PmnpDlvILluLgiKSwKCVBBUkFNX0VSUk9SKGZhbHNlLCAyMTAwMywgIuWPguaVsOS4jeato+ehriIpLAoJRklMRV9VUExPQURfRVJST1IoZmFsc2UsIDIxMDA0LCAi5paH5Lu25LiK5Lyg6ZSZ6K+vIiksCglFWENFTF9EQVRBX0lNUE9SVF9FUlJPUihmYWxzZSwgMjEwMDUsICJFeGNlbOaVsOaNruWvvOWFpemUmeivryIpLAoKCVZJREVPX1VQTE9BRF9FUlJPUihmYWxzZSwgMjIwMDEsICLpmL/ph4zkupHop4bpopHkuIrkvKDplJnor68iKSwKCVZJREVPX0RFTEVURV9BTElZVU5fRVJST1IoZmFsc2UsIDIyMDAyLCAi6Zi/6YeM5LqR6KeG6aKR5Yig6Zmk6ZSZ6K+vIiksCglGRVRDSF9WSURFT19VUExPQURBVVRIX0VSUk9SKGZhbHNlLCAyMjAwMywgIumYv+mHjOS6keiOt+WPluS4iuS8oOWHreivgemUmeivryIpLAoJUkVGUkVTSF9WSURFT19VUExPQURBVVRIX0VSUk9SKGZhbHNlLCAyMjAwNCwgIumYv+mHjOS6keWIt+aWsOS8oOWHreivgemUmeivryIpLAoJRkVUQ0hfVklERU9fUExBWUFVVEhfRVJST1IoZmFsc2UsIDIyMDA1LCAi6Zi/6YeM5LqR5pKt5pS+5Yet6K+B6I635Y+W6ZSZ6K+vIiksCgoJVVJMX0VOQ09ERV9FUlJPUihmYWxzZSwgMjMwMDEsICJVUkzovaznoIHplJnor68iKSwKCUlMTEVHQUxfQ0FMTEJBQ0tfUkVRVUVTVF9FUlJPUihmYWxzZSwgMjMwMDIsICLpnZ7ms5Xlm57osIPlj4LmlbDplJnor68iKSwKCUZFVENIX0FDQ0VTU19UT0tFTl9FUlJPUihmYWxzZSwgMjMwMDMsICLojrflj5bmjojmnYPnoIHplJnor68iKSwKCUZFVENIX1VTRVJfSU5GT19FUlJPUihmYWxzZSwgMjMwMDQsICLojrflj5blvq7kv6HnlKjmiLfkv6Hmga/plJnor68iKTsKCgoJcHJpdmF0ZSBCb29sZWFuIHN1Y2Nlc3M7Ly/lk43lupTmmK/lkKbmiJDlip8KCXByaXZhdGUgSW50ZWdlciBjb2RlOy8v6L+U5Zue56CBCglwcml2YXRlIFN0cmluZyBtZXNzYWdlOy8v6L+U5Zue5raI5oGvCgoJUmVzdWx0Q29kZUVudW0oQm9vbGVhbiBzdWNjZXNzLCBJbnRlZ2VyIGNvZGUsIFN0cmluZyBtZXNzYWdlKSB7CgkJdGhpcy5zdWNjZXNzID0gc3VjY2VzczsKCQl0aGlzLmNvZGUgPSBjb2RlOwoJCXRoaXMubWVzc2FnZSA9IG1lc3NhZ2U7Cgl9Cn0K
+package com.mad.common.constants;
+
+import lombok.Getter;
+
+/**
+ * @author helen
+ * @since 2019/6/24
+ */
+@Getter
+public enum ResultCodeEnum {
+
+	SUCCESS(true, 20000,"成功"),
+	UNKNOWN_REASON(false, 20001, "未知错误"),
+	BAD_SQL_GRAMMAR(false, 21001, "sql语法错误"),
+	JSON_PARSE_ERROR(false, 21002, "json解析异常"),
+	PARAM_ERROR(false, 21003, "参数不正确"),
+	FILE_UPLOAD_ERROR(false, 21004, "文件上传错误"),
+	EXCEL_DATA_IMPORT_ERROR(false, 21005, "Excel数据导入错误"),
+
+	VIDEO_UPLOAD_ERROR(false, 22001, "阿里云视频上传错误"),
+	VIDEO_DELETE_ALIYUN_ERROR(false, 22002, "阿里云视频删除错误"),
+	FETCH_VIDEO_UPLOADAUTH_ERROR(false, 22003, "阿里云获取上传凭证错误"),
+	REFRESH_VIDEO_UPLOADAUTH_ERROR(false, 22004, "阿里云刷新传凭证错误"),
+	FETCH_VIDEO_PLAYAUTH_ERROR(false, 22005, "阿里云播放凭证获取错误"),
+
+	URL_ENCODE_ERROR(false, 23001, "URL转码错误"),
+	ILLEGAL_CALLBACK_REQUEST_ERROR(false, 23002, "非法回调参数错误"),
+	FETCH_ACCESS_TOKEN_ERROR(false, 23003, "获取授权码错误"),
+	FETCH_USER_INFO_ERROR(false, 23004, "获取微信用户信息错误");
+
+
+	private Boolean success;//响应是否成功
+	private Integer code;//返回码
+	private String message;//返回消息
+
+	ResultCodeEnum(Boolean success, Integer code, String message) {
+		this.success = success;
+		this.code = code;
+		this.message = message;
+	}
+}

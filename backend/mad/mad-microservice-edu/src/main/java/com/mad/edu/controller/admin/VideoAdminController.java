@@ -1,1 +1,74 @@
-cGFja2FnZSBjb20ubWFkLmVkdS5jb250cm9sbGVyLmFkbWluOwoKCmltcG9ydCBjb20ubWFkLmNvbW1vbi52by5SOwppbXBvcnQgY29tLm1hZC5lZHUuZm9ybS5WaWRlb0luZm9Gb3JtOwppbXBvcnQgY29tLm1hZC5lZHUuc2VydmljZS5WaWRlb1NlcnZpY2U7CmltcG9ydCBpby5zd2FnZ2VyLmFubm90YXRpb25zLkFwaTsKaW1wb3J0IGlvLnN3YWdnZXIuYW5ub3RhdGlvbnMuQXBpT3BlcmF0aW9uOwppbXBvcnQgaW8uc3dhZ2dlci5hbm5vdGF0aW9ucy5BcGlQYXJhbTsKaW1wb3J0IG9yZy5zcHJpbmdmcmFtZXdvcmsuYmVhbnMuZmFjdG9yeS5hbm5vdGF0aW9uLkF1dG93aXJlZDsKaW1wb3J0IG9yZy5zcHJpbmdmcmFtZXdvcmsud2ViLmJpbmQuYW5ub3RhdGlvbi4qOwoKLyoqCiAqIDxwPgogKiDor77nqIvop4bpopEg5YmN56uv5o6n5Yi25ZmoCiAqIDwvcD4KICoKICogQGF1dGhvciBIZWxlbgogKiBAc2luY2UgMjAxOS0wNi0yNAogKi8KQEFwaShkZXNjcmlwdGlvbj0i6K++5pe2566h55CGIikKQENyb3NzT3JpZ2luIC8v6Leo5Z+fCkBSZXN0Q29udHJvbGxlcgpAUmVxdWVzdE1hcHBpbmcoIi9hZG1pbi9lZHUvdmlkZW8iKQpwdWJsaWMgY2xhc3MgVmlkZW9BZG1pbkNvbnRyb2xsZXIgewoKCUBBdXRvd2lyZWQKCXByaXZhdGUgVmlkZW9TZXJ2aWNlIHZpZGVvU2VydmljZTsKCglAQXBpT3BlcmF0aW9uKHZhbHVlID0gIuaWsOWinuivvuaXtiIpCglAUG9zdE1hcHBpbmcoInNhdmUtdmlkZW8taW5mbyIpCglwdWJsaWMgUiBzYXZlKAoJCQlAQXBpUGFyYW0obmFtZSA9ICJ2aWRlb0Zvcm0iLCB2YWx1ZSA9ICLor77ml7blr7nosaEiLCByZXF1aXJlZCA9IHRydWUpCgkJCUBSZXF1ZXN0Qm9keSBWaWRlb0luZm9Gb3JtIHZpZGVvSW5mb0Zvcm0pewoKCQl2aWRlb1NlcnZpY2Uuc2F2ZVZpZGVvSW5mbyh2aWRlb0luZm9Gb3JtKTsKCQlyZXR1cm4gUi5vaygpOwoJfQoKCUBBcGlPcGVyYXRpb24odmFsdWUgPSAi5qC55o2uSUTmn6Xor6Lor77ml7YiKQoJQEdldE1hcHBpbmcoInZpZGVvLWluZm8ve2lkfSIpCglwdWJsaWMgUiBnZXRWaWRlSW5mb0J5SWQoCgkJCUBBcGlQYXJhbShuYW1lID0gImlkIiwgdmFsdWUgPSAi6K++5pe2SUQiLCByZXF1aXJlZCA9IHRydWUpCgkJCUBQYXRoVmFyaWFibGUgU3RyaW5nIGlkKXsKCgkJVmlkZW9JbmZvRm9ybSB2aWRlb0luZm9Gb3JtID0gdmlkZW9TZXJ2aWNlLmdldFZpZGVvSW5mb0Zvcm1CeUlkKGlkKTsKCQlyZXR1cm4gUi5vaygpLmRhdGEoIml0ZW0iLCB2aWRlb0luZm9Gb3JtKTsKCX0KCglAQXBpT3BlcmF0aW9uKHZhbHVlID0gIuabtOaWsOivvuaXtiIpCglAUHV0TWFwcGluZygidXBkYXRlLXZpZGVvLWluZm8ve2lkfSIpCglwdWJsaWMgUiB1cGRhdGVDb3Vyc2VJbmZvQnlJZCgKCQkJQEFwaVBhcmFtKG5hbWUgPSAiVmlkZW9JbmZvRm9ybSIsIHZhbHVlID0gIuivvuaXtuWfuuacrOS/oeaBryIsIHJlcXVpcmVkID0gdHJ1ZSkKCQkJQFJlcXVlc3RCb2R5IFZpZGVvSW5mb0Zvcm0gdmlkZW9JbmZvRm9ybSwKCgkJCUBBcGlQYXJhbShuYW1lID0gImlkIiwgdmFsdWUgPSAi6K++5pe2SUQiLCByZXF1aXJlZCA9IHRydWUpCgkJCUBQYXRoVmFyaWFibGUgU3RyaW5nIGlkKXsKCgkJdmlkZW9TZXJ2aWNlLnVwZGF0ZVZpZGVvSW5mb0J5SWQodmlkZW9JbmZvRm9ybSk7CgkJcmV0dXJuIFIub2soKTsKCX0KCglAQXBpT3BlcmF0aW9uKHZhbHVlID0gIuagueaNrklE5Yig6Zmk6K++5pe2IikKCUBEZWxldGVNYXBwaW5nKCJ7aWR9IikKCXB1YmxpYyBSIHJlbW92ZUJ5SWQoCgkJCUBBcGlQYXJhbShuYW1lID0gImlkIiwgdmFsdWUgPSAi6K++5pe2SUQiLCByZXF1aXJlZCA9IHRydWUpCgkJCUBQYXRoVmFyaWFibGUgU3RyaW5nIGlkKXsKCgkJdmlkZW9TZXJ2aWNlLnJlbW92ZVZpZGVvQnlJZChpZCk7CgkJcmV0dXJuIFIub2soKTsKCX0KCn0KCg==
+package com.mad.edu.controller.admin;
+
+
+import com.mad.common.vo.R;
+import com.mad.edu.form.VideoInfoForm;
+import com.mad.edu.service.VideoService;
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
+import io.swagger.annotations.ApiParam;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
+
+/**
+ * <p>
+ * 课程视频 前端控制器
+ * </p>
+ *
+ * @author Helen
+ * @since 2019-06-24
+ */
+@Api(description="课时管理")
+@CrossOrigin //跨域
+@RestController
+@RequestMapping("/admin/edu/video")
+public class VideoAdminController {
+
+	@Autowired
+	private VideoService videoService;
+
+	@ApiOperation(value = "新增课时")
+	@PostMapping("save-video-info")
+	public R save(
+			@ApiParam(name = "videoForm", value = "课时对象", required = true)
+			@RequestBody VideoInfoForm videoInfoForm){
+
+		videoService.saveVideoInfo(videoInfoForm);
+		return R.ok();
+	}
+
+	@ApiOperation(value = "根据ID查询课时")
+	@GetMapping("video-info/{id}")
+	public R getVideInfoById(
+			@ApiParam(name = "id", value = "课时ID", required = true)
+			@PathVariable String id){
+
+		VideoInfoForm videoInfoForm = videoService.getVideoInfoFormById(id);
+		return R.ok().data("item", videoInfoForm);
+	}
+
+	@ApiOperation(value = "更新课时")
+	@PutMapping("update-video-info/{id}")
+	public R updateCourseInfoById(
+			@ApiParam(name = "VideoInfoForm", value = "课时基本信息", required = true)
+			@RequestBody VideoInfoForm videoInfoForm,
+
+			@ApiParam(name = "id", value = "课时ID", required = true)
+			@PathVariable String id){
+
+		videoService.updateVideoInfoById(videoInfoForm);
+		return R.ok();
+	}
+
+	@ApiOperation(value = "根据ID删除课时")
+	@DeleteMapping("{id}")
+	public R removeById(
+			@ApiParam(name = "id", value = "课时ID", required = true)
+			@PathVariable String id){
+
+		videoService.removeVideoById(id);
+		return R.ok();
+	}
+
+}
+

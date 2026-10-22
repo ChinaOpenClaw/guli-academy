@@ -1,1 +1,78 @@
-PHRlbXBsYXRlPgogIDxkaXYgY2xhc3M9ImFwcC1jb250YWluZXIiPgogICAgPGVsLXRhYmxlCiAgICAgIHYtbG9hZGluZz0ibGlzdExvYWRpbmciCiAgICAgIDpkYXRhPSJsaXN0IgogICAgICBlbGVtZW50LWxvYWRpbmctdGV4dD0iTG9hZGluZyIKICAgICAgYm9yZGVyCiAgICAgIGZpdAogICAgICBoaWdobGlnaHQtY3VycmVudC1yb3c+CiAgICAgIDxlbC10YWJsZS1jb2x1bW4gYWxpZ249ImNlbnRlciIgbGFiZWw9IklEIiB3aWR0aD0iOTUiPgogICAgICAgIDx0ZW1wbGF0ZSBzbG90LXNjb3BlPSJzY29wZSI+CiAgICAgICAgICB7eyBzY29wZS4kaW5kZXggfX0KICAgICAgICA8L3RlbXBsYXRlPgogICAgICA8L2VsLXRhYmxlLWNvbHVtbj4KICAgICAgPGVsLXRhYmxlLWNvbHVtbiBsYWJlbD0iVGl0bGUiPgogICAgICAgIDx0ZW1wbGF0ZSBzbG90LXNjb3BlPSJzY29wZSI+CiAgICAgICAgICB7eyBzY29wZS5yb3cudGl0bGUgfX0KICAgICAgICA8L3RlbXBsYXRlPgogICAgICA8L2VsLXRhYmxlLWNvbHVtbj4KICAgICAgPGVsLXRhYmxlLWNvbHVtbiBsYWJlbD0iQXV0aG9yIiB3aWR0aD0iMTEwIiBhbGlnbj0iY2VudGVyIj4KICAgICAgICA8dGVtcGxhdGUgc2xvdC1zY29wZT0ic2NvcGUiPgogICAgICAgICAgPHNwYW4+e3sgc2NvcGUucm93LmF1dGhvciB9fTwvc3Bhbj4KICAgICAgICA8L3RlbXBsYXRlPgogICAgICA8L2VsLXRhYmxlLWNvbHVtbj4KICAgICAgPGVsLXRhYmxlLWNvbHVtbiBsYWJlbD0iUGFnZXZpZXdzIiB3aWR0aD0iMTEwIiBhbGlnbj0iY2VudGVyIj4KICAgICAgICA8dGVtcGxhdGUgc2xvdC1zY29wZT0ic2NvcGUiPgogICAgICAgICAge3sgc2NvcGUucm93LnBhZ2V2aWV3cyB9fQogICAgICAgIDwvdGVtcGxhdGU+CiAgICAgIDwvZWwtdGFibGUtY29sdW1uPgogICAgICA8ZWwtdGFibGUtY29sdW1uIGNsYXNzLW5hbWU9InN0YXR1cy1jb2wiIGxhYmVsPSJTdGF0dXMiIHdpZHRoPSIxMTAiIGFsaWduPSJjZW50ZXIiPgogICAgICAgIDx0ZW1wbGF0ZSBzbG90LXNjb3BlPSJzY29wZSI+CiAgICAgICAgICA8ZWwtdGFnIDp0eXBlPSJzY29wZS5yb3cuc3RhdHVzIHwgc3RhdHVzRmlsdGVyIj57eyBzY29wZS5yb3cuc3RhdHVzIH19PC9lbC10YWc+CiAgICAgICAgPC90ZW1wbGF0ZT4KICAgICAgPC9lbC10YWJsZS1jb2x1bW4+CiAgICAgIDxlbC10YWJsZS1jb2x1bW4gYWxpZ249ImNlbnRlciIgcHJvcD0iY3JlYXRlZF9hdCIgbGFiZWw9IkRpc3BsYXlfdGltZSIgd2lkdGg9IjIwMCI+CiAgICAgICAgPHRlbXBsYXRlIHNsb3Qtc2NvcGU9InNjb3BlIj4KICAgICAgICAgIDxpIGNsYXNzPSJlbC1pY29uLXRpbWUiLz4KICAgICAgICAgIDxzcGFuPnt7IHNjb3BlLnJvdy5kaXNwbGF5X3RpbWUgfX08L3NwYW4+CiAgICAgICAgPC90ZW1wbGF0ZT4KICAgICAgPC9lbC10YWJsZS1jb2x1bW4+CiAgICA8L2VsLXRhYmxlPgogIDwvZGl2Pgo8L3RlbXBsYXRlPgoKPHNjcmlwdD4KaW1wb3J0IHsgZ2V0TGlzdCB9IGZyb20gJ0AvYXBpL3RhYmxlJwoKZXhwb3J0IGRlZmF1bHQgewogIGZpbHRlcnM6IHsKICAgIHN0YXR1c0ZpbHRlcihzdGF0dXMpIHsKICAgICAgY29uc3Qgc3RhdHVzTWFwID0gewogICAgICAgIHB1Ymxpc2hlZDogJ3N1Y2Nlc3MnLAogICAgICAgIGRyYWZ0OiAnZ3JheScsCiAgICAgICAgZGVsZXRlZDogJ2RhbmdlcicKICAgICAgfQogICAgICByZXR1cm4gc3RhdHVzTWFwW3N0YXR1c10KICAgIH0KICB9LAogIGRhdGEoKSB7CiAgICByZXR1cm4gewogICAgICBsaXN0OiBudWxsLAogICAgICBsaXN0TG9hZGluZzogdHJ1ZQogICAgfQogIH0sCiAgY3JlYXRlZCgpIHsKICAgIHRoaXMuZmV0Y2hEYXRhKCkKICB9LAogIG1ldGhvZHM6IHsKICAgIGZldGNoRGF0YSgpIHsKICAgICAgdGhpcy5saXN0TG9hZGluZyA9IHRydWUKICAgICAgZ2V0TGlzdCh0aGlzLmxpc3RRdWVyeSkudGhlbihyZXNwb25zZSA9PiB7CiAgICAgICAgdGhpcy5saXN0ID0gcmVzcG9uc2UuZGF0YS5pdGVtcwogICAgICAgIHRoaXMubGlzdExvYWRpbmcgPSBmYWxzZQogICAgICB9KQogICAgfQogIH0KfQo8L3NjcmlwdD4K
+<template>
+  <div class="app-container">
+    <el-table
+      v-loading="listLoading"
+      :data="list"
+      element-loading-text="Loading"
+      border
+      fit
+      highlight-current-row>
+      <el-table-column align="center" label="ID" width="95">
+        <template slot-scope="scope">
+          {{ scope.$index }}
+        </template>
+      </el-table-column>
+      <el-table-column label="Title">
+        <template slot-scope="scope">
+          {{ scope.row.title }}
+        </template>
+      </el-table-column>
+      <el-table-column label="Author" width="110" align="center">
+        <template slot-scope="scope">
+          <span>{{ scope.row.author }}</span>
+        </template>
+      </el-table-column>
+      <el-table-column label="Pageviews" width="110" align="center">
+        <template slot-scope="scope">
+          {{ scope.row.pageviews }}
+        </template>
+      </el-table-column>
+      <el-table-column class-name="status-col" label="Status" width="110" align="center">
+        <template slot-scope="scope">
+          <el-tag :type="scope.row.status | statusFilter">{{ scope.row.status }}</el-tag>
+        </template>
+      </el-table-column>
+      <el-table-column align="center" prop="created_at" label="Display_time" width="200">
+        <template slot-scope="scope">
+          <i class="el-icon-time"/>
+          <span>{{ scope.row.display_time }}</span>
+        </template>
+      </el-table-column>
+    </el-table>
+  </div>
+</template>
+
+<script>
+import { getList } from '@/api/table'
+
+export default {
+  filters: {
+    statusFilter(status) {
+      const statusMap = {
+        published: 'success',
+        draft: 'gray',
+        deleted: 'danger'
+      }
+      return statusMap[status]
+    }
+  },
+  data() {
+    return {
+      list: null,
+      listLoading: true
+    }
+  },
+  created() {
+    this.fetchData()
+  },
+  methods: {
+    fetchData() {
+      this.listLoading = true
+      getList(this.listQuery).then(response => {
+        this.list = response.data.items
+        this.listLoading = false
+      })
+    }
+  }
+}
+</script>

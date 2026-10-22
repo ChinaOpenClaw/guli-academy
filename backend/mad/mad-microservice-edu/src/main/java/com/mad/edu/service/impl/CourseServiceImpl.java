@@ -1,1 +1,231 @@
-cGFja2FnZSBjb20ubWFkLmVkdS5zZXJ2aWNlLmltcGw7CgppbXBvcnQgY29tLmJhb21pZG91Lm15YmF0aXNwbHVzLmNvcmUuY29uZGl0aW9ucy5xdWVyeS5RdWVyeVdyYXBwZXI7CmltcG9ydCBjb20uYmFvbWlkb3UubXliYXRpc3BsdXMuZXh0ZW5zaW9uLnBsdWdpbnMucGFnaW5hdGlvbi5QYWdlOwppbXBvcnQgY29tLmJhb21pZG91Lm15YmF0aXNwbHVzLmV4dGVuc2lvbi5zZXJ2aWNlLmltcGwuU2VydmljZUltcGw7CmltcG9ydCBjb20ubWFkLmNvbW1vbi5leGNlcHRpb24uTWFkRXhjZXB0aW9uOwppbXBvcnQgY29tLm1hZC5lZHUuZW50aXR5LkNoYXB0ZXI7CmltcG9ydCBjb20ubWFkLmVkdS5lbnRpdHkuQ291cnNlOwppbXBvcnQgY29tLm1hZC5lZHUuZW50aXR5LkNvdXJzZURlc2NyaXB0aW9uOwppbXBvcnQgY29tLm1hZC5lZHUuZW50aXR5LlZpZGVvOwppbXBvcnQgY29tLm1hZC5lZHUuZm9ybS5Db3Vyc2VJbmZvRm9ybTsKaW1wb3J0IGNvbS5tYWQuZWR1Lm1hcHBlci5DaGFwdGVyTWFwcGVyOwppbXBvcnQgY29tLm1hZC5lZHUubWFwcGVyLkNvdXJzZURlc2NyaXB0aW9uTWFwcGVyOwppbXBvcnQgY29tLm1hZC5lZHUubWFwcGVyLkNvdXJzZU1hcHBlcjsKaW1wb3J0IGNvbS5tYWQuZWR1Lm1hcHBlci5WaWRlb01hcHBlcjsKaW1wb3J0IGNvbS5tYWQuZWR1LnF1ZXJ5LkNvdXJzZVF1ZXJ5OwppbXBvcnQgY29tLm1hZC5lZHUuc2VydmljZS5Db3Vyc2VTZXJ2aWNlOwppbXBvcnQgY29tLm1hZC5lZHUudm8uQ291cnNlUHVibGlzaFZvOwppbXBvcnQgY29tLm1hZC5lZHUudm8uQ291cnNlV2ViVm87CmltcG9ydCBvcmcuc3ByaW5nZnJhbWV3b3JrLmJlYW5zLkJlYW5VdGlsczsKaW1wb3J0IG9yZy5zcHJpbmdmcmFtZXdvcmsuYmVhbnMuZmFjdG9yeS5hbm5vdGF0aW9uLkF1dG93aXJlZDsKaW1wb3J0IG9yZy5zcHJpbmdmcmFtZXdvcmsuc3RlcmVvdHlwZS5TZXJ2aWNlOwppbXBvcnQgb3JnLnNwcmluZ2ZyYW1ld29yay50cmFuc2FjdGlvbi5hbm5vdGF0aW9uLlRyYW5zYWN0aW9uYWw7CmltcG9ydCBvcmcuc3ByaW5nZnJhbWV3b3JrLnV0aWwuU3RyaW5nVXRpbHM7CgppbXBvcnQgamF2YS51dGlsLkhhc2hNYXA7CmltcG9ydCBqYXZhLnV0aWwuTGlzdDsKaW1wb3J0IGphdmEudXRpbC5NYXA7CgovKioKICogPHA+CiAqIOivvueoiyDmnI3liqHlrp7njrDnsbsKICogPC9wPgogKgogKiBAYXV0aG9yIEhlbGVuCiAqIEBzaW5jZSAyMDE5LTA2LTI0CiAqLwpAU2VydmljZQpwdWJsaWMgY2xhc3MgQ291cnNlU2VydmljZUltcGwgZXh0ZW5kcyBTZXJ2aWNlSW1wbDxDb3Vyc2VNYXBwZXIsIENvdXJzZT4gaW1wbGVtZW50cyBDb3Vyc2VTZXJ2aWNlIHsKCglAQXV0b3dpcmVkCglwcml2YXRlIENvdXJzZURlc2NyaXB0aW9uTWFwcGVyIGNvdXJzZURlc2NyaXB0aW9uTWFwcGVyOwoJQEF1dG93aXJlZAoJcHJpdmF0ZSBWaWRlb01hcHBlciB2aWRlb01hcHBlcjsKCUBBdXRvd2lyZWQKCXByaXZhdGUgQ2hhcHRlck1hcHBlciBjaGFwdGVyTWFwcGVyOwoKCglAVHJhbnNhY3Rpb25hbAoJQE92ZXJyaWRlCglwdWJsaWMgU3RyaW5nIHNhdmVDb3Vyc2VJbmZvKENvdXJzZUluZm9Gb3JtIGNvdXJzZUluZm9Gb3JtKSB7CgoJCS8v5L+d5a2Y6K++56iL5Z+65pys5L+h5oGvCgkJQ291cnNlIGNvdXJzZSA9IG5ldyBDb3Vyc2UoKTsKCQlCZWFuVXRpbHMuY29weVByb3BlcnRpZXMoY291cnNlSW5mb0Zvcm0sIGNvdXJzZSk7CgkJY291cnNlLnNldFN0YXR1cyhDb3Vyc2UuQ09VUlNFX0RSQUZUKTsKCQliYXNlTWFwcGVyLmluc2VydChjb3Vyc2UpOwoKCQkvL+S/neWtmOivvueoi+ivpuaDheS/oeaBrwoJCUNvdXJzZURlc2NyaXB0aW9uIGNvdXJzZURlc2NyaXB0aW9uID0gbmV3IENvdXJzZURlc2NyaXB0aW9uKCk7CgkJY291cnNlRGVzY3JpcHRpb24uc2V0RGVzY3JpcHRpb24oY291cnNlSW5mb0Zvcm0uZ2V0RGVzY3JpcHRpb24oKSk7CgkJY291cnNlRGVzY3JpcHRpb24uc2V0SWQoY291cnNlLmdldElkKCkpOy8v6K6+572u5LiA5a+55LiA5YWz6IGUaWQKCQljb3Vyc2VEZXNjcmlwdGlvbk1hcHBlci5pbnNlcnQoY291cnNlRGVzY3JpcHRpb24pOwoKCQlyZXR1cm4gY291cnNlLmdldElkKCk7Cgl9CgoJQE92ZXJyaWRlCglwdWJsaWMgQ291cnNlSW5mb0Zvcm0gZ2V0Q291cnNlSW5mb0Zvcm1CeUlkKFN0cmluZyBpZCkgewoKCQkvL+S7jmNvdXJzZeihqOS4reWPluaVsOaNrgoJCUNvdXJzZSBjb3Vyc2UgPSBiYXNlTWFwcGVyLnNlbGVjdEJ5SWQoaWQpOwoJCWlmKGNvdXJzZSA9PSBudWxsKXsKCQkJdGhyb3cgbmV3IE1hZEV4Y2VwdGlvbigyMDAwMSwgIuaVsOaNruS4jeWtmOWcqCIpOwoJCX0KCgkJLy/ku45jb3Vyc2VfZGVzY3JpcHRpb27ooajkuK3lj5bmlbDmja4KCQlDb3Vyc2VEZXNjcmlwdGlvbiBjb3Vyc2VEZXNjcmlwdGlvbiA9IGNvdXJzZURlc2NyaXB0aW9uTWFwcGVyLnNlbGVjdEJ5SWQoaWQpOwoJCWlmKGNvdXJzZURlc2NyaXB0aW9uID09IG51bGwpewoJCQl0aHJvdyBuZXcgTWFkRXhjZXB0aW9uKDIwMDAxLCAi5pWw5o2u5LiN5a6M5pW0Iik7CgkJfQoKCQkvL+WIm+W7umNvdXJzZUluZm9Gb3Jt5a+56LGhCgkJQ291cnNlSW5mb0Zvcm0gY291cnNlSW5mb0Zvcm0gPSBuZXcgQ291cnNlSW5mb0Zvcm0oKTsKCQlCZWFuVXRpbHMuY29weVByb3BlcnRpZXMoY291cnNlLCBjb3Vyc2VJbmZvRm9ybSk7CgkJQmVhblV0aWxzLmNvcHlQcm9wZXJ0aWVzKGNvdXJzZURlc2NyaXB0aW9uLCBjb3Vyc2VJbmZvRm9ybSk7CgoJCXJldHVybiBjb3Vyc2VJbmZvRm9ybTsKCX0KCglAVHJhbnNhY3Rpb25hbAoJQE92ZXJyaWRlCglwdWJsaWMgdm9pZCB1cGRhdGVDb3Vyc2VJbmZvQnlJZChDb3Vyc2VJbmZvRm9ybSBjb3Vyc2VJbmZvRm9ybSkgewoJCS8v5L+d5a2Y6K++56iL5Z+65pys5L+h5oGvCgkJQ291cnNlIGNvdXJzZSA9IG5ldyBDb3Vyc2UoKTsKCQlCZWFuVXRpbHMuY29weVByb3BlcnRpZXMoY291cnNlSW5mb0Zvcm0sIGNvdXJzZSk7CgkJYmFzZU1hcHBlci51cGRhdGVCeUlkKGNvdXJzZSk7CgoJCS8v5L+d5a2Y6K++56iL6K+m5oOF5L+h5oGvCgkJQ291cnNlRGVzY3JpcHRpb24gY291cnNlRGVzY3JpcHRpb24gPSBuZXcgQ291cnNlRGVzY3JpcHRpb24oKTsKCQljb3Vyc2VEZXNjcmlwdGlvbi5zZXREZXNjcmlwdGlvbihjb3Vyc2VJbmZvRm9ybS5nZXREZXNjcmlwdGlvbigpKTsKCQljb3Vyc2VEZXNjcmlwdGlvbk1hcHBlci51cGRhdGVCeUlkKGNvdXJzZURlc2NyaXB0aW9uKTsKCX0KCglAT3ZlcnJpZGUKCXB1YmxpYyB2b2lkIHBhZ2VRdWVyeShQYWdlPENvdXJzZT4gcGFnZVBhcmFtLCBDb3Vyc2VRdWVyeSBjb3Vyc2VRdWVyeSkgewoKCQlRdWVyeVdyYXBwZXI8Q291cnNlPiBxdWVyeVdyYXBwZXIgPSBuZXcgUXVlcnlXcmFwcGVyPD4oKTsKCQlxdWVyeVdyYXBwZXIub3JkZXJCeURlc2MoImdtdF9jcmVhdGUiKTsKCgkJaWYgKGNvdXJzZVF1ZXJ5ID09IG51bGwpewoJCQliYXNlTWFwcGVyLnNlbGVjdFBhZ2UocGFnZVBhcmFtLCBxdWVyeVdyYXBwZXIpOwoJCQlyZXR1cm47CgkJfQoKCQlTdHJpbmcgdGl0bGUgPSBjb3Vyc2VRdWVyeS5nZXRUaXRsZSgpOwoJCVN0cmluZyB0ZWFjaGVySWQgPSBjb3Vyc2VRdWVyeS5nZXRUZWFjaGVySWQoKTsKCQlTdHJpbmcgc3ViamVjdFBhcmVudElkID0gY291cnNlUXVlcnkuZ2V0U3ViamVjdFBhcmVudElkKCk7CgkJU3RyaW5nIHN1YmplY3RJZCA9IGNvdXJzZVF1ZXJ5LmdldFN1YmplY3RJZCgpOwoKCQlpZiAoIVN0cmluZ1V0aWxzLmlzRW1wdHkodGl0bGUpKSB7CgkJCXF1ZXJ5V3JhcHBlci5saWtlKCJ0aXRsZSIsIHRpdGxlKTsKCQl9CgoJCWlmICghU3RyaW5nVXRpbHMuaXNFbXB0eSh0ZWFjaGVySWQpICkgewoJCQlxdWVyeVdyYXBwZXIuZXEoInRlYWNoZXJfaWQiLCB0ZWFjaGVySWQpOwoJCX0KCgkJaWYgKCFTdHJpbmdVdGlscy5pc0VtcHR5KHN1YmplY3RQYXJlbnRJZCkpIHsKCQkJcXVlcnlXcmFwcGVyLmdlKCJzdWJqZWN0X3BhcmVudF9pZCIsIHN1YmplY3RQYXJlbnRJZCk7CgkJfQoKCQlpZiAoIVN0cmluZ1V0aWxzLmlzRW1wdHkoc3ViamVjdElkKSkgewoJCQlxdWVyeVdyYXBwZXIuZ2UoInN1YmplY3RfaWQiLCBzdWJqZWN0SWQpOwoJCX0KCgkJYmFzZU1hcHBlci5zZWxlY3RQYWdlKHBhZ2VQYXJhbSwgcXVlcnlXcmFwcGVyKTsKCX0KCglAVHJhbnNhY3Rpb25hbAoJQE92ZXJyaWRlCglwdWJsaWMgdm9pZCByZW1vdmVDb3Vyc2VCeUlkKFN0cmluZyBpZCkgewoKCQkvL+agueaNrmlk5Yig6Zmk5omA5pyJ6KeG6aKRCgkJUXVlcnlXcmFwcGVyPFZpZGVvPiBxdWVyeVdyYXBwZXJWaWRlbyA9IG5ldyBRdWVyeVdyYXBwZXI8PigpOwoJCXF1ZXJ5V3JhcHBlclZpZGVvLmVxKCJjb3Vyc2VfaWQiLCBpZCk7CgkJdmlkZW9NYXBwZXIuZGVsZXRlKHF1ZXJ5V3JhcHBlclZpZGVvKTsKCgkJLy/moLnmja5pZOWIoOmZpOaJgOacieeroOiKggoJCVF1ZXJ5V3JhcHBlcjxDaGFwdGVyPiBxdWVyeVdyYXBwZXJDaGFwdGVyID0gbmV3IFF1ZXJ5V3JhcHBlcjw+KCk7CgkJcXVlcnlXcmFwcGVyQ2hhcHRlci5lcSgiY291cnNlX2lkIiwgaWQpOwoJCWNoYXB0ZXJNYXBwZXIuZGVsZXRlKHF1ZXJ5V3JhcHBlckNoYXB0ZXIpOwoKCQkvL+WIoOmZpOivvueoi+ivpuaDhQoJCWNvdXJzZURlc2NyaXB0aW9uTWFwcGVyLmRlbGV0ZUJ5SWQoaWQpOwoKCQkvL+agueaNrmlk5Yig6Zmk6K++56iLCgkJYmFzZU1hcHBlci5kZWxldGVCeUlkKGlkKTsKCX0KCglAT3ZlcnJpZGUKCXB1YmxpYyBDb3Vyc2VQdWJsaXNoVm8gZ2V0Q291cnNlUHVibGlzaFZvQnlJZChTdHJpbmcgaWQpIHsKCQlyZXR1cm4gYmFzZU1hcHBlci5zZWxlY3RDb3Vyc2VQdWJsaXNoVm9CeUlkKGlkKTsKCX0KCglAT3ZlcnJpZGUKCXB1YmxpYyB2b2lkIHB1Ymxpc2hDb3Vyc2VCeUlkKFN0cmluZyBpZCkgewoJCUNvdXJzZSBjb3Vyc2UgPSBuZXcgQ291cnNlKCk7CgkJY291cnNlLnNldElkKGlkKTsKCQljb3Vyc2Uuc2V0U3RhdHVzKENvdXJzZS5DT1VSU0VfTk9STUFMKTsKCQliYXNlTWFwcGVyLnVwZGF0ZUJ5SWQoY291cnNlKTsKCX0KCglAT3ZlcnJpZGUKCXB1YmxpYyBNYXA8U3RyaW5nLCBPYmplY3Q+IHBhZ2VMaXN0V2ViKFBhZ2U8Q291cnNlPiBjb3Vyc2VQYWdlKSB7CgoJCVF1ZXJ5V3JhcHBlcjxDb3Vyc2U+IHF1ZXJ5V3JhcHBlciA9IG5ldyBRdWVyeVdyYXBwZXI8PigpOwoJCXF1ZXJ5V3JhcHBlci5vcmRlckJ5RGVzYygiZ210X21vZGlmaWVkIik7CgoJCWJhc2VNYXBwZXIuc2VsZWN0UGFnZShjb3Vyc2VQYWdlLCBxdWVyeVdyYXBwZXIpOwoKCQlMaXN0PENvdXJzZT4gcmVjb3JkcyA9IGNvdXJzZVBhZ2UuZ2V0UmVjb3JkcygpOwoJCWxvbmcgY3VycmVudCA9IGNvdXJzZVBhZ2UuZ2V0Q3VycmVudCgpOwoJCWxvbmcgc2l6ZSA9IGNvdXJzZVBhZ2UuZ2V0U2l6ZSgpOwoJCWxvbmcgdG90YWwgPSBjb3Vyc2VQYWdlLmdldFRvdGFsKCk7CgkJYm9vbGVhbiBoYXNOZXh0ID0gY291cnNlUGFnZS5oYXNOZXh0KCk7CgkJYm9vbGVhbiBoYXNQcmV2aW91cyA9IGNvdXJzZVBhZ2UuaGFzUHJldmlvdXMoKTsKCQlsb25nIHBhZ2VzID0gY291cnNlUGFnZS5nZXRQYWdlcygpOwoKCQlNYXA8U3RyaW5nLCBPYmplY3Q+IG1hcCA9IG5ldyBIYXNoTWFwPFN0cmluZywgT2JqZWN0PigpOwoJCW1hcC5wdXQoIml0ZW1zIiwgcmVjb3Jkcyk7CgkJbWFwLnB1dCgiY3VycmVudCIsIGN1cnJlbnQpOwoJCW1hcC5wdXQoInBhZ2VzIiwgcGFnZXMpOwoJCW1hcC5wdXQoInNpemUiLCBzaXplKTsKCQltYXAucHV0KCJ0b3RhbCIsIHRvdGFsKTsKCQltYXAucHV0KCJoYXNOZXh0IiwgaGFzTmV4dCk7CgkJbWFwLnB1dCgiaGFzUHJldmlvdXMiLCBoYXNQcmV2aW91cyk7CgoJCXJldHVybiBtYXA7Cgl9CgoJLyoqCgkgKiDmoLnmja7orrLluIhpZOafpeivouW9k+WJjeiusuW4iOeahOivvueoi+WIl+ihqAoJICogQHBhcmFtIHRlYWNoZXJJZAoJICogQHJldHVybgoJICovCglAT3ZlcnJpZGUKCXB1YmxpYyBMaXN0PENvdXJzZT4gc2VsZWN0QnlUZWFjaGVySWQoU3RyaW5nIHRlYWNoZXJJZCkgewoKCQlRdWVyeVdyYXBwZXI8Q291cnNlPiBxdWVyeVdyYXBwZXIgPSBuZXcgUXVlcnlXcmFwcGVyPENvdXJzZT4oKTsKCgkJcXVlcnlXcmFwcGVyLmVxKCJ0ZWFjaGVyX2lkIiwgdGVhY2hlcklkKTsKCQkvL+aMieeFp+acgOWQjuabtOaWsOaXtumXtOWAkuW6j+aOkuWIlwoJCXF1ZXJ5V3JhcHBlci5vcmRlckJ5RGVzYygiZ210X21vZGlmaWVkIik7CgoJCUxpc3Q8Q291cnNlPiBjb3Vyc2VzID0gYmFzZU1hcHBlci5zZWxlY3RMaXN0KHF1ZXJ5V3JhcHBlcik7CgkJcmV0dXJuIGNvdXJzZXM7Cgl9CgoJQFRyYW5zYWN0aW9uYWwKCUBPdmVycmlkZQoJcHVibGljIENvdXJzZVdlYlZvIHNlbGVjdENvdXJzZVdlYlZvQnlJZChTdHJpbmcgaWQpIHsKCQkvL+abtOaWsOivvueoi+a1j+iniOaVsAoJCS8v5Y+v5Lul5pS+5YWlcmVkaXPnvJPlrZjvvIzlrprml7bmm7TmlrDmlbDmja7lupPkuK3nmoTorr/pl67ph4/kv6Hmga8KCQlDb3Vyc2UgY291cnNlID0gYmFzZU1hcHBlci5zZWxlY3RCeUlkKGlkKTsKCQljb3Vyc2Uuc2V0Vmlld0NvdW50KGNvdXJzZS5nZXRWaWV3Q291bnQoKSArIDEpOwoJCWJhc2VNYXBwZXIudXBkYXRlQnlJZChjb3Vyc2UpOwoJCS8v6I635Y+W6K++56iL5L+h5oGvCgkJcmV0dXJuIGJhc2VNYXBwZXIuc2VsZWN0Q291cnNlV2ViVm9CeUlkKGlkKTsKCX0KfQo=
+package com.mad.edu.service.impl;
+
+import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.mad.common.exception.MadException;
+import com.mad.edu.entity.Chapter;
+import com.mad.edu.entity.Course;
+import com.mad.edu.entity.CourseDescription;
+import com.mad.edu.entity.Video;
+import com.mad.edu.form.CourseInfoForm;
+import com.mad.edu.mapper.ChapterMapper;
+import com.mad.edu.mapper.CourseDescriptionMapper;
+import com.mad.edu.mapper.CourseMapper;
+import com.mad.edu.mapper.VideoMapper;
+import com.mad.edu.query.CourseQuery;
+import com.mad.edu.service.CourseService;
+import com.mad.edu.vo.CoursePublishVo;
+import com.mad.edu.vo.CourseWebVo;
+import org.springframework.beans.BeanUtils;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+import org.springframework.util.StringUtils;
+
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+/**
+ * <p>
+ * 课程 服务实现类
+ * </p>
+ *
+ * @author Helen
+ * @since 2019-06-24
+ */
+@Service
+public class CourseServiceImpl extends ServiceImpl<CourseMapper, Course> implements CourseService {
+
+	@Autowired
+	private CourseDescriptionMapper courseDescriptionMapper;
+	@Autowired
+	private VideoMapper videoMapper;
+	@Autowired
+	private ChapterMapper chapterMapper;
+
+
+	@Transactional
+	@Override
+	public String saveCourseInfo(CourseInfoForm courseInfoForm) {
+
+		//保存课程基本信息
+		Course course = new Course();
+		BeanUtils.copyProperties(courseInfoForm, course);
+		course.setStatus(Course.COURSE_DRAFT);
+		baseMapper.insert(course);
+
+		//保存课程详情信息
+		CourseDescription courseDescription = new CourseDescription();
+		courseDescription.setDescription(courseInfoForm.getDescription());
+		courseDescription.setId(course.getId());//设置一对一关联id
+		courseDescriptionMapper.insert(courseDescription);
+
+		return course.getId();
+	}
+
+	@Override
+	public CourseInfoForm getCourseInfoFormById(String id) {
+
+		//从course表中取数据
+		Course course = baseMapper.selectById(id);
+		if(course == null){
+			throw new MadException(20001, "数据不存在");
+		}
+
+		//从course_description表中取数据
+		CourseDescription courseDescription = courseDescriptionMapper.selectById(id);
+		if(courseDescription == null){
+			throw new MadException(20001, "数据不完整");
+		}
+
+		//创建courseInfoForm对象
+		CourseInfoForm courseInfoForm = new CourseInfoForm();
+		BeanUtils.copyProperties(course, courseInfoForm);
+		BeanUtils.copyProperties(courseDescription, courseInfoForm);
+
+		return courseInfoForm;
+	}
+
+	@Transactional
+	@Override
+	public void updateCourseInfoById(CourseInfoForm courseInfoForm) {
+		//保存课程基本信息
+		Course course = new Course();
+		BeanUtils.copyProperties(courseInfoForm, course);
+		baseMapper.updateById(course);
+
+		//保存课程详情信息
+		CourseDescription courseDescription = new CourseDescription();
+		courseDescription.setDescription(courseInfoForm.getDescription());
+		courseDescriptionMapper.updateById(courseDescription);
+	}
+
+	@Override
+	public void pageQuery(Page<Course> pageParam, CourseQuery courseQuery) {
+
+		QueryWrapper<Course> queryWrapper = new QueryWrapper<>();
+		queryWrapper.orderByDesc("gmt_create");
+
+		if (courseQuery == null){
+			baseMapper.selectPage(pageParam, queryWrapper);
+			return;
+		}
+
+		String title = courseQuery.getTitle();
+		String teacherId = courseQuery.getTeacherId();
+		String subjectParentId = courseQuery.getSubjectParentId();
+		String subjectId = courseQuery.getSubjectId();
+
+		if (!StringUtils.isEmpty(title)) {
+			queryWrapper.like("title", title);
+		}
+
+		if (!StringUtils.isEmpty(teacherId) ) {
+			queryWrapper.eq("teacher_id", teacherId);
+		}
+
+		if (!StringUtils.isEmpty(subjectParentId)) {
+			queryWrapper.ge("subject_parent_id", subjectParentId);
+		}
+
+		if (!StringUtils.isEmpty(subjectId)) {
+			queryWrapper.ge("subject_id", subjectId);
+		}
+
+		baseMapper.selectPage(pageParam, queryWrapper);
+	}
+
+	@Transactional
+	@Override
+	public void removeCourseById(String id) {
+
+		//根据id删除所有视频
+		QueryWrapper<Video> queryWrapperVideo = new QueryWrapper<>();
+		queryWrapperVideo.eq("course_id", id);
+		videoMapper.delete(queryWrapperVideo);
+
+		//根据id删除所有章节
+		QueryWrapper<Chapter> queryWrapperChapter = new QueryWrapper<>();
+		queryWrapperChapter.eq("course_id", id);
+		chapterMapper.delete(queryWrapperChapter);
+
+		//删除课程详情
+		courseDescriptionMapper.deleteById(id);
+
+		//根据id删除课程
+		baseMapper.deleteById(id);
+	}
+
+	@Override
+	public CoursePublishVo getCoursePublishVoById(String id) {
+		return baseMapper.selectCoursePublishVoById(id);
+	}
+
+	@Override
+	public void publishCourseById(String id) {
+		Course course = new Course();
+		course.setId(id);
+		course.setStatus(Course.COURSE_NORMAL);
+		baseMapper.updateById(course);
+	}
+
+	@Override
+	public Map<String, Object> pageListWeb(Page<Course> coursePage) {
+
+		QueryWrapper<Course> queryWrapper = new QueryWrapper<>();
+		queryWrapper.orderByDesc("gmt_modified");
+
+		baseMapper.selectPage(coursePage, queryWrapper);
+
+		List<Course> records = coursePage.getRecords();
+		long current = coursePage.getCurrent();
+		long size = coursePage.getSize();
+		long total = coursePage.getTotal();
+		boolean hasNext = coursePage.hasNext();
+		boolean hasPrevious = coursePage.hasPrevious();
+		long pages = coursePage.getPages();
+
+		Map<String, Object> map = new HashMap<String, Object>();
+		map.put("items", records);
+		map.put("current", current);
+		map.put("pages", pages);
+		map.put("size", size);
+		map.put("total", total);
+		map.put("hasNext", hasNext);
+		map.put("hasPrevious", hasPrevious);
+
+		return map;
+	}
+
+	/**
+	 * 根据讲师id查询当前讲师的课程列表
+	 * @param teacherId
+	 * @return
+	 */
+	@Override
+	public List<Course> selectByTeacherId(String teacherId) {
+
+		QueryWrapper<Course> queryWrapper = new QueryWrapper<Course>();
+
+		queryWrapper.eq("teacher_id", teacherId);
+		//按照最后更新时间倒序排列
+		queryWrapper.orderByDesc("gmt_modified");
+
+		List<Course> courses = baseMapper.selectList(queryWrapper);
+		return courses;
+	}
+
+	@Transactional
+	@Override
+	public CourseWebVo selectCourseWebVoById(String id) {
+		//更新课程浏览数
+		//可以放入redis缓存，定时更新数据库中的访问量信息
+		Course course = baseMapper.selectById(id);
+		course.setViewCount(course.getViewCount() + 1);
+		baseMapper.updateById(course);
+		//获取课程信息
+		return baseMapper.selectCourseWebVoById(id);
+	}
+}

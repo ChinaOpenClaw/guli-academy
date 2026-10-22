@@ -1,1 +1,16 @@
-PHRlbXBsYXRlPgogIDxkaXYgY2xhc3M9ImNvbnRhaW5lciBtdDIwIj4KICAgIDxTZWN0aW9uVGl0bGUgdGl0bGU9IuWQjeW4iOWboumYnyIgc3VidGl0bGU9IuS4gOe6v+Wkp+WOguS4jui1hOa3seaVmeeglO+8jOW4puS9oOWwkei1sOW8r+i3ryIgLz4KICAgIDxkaXYgY2xhc3M9ImktdGVhY2hlci1saXN0IG10MjAiPgogICAgICA8dWw+CiAgICAgICAgPFRlYWNoZXJDYXJkIHYtZm9yPSJ0IGluIHRlYWNoZXJzIiA6a2V5PSJ0LmlkIiA6dGVhY2hlcj0idCIgLz4KICAgICAgPC91bD4KICAgIDwvZGl2PgogIDwvZGl2Pgo8L3RlbXBsYXRlPgoKPHNjcmlwdCBzZXR1cD4KaW1wb3J0IFNlY3Rpb25UaXRsZSBmcm9tICdAL2NvbXBvbmVudHMvU2VjdGlvblRpdGxlLnZ1ZScKaW1wb3J0IFRlYWNoZXJDYXJkIGZyb20gJ0AvY29tcG9uZW50cy9UZWFjaGVyQ2FyZC52dWUnCmltcG9ydCB7IHRlYWNoZXJzIH0gZnJvbSAnQC9kYXRhL3RlYWNoZXJzJwo8L3NjcmlwdD4K
+<template>
+  <div class="container mt20">
+    <SectionTitle title="名师团队" subtitle="一线大厂与资深教研，带你少走弯路" />
+    <div class="i-teacher-list mt20">
+      <ul>
+        <TeacherCard v-for="t in teachers" :key="t.id" :teacher="t" />
+      </ul>
+    </div>
+  </div>
+</template>
+
+<script setup>
+import SectionTitle from '@/components/SectionTitle.vue'
+import TeacherCard from '@/components/TeacherCard.vue'
+import { teachers } from '@/data/teachers'
+</script>

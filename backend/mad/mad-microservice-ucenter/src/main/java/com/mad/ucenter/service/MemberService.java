@@ -1,1 +1,18 @@
-cGFja2FnZSBjb20ubWFkLnVjZW50ZXIuc2VydmljZTsKCmltcG9ydCBjb20ubWFkLnVjZW50ZXIuZW50aXR5Lk1lbWJlcjsKaW1wb3J0IGNvbS5iYW9taWRvdS5teWJhdGlzcGx1cy5leHRlbnNpb24uc2VydmljZS5JU2VydmljZTsKCi8qKgogKiA8cD4KICog5Lya5ZGY6KGoIOacjeWKoeexuwogKiA8L3A+CiAqCiAqIEBhdXRob3IgSGVsZW4KICogQHNpbmNlIDIwMTktMDctMDEKICovCnB1YmxpYyBpbnRlcmZhY2UgTWVtYmVyU2VydmljZSBleHRlbmRzIElTZXJ2aWNlPE1lbWJlcj4gewoJSW50ZWdlciBjb3VudFJlZ2lzdGVyQnlEYXkoU3RyaW5nIGRheSk7CgoJTWVtYmVyIGdldEJ5T3BlbmlkKFN0cmluZyBvcGVuaWQpOwp9Cg==
+package com.mad.ucenter.service;
+
+import com.mad.ucenter.entity.Member;
+import com.baomidou.mybatisplus.extension.service.IService;
+
+/**
+ * <p>
+ * 会员表 服务类
+ * </p>
+ *
+ * @author Helen
+ * @since 2019-07-01
+ */
+public interface MemberService extends IService<Member> {
+	Integer countRegisterByDay(String day);
+
+	Member getByOpenid(String openid);
+}

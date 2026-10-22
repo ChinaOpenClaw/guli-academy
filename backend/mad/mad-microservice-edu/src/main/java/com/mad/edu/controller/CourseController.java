@@ -1,1 +1,72 @@
-cGFja2FnZSBjb20ubWFkLmVkdS5jb250cm9sbGVyOwoKCmltcG9ydCBjb20uYmFvbWlkb3UubXliYXRpc3BsdXMuZXh0ZW5zaW9uLnBsdWdpbnMucGFnaW5hdGlvbi5QYWdlOwppbXBvcnQgY29tLm1hZC5jb21tb24udm8uUjsKaW1wb3J0IGNvbS5tYWQuZWR1LmVudGl0eS5Db3Vyc2U7CmltcG9ydCBjb20ubWFkLmVkdS5zZXJ2aWNlLkNoYXB0ZXJTZXJ2aWNlOwppbXBvcnQgY29tLm1hZC5lZHUuc2VydmljZS5Db3Vyc2VTZXJ2aWNlOwppbXBvcnQgY29tLm1hZC5lZHUudm8uQ2hhcHRlclZvOwppbXBvcnQgY29tLm1hZC5lZHUudm8uQ291cnNlV2ViVm87CmltcG9ydCBpby5zd2FnZ2VyLmFubm90YXRpb25zLkFwaTsKaW1wb3J0IGlvLnN3YWdnZXIuYW5ub3RhdGlvbnMuQXBpT3BlcmF0aW9uOwppbXBvcnQgaW8uc3dhZ2dlci5hbm5vdGF0aW9ucy5BcGlQYXJhbTsKaW1wb3J0IG9yZy5zcHJpbmdmcmFtZXdvcmsuYmVhbnMuZmFjdG9yeS5hbm5vdGF0aW9uLkF1dG93aXJlZDsKaW1wb3J0IG9yZy5zcHJpbmdmcmFtZXdvcmsud2ViLmJpbmQuYW5ub3RhdGlvbi4qOwoKaW1wb3J0IGphdmEudXRpbC5MaXN0OwppbXBvcnQgamF2YS51dGlsLk1hcDsKCi8qKgogKiA8cD4KICog6K++56iLIOWJjeerr+aOp+WItuWZqAogKiA8L3A+CiAqCiAqIEBhdXRob3IgSGVsZW4KICogQHNpbmNlIDIwMTktMDYtMjQKICovCkBDcm9zc09yaWdpbgpAQXBpKGRlc2NyaXB0aW9uID0gIuivvueoi+aooeWdlyIpCkBSZXN0Q29udHJvbGxlcgpAUmVxdWVzdE1hcHBpbmcoIi9lZHUvY291cnNlIikKcHVibGljIGNsYXNzIENvdXJzZUNvbnRyb2xsZXIgewoKCUBBdXRvd2lyZWQKCXByaXZhdGUgQ291cnNlU2VydmljZSBjb3Vyc2VTZXJ2aWNlOwoKCUBBdXRvd2lyZWQKCXByaXZhdGUgQ2hhcHRlclNlcnZpY2UgY2hhcHRlclNlcnZpY2U7CgoJQEFwaU9wZXJhdGlvbih2YWx1ZSA9ICLliIbpobXor77nqIvliJfooagiKQoJQEdldE1hcHBpbmcoIntwYWdlfS97bGltaXR9IikKCXB1YmxpYyBSIHBhZ2VMaXN0KAoJCQlAQXBpUGFyYW0obmFtZSA9ICJwYWdlIiwgdmFsdWUgPSAi5b2T5YmN6aG156CBIiwgcmVxdWlyZWQgPSB0cnVlKQoJCQlAUGF0aFZhcmlhYmxlIExvbmcgcGFnZSwKCgkJCUBBcGlQYXJhbShuYW1lID0gImxpbWl0IiwgdmFsdWUgPSAi5q+P6aG16K6w5b2V5pWwIiwgcmVxdWlyZWQgPSB0cnVlKQoJCQlAUGF0aFZhcmlhYmxlIExvbmcgbGltaXQKCSl7CgoJCVBhZ2U8Q291cnNlPiBjb3Vyc2VQYWdlID0gbmV3IFBhZ2U8PihwYWdlLCBsaW1pdCk7CgkJTWFwPFN0cmluZyAsIE9iamVjdD4gbWFwID0gY291cnNlU2VydmljZS5wYWdlTGlzdFdlYihjb3Vyc2VQYWdlKTsKCgkJcmV0dXJuIFIub2soKS5kYXRhKG1hcCk7Cgl9CgoKCUBBcGlPcGVyYXRpb24odmFsdWUgPSAi5qC55o2uSUTmn6Xor6Lor77nqIsiKQoJQEdldE1hcHBpbmcodmFsdWUgPSAie2NvdXJzZUlkfSIpCglwdWJsaWMgUiBnZXRCeUlkKAoJCQlAQXBpUGFyYW0obmFtZSA9ICJjb3Vyc2VJZCIsIHZhbHVlID0gIuivvueoi0lEIiwgcmVxdWlyZWQgPSB0cnVlKQoJCQlAUGF0aFZhcmlhYmxlIFN0cmluZyBjb3Vyc2VJZCl7CgoJCS8v5p+l6K+i6K++56iL5L+h5oGv5ZKM6K6y5biI5L+h5oGvCgkJQ291cnNlV2ViVm8gY291cnNlV2ViVm8gPSBjb3Vyc2VTZXJ2aWNlLnNlbGVjdENvdXJzZVdlYlZvQnlJZChjb3Vyc2VJZCk7CgoJCS8v5p+l6K+i5b2T5YmN6K++56iL55qE56ug6IqC5L+h5oGvCgkJTGlzdDxDaGFwdGVyVm8+IGNoYXB0ZXJWb0xpc3QgPSBjaGFwdGVyU2VydmljZS5uZXN0ZWRMaXN0KGNvdXJzZUlkKTsKCgkJcmV0dXJuIFIub2soKS5kYXRhKCJjb3Vyc2UiLCBjb3Vyc2VXZWJWbykuZGF0YSgiY2hhcHRlclZvTGlzdCIsIGNoYXB0ZXJWb0xpc3QpOwoJfQp9Cgo=
+package com.mad.edu.controller;
+
+
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+import com.mad.common.vo.R;
+import com.mad.edu.entity.Course;
+import com.mad.edu.service.ChapterService;
+import com.mad.edu.service.CourseService;
+import com.mad.edu.vo.ChapterVo;
+import com.mad.edu.vo.CourseWebVo;
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
+import io.swagger.annotations.ApiParam;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
+import java.util.Map;
+
+/**
+ * <p>
+ * 课程 前端控制器
+ * </p>
+ *
+ * @author Helen
+ * @since 2019-06-24
+ */
+@CrossOrigin
+@Api(description = "课程模块")
+@RestController
+@RequestMapping("/edu/course")
+public class CourseController {
+
+	@Autowired
+	private CourseService courseService;
+
+	@Autowired
+	private ChapterService chapterService;
+
+	@ApiOperation(value = "分页课程列表")
+	@GetMapping("{page}/{limit}")
+	public R pageList(
+			@ApiParam(name = "page", value = "当前页码", required = true)
+			@PathVariable Long page,
+
+			@ApiParam(name = "limit", value = "每页记录数", required = true)
+			@PathVariable Long limit
+	){
+
+		Page<Course> coursePage = new Page<>(page, limit);
+		Map<String , Object> map = courseService.pageListWeb(coursePage);
+
+		return R.ok().data(map);
+	}
+
+
+	@ApiOperation(value = "根据ID查询课程")
+	@GetMapping(value = "{courseId}")
+	public R getById(
+			@ApiParam(name = "courseId", value = "课程ID", required = true)
+			@PathVariable String courseId){
+
+		//查询课程信息和讲师信息
+		CourseWebVo courseWebVo = courseService.selectCourseWebVoById(courseId);
+
+		//查询当前课程的章节信息
+		List<ChapterVo> chapterVoList = chapterService.nestedList(courseId);
+
+		return R.ok().data("course", courseWebVo).data("chapterVoList", chapterVoList);
+	}
+}
+

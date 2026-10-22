@@ -1,1 +1,140 @@
-PHRlbXBsYXRlPgogIDxkaXYgOnN0eWxlPSJ7ekluZGV4OnpJbmRleCxoZWlnaHQ6aGVpZ2h0LHdpZHRoOndpZHRofSIgY2xhc3M9InBhbi1pdGVtIj4KICAgIDxkaXYgY2xhc3M9InBhbi1pbmZvIj4KICAgICAgPGRpdiBjbGFzcz0icGFuLWluZm8tcm9sZXMtY29udGFpbmVyIj4KICAgICAgICA8c2xvdC8+CiAgICAgIDwvZGl2PgogICAgPC9kaXY+CiAgICA8aW1nIDpzcmM9ImltYWdlIiBjbGFzcz0icGFuLXRodW1iIj4KICA8L2Rpdj4KPC90ZW1wbGF0ZT4KCjxzY3JpcHQ+CmV4cG9ydCBkZWZhdWx0IHsKICBuYW1lOiAnUGFuVGh1bWInLAogIHByb3BzOiB7CiAgICBpbWFnZTogewogICAgICB0eXBlOiBTdHJpbmcsCiAgICAgIHJlcXVpcmVkOiB0cnVlCiAgICB9LAogICAgekluZGV4OiB7CiAgICAgIHR5cGU6IE51bWJlciwKICAgICAgZGVmYXVsdDogMQogICAgfSwKICAgIHdpZHRoOiB7CiAgICAgIHR5cGU6IFN0cmluZywKICAgICAgZGVmYXVsdDogJzE1MHB4JwogICAgfSwKICAgIGhlaWdodDogewogICAgICB0eXBlOiBTdHJpbmcsCiAgICAgIGRlZmF1bHQ6ICcxNTBweCcKICAgIH0KICB9Cn0KPC9zY3JpcHQ+Cgo8c3R5bGUgc2NvcGVkPgoucGFuLWl0ZW0gewogIHdpZHRoOiAyMDBweDsKICBoZWlnaHQ6IDIwMHB4OwogIGJvcmRlci1yYWRpdXM6IDUwJTsKICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7CiAgcG9zaXRpb246IHJlbGF0aXZlOwogIGN1cnNvcjogZGVmYXVsdDsKICBib3gtc2hhZG93OiAwIDFweCAzcHggcmdiYSgwLCAwLCAwLCAwLjIpOwp9CgoucGFuLWluZm8tcm9sZXMtY29udGFpbmVyIHsKICBwYWRkaW5nOiAyMHB4OwogIHRleHQtYWxpZ246IGNlbnRlcjsKfQoKLnBhbi10aHVtYiB7CiAgd2lkdGg6IDEwMCU7CiAgaGVpZ2h0OiAxMDAlOwogIGJhY2tncm91bmQtc2l6ZTogMTAwJTsKICBib3JkZXItcmFkaXVzOiA1MCU7CiAgb3ZlcmZsb3c6IGhpZGRlbjsKICBwb3NpdGlvbjogYWJzb2x1dGU7CiAgdHJhbnNmb3JtLW9yaWdpbjogOTUlIDQwJTsKICB0cmFuc2l0aW9uOiBhbGwgMC4zcyBlYXNlLWluLW91dDsKfQoKLnBhbi10aHVtYjphZnRlciB7CiAgY29udGVudDogJyc7CiAgd2lkdGg6IDhweDsKICBoZWlnaHQ6IDhweDsKICBwb3NpdGlvbjogYWJzb2x1dGU7CiAgYm9yZGVyLXJhZGl1czogNTAlOwogIHRvcDogNDAlOwogIGxlZnQ6IDk1JTsKICBtYXJnaW46IC00cHggMCAwIC00cHg7CiAgYmFja2dyb3VuZDogcmFkaWFsLWdyYWRpZW50KGVsbGlwc2UgYXQgY2VudGVyLCByZ2JhKDE0LCAxNCwgMTQsIDEpIDAlLCByZ2JhKDEyNSwgMTI2LCAxMjUsIDEpIDEwMCUpOwogIGJveC1zaGFkb3c6IDAgMCAxcHggcmdiYSgyNTUsIDI1NSwgMjU1LCAwLjkpOwp9CgoucGFuLWluZm8gewogIHBvc2l0aW9uOiBhYnNvbHV0ZTsKICB3aWR0aDogaW5oZXJpdDsKICBoZWlnaHQ6IGluaGVyaXQ7CiAgYm9yZGVyLXJhZGl1czogNTAlOwogIG92ZXJmbG93OiBoaWRkZW47CiAgYm94LXNoYWRvdzogaW5zZXQgMCAwIDAgNXB4IHJnYmEoMCwgMCwgMCwgMC4wNSk7Cn0KCi5wYW4taW5mbyBoMyB7CiAgY29sb3I6ICNmZmY7CiAgdGV4dC10cmFuc2Zvcm06IHVwcGVyY2FzZTsKICBwb3NpdGlvbjogcmVsYXRpdmU7CiAgbGV0dGVyLXNwYWNpbmc6IDJweDsKICBmb250LXNpemU6IDE4cHg7CiAgbWFyZ2luOiAwIDYwcHg7CiAgcGFkZGluZzogMjJweCAwIDAgMDsKICBoZWlnaHQ6IDg1cHg7CiAgZm9udC1mYW1pbHk6ICdPcGVuIFNhbnMnLCBBcmlhbCwgc2Fucy1zZXJpZjsKICB0ZXh0LXNoYWRvdzogMCAwIDFweCAjZmZmLCAwIDFweCAycHggcmdiYSgwLCAwLCAwLCAwLjMpOwp9CgoucGFuLWluZm8gcCB7CiAgY29sb3I6ICNmZmY7CiAgcGFkZGluZzogMTBweCA1cHg7CiAgZm9udC1zdHlsZTogaXRhbGljOwogIG1hcmdpbjogMCAzMHB4OwogIGZvbnQtc2l6ZTogMTJweDsKICBib3JkZXItdG9wOiAxcHggc29saWQgcmdiYSgyNTUsIDI1NSwgMjU1LCAwLjUpOwp9CgoucGFuLWluZm8gcCBhIHsKICBkaXNwbGF5OiBibG9jazsKICBjb2xvcjogIzMzMzsKICB3aWR0aDogODBweDsKICBoZWlnaHQ6IDgwcHg7CiAgYmFja2dyb3VuZDogcmdiYSgyNTUsIDI1NSwgMjU1LCAwLjMpOwogIGJvcmRlci1yYWRpdXM6IDUwJTsKICBjb2xvcjogI2ZmZjsKICBmb250LXN0eWxlOiBub3JtYWw7CiAgZm9udC13ZWlnaHQ6IDcwMDsKICB0ZXh0LXRyYW5zZm9ybTogdXBwZXJjYXNlOwogIGZvbnQtc2l6ZTogOXB4OwogIGxldHRlci1zcGFjaW5nOiAxcHg7CiAgcGFkZGluZy10b3A6IDI0cHg7CiAgbWFyZ2luOiA3cHggYXV0byAwOwogIGZvbnQtZmFtaWx5OiAnT3BlbiBTYW5zJywgQXJpYWwsIHNhbnMtc2VyaWY7CiAgb3BhY2l0eTogMDsKICB0cmFuc2l0aW9uOiB0cmFuc2Zvcm0gMC4zcyBlYXNlLWluLW91dCAwLjJzLCBvcGFjaXR5IDAuM3MgZWFzZS1pbi1vdXQgMC4ycywgYmFja2dyb3VuZCAwLjJzIGxpbmVhciAwczsKICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVgoNjBweCkgcm90YXRlKDkwZGVnKTsKfQoKLnBhbi1pbmZvIHAgYTpob3ZlciB7CiAgYmFja2dyb3VuZDogcmdiYSgyNTUsIDI1NSwgMjU1LCAwLjUpOwp9CgoucGFuLWl0ZW06aG92ZXIgLnBhbi10aHVtYiB7CiAgdHJhbnNmb3JtOiByb3RhdGUoLTExMGRlZyk7Cn0KCi5wYW4taXRlbTpob3ZlciAucGFuLWluZm8gcCBhIHsKICBvcGFjaXR5OiAxOwogIHRyYW5zZm9ybTogdHJhbnNsYXRlWCgwcHgpIHJvdGF0ZSgwZGVnKTsKfQo8L3N0eWxlPgo=
+<template>
+  <div :style="{zIndex:zIndex,height:height,width:width}" class="pan-item">
+    <div class="pan-info">
+      <div class="pan-info-roles-container">
+        <slot/>
+      </div>
+    </div>
+    <img :src="image" class="pan-thumb">
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'PanThumb',
+  props: {
+    image: {
+      type: String,
+      required: true
+    },
+    zIndex: {
+      type: Number,
+      default: 1
+    },
+    width: {
+      type: String,
+      default: '150px'
+    },
+    height: {
+      type: String,
+      default: '150px'
+    }
+  }
+}
+</script>
+
+<style scoped>
+.pan-item {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  cursor: default;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.pan-info-roles-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.pan-thumb {
+  width: 100%;
+  height: 100%;
+  background-size: 100%;
+  border-radius: 50%;
+  overflow: hidden;
+  position: absolute;
+  transform-origin: 95% 40%;
+  transition: all 0.3s ease-in-out;
+}
+
+.pan-thumb:after {
+  content: '';
+  width: 8px;
+  height: 8px;
+  position: absolute;
+  border-radius: 50%;
+  top: 40%;
+  left: 95%;
+  margin: -4px 0 0 -4px;
+  background: radial-gradient(ellipse at center, rgba(14, 14, 14, 1) 0%, rgba(125, 126, 125, 1) 100%);
+  box-shadow: 0 0 1px rgba(255, 255, 255, 0.9);
+}
+
+.pan-info {
+  position: absolute;
+  width: inherit;
+  height: inherit;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: inset 0 0 0 5px rgba(0, 0, 0, 0.05);
+}
+
+.pan-info h3 {
+  color: #fff;
+  text-transform: uppercase;
+  position: relative;
+  letter-spacing: 2px;
+  font-size: 18px;
+  margin: 0 60px;
+  padding: 22px 0 0 0;
+  height: 85px;
+  font-family: 'Open Sans', Arial, sans-serif;
+  text-shadow: 0 0 1px #fff, 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.pan-info p {
+  color: #fff;
+  padding: 10px 5px;
+  font-style: italic;
+  margin: 0 30px;
+  font-size: 12px;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.pan-info p a {
+  display: block;
+  color: #333;
+  width: 80px;
+  height: 80px;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  color: #fff;
+  font-style: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 9px;
+  letter-spacing: 1px;
+  padding-top: 24px;
+  margin: 7px auto 0;
+  font-family: 'Open Sans', Arial, sans-serif;
+  opacity: 0;
+  transition: transform 0.3s ease-in-out 0.2s, opacity 0.3s ease-in-out 0.2s, background 0.2s linear 0s;
+  transform: translateX(60px) rotate(90deg);
+}
+
+.pan-info p a:hover {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.pan-item:hover .pan-thumb {
+  transform: rotate(-110deg);
+}
+
+.pan-item:hover .pan-info p a {
+  opacity: 1;
+  transform: translateX(0px) rotate(0deg);
+}
+</style>

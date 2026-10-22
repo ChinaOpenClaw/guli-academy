@@ -1,1 +1,95 @@
-PHRlbXBsYXRlPgogIDxlbC1tZW51IGNsYXNzPSJuYXZiYXIiIG1vZGU9Imhvcml6b250YWwiPgogICAgPGhhbWJ1cmdlciA6dG9nZ2xlLWNsaWNrPSJ0b2dnbGVTaWRlQmFyIiA6aXMtYWN0aXZlPSJzaWRlYmFyLm9wZW5lZCIgY2xhc3M9ImhhbWJ1cmdlci1jb250YWluZXIiLz4KICAgIDxicmVhZGNydW1iIC8+CiAgICA8ZWwtZHJvcGRvd24gY2xhc3M9ImF2YXRhci1jb250YWluZXIiIHRyaWdnZXI9ImNsaWNrIj4KICAgICAgPGRpdiBjbGFzcz0iYXZhdGFyLXdyYXBwZXIiPgogICAgICAgIDxpbWcgOnNyYz0iYXZhdGFyKyc/aW1hZ2VWaWV3Mi8xL3cvODAvaC84MCciIGNsYXNzPSJ1c2VyLWF2YXRhciI+CiAgICAgICAgPGkgY2xhc3M9ImVsLWljb24tY2FyZXQtYm90dG9tIi8+CiAgICAgIDwvZGl2PgogICAgICA8ZWwtZHJvcGRvd24tbWVudSBzbG90PSJkcm9wZG93biIgY2xhc3M9InVzZXItZHJvcGRvd24iPgogICAgICAgIDxyb3V0ZXItbGluayBjbGFzcz0iaW5saW5lQmxvY2siIHRvPSIvIj4KICAgICAgICAgIDxlbC1kcm9wZG93bi1pdGVtPgogICAgICAgICAgICDpppbpobUKICAgICAgICAgIDwvZWwtZHJvcGRvd24taXRlbT4KICAgICAgICA8L3JvdXRlci1saW5rPgogICAgICAgIDxlbC1kcm9wZG93bi1pdGVtIGRpdmlkZWQ+CiAgICAgICAgICA8c3BhbiBzdHlsZT0iZGlzcGxheTpibG9jazsiIEBjbGljaz0ibG9nb3V0Ij7pgIDlh7o8L3NwYW4+CiAgICAgICAgPC9lbC1kcm9wZG93bi1pdGVtPgogICAgICA8L2VsLWRyb3Bkb3duLW1lbnU+CiAgICA8L2VsLWRyb3Bkb3duPgogIDwvZWwtbWVudT4KPC90ZW1wbGF0ZT4KCjxzY3JpcHQ+CmltcG9ydCB7IG1hcEdldHRlcnMgfSBmcm9tICd2dWV4JwppbXBvcnQgQnJlYWRjcnVtYiBmcm9tICdAL2NvbXBvbmVudHMvQnJlYWRjcnVtYicKaW1wb3J0IEhhbWJ1cmdlciBmcm9tICdAL2NvbXBvbmVudHMvSGFtYnVyZ2VyJwoKZXhwb3J0IGRlZmF1bHQgewogIGNvbXBvbmVudHM6IHsKICAgIEJyZWFkY3J1bWIsCiAgICBIYW1idXJnZXIKICB9LAogIGNvbXB1dGVkOiB7CiAgICAuLi5tYXBHZXR0ZXJzKFsKICAgICAgJ3NpZGViYXInLAogICAgICAnYXZhdGFyJwogICAgXSkKICB9LAogIG1ldGhvZHM6IHsKICAgIHRvZ2dsZVNpZGVCYXIoKSB7CiAgICAgIHRoaXMuJHN0b3JlLmRpc3BhdGNoKCdUb2dnbGVTaWRlQmFyJykKICAgIH0sCiAgICBsb2dvdXQoKSB7CiAgICAgIHRoaXMuJHN0b3JlLmRpc3BhdGNoKCdMb2dPdXQnKS50aGVuKCgpID0+IHsKICAgICAgICBsb2NhdGlvbi5yZWxvYWQoKSAvLyDkuLrkuobph43mlrDlrp7kvovljJZ2dWUtcm91dGVy5a+56LGhIOmBv+WFjWJ1ZwogICAgICB9KQogICAgfQogIH0KfQo8L3NjcmlwdD4KCjxzdHlsZSByZWw9InN0eWxlc2hlZXQvc2NzcyIgbGFuZz0ic2NzcyIgc2NvcGVkPgoubmF2YmFyIHsKICBoZWlnaHQ6IDUwcHg7CiAgbGluZS1oZWlnaHQ6IDUwcHg7CiAgYm9yZGVyLXJhZGl1czogMHB4ICFpbXBvcnRhbnQ7CiAgLmhhbWJ1cmdlci1jb250YWluZXIgewogICAgbGluZS1oZWlnaHQ6IDU4cHg7CiAgICBoZWlnaHQ6IDUwcHg7CiAgICBmbG9hdDogbGVmdDsKICAgIHBhZGRpbmc6IDAgMTBweDsKICB9CiAgLnNjcmVlbmZ1bGwgewogICAgcG9zaXRpb246IGFic29sdXRlOwogICAgcmlnaHQ6IDkwcHg7CiAgICB0b3A6IDE2cHg7CiAgICBjb2xvcjogcmVkOwogIH0KICAuYXZhdGFyLWNvbnRhaW5lciB7CiAgICBoZWlnaHQ6IDUwcHg7CiAgICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7CiAgICBwb3NpdGlvbjogYWJzb2x1dGU7CiAgICByaWdodDogMzVweDsKICAgIC5hdmF0YXItd3JhcHBlciB7CiAgICAgIGN1cnNvcjogcG9pbnRlcjsKICAgICAgbWFyZ2luLXRvcDogNXB4OwogICAgICBwb3NpdGlvbjogcmVsYXRpdmU7CiAgICAgIGxpbmUtaGVpZ2h0OiBpbml0aWFsOwogICAgICAudXNlci1hdmF0YXIgewogICAgICAgIHdpZHRoOiA0MHB4OwogICAgICAgIGhlaWdodDogNDBweDsKICAgICAgICBib3JkZXItcmFkaXVzOiAxMHB4OwogICAgICB9CiAgICAgIC5lbC1pY29uLWNhcmV0LWJvdHRvbSB7CiAgICAgICAgcG9zaXRpb246IGFic29sdXRlOwogICAgICAgIHJpZ2h0OiAtMjBweDsKICAgICAgICB0b3A6IDI1cHg7CiAgICAgICAgZm9udC1zaXplOiAxMnB4OwogICAgICB9CiAgICB9CiAgfQp9Cjwvc3R5bGU+Cgo=
+<template>
+  <el-menu class="navbar" mode="horizontal">
+    <hamburger :toggle-click="toggleSideBar" :is-active="sidebar.opened" class="hamburger-container"/>
+    <breadcrumb />
+    <el-dropdown class="avatar-container" trigger="click">
+      <div class="avatar-wrapper">
+        <img :src="avatar+'?imageView2/1/w/80/h/80'" class="user-avatar">
+        <i class="el-icon-caret-bottom"/>
+      </div>
+      <el-dropdown-menu slot="dropdown" class="user-dropdown">
+        <router-link class="inlineBlock" to="/">
+          <el-dropdown-item>
+            首页
+          </el-dropdown-item>
+        </router-link>
+        <el-dropdown-item divided>
+          <span style="display:block;" @click="logout">退出</span>
+        </el-dropdown-item>
+      </el-dropdown-menu>
+    </el-dropdown>
+  </el-menu>
+</template>
+
+<script>
+import { mapGetters } from 'vuex'
+import Breadcrumb from '@/components/Breadcrumb'
+import Hamburger from '@/components/Hamburger'
+
+export default {
+  components: {
+    Breadcrumb,
+    Hamburger
+  },
+  computed: {
+    ...mapGetters([
+      'sidebar',
+      'avatar'
+    ])
+  },
+  methods: {
+    toggleSideBar() {
+      this.$store.dispatch('ToggleSideBar')
+    },
+    logout() {
+      this.$store.dispatch('LogOut').then(() => {
+        location.reload() // 为了重新实例化vue-router对象 避免bug
+      })
+    }
+  }
+}
+</script>
+
+<style rel="stylesheet/scss" lang="scss" scoped>
+.navbar {
+  height: 50px;
+  line-height: 50px;
+  border-radius: 0px !important;
+  .hamburger-container {
+    line-height: 58px;
+    height: 50px;
+    float: left;
+    padding: 0 10px;
+  }
+  .screenfull {
+    position: absolute;
+    right: 90px;
+    top: 16px;
+    color: red;
+  }
+  .avatar-container {
+    height: 50px;
+    display: inline-block;
+    position: absolute;
+    right: 35px;
+    .avatar-wrapper {
+      cursor: pointer;
+      margin-top: 5px;
+      position: relative;
+      line-height: initial;
+      .user-avatar {
+        width: 40px;
+        height: 40px;
+        border-radius: 10px;
+      }
+      .el-icon-caret-bottom {
+        position: absolute;
+        right: -20px;
+        top: 25px;
+        font-size: 12px;
+      }
+    }
+  }
+}
+</style>
+

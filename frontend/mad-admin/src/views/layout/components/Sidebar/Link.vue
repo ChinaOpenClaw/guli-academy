@@ -1,1 +1,39 @@
-Cjx0ZW1wbGF0ZT4KICA8IS0tIGVzbGludC1kaXNhYmxlIHZ1ZS9yZXF1aXJlLWNvbXBvbmVudC1pcy0tPgogIDxjb21wb25lbnQgdi1iaW5kPSJsaW5rUHJvcHModG8pIj4KICAgIDxzbG90Lz4KICA8L2NvbXBvbmVudD4KPC90ZW1wbGF0ZT4KCjxzY3JpcHQ+CmltcG9ydCB7IGlzRXh0ZXJuYWwgfSBmcm9tICdAL3V0aWxzJwoKZXhwb3J0IGRlZmF1bHQgewogIHByb3BzOiB7CiAgICB0bzogewogICAgICB0eXBlOiBTdHJpbmcsCiAgICAgIHJlcXVpcmVkOiB0cnVlCiAgICB9CiAgfSwKICBtZXRob2RzOiB7CiAgICBpc0V4dGVybmFsTGluayhyb3V0ZVBhdGgpIHsKICAgICAgcmV0dXJuIGlzRXh0ZXJuYWwocm91dGVQYXRoKQogICAgfSwKICAgIGxpbmtQcm9wcyh1cmwpIHsKICAgICAgaWYgKHRoaXMuaXNFeHRlcm5hbExpbmsodXJsKSkgewogICAgICAgIHJldHVybiB7CiAgICAgICAgICBpczogJ2EnLAogICAgICAgICAgaHJlZjogdXJsLAogICAgICAgICAgdGFyZ2V0OiAnX2JsYW5rJywKICAgICAgICAgIHJlbDogJ25vb3BlbmVyJwogICAgICAgIH0KICAgICAgfQogICAgICByZXR1cm4gewogICAgICAgIGlzOiAncm91dGVyLWxpbmsnLAogICAgICAgIHRvOiB1cmwKICAgICAgfQogICAgfQogIH0KfQo8L3NjcmlwdD4K
+
+<template>
+  <!-- eslint-disable vue/require-component-is-->
+  <component v-bind="linkProps(to)">
+    <slot/>
+  </component>
+</template>
+
+<script>
+import { isExternal } from '@/utils'
+
+export default {
+  props: {
+    to: {
+      type: String,
+      required: true
+    }
+  },
+  methods: {
+    isExternalLink(routePath) {
+      return isExternal(routePath)
+    },
+    linkProps(url) {
+      if (this.isExternalLink(url)) {
+        return {
+          is: 'a',
+          href: url,
+          target: '_blank',
+          rel: 'noopener'
+        }
+      }
+      return {
+        is: 'router-link',
+        to: url
+      }
+    }
+  }
+}
+</script>

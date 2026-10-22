@@ -1,1 +1,27 @@
-aW1wb3J0IHJlcXVlc3QgZnJvbSAnQC91dGlscy9yZXF1ZXN0JwoKZXhwb3J0IGZ1bmN0aW9uIGxvZ2luKHVzZXJuYW1lLCBwYXNzd29yZCkgewogIHJldHVybiByZXF1ZXN0KHsKICAgIHVybDogJy9hZG1pbi9zeXN1c2VyL2xvZ2luJywKICAgIG1ldGhvZDogJ3Bvc3QnLAogICAgZGF0YTogewogICAgICB1c2VybmFtZSwKICAgICAgcGFzc3dvcmQKICAgIH0KICB9KQp9CgpleHBvcnQgZnVuY3Rpb24gZ2V0SW5mbyh0b2tlbikgewogIHJldHVybiByZXF1ZXN0KHsKICAgIHVybDogJy9hZG1pbi9zeXN1c2VyL2luZm8nLAogICAgbWV0aG9kOiAnZ2V0JywKICAgIHBhcmFtczogeyB0b2tlbiB9CiAgfSkKfQoKZXhwb3J0IGZ1bmN0aW9uIGxvZ291dCgpIHsKICByZXR1cm4gcmVxdWVzdCh7CiAgICB1cmw6ICcvYWRtaW4vc3lzdXNlci9sb2dvdXQnLAogICAgbWV0aG9kOiAncG9zdCcKICB9KQp9Cg==
+import request from '@/utils/request'
+
+export function login(username, password) {
+  return request({
+    url: '/admin/sysuser/login',
+    method: 'post',
+    data: {
+      username,
+      password
+    }
+  })
+}
+
+export function getInfo(token) {
+  return request({
+    url: '/admin/sysuser/info',
+    method: 'get',
+    params: { token }
+  })
+}
+
+export function logout() {
+  return request({
+    url: '/admin/sysuser/logout',
+    method: 'post'
+  })
+}

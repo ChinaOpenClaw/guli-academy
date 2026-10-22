@@ -1,1 +1,29 @@
-aW1wb3J0IHsgcmVmLCBjb21wdXRlZCB9IGZyb20gJ3Z1ZScKCi8vIOeZu+W9leaAge+8muaooeWdl+e6p+WNleS+i++8jFNQQSDlhoXlhbHkuqvvvIzmjIHkuYXljJbliLAgbG9jYWxTdG9yYWdl77yI5Yi35paw5ZCO5L+d5oyB77yJCmNvbnN0IFRPS0VOX0tFWSA9ICdtYWRfdG9rZW4nCmNvbnN0IFVTRVJfS0VZID0gJ21hZF91c2VyJwoKY29uc3QgdG9rZW4gPSByZWYobG9jYWxTdG9yYWdlLmdldEl0ZW0oVE9LRU5fS0VZKSB8fCAnJykKY29uc3QgdXNlciA9IHJlZigoKCkgPT4geyB0cnkgeyByZXR1cm4gSlNPTi5wYXJzZShsb2NhbFN0b3JhZ2UuZ2V0SXRlbShVU0VSX0tFWSkpIHx8IG51bGwgfSBjYXRjaCB7IHJldHVybiBudWxsIH0gfSkoKSkKY29uc3QgaXNMb2dpbiA9IGNvbXB1dGVkKCgpID0+ICEhdG9rZW4udmFsdWUpCi8vIOWFvOWuueaXp+mAu+i+ke+8muS8mOWFiOWPluS8muWRmOaYteensApjb25zdCB1c2VyTmFtZSA9IGNvbXB1dGVkKCgpID0+ICh1c2VyLnZhbHVlICYmIHVzZXIudmFsdWUubmlja25hbWUpIHx8IGxvY2FsU3RvcmFnZS5nZXRJdGVtKCdtYWRfbmFtZScpIHx8ICcnKQoKZXhwb3J0IGZ1bmN0aW9uIHVzZUF1dGgoKSB7CiAgLy8g55m75b2V5oiQ5Yqf77ya5YaZ5YWlIHRva2VuICsg5Lya5ZGY5L+h5oGv77yI5p2l6Ieq5ZCO56uv77yJCiAgZnVuY3Rpb24gbG9naW4oeyB0b2tlbjogdCwgbWVtYmVyIH0gPSB7fSkgewogICAgdG9rZW4udmFsdWUgPSB0IHx8ICdkZW1vLXRva2VuJwogICAgdXNlci52YWx1ZSA9IG1lbWJlciB8fCB7IG5pY2tuYW1lOiAnTUFE5a2m5ZGYJywgYXZhdGFyOiAnL2ltZy9hdmF0YXItYm95LmdpZicgfQogICAgbG9jYWxTdG9yYWdlLnNldEl0ZW0oVE9LRU5fS0VZLCB0b2tlbi52YWx1ZSkKICAgIGxvY2FsU3RvcmFnZS5zZXRJdGVtKFVTRVJfS0VZLCBKU09OLnN0cmluZ2lmeSh1c2VyLnZhbHVlKSkKICB9CiAgZnVuY3Rpb24gbG9nb3V0KCkgewogICAgdG9rZW4udmFsdWUgPSAnJwogICAgdXNlci52YWx1ZSA9IG51bGwKICAgIGxvY2FsU3RvcmFnZS5yZW1vdmVJdGVtKFRPS0VOX0tFWSkKICAgIGxvY2FsU3RvcmFnZS5yZW1vdmVJdGVtKFVTRVJfS0VZKQogICAgbG9jYWxTdG9yYWdlLnJlbW92ZUl0ZW0oJ21hZF9uYW1lJykKICB9CiAgcmV0dXJuIHsgaXNMb2dpbiwgdG9rZW4sIHVzZXIsIHVzZXJOYW1lLCBsb2dpbiwgbG9nb3V0IH0KfQo=
+import { ref, computed } from 'vue'
+
+// 登录态：模块级单例，SPA 内共享，持久化到 localStorage（刷新后保持）
+const TOKEN_KEY = 'mad_token'
+const USER_KEY = 'mad_user'
+
+const token = ref(localStorage.getItem(TOKEN_KEY) || '')
+const user = ref((() => { try { return JSON.parse(localStorage.getItem(USER_KEY)) || null } catch { return null } })())
+const isLogin = computed(() => !!token.value)
+// 兼容旧逻辑：优先取会员昵称
+const userName = computed(() => (user.value && user.value.nickname) || localStorage.getItem('mad_name') || '')
+
+export function useAuth() {
+  // 登录成功：写入 token + 会员信息（来自后端）
+  function login({ token: t, member } = {}) {
+    token.value = t || 'demo-token'
+    user.value = member || { nickname: 'MAD学员', avatar: '/img/avatar-boy.gif' }
+    localStorage.setItem(TOKEN_KEY, token.value)
+    localStorage.setItem(USER_KEY, JSON.stringify(user.value))
+  }
+  function logout() {
+    token.value = ''
+    user.value = null
+    localStorage.removeItem(TOKEN_KEY)
+    localStorage.removeItem(USER_KEY)
+    localStorage.removeItem('mad_name')
+  }
+  return { isLogin, token, user, userName, login, logout }
+}

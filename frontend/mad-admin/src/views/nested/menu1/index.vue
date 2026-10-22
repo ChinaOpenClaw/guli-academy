@@ -1,1 +1,7 @@
-PHRlbXBsYXRlID4KICA8ZGl2IHN0eWxlPSJwYWRkaW5nOjMwcHg7Ij4KICAgIDxlbC1hbGVydCA6Y2xvc2FibGU9ImZhbHNlIiB0aXRsZT0ibWVudSAxIj4KICAgICAgPHJvdXRlci12aWV3IC8+CiAgICA8L2VsLWFsZXJ0PgogIDwvZGl2Pgo8L3RlbXBsYXRlPgo=
+<template >
+  <div style="padding:30px;">
+    <el-alert :closable="false" title="menu 1">
+      <router-view />
+    </el-alert>
+  </div>
+</template>

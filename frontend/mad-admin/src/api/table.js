@@ -1,1 +1,9 @@
-aW1wb3J0IHJlcXVlc3QgZnJvbSAnQC91dGlscy9yZXF1ZXN0JwoKZXhwb3J0IGZ1bmN0aW9uIGdldExpc3QocGFyYW1zKSB7CiAgcmV0dXJuIHJlcXVlc3QoewogICAgdXJsOiAnL3RhYmxlL2xpc3QnLAogICAgbWV0aG9kOiAnZ2V0JywKICAgIHBhcmFtcwogIH0pCn0K
+import request from '@/utils/request'
+
+export function getList(params) {
+  return request({
+    url: '/table/list',
+    method: 'get',
+    params
+  })
+}

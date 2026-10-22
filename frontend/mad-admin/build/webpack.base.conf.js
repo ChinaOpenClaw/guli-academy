@@ -1,1 +1,107 @@
-J3VzZSBzdHJpY3QnCmNvbnN0IHBhdGggPSByZXF1aXJlKCdwYXRoJykKY29uc3QgdXRpbHMgPSByZXF1aXJlKCcuL3V0aWxzJykKY29uc3QgY29uZmlnID0gcmVxdWlyZSgnLi4vY29uZmlnJykKY29uc3QgeyBWdWVMb2FkZXJQbHVnaW4gfSA9IHJlcXVpcmUoJ3Z1ZS1sb2FkZXInKQpjb25zdCB2dWVMb2FkZXJDb25maWcgPSByZXF1aXJlKCcuL3Z1ZS1sb2FkZXIuY29uZicpCgpmdW5jdGlvbiByZXNvbHZlKGRpcikgewogIHJldHVybiBwYXRoLmpvaW4oX19kaXJuYW1lLCAnLi4nLCBkaXIpCn0KCmNvbnN0IGNyZWF0ZUxpbnRpbmdSdWxlID0gKCkgPT4gKHsKICB0ZXN0OiAvXC4oanN8dnVlKSQvLAogIGxvYWRlcjogJ2VzbGludC1sb2FkZXInLAogIGVuZm9yY2U6ICdwcmUnLAogIGluY2x1ZGU6IFtyZXNvbHZlKCdzcmMnKSwgcmVzb2x2ZSgndGVzdCcpXSwKICBvcHRpb25zOiB7CiAgICBmb3JtYXR0ZXI6IHJlcXVpcmUoJ2VzbGludC1mcmllbmRseS1mb3JtYXR0ZXInKSwKICAgIGVtaXRXYXJuaW5nOiAhY29uZmlnLmRldi5zaG93RXNsaW50RXJyb3JzSW5PdmVybGF5CiAgfQp9KQoKbW9kdWxlLmV4cG9ydHMgPSB7CiAgY29udGV4dDogcGF0aC5yZXNvbHZlKF9fZGlybmFtZSwgJy4uLycpLAogIGVudHJ5OiB7CiAgICBhcHA6ICcuL3NyYy9tYWluLmpzJwogIH0sCiAgb3V0cHV0OiB7CiAgICBwYXRoOiBjb25maWcuYnVpbGQuYXNzZXRzUm9vdCwKICAgIGZpbGVuYW1lOiAnW25hbWVdLmpzJywKICAgIHB1YmxpY1BhdGg6CiAgICAgIHByb2Nlc3MuZW52Lk5PREVfRU5WID09PSAncHJvZHVjdGlvbicKICAgICAgICA/IGNvbmZpZy5idWlsZC5hc3NldHNQdWJsaWNQYXRoCiAgICAgICAgOiBjb25maWcuZGV2LmFzc2V0c1B1YmxpY1BhdGgKICB9LAogIHJlc29sdmU6IHsKICAgIGV4dGVuc2lvbnM6IFsnLmpzJywgJy52dWUnLCAnLmpzb24nXSwKICAgIGFsaWFzOiB7CiAgICAgICdAJzogcmVzb2x2ZSgnc3JjJykKICAgIH0KICB9LAogIG1vZHVsZTogewogICAgcnVsZXM6IFsKICAgICAgLi4uKGNvbmZpZy5kZXYudXNlRXNsaW50ID8gW2NyZWF0ZUxpbnRpbmdSdWxlKCldIDogW10pLAogICAgICB7CiAgICAgICAgdGVzdDogL1wudnVlJC8sCiAgICAgICAgbG9hZGVyOiAndnVlLWxvYWRlcicsCiAgICAgICAgb3B0aW9uczogdnVlTG9hZGVyQ29uZmlnCiAgICAgIH0sCiAgICAgIHsKICAgICAgICB0ZXN0OiAvXC5qcyQvLAogICAgICAgIGxvYWRlcjogJ2JhYmVsLWxvYWRlcicsCiAgICAgICAgaW5jbHVkZTogWwogICAgICAgICAgcmVzb2x2ZSgnc3JjJyksCiAgICAgICAgICByZXNvbHZlKCd0ZXN0JyksCiAgICAgICAgICByZXNvbHZlKCdub2RlX21vZHVsZXMvd2VicGFjay1kZXYtc2VydmVyL2NsaWVudCcpCiAgICAgICAgXQogICAgICB9LAogICAgICB7CiAgICAgICAgdGVzdDogL1wuc3ZnJC8sCiAgICAgICAgbG9hZGVyOiAnc3ZnLXNwcml0ZS1sb2FkZXInLAogICAgICAgIGluY2x1ZGU6IFtyZXNvbHZlKCdzcmMvaWNvbnMnKV0sCiAgICAgICAgb3B0aW9uczogewogICAgICAgICAgc3ltYm9sSWQ6ICdpY29uLVtuYW1lXScKICAgICAgICB9CiAgICAgIH0sCiAgICAgIHsKICAgICAgICB0ZXN0OiAvXC4ocG5nfGpwZT9nfGdpZnxzdmcpKFw/LiopPyQvLAogICAgICAgIGxvYWRlcjogJ3VybC1sb2FkZXInLAogICAgICAgIGV4Y2x1ZGU6IFtyZXNvbHZlKCdzcmMvaWNvbnMnKV0sCiAgICAgICAgb3B0aW9uczogewogICAgICAgICAgbGltaXQ6IDEwMDAwLAogICAgICAgICAgbmFtZTogdXRpbHMuYXNzZXRzUGF0aCgnaW1nL1tuYW1lXS5baGFzaDo3XS5bZXh0XScpCiAgICAgICAgfQogICAgICB9LAogICAgICB7CiAgICAgICAgdGVzdDogL1wuKG1wNHx3ZWJtfG9nZ3xtcDN8d2F2fGZsYWN8YWFjKShcPy4qKT8kLywKICAgICAgICBsb2FkZXI6ICd1cmwtbG9hZGVyJywKICAgICAgICBvcHRpb25zOiB7CiAgICAgICAgICBsaW1pdDogMTAwMDAsCiAgICAgICAgICBuYW1lOiB1dGlscy5hc3NldHNQYXRoKCdtZWRpYS9bbmFtZV0uW2hhc2g6N10uW2V4dF0nKQogICAgICAgIH0KICAgICAgfSwKICAgICAgewogICAgICAgIHRlc3Q6IC9cLih3b2ZmMj98ZW90fHR0ZnxvdGYpKFw/LiopPyQvLAogICAgICAgIGxvYWRlcjogJ3VybC1sb2FkZXInLAogICAgICAgIG9wdGlvbnM6IHsKICAgICAgICAgIGxpbWl0OiAxMDAwMCwKICAgICAgICAgIG5hbWU6IHV0aWxzLmFzc2V0c1BhdGgoJ2ZvbnRzL1tuYW1lXS5baGFzaDo3XS5bZXh0XScpCiAgICAgICAgfQogICAgICB9CiAgICBdCiAgfSwKICBwbHVnaW5zOiBbbmV3IFZ1ZUxvYWRlclBsdWdpbigpXSwKICBub2RlOiB7CiAgICAvLyBwcmV2ZW50IHdlYnBhY2sgZnJvbSBpbmplY3RpbmcgdXNlbGVzcyBzZXRJbW1lZGlhdGUgcG9seWZpbGwgYmVjYXVzZSBWdWUKICAgIC8vIHNvdXJjZSBjb250YWlucyBpdCAoYWx0aG91Z2ggb25seSB1c2VzIGl0IGlmIGl0J3MgbmF0aXZlKS4KICAgIHNldEltbWVkaWF0ZTogZmFsc2UsCiAgICAvLyBwcmV2ZW50IHdlYnBhY2sgZnJvbSBpbmplY3RpbmcgbW9ja3MgdG8gTm9kZSBuYXRpdmUgbW9kdWxlcwogICAgLy8gdGhhdCBkb2VzIG5vdCBtYWtlIHNlbnNlIGZvciB0aGUgY2xpZW50CiAgICBkZ3JhbTogJ2VtcHR5JywKICAgIGZzOiAnZW1wdHknLAogICAgbmV0OiAnZW1wdHknLAogICAgdGxzOiAnZW1wdHknLAogICAgY2hpbGRfcHJvY2VzczogJ2VtcHR5JwogIH0KfQo=
+'use strict'
+const path = require('path')
+const utils = require('./utils')
+const config = require('../config')
+const { VueLoaderPlugin } = require('vue-loader')
+const vueLoaderConfig = require('./vue-loader.conf')
+
+function resolve(dir) {
+  return path.join(__dirname, '..', dir)
+}
+
+const createLintingRule = () => ({
+  test: /\.(js|vue)$/,
+  loader: 'eslint-loader',
+  enforce: 'pre',
+  include: [resolve('src'), resolve('test')],
+  options: {
+    formatter: require('eslint-friendly-formatter'),
+    emitWarning: !config.dev.showEslintErrorsInOverlay
+  }
+})
+
+module.exports = {
+  context: path.resolve(__dirname, '../'),
+  entry: {
+    app: './src/main.js'
+  },
+  output: {
+    path: config.build.assetsRoot,
+    filename: '[name].js',
+    publicPath:
+      process.env.NODE_ENV === 'production'
+        ? config.build.assetsPublicPath
+        : config.dev.assetsPublicPath
+  },
+  resolve: {
+    extensions: ['.js', '.vue', '.json'],
+    alias: {
+      '@': resolve('src')
+    }
+  },
+  module: {
+    rules: [
+      ...(config.dev.useEslint ? [createLintingRule()] : []),
+      {
+        test: /\.vue$/,
+        loader: 'vue-loader',
+        options: vueLoaderConfig
+      },
+      {
+        test: /\.js$/,
+        loader: 'babel-loader',
+        include: [
+          resolve('src'),
+          resolve('test'),
+          resolve('node_modules/webpack-dev-server/client')
+        ]
+      },
+      {
+        test: /\.svg$/,
+        loader: 'svg-sprite-loader',
+        include: [resolve('src/icons')],
+        options: {
+          symbolId: 'icon-[name]'
+        }
+      },
+      {
+        test: /\.(png|jpe?g|gif|svg)(\?.*)?$/,
+        loader: 'url-loader',
+        exclude: [resolve('src/icons')],
+        options: {
+          limit: 10000,
+          name: utils.assetsPath('img/[name].[hash:7].[ext]')
+        }
+      },
+      {
+        test: /\.(mp4|webm|ogg|mp3|wav|flac|aac)(\?.*)?$/,
+        loader: 'url-loader',
+        options: {
+          limit: 10000,
+          name: utils.assetsPath('media/[name].[hash:7].[ext]')
+        }
+      },
+      {
+        test: /\.(woff2?|eot|ttf|otf)(\?.*)?$/,
+        loader: 'url-loader',
+        options: {
+          limit: 10000,
+          name: utils.assetsPath('fonts/[name].[hash:7].[ext]')
+        }
+      }
+    ]
+  },
+  plugins: [new VueLoaderPlugin()],
+  node: {
+    // prevent webpack from injecting useless setImmediate polyfill because Vue
+    // source contains it (although only uses it if it's native).
+    setImmediate: false,
+    // prevent webpack from injecting mocks to Node native modules
+    // that does not make sense for the client
+    dgram: 'empty',
+    fs: 'empty',
+    net: 'empty',
+    tls: 'empty',
+    child_process: 'empty'
+  }
+}

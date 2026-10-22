@@ -1,1 +1,41 @@
-cGFja2FnZSBjb20ubWFkLmFsaXl1bm9zcy5jb25maWc7CgppbXBvcnQgY29tLmdvb2dsZS5jb21tb24uYmFzZS5QcmVkaWNhdGVzOwppbXBvcnQgb3JnLnNwcmluZ2ZyYW1ld29yay5jb250ZXh0LmFubm90YXRpb24uQmVhbjsKaW1wb3J0IG9yZy5zcHJpbmdmcmFtZXdvcmsuY29udGV4dC5hbm5vdGF0aW9uLkNvbmZpZ3VyYXRpb247CmltcG9ydCBzcHJpbmdmb3guZG9jdW1lbnRhdGlvbi5idWlsZGVycy5BcGlJbmZvQnVpbGRlcjsKaW1wb3J0IHNwcmluZ2ZveC5kb2N1bWVudGF0aW9uLmJ1aWxkZXJzLlBhdGhTZWxlY3RvcnM7CmltcG9ydCBzcHJpbmdmb3guZG9jdW1lbnRhdGlvbi5zZXJ2aWNlLkFwaUluZm87CmltcG9ydCBzcHJpbmdmb3guZG9jdW1lbnRhdGlvbi5zZXJ2aWNlLkNvbnRhY3Q7CmltcG9ydCBzcHJpbmdmb3guZG9jdW1lbnRhdGlvbi5zcGkuRG9jdW1lbnRhdGlvblR5cGU7CmltcG9ydCBzcHJpbmdmb3guZG9jdW1lbnRhdGlvbi5zcHJpbmcud2ViLnBsdWdpbnMuRG9ja2V0OwppbXBvcnQgc3ByaW5nZm94LmRvY3VtZW50YXRpb24uc3dhZ2dlcjIuYW5ub3RhdGlvbnMuRW5hYmxlU3dhZ2dlcjI7CgovKioKICogQGF1dGhvciBoZWxlbgogKiBAc2luY2UgMjAxOS82LzI0CiAqLwpAQ29uZmlndXJhdGlvbgpARW5hYmxlU3dhZ2dlcjIKcHVibGljIGNsYXNzIFN3YWdnZXIyQ29uZmlnIHsKCglAQmVhbgoJcHVibGljIERvY2tldCBhZG1pbkFwaUNvbmZpZygpewoJCXJldHVybiBuZXcgRG9ja2V0KERvY3VtZW50YXRpb25UeXBlLlNXQUdHRVJfMikKCQkJCS5hcGlJbmZvKGFkbWluQXBpSW5mbygpKQoJCQkJLnNlbGVjdCgpCgkJCQkucGF0aHMoUHJlZGljYXRlcy5hbmQoUGF0aFNlbGVjdG9ycy5yZWdleCgiL2FkbWluLy4qIikpKQoJCQkJLmJ1aWxkKCk7Cgl9CgoKCXByaXZhdGUgQXBpSW5mbyBhZG1pbkFwaUluZm8oKXsKCgkJcmV0dXJuIG5ldyBBcGlJbmZvQnVpbGRlcigpCgkJCQkudGl0bGUoIuaWh+S7tueuoeeQhuW+ruacjeWKoSIpCgkJCQkuZGVzY3JpcHRpb24oIuacrOaWh+aho+aPj+i/sOS6huaWh+S7tueuoeeQhuW+ruacjeWKoeaOpeWPo+WumuS5iSIpCgkJCQkudmVyc2lvbigiMS4wIikKCQkJCS5jb250YWN0KG5ldyBDb250YWN0KCJIZWxlbiIsICJodHRwOi8vYXRndWlndS5jb20iLCAiNTUzMTczMzJAcXEuY29tIikpCgkJCQkuYnVpbGQoKTsKCX0KfQo=
+package com.mad.aliyunoss.config;
+
+import com.google.common.base.Predicates;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import springfox.documentation.builders.ApiInfoBuilder;
+import springfox.documentation.builders.PathSelectors;
+import springfox.documentation.service.ApiInfo;
+import springfox.documentation.service.Contact;
+import springfox.documentation.spi.DocumentationType;
+import springfox.documentation.spring.web.plugins.Docket;
+import springfox.documentation.swagger2.annotations.EnableSwagger2;
+
+/**
+ * @author helen
+ * @since 2019/6/24
+ */
+@Configuration
+@EnableSwagger2
+public class Swagger2Config {
+
+	@Bean
+	public Docket adminApiConfig(){
+		return new Docket(DocumentationType.SWAGGER_2)
+				.apiInfo(adminApiInfo())
+				.select()
+				.paths(Predicates.and(PathSelectors.regex("/admin/.*")))
+				.build();
+	}
+
+
+	private ApiInfo adminApiInfo(){
+
+		return new ApiInfoBuilder()
+				.title("文件管理微服务")
+				.description("本文档描述了文件管理微服务接口定义")
+				.version("1.0")
+				.contact(new Contact("Helen", "http://atguigu.com", "55317332@qq.com"))
+				.build();
+	}
+}

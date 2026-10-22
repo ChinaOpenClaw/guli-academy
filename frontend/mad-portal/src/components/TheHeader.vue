@@ -1,1 +1,51 @@
-PHRlbXBsYXRlPgogIDxoZWFkZXIgY2xhc3M9ImctaGVhZGVyIj4KICAgIDxkaXYgY2xhc3M9ImNvbnRhaW5lciI+CiAgICAgIDxoMSBjbGFzcz0iZy1sb2dvIj4KICAgICAgICA8cm91dGVyLWxpbmsgdG89Ii8iPjxpbWcgc3JjPSIvaW1nL2xvZ28ucG5nIiBhbHQ9Ik1BROe9keivvuezu+e7nyBNQUQiIC8+PC9yb3V0ZXItbGluaz4KICAgICAgPC9oMT4KICAgICAgPG5hdiBjbGFzcz0iZy1uYXYiPgogICAgICAgIDxyb3V0ZXItbGluayB0bz0iLyI+6aaW6aG1PC9yb3V0ZXItbGluaz4KICAgICAgICA8cm91dGVyLWxpbmsgdG89Ii9jb3Vyc2VzIj7or77nqIs8L3JvdXRlci1saW5rPgogICAgICAgIDxyb3V0ZXItbGluayB0bz0iL3RlYWNoZXJzIj7lkI3luIg8L3JvdXRlci1saW5rPgogICAgICAgIDxyb3V0ZXItbGluayB0bz0iL2FydGljbGVzIj7mlofnq6A8L3JvdXRlci1saW5rPgogICAgICAgIDxyb3V0ZXItbGluayB0bz0iL2FpLWNhc2VzIj5BSeahiOS+izwvcm91dGVyLWxpbms+CiAgICAgICAgPHJvdXRlci1saW5rIHRvPSIvcXVlc3Rpb25zIj7pl67nrZQ8L3JvdXRlci1saW5rPgogICAgICA8L25hdj4KICAgICAgPGRpdiBjbGFzcz0iZy1oZWFkZXItcmlnaHQiPgogICAgICAgIDxmb3JtIGNsYXNzPSJnLXNlYXJjaCIgQHN1Ym1pdC5wcmV2ZW50PSJvblNlYXJjaCI+CiAgICAgICAgICA8aW5wdXQgdi1tb2RlbD0ia3ciIHR5cGU9InRleHQiIHBsYWNlaG9sZGVyPSLmkJzntKLor77nqIsiIC8+CiAgICAgICAgICA8YnV0dG9uIHR5cGU9InN1Ym1pdCIgYXJpYS1sYWJlbD0i5pCc57SiIj7wn5SNPC9idXR0b24+CiAgICAgICAgPC9mb3JtPgogICAgICAgIDx0ZW1wbGF0ZSB2LWlmPSJpc0xvZ2luIj4KICAgICAgICAgIDxkaXYgY2xhc3M9ImctdXNlciI+CiAgICAgICAgICAgIDxyb3V0ZXItbGluayB0bz0iL3VzZXIiPjxpbWcgOnNyYz0idXNlcj8uYXZhdGFyIHx8ICcvaW1nL2F2YXRhci1ib3kuZ2lmJyIgYWx0PSLlpLTlg48iIC8+PC9yb3V0ZXItbGluaz4KICAgICAgICAgICAgPHJvdXRlci1saW5rIHRvPSIvdXNlciIgY2xhc3M9ImMtNjY2Ij57eyB1c2VyTmFtZSB9fTwvcm91dGVyLWxpbms+CiAgICAgICAgICAgIDxhIGhyZWY9ImphdmFzY3JpcHQ6dm9pZCgwKSIgY2xhc3M9ImMtNjY2IG1sNSIgQGNsaWNrPSJsb2dvdXQiPumAgOWHujwvYT4KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvdGVtcGxhdGU+CiAgICAgICAgPHRlbXBsYXRlIHYtZWxzZT4KICAgICAgICAgIDxkaXYgY2xhc3M9ImctbG9naW4iPgogICAgICAgICAgICA8cm91dGVyLWxpbmsgdG89Ii9sb2dpbiI+55m75b2VPC9yb3V0ZXItbGluaz4KICAgICAgICAgICAgPHNwYW4gY2xhc3M9Im1sNSBjLTk5OSI+fDwvc3Bhbj4KICAgICAgICAgICAgPHJvdXRlci1saW5rIHRvPSIvcmVnaXN0ZXIiIGNsYXNzPSJtbDUiPuazqOWGjDwvcm91dGVyLWxpbms+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L3RlbXBsYXRlPgogICAgICA8L2Rpdj4KICAgIDwvZGl2PgogIDwvaGVhZGVyPgo8L3RlbXBsYXRlPgoKPHNjcmlwdCBzZXR1cD4KaW1wb3J0IHsgcmVmIH0gZnJvbSAndnVlJwppbXBvcnQgeyB1c2VSb3V0ZXIgfSBmcm9tICd2dWUtcm91dGVyJwppbXBvcnQgeyB1c2VBdXRoIH0gZnJvbSAnQC9jb21wb3NhYmxlcy91c2VBdXRoJwoKY29uc3QgeyBpc0xvZ2luLCB1c2VyTmFtZSwgdXNlciwgbG9nb3V0IH0gPSB1c2VBdXRoKCkKY29uc3Qgcm91dGVyID0gdXNlUm91dGVyKCkKY29uc3Qga3cgPSByZWYoJycpCgpmdW5jdGlvbiBvblNlYXJjaCgpIHsKICByb3V0ZXIucHVzaCh7IHBhdGg6ICcvY291cnNlcycsIHF1ZXJ5OiB7IGt3OiBrdy52YWx1ZSB8fCB1bmRlZmluZWQgfSB9KQp9Cjwvc2NyaXB0Pgo=
+<template>
+  <header class="g-header">
+    <div class="container">
+      <h1 class="g-logo">
+        <router-link to="/"><img src="/img/logo.png" alt="MAD网课系统 MAD" /></router-link>
+      </h1>
+      <nav class="g-nav">
+        <router-link to="/">首页</router-link>
+        <router-link to="/courses">课程</router-link>
+        <router-link to="/teachers">名师</router-link>
+        <router-link to="/articles">文章</router-link>
+        <router-link to="/ai-cases">AI案例</router-link>
+        <router-link to="/questions">问答</router-link>
+      </nav>
+      <div class="g-header-right">
+        <form class="g-search" @submit.prevent="onSearch">
+          <input v-model="kw" type="text" placeholder="搜索课程" />
+          <button type="submit" aria-label="搜索">🔍</button>
+        </form>
+        <template v-if="isLogin">
+          <div class="g-user">
+            <router-link to="/user"><img :src="user?.avatar || '/img/avatar-boy.gif'" alt="头像" /></router-link>
+            <router-link to="/user" class="c-666">{{ userName }}</router-link>
+            <a href="javascript:void(0)" class="c-666 ml5" @click="logout">退出</a>
+          </div>
+        </template>
+        <template v-else>
+          <div class="g-login">
+            <router-link to="/login">登录</router-link>
+            <span class="ml5 c-999">|</span>
+            <router-link to="/register" class="ml5">注册</router-link>
+          </div>
+        </template>
+      </div>
+    </div>
+  </header>
+</template>
+
+<script setup>
+import { ref } from 'vue'
+import { useRouter } from 'vue-router'
+import { useAuth } from '@/composables/useAuth'
+
+const { isLogin, userName, user, logout } = useAuth()
+const router = useRouter()
+const kw = ref('')
+
+function onSearch() {
+  router.push({ path: '/courses', query: { kw: kw.value || undefined } })
+}
+</script>

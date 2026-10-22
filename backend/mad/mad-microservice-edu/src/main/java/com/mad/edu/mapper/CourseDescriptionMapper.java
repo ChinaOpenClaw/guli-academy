@@ -1,1 +1,18 @@
-cGFja2FnZSBjb20ubWFkLmVkdS5tYXBwZXI7CgppbXBvcnQgY29tLm1hZC5lZHUuZW50aXR5LkNvdXJzZURlc2NyaXB0aW9uOwppbXBvcnQgY29tLmJhb21pZG91Lm15YmF0aXNwbHVzLmNvcmUubWFwcGVyLkJhc2VNYXBwZXI7CmltcG9ydCBvcmcuc3ByaW5nZnJhbWV3b3JrLnN0ZXJlb3R5cGUuUmVwb3NpdG9yeTsKCi8qKgogKiA8cD4KICog6K++56iL566A5LuLIE1hcHBlciDmjqXlj6MKICogPC9wPgogKgogKiBAYXV0aG9yIEhlbGVuCiAqIEBzaW5jZSAyMDE5LTA2LTI0CiAqLwpAUmVwb3NpdG9yeQpwdWJsaWMgaW50ZXJmYWNlIENvdXJzZURlc2NyaXB0aW9uTWFwcGVyIGV4dGVuZHMgQmFzZU1hcHBlcjxDb3Vyc2VEZXNjcmlwdGlvbj4gewoKfQo=
+package com.mad.edu.mapper;
+
+import com.mad.edu.entity.CourseDescription;
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import org.springframework.stereotype.Repository;
+
+/**
+ * <p>
+ * 课程简介 Mapper 接口
+ * </p>
+ *
+ * @author Helen
+ * @since 2019-06-24
+ */
+@Repository
+public interface CourseDescriptionMapper extends BaseMapper<CourseDescription> {
+
+}

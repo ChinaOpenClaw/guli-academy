@@ -1,1 +1,72 @@
-aW1wb3J0IHJlcXVlc3QgZnJvbSAnQC91dGlscy9yZXF1ZXN0JwoKY29uc3QgYXBpX25hbWUgPSAnL2FkbWluL2VkdS9jb3Vyc2UnCgpleHBvcnQgZGVmYXVsdCB7CiAgLy8g5YiG6aG16K++56iL5YiX6KGoCiAgZ2V0UGFnZUxpc3QocGFnZSwgbGltaXQsIHNlYXJjaE9iaikgewogICAgcmV0dXJuIHJlcXVlc3QoewogICAgICB1cmw6IGAke2FwaV9uYW1lfS8ke3BhZ2V9LyR7bGltaXR9YCwKICAgICAgbWV0aG9kOiAnZ2V0JywKICAgICAgcGFyYW1zOiBzZWFyY2hPYmoKICAgIH0pCiAgfSwKCiAgLy8g5omA5pyJ6K++56iL5YiX6KGo77yI5LiL5ouJ6YCJ5oup55So77yJCiAgZ2V0TGlzdCgpIHsKICAgIHJldHVybiByZXF1ZXN0KHsKICAgICAgdXJsOiBhcGlfbmFtZSwKICAgICAgbWV0aG9kOiAnZ2V0JwogICAgfSkKICB9LAoKICAvLyDmoLnmja5JROWIoOmZpOivvueoiwogIHJlbW92ZUJ5SWQoaWQpIHsKICAgIHJldHVybiByZXF1ZXN0KHsKICAgICAgdXJsOiBgJHthcGlfbmFtZX0vJHtpZH1gLAogICAgICBtZXRob2Q6ICdkZWxldGUnCiAgICB9KQogIH0sCgogIC8vIOaWsOWinuivvueoi+WfuuacrOS/oeaBr++8iOi/lOWbniBjb3Vyc2VJZO+8iQogIHNhdmVDb3Vyc2VJbmZvKGNvdXJzZUluZm9Gb3JtKSB7CiAgICByZXR1cm4gcmVxdWVzdCh7CiAgICAgIHVybDogYCR7YXBpX25hbWV9L3NhdmUtY291cnNlLWluZm9gLAogICAgICBtZXRob2Q6ICdwb3N0JywKICAgICAgZGF0YTogY291cnNlSW5mb0Zvcm0KICAgIH0pCiAgfSwKCiAgLy8g5qC55o2uSUTmn6Xor6Lor77nqIvln7rmnKzkv6Hmga/vvIjlkKvnroDku4vvvIkKICBnZXRDb3Vyc2VJbmZvQnlJZChpZCkgewogICAgcmV0dXJuIHJlcXVlc3QoewogICAgICB1cmw6IGAke2FwaV9uYW1lfS9jb3Vyc2UtaW5mby8ke2lkfWAsCiAgICAgIG1ldGhvZDogJ2dldCcKICAgIH0pCiAgfSwKCiAgLy8g5pu05paw6K++56iL5Z+65pys5L+h5oGvCiAgdXBkYXRlQ291cnNlSW5mb0J5SWQoaWQsIGNvdXJzZUluZm9Gb3JtKSB7CiAgICByZXR1cm4gcmVxdWVzdCh7CiAgICAgIHVybDogYCR7YXBpX25hbWV9L3VwZGF0ZS1jb3Vyc2UtaW5mby8ke2lkfWAsCiAgICAgIG1ldGhvZDogJ3B1dCcsCiAgICAgIGRhdGE6IGNvdXJzZUluZm9Gb3JtCiAgICB9KQogIH0sCgogIC8vIOagueaNrklE6I635Y+W6K++56iL5Y+R5biD5L+h5oGvCiAgZ2V0Q291cnNlUHVibGlzaEluZm9CeUlkKGlkKSB7CiAgICByZXR1cm4gcmVxdWVzdCh7CiAgICAgIHVybDogYCR7YXBpX25hbWV9L2NvdXJzZS1wdWJsaXNoLWluZm8vJHtpZH1gLAogICAgICBtZXRob2Q6ICdnZXQnCiAgICB9KQogIH0sCgogIC8vIOWPkeW4g+ivvueoiwogIHB1Ymxpc2hDb3Vyc2VCeUlkKGlkKSB7CiAgICByZXR1cm4gcmVxdWVzdCh7CiAgICAgIHVybDogYCR7YXBpX25hbWV9L3B1Ymxpc2gtY291cnNlLyR7aWR9YCwKICAgICAgbWV0aG9kOiAncHV0JwogICAgfSkKICB9Cn0K
+import request from '@/utils/request'
+
+const api_name = '/admin/edu/course'
+
+export default {
+  // 分页课程列表
+  getPageList(page, limit, searchObj) {
+    return request({
+      url: `${api_name}/${page}/${limit}`,
+      method: 'get',
+      params: searchObj
+    })
+  },
+
+  // 所有课程列表（下拉选择用）
+  getList() {
+    return request({
+      url: api_name,
+      method: 'get'
+    })
+  },
+
+  // 根据ID删除课程
+  removeById(id) {
+    return request({
+      url: `${api_name}/${id}`,
+      method: 'delete'
+    })
+  },
+
+  // 新增课程基本信息（返回 courseId）
+  saveCourseInfo(courseInfoForm) {
+    return request({
+      url: `${api_name}/save-course-info`,
+      method: 'post',
+      data: courseInfoForm
+    })
+  },
+
+  // 根据ID查询课程基本信息（含简介）
+  getCourseInfoById(id) {
+    return request({
+      url: `${api_name}/course-info/${id}`,
+      method: 'get'
+    })
+  },
+
+  // 更新课程基本信息
+  updateCourseInfoById(id, courseInfoForm) {
+    return request({
+      url: `${api_name}/update-course-info/${id}`,
+      method: 'put',
+      data: courseInfoForm
+    })
+  },
+
+  // 根据ID获取课程发布信息
+  getCoursePublishInfoById(id) {
+    return request({
+      url: `${api_name}/course-publish-info/${id}`,
+      method: 'get'
+    })
+  },
+
+  // 发布课程
+  publishCourseById(id) {
+    return request({
+      url: `${api_name}/publish-course/${id}`,
+      method: 'put'
+    })
+  }
+}

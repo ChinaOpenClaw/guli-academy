@@ -1,1 +1,30 @@
-aW1wb3J0IHsgZGVmaW5lQ29uZmlnIH0gZnJvbSAndml0ZScKaW1wb3J0IHZ1ZSBmcm9tICdAdml0ZWpzL3BsdWdpbi12dWUnCmltcG9ydCB7IGZpbGVVUkxUb1BhdGgsIFVSTCB9IGZyb20gJ25vZGU6dXJsJwoKLy8gTUFE572R6K++57O757uf5YmN5Y+w6Zeo5oi3IC0gVnVlIDMgKyBWaXRlCi8vIOerr+WPoyA5NTI577yIOTUyOCDlt7LooqsgbWFkLWFkbWluIOWNoOeUqO+8iQpleHBvcnQgZGVmYXVsdCBkZWZpbmVDb25maWcoewogIHBsdWdpbnM6IFt2dWUoKV0sCiAgcmVzb2x2ZTogewogICAgYWxpYXM6IHsKICAgICAgJ0AnOiBmaWxlVVJMVG9QYXRoKG5ldyBVUkwoJy4vc3JjJywgaW1wb3J0Lm1ldGEudXJsKSkKICAgIH0KICB9LAogIHNlcnZlcjogewogICAgaG9zdDogJzAuMC4wLjAnLAogICAgcG9ydDogOTUyOSwKICAgIHN0cmljdFBvcnQ6IGZhbHNlLAogICAgLy8g5a2m5Lmg5Lit5b+D5o6l5YWl5ZCO56uv77yI5ryU56S65ZCO56uvIGxlYXJuLWNlbnRlciBAODExMO+8m+eUn+S6p+eUsSBlZHUgLyB1Y2VudGVyIOW+ruacjeWKoeaOpeeuoe+8iQogICAgcHJveHk6IHsKICAgICAgJy9hZG1pbi9lZHUnOiB7IHRhcmdldDogJ2h0dHA6Ly9sb2NhbGhvc3Q6ODExMCcsIGNoYW5nZU9yaWdpbjogdHJ1ZSB9LAogICAgICAnL2VkdSc6IHsgdGFyZ2V0OiAnaHR0cDovL2xvY2FsaG9zdDo4MTEwJywgY2hhbmdlT3JpZ2luOiB0cnVlIH0sCiAgICAgICcvYXBpL3VjZW50ZXInOiB7IHRhcmdldDogJ2h0dHA6Ly9sb2NhbGhvc3Q6ODExMCcsIGNoYW5nZU9yaWdpbjogdHJ1ZSB9LAogICAgICAnL3VjZW50ZXInOiB7IHRhcmdldDogJ2h0dHA6Ly9sb2NhbGhvc3Q6ODExMCcsIGNoYW5nZU9yaWdpbjogdHJ1ZSB9CiAgICB9CiAgfSwKICBidWlsZDogewogICAgb3V0RGlyOiAnZGlzdCcsCiAgICBhc3NldHNEaXI6ICdhc3NldHMnCiAgfQp9KQo=
+import { defineConfig } from 'vite'
+import vue from '@vitejs/plugin-vue'
+import { fileURLToPath, URL } from 'node:url'
+
+// MAD网课系统前台门户 - Vue 3 + Vite
+// 端口 9529（9528 已被 mad-admin 占用）
+export default defineConfig({
+  plugins: [vue()],
+  resolve: {
+    alias: {
+      '@': fileURLToPath(new URL('./src', import.meta.url))
+    }
+  },
+  server: {
+    host: '0.0.0.0',
+    port: 9529,
+    strictPort: false,
+    // 学习中心接入后端（演示后端 learn-center @8110；生产由 edu / ucenter 微服务接管）
+    proxy: {
+      '/admin/edu': { target: 'http://localhost:8110', changeOrigin: true },
+      '/edu': { target: 'http://localhost:8110', changeOrigin: true },
+      '/api/ucenter': { target: 'http://localhost:8110', changeOrigin: true },
+      '/ucenter': { target: 'http://localhost:8110', changeOrigin: true }
+    }
+  },
+  build: {
+    outDir: 'dist',
+    assetsDir: 'assets'
+  }
+})

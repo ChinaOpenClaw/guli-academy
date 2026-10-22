@@ -1,1 +1,5 @@
-PHRlbXBsYXRlIGZ1bmN0aW9uYWw+CiAgPGRpdiBzdHlsZT0icGFkZGluZzozMHB4OyI+CiAgICA8ZWwtYWxlcnQgOmNsb3NhYmxlPSJmYWxzZSIgdGl0bGU9Im1lbnUgMS0yLTIiIHR5cGU9Indhcm5pbmciIC8+CiAgPC9kaXY+CjwvdGVtcGxhdGU+Cg==
+<template functional>
+  <div style="padding:30px;">
+    <el-alert :closable="false" title="menu 1-2-2" type="warning" />
+  </div>
+</template>

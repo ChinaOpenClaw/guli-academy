@@ -1,1 +1,76 @@
-cGFja2FnZSBjb20ubWFkLnVjZW50ZXIuZW50aXR5OwoKaW1wb3J0IGNvbS5iYW9taWRvdS5teWJhdGlzcGx1cy5hbm5vdGF0aW9uLio7CmltcG9ydCBpby5zd2FnZ2VyLmFubm90YXRpb25zLkFwaU1vZGVsOwppbXBvcnQgaW8uc3dhZ2dlci5hbm5vdGF0aW9ucy5BcGlNb2RlbFByb3BlcnR5OwppbXBvcnQgbG9tYm9rLkRhdGE7CmltcG9ydCBsb21ib2suRXF1YWxzQW5kSGFzaENvZGU7CmltcG9ydCBsb21ib2suZXhwZXJpbWVudGFsLkFjY2Vzc29yczsKCmltcG9ydCBqYXZhLmlvLlNlcmlhbGl6YWJsZTsKaW1wb3J0IGphdmEudXRpbC5EYXRlOwoKLyoqCiAqIDxwPgogKiDkvJrlkZjooagKICogPC9wPgogKgogKiBAYXV0aG9yIEhlbGVuCiAqIEBzaW5jZSAyMDE5LTA3LTAxCiAqLwpARGF0YQpARXF1YWxzQW5kSGFzaENvZGUoY2FsbFN1cGVyID0gZmFsc2UpCkBBY2Nlc3NvcnMoY2hhaW4gPSB0cnVlKQpAVGFibGVOYW1lKCJ1Y2VudGVyX21lbWJlciIpCkBBcGlNb2RlbCh2YWx1ZT0iTWVtYmVy5a+56LGhIiwgZGVzY3JpcHRpb249IuS8muWRmOihqCIpCnB1YmxpYyBjbGFzcyBNZW1iZXIgaW1wbGVtZW50cyBTZXJpYWxpemFibGUgewoKICAgIHByaXZhdGUgc3RhdGljIGZpbmFsIGxvbmcgc2VyaWFsVmVyc2lvblVJRCA9IDFMOwoKICAgIEBBcGlNb2RlbFByb3BlcnR5KHZhbHVlID0gIuS8muWRmGlkIikKICAgIEBUYWJsZUlkKHZhbHVlID0gImlkIiwgdHlwZSA9IElkVHlwZS5JRF9XT1JLRVJfU1RSKQogICAgcHJpdmF0ZSBTdHJpbmcgaWQ7CgogICAgQEFwaU1vZGVsUHJvcGVydHkodmFsdWUgPSAi5b6u5L+hb3BlbmlkIikKICAgIHByaXZhdGUgU3RyaW5nIG9wZW5pZDsKCiAgICBAQXBpTW9kZWxQcm9wZXJ0eSh2YWx1ZSA9ICLmiYvmnLrlj7ciKQogICAgcHJpdmF0ZSBTdHJpbmcgbW9iaWxlOwoKICAgIEBBcGlNb2RlbFByb3BlcnR5KHZhbHVlID0gIuWvhueggSIpCiAgICBwcml2YXRlIFN0cmluZyBwYXNzd29yZDsKCiAgICBAQXBpTW9kZWxQcm9wZXJ0eSh2YWx1ZSA9ICLmmLXnp7AiKQogICAgcHJpdmF0ZSBTdHJpbmcgbmlja25hbWU7CgogICAgQEFwaU1vZGVsUHJvcGVydHkodmFsdWUgPSAi5oCn5YirIDEg5aWz77yMMiDnlLciKQogICAgcHJpdmF0ZSBJbnRlZ2VyIHNleDsKCiAgICBAQXBpTW9kZWxQcm9wZXJ0eSh2YWx1ZSA9ICLlubTpvoQiKQogICAgcHJpdmF0ZSBJbnRlZ2VyIGFnZTsKCiAgICBAQXBpTW9kZWxQcm9wZXJ0eSh2YWx1ZSA9ICLnlKjmiLflpLTlg48iKQogICAgcHJpdmF0ZSBTdHJpbmcgYXZhdGFyOwoKICAgIEBBcGlNb2RlbFByb3BlcnR5KHZhbHVlID0gIueUqOaIt+etvuWQjSIpCiAgICBwcml2YXRlIFN0cmluZyBzaWduOwoKICAgIEBBcGlNb2RlbFByb3BlcnR5KHZhbHVlID0gIuaYr+WQpuemgeeUqCAx77yIdHJ1Ze+8ieW3suemgeeUqO+8jCAgMO+8iGZhbHNl77yJ5pyq56aB55SoIikKICAgIEBUYWJsZUZpZWxkKHZhbHVlID0gImlzX2Rpc2FibGVkIikKICAgIHByaXZhdGUgQm9vbGVhbiBkaXNhYmxlZDsKCiAgICBAQXBpTW9kZWxQcm9wZXJ0eSh2YWx1ZSA9ICLpgLvovpHliKDpmaQgMe+8iHRydWXvvInlt7LliKDpmaTvvIwgMO+8iGZhbHNl77yJ5pyq5Yig6ZmkIikKICAgIEBUYWJsZUxvZ2ljCiAgICBAVGFibGVGaWVsZCh2YWx1ZSA9ICJpc19kZWxldGVkIikKICAgIHByaXZhdGUgQm9vbGVhbiBkZWxldGVkOwoKICAgIEBBcGlNb2RlbFByb3BlcnR5KHZhbHVlID0gIuWIm+W7uuaXtumXtCIpCiAgICBAVGFibGVGaWVsZChmaWxsID0gRmllbGRGaWxsLklOU0VSVCkKICAgIHByaXZhdGUgRGF0ZSBnbXRDcmVhdGU7CgogICAgQEFwaU1vZGVsUHJvcGVydHkodmFsdWUgPSAi5pu05paw5pe26Ze0IikKICAgIEBUYWJsZUZpZWxkKGZpbGwgPSBGaWVsZEZpbGwuSU5TRVJUX1VQREFURSkKICAgIHByaXZhdGUgRGF0ZSBnbXRNb2RpZmllZDsKCgp9Cg==
+package com.mad.ucenter.entity;
+
+import com.baomidou.mybatisplus.annotation.*;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
+import lombok.experimental.Accessors;
+
+import java.io.Serializable;
+import java.util.Date;
+
+/**
+ * <p>
+ * 会员表
+ * </p>
+ *
+ * @author Helen
+ * @since 2019-07-01
+ */
+@Data
+@EqualsAndHashCode(callSuper = false)
+@Accessors(chain = true)
+@TableName("ucenter_member")
+@ApiModel(value="Member对象", description="会员表")
+public class Member implements Serializable {
+
+    private static final long serialVersionUID = 1L;
+
+    @ApiModelProperty(value = "会员id")
+    @TableId(value = "id", type = IdType.ID_WORKER_STR)
+    private String id;
+
+    @ApiModelProperty(value = "微信openid")
+    private String openid;
+
+    @ApiModelProperty(value = "手机号")
+    private String mobile;
+
+    @ApiModelProperty(value = "密码")
+    private String password;
+
+    @ApiModelProperty(value = "昵称")
+    private String nickname;
+
+    @ApiModelProperty(value = "性别 1 女，2 男")
+    private Integer sex;
+
+    @ApiModelProperty(value = "年龄")
+    private Integer age;
+
+    @ApiModelProperty(value = "用户头像")
+    private String avatar;
+
+    @ApiModelProperty(value = "用户签名")
+    private String sign;
+
+    @ApiModelProperty(value = "是否禁用 1（true）已禁用，  0（false）未禁用")
+    @TableField(value = "is_disabled")
+    private Boolean disabled;
+
+    @ApiModelProperty(value = "逻辑删除 1（true）已删除， 0（false）未删除")
+    @TableLogic
+    @TableField(value = "is_deleted")
+    private Boolean deleted;
+
+    @ApiModelProperty(value = "创建时间")
+    @TableField(fill = FieldFill.INSERT)
+    private Date gmtCreate;
+
+    @ApiModelProperty(value = "更新时间")
+    @TableField(fill = FieldFill.INSERT_UPDATE)
+    private Date gmtModified;
+
+
+}

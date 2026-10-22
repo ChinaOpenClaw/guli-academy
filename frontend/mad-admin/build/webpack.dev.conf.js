@@ -1,1 +1,98 @@
-J3VzZSBzdHJpY3QnCmNvbnN0IHBhdGggPSByZXF1aXJlKCdwYXRoJykKY29uc3QgdXRpbHMgPSByZXF1aXJlKCcuL3V0aWxzJykKY29uc3Qgd2VicGFjayA9IHJlcXVpcmUoJ3dlYnBhY2snKQpjb25zdCBjb25maWcgPSByZXF1aXJlKCcuLi9jb25maWcnKQpjb25zdCBtZXJnZSA9IHJlcXVpcmUoJ3dlYnBhY2stbWVyZ2UnKQpjb25zdCBiYXNlV2VicGFja0NvbmZpZyA9IHJlcXVpcmUoJy4vd2VicGFjay5iYXNlLmNvbmYnKQpjb25zdCBIdG1sV2VicGFja1BsdWdpbiA9IHJlcXVpcmUoJ2h0bWwtd2VicGFjay1wbHVnaW4nKQpjb25zdCBGcmllbmRseUVycm9yc1BsdWdpbiA9IHJlcXVpcmUoJ2ZyaWVuZGx5LWVycm9ycy13ZWJwYWNrLXBsdWdpbicpCmNvbnN0IHBvcnRmaW5kZXIgPSByZXF1aXJlKCdwb3J0ZmluZGVyJykKCmZ1bmN0aW9uIHJlc29sdmUoZGlyKSB7CiAgcmV0dXJuIHBhdGguam9pbihfX2Rpcm5hbWUsICcuLicsIGRpcikKfQoKY29uc3QgSE9TVCA9IHByb2Nlc3MuZW52LkhPU1QKY29uc3QgUE9SVCA9IHByb2Nlc3MuZW52LlBPUlQgJiYgTnVtYmVyKHByb2Nlc3MuZW52LlBPUlQpCgpjb25zdCBkZXZXZWJwYWNrQ29uZmlnID0gbWVyZ2UoYmFzZVdlYnBhY2tDb25maWcsIHsKICBtb2RlOiAnZGV2ZWxvcG1lbnQnLAogIG1vZHVsZTogewogICAgcnVsZXM6IHV0aWxzLnN0eWxlTG9hZGVycyh7CiAgICAgIHNvdXJjZU1hcDogY29uZmlnLmRldi5jc3NTb3VyY2VNYXAsCiAgICAgIHVzZVBvc3RDU1M6IHRydWUKICAgIH0pCiAgfSwKICAvLyBjaGVhcC1tb2R1bGUtZXZhbC1zb3VyY2UtbWFwIGlzIGZhc3RlciBmb3IgZGV2ZWxvcG1lbnQKICBkZXZ0b29sOiBjb25maWcuZGV2LmRldnRvb2wsCgogIC8vIHRoZXNlIGRldlNlcnZlciBvcHRpb25zIHNob3VsZCBiZSBjdXN0b21pemVkIGluIC9jb25maWcvaW5kZXguanMKICBkZXZTZXJ2ZXI6IHsKICAgIGNsaWVudExvZ0xldmVsOiAnd2FybmluZycsCiAgICBoaXN0b3J5QXBpRmFsbGJhY2s6IHRydWUsCiAgICBob3Q6IHRydWUsCiAgICBjb21wcmVzczogdHJ1ZSwKICAgIGhvc3Q6IEhPU1QgfHwgY29uZmlnLmRldi5ob3N0LAogICAgcG9ydDogUE9SVCB8fCBjb25maWcuZGV2LnBvcnQsCiAgICBvcGVuOiBjb25maWcuZGV2LmF1dG9PcGVuQnJvd3NlciwKICAgIG92ZXJsYXk6IGNvbmZpZy5kZXYuZXJyb3JPdmVybGF5CiAgICAgID8geyB3YXJuaW5nczogZmFsc2UsIGVycm9yczogdHJ1ZSB9CiAgICAgIDogZmFsc2UsCiAgICBwdWJsaWNQYXRoOiBjb25maWcuZGV2LmFzc2V0c1B1YmxpY1BhdGgsCiAgICAvLyDpnZnmgIHotYTmupDnm67lvZXvvIjor77nqIvlsIHpnaIgLyDorrLluIjlpLTlg4/vvInvvJrku6UgL3Bob3RvL3h4eCDlvaLlvI/lr7nlpJbmj5DkvpvvvIwKICAgIC8vIOS4juaVsOaNruW6kyBlZHVfY291cnNlLmNvdmVy44CBZWR1X3RlYWNoZXIuYXZhdGFyIOWtmOeahOi3r+W+hOS/neaMgeS4gOiHtAogICAgY29udGVudEJhc2U6IFtwYXRoLnJlc29sdmUoX19kaXJuYW1lLCAnLi4vc3RhdGljJyldLAogICAgcHJveHk6IGNvbmZpZy5kZXYucHJveHlUYWJsZSwKICAgIHF1aWV0OiB0cnVlLCAvLyBuZWNlc3NhcnkgZm9yIEZyaWVuZGx5RXJyb3JzUGx1Z2luCiAgICB3YXRjaE9wdGlvbnM6IHsKICAgICAgcG9sbDogY29uZmlnLmRldi5wb2xsCiAgICB9CiAgfSwKICBwbHVnaW5zOiBbCiAgICBuZXcgd2VicGFjay5EZWZpbmVQbHVnaW4oewogICAgICAncHJvY2Vzcy5lbnYnOiByZXF1aXJlKCcuLi9jb25maWcvZGV2LmVudicpCiAgICB9KSwKICAgIG5ldyB3ZWJwYWNrLkhvdE1vZHVsZVJlcGxhY2VtZW50UGx1Z2luKCksCiAgICAvLyBodHRwczovL2dpdGh1Yi5jb20vYW1wZWRhbmR3aXJlZC9odG1sLXdlYnBhY2stcGx1Z2luCiAgICBuZXcgSHRtbFdlYnBhY2tQbHVnaW4oewogICAgICBmaWxlbmFtZTogJ2luZGV4Lmh0bWwnLAogICAgICB0ZW1wbGF0ZTogJ2luZGV4Lmh0bWwnLAogICAgICBpbmplY3Q6IHRydWUsCiAgICAgIGZhdmljb246IHJlc29sdmUoJ2Zhdmljb24uaWNvJyksCiAgICAgIHRpdGxlOiAndnVlLWFkbWluLXRlbXBsYXRlJwogICAgfSkKICBdCn0pCgptb2R1bGUuZXhwb3J0cyA9IG5ldyBQcm9taXNlKChyZXNvbHZlLCByZWplY3QpID0+IHsKICBwb3J0ZmluZGVyLmJhc2VQb3J0ID0gcHJvY2Vzcy5lbnYuUE9SVCB8fCBjb25maWcuZGV2LnBvcnQKICBwb3J0ZmluZGVyLmdldFBvcnQoKGVyciwgcG9ydCkgPT4gewogICAgaWYgKGVycikgewogICAgICByZWplY3QoZXJyKQogICAgfSBlbHNlIHsKICAgICAgLy8gcHVibGlzaCB0aGUgbmV3IFBvcnQsIG5lY2Vzc2FyeSBmb3IgZTJlIHRlc3RzCiAgICAgIHByb2Nlc3MuZW52LlBPUlQgPSBwb3J0CiAgICAgIC8vIGFkZCBwb3J0IHRvIGRldlNlcnZlciBjb25maWcKICAgICAgZGV2V2VicGFja0NvbmZpZy5kZXZTZXJ2ZXIucG9ydCA9IHBvcnQKCiAgICAgIC8vIEFkZCBGcmllbmRseUVycm9yc1BsdWdpbgogICAgICBkZXZXZWJwYWNrQ29uZmlnLnBsdWdpbnMucHVzaCgKICAgICAgICBuZXcgRnJpZW5kbHlFcnJvcnNQbHVnaW4oewogICAgICAgICAgY29tcGlsYXRpb25TdWNjZXNzSW5mbzogewogICAgICAgICAgICBtZXNzYWdlczogWwogICAgICAgICAgICAgIGBZb3VyIGFwcGxpY2F0aW9uIGlzIHJ1bm5pbmcgaGVyZTogaHR0cDovLyR7CiAgICAgICAgICAgICAgICBkZXZXZWJwYWNrQ29uZmlnLmRldlNlcnZlci5ob3N0CiAgICAgICAgICAgICAgfToke3BvcnR9YAogICAgICAgICAgICBdCiAgICAgICAgICB9LAogICAgICAgICAgb25FcnJvcnM6IGNvbmZpZy5kZXYubm90aWZ5T25FcnJvcnMKICAgICAgICAgICAgPyB1dGlscy5jcmVhdGVOb3RpZmllckNhbGxiYWNrKCkKICAgICAgICAgICAgOiB1bmRlZmluZWQKICAgICAgICB9KQogICAgICApCgogICAgICByZXNvbHZlKGRldldlYnBhY2tDb25maWcpCiAgICB9CiAgfSkKfSkK
+'use strict'
+const path = require('path')
+const utils = require('./utils')
+const webpack = require('webpack')
+const config = require('../config')
+const merge = require('webpack-merge')
+const baseWebpackConfig = require('./webpack.base.conf')
+const HtmlWebpackPlugin = require('html-webpack-plugin')
+const FriendlyErrorsPlugin = require('friendly-errors-webpack-plugin')
+const portfinder = require('portfinder')
+
+function resolve(dir) {
+  return path.join(__dirname, '..', dir)
+}
+
+const HOST = process.env.HOST
+const PORT = process.env.PORT && Number(process.env.PORT)
+
+const devWebpackConfig = merge(baseWebpackConfig, {
+  mode: 'development',
+  module: {
+    rules: utils.styleLoaders({
+      sourceMap: config.dev.cssSourceMap,
+      usePostCSS: true
+    })
+  },
+  // cheap-module-eval-source-map is faster for development
+  devtool: config.dev.devtool,
+
+  // these devServer options should be customized in /config/index.js
+  devServer: {
+    clientLogLevel: 'warning',
+    historyApiFallback: true,
+    hot: true,
+    compress: true,
+    host: HOST || config.dev.host,
+    port: PORT || config.dev.port,
+    open: config.dev.autoOpenBrowser,
+    overlay: config.dev.errorOverlay
+      ? { warnings: false, errors: true }
+      : false,
+    publicPath: config.dev.assetsPublicPath,
+    // 静态资源目录（课程封面 / 讲师头像）：以 /photo/xxx 形式对外提供，
+    // 与数据库 edu_course.cover、edu_teacher.avatar 存的路径保持一致
+    contentBase: [path.resolve(__dirname, '../static')],
+    proxy: config.dev.proxyTable,
+    quiet: true, // necessary for FriendlyErrorsPlugin
+    watchOptions: {
+      poll: config.dev.poll
+    }
+  },
+  plugins: [
+    new webpack.DefinePlugin({
+      'process.env': require('../config/dev.env')
+    }),
+    new webpack.HotModuleReplacementPlugin(),
+    // https://github.com/ampedandwired/html-webpack-plugin
+    new HtmlWebpackPlugin({
+      filename: 'index.html',
+      template: 'index.html',
+      inject: true,
+      favicon: resolve('favicon.ico'),
+      title: 'vue-admin-template'
+    })
+  ]
+})
+
+module.exports = new Promise((resolve, reject) => {
+  portfinder.basePort = process.env.PORT || config.dev.port
+  portfinder.getPort((err, port) => {
+    if (err) {
+      reject(err)
+    } else {
+      // publish the new Port, necessary for e2e tests
+      process.env.PORT = port
+      // add port to devServer config
+      devWebpackConfig.devServer.port = port
+
+      // Add FriendlyErrorsPlugin
+      devWebpackConfig.plugins.push(
+        new FriendlyErrorsPlugin({
+          compilationSuccessInfo: {
+            messages: [
+              `Your application is running here: http://${
+                devWebpackConfig.devServer.host
+              }:${port}`
+            ]
+          },
+          onErrors: config.dev.notifyOnErrors
+            ? utils.createNotifierCallback()
+            : undefined
+        })
+      )
+
+      resolve(devWebpackConfig)
+    }
+  })
+})

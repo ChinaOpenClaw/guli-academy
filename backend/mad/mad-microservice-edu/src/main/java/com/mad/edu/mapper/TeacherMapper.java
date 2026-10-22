@@ -1,1 +1,16 @@
-cGFja2FnZSBjb20ubWFkLmVkdS5tYXBwZXI7CgppbXBvcnQgY29tLm1hZC5lZHUuZW50aXR5LlRlYWNoZXI7CmltcG9ydCBjb20uYmFvbWlkb3UubXliYXRpc3BsdXMuY29yZS5tYXBwZXIuQmFzZU1hcHBlcjsKCi8qKgogKiA8cD4KICog6K6y5biIIE1hcHBlciDmjqXlj6MKICogPC9wPgogKgogKiBAYXV0aG9yIEhlbGVuCiAqIEBzaW5jZSAyMDE5LTA2LTI0CiAqLwpwdWJsaWMgaW50ZXJmYWNlIFRlYWNoZXJNYXBwZXIgZXh0ZW5kcyBCYXNlTWFwcGVyPFRlYWNoZXI+IHsKCn0K
+package com.mad.edu.mapper;
+
+import com.mad.edu.entity.Teacher;
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+
+/**
+ * <p>
+ * 讲师 Mapper 接口
+ * </p>
+ *
+ * @author Helen
+ * @since 2019-06-24
+ */
+public interface TeacherMapper extends BaseMapper<Teacher> {
+
+}

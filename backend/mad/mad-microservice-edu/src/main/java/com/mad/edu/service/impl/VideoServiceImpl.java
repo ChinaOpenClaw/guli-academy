@@ -1,1 +1,56 @@
-cGFja2FnZSBjb20ubWFkLmVkdS5zZXJ2aWNlLmltcGw7CgppbXBvcnQgY29tLmJhb21pZG91Lm15YmF0aXNwbHVzLmV4dGVuc2lvbi5zZXJ2aWNlLmltcGwuU2VydmljZUltcGw7CmltcG9ydCBjb20ubWFkLmVkdS5lbnRpdHkuVmlkZW87CmltcG9ydCBjb20ubWFkLmVkdS5mb3JtLlZpZGVvSW5mb0Zvcm07CmltcG9ydCBjb20ubWFkLmVkdS5tYXBwZXIuVmlkZW9NYXBwZXI7CmltcG9ydCBjb20ubWFkLmVkdS5zZXJ2aWNlLlZpZGVvU2VydmljZTsKaW1wb3J0IG9yZy5zcHJpbmdmcmFtZXdvcmsuYmVhbnMuQmVhblV0aWxzOwppbXBvcnQgb3JnLnNwcmluZ2ZyYW1ld29yay5zdGVyZW90eXBlLlNlcnZpY2U7CgovKioKICogPHA+CiAqIOivvueoi+inhumikSDmnI3liqHlrp7njrDnsbsKICogPC9wPgogKgogKiBAYXV0aG9yIEhlbGVuCiAqIEBzaW5jZSAyMDE5LTA2LTI0CiAqLwpAU2VydmljZQpwdWJsaWMgY2xhc3MgVmlkZW9TZXJ2aWNlSW1wbCBleHRlbmRzIFNlcnZpY2VJbXBsPFZpZGVvTWFwcGVyLCBWaWRlbz4gaW1wbGVtZW50cyBWaWRlb1NlcnZpY2UgewoKCUBPdmVycmlkZQoJcHVibGljIHZvaWQgc2F2ZVZpZGVvSW5mbyhWaWRlb0luZm9Gb3JtIHZpZGVvSW5mb0Zvcm0pIHsKCgkJVmlkZW8gdmlkZW8gPSBuZXcgVmlkZW8oKTsKCQlCZWFuVXRpbHMuY29weVByb3BlcnRpZXModmlkZW9JbmZvRm9ybSwgdmlkZW8pOwoJCXRoaXMuc2F2ZSh2aWRlbyk7Cgl9CgoJQE92ZXJyaWRlCglwdWJsaWMgVmlkZW9JbmZvRm9ybSBnZXRWaWRlb0luZm9Gb3JtQnlJZChTdHJpbmcgaWQpIHsKCQkvL+S7jnZpZGVv6KGo5Lit5Y+W5pWw5o2uCgkJVmlkZW8gdmlkZW8gPSB0aGlzLmdldEJ5SWQoaWQpOwoJCS8v5Yib5bu6dmlkZW9JbmZvRm9ybeWvueixoQoJCVZpZGVvSW5mb0Zvcm0gdmlkZW9JbmZvRm9ybSA9IG5ldyBWaWRlb0luZm9Gb3JtKCk7CgkJQmVhblV0aWxzLmNvcHlQcm9wZXJ0aWVzKHZpZGVvLCB2aWRlb0luZm9Gb3JtKTsKCgkJcmV0dXJuIHZpZGVvSW5mb0Zvcm07Cgl9CgoJQE92ZXJyaWRlCglwdWJsaWMgdm9pZCB1cGRhdGVWaWRlb0luZm9CeUlkKFZpZGVvSW5mb0Zvcm0gdmlkZW9JbmZvRm9ybSkgewoJCS8v5L+d5a2Y6K++5pe25Z+65pys5L+h5oGvCgkJVmlkZW8gdmlkZW8gPSBuZXcgVmlkZW8oKTsKCQlCZWFuVXRpbHMuY29weVByb3BlcnRpZXModmlkZW9JbmZvRm9ybSwgdmlkZW8pOwoJCXRoaXMudXBkYXRlQnlJZCh2aWRlbyk7Cgl9CgoJQE92ZXJyaWRlCglwdWJsaWMgdm9pZCByZW1vdmVWaWRlb0J5SWQoU3RyaW5nIGlkKSB7CgoJCS8v5Yig6Zmk6KeG6aKR6LWE5rqQIFRPRE8KCgkJYmFzZU1hcHBlci5kZWxldGVCeUlkKGlkKTsKCX0KfQo=
+package com.mad.edu.service.impl;
+
+import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.mad.edu.entity.Video;
+import com.mad.edu.form.VideoInfoForm;
+import com.mad.edu.mapper.VideoMapper;
+import com.mad.edu.service.VideoService;
+import org.springframework.beans.BeanUtils;
+import org.springframework.stereotype.Service;
+
+/**
+ * <p>
+ * 课程视频 服务实现类
+ * </p>
+ *
+ * @author Helen
+ * @since 2019-06-24
+ */
+@Service
+public class VideoServiceImpl extends ServiceImpl<VideoMapper, Video> implements VideoService {
+
+	@Override
+	public void saveVideoInfo(VideoInfoForm videoInfoForm) {
+
+		Video video = new Video();
+		BeanUtils.copyProperties(videoInfoForm, video);
+		this.save(video);
+	}
+
+	@Override
+	public VideoInfoForm getVideoInfoFormById(String id) {
+		//从video表中取数据
+		Video video = this.getById(id);
+		//创建videoInfoForm对象
+		VideoInfoForm videoInfoForm = new VideoInfoForm();
+		BeanUtils.copyProperties(video, videoInfoForm);
+
+		return videoInfoForm;
+	}
+
+	@Override
+	public void updateVideoInfoById(VideoInfoForm videoInfoForm) {
+		//保存课时基本信息
+		Video video = new Video();
+		BeanUtils.copyProperties(videoInfoForm, video);
+		this.updateById(video);
+	}
+
+	@Override
+	public void removeVideoById(String id) {
+
+		//删除视频资源 TODO
+
+		baseMapper.deleteById(id);
+	}
+}

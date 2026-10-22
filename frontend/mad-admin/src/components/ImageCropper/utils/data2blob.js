@@ -1,1 +1,19 @@
-LyoqCiAqIGRhdGFiYXNlNjTmlofku7bmoLzlvI/ovazmjaLkuLoy6L+b5Yi2CiAqCiAqIEBwYXJhbSAge1tTdHJpbmddfSBkYXRhIGRhdGFVUkwg55qE5qC85byP5Li6IOKAnGRhdGE6aW1hZ2UvcG5nO2Jhc2U2NCwqKioq4oCdLOmAl+WPt+S5i+WJjemDveaYr+S4gOS6m+ivtOaYjuaAp+eahOaWh+Wtl++8jOaIkeS7rOWPqumcgOimgemAl+WPt+S5i+WQjueahOWwseihjOS6hgogKiBAcGFyYW0gIHtbU3RyaW5nXX0gbWltZSBbZGVzY3JpcHRpb25dCiAqIEByZXR1cm4ge1tibG9iXX0gICAgICBbZGVzY3JpcHRpb25dCiAqLwpleHBvcnQgZGVmYXVsdCBmdW5jdGlvbihkYXRhLCBtaW1lKSB7CiAgZGF0YSA9IGRhdGEuc3BsaXQoJywnKVsxXQogIGRhdGEgPSB3aW5kb3cuYXRvYihkYXRhKQogIHZhciBpYSA9IG5ldyBVaW50OEFycmF5KGRhdGEubGVuZ3RoKQogIGZvciAodmFyIGkgPSAwOyBpIDwgZGF0YS5sZW5ndGg7IGkrKykgewogICAgaWFbaV0gPSBkYXRhLmNoYXJDb2RlQXQoaSkKICB9CiAgLy8gY2FudmFzLnRvRGF0YVVSTCDov5Tlm57nmoTpu5jorqTmoLzlvI/lsLHmmK8gaW1hZ2UvcG5nCiAgcmV0dXJuIG5ldyBCbG9iKFtpYV0sIHsKICAgIHR5cGU6IG1pbWUKICB9KQp9Cg==
+/**
+ * database64文件格式转换为2进制
+ *
+ * @param  {[String]} data dataURL 的格式为 “data:image/png;base64,****”,逗号之前都是一些说明性的文字，我们只需要逗号之后的就行了
+ * @param  {[String]} mime [description]
+ * @return {[blob]}      [description]
+ */
+export default function(data, mime) {
+  data = data.split(',')[1]
+  data = window.atob(data)
+  var ia = new Uint8Array(data.length)
+  for (var i = 0; i < data.length; i++) {
+    ia[i] = data.charCodeAt(i)
+  }
+  // canvas.toDataURL 返回的默认格式就是 image/png
+  return new Blob([ia], {
+    type: mime
+  })
+}

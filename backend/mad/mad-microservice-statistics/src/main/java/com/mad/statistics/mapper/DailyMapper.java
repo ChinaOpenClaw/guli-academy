@@ -1,1 +1,18 @@
-cGFja2FnZSBjb20ubWFkLnN0YXRpc3RpY3MubWFwcGVyOwoKaW1wb3J0IGNvbS5tYWQuc3RhdGlzdGljcy5lbnRpdHkuRGFpbHk7CmltcG9ydCBjb20uYmFvbWlkb3UubXliYXRpc3BsdXMuY29yZS5tYXBwZXIuQmFzZU1hcHBlcjsKaW1wb3J0IG9yZy5zcHJpbmdmcmFtZXdvcmsuc3RlcmVvdHlwZS5SZXBvc2l0b3J5OwoKLyoqCiAqIDxwPgogKiDnvZHnq5nnu5/orqHml6XmlbDmja4gTWFwcGVyIOaOpeWPowogKiA8L3A+CiAqCiAqIEBhdXRob3IgSGVsZW4KICogQHNpbmNlIDIwMTktMDctMDEKICovCkBSZXBvc2l0b3J5CnB1YmxpYyBpbnRlcmZhY2UgRGFpbHlNYXBwZXIgZXh0ZW5kcyBCYXNlTWFwcGVyPERhaWx5PiB7Cgp9Cg==
+package com.mad.statistics.mapper;
+
+import com.mad.statistics.entity.Daily;
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import org.springframework.stereotype.Repository;
+
+/**
+ * <p>
+ * 网站统计日数据 Mapper 接口
+ * </p>
+ *
+ * @author Helen
+ * @since 2019-07-01
+ */
+@Repository
+public interface DailyMapper extends BaseMapper<Daily> {
+
+}

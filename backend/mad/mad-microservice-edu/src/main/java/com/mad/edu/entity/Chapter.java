@@ -1,1 +1,56 @@
-cGFja2FnZSBjb20ubWFkLmVkdS5lbnRpdHk7CgppbXBvcnQgY29tLmJhb21pZG91Lm15YmF0aXNwbHVzLmFubm90YXRpb24uVGFibGVOYW1lOwppbXBvcnQgY29tLmJhb21pZG91Lm15YmF0aXNwbHVzLmFubm90YXRpb24uSWRUeXBlOwppbXBvcnQgamF2YS51dGlsLkRhdGU7CmltcG9ydCBjb20uYmFvbWlkb3UubXliYXRpc3BsdXMuYW5ub3RhdGlvbi5WZXJzaW9uOwppbXBvcnQgY29tLmJhb21pZG91Lm15YmF0aXNwbHVzLmFubm90YXRpb24uVGFibGVJZDsKaW1wb3J0IGNvbS5iYW9taWRvdS5teWJhdGlzcGx1cy5hbm5vdGF0aW9uLkZpZWxkRmlsbDsKaW1wb3J0IGNvbS5iYW9taWRvdS5teWJhdGlzcGx1cy5hbm5vdGF0aW9uLlRhYmxlRmllbGQ7CmltcG9ydCBqYXZhLmlvLlNlcmlhbGl6YWJsZTsKaW1wb3J0IGlvLnN3YWdnZXIuYW5ub3RhdGlvbnMuQXBpTW9kZWw7CmltcG9ydCBpby5zd2FnZ2VyLmFubm90YXRpb25zLkFwaU1vZGVsUHJvcGVydHk7CmltcG9ydCBsb21ib2suRGF0YTsKaW1wb3J0IGxvbWJvay5FcXVhbHNBbmRIYXNoQ29kZTsKaW1wb3J0IGxvbWJvay5leHBlcmltZW50YWwuQWNjZXNzb3JzOwoKLyoqCiAqIDxwPgogKiDor77nqIsKICogPC9wPgogKgogKiBAYXV0aG9yIEhlbGVuCiAqIEBzaW5jZSAyMDE5LTA2LTI0CiAqLwpARGF0YQpARXF1YWxzQW5kSGFzaENvZGUoY2FsbFN1cGVyID0gZmFsc2UpCkBBY2Nlc3NvcnMoY2hhaW4gPSB0cnVlKQpAVGFibGVOYW1lKCJlZHVfY2hhcHRlciIpCkBBcGlNb2RlbCh2YWx1ZT0iQ2hhcHRlcuWvueixoSIsIGRlc2NyaXB0aW9uPSLor77nqIsiKQpwdWJsaWMgY2xhc3MgQ2hhcHRlciBpbXBsZW1lbnRzIFNlcmlhbGl6YWJsZSB7CgogICAgcHJpdmF0ZSBzdGF0aWMgZmluYWwgbG9uZyBzZXJpYWxWZXJzaW9uVUlEID0gMUw7CgogICAgQEFwaU1vZGVsUHJvcGVydHkodmFsdWUgPSAi56ug6IqCSUQiKQogICAgQFRhYmxlSWQodmFsdWUgPSAiaWQiLCB0eXBlID0gSWRUeXBlLklEX1dPUktFUl9TVFIpCiAgICBwcml2YXRlIFN0cmluZyBpZDsKCiAgICBAQXBpTW9kZWxQcm9wZXJ0eSh2YWx1ZSA9ICLor77nqItJRCIpCiAgICBwcml2YXRlIFN0cmluZyBjb3Vyc2VJZDsKCiAgICBAQXBpTW9kZWxQcm9wZXJ0eSh2YWx1ZSA9ICLnq6DoioLlkI3np7AiKQogICAgcHJpdmF0ZSBTdHJpbmcgdGl0bGU7CgogICAgQEFwaU1vZGVsUHJvcGVydHkodmFsdWUgPSAi5pi+56S65o6S5bqPIikKICAgIHByaXZhdGUgSW50ZWdlciBzb3J0OwoKICAgIEBBcGlNb2RlbFByb3BlcnR5KHZhbHVlID0gIuWIm+W7uuaXtumXtCIpCiAgICBAVGFibGVGaWVsZChmaWxsID0gRmllbGRGaWxsLklOU0VSVCkKICAgIHByaXZhdGUgRGF0ZSBnbXRDcmVhdGU7CgogICAgQEFwaU1vZGVsUHJvcGVydHkodmFsdWUgPSAi5pu05paw5pe26Ze0IikKICAgIEBUYWJsZUZpZWxkKGZpbGwgPSBGaWVsZEZpbGwuSU5TRVJUX1VQREFURSkKICAgIHByaXZhdGUgRGF0ZSBnbXRNb2RpZmllZDsKCgp9Cg==
+package com.mad.edu.entity;
+
+import com.baomidou.mybatisplus.annotation.TableName;
+import com.baomidou.mybatisplus.annotation.IdType;
+import java.util.Date;
+import com.baomidou.mybatisplus.annotation.Version;
+import com.baomidou.mybatisplus.annotation.TableId;
+import com.baomidou.mybatisplus.annotation.FieldFill;
+import com.baomidou.mybatisplus.annotation.TableField;
+import java.io.Serializable;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
+import lombok.experimental.Accessors;
+
+/**
+ * <p>
+ * 课程
+ * </p>
+ *
+ * @author Helen
+ * @since 2019-06-24
+ */
+@Data
+@EqualsAndHashCode(callSuper = false)
+@Accessors(chain = true)
+@TableName("edu_chapter")
+@ApiModel(value="Chapter对象", description="课程")
+public class Chapter implements Serializable {
+
+    private static final long serialVersionUID = 1L;
+
+    @ApiModelProperty(value = "章节ID")
+    @TableId(value = "id", type = IdType.ID_WORKER_STR)
+    private String id;
+
+    @ApiModelProperty(value = "课程ID")
+    private String courseId;
+
+    @ApiModelProperty(value = "章节名称")
+    private String title;
+
+    @ApiModelProperty(value = "显示排序")
+    private Integer sort;
+
+    @ApiModelProperty(value = "创建时间")
+    @TableField(fill = FieldFill.INSERT)
+    private Date gmtCreate;
+
+    @ApiModelProperty(value = "更新时间")
+    @TableField(fill = FieldFill.INSERT_UPDATE)
+    private Date gmtModified;
+
+
+}

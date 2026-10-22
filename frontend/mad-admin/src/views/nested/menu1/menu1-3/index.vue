@@ -1,1 +1,5 @@
-PHRlbXBsYXRlIGZ1bmN0aW9uYWw+CiAgPGRpdiBzdHlsZT0icGFkZGluZzozMHB4OyI+CiAgICA8ZWwtYWxlcnQgOmNsb3NhYmxlPSJmYWxzZSIgdGl0bGU9Im1lbnUgMS0zIiB0eXBlPSJzdWNjZXNzIiAvPgogIDwvZGl2Pgo8L3RlbXBsYXRlPgo=
+<template functional>
+  <div style="padding:30px;">
+    <el-alert :closable="false" title="menu 1-3" type="success" />
+  </div>
+</template>

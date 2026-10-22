@@ -1,1 +1,29 @@
-PHNjcmlwdD4KZXhwb3J0IGRlZmF1bHQgewogIG5hbWU6ICdNZW51SXRlbScsCiAgZnVuY3Rpb25hbDogdHJ1ZSwKICBwcm9wczogewogICAgaWNvbjogewogICAgICB0eXBlOiBTdHJpbmcsCiAgICAgIGRlZmF1bHQ6ICcnCiAgICB9LAogICAgdGl0bGU6IHsKICAgICAgdHlwZTogU3RyaW5nLAogICAgICBkZWZhdWx0OiAnJwogICAgfQogIH0sCiAgcmVuZGVyKGgsIGNvbnRleHQpIHsKICAgIGNvbnN0IHsgaWNvbiwgdGl0bGUgfSA9IGNvbnRleHQucHJvcHMKICAgIGNvbnN0IHZub2RlcyA9IFtdCgogICAgaWYgKGljb24pIHsKICAgICAgdm5vZGVzLnB1c2goPHN2Zy1pY29uIGljb24tY2xhc3M9e2ljb259Lz4pCiAgICB9CgogICAgaWYgKHRpdGxlKSB7CiAgICAgIHZub2Rlcy5wdXNoKDxzcGFuIHNsb3Q9J3RpdGxlJz57KHRpdGxlKX08L3NwYW4+KQogICAgfQogICAgcmV0dXJuIHZub2RlcwogIH0KfQo8L3NjcmlwdD4K
+<script>
+export default {
+  name: 'MenuItem',
+  functional: true,
+  props: {
+    icon: {
+      type: String,
+      default: ''
+    },
+    title: {
+      type: String,
+      default: ''
+    }
+  },
+  render(h, context) {
+    const { icon, title } = context.props
+    const vnodes = []
+
+    if (icon) {
+      vnodes.push(<svg-icon icon-class={icon}/>)
+    }
+
+    if (title) {
+      vnodes.push(<span slot='title'>{(title)}</span>)
+    }
+    return vnodes
+  }
+}
+</script>

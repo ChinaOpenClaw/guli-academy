@@ -1,1 +1,24 @@
-cGFja2FnZSBjb20ubWFkLmVkdS5zZXJ2aWNlOwoKaW1wb3J0IGNvbS5iYW9taWRvdS5teWJhdGlzcGx1cy5leHRlbnNpb24uc2VydmljZS5JU2VydmljZTsKaW1wb3J0IGNvbS5tYWQuZWR1LmVudGl0eS5WaWRlbzsKaW1wb3J0IGNvbS5tYWQuZWR1LmZvcm0uVmlkZW9JbmZvRm9ybTsKCi8qKgogKiA8cD4KICog6K++56iL6KeG6aKRIOacjeWKoeexuwogKiA8L3A+CiAqCiAqIEBhdXRob3IgSGVsZW4KICogQHNpbmNlIDIwMTktMDYtMjQKICovCnB1YmxpYyBpbnRlcmZhY2UgVmlkZW9TZXJ2aWNlIGV4dGVuZHMgSVNlcnZpY2U8VmlkZW8+IHsKCgl2b2lkIHNhdmVWaWRlb0luZm8oVmlkZW9JbmZvRm9ybSB2aWRlb0luZm9Gb3JtKTsKCglWaWRlb0luZm9Gb3JtIGdldFZpZGVvSW5mb0Zvcm1CeUlkKFN0cmluZyBpZCk7CgoJdm9pZCB1cGRhdGVWaWRlb0luZm9CeUlkKFZpZGVvSW5mb0Zvcm0gdmlkZW9JbmZvRm9ybSk7CgoJdm9pZCByZW1vdmVWaWRlb0J5SWQoU3RyaW5nIGlkKTsKfQo=
+package com.mad.edu.service;
+
+import com.baomidou.mybatisplus.extension.service.IService;
+import com.mad.edu.entity.Video;
+import com.mad.edu.form.VideoInfoForm;
+
+/**
+ * <p>
+ * 课程视频 服务类
+ * </p>
+ *
+ * @author Helen
+ * @since 2019-06-24
+ */
+public interface VideoService extends IService<Video> {
+
+	void saveVideoInfo(VideoInfoForm videoInfoForm);
+
+	VideoInfoForm getVideoInfoFormById(String id);
+
+	void updateVideoInfoById(VideoInfoForm videoInfoForm);
+
+	void removeVideoById(String id);
+}

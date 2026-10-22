@@ -1,1 +1,19 @@
-PHRlbXBsYXRlPgogIDxyb3V0ZXItbGluayBjbGFzcz0iY291cnNlLWNhcmQiIDp0bz0iYC9jb3Vyc2VzLyR7Y291cnNlLmlkfWAiPgogICAgPGRpdiBjbGFzcz0iY291cnNlLWltZyI+CiAgICAgIDxpbWcgOnNyYz0iY291cnNlLmNvdmVyIiA6YWx0PSJjb3Vyc2UudGl0bGUiIGxvYWRpbmc9ImxhenkiIC8+CiAgICAgIDxkaXYgY2xhc3M9ImNvdXJzZS1tYXNrIj48c3BhbiBjbGFzcz0iY29tbS1idG4gYy1idG4tMiI+5byA5aeL5a2m5LmgPC9zcGFuPjwvZGl2PgogICAgPC9kaXY+CiAgICA8aDMgY2xhc3M9InR4dE9mIj57eyBjb3Vyc2UudGl0bGUgfX08L2gzPgogICAgPGRpdiBjbGFzcz0iY291cnNlLW1ldGEiPgogICAgICA8c3BhbiBjbGFzcz0iYy05OTkiPnt7IGNvdXJzZS5zdHVkeUNvdW50IH195Lq65Zyo5a2mPC9zcGFuPgogICAgICA8c3BhbiBjbGFzcz0iamdBdHRyIj48aSBjbGFzcz0iYy1vcmFuZ2UiPnt7IGNvdXJzZS5wcmljZSB9fTwvaT48L3NwYW4+CiAgICA8L2Rpdj4KICA8L3JvdXRlci1saW5rPgo8L3RlbXBsYXRlPgoKPHNjcmlwdCBzZXR1cD4KZGVmaW5lUHJvcHMoewogIGNvdXJzZTogeyB0eXBlOiBPYmplY3QsIHJlcXVpcmVkOiB0cnVlIH0KfSkKPC9zY3JpcHQ+Cg==
+<template>
+  <router-link class="course-card" :to="`/courses/${course.id}`">
+    <div class="course-img">
+      <img :src="course.cover" :alt="course.title" loading="lazy" />
+      <div class="course-mask"><span class="comm-btn c-btn-2">开始学习</span></div>
+    </div>
+    <h3 class="txtOf">{{ course.title }}</h3>
+    <div class="course-meta">
+      <span class="c-999">{{ course.studyCount }}人在学</span>
+      <span class="jgAttr"><i class="c-orange">{{ course.price }}</i></span>
+    </div>
+  </router-link>
+</template>
+
+<script setup>
+defineProps({
+  course: { type: Object, required: true }
+})
+</script>

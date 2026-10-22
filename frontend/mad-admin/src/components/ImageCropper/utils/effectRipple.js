@@ -1,1 +1,39 @@
-LyoqCiAqIOeCueWHu+azoue6ueaViOaenAogKgogKiBAcGFyYW0gIHtbZXZlbnRdfSBlICAgICAgICBbZGVzY3JpcHRpb25dCiAqIEBwYXJhbSAge1tPYmplY3RdfSBhcmdfb3B0cyBbZGVzY3JpcHRpb25dCiAqIEByZXR1cm4ge1tib2xsZWFuXX0gICAgICAgICAgW2Rlc2NyaXB0aW9uXQogKi8KZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24oZSwgYXJnX29wdHMpIHsKICB2YXIgb3B0cyA9IE9iamVjdC5hc3NpZ24oewogICAgZWxlOiBlLnRhcmdldCwgLy8g5rOi57q55L2c55So5YWD57SgCiAgICB0eXBlOiAnaGl0JywgLy8gaGl054K55Ye75L2N572u5omp5pWjY2VudGVy5Lit5b+D54K55omp5bGVCiAgICBiZ2M6ICdyZ2JhKDAsIDAsIDAsIDAuMTUpJyAvLyDms6LnurnpopzoibIKICB9LCBhcmdfb3B0cykKICB2YXIgdGFyZ2V0ID0gb3B0cy5lbGUKICBpZiAodGFyZ2V0KSB7CiAgICB2YXIgcmVjdCA9IHRhcmdldC5nZXRCb3VuZGluZ0NsaWVudFJlY3QoKQogICAgdmFyIHJpcHBsZSA9IHRhcmdldC5xdWVyeVNlbGVjdG9yKCcuZS1yaXBwbGUnKQogICAgaWYgKCFyaXBwbGUpIHsKICAgICAgcmlwcGxlID0gZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgnc3BhbicpCiAgICAgIHJpcHBsZS5jbGFzc05hbWUgPSAnZS1yaXBwbGUnCiAgICAgIHJpcHBsZS5zdHlsZS5oZWlnaHQgPSByaXBwbGUuc3R5bGUud2lkdGggPSBNYXRoLm1heChyZWN0LndpZHRoLCByZWN0LmhlaWdodCkgKyAncHgnCiAgICAgIHRhcmdldC5hcHBlbmRDaGlsZChyaXBwbGUpCiAgICB9IGVsc2UgewogICAgICByaXBwbGUuY2xhc3NOYW1lID0gJ2UtcmlwcGxlJwogICAgfQogICAgc3dpdGNoIChvcHRzLnR5cGUpIHsKICAgICAgY2FzZSAnY2VudGVyJzoKICAgICAgICByaXBwbGUuc3R5bGUudG9wID0gKHJlY3QuaGVpZ2h0IC8gMiAtIHJpcHBsZS5vZmZzZXRIZWlnaHQgLyAyKSArICdweCcKICAgICAgICByaXBwbGUuc3R5bGUubGVmdCA9IChyZWN0LndpZHRoIC8gMiAtIHJpcHBsZS5vZmZzZXRXaWR0aCAvIDIpICsgJ3B4JwogICAgICAgIGJyZWFrCiAgICAgIGRlZmF1bHQ6CiAgICAgICAgcmlwcGxlLnN0eWxlLnRvcCA9IChlLnBhZ2VZIC0gcmVjdC50b3AgLSByaXBwbGUub2Zmc2V0SGVpZ2h0IC8gMiAtIGRvY3VtZW50LmJvZHkuc2Nyb2xsVG9wKSArICdweCcKICAgICAgICByaXBwbGUuc3R5bGUubGVmdCA9IChlLnBhZ2VYIC0gcmVjdC5sZWZ0IC0gcmlwcGxlLm9mZnNldFdpZHRoIC8gMiAtIGRvY3VtZW50LmJvZHkuc2Nyb2xsTGVmdCkgKyAncHgnCiAgICB9CiAgICByaXBwbGUuc3R5bGUuYmFja2dyb3VuZENvbG9yID0gb3B0cy5iZ2MKICAgIHJpcHBsZS5jbGFzc05hbWUgPSAnZS1yaXBwbGUgei1hY3RpdmUnCiAgICByZXR1cm4gZmFsc2UKICB9Cn0K
+/**
+ * 点击波纹效果
+ *
+ * @param  {[event]} e        [description]
+ * @param  {[Object]} arg_opts [description]
+ * @return {[bollean]}          [description]
+ */
+export default function(e, arg_opts) {
+  var opts = Object.assign({
+    ele: e.target, // 波纹作用元素
+    type: 'hit', // hit点击位置扩散center中心点扩展
+    bgc: 'rgba(0, 0, 0, 0.15)' // 波纹颜色
+  }, arg_opts)
+  var target = opts.ele
+  if (target) {
+    var rect = target.getBoundingClientRect()
+    var ripple = target.querySelector('.e-ripple')
+    if (!ripple) {
+      ripple = document.createElement('span')
+      ripple.className = 'e-ripple'
+      ripple.style.height = ripple.style.width = Math.max(rect.width, rect.height) + 'px'
+      target.appendChild(ripple)
+    } else {
+      ripple.className = 'e-ripple'
+    }
+    switch (opts.type) {
+      case 'center':
+        ripple.style.top = (rect.height / 2 - ripple.offsetHeight / 2) + 'px'
+        ripple.style.left = (rect.width / 2 - ripple.offsetWidth / 2) + 'px'
+        break
+      default:
+        ripple.style.top = (e.pageY - rect.top - ripple.offsetHeight / 2 - document.body.scrollTop) + 'px'
+        ripple.style.left = (e.pageX - rect.left - ripple.offsetWidth / 2 - document.body.scrollLeft) + 'px'
+    }
+    ripple.style.backgroundColor = opts.bgc
+    ripple.className = 'e-ripple z-active'
+    return false
+  }
+}

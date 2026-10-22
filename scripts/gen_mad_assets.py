@@ -1,1 +1,525 @@
-IyAtKi0gY29kaW5nOiB1dGYtOCAtKi0KIiIiTUFE572R6K++57O757ufIOKAlCDotYTmupDnlJ/miJDlmagK5LuOIG1hZF9kYXRhLnB5IOe7n+S4gOaVsOaNrua6kOeUn+aIkO+8mgogIDEuIHNyYy9kYXRhL3RlYWNoZXJzLmpz44CBc3JjL2RhdGEvY291cnNlcy5qc+OAgXNyYy9kYXRhL3N1YmplY3RzLmpzCiAgMi4g6K++56iL5bCB6Z2i5Zu+IHB1YmxpYy9waG90by9jb3Vyc2UvKi5qcGcg77yIUElMIOe7mOWItu+8jOWkqeeEtuaXoOawtOWNsO+8iQogIDMuIOiusuW4iOWktOWDjyBwdWJsaWMvcGhvdG8vdGVhY2hlci8qLmpwZyDvvIhQSUwg57uY5Yi277yM5Yeg5L2V5oq96LGhICsg5aeT5ZCN6aaW5a2X77yJCiAgNC4gbWFkX2VkdSDlu7rlupMgKyDmlbDmja4gU1FMCiIiIgppbXBvcnQgb3MKaW1wb3J0IHN5cwppbXBvcnQgcmFuZG9tCmltcG9ydCBqc29uCmltcG9ydCB0ZXh0d3JhcApmcm9tIFBJTCBpbXBvcnQgSW1hZ2UsIEltYWdlRHJhdywgSW1hZ2VGb250LCBJbWFnZUZpbHRlcgoKc3lzLnBhdGguaW5zZXJ0KDAsIG9zLnBhdGguZGlybmFtZShvcy5wYXRoLmFic3BhdGgoX19maWxlX18pKSkKZnJvbSBtYWRfZGF0YSBpbXBvcnQgVEVBQ0hFUlMsIFNVQkpFQ1RTLCBDT1VSU0VTLCBCSUxJX1NUQVJUCgpST09UID0gIi9Vc2Vycy9zYW5nL0Rlc2t0b3Av6LC357KS5a2m6Zmi6aG555uuIgpQT1JUQUwgPSBvcy5wYXRoLmpvaW4oUk9PVCwgIndvcmtzcGFjZS9mcm9udGVuZC9tYWQtcG9ydGFsIikKU1RBR0UgPSBvcy5wYXRoLmpvaW4oUk9PVCwgIm9zcy1zdGFnaW5nL2d1bGktYWNhZGVteSIpCgpGT05UX0JPTEQgPSAiL1N5c3RlbS9MaWJyYXJ5L0ZvbnRzL1NUSGVpdGkgTWVkaXVtLnR0YyIKRk9OVF9MSUdIVCA9ICIvU3lzdGVtL0xpYnJhcnkvRm9udHMvU1RIZWl0aSBMaWdodC50dGMiCgpCUkFORCA9ICgxMDQsIDIwMywgMTU1KSAgICAgICAgICAjICM2OGNiOWIg5ZOB54mM57u/CkRBUksgPSAoNCwgMTEsIDI3KSAgICAgICAgICAgICAgICMgIzA0MGIxYiDmt7HlupUKCiMg5YiG57G75Li76aKY6Imy77yI5Li76ImyLCDlia/oibLvvIkKVEhFTUUgPSB7CiAgICAi6YeR6J6N5oqV6LWEIjogKCgxNywgNDAsIDYyKSwgKDQ2LCAxOTYsIDE4MikpLAogICAgIklU5bel56iLIjogICAoKDEyLCAyNiwgNTYpLCAoODYsIDEzMiwgMjU1KSksCiAgICAi5Lq65bel5pm66IO9IjogKCgzNiwgMTYsIDY2KSwgKDE1MCwgOTYsIDI1NSkpLAp9CgoKZGVmIGZvbnQocGF0aCwgc2l6ZSk6CiAgICByZXR1cm4gSW1hZ2VGb250LnRydWV0eXBlKHBhdGgsIHNpemUpCgoKZGVmIGxlcnAoYSwgYiwgdCk6CiAgICByZXR1cm4gdHVwbGUoaW50KGFbaV0gKyAoYltpXSAtIGFbaV0pICogdCkgZm9yIGkgaW4gcmFuZ2UoMykpCgoKIyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tIOivvueoi+WwgemdogpkZWYgbWFrZV9jb3Zlcihjb3Vyc2UsIG91dF9wYXRoKToKICAgIFcsIEggPSA4MDAsIDQ1MAogICAgYmFzZSwgYWNjZW50ID0gVEhFTUVbY291cnNlWyJjYXRlZ29yeSJdXQogICAgaW1nID0gSW1hZ2UubmV3KCJSR0IiLCAoVywgSCksIGJhc2UpCiAgICBkID0gSW1hZ2VEcmF3LkRyYXcoaW1nLCAiUkdCQSIpCgogICAgIyDlvoTlkJHmuJDlj5jlupUKICAgIGZvciB5IGluIHJhbmdlKEgpOgogICAgICAgIHQgPSB5IC8gSAogICAgICAgIHJvdyA9IGxlcnAobGVycChiYXNlLCBEQVJLLCAwLjI1KSwgREFSSywgdCAqIDAuNzUpCiAgICAgICAgZC5saW5lKFsoMCwgeSksIChXLCB5KV0sIGZpbGw9cm93KQoKICAgIHJuZCA9IHJhbmRvbS5SYW5kb20oY291cnNlWyJpZCJdICogOTc3KQoKICAgIGNhdCA9IGNvdXJzZVsiY2F0ZWdvcnkiXQogICAgaWYgY2F0ID09ICLph5Hono3mipXotYQiOgogICAgICAgICMgSyDnur/lm74KICAgICAgICBuID0gMjYKICAgICAgICBmb3IgaSBpbiByYW5nZShuKToKICAgICAgICAgICAgeCA9IDQwICsgaSAqIChXIC0gODApIC8gbgogICAgICAgICAgICBvID0gcm5kLnJhbmRpbnQoNjAsIDMwMCkKICAgICAgICAgICAgYyA9IG8gKyBybmQucmFuZGludCgtNzAsIDcwKQogICAgICAgICAgICB0b3AsIGJvdCA9IG1pbihvLCBjKSwgbWF4KG8sIGMpCiAgICAgICAgICAgIGNvbCA9ICgxMjAsIDIzNSwgMTcwKSBpZiBjID49IG8gZWxzZSAoMjM1LCAxMTAsIDEyMCkKICAgICAgICAgICAgZC5saW5lKFsoeCwgdG9wKSwgKHgsIGJvdCldLCBmaWxsPWNvbCwgd2lkdGg9NCkKICAgICAgICAgICAgZC5yZWN0YW5nbGUoW3ggLSA1LCB0b3AsIHggKyA1LCBib3RdLCBmaWxsPWNvbCkKICAgICAgICAjIOi2i+WKv+e6vwogICAgICAgIHB0cyA9IFsoNDAgKyBpICogKFcgLSA4MCkgLyAyMiwgMzMwIC0gaSAqIDkgKyBybmQucmFuZGludCgtMTgsIDE4KSkgZm9yIGkgaW4gcmFuZ2UoMjMpXQogICAgICAgIGQubGluZShwdHMsIGZpbGw9QlJBTkQsIHdpZHRoPTMpCiAgICBlbGlmIGNhdCA9PSAiSVTlt6XnqIsiOgogICAgICAgICMg55S16Lev5p2/572R5qC8CiAgICAgICAgZm9yIGkgaW4gcmFuZ2UoMCwgVywgNDApOgogICAgICAgICAgICBkLmxpbmUoWyhpLCAwKSwgKGksIEgpXSwgZmlsbD0oMjU1LCAyNTUsIDI1NSwgMTIpLCB3aWR0aD0xKQogICAgICAgIGZvciBpIGluIHJhbmdlKDAsIEgsIDQwKToKICAgICAgICAgICAgZC5saW5lKFsoMCwgaSksIChXLCBpKV0sIGZpbGw9KDI1NSwgMjU1LCAyNTUsIDEyKSwgd2lkdGg9MSkKICAgICAgICAjIOi/nue6v+iKgueCuQogICAgICAgIG5vZGVzID0gWygxMjAgKyBybmQucmFuZGludCgwLCA1NjApLCA4MCArIHJuZC5yYW5kaW50KDAsIDI2MCkpIGZvciBfIGluIHJhbmdlKDkpXQogICAgICAgIGZvciBhIGluIHJhbmdlKGxlbihub2RlcykgLSAxKToKICAgICAgICAgICAgZC5saW5lKFtub2Rlc1thXSwgbm9kZXNbYSArIDFdXSwgZmlsbD1hY2NlbnQgKyAoMTUwLCksIHdpZHRoPTMpCiAgICAgICAgZm9yIG54LCBueSBpbiBub2RlczoKICAgICAgICAgICAgZC5lbGxpcHNlKFtueCAtIDgsIG55IC0gOCwgbnggKyA4LCBueSArIDhdLCBmaWxsPWFjY2VudCkKICAgICAgICAgICAgZC5lbGxpcHNlKFtueCAtIDE0LCBueSAtIDE0LCBueCArIDE0LCBueSArIDE0XSwgb3V0bGluZT1hY2NlbnQgKyAoOTAsKSwgd2lkdGg9MikKICAgICAgICAjIOWPs+S+p+afseeKtgogICAgICAgIGZvciBpIGluIHJhbmdlKDUpOgogICAgICAgICAgICBoID0gcm5kLnJhbmRpbnQoNDAsIDE2MCkKICAgICAgICAgICAgZC5yZWN0YW5nbGUoW1cgLSAxNTAgKyBpICogMjYsIEggLSA2MCAtIGgsIFcgLSAxMzIgKyBpICogMjYsIEggLSA2MF0sIGZpbGw9YWNjZW50ICsgKDEyMCwpKQogICAgZWxzZToKICAgICAgICAjIOelnue7j+e9kee7nAogICAgICAgIGxheWVycyA9IFtbKDkwLCAxMjApLCAoOTAsIDIzMCksICg5MCwgMzQwKV0sCiAgICAgICAgICAgICAgICAgIFsoMjcwLCA4MCksICgyNzAsIDE3MCksICgyNzAsIDI2MCksICgyNzAsIDM1MCldLAogICAgICAgICAgICAgICAgICBbKDQ1MCwgMTIwKSwgKDQ1MCwgMjMwKSwgKDQ1MCwgMzQwKV0sCiAgICAgICAgICAgICAgICAgIFsoNjMwLCAxOTApLCAoNjMwLCAzMDApXV0KICAgICAgICBmb3IgbGkgaW4gcmFuZ2UobGVuKGxheWVycykgLSAxKToKICAgICAgICAgICAgZm9yIGEgaW4gbGF5ZXJzW2xpXToKICAgICAgICAgICAgICAgIGZvciBiIGluIGxheWVyc1tsaSArIDFdOgogICAgICAgICAgICAgICAgICAgIGQubGluZShbYSwgYl0sIGZpbGw9YWNjZW50ICsgKDU1LCksIHdpZHRoPTEpCiAgICAgICAgZm9yIGxpLCBsYXllciBpbiBlbnVtZXJhdGUobGF5ZXJzKToKICAgICAgICAgICAgZm9yICh4LCB5KSBpbiBsYXllcjoKICAgICAgICAgICAgICAgIHIgPSAyMCAtIGxpICogMgogICAgICAgICAgICAgICAgZC5lbGxpcHNlKFt4IC0gciwgeSAtIHIsIHggKyByLCB5ICsgcl0sIGZpbGw9YWNjZW50ICsgKDIyMCwpKQogICAgICAgICAgICAgICAgZC5lbGxpcHNlKFt4IC0gciAtIDgsIHkgLSByIC0gOCwgeCArIHIgKyA4LCB5ICsgciArIDhdLCBvdXRsaW5lPWFjY2VudCArICg4MCwpLCB3aWR0aD0yKQoKICAgICMg6aG26YOo5qCH562+5p2hCiAgICBkLnJlY3RhbmdsZShbMCwgMCwgVywgNl0sIGZpbGw9QlJBTkQpCiAgICAjIOW6lemDqOmBrue9qe+8iOaMieWunumZheWGheWuuemrmOW6puiHqumAguW6lO+8jOS/neivgeaWh+Wtl+WPr+ivu++8iQogICAgIyDlhYjorqHnrpfmoIfpopjooYzmlbAKICAgIHRpdGxlID0gY291cnNlWyJ0aXRsZSJdCiAgICBsaW5lcyA9IHRleHR3cmFwLndyYXAodGl0bGUsIHdpZHRoPTE1KVs6Ml0KICAgIHRpdGxlX2Jsb2NrID0gNTYgKiBsZW4obGluZXMpICsgNDYgKyA0MCAgICAgICMg5qCH6aKY6KGM6auYICsg5qCH562+ICsgbWV0YQogICAgbWFza190b3AgPSBIIC0gdGl0bGVfYmxvY2sgLSAyMAogICAgZm9yIHkgaW4gcmFuZ2UobWF4KDAsIG1hc2tfdG9wKSwgSCk6CiAgICAgICAgYSA9IGludCgyMTUgKiAoeSAtIG1hc2tfdG9wKSAvIG1heCgxLCAoSCAtIG1hc2tfdG9wKSkpCiAgICAgICAgZC5saW5lKFsoMCwgeSksIChXLCB5KV0sIGZpbGw9REFSSyArIChhLCkpCgogICAgZl90YWcgPSBmb250KEZPTlRfQk9MRCwgMjQpCiAgICBmX3QxID0gZm9udChGT05UX0JPTEQsIDQyKQogICAgZl9tZXRhID0gZm9udChGT05UX0xJR0hULCAyMCkKCiAgICB0YWcgPSBmIntjb3Vyc2VbJ2NhdGVnb3J5J119IMK3IHtjb3Vyc2VbJ2xldmVsJ119IgogICAgZC50ZXh0KCg0NCwgbWFza190b3AgKyAxMiksIHRhZywgZm9udD1mX3RhZywgZmlsbD1CUkFORCkKCiAgICAjIOagh+mimAogICAgdHkgPSBtYXNrX3RvcCArIDQ4CiAgICBmb3IgbG4gaW4gbGluZXM6CiAgICAgICAgZC50ZXh0KCg0NCwgdHkpLCBsbiwgZm9udD1mX3QxLCBmaWxsPSgyNTUsIDI1NSwgMjU1KSkKICAgICAgICB0eSArPSA1NAoKICAgICMg5p2l5rqQ5qCH5rOoCiAgICBzdHlwLCBzaWQsIHNsYWJlbCA9IGNvdXJzZVsic291cmNlIl0KICAgIHNyY25hbWUgPSAiWW91VHViZSDlrpjmlrnor77nqIsiIGlmIHN0eXAgPT0gInlvdXR1YmUiIGVsc2UgIkIg56uZ5q2j54mI5ZCI6ZuGIgogICAgZC50ZXh0KCg0NCwgSCAtIDQ0KSwgZiJ7c3JjbmFtZX0gwrcge2xlbihjb3Vyc2VbJ2NoYXB0ZXJzJ10pfSDnq6Agwrcge3NsYWJlbFs6MzBdfSIsIGZvbnQ9Zl9tZXRhLCBmaWxsPSgxNzAsIDE5MCwgMjEwKSkKCiAgICBpbWcuc2F2ZShvdXRfcGF0aCwgIkpQRUciLCBxdWFsaXR5PTg4LCBvcHRpbWl6ZT1UcnVlKQoKCiMgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSDorrLluIjlpLTlg48KZGVmIG1ha2VfYXZhdGFyKHRlYWNoZXIsIG91dF9wYXRoKToKICAgIFMgPSA0MDAKICAgIHRpZCA9IHRlYWNoZXJbMF0KICAgIHJuZCA9IHJhbmRvbS5SYW5kb20odGlkICogMzEzMzcpCiAgICAjIOaMiemihuWfn+WPluiJsgogICAgaWYgdGVhY2hlclszXSA9PSAi6YeR6J6N5oqV6LWEIjoKICAgICAgICBiYXNlLCBhY2NlbnQgPSAoMTgsIDQ2LCA2NiksICg3MiwgMjAwLCAxNjgpCiAgICBlbHNlOgogICAgICAgIGJhc2UsIGFjY2VudCA9ICgyNCwgMzAsIDY2KSwgKDEyOCwgMTIyLCAyNTUpCgogICAgaW1nID0gSW1hZ2UubmV3KCJSR0IiLCAoUywgUyksIGJhc2UpCiAgICBkID0gSW1hZ2VEcmF3LkRyYXcoaW1nLCAiUkdCQSIpCiAgICBmb3IgeSBpbiByYW5nZShTKToKICAgICAgICBkLmxpbmUoWygwLCB5KSwgKFMsIHkpXSwgZmlsbD1sZXJwKGxlcnAoYmFzZSwgREFSSywgMC4yKSwgREFSSywgeSAvIFMgKiAwLjYpKQoKICAgICMg5oq96LGh5Yeg5L2V5p6E5oiQCiAgICBmb3IgaSBpbiByYW5nZSg3KToKICAgICAgICByID0gcm5kLnJhbmRpbnQoNTAsIDE5MCkKICAgICAgICBjeCA9IHJuZC5yYW5kaW50KDAsIFMpCiAgICAgICAgY3kgPSBybmQucmFuZGludCgwLCBTKQogICAgICAgIGQuZWxsaXBzZShbY3ggLSByLCBjeSAtIHIsIGN4ICsgciwgY3kgKyByXSwKICAgICAgICAgICAgICAgICAgb3V0bGluZT1hY2NlbnQgKyAocm5kLnJhbmRpbnQoMzAsIDkwKSwpLCB3aWR0aD1ybmQucmFuZGludCgyLCA2KSkKICAgIGZvciBpIGluIHJhbmdlKDUpOgogICAgICAgIHgxID0gcm5kLnJhbmRpbnQoMCwgUykKICAgICAgICBkLmxpbmUoWyh4MSwgMCksIChybmQucmFuZGludCgwLCBTKSwgUyldLCBmaWxsPWFjY2VudCArICg0MCwpLCB3aWR0aD1ybmQucmFuZGludCgyLCA1KSkKCiAgICAjIOW6lemDqOWnk+WQjemmluWtly/lp5PmsI8KICAgIG5hbWUgPSB0ZWFjaGVyWzFdCiAgICBpbml0aWFsID0gbmFtZVswXQogICAgZC5lbGxpcHNlKFtTIC8gMiAtIDg4LCBTIC8gMiAtIDg4LCBTIC8gMiArIDg4LCBTIC8gMiArIDg4XSwgZmlsbD0oMCwgMCwgMCwgMTIwKSkKICAgIGQuZWxsaXBzZShbUyAvIDIgLSA4NCwgUyAvIDIgLSA4NCwgUyAvIDIgKyA4NCwgUyAvIDIgKyA4NF0sIG91dGxpbmU9YWNjZW50ICsgKDE3MCwpLCB3aWR0aD00KQogICAgZl9pbmkgPSBmb250KEZPTlRfQk9MRCwgMTIwKQogICAgYmJveCA9IGQudGV4dGJib3goKDAsIDApLCBpbml0aWFsLCBmb250PWZfaW5pKQogICAgZC50ZXh0KChTIC8gMiAtIChiYm94WzJdIC0gYmJveFswXSkgLyAyIC0gYmJveFswXSwKICAgICAgICAgICAgUyAvIDIgLSAoYmJveFszXSAtIGJib3hbMV0pIC8gMiAtIGJib3hbMV0pLAogICAgICAgICAgIGluaXRpYWwsIGZvbnQ9Zl9pbmksIGZpbGw9KDI1NSwgMjU1LCAyNTUpKQoKICAgIGltZy5zYXZlKG91dF9wYXRoLCAiSlBFRyIsIHF1YWxpdHk9OTAsIG9wdGltaXplPVRydWUpCgoKIyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tIEpTIOeUn+aIkApkZWYganNfc3RyKHMpOgogICAgcmV0dXJuIGpzb24uZHVtcHMocywgZW5zdXJlX2FzY2lpPUZhbHNlKQoKCmRlZiBnZW5fdGVhY2hlcnNfanMoKToKICAgIGxpbmVzID0gWwogICAgICAgICIvLyBNQUTnvZHor77ns7vnu58gwrcg6K6y5biI5pWw5o2u77yI6YeR6J6N5oqV6LWEIC8gSVTlt6XnqIsg6aKG5Z+f55yf5a6e5ZCN5biI77yJIiwKICAgICAgICAiLy8g5aS05YOP55SxIFBJTCDlh6DkvZXnu5jliLbnlJ/miJDvvIhwdWJsaWMvcGhvdG8vdGVhY2hlci9OTi5qcGfvvInvvIzml6Dku7vkvZXnrKzkuInmlrnmsLTljbAiLAogICAgICAgICJleHBvcnQgY29uc3QgdGVhY2hlcnMgPSBbIiwKICAgIF0KICAgIGZvciAodGlkLCBuYW1lLCBlbiwgZmllbGQsIHRpdGxlLCBpbnRybykgaW4gVEVBQ0hFUlM6CiAgICAgICAgbGluZXMuYXBwZW5kKCIgIHsiKQogICAgICAgIGxpbmVzLmFwcGVuZChmIiAgICBpZDoge3RpZH0sIikKICAgICAgICBsaW5lcy5hcHBlbmQoZiIgICAgbmFtZToge2pzX3N0cihuYW1lKX0sIikKICAgICAgICBsaW5lcy5hcHBlbmQoZiIgICAgZW5OYW1lOiB7anNfc3RyKGVuKX0sIikKICAgICAgICBsaW5lcy5hcHBlbmQoZiIgICAgZmllbGQ6IHtqc19zdHIoZmllbGQpfSwiKQogICAgICAgIGxpbmVzLmFwcGVuZChmIiAgICB0aXRsZToge2pzX3N0cih0aXRsZSl9LCIpCiAgICAgICAgbGluZXMuYXBwZW5kKGYiICAgIGF2YXRhcjoge2pzX3N0cihmJy9waG90by90ZWFjaGVyL3t0aWQ6MDJkfS5qcGcnKX0sIikKICAgICAgICBsaW5lcy5hcHBlbmQoZiIgICAgaW50cm86IHtqc19zdHIoaW50cm8pfSIpCiAgICAgICAgbGluZXMuYXBwZW5kKCIgIH0sIikKICAgIGxpbmVzLmFwcGVuZCgiXSIpCiAgICBsaW5lcy5hcHBlbmQoIiIpCiAgICBsaW5lcy5hcHBlbmQoImV4cG9ydCBjb25zdCBnZXRUZWFjaGVyID0gKGlkKSA9PiB0ZWFjaGVycy5maW5kKCh0KSA9PiB0LmlkID09PSBOdW1iZXIoaWQpKSIpCiAgICBsaW5lcy5hcHBlbmQoImV4cG9ydCBjb25zdCBnZXRUZWFjaGVyc0J5RmllbGQgPSAoZmllbGQpID0+IHRlYWNoZXJzLmZpbHRlcigodCkgPT4gdC5maWVsZCA9PT0gZmllbGQpIikKICAgIGxpbmVzLmFwcGVuZCgiZXhwb3J0IGNvbnN0IHRlYWNoZXJGaWVsZHMgPSBbLi4ubmV3IFNldCh0ZWFjaGVycy5tYXAoKHQpID0+IHQuZmllbGQpKV0iKQogICAgcmV0dXJuICJcbiIuam9pbihsaW5lcykgKyAiXG4iCgoKZGVmIGdlbl9jb3Vyc2VzX2pzKCk6CiAgICBsaW5lcyA9IFsKICAgICAgICAiLy8gTUFE572R6K++57O757ufIMK3IOivvueoi+aVsOaNru+8iOecn+WuniBZb3VUdWJlIC8gQiDnq5kg5YWs5byA6K++77yJIiwKICAgICAgICAiLy8gc291cmNlOiB7IHR5cGU6ICd5b3V0dWJlJyB8ICdiaWxpYmlsaScsIHBsYXlsaXN0SWQgfCBidmlkLCBsYWJlbCB9IiwKICAgICAgICAiLy8g5YWo6YOo5pKt5pS+5rqQ5Z2H5bey5qC46aqM5a2Y5Zyo77yb56ug6IqC5qCH6aKY5oyJ55yf5a6e6K++56iL5aSn57qy5pW055CG44CCIiwKICAgICAgICAiaW1wb3J0IHsgc3ViamVjdFRyZWUgfSBmcm9tICcuL3N1YmplY3RzJyIsCiAgICAgICAgIiIsCiAgICAgICAgImV4cG9ydCBjb25zdCBjb3Vyc2VzID0gWyIsCiAgICBdCiAgICBmb3IgYyBpbiBDT1VSU0VTOgogICAgICAgIHN0eXAsIHNpZCwgc2xhYmVsID0gY1sic291cmNlIl0KICAgICAgICBsaW5lcy5hcHBlbmQoIiAgeyIpCiAgICAgICAgbGluZXMuYXBwZW5kKGYiICAgIGlkOiB7Y1snaWQnXX0sIikKICAgICAgICBsaW5lcy5hcHBlbmQoZiIgICAgdGl0bGU6IHtqc19zdHIoY1sndGl0bGUnXSl9LCIpCiAgICAgICAgbGluZXMuYXBwZW5kKGYiICAgIGNvdmVyOiB7anNfc3RyKGYnL3Bob3RvL2NvdXJzZS97Y1snaWQnXTowMmR9LmpwZycpfSwiKQogICAgICAgIGxpbmVzLmFwcGVuZChmIiAgICBwcmljZToge2pzX3N0cihjWydwcmljZSddKX0sIikKICAgICAgICBsaW5lcy5hcHBlbmQoZiIgICAgc3R1ZHlDb3VudDoge2NbJ3N0dWR5Q291bnQnXX0sIikKICAgICAgICBsaW5lcy5hcHBlbmQoZiIgICAgY2F0ZWdvcnk6IHtqc19zdHIoY1snY2F0ZWdvcnknXSl9LCIpCiAgICAgICAgbGluZXMuYXBwZW5kKGYiICAgIGxldmVsOiB7anNfc3RyKGNbJ2xldmVsJ10pfSwiKQogICAgICAgIGxpbmVzLmFwcGVuZChmIiAgICB0ZWFjaGVySWQ6IHtjWyd0ZWFjaGVySWQnXX0sIikKICAgICAgICBsaW5lcy5hcHBlbmQoIiAgICBzb3VyY2U6IHsiKQogICAgICAgIGxpbmVzLmFwcGVuZChmIiAgICAgIHR5cGU6IHtqc19zdHIoc3R5cCl9LCIpCiAgICAgICAgaWYgc3R5cCA9PSAieW91dHViZSI6CiAgICAgICAgICAgIGxpbmVzLmFwcGVuZChmIiAgICAgIHBsYXlsaXN0SWQ6IHtqc19zdHIoc2lkKX0sIikKICAgICAgICBlbHNlOgogICAgICAgICAgICBsaW5lcy5hcHBlbmQoZiIgICAgICBidmlkOiB7anNfc3RyKHNpZCl9LCIpCiAgICAgICAgbGluZXMuYXBwZW5kKGYiICAgICAgbGFiZWw6IHtqc19zdHIoc2xhYmVsKX0iKQogICAgICAgIGxpbmVzLmFwcGVuZCgiICAgIH0sIikKICAgICAgICBsaW5lcy5hcHBlbmQoZiIgICAgaW50cm86IHtqc19zdHIoY1snaW50cm8nXSl9LCIpCiAgICAgICAgbGluZXMuYXBwZW5kKCIgICAgY2hhcHRlcnM6IFsiKQogICAgICAgIGZvciAoY2huYW1lLCB2aWRzKSBpbiBjWyJjaGFwdGVycyJdOgogICAgICAgICAgICBsaW5lcy5hcHBlbmQoIiAgICAgIHsiKQogICAgICAgICAgICBsaW5lcy5hcHBlbmQoZiIgICAgICAgIG5hbWU6IHtqc19zdHIoY2huYW1lKX0sIikKICAgICAgICAgICAgbGluZXMuYXBwZW5kKCIgICAgICAgIHZpZGVvczogWyIpCiAgICAgICAgICAgIGZvciB2IGluIHZpZHM6CiAgICAgICAgICAgICAgICBsaW5lcy5hcHBlbmQoZiIgICAgICAgICAge2pzX3N0cih2KX0sIikKICAgICAgICAgICAgbGluZXMuYXBwZW5kKCIgICAgICAgIF0iKQogICAgICAgICAgICBsaW5lcy5hcHBlbmQoIiAgICAgIH0sIikKICAgICAgICBsaW5lcy5hcHBlbmQoIiAgICBdIikKICAgICAgICBsaW5lcy5hcHBlbmQoIiAgfSwiKQogICAgbGluZXMuYXBwZW5kKCJdIikKICAgIGxpbmVzLmFwcGVuZCgiIikKICAgIGxpbmVzLmFwcGVuZCgiZXhwb3J0IGNvbnN0IGNhdGVnb3JpZXMgPSBbJ+WFqOmDqCcsIC4uLk9iamVjdC5rZXlzKHN1YmplY3RUcmVlKV0iKQogICAgbGluZXMuYXBwZW5kKCJleHBvcnQgY29uc3QgbGV2ZWxzID0gWyflhajpg6gnLCAuLi5uZXcgU2V0KGNvdXJzZXMubWFwKChjKSA9PiBjLmxldmVsKSldIikKICAgIGxpbmVzLmFwcGVuZCgiIikKICAgIGxpbmVzLmFwcGVuZCgiZXhwb3J0IGNvbnN0IGdldENvdXJzZSA9IChpZCkgPT4gY291cnNlcy5maW5kKChjKSA9PiBjLmlkID09PSBOdW1iZXIoaWQpKSIpCiAgICBsaW5lcy5hcHBlbmQoImV4cG9ydCBjb25zdCBnZXRDb3Vyc2VzQnlUZWFjaGVyID0gKHRlYWNoZXJJZCkgPT4gY291cnNlcy5maWx0ZXIoKGMpID0+IGMudGVhY2hlcklkID09PSBOdW1iZXIodGVhY2hlcklkKSkiKQogICAgbGluZXMuYXBwZW5kKCIiKQogICAgbGluZXMuYXBwZW5kKCIvLyDor77nqIvmnaXmupDlpJbpk74iKQogICAgbGluZXMuYXBwZW5kKCJleHBvcnQgZnVuY3Rpb24gc291cmNlVXJsKGNvdXJzZSkgeyIpCiAgICBsaW5lcy5hcHBlbmQoIiAgY29uc3QgcyA9IGNvdXJzZT8uc291cmNlIikKICAgIGxpbmVzLmFwcGVuZCgiICBpZiAoIXMpIHJldHVybiAnJyIpCiAgICBsaW5lcy5hcHBlbmQoIiAgcmV0dXJuIHMudHlwZSA9PT0gJ3lvdXR1YmUnIikKICAgIGxpbmVzLmFwcGVuZCgiICAgID8gYGh0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3BsYXlsaXN0P2xpc3Q9JHtzLnBsYXlsaXN0SWR9YCIpCiAgICBsaW5lcy5hcHBlbmQoIiAgICA6IGBodHRwczovL3d3dy5iaWxpYmlsaS5jb20vdmlkZW8vJHtzLmJ2aWR9YCIpCiAgICBsaW5lcy5hcHBlbmQoIn0iKQogICAgcmV0dXJuICJcbiIuam9pbihsaW5lcykgKyAiXG4iCgoKZGVmIGdlbl9zdWJqZWN0c19qcygpOgogICAgbGluZXMgPSBbCiAgICAgICAgIi8vIE1BROe9keivvuezu+e7nyDCtyDor77nqIvliIbnsbvmoJHvvIjkuI7mlbDmja7lupMgZWR1X3N1YmplY3Qg5a+55bqU77yJIiwKICAgICAgICAiZXhwb3J0IGNvbnN0IHN1YmplY3RUcmVlID0geyIsCiAgICBdCiAgICBmb3IgcGFyZW50LCBjaGlsZHJlbiBpbiBTVUJKRUNUUy5pdGVtcygpOgogICAgICAgIGxpbmVzLmFwcGVuZChmIiAge2pzX3N0cihwYXJlbnQpfToge2pzb24uZHVtcHMoY2hpbGRyZW4sIGVuc3VyZV9hc2NpaT1GYWxzZSl9LCIpCiAgICBsaW5lcy5hcHBlbmQoIn0iKQogICAgbGluZXMuYXBwZW5kKCIiKQogICAgbGluZXMuYXBwZW5kKCJleHBvcnQgY29uc3QgYWxsU3ViamVjdHMgPSBPYmplY3QuZW50cmllcyhzdWJqZWN0VHJlZSkuZmxhdE1hcCgoW3AsIGNzXSkgPT4iKQogICAgbGluZXMuYXBwZW5kKCIgIGNzLm1hcCgoYykgPT4gKHsgcGFyZW50OiBwLCBjaGlsZDogYyB9KSkiKQogICAgbGluZXMuYXBwZW5kKCIpIikKICAgIHJldHVybiAiXG4iLmpvaW4obGluZXMpICsgIlxuIgoKCiMgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSBTUUwg55Sf5oiQCmRlZiBnZW5fc3FsKCk6CiAgICBvdXQgPSBbXQogICAgb3V0LmFwcGVuZCgiLS0gPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09IikKICAgIG91dC5hcHBlbmQoIi0tIE1BROe9keivvuezu+e7nyDCtyBtYWRfZWR1IOW6k+WIneWni+WMluS4juaVsOaNruiEmuacrCIpCiAgICBvdXQuYXBwZW5kKCItLSDorrLluIjvvJrph5Hono3mipXotYQgLyBJVOW3peeoiyDpoobln5/nnJ/lrp7lkI3luIjvvIgxNCDkvY3vvIkiKQogICAgb3V0LmFwcGVuZCgiLS0g6K++56iL77yaMTYg6Zeo77yM5YWo6YOo5p2l6Ieq55yf5a6eIFlvdVR1YmUg5pKt5pS+5YiX6KGoIC8gQiDnq5nlkIjpm4YiKQogICAgb3V0LmFwcGVuZCgiLS0g55So5rOV77yabXlzcWwgLXUgbWFkIC1wIG1hZF9lZHUgPCBtYWRfZWR1LnNxbCIpCiAgICBvdXQuYXBwZW5kKCItLSA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0iKQogICAgb3V0LmFwcGVuZCgiIikKICAgIG91dC5hcHBlbmQoIkRST1AgREFUQUJBU0UgSUYgRVhJU1RTIGBtYWRfZWR1YDsiKQogICAgb3V0LmFwcGVuZCgiQ1JFQVRFIERBVEFCQVNFIGBtYWRfZWR1YCBERUZBVUxUIENIQVJBQ1RFUiBTRVQgdXRmOG1iNCBDT0xMQVRFIHV0ZjhtYjRfZ2VuZXJhbF9jaTsiKQogICAgb3V0LmFwcGVuZCgiVVNFIGBtYWRfZWR1YDsiKQogICAgb3V0LmFwcGVuZCgiIikKCiAgICAjIOihqOe7k+aehAogICAgb3V0LmFwcGVuZCgiIiJDUkVBVEUgVEFCTEUgYGVkdV90ZWFjaGVyYCAoCiAgYGlkYCBjaGFyKDE5KSBOT1QgTlVMTCBDT01NRU5UICforrLluIhJRCcsCiAgYG5hbWVgIHZhcmNoYXIoMjApIE5PVCBOVUxMIENPTU1FTlQgJ+iusuW4iOWnk+WQjScsCiAgYGludHJvYCB2YXJjaGFyKDI1NSkgTk9UIE5VTEwgQ09NTUVOVCAn6K6y5biI6LWE5Y6GLOS4gOWPpeivneivtOaYjuiusuW4iCcsCiAgYGNhcmVlcmAgdGV4dCBDT01NRU5UICforrLluIjnroDku4snLAogIGBsZXZlbGAgaW50KDEwKSB1bnNpZ25lZCBOT1QgTlVMTCBDT01NRU5UICflpLTooZQgMemrmOe6p+iusuW4iCAy6aaW5bit6K6y5biIJywKICBgYXZhdGFyYCB2YXJjaGFyKDI1NSkgREVGQVVMVCBOVUxMIENPTU1FTlQgJ+iusuW4iOWktOWDjycsCiAgYHNvcnRgIGludCgxMCkgdW5zaWduZWQgTk9UIE5VTEwgREVGQVVMVCAnMCcgQ09NTUVOVCAn5o6S5bqPJywKICBgaXNfZGVsZXRlZGAgdGlueWludCgxKSB1bnNpZ25lZCBOT1QgTlVMTCBERUZBVUxUICcwJyBDT01NRU5UICfpgLvovpHliKDpmaQgMe+8iHRydWXvvInlt7LliKDpmaTvvIwgMO+8iGZhbHNl77yJ5pyq5Yig6ZmkJywKICBgZ210X2NyZWF0ZWAgZGF0ZXRpbWUgTk9UIE5VTEwgQ09NTUVOVCAn5Yib5bu65pe26Ze0JywKICBgZ210X21vZGlmaWVkYCBkYXRldGltZSBOT1QgTlVMTCBDT01NRU5UICfliJvlu7rml7bpl7QnLAogIFBSSU1BUlkgS0VZIChgaWRgKSwKICBLRVkgYGlkeF9uYW1lYCAoYG5hbWVgKQopIEVOR0lORT1Jbm5vREIgREVGQVVMVCBDSEFSU0VUPXV0ZjhtYjQgUk9XX0ZPUk1BVD1DT01QQUNUIENPTU1FTlQ9J+iusuW4iCc7CgpDUkVBVEUgVEFCTEUgYGVkdV9zdWJqZWN0YCAoCiAgYGlkYCBjaGFyKDE5KSBOT1QgTlVMTCBDT01NRU5UICfor77nqIvnsbvliKtJRCcsCiAgYHRpdGxlYCB2YXJjaGFyKDMwKSBOT1QgTlVMTCBDT01NRU5UICfnsbvliKvlkI3np7AnLAogIGBwYXJlbnRfaWRgIGNoYXIoMTkpIE5PVCBOVUxMIERFRkFVTFQgJzAnIENPTU1FTlQgJ+eItklEJywKICBgc29ydGAgaW50KDEwKSB1bnNpZ25lZCBOT1QgTlVMTCBERUZBVUxUICcwJyBDT01NRU5UICfmjpLluo/lrZfmrrUnLAogIGBnbXRfY3JlYXRlYCBkYXRldGltZSBOT1QgTlVMTCBDT01NRU5UICfliJvlu7rml7bpl7QnLAogIGBnbXRfbW9kaWZpZWRgIGRhdGV0aW1lIE5PVCBOVUxMIENPTU1FTlQgJ+WIm+W7uuaXtumXtCcsCiAgUFJJTUFSWSBLRVkgKGBpZGApLAogIEtFWSBgaWR4X3BhcmVudF9pZGAgKGBwYXJlbnRfaWRgKQopIEVOR0lORT1Jbm5vREIgREVGQVVMVCBDSEFSU0VUPXV0ZjhtYjQgUk9XX0ZPUk1BVD1DT01QQUNUIENPTU1FTlQ9J+ivvueoi+enkeebric7CgpDUkVBVEUgVEFCTEUgYGVkdV9jb3Vyc2VgICgKICBgaWRgIGNoYXIoMTkpIE5PVCBOVUxMIENPTU1FTlQgJ+ivvueoi0lEJywKICBgdGVhY2hlcl9pZGAgY2hhcigxOSkgTk9UIE5VTEwgQ09NTUVOVCAn6K++56iL6K6y5biISUQnLAogIGBzdWJqZWN0X2lkYCBjaGFyKDE5KSBOT1QgTlVMTCBDT01NRU5UICfor77nqIvkuJPkuJpJRCcsCiAgYHN1YmplY3RfcGFyZW50X2lkYCBjaGFyKDE5KSBOT1QgTlVMTCBDT01NRU5UICfor77nqIvkuJPkuJrniLbnuqdJRCcsCiAgYHRpdGxlYCB2YXJjaGFyKDEwMCkgTk9UIE5VTEwgQ09NTUVOVCAn6K++56iL5qCH6aKYJywKICBgcHJpY2VgIGRlY2ltYWwoMTAsNCkgdW5zaWduZWQgTk9UIE5VTEwgREVGQVVMVCAnMC4wMDAwJyBDT01NRU5UICfor77nqIvplIDllK7ku7fmoLzvvIzorr7nva7kuLow5YiZ5Y+v5YWN6LS56KeC55yLJywKICBgbGVzc29uX251bWAgaW50KDEwKSB1bnNpZ25lZCBOT1QgTlVMTCBERUZBVUxUICcwJyBDT01NRU5UICfmgLvor77ml7YnLAogIGBjb3ZlcmAgdmFyY2hhcigyNTUpIENIQVJBQ1RFUiBTRVQgdXRmOCBOT1QgTlVMTCBDT01NRU5UICfor77nqIvlsIHpnaLlm77niYfot6/lvoQnLAogIGBidXlfY291bnRgIGJpZ2ludCgxMCkgdW5zaWduZWQgTk9UIE5VTEwgREVGQVVMVCAnMCcgQ09NTUVOVCAn6ZSA5ZSu5pWw6YePJywKICBgdmlld19jb3VudGAgYmlnaW50KDEwKSB1bnNpZ25lZCBOT1QgTlVMTCBERUZBVUxUICcwJyBDT01NRU5UICfmtY/op4jmlbDph48nLAogIGB2ZXJzaW9uYCBiaWdpbnQoMjApIHVuc2lnbmVkIE5PVCBOVUxMIERFRkFVTFQgJzEnIENPTU1FTlQgJ+S5kOingumUgScsCiAgYHN0YXR1c2AgdmFyY2hhcigxMCkgTk9UIE5VTEwgREVGQVVMVCAnRHJhZnQnIENPTU1FTlQgJ+ivvueoi+eKtuaAgSBEcmFmdOacquWPkeW4gyAgTm9ybWFs5bey5Y+R5biDJywKICBgZ210X2NyZWF0ZWAgZGF0ZXRpbWUgTk9UIE5VTEwgQ09NTUVOVCAn5Yib5bu65pe26Ze0JywKICBgZ210X21vZGlmaWVkYCBkYXRldGltZSBOT1QgTlVMTCBDT01NRU5UICfliJvlu7rml7bpl7QnLAogIFBSSU1BUlkgS0VZIChgaWRgKSwKICBLRVkgYGlkeF90aXRsZWAgKGB0aXRsZWApLAogIEtFWSBgaWR4X3N1YmplY3RfaWRgIChgc3ViamVjdF9pZGApLAogIEtFWSBgaWR4X3RlYWNoZXJfaWRgIChgdGVhY2hlcl9pZGApCikgRU5HSU5FPUlubm9EQiBERUZBVUxUIENIQVJTRVQ9dXRmOG1iNCBST1dfRk9STUFUPUNPTVBBQ1QgQ09NTUVOVD0n6K++56iLJzsKCkNSRUFURSBUQUJMRSBgZWR1X2NvdXJzZV9kZXNjcmlwdGlvbmAgKAogIGBpZGAgY2hhcigxOSkgTk9UIE5VTEwgQ09NTUVOVCAn6K++56iLSUQnLAogIGBkZXNjcmlwdGlvbmAgdGV4dCBDT01NRU5UICfor77nqIvnroDku4snLAogIGBnbXRfY3JlYXRlYCBkYXRldGltZSBOT1QgTlVMTCBDT01NRU5UICfliJvlu7rml7bpl7QnLAogIGBnbXRfbW9kaWZpZWRgIGRhdGV0aW1lIE5PVCBOVUxMIENPTU1FTlQgJ+WIm+W7uuaXtumXtCcsCiAgUFJJTUFSWSBLRVkgKGBpZGApCikgRU5HSU5FPUlubm9EQiBERUZBVUxUIENIQVJTRVQ9dXRmOG1iNCBDT01NRU5UPSfor77nqIvnroDku4snOwoKQ1JFQVRFIFRBQkxFIGBlZHVfY2hhcHRlcmAgKAogIGBpZGAgY2hhcigxOSkgTk9UIE5VTEwgQ09NTUVOVCAn56ug6IqCSUQnLAogIGBjb3Vyc2VfaWRgIGNoYXIoMTkpIE5PVCBOVUxMIENPTU1FTlQgJ+ivvueoi0lEJywKICBgdGl0bGVgIHZhcmNoYXIoMTAwKSBOT1QgTlVMTCBDT01NRU5UICfnq6DoioLlkI3np7AnLAogIGBzb3J0YCBpbnQoMTApIHVuc2lnbmVkIE5PVCBOVUxMIERFRkFVTFQgJzAnIENPTU1FTlQgJ+aYvuekuuaOkuW6jycsCiAgYGdtdF9jcmVhdGVgIGRhdGV0aW1lIE5PVCBOVUxMIENPTU1FTlQgJ+WIm+W7uuaXtumXtCcsCiAgYGdtdF9tb2RpZmllZGAgZGF0ZXRpbWUgTk9UIE5VTEwgQ09NTUVOVCAn5Yib5bu65pe26Ze0JywKICBQUklNQVJZIEtFWSAoYGlkYCksCiAgS0VZIGBpZHhfY291cnNlX2lkYCAoYGNvdXJzZV9pZGApCikgRU5HSU5FPUlubm9EQiBERUZBVUxUIENIQVJTRVQ9dXRmOG1iNCBST1dfRk9STUFUPUNPTVBBQ1QgQ09NTUVOVD0n56ug6IqCJzsKCkNSRUFURSBUQUJMRSBgZWR1X3ZpZGVvYCAoCiAgYGlkYCBjaGFyKDE5KSBOT1QgTlVMTCBDT01NRU5UICfop4bpopFJRCcsCiAgYGNvdXJzZV9pZGAgY2hhcigxOSkgTk9UIE5VTEwgQ09NTUVOVCAn6K++56iLSUQnLAogIGBjaGFwdGVyX2lkYCBjaGFyKDE5KSBOT1QgTlVMTCBDT01NRU5UICfnq6DoioJJRCcsCiAgYHRpdGxlYCB2YXJjaGFyKDE1MCkgTk9UIE5VTEwgQ09NTUVOVCAn6IqC54K55ZCN56ewJywKICBgdmlkZW9fc291cmNlX2lkYCB2YXJjaGFyKDEwMCkgREVGQVVMVCBOVUxMIENPTU1FTlQgJ+S6keerr+inhumikei1hOa6kCcsCiAgYHZpZGVvX29yaWdpbmFsX25hbWVgIHZhcmNoYXIoMTAwKSBERUZBVUxUIE5VTEwgQ09NTUVOVCAn5Y6f5aeL5paH5Lu25ZCN56ewJywKICBgc29ydGAgaW50KDEwKSB1bnNpZ25lZCBOT1QgTlVMTCBERUZBVUxUICcwJyBDT01NRU5UICfmjpLluo/lrZfmrrUnLAogIGBwbGF5X2NvdW50YCBiaWdpbnQoMjApIHVuc2lnbmVkIE5PVCBOVUxMIERFRkFVTFQgJzAnIENPTU1FTlQgJ+aSreaUvuasoeaVsCcsCiAgYGlzX2ZyZWVgIHRpbnlpbnQoMSkgdW5zaWduZWQgTk9UIE5VTEwgREVGQVVMVCAnMCcgQ09NTUVOVCAn5piv5ZCm5Y+v5Lul6K+V5ZCs77yaMOaUtui0uSAx5YWN6LS5JywKICBgZHVyYXRpb25gIGZsb2F0IE5PVCBOVUxMIERFRkFVTFQgJzAnIENPTU1FTlQgJ+inhumikeaXtumVv++8iOenku+8iScsCiAgYHN0YXR1c2AgdmFyY2hhcigyMCkgTk9UIE5VTEwgREVGQVVMVCAnJyBDT01NRU5UICfop4bpopHnirbmgIEnLAogIGBzaXplYCBiaWdpbnQoMjApIHVuc2lnbmVkIE5PVCBOVUxMIERFRkFVTFQgJzAnIENPTU1FTlQgJ+inhumikea6kOaWh+S7tuWkp+Wwj++8iOWtl+iKgu+8iScsCiAgYHZlcnNpb25gIGJpZ2ludCgyMCkgdW5zaWduZWQgTk9UIE5VTEwgREVGQVVMVCAnMScgQ09NTUVOVCAn5LmQ6KeC6ZSBJywKICBgZ210X2NyZWF0ZWAgZGF0ZXRpbWUgTk9UIE5VTEwgQ09NTUVOVCAn5Yib5bu65pe26Ze0JywKICBgZ210X21vZGlmaWVkYCBkYXRldGltZSBOT1QgTlVMTCBDT01NRU5UICfliJvlu7rml7bpl7QnLAogIFBSSU1BUlkgS0VZIChgaWRgKSwKICBLRVkgYGlkeF9jb3Vyc2VfaWRgIChgY291cnNlX2lkYCksCiAgS0VZIGBpZHhfY2hhcHRlcl9pZGAgKGBjaGFwdGVyX2lkYCkKKSBFTkdJTkU9SW5ub0RCIERFRkFVTFQgQ0hBUlNFVD11dGY4bWI0IFJPV19GT1JNQVQ9Q09NUEFDVCBDT01NRU5UPSfop4bpopEnOyIiIikKICAgIG91dC5hcHBlbmQoIiIpCgogICAgTk9XID0gIicyMDI2LTEwLTIyIDEwOjAwOjAwJyIKCiAgICAjIOWIhuexuwogICAgb3V0LmFwcGVuZCgiLS0gLS0tLS0tLS0tLS0tLS0tLSDor77nqIvliIbnsbsgLS0tLS0tLS0tLS0tLS0tLSIpCiAgICBzaWRfbWFwID0ge30KICAgIHNpZCA9IDEwMDAKICAgIHJvd3MgPSBbXQogICAgZm9yIHBpLCAocGFyZW50LCBjaGlsZHJlbikgaW4gZW51bWVyYXRlKFNVQkpFQ1RTLml0ZW1zKCksIHN0YXJ0PTEpOgogICAgICAgIHBpZCA9IHN0cihzaWQpOyBzaWQgKz0gMQogICAgICAgIHNpZF9tYXBbcGFyZW50XSA9IHBpZAogICAgICAgIHJvd3MuYXBwZW5kKGYiKCd7cGlkfScsJ3twYXJlbnR9JywnMCcse3BpfSx7Tk9XfSx7Tk9XfSkiKQogICAgICAgIGZvciBjaSwgY2ggaW4gZW51bWVyYXRlKGNoaWxkcmVuLCBzdGFydD0xKToKICAgICAgICAgICAgY2lkID0gc3RyKHNpZCk7IHNpZCArPSAxCiAgICAgICAgICAgIHNpZF9tYXBbKHBhcmVudCwgY2gpXSA9IGNpZAogICAgICAgICAgICByb3dzLmFwcGVuZChmIigne2NpZH0nLCd7Y2h9Jywne3BpZH0nLHtjaX0se05PV30se05PV30pIikKICAgIG91dC5hcHBlbmQoIklOU0VSVCBJTlRPIGBlZHVfc3ViamVjdGAoYGlkYCxgdGl0bGVgLGBwYXJlbnRfaWRgLGBzb3J0YCxgZ210X2NyZWF0ZWAsYGdtdF9tb2RpZmllZGApIFZBTFVFUyIpCiAgICBvdXQuYXBwZW5kKCIsXG4iLmpvaW4ocm93cykgKyAiOyIpCiAgICBvdXQuYXBwZW5kKCIiKQoKICAgICMg6K6y5biICiAgICBvdXQuYXBwZW5kKCItLSAtLS0tLS0tLS0tLS0tLS0tIOiusuW4iO+8iOmHkeiejeaKlei1hCAvIElU5bel56iLIOecn+WunuWQjeW4iO+8iS0tLS0tLS0tLS0tLS0tLS0iKQogICAgdHJvd3MgPSBbXQogICAgZm9yICh0aWQsIG5hbWUsIGVuLCBmaWVsZCwgdGl0bGUsIGludHJvKSBpbiBURUFDSEVSUzoKICAgICAgICBzaG9ydCA9IGYie2Vufe+8iHtmaWVsZH3vvInCtyB7dGl0bGV9IgogICAgICAgIHRyb3dzLmFwcGVuZCgKICAgICAgICAgICAgZiIoJ3t0aWR9Jywne25hbWV9Jywne3Nob3J0fScsJ3tpbnRyb30nLCIKICAgICAgICAgICAgZiJ7MiBpZiB0aWQgaW4gKDEsMiw0LDkpIGVsc2UgMX0sIgogICAgICAgICAgICBmIicvcGhvdG8vdGVhY2hlci97dGlkOjAyZH0uanBnJyx7dGlkfSwwLHtOT1d9LHtOT1d9KSIpCiAgICBvdXQuYXBwZW5kKCJJTlNFUlQgSU5UTyBgZWR1X3RlYWNoZXJgKGBpZGAsYG5hbWVgLGBpbnRyb2AsYGNhcmVlcmAsYGxldmVsYCxgYXZhdGFyYCxgc29ydGAsYGlzX2RlbGV0ZWRgLGBnbXRfY3JlYXRlYCxgZ210X21vZGlmaWVkYCkgVkFMVUVTIikKICAgIG91dC5hcHBlbmQoIixcbiIuam9pbih0cm93cykgKyAiOyIpCiAgICBvdXQuYXBwZW5kKCIiKQoKICAgICMg6K++56iLCiAgICBvdXQuYXBwZW5kKCItLSAtLS0tLS0tLS0tLS0tLS0tIOivvueoiyAtLS0tLS0tLS0tLS0tLS0tIikKICAgIGNyb3dzID0gW10KICAgIGRyb3dzID0gW10KICAgIGZvciBjIGluIENPVVJTRVM6CiAgICAgICAgIyDor77nqIsgSUQg5LiO5YmN56uvIGNvdXJzZXMuanMg55qEIGlkIOS/neaMgeS4gOiHtO+8iDEuLjE277yJ77yMCiAgICAgICAgIyDkv53or4Hpl6jmiLflrabkuaDkuK3lv4MgL2VkdS9jaGFwdGVyL25lc3RlZC1saXN0L3tjb3Vyc2VJZH0g5Y+v55u05o6l5ZG95LitCiAgICAgICAgY2lkID0gc3RyKGNbImlkIl0pCiAgICAgICAgcGFyZW50ID0gY1siY2F0ZWdvcnkiXQogICAgICAgIGNoaWxkID0gY1sibGV2ZWwiXQogICAgICAgIHBpZCA9IHNpZF9tYXBbcGFyZW50XQogICAgICAgIHNpZDIgPSBzaWRfbWFwLmdldCgocGFyZW50LCBjaGlsZCksIHBpZCkKICAgICAgICB0b3RhbF92aWRlb3MgPSBzdW0obGVuKHYpIGZvciBfLCB2IGluIGNbImNoYXB0ZXJzIl0pCiAgICAgICAgY292ZXIgPSBmIi9waG90by9jb3Vyc2Uve2NbJ2lkJ106MDJkfS5qcGciCiAgICAgICAgY3Jvd3MuYXBwZW5kKAogICAgICAgICAgICBmIigne2NpZH0nLCd7Y1sndGVhY2hlcklkJ119Jywne3NpZDJ9Jywne3BpZH0nLCd7Y1sndGl0bGUnXX0nLDAuMDAwMCx7dG90YWxfdmlkZW9zfSwiCiAgICAgICAgICAgIGYiJ3tjb3Zlcn0nLHtjWydzdHVkeUNvdW50J119LHtjWydzdHVkeUNvdW50J10gKiAzfSwxLCdOb3JtYWwnLHtOT1d9LHtOT1d9KSIpCiAgICAgICAgZGVzYyA9IGNbImludHJvIl0gKyAiPGJyLz48YnIvPuivvueoi+adpea6kO+8miIgKyBjWyJzb3VyY2UiXVsyXQogICAgICAgIGRyb3dzLmFwcGVuZChmIigne2NpZH0nLCd7ZGVzY30nLHtOT1d9LHtOT1d9KSIpCiAgICBvdXQuYXBwZW5kKCJJTlNFUlQgSU5UTyBgZWR1X2NvdXJzZWAoYGlkYCxgdGVhY2hlcl9pZGAsYHN1YmplY3RfaWRgLGBzdWJqZWN0X3BhcmVudF9pZGAsYHRpdGxlYCxgcHJpY2VgLGBsZXNzb25fbnVtYCxgY292ZXJgLGBidXlfY291bnRgLGB2aWV3X2NvdW50YCxgdmVyc2lvbmAsYHN0YXR1c2AsYGdtdF9jcmVhdGVgLGBnbXRfbW9kaWZpZWRgKSBWQUxVRVMiKQogICAgb3V0LmFwcGVuZCgiLFxuIi5qb2luKGNyb3dzKSArICI7IikKICAgIG91dC5hcHBlbmQoIiIpCiAgICBvdXQuYXBwZW5kKCItLSAtLS0tLS0tLS0tLS0tLS0tIOivvueoi+eugOS7iyAtLS0tLS0tLS0tLS0tLS0tIikKICAgIG91dC5hcHBlbmQoIklOU0VSVCBJTlRPIGBlZHVfY291cnNlX2Rlc2NyaXB0aW9uYChgaWRgLGBkZXNjcmlwdGlvbmAsYGdtdF9jcmVhdGVgLGBnbXRfbW9kaWZpZWRgKSBWQUxVRVMiKQogICAgb3V0LmFwcGVuZCgiLFxuIi5qb2luKGRyb3dzKSArICI7IikKICAgIG91dC5hcHBlbmQoIiIpCgogICAgIyDnq6DoioIgKyDop4bpopEKICAgIG91dC5hcHBlbmQoIi0tIC0tLS0tLS0tLS0tLS0tLS0g56ug6IqCIC0tLS0tLS0tLS0tLS0tLS0iKQogICAgY2hyb3dzID0gW10KICAgIHZyb3dzID0gW10KICAgIHZpZCA9IDEKICAgIGZvciBjIGluIENPVVJTRVM6CiAgICAgICAgY2lkID0gc3RyKGNbImlkIl0pCiAgICAgICAgZm9yIGNpLCAoY2huYW1lLCB2aWRzKSBpbiBlbnVtZXJhdGUoY1siY2hhcHRlcnMiXSwgc3RhcnQ9MSk6CiAgICAgICAgICAgIGNoaWQgPSBzdHIodmlkKTsgdmlkICs9IDEKICAgICAgICAgICAgY2hyb3dzLmFwcGVuZChmIigne2NoaWR9Jywne2NpZH0nLCd7Y2huYW1lfScse2NpfSx7Tk9XfSx7Tk9XfSkiKQogICAgICAgICAgICBmb3IgdmksIHZ0aXRsZSBpbiBlbnVtZXJhdGUodmlkcywgc3RhcnQ9MSk6CiAgICAgICAgICAgICAgICB2X2lkID0gc3RyKHZpZCk7IHZpZCArPSAxCiAgICAgICAgICAgICAgICAjIOinhumikeadpea6kO+8mllvdVR1YmUg5pKt5pS+5YiX6KGo5bqP5Y+3IOaIliBCIOermeWIhlDpobXnoIEKICAgICAgICAgICAgICAgIGlmIGNbInNvdXJjZSJdWzBdID09ICJ5b3V0dWJlIjoKICAgICAgICAgICAgICAgICAgICBzcmMgPSBmIllUOntjWydzb3VyY2UnXVsxXX0iCiAgICAgICAgICAgICAgICBlbHNlOgogICAgICAgICAgICAgICAgICAgIHNyYyA9IGYiQkk6e2NbJ3NvdXJjZSddWzFdfSIKICAgICAgICAgICAgICAgIHZyb3dzLmFwcGVuZCgKICAgICAgICAgICAgICAgICAgICBmIigne3ZfaWR9Jywne2NpZH0nLCd7Y2hpZH0nLCd7dnRpdGxlfScsJ3tzcmN9JyxOVUxMLHt2aX0sMCwiCiAgICAgICAgICAgICAgICAgICAgZiJ7MSBpZiB2aSA9PSAxIGVsc2UgMH0sMCwnTm9ybWFsJywwLDEse05PV30se05PV30pIikKICAgIG91dC5hcHBlbmQoIklOU0VSVCBJTlRPIGBlZHVfY2hhcHRlcmAoYGlkYCxgY291cnNlX2lkYCxgdGl0bGVgLGBzb3J0YCxgZ210X2NyZWF0ZWAsYGdtdF9tb2RpZmllZGApIFZBTFVFUyIpCiAgICBvdXQuYXBwZW5kKCIsXG4iLmpvaW4oY2hyb3dzKSArICI7IikKICAgIG91dC5hcHBlbmQoIiIpCiAgICBvdXQuYXBwZW5kKCItLSAtLS0tLS0tLS0tLS0tLS0tIOinhumikeiKgueCuSAtLS0tLS0tLS0tLS0tLS0tIikKICAgIG91dC5hcHBlbmQoIklOU0VSVCBJTlRPIGBlZHVfdmlkZW9gKGBpZGAsYGNvdXJzZV9pZGAsYGNoYXB0ZXJfaWRgLGB0aXRsZWAsYHZpZGVvX3NvdXJjZV9pZGAsYHZpZGVvX29yaWdpbmFsX25hbWVgLGBzb3J0YCxgcGxheV9jb3VudGAsYGlzX2ZyZWVgLGBkdXJhdGlvbmAsYHN0YXR1c2AsYHNpemVgLGB2ZXJzaW9uYCxgZ210X2NyZWF0ZWAsYGdtdF9tb2RpZmllZGApIFZBTFVFUyIpCiAgICBvdXQuYXBwZW5kKCIsXG4iLmpvaW4odnJvd3MpICsgIjsiKQogICAgb3V0LmFwcGVuZCgiIikKCiAgICBvdXQuYXBwZW5kKCItLSA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0iKQogICAgb3V0LmFwcGVuZCgiLS0g5qCh6aqM5p+l6K+iIikKICAgIG91dC5hcHBlbmQoIi0tIFNFTEVDVCB0Lm5hbWUsIENPVU5UKGMuaWQpIEFTIOivvueoi+aVsCBGUk9NIGVkdV90ZWFjaGVyIHQiKQogICAgb3V0LmFwcGVuZCgiLS0gICBMRUZUIEpPSU4gZWR1X2NvdXJzZSBjIE9OIGMudGVhY2hlcl9pZCA9IHQuaWQgR1JPVVAgQlkgdC5pZCwgdC5uYW1lOyIpCiAgICBvdXQuYXBwZW5kKCItLSA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0iKQogICAgcmV0dXJuICJcbiIuam9pbihvdXQpICsgIlxuIgoKCiMgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSDkuLvmtYHnqIsKZGVmIG1haW4oKToKICAgICMgMS4g55uu5b2V5YeG5aSHCiAgICBmb3IgZCBpbiBbb3MucGF0aC5qb2luKFBPUlRBTCwgInNyYy9kYXRhIiksCiAgICAgICAgICAgICAgb3MucGF0aC5qb2luKFBPUlRBTCwgInB1YmxpYy9waG90by9jb3Vyc2UiKSwKICAgICAgICAgICAgICBvcy5wYXRoLmpvaW4oUE9SVEFMLCAicHVibGljL3Bob3RvL3RlYWNoZXIiKSwKICAgICAgICAgICAgICBvcy5wYXRoLmpvaW4oU1RBR0UsICJzcWwiKV06CiAgICAgICAgb3MubWFrZWRpcnMoZCwgZXhpc3Rfb2s9VHJ1ZSkKCiAgICAjIDIuIEpTIOaVsOaNrgogICAgd2l0aCBvcGVuKG9zLnBhdGguam9pbihQT1JUQUwsICJzcmMvZGF0YS90ZWFjaGVycy5qcyIpLCAidyIsIGVuY29kaW5nPSJ1dGYtOCIpIGFzIGY6CiAgICAgICAgZi53cml0ZShnZW5fdGVhY2hlcnNfanMoKSkKICAgIHByaW50KCLinJMgdGVhY2hlcnMuanMiKQogICAgd2l0aCBvcGVuKG9zLnBhdGguam9pbihQT1JUQUwsICJzcmMvZGF0YS9jb3Vyc2VzLmpzIiksICJ3IiwgZW5jb2Rpbmc9InV0Zi04IikgYXMgZjoKICAgICAgICBmLndyaXRlKGdlbl9jb3Vyc2VzX2pzKCkpCiAgICBwcmludCgi4pyTIGNvdXJzZXMuanMiKQogICAgd2l0aCBvcGVuKG9zLnBhdGguam9pbihQT1JUQUwsICJzcmMvZGF0YS9zdWJqZWN0cy5qcyIpLCAidyIsIGVuY29kaW5nPSJ1dGYtOCIpIGFzIGY6CiAgICAgICAgZi53cml0ZShnZW5fc3ViamVjdHNfanMoKSkKICAgIHByaW50KCLinJMgc3ViamVjdHMuanMiKQoKICAgICMgMy4g5Zu+54mHCiAgICBmb3IgYyBpbiBDT1VSU0VTOgogICAgICAgIHAgPSBvcy5wYXRoLmpvaW4oUE9SVEFMLCAicHVibGljL3Bob3RvL2NvdXJzZSIsIGYie2NbJ2lkJ106MDJkfS5qcGciKQogICAgICAgIG1ha2VfY292ZXIoYywgcCkKICAgIHByaW50KGYi4pyTIHtsZW4oQ09VUlNFUyl9IOW8oOivvueoi+WwgemdoiIpCiAgICBmb3IgdCBpbiBURUFDSEVSUzoKICAgICAgICBwID0gb3MucGF0aC5qb2luKFBPUlRBTCwgInB1YmxpYy9waG90by90ZWFjaGVyIiwgZiJ7dFswXTowMmR9LmpwZyIpCiAgICAgICAgbWFrZV9hdmF0YXIodCwgcCkKICAgIHByaW50KGYi4pyTIHtsZW4oVEVBQ0hFUlMpfSDlvKDorrLluIjlpLTlg48iKQoKICAgICMgNC4gU1FMCiAgICBzcWwgPSBnZW5fc3FsKCkKICAgIHdpdGggb3Blbihvcy5wYXRoLmpvaW4oU1RBR0UsICJzcWwiLCAibWFkX2VkdS5zcWwiKSwgInciLCBlbmNvZGluZz0idXRmLTgiKSBhcyBmOgogICAgICAgIGYud3JpdGUoc3FsKQogICAgcHJpbnQoZiLinJMgbWFkX2VkdS5zcWwgKHtsZW4oc3FsKX0g5a2X56ymKSIpCiAgICB3aXRoIG9wZW4oIi90bXAvbWFkX2VkdS5zcWwiLCAidyIsIGVuY29kaW5nPSJ1dGYtOCIpIGFzIGY6CiAgICAgICAgZi53cml0ZShzcWwpCiAgICBwcmludCgi4pyTIC90bXAvbWFkX2VkdS5zcWwiKQoKCmlmIF9fbmFtZV9fID09ICJfX21haW5fXyI6CiAgICBtYWluKCkK
+# -*- coding: utf-8 -*-
+"""MAD网课系统 — 资源生成器
+从 mad_data.py 统一数据源生成：
+  1. src/data/teachers.js、src/data/courses.js、src/data/subjects.js
+  2. 课程封面图 public/photo/course/*.jpg （PIL 绘制，天然无水印）
+  3. 讲师头像 public/photo/teacher/*.jpg （PIL 绘制，几何抽象 + 姓名首字）
+  4. mad_edu 建库 + 数据 SQL
+"""
+import os
+import sys
+import random
+import json
+import textwrap
+from PIL import Image, ImageDraw, ImageFont, ImageFilter
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from mad_data import TEACHERS, SUBJECTS, COURSES, BILI_START
+
+ROOT = "/Users/sang/Desktop/谷粒学院项目"
+PORTAL = os.path.join(ROOT, "workspace/frontend/mad-portal")
+STAGE = os.path.join(ROOT, "oss-staging/guli-academy")
+
+FONT_BOLD = "/System/Library/Fonts/STHeiti Medium.ttc"
+FONT_LIGHT = "/System/Library/Fonts/STHeiti Light.ttc"
+
+BRAND = (104, 203, 155)          # #68cb9b 品牌绿
+DARK = (4, 11, 27)               # #040b1b 深底
+
+# 分类主题色（主色, 副色）
+THEME = {
+    "金融投资": ((17, 40, 62), (46, 196, 182)),
+    "IT工程":   ((12, 26, 56), (86, 132, 255)),
+    "人工智能": ((36, 16, 66), (150, 96, 255)),
+}
+
+
+def font(path, size):
+    return ImageFont.truetype(path, size)
+
+
+def lerp(a, b, t):
+    return tuple(int(a[i] + (b[i] - a[i]) * t) for i in range(3))
+
+
+# ------------------------------------------------------------- 课程封面
+def make_cover(course, out_path):
+    W, H = 800, 450
+    base, accent = THEME[course["category"]]
+    img = Image.new("RGB", (W, H), base)
+    d = ImageDraw.Draw(img, "RGBA")
+
+    # 径向渐变底
+    for y in range(H):
+        t = y / H
+        row = lerp(lerp(base, DARK, 0.25), DARK, t * 0.75)
+        d.line([(0, y), (W, y)], fill=row)
+
+    rnd = random.Random(course["id"] * 977)
+
+    cat = course["category"]
+    if cat == "金融投资":
+        # K 线图
+        n = 26
+        for i in range(n):
+            x = 40 + i * (W - 80) / n
+            o = rnd.randint(60, 300)
+            c = o + rnd.randint(-70, 70)
+            top, bot = min(o, c), max(o, c)
+            col = (120, 235, 170) if c >= o else (235, 110, 120)
+            d.line([(x, top), (x, bot)], fill=col, width=4)
+            d.rectangle([x - 5, top, x + 5, bot], fill=col)
+        # 趋势线
+        pts = [(40 + i * (W - 80) / 22, 330 - i * 9 + rnd.randint(-18, 18)) for i in range(23)]
+        d.line(pts, fill=BRAND, width=3)
+    elif cat == "IT工程":
+        # 电路板网格
+        for i in range(0, W, 40):
+            d.line([(i, 0), (i, H)], fill=(255, 255, 255, 12), width=1)
+        for i in range(0, H, 40):
+            d.line([(0, i), (W, i)], fill=(255, 255, 255, 12), width=1)
+        # 连线节点
+        nodes = [(120 + rnd.randint(0, 560), 80 + rnd.randint(0, 260)) for _ in range(9)]
+        for a in range(len(nodes) - 1):
+            d.line([nodes[a], nodes[a + 1]], fill=accent + (150,), width=3)
+        for nx, ny in nodes:
+            d.ellipse([nx - 8, ny - 8, nx + 8, ny + 8], fill=accent)
+            d.ellipse([nx - 14, ny - 14, nx + 14, ny + 14], outline=accent + (90,), width=2)
+        # 右侧柱状
+        for i in range(5):
+            h = rnd.randint(40, 160)
+            d.rectangle([W - 150 + i * 26, H - 60 - h, W - 132 + i * 26, H - 60], fill=accent + (120,))
+    else:
+        # 神经网络
+        layers = [[(90, 120), (90, 230), (90, 340)],
+                  [(270, 80), (270, 170), (270, 260), (270, 350)],
+                  [(450, 120), (450, 230), (450, 340)],
+                  [(630, 190), (630, 300)]]
+        for li in range(len(layers) - 1):
+            for a in layers[li]:
+                for b in layers[li + 1]:
+                    d.line([a, b], fill=accent + (55,), width=1)
+        for li, layer in enumerate(layers):
+            for (x, y) in layer:
+                r = 20 - li * 2
+                d.ellipse([x - r, y - r, x + r, y + r], fill=accent + (220,))
+                d.ellipse([x - r - 8, y - r - 8, x + r + 8, y + r + 8], outline=accent + (80,), width=2)
+
+    # 顶部标签条
+    d.rectangle([0, 0, W, 6], fill=BRAND)
+    # 底部遮罩（按实际内容高度自适应，保证文字可读）
+    # 先计算标题行数
+    title = course["title"]
+    lines = textwrap.wrap(title, width=15)[:2]
+    title_block = 56 * len(lines) + 46 + 40      # 标题行高 + 标签 + meta
+    mask_top = H - title_block - 20
+    for y in range(max(0, mask_top), H):
+        a = int(215 * (y - mask_top) / max(1, (H - mask_top)))
+        d.line([(0, y), (W, y)], fill=DARK + (a,))
+
+    f_tag = font(FONT_BOLD, 24)
+    f_t1 = font(FONT_BOLD, 42)
+    f_meta = font(FONT_LIGHT, 20)
+
+    tag = f"{course['category']} · {course['level']}"
+    d.text((44, mask_top + 12), tag, font=f_tag, fill=BRAND)
+
+    # 标题
+    ty = mask_top + 48
+    for ln in lines:
+        d.text((44, ty), ln, font=f_t1, fill=(255, 255, 255))
+        ty += 54
+
+    # 来源标注
+    styp, sid, slabel = course["source"]
+    srcname = "YouTube 官方课程" if styp == "youtube" else "B 站正版合集"
+    d.text((44, H - 44), f"{srcname} · {len(course['chapters'])} 章 · {slabel[:30]}", font=f_meta, fill=(170, 190, 210))
+
+    img.save(out_path, "JPEG", quality=88, optimize=True)
+
+
+# ------------------------------------------------------------- 讲师头像
+def make_avatar(teacher, out_path):
+    S = 400
+    tid = teacher[0]
+    rnd = random.Random(tid * 31337)
+    # 按领域取色
+    if teacher[3] == "金融投资":
+        base, accent = (18, 46, 66), (72, 200, 168)
+    else:
+        base, accent = (24, 30, 66), (128, 122, 255)
+
+    img = Image.new("RGB", (S, S), base)
+    d = ImageDraw.Draw(img, "RGBA")
+    for y in range(S):
+        d.line([(0, y), (S, y)], fill=lerp(lerp(base, DARK, 0.2), DARK, y / S * 0.6))
+
+    # 抽象几何构成
+    for i in range(7):
+        r = rnd.randint(50, 190)
+        cx = rnd.randint(0, S)
+        cy = rnd.randint(0, S)
+        d.ellipse([cx - r, cy - r, cx + r, cy + r],
+                  outline=accent + (rnd.randint(30, 90),), width=rnd.randint(2, 6))
+    for i in range(5):
+        x1 = rnd.randint(0, S)
+        d.line([(x1, 0), (rnd.randint(0, S), S)], fill=accent + (40,), width=rnd.randint(2, 5))
+
+    # 底部姓名首字/姓氏
+    name = teacher[1]
+    initial = name[0]
+    d.ellipse([S / 2 - 88, S / 2 - 88, S / 2 + 88, S / 2 + 88], fill=(0, 0, 0, 120))
+    d.ellipse([S / 2 - 84, S / 2 - 84, S / 2 + 84, S / 2 + 84], outline=accent + (170,), width=4)
+    f_ini = font(FONT_BOLD, 120)
+    bbox = d.textbbox((0, 0), initial, font=f_ini)
+    d.text((S / 2 - (bbox[2] - bbox[0]) / 2 - bbox[0],
+            S / 2 - (bbox[3] - bbox[1]) / 2 - bbox[1]),
+           initial, font=f_ini, fill=(255, 255, 255))
+
+    img.save(out_path, "JPEG", quality=90, optimize=True)
+
+
+# ------------------------------------------------------------- JS 生成
+def js_str(s):
+    return json.dumps(s, ensure_ascii=False)
+
+
+def gen_teachers_js():
+    lines = [
+        "// MAD网课系统 · 讲师数据（金融投资 / IT工程 领域真实名师）",
+        "// 头像由 PIL 几何绘制生成（public/photo/teacher/NN.jpg），无任何第三方水印",
+        "export const teachers = [",
+    ]
+    for (tid, name, en, field, title, intro) in TEACHERS:
+        lines.append("  {")
+        lines.append(f"    id: {tid},")
+        lines.append(f"    name: {js_str(name)},")
+        lines.append(f"    enName: {js_str(en)},")
+        lines.append(f"    field: {js_str(field)},")
+        lines.append(f"    title: {js_str(title)},")
+        lines.append(f"    avatar: {js_str(f'/photo/teacher/{tid:02d}.jpg')},")
+        lines.append(f"    intro: {js_str(intro)}")
+        lines.append("  },")
+    lines.append("]")
+    lines.append("")
+    lines.append("export const getTeacher = (id) => teachers.find((t) => t.id === Number(id))")
+    lines.append("export const getTeachersByField = (field) => teachers.filter((t) => t.field === field)")
+    lines.append("export const teacherFields = [...new Set(teachers.map((t) => t.field))]")
+    return "\n".join(lines) + "\n"
+
+
+def gen_courses_js():
+    lines = [
+        "// MAD网课系统 · 课程数据（真实 YouTube / B 站 公开课）",
+        "// source: { type: 'youtube' | 'bilibili', playlistId | bvid, label }",
+        "// 全部播放源均已核验存在；章节标题按真实课程大纲整理。",
+        "import { subjectTree } from './subjects'",
+        "",
+        "export const courses = [",
+    ]
+    for c in COURSES:
+        styp, sid, slabel = c["source"]
+        lines.append("  {")
+        lines.append(f"    id: {c['id']},")
+        lines.append(f"    title: {js_str(c['title'])},")
+        lines.append(f"    cover: {js_str(f'/photo/course/{c['id']:02d}.jpg')},")
+        lines.append(f"    price: {js_str(c['price'])},")
+        lines.append(f"    studyCount: {c['studyCount']},")
+        lines.append(f"    category: {js_str(c['category'])},")
+        lines.append(f"    level: {js_str(c['level'])},")
+        lines.append(f"    teacherId: {c['teacherId']},")
+        lines.append("    source: {")
+        lines.append(f"      type: {js_str(styp)},")
+        if styp == "youtube":
+            lines.append(f"      playlistId: {js_str(sid)},")
+        else:
+            lines.append(f"      bvid: {js_str(sid)},")
+        lines.append(f"      label: {js_str(slabel)}")
+        lines.append("    },")
+        lines.append(f"    intro: {js_str(c['intro'])},")
+        lines.append("    chapters: [")
+        for (chname, vids) in c["chapters"]:
+            lines.append("      {")
+            lines.append(f"        name: {js_str(chname)},")
+            lines.append("        videos: [")
+            for v in vids:
+                lines.append(f"          {js_str(v)},")
+            lines.append("        ]")
+            lines.append("      },")
+        lines.append("    ]")
+        lines.append("  },")
+    lines.append("]")
+    lines.append("")
+    lines.append("export const categories = ['全部', ...Object.keys(subjectTree)]")
+    lines.append("export const levels = ['全部', ...new Set(courses.map((c) => c.level))]")
+    lines.append("")
+    lines.append("export const getCourse = (id) => courses.find((c) => c.id === Number(id))")
+    lines.append("export const getCoursesByTeacher = (teacherId) => courses.filter((c) => c.teacherId === Number(teacherId))")
+    lines.append("")
+    lines.append("// 课程来源外链")
+    lines.append("export function sourceUrl(course) {")
+    lines.append("  const s = course?.source")
+    lines.append("  if (!s) return ''")
+    lines.append("  return s.type === 'youtube'")
+    lines.append("    ? `https://www.youtube.com/playlist?list=${s.playlistId}`")
+    lines.append("    : `https://www.bilibili.com/video/${s.bvid}`")
+    lines.append("}")
+    return "\n".join(lines) + "\n"
+
+
+def gen_subjects_js():
+    lines = [
+        "// MAD网课系统 · 课程分类树（与数据库 edu_subject 对应）",
+        "export const subjectTree = {",
+    ]
+    for parent, children in SUBJECTS.items():
+        lines.append(f"  {js_str(parent)}: {json.dumps(children, ensure_ascii=False)},")
+    lines.append("}")
+    lines.append("")
+    lines.append("export const allSubjects = Object.entries(subjectTree).flatMap(([p, cs]) =>")
+    lines.append("  cs.map((c) => ({ parent: p, child: c }))")
+    lines.append(")")
+    return "\n".join(lines) + "\n"
+
+
+# ------------------------------------------------------------- SQL 生成
+def gen_sql():
+    out = []
+    out.append("-- =====================================================================")
+    out.append("-- MAD网课系统 · mad_edu 库初始化与数据脚本")
+    out.append("-- 讲师：金融投资 / IT工程 领域真实名师（14 位）")
+    out.append("-- 课程：16 门，全部来自真实 YouTube 播放列表 / B 站合集")
+    out.append("-- 用法：mysql -u mad -p mad_edu < mad_edu.sql")
+    out.append("-- =====================================================================")
+    out.append("")
+    out.append("DROP DATABASE IF EXISTS `mad_edu`;")
+    out.append("CREATE DATABASE `mad_edu` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;")
+    out.append("USE `mad_edu`;")
+    out.append("")
+
+    # 表结构
+    out.append("""CREATE TABLE `edu_teacher` (
+  `id` char(19) NOT NULL COMMENT '讲师ID',
+  `name` varchar(20) NOT NULL COMMENT '讲师姓名',
+  `intro` varchar(255) NOT NULL COMMENT '讲师资历,一句话说明讲师',
+  `career` text COMMENT '讲师简介',
+  `level` int(10) unsigned NOT NULL COMMENT '头衔 1高级讲师 2首席讲师',
+  `avatar` varchar(255) DEFAULT NULL COMMENT '讲师头像',
+  `sort` int(10) unsigned NOT NULL DEFAULT '0' COMMENT '排序',
+  `is_deleted` tinyint(1) unsigned NOT NULL DEFAULT '0' COMMENT '逻辑删除 1（true）已删除， 0（false）未删除',
+  `gmt_create` datetime NOT NULL COMMENT '创建时间',
+  `gmt_modified` datetime NOT NULL COMMENT '创建时间',
+  PRIMARY KEY (`id`),
+  KEY `idx_name` (`name`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 ROW_FORMAT=COMPACT COMMENT='讲师';
+
+CREATE TABLE `edu_subject` (
+  `id` char(19) NOT NULL COMMENT '课程类别ID',
+  `title` varchar(30) NOT NULL COMMENT '类别名称',
+  `parent_id` char(19) NOT NULL DEFAULT '0' COMMENT '父ID',
+  `sort` int(10) unsigned NOT NULL DEFAULT '0' COMMENT '排序字段',
+  `gmt_create` datetime NOT NULL COMMENT '创建时间',
+  `gmt_modified` datetime NOT NULL COMMENT '创建时间',
+  PRIMARY KEY (`id`),
+  KEY `idx_parent_id` (`parent_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 ROW_FORMAT=COMPACT COMMENT='课程科目';
+
+CREATE TABLE `edu_course` (
+  `id` char(19) NOT NULL COMMENT '课程ID',
+  `teacher_id` char(19) NOT NULL COMMENT '课程讲师ID',
+  `subject_id` char(19) NOT NULL COMMENT '课程专业ID',
+  `subject_parent_id` char(19) NOT NULL COMMENT '课程专业父级ID',
+  `title` varchar(100) NOT NULL COMMENT '课程标题',
+  `price` decimal(10,4) unsigned NOT NULL DEFAULT '0.0000' COMMENT '课程销售价格，设置为0则可免费观看',
+  `lesson_num` int(10) unsigned NOT NULL DEFAULT '0' COMMENT '总课时',
+  `cover` varchar(255) CHARACTER SET utf8 NOT NULL COMMENT '课程封面图片路径',
+  `buy_count` bigint(10) unsigned NOT NULL DEFAULT '0' COMMENT '销售数量',
+  `view_count` bigint(10) unsigned NOT NULL DEFAULT '0' COMMENT '浏览数量',
+  `version` bigint(20) unsigned NOT NULL DEFAULT '1' COMMENT '乐观锁',
+  `status` varchar(10) NOT NULL DEFAULT 'Draft' COMMENT '课程状态 Draft未发布  Normal已发布',
+  `gmt_create` datetime NOT NULL COMMENT '创建时间',
+  `gmt_modified` datetime NOT NULL COMMENT '创建时间',
+  PRIMARY KEY (`id`),
+  KEY `idx_title` (`title`),
+  KEY `idx_subject_id` (`subject_id`),
+  KEY `idx_teacher_id` (`teacher_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 ROW_FORMAT=COMPACT COMMENT='课程';
+
+CREATE TABLE `edu_course_description` (
+  `id` char(19) NOT NULL COMMENT '课程ID',
+  `description` text COMMENT '课程简介',
+  `gmt_create` datetime NOT NULL COMMENT '创建时间',
+  `gmt_modified` datetime NOT NULL COMMENT '创建时间',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COMMENT='课程简介';
+
+CREATE TABLE `edu_chapter` (
+  `id` char(19) NOT NULL COMMENT '章节ID',
+  `course_id` char(19) NOT NULL COMMENT '课程ID',
+  `title` varchar(100) NOT NULL COMMENT '章节名称',
+  `sort` int(10) unsigned NOT NULL DEFAULT '0' COMMENT '显示排序',
+  `gmt_create` datetime NOT NULL COMMENT '创建时间',
+  `gmt_modified` datetime NOT NULL COMMENT '创建时间',
+  PRIMARY KEY (`id`),
+  KEY `idx_course_id` (`course_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 ROW_FORMAT=COMPACT COMMENT='章节';
+
+CREATE TABLE `edu_video` (
+  `id` char(19) NOT NULL COMMENT '视频ID',
+  `course_id` char(19) NOT NULL COMMENT '课程ID',
+  `chapter_id` char(19) NOT NULL COMMENT '章节ID',
+  `title` varchar(150) NOT NULL COMMENT '节点名称',
+  `video_source_id` varchar(100) DEFAULT NULL COMMENT '云端视频资源',
+  `video_original_name` varchar(100) DEFAULT NULL COMMENT '原始文件名称',
+  `sort` int(10) unsigned NOT NULL DEFAULT '0' COMMENT '排序字段',
+  `play_count` bigint(20) unsigned NOT NULL DEFAULT '0' COMMENT '播放次数',
+  `is_free` tinyint(1) unsigned NOT NULL DEFAULT '0' COMMENT '是否可以试听：0收费 1免费',
+  `duration` float NOT NULL DEFAULT '0' COMMENT '视频时长（秒）',
+  `status` varchar(20) NOT NULL DEFAULT '' COMMENT '视频状态',
+  `size` bigint(20) unsigned NOT NULL DEFAULT '0' COMMENT '视频源文件大小（字节）',
+  `version` bigint(20) unsigned NOT NULL DEFAULT '1' COMMENT '乐观锁',
+  `gmt_create` datetime NOT NULL COMMENT '创建时间',
+  `gmt_modified` datetime NOT NULL COMMENT '创建时间',
+  PRIMARY KEY (`id`),
+  KEY `idx_course_id` (`course_id`),
+  KEY `idx_chapter_id` (`chapter_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 ROW_FORMAT=COMPACT COMMENT='视频';""")
+    out.append("")
+
+    NOW = "'2026-10-22 10:00:00'"
+
+    # 分类
+    out.append("-- ---------------- 课程分类 ----------------")
+    sid_map = {}
+    sid = 1000
+    rows = []
+    for pi, (parent, children) in enumerate(SUBJECTS.items(), start=1):
+        pid = str(sid); sid += 1
+        sid_map[parent] = pid
+        rows.append(f"('{pid}','{parent}','0',{pi},{NOW},{NOW})")
+        for ci, ch in enumerate(children, start=1):
+            cid = str(sid); sid += 1
+            sid_map[(parent, ch)] = cid
+            rows.append(f"('{cid}','{ch}','{pid}',{ci},{NOW},{NOW})")
+    out.append("INSERT INTO `edu_subject`(`id`,`title`,`parent_id`,`sort`,`gmt_create`,`gmt_modified`) VALUES")
+    out.append(",\n".join(rows) + ";")
+    out.append("")
+
+    # 讲师
+    out.append("-- ---------------- 讲师（金融投资 / IT工程 真实名师）----------------")
+    trows = []
+    for (tid, name, en, field, title, intro) in TEACHERS:
+        short = f"{en}（{field}）· {title}"
+        trows.append(
+            f"('{tid}','{name}','{short}','{intro}',"
+            f"{2 if tid in (1,2,4,9) else 1},"
+            f"'/photo/teacher/{tid:02d}.jpg',{tid},0,{NOW},{NOW})")
+    out.append("INSERT INTO `edu_teacher`(`id`,`name`,`intro`,`career`,`level`,`avatar`,`sort`,`is_deleted`,`gmt_create`,`gmt_modified`) VALUES")
+    out.append(",\n".join(trows) + ";")
+    out.append("")
+
+    # 课程
+    out.append("-- ---------------- 课程 ----------------")
+    crows = []
+    drows = []
+    for c in COURSES:
+        # 课程 ID 与前端 courses.js 的 id 保持一致（1..16），
+        # 保证门户学习中心 /edu/chapter/nested-list/{courseId} 可直接命中
+        cid = str(c["id"])
+        parent = c["category"]
+        child = c["level"]
+        pid = sid_map[parent]
+        sid2 = sid_map.get((parent, child), pid)
+        total_videos = sum(len(v) for _, v in c["chapters"])
+        cover = f"/photo/course/{c['id']:02d}.jpg"
+        crows.append(
+            f"('{cid}','{c['teacherId']}','{sid2}','{pid}','{c['title']}',0.0000,{total_videos},"
+            f"'{cover}',{c['studyCount']},{c['studyCount'] * 3},1,'Normal',{NOW},{NOW})")
+        desc = c["intro"] + "<br/><br/>课程来源：" + c["source"][2]
+        drows.append(f"('{cid}','{desc}',{NOW},{NOW})")
+    out.append("INSERT INTO `edu_course`(`id`,`teacher_id`,`subject_id`,`subject_parent_id`,`title`,`price`,`lesson_num`,`cover`,`buy_count`,`view_count`,`version`,`status`,`gmt_create`,`gmt_modified`) VALUES")
+    out.append(",\n".join(crows) + ";")
+    out.append("")
+    out.append("-- ---------------- 课程简介 ----------------")
+    out.append("INSERT INTO `edu_course_description`(`id`,`description`,`gmt_create`,`gmt_modified`) VALUES")
+    out.append(",\n".join(drows) + ";")
+    out.append("")
+
+    # 章节 + 视频
+    out.append("-- ---------------- 章节 ----------------")
+    chrows = []
+    vrows = []
+    vid = 1
+    for c in COURSES:
+        cid = str(c["id"])
+        for ci, (chname, vids) in enumerate(c["chapters"], start=1):
+            chid = str(vid); vid += 1
+            chrows.append(f"('{chid}','{cid}','{chname}',{ci},{NOW},{NOW})")
+            for vi, vtitle in enumerate(vids, start=1):
+                v_id = str(vid); vid += 1
+                # 视频来源：YouTube 播放列表序号 或 B 站分P页码
+                if c["source"][0] == "youtube":
+                    src = f"YT:{c['source'][1]}"
+                else:
+                    src = f"BI:{c['source'][1]}"
+                vrows.append(
+                    f"('{v_id}','{cid}','{chid}','{vtitle}','{src}',NULL,{vi},0,"
+                    f"{1 if vi == 1 else 0},0,'Normal',0,1,{NOW},{NOW})")
+    out.append("INSERT INTO `edu_chapter`(`id`,`course_id`,`title`,`sort`,`gmt_create`,`gmt_modified`) VALUES")
+    out.append(",\n".join(chrows) + ";")
+    out.append("")
+    out.append("-- ---------------- 视频节点 ----------------")
+    out.append("INSERT INTO `edu_video`(`id`,`course_id`,`chapter_id`,`title`,`video_source_id`,`video_original_name`,`sort`,`play_count`,`is_free`,`duration`,`status`,`size`,`version`,`gmt_create`,`gmt_modified`) VALUES")
+    out.append(",\n".join(vrows) + ";")
+    out.append("")
+
+    out.append("-- =====================================================================")
+    out.append("-- 校验查询")
+    out.append("-- SELECT t.name, COUNT(c.id) AS 课程数 FROM edu_teacher t")
+    out.append("--   LEFT JOIN edu_course c ON c.teacher_id = t.id GROUP BY t.id, t.name;")
+    out.append("-- =====================================================================")
+    return "\n".join(out) + "\n"
+
+
+# ------------------------------------------------------------- 主流程
+def main():
+    # 1. 目录准备
+    for d in [os.path.join(PORTAL, "src/data"),
+              os.path.join(PORTAL, "public/photo/course"),
+              os.path.join(PORTAL, "public/photo/teacher"),
+              os.path.join(STAGE, "sql")]:
+        os.makedirs(d, exist_ok=True)
+
+    # 2. JS 数据
+    with open(os.path.join(PORTAL, "src/data/teachers.js"), "w", encoding="utf-8") as f:
+        f.write(gen_teachers_js())
+    print("✓ teachers.js")
+    with open(os.path.join(PORTAL, "src/data/courses.js"), "w", encoding="utf-8") as f:
+        f.write(gen_courses_js())
+    print("✓ courses.js")
+    with open(os.path.join(PORTAL, "src/data/subjects.js"), "w", encoding="utf-8") as f:
+        f.write(gen_subjects_js())
+    print("✓ subjects.js")
+
+    # 3. 图片
+    for c in COURSES:
+        p = os.path.join(PORTAL, "public/photo/course", f"{c['id']:02d}.jpg")
+        make_cover(c, p)
+    print(f"✓ {len(COURSES)} 张课程封面")
+    for t in TEACHERS:
+        p = os.path.join(PORTAL, "public/photo/teacher", f"{t[0]:02d}.jpg")
+        make_avatar(t, p)
+    print(f"✓ {len(TEACHERS)} 张讲师头像")
+
+    # 4. SQL
+    sql = gen_sql()
+    with open(os.path.join(STAGE, "sql", "mad_edu.sql"), "w", encoding="utf-8") as f:
+        f.write(sql)
+    print(f"✓ mad_edu.sql ({len(sql)} 字符)")
+    with open("/tmp/mad_edu.sql", "w", encoding="utf-8") as f:
+        f.write(sql)
+    print("✓ /tmp/mad_edu.sql")
+
+
+if __name__ == "__main__":
+    main()

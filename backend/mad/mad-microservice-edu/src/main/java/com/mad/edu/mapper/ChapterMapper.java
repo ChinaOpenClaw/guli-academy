@@ -1,1 +1,18 @@
-cGFja2FnZSBjb20ubWFkLmVkdS5tYXBwZXI7CgppbXBvcnQgY29tLmJhb21pZG91Lm15YmF0aXNwbHVzLmNvcmUubWFwcGVyLkJhc2VNYXBwZXI7CmltcG9ydCBjb20ubWFkLmVkdS5lbnRpdHkuQ2hhcHRlcjsKaW1wb3J0IG9yZy5zcHJpbmdmcmFtZXdvcmsuc3RlcmVvdHlwZS5SZXBvc2l0b3J5OwoKLyoqCiAqIDxwPgogKiDor77nqIsgTWFwcGVyIOaOpeWPowogKiA8L3A+CiAqCiAqIEBhdXRob3IgSGVsZW4KICogQHNpbmNlIDIwMTktMDYtMjQKICovCkBSZXBvc2l0b3J5CnB1YmxpYyBpbnRlcmZhY2UgQ2hhcHRlck1hcHBlciBleHRlbmRzIEJhc2VNYXBwZXI8Q2hhcHRlcj4gewoKfQo=
+package com.mad.edu.mapper;
+
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.mad.edu.entity.Chapter;
+import org.springframework.stereotype.Repository;
+
+/**
+ * <p>
+ * 课程 Mapper 接口
+ * </p>
+ *
+ * @author Helen
+ * @since 2019-06-24
+ */
+@Repository
+public interface ChapterMapper extends BaseMapper<Chapter> {
+
+}

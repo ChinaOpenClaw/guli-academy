@@ -1,1 +1,41 @@
-aW1wb3J0IHJvdXRlciBmcm9tICcuL3JvdXRlcicKaW1wb3J0IHN0b3JlIGZyb20gJy4vc3RvcmUnCmltcG9ydCBOUHJvZ3Jlc3MgZnJvbSAnbnByb2dyZXNzJyAvLyBQcm9ncmVzcyDov5vluqbmnaEKaW1wb3J0ICducHJvZ3Jlc3MvbnByb2dyZXNzLmNzcycvLyBQcm9ncmVzcyDov5vluqbmnaHmoLflvI8KaW1wb3J0IHsgTWVzc2FnZSB9IGZyb20gJ2VsZW1lbnQtdWknCmltcG9ydCB7IGdldFRva2VuIH0gZnJvbSAnQC91dGlscy9hdXRoJyAvLyDpqozmnYMKCmNvbnN0IHdoaXRlTGlzdCA9IFsnL2xvZ2luJ10gLy8g5LiN6YeN5a6a5ZCR55m95ZCN5Y2VCnJvdXRlci5iZWZvcmVFYWNoKCh0bywgZnJvbSwgbmV4dCkgPT4gewogIE5Qcm9ncmVzcy5zdGFydCgpCiAgaWYgKGdldFRva2VuKCkpIHsKICAgIGlmICh0by5wYXRoID09PSAnL2xvZ2luJykgewogICAgICBuZXh0KHsgcGF0aDogJy8nIH0pCiAgICAgIE5Qcm9ncmVzcy5kb25lKCkgLy8gaWYgY3VycmVudCBwYWdlIGlzIGRhc2hib2FyZCB3aWxsIG5vdCB0cmlnZ2VyCWFmdGVyRWFjaCBob29rLCBzbyBtYW51YWxseSBoYW5kbGUgaXQKICAgIH0gZWxzZSB7CiAgICAgIGlmIChzdG9yZS5nZXR0ZXJzLnJvbGVzLmxlbmd0aCA9PT0gMCkgewogICAgICAgIHN0b3JlLmRpc3BhdGNoKCdHZXRJbmZvJykudGhlbihyZXMgPT4geyAvLyDmi4nlj5bnlKjmiLfkv6Hmga8KICAgICAgICAgIG5leHQoKQogICAgICAgIH0pLmNhdGNoKChlcnIpID0+IHsKICAgICAgICAgIHN0b3JlLmRpc3BhdGNoKCdGZWRMb2dPdXQnKS50aGVuKCgpID0+IHsKICAgICAgICAgICAgTWVzc2FnZS5lcnJvcihlcnIgfHwgJ1ZlcmlmaWNhdGlvbiBmYWlsZWQsIHBsZWFzZSBsb2dpbiBhZ2FpbicpCiAgICAgICAgICAgIG5leHQoeyBwYXRoOiAnLycgfSkKICAgICAgICAgIH0pCiAgICAgICAgfSkKICAgICAgfSBlbHNlIHsKICAgICAgICBuZXh0KCkKICAgICAgfQogICAgfQogIH0gZWxzZSB7CiAgICBpZiAod2hpdGVMaXN0LmluZGV4T2YodG8ucGF0aCkgIT09IC0xKSB7CiAgICAgIG5leHQoKQogICAgfSBlbHNlIHsKICAgICAgbmV4dChgL2xvZ2luP3JlZGlyZWN0PSR7dG8ucGF0aH1gKSAvLyDlkKbliJnlhajpg6jph43lrprlkJHliLDnmbvlvZXpobUKICAgICAgTlByb2dyZXNzLmRvbmUoKQogICAgfQogIH0KfSkKCnJvdXRlci5hZnRlckVhY2goKCkgPT4gewogIE5Qcm9ncmVzcy5kb25lKCkgLy8g57uT5p2fUHJvZ3Jlc3MKfSkK
+import router from './router'
+import store from './store'
+import NProgress from 'nprogress' // Progress 进度条
+import 'nprogress/nprogress.css'// Progress 进度条样式
+import { Message } from 'element-ui'
+import { getToken } from '@/utils/auth' // 验权
+
+const whiteList = ['/login'] // 不重定向白名单
+router.beforeEach((to, from, next) => {
+  NProgress.start()
+  if (getToken()) {
+    if (to.path === '/login') {
+      next({ path: '/' })
+      NProgress.done() // if current page is dashboard will not trigger	afterEach hook, so manually handle it
+    } else {
+      if (store.getters.roles.length === 0) {
+        store.dispatch('GetInfo').then(res => { // 拉取用户信息
+          next()
+        }).catch((err) => {
+          store.dispatch('FedLogOut').then(() => {
+            Message.error(err || 'Verification failed, please login again')
+            next({ path: '/' })
+          })
+        })
+      } else {
+        next()
+      }
+    }
+  } else {
+    if (whiteList.indexOf(to.path) !== -1) {
+      next()
+    } else {
+      next(`/login?redirect=${to.path}`) // 否则全部重定向到登录页
+      NProgress.done()
+    }
+  }
+})
+
+router.afterEach(() => {
+  NProgress.done() // 结束Progress
+})

@@ -1,1 +1,85 @@
-PHRlbXBsYXRlPgogIDxkaXYgY2xhc3M9ImNvbnRhaW5lciBtdDIwIiB2LWlmPSJjb3Vyc2UiPgogICAgPCEtLSDor77nqIvlpLQgLS0+CiAgICA8c2VjdGlvbiBjbGFzcz0iY291cnNlLWRldGFpbC1oZXJvIj4KICAgICAgPGRpdiBjbGFzcz0iY2QtY292ZXIiPjxpbWcgOnNyYz0iY291cnNlLmNvdmVyIiA6YWx0PSJjb3Vyc2UudGl0bGUiIC8+PC9kaXY+CiAgICAgIDxkaXYgY2xhc3M9ImNkLWluZm8iPgogICAgICAgIDxoMT57eyBjb3Vyc2UudGl0bGUgfX08L2gxPgogICAgICAgIDxwIGNsYXNzPSJjZC1saW5lIj7liIbnsbvvvJp7eyBjb3Vyc2UuY2F0ZWdvcnkgfX0gwrcg6Zq+5bqm77yae3sgY291cnNlLmxldmVsIH19PC9wPgogICAgICAgIDxwIGNsYXNzPSJjZC1saW5lIj7orrLluIjvvJoKICAgICAgICAgIDxyb3V0ZXItbGluayB2LWlmPSJ0ZWFjaGVyIiA6dG89ImAvdGVhY2hlcnMvJHt0ZWFjaGVyLmlkfWAiIGNsYXNzPSJjLW1hc3RlciI+e3sgdGVhY2hlci5uYW1lIH19PC9yb3V0ZXItbGluaz4KICAgICAgICAgIDxzcGFuIHYtZWxzZT7igJQ8L3NwYW4+CiAgICAgICAgPC9wPgogICAgICAgIDxwIGNsYXNzPSJjZC1saW5lIj57eyBjb3Vyc2Uuc3R1ZHlDb3VudCB9fSDkurrlnKjlraY8L3A+CiAgICAgICAgPHAgY2xhc3M9ImNkLWxpbmUiPuivvueoi+adpea6kO+8mnt7IGNvdXJzZS5zb3VyY2U/LmxhYmVsIHx8ICfigJQnIH19PC9wPgogICAgICAgIDxkaXYgY2xhc3M9ImNkLXByaWNlIj57eyBjb3Vyc2UucHJpY2UgfX08L2Rpdj4KICAgICAgICA8cCBjbGFzcz0iY2QtaW50cm8iPnt7IGNvdXJzZS5pbnRybyB9fTwvcD4KICAgICAgICA8ZGl2IGNsYXNzPSJjZC1hY3Rpb25zIj4KICAgICAgICAgIDxidXR0b24gY2xhc3M9ImNvbW0tYnRuIGMtYnRuLTEiIEBjbGljaz0ic3RhcnQiPueri+WNs+W8gOWni+WtpuS5oDwvYnV0dG9uPgogICAgICAgICAgPGEgdi1pZj0ic291cmNlVXJsIiA6aHJlZj0ic291cmNlVXJsIiB0YXJnZXQ9Il9ibGFuayIgcmVsPSJub29wZW5lciIgY2xhc3M9ImNvbW0tYnRuIGMtYnRuLTMiPnt7IHNvdXJjZUxhYmVsIH19IOKGlzwvYT4KICAgICAgICAgIDxyb3V0ZXItbGluayB2LWlmPSJjb3Vyc2UuY2F0ZWdvcnkgPT09ICfkurrlt6Xmmbrog70nIiB0bz0iL2FpLWNhc2VzIiBjbGFzcz0iY29tbS1idG4gYy1idG4tMiI+QUkg55+l6K+G5qGI5L6LIOKGlzwvcm91dGVyLWxpbms+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvZGl2PgogICAgPC9zZWN0aW9uPgoKICAgIDwhLS0g56ug6IqCIC0tPgogICAgPHNlY3Rpb24gY2xhc3M9Im10NDAiPgogICAgICA8U2VjdGlvblRpdGxlIHRpdGxlPSLor77nqIvnm67lvZUiIC8+CiAgICAgIDxkaXYgY2xhc3M9ImNoYXB0ZXItbGlzdCI+CiAgICAgICAgPGRpdiBjbGFzcz0iY2hhcHRlci1pdGVtIiB2LWZvcj0iKGNoLCBpKSBpbiBjb3Vyc2UuY2hhcHRlcnMiIDprZXk9ImkiPgogICAgICAgICAgPGRpdiBjbGFzcz0iY2gtdGl0bGUiPnt7IGNoLm5hbWUgfX08L2Rpdj4KICAgICAgICAgIDxkaXYgY2xhc3M9ImNoLXZpZGVvIiB2LWZvcj0iKHYsIGopIGluIGNoLnZpZGVvcyIgOmtleT0iaiI+4pa3IHt7IHYgfX08L2Rpdj4KICAgICAgICA8L2Rpdj4KICAgICAgPC9kaXY+CiAgICA8L3NlY3Rpb24+CgogICAgPCEtLSDnm7jlhbPor77nqIsgLS0+CiAgICA8c2VjdGlvbiBjbGFzcz0ibXQ0MCIgdi1pZj0icmVsYXRlZC5sZW5ndGgiPgogICAgICA8U2VjdGlvblRpdGxlIHRpdGxlPSLnm7jlhbPor77nqIsiIC8+CiAgICAgIDxkaXYgY2xhc3M9ImNvbW0tY291cnNlLWxpc3QiPgogICAgICAgIDx1bD4KICAgICAgICAgIDxDb3Vyc2VDYXJkIHYtZm9yPSJjIGluIHJlbGF0ZWQiIDprZXk9ImMuaWQiIDpjb3Vyc2U9ImMiIC8+CiAgICAgICAgPC91bD4KICAgICAgPC9kaXY+CiAgICA8L3NlY3Rpb24+CiAgPC9kaXY+CiAgPGRpdiBjbGFzcz0iZW1wdHkgY29udGFpbmVyIiB2LWVsc2U+6K++56iL5LiN5a2Y5Zyo5oiW5bey5LiL5p6244CCPC9kaXY+CjwvdGVtcGxhdGU+Cgo8c2NyaXB0IHNldHVwPgppbXBvcnQgeyBjb21wdXRlZCB9IGZyb20gJ3Z1ZScKaW1wb3J0IHsgdXNlUm91dGUsIHVzZVJvdXRlciB9IGZyb20gJ3Z1ZS1yb3V0ZXInCmltcG9ydCB7IHVzZUF1dGggfSBmcm9tICdAL2NvbXBvc2FibGVzL3VzZUF1dGgnCmltcG9ydCBTZWN0aW9uVGl0bGUgZnJvbSAnQC9jb21wb25lbnRzL1NlY3Rpb25UaXRsZS52dWUnCmltcG9ydCBDb3Vyc2VDYXJkIGZyb20gJ0AvY29tcG9uZW50cy9Db3Vyc2VDYXJkLnZ1ZScKaW1wb3J0IHsgZ2V0Q291cnNlLCBnZXRDb3Vyc2VzQnlUZWFjaGVyLCBjb3Vyc2VzIH0gZnJvbSAnQC9kYXRhL2NvdXJzZXMnCmltcG9ydCB7IGdldFRlYWNoZXIgfSBmcm9tICdAL2RhdGEvdGVhY2hlcnMnCmltcG9ydCB7IHNvdXJjZVBhZ2VVcmwgfSBmcm9tICdAL2FwaS9sZWFybicKCmNvbnN0IHJvdXRlID0gdXNlUm91dGUoKQpjb25zdCByb3V0ZXIgPSB1c2VSb3V0ZXIoKQpjb25zdCB7IGlzTG9naW4gfSA9IHVzZUF1dGgoKQpjb25zdCBjb3Vyc2UgPSBjb21wdXRlZCgoKSA9PiBnZXRDb3Vyc2Uocm91dGUucGFyYW1zLmlkKSkKY29uc3QgdGVhY2hlciA9IGNvbXB1dGVkKCgpID0+IChjb3Vyc2UudmFsdWUgPyBnZXRUZWFjaGVyKGNvdXJzZS52YWx1ZS50ZWFjaGVySWQpIDogbnVsbCkpCmNvbnN0IHNvdXJjZVVybCA9IGNvbXB1dGVkKCgpID0+IHNvdXJjZVBhZ2VVcmwoY291cnNlLnZhbHVlKSkKY29uc3Qgc291cmNlTGFiZWwgPSBjb21wdXRlZCgoKSA9PgogIGNvdXJzZS52YWx1ZT8uc291cmNlPy50eXBlID09PSAneW91dHViZScgPyAnWW91VHViZSDljp/or74nIDogJ0Ig56uZ5q2j54mIJwopCmNvbnN0IHJlbGF0ZWQgPSBjb21wdXRlZCgoKSA9PiB7CiAgaWYgKCFjb3Vyc2UudmFsdWUpIHJldHVybiBbXQogIHJldHVybiBjb3Vyc2VzLmZpbHRlcigoYykgPT4gYy5jYXRlZ29yeSA9PT0gY291cnNlLnZhbHVlLmNhdGVnb3J5ICYmIGMuaWQgIT09IGNvdXJzZS52YWx1ZS5pZCkuc2xpY2UoMCwgNCkKfSkKCi8vIOi/m+WFpeWtpuS5oOS4reW/g++8muacqueZu+W9leWFiOWOu+eZu+W9le+8iOW4puWbnui3s+WcsOWdgO+8ie+8jOW3sueZu+W9leebtOaOpei/mwpmdW5jdGlvbiBzdGFydCgpIHsKICBpZiAoIWlzTG9naW4udmFsdWUpIHsKICAgIHJvdXRlci5wdXNoKHsgcGF0aDogJy9sb2dpbicsIHF1ZXJ5OiB7IHJlZGlyZWN0OiBgL2xlYXJuLyR7Y291cnNlLnZhbHVlLmlkfWAgfSB9KQogIH0gZWxzZSB7CiAgICByb3V0ZXIucHVzaChgL2xlYXJuLyR7Y291cnNlLnZhbHVlLmlkfWApCiAgfQp9Cjwvc2NyaXB0PgoKPHN0eWxlIHNjb3BlZD4KLmNkLWFjdGlvbnMgeyBkaXNwbGF5OiBmbGV4OyBnYXA6IDEycHg7IGZsZXgtd3JhcDogd3JhcDsgbWFyZ2luLXRvcDogMThweDsgfQo8L3N0eWxlPgo=
+<template>
+  <div class="container mt20" v-if="course">
+    <!-- 课程头 -->
+    <section class="course-detail-hero">
+      <div class="cd-cover"><img :src="course.cover" :alt="course.title" /></div>
+      <div class="cd-info">
+        <h1>{{ course.title }}</h1>
+        <p class="cd-line">分类：{{ course.category }} · 难度：{{ course.level }}</p>
+        <p class="cd-line">讲师：
+          <router-link v-if="teacher" :to="`/teachers/${teacher.id}`" class="c-master">{{ teacher.name }}</router-link>
+          <span v-else>—</span>
+        </p>
+        <p class="cd-line">{{ course.studyCount }} 人在学</p>
+        <p class="cd-line">课程来源：{{ course.source?.label || '—' }}</p>
+        <div class="cd-price">{{ course.price }}</div>
+        <p class="cd-intro">{{ course.intro }}</p>
+        <div class="cd-actions">
+          <button class="comm-btn c-btn-1" @click="start">立即开始学习</button>
+          <a v-if="sourceUrl" :href="sourceUrl" target="_blank" rel="noopener" class="comm-btn c-btn-3">{{ sourceLabel }} ↗</a>
+          <router-link v-if="course.category === '人工智能'" to="/ai-cases" class="comm-btn c-btn-2">AI 知识案例 ↗</router-link>
+        </div>
+      </div>
+    </section>
+
+    <!-- 章节 -->
+    <section class="mt40">
+      <SectionTitle title="课程目录" />
+      <div class="chapter-list">
+        <div class="chapter-item" v-for="(ch, i) in course.chapters" :key="i">
+          <div class="ch-title">{{ ch.name }}</div>
+          <div class="ch-video" v-for="(v, j) in ch.videos" :key="j">▷ {{ v }}</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 相关课程 -->
+    <section class="mt40" v-if="related.length">
+      <SectionTitle title="相关课程" />
+      <div class="comm-course-list">
+        <ul>
+          <CourseCard v-for="c in related" :key="c.id" :course="c" />
+        </ul>
+      </div>
+    </section>
+  </div>
+  <div class="empty container" v-else>课程不存在或已下架。</div>
+</template>
+
+<script setup>
+import { computed } from 'vue'
+import { useRoute, useRouter } from 'vue-router'
+import { useAuth } from '@/composables/useAuth'
+import SectionTitle from '@/components/SectionTitle.vue'
+import CourseCard from '@/components/CourseCard.vue'
+import { getCourse, getCoursesByTeacher, courses } from '@/data/courses'
+import { getTeacher } from '@/data/teachers'
+import { sourcePageUrl } from '@/api/learn'
+
+const route = useRoute()
+const router = useRouter()
+const { isLogin } = useAuth()
+const course = computed(() => getCourse(route.params.id))
+const teacher = computed(() => (course.value ? getTeacher(course.value.teacherId) : null))
+const sourceUrl = computed(() => sourcePageUrl(course.value))
+const sourceLabel = computed(() =>
+  course.value?.source?.type === 'youtube' ? 'YouTube 原课' : 'B 站正版'
+)
+const related = computed(() => {
+  if (!course.value) return []
+  return courses.filter((c) => c.category === course.value.category && c.id !== course.value.id).slice(0, 4)
+})
+
+// 进入学习中心：未登录先去登录（带回跳地址），已登录直接进
+function start() {
+  if (!isLogin.value) {
+    router.push({ path: '/login', query: { redirect: `/learn/${course.value.id}` } })
+  } else {
+    router.push(`/learn/${course.value.id}`)
+  }
+}
+</script>
+
+<style scoped>
+.cd-actions { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 18px; }
+</style>

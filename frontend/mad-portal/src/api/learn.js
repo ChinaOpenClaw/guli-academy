@@ -1,1 +1,129 @@
-Ly8g5a2m5Lmg5Lit5b+DIC0g5ZCO56uv5o6l5YWl5bGCCi8vIOecn+WunuaVsOaNrua6kO+8mmVkdSDlvq7mnI3liqEgR0VUIC9lZHUvY2hhcHRlci9uZXN0ZWQtbGlzdC97Y291cnNlSWR9Ci8vIOi/lOWbniBNYWQg57uf5LiA57uT5p6cIFI6IHsgY29kZSwgc3VjY2VzcywgbWVzc2FnZSwgZGF0YTogeyBpdGVtczogW0NoYXB0ZXJWb10gfSB9Ci8vICAgQ2hhcHRlclZvOiB7IGlkLCB0aXRsZSwgY2hpbGRyZW46IFtWaWRlb1ZvXSB9Ci8vICAgVmlkZW9WbzogICB7IGlkLCB0aXRsZSwgZnJlZShCb29sZWFuKSwgdmlkZW9Tb3VyY2VJZCB9Ci8vIOWJjeerr+mXqOaIt+mAmui/hyB2aXRlIHByb3h5ICcvZWR1IC0+IDgxMTAnIOiwg+eUqO+8jOaXoOmcgOi3qOWfn+OAggovLwovLyDmkq3mlL7mupDnrZbnlaXvvIjmjInor77nqIsgc291cmNlIOWtl+auteiHquWKqOi3r+eUse+8ie+8mgovLyAgIGJpbGliaWxpIC0+IGh0dHBzOi8vcGxheWVyLmJpbGliaWxpLmNvbS9wbGF5ZXIuaHRtbD9idmlkPXh4eCZwYWdlPU4KLy8gICB5b3V0dWJlICAtPiBodHRwczovL3d3dy55b3V0dWJlLmNvbS9lbWJlZC92aWRlb3Nlcmllcz9saXN0PVBMeHh4JmluZGV4PU4KLy8gICBtcDQgICAgICAtPiDmvJTnpLrnm7Tpk77vvIjnlJ/kuqfotbDpmL/ph4zkupEgVk9EIHBsYXlBdXRo77yJCgpjb25zdCBFRFVfQkFTRSA9ICcvZWR1JwoKLy8g5ryU56S655So5pKt5pS+5rqQ77ya55yf5a6e546v5aKD5bqU5ou/IHZpZGVvLnZpZGVvU291cmNlSWQg5ZCR6Zi/6YeM5LqRIFZPRCDmjaLlj5YgcGxheUF1dGgg5ZCO55SoIEFsaXBsYXllciDmkq3mlL4KY29uc3QgREVNT19WSURFT1MgPSBbCiAgJ2h0dHBzOi8vY29tbW9uZGF0YXN0b3JhZ2UuZ29vZ2xlYXBpcy5jb20vZ3R2LXZpZGVvcy1idWNrZXQvc2FtcGxlL0JpZ0J1Y2tCdW5ueS5tcDQnLAogICdodHRwczovL2NvbW1vbmRhdGFzdG9yYWdlLmdvb2dsZWFwaXMuY29tL2d0di12aWRlb3MtYnVja2V0L3NhbXBsZS9FbGVwaGFudHNEcmVhbS5tcDQnLAogICdodHRwczovL2NvbW1vbmRhdGFzdG9yYWdlLmdvb2dsZWFwaXMuY29tL2d0di12aWRlb3MtYnVja2V0L3NhbXBsZS9Gb3JCaWdnZXJCbGF6ZXMubXA0JywKICAnaHR0cHM6Ly9jb21tb25kYXRhc3RvcmFnZS5nb29nbGVhcGlzLmNvbS9ndHYtdmlkZW9zLWJ1Y2tldC9zYW1wbGUvRm9yQmlnZ2VyRXNjYXBlcy5tcDQnLAogICdodHRwczovL2NvbW1vbmRhdGFzdG9yYWdlLmdvb2dsZWFwaXMuY29tL2d0di12aWRlb3MtYnVja2V0L3NhbXBsZS9Gb3JCaWdnZXJGdW4ubXA0JwpdCgovLyDop6PmnpDmkq3mlL7lnLDlnYDvvIjnlJ/kuqfmjqXlhaXngrnvvJp2aWRlb1NvdXJjZUlkIC0+IFZPRCBHZXRWaWRlb1BsYXlBdXRoIC0+IEFsaXBsYXllcu+8iQpleHBvcnQgZnVuY3Rpb24gcmVzb2x2ZVBsYXlVcmwodmlkZW8sIGluZGV4ID0gMCkgewogIGlmICh2aWRlbyAmJiB2aWRlby52aWRlb1NvdXJjZUlkKSB7CiAgICAvLyBUT0RPIOeUn+S6p++8mueUqCB2aWRlb1NvdXJjZUlkIOiwgyBWT0Qg6I635Y+WIHBsYXlBdXRo77yM6L+U5ZueIHsgcGxheUF1dGgsIGNvdmVyVXJsIH0KICAgIGNvbnNvbGUuaW5mbygnW2xlYXJuXSDnlJ/kuqfnjq/looPlupTln7rkuo4gdmlkZW9Tb3VyY2VJZCDmjaLlj5YgVk9EIOaSreaUvuWHreivge+8micsIHZpZGVvLnZpZGVvU291cmNlSWQpCiAgfQogIHJldHVybiBERU1PX1ZJREVPU1tpbmRleCAlIERFTU9fVklERU9TLmxlbmd0aF0KfQoKLy8g5oqK6K++56iL5pKt5pS+5rqQICsg5YWo5bGA5bqP5Y+35pig5bCE5Li65pKt5pS+5pa55qGICi8vIOi/lOWbniB7IHR5cGU6ICdiaWxpYmlsaScsIGJ2aWQsIHBhZ2UgfSB8IHsgdHlwZTogJ3lvdXR1YmUnLCBwbGF5bGlzdElkLCBpbmRleCB9IHwgeyB0eXBlOiAnbXA0Jywgc3JjIH0KZXhwb3J0IGZ1bmN0aW9uIHJlc29sdmVQbGF5ZXIodmlkZW8sIGNvdXJzZSkgewogIGNvbnN0IHNlcSA9IHZpZGVvICYmIHZpZGVvLl9zZXEgIT0gbnVsbCA/IHZpZGVvLl9zZXEgOiAwCiAgY29uc3Qgc3JjID0gKGNvdXJzZSAmJiBjb3Vyc2Uuc291cmNlKSB8fCAoY291cnNlICYmIGNvdXJzZS5iaWxpYmlsaSA/IHsgdHlwZTogJ2JpbGliaWxpJywgYnZpZDogY291cnNlLmJpbGliaWxpIH0gOiBudWxsKQoKICBpZiAoc3JjICYmIHNyYy50eXBlID09PSAnYmlsaWJpbGknICYmIHNyYy5idmlkKSB7CiAgICByZXR1cm4geyB0eXBlOiAnYmlsaWJpbGknLCBidmlkOiBzcmMuYnZpZCwgcGFnZTogc2VxICsgMSB9CiAgfQogIGlmIChzcmMgJiYgc3JjLnR5cGUgPT09ICd5b3V0dWJlJyAmJiBzcmMucGxheWxpc3RJZCkgewogICAgLy8gWW91VHViZSDmkq3mlL7liJfooaggZW1iZWTvvJppbmRleCDkuLror6Xor77nqIvlhoXnmoTnrKzlh6DorrLvvIjku44gMCDlvIDlp4vvvIkKICAgIHJldHVybiB7IHR5cGU6ICd5b3V0dWJlJywgcGxheWxpc3RJZDogc3JjLnBsYXlsaXN0SWQsIGluZGV4OiBzZXEgfQogIH0KICBpZiAodmlkZW8gJiYgdmlkZW8ucGxheVVybCkgcmV0dXJuIHsgdHlwZTogJ21wNCcsIHNyYzogdmlkZW8ucGxheVVybCB9CiAgcmV0dXJuIHsgdHlwZTogJ21wNCcsIHNyYzogREVNT19WSURFT1Nbc2VxICUgREVNT19WSURFT1MubGVuZ3RoXSB9Cn0KCi8vIOi/mOWOnyBCIOermeaSreaUvumhteWcsOWdgO+8iOeUqOS6juivvueoi+ivpuaDheWklumTvu+8iQpleHBvcnQgZnVuY3Rpb24gYmlsaWJpbGlQYWdlVXJsKGJ2aWQsIHBhZ2UgPSAxKSB7CiAgcmV0dXJuIGBodHRwczovL3d3dy5iaWxpYmlsaS5jb20vdmlkZW8vJHtidmlkfSR7cGFnZSA+IDEgPyBgP3A9JHtwYWdlfWAgOiAnJ31gCn0KCi8vIOi/mOWOnyBZb3VUdWJlIOaSreaUvuWIl+ihqOWcsOWdgO+8iOeUqOS6juivvueoi+ivpuaDheWklumTvu+8iQpleHBvcnQgZnVuY3Rpb24geW91dHViZVBsYXlsaXN0VXJsKHBsYXlsaXN0SWQpIHsKICByZXR1cm4gYGh0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3BsYXlsaXN0P2xpc3Q9JHtwbGF5bGlzdElkfWAKfQoKLy8g6K++56iL5p2l5rqQ5aSW6ZO+77yIWW91VHViZSAvIEIg56uZ6YCa55So77yJCmV4cG9ydCBmdW5jdGlvbiBzb3VyY2VQYWdlVXJsKGNvdXJzZSkgewogIGNvbnN0IHMgPSBjb3Vyc2UgJiYgY291cnNlLnNvdXJjZQogIGlmICghcykgcmV0dXJuICcnCiAgcmV0dXJuIHMudHlwZSA9PT0gJ3lvdXR1YmUnID8geW91dHViZVBsYXlsaXN0VXJsKHMucGxheWxpc3RJZCkgOiBgaHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvLyR7cy5idmlkfWAKfQoKLy8g5ouJ5Y+W6K++56iL5aSn57qy77ya5ZCO56uv5LyY5YWI77yM5aSx6LSlL+aXoOaVsOaNrui/lOWbniBudWxs77yI5LiK5bGC5Zue6YCA5pys5ZywIG1vY2vvvIkKZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIGZldGNoQ291cnNlT3V0bGluZShjb3Vyc2VJZCkgewogIHRyeSB7CiAgICBjb25zdCByZXMgPSBhd2FpdCBmZXRjaChgJHtFRFVfQkFTRX0vY2hhcHRlci9uZXN0ZWQtbGlzdC8ke2NvdXJzZUlkfWApCiAgICBpZiAoIXJlcy5vaykgcmV0dXJuIG51bGwKICAgIGNvbnN0IGpzb24gPSBhd2FpdCByZXMuanNvbigpCiAgICBjb25zdCBpdGVtcyA9IGpzb24/LmRhdGE/Lml0ZW1zIHx8IGpzb24/Lml0ZW1zCiAgICBpZiAoIWl0ZW1zIHx8ICFpdGVtcy5sZW5ndGgpIHJldHVybiBudWxsCiAgICByZXR1cm4gaXRlbXMubWFwKChjaCwgY2kpID0+ICh7CiAgICAgIGlkOiBjaC5pZCwKICAgICAgdGl0bGU6IGNoLnRpdGxlLAogICAgICB2aWRlb3M6IChjaC5jaGlsZHJlbiB8fCBbXSkubWFwKCh2LCB2aSkgPT4gKHsKICAgICAgICBpZDogdi5pZCwKICAgICAgICB0aXRsZTogdi50aXRsZSwKICAgICAgICBmcmVlOiAhIXYuZnJlZSwKICAgICAgICB2aWRlb1NvdXJjZUlkOiB2LnZpZGVvU291cmNlSWQgfHwgJycsCiAgICAgICAgcGxheVVybDogcmVzb2x2ZVBsYXlVcmwodiwgY2kgKyB2aSkKICAgICAgfSkpCiAgICB9KSkKICB9IGNhdGNoIChlKSB7CiAgICByZXR1cm4gbnVsbAogIH0KfQoKLy8g5pys5ZywIG1vY2sg5aSn57qy77ya5oqKIGNvdXJzZXMuanMg55qEIGNoYXB0ZXJz77yIe25hbWUsIHZpZGVvczpbc3RyaW5nXX3vvInovazmiJDnu5/kuIDnu5PmnoQKLy8gX3NlcSDkuLrlhajlsYDluo/lj7fvvIjot6jnq6DoioLntK/orqHvvInvvIznlKjkuo7mmKDlsIQgQiDnq5nliIYgUCAvIFlvdVR1YmUg5pKt5pS+5YiX6KGo5bqP5Y+3CmV4cG9ydCBmdW5jdGlvbiBsb2NhbE91dGxpbmUoY291cnNlKSB7CiAgaWYgKCFjb3Vyc2UgfHwgIWNvdXJzZS5jaGFwdGVycykgcmV0dXJuIFtdCiAgbGV0IHNlcSA9IDAKICByZXR1cm4gY291cnNlLmNoYXB0ZXJzLm1hcCgoY2gsIGNpKSA9PiAoewogICAgaWQ6IGBjaC0ke2NpfWAsCiAgICB0aXRsZTogY2gubmFtZSwKICAgIHZpZGVvczogY2gudmlkZW9zLm1hcCgodGl0bGUsIHZpKSA9PiAoewogICAgICBpZDogYGNoLSR7Y2l9LXYtJHt2aX1gLAogICAgICB0aXRsZSwKICAgICAgZnJlZTogdmkgPT09IDAsCiAgICAgIHZpZGVvU291cmNlSWQ6ICcnLAogICAgICBwbGF5VXJsOiByZXNvbHZlUGxheVVybCh7IHZpZGVvU291cmNlSWQ6ICcnIH0sIHNlcSksCiAgICAgIF9zZXE6IHNlcSsrCiAgICB9KSkKICB9KSkKfQoKLy8gLS0tLS0tLS0tLSDlrabkuaDov5vluqbvvIjmvJTnpLrnlKggbG9jYWxTdG9yYWdl77yb55Sf5Lqn5bqU5LiK5oql5ZCO56uv5Lya5ZGY5a2m5Lmg6K6w5b2V77yJLS0tLS0tLS0tLQpjb25zdCBQUk9HUkVTU19LRVkgPSAnbWFkX2xlYXJuX3Byb2dyZXNzJwpjb25zdCBNWV9DT1VSU0VTX0tFWSA9ICdtYWRfbXlfY291cnNlcycKCmV4cG9ydCBmdW5jdGlvbiBsb2FkUHJvZ3Jlc3MoKSB7CiAgdHJ5IHsgcmV0dXJuIEpTT04ucGFyc2UobG9jYWxTdG9yYWdlLmdldEl0ZW0oUFJPR1JFU1NfS0VZKSkgfHwge30gfSBjYXRjaCB7IHJldHVybiB7fSB9Cn0KZXhwb3J0IGZ1bmN0aW9uIHNhdmVQcm9ncmVzcyhjb3Vyc2VJZCwgcCkgewogIGNvbnN0IGFsbCA9IGxvYWRQcm9ncmVzcygpCiAgYWxsW2NvdXJzZUlkXSA9IHAKICBsb2NhbFN0b3JhZ2Uuc2V0SXRlbShQUk9HUkVTU19LRVksIEpTT04uc3RyaW5naWZ5KGFsbCkpCn0KZXhwb3J0IGZ1bmN0aW9uIG1hcmtTdGFydGVkKGNvdXJzZUlkKSB7CiAgY29uc3Qgc2V0ID0gbmV3IFNldChKU09OLnBhcnNlKGxvY2FsU3RvcmFnZS5nZXRJdGVtKE1ZX0NPVVJTRVNfS0VZKSB8fCAnW10nKSkKICBzZXQuYWRkKE51bWJlcihjb3Vyc2VJZCkpCiAgbG9jYWxTdG9yYWdlLnNldEl0ZW0oTVlfQ09VUlNFU19LRVksIEpTT04uc3RyaW5naWZ5KFsuLi5zZXRdKSkKfQpleHBvcnQgZnVuY3Rpb24gbXlDb3Vyc2VJZHMoKSB7CiAgdHJ5IHsgcmV0dXJuIEpTT04ucGFyc2UobG9jYWxTdG9yYWdlLmdldEl0ZW0oTVlfQ09VUlNFU19LRVkpIHx8ICdbXScpIH0gY2F0Y2ggeyByZXR1cm4gW10gfQp9Cg==
+// 学习中心 - 后端接入层
+// 真实数据源：edu 微服务 GET /edu/chapter/nested-list/{courseId}
+// 返回 Mad 统一结果 R: { code, success, message, data: { items: [ChapterVo] } }
+//   ChapterVo: { id, title, children: [VideoVo] }
+//   VideoVo:   { id, title, free(Boolean), videoSourceId }
+// 前端门户通过 vite proxy '/edu -> 8110' 调用，无需跨域。
+//
+// 播放源策略（按课程 source 字段自动路由）：
+//   bilibili -> https://player.bilibili.com/player.html?bvid=xxx&page=N
+//   youtube  -> https://www.youtube.com/embed/videoseries?list=PLxxx&index=N
+//   mp4      -> 演示直链（生产走阿里云 VOD playAuth）
+
+const EDU_BASE = '/edu'
+
+// 演示用播放源：真实环境应拿 video.videoSourceId 向阿里云 VOD 换取 playAuth 后用 Aliplayer 播放
+const DEMO_VIDEOS = [
+  'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4',
+  'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4',
+  'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4',
+  'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4',
+  'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4'
+]
+
+// 解析播放地址（生产接入点：videoSourceId -> VOD GetVideoPlayAuth -> Aliplayer）
+export function resolvePlayUrl(video, index = 0) {
+  if (video && video.videoSourceId) {
+    // TODO 生产：用 videoSourceId 调 VOD 获取 playAuth，返回 { playAuth, coverUrl }
+    console.info('[learn] 生产环境应基于 videoSourceId 换取 VOD 播放凭证：', video.videoSourceId)
+  }
+  return DEMO_VIDEOS[index % DEMO_VIDEOS.length]
+}
+
+// 把课程播放源 + 全局序号映射为播放方案
+// 返回 { type: 'bilibili', bvid, page } | { type: 'youtube', playlistId, index } | { type: 'mp4', src }
+export function resolvePlayer(video, course) {
+  const seq = video && video._seq != null ? video._seq : 0
+  const src = (course && course.source) || (course && course.bilibili ? { type: 'bilibili', bvid: course.bilibili } : null)
+
+  if (src && src.type === 'bilibili' && src.bvid) {
+    return { type: 'bilibili', bvid: src.bvid, page: seq + 1 }
+  }
+  if (src && src.type === 'youtube' && src.playlistId) {
+    // YouTube 播放列表 embed：index 为该课程内的第几讲（从 0 开始）
+    return { type: 'youtube', playlistId: src.playlistId, index: seq }
+  }
+  if (video && video.playUrl) return { type: 'mp4', src: video.playUrl }
+  return { type: 'mp4', src: DEMO_VIDEOS[seq % DEMO_VIDEOS.length] }
+}
+
+// 还原 B 站播放页地址（用于课程详情外链）
+export function bilibiliPageUrl(bvid, page = 1) {
+  return `https://www.bilibili.com/video/${bvid}${page > 1 ? `?p=${page}` : ''}`
+}
+
+// 还原 YouTube 播放列表地址（用于课程详情外链）
+export function youtubePlaylistUrl(playlistId) {
+  return `https://www.youtube.com/playlist?list=${playlistId}`
+}
+
+// 课程来源外链（YouTube / B 站通用）
+export function sourcePageUrl(course) {
+  const s = course && course.source
+  if (!s) return ''
+  return s.type === 'youtube' ? youtubePlaylistUrl(s.playlistId) : `https://www.bilibili.com/video/${s.bvid}`
+}
+
+// 拉取课程大纲：后端优先，失败/无数据返回 null（上层回退本地 mock）
+export async function fetchCourseOutline(courseId) {
+  try {
+    const res = await fetch(`${EDU_BASE}/chapter/nested-list/${courseId}`)
+    if (!res.ok) return null
+    const json = await res.json()
+    const items = json?.data?.items || json?.items
+    if (!items || !items.length) return null
+    return items.map((ch, ci) => ({
+      id: ch.id,
+      title: ch.title,
+      videos: (ch.children || []).map((v, vi) => ({
+        id: v.id,
+        title: v.title,
+        free: !!v.free,
+        videoSourceId: v.videoSourceId || '',
+        playUrl: resolvePlayUrl(v, ci + vi)
+      }))
+    }))
+  } catch (e) {
+    return null
+  }
+}
+
+// 本地 mock 大纲：把 courses.js 的 chapters（{name, videos:[string]}）转成统一结构
+// _seq 为全局序号（跨章节累计），用于映射 B 站分 P / YouTube 播放列表序号
+export function localOutline(course) {
+  if (!course || !course.chapters) return []
+  let seq = 0
+  return course.chapters.map((ch, ci) => ({
+    id: `ch-${ci}`,
+    title: ch.name,
+    videos: ch.videos.map((title, vi) => ({
+      id: `ch-${ci}-v-${vi}`,
+      title,
+      free: vi === 0,
+      videoSourceId: '',
+      playUrl: resolvePlayUrl({ videoSourceId: '' }, seq),
+      _seq: seq++
+    }))
+  }))
+}
+
+// ---------- 学习进度（演示用 localStorage；生产应上报后端会员学习记录）----------
+const PROGRESS_KEY = 'mad_learn_progress'
+const MY_COURSES_KEY = 'mad_my_courses'
+
+export function loadProgress() {
+  try { return JSON.parse(localStorage.getItem(PROGRESS_KEY)) || {} } catch { return {} }
+}
+export function saveProgress(courseId, p) {
+  const all = loadProgress()
+  all[courseId] = p
+  localStorage.setItem(PROGRESS_KEY, JSON.stringify(all))
+}
+export function markStarted(courseId) {
+  const set = new Set(JSON.parse(localStorage.getItem(MY_COURSES_KEY) || '[]'))
+  set.add(Number(courseId))
+  localStorage.setItem(MY_COURSES_KEY, JSON.stringify([...set]))
+}
+export function myCourseIds() {
+  try { return JSON.parse(localStorage.getItem(MY_COURSES_KEY) || '[]') } catch { return [] }
+}

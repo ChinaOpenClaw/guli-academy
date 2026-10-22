@@ -1,1 +1,87 @@
-cGFja2FnZSBjb20ubWFkLmVkdS5jb250cm9sbGVyLmFkbWluOwoKCmltcG9ydCBjb20ubWFkLmNvbW1vbi52by5SOwppbXBvcnQgY29tLm1hZC5lZHUuZW50aXR5LkNoYXB0ZXI7CmltcG9ydCBjb20ubWFkLmVkdS5zZXJ2aWNlLkNoYXB0ZXJTZXJ2aWNlOwppbXBvcnQgY29tLm1hZC5lZHUudm8uQ2hhcHRlclZvOwppbXBvcnQgaW8uc3dhZ2dlci5hbm5vdGF0aW9ucy5BcGk7CmltcG9ydCBpby5zd2FnZ2VyLmFubm90YXRpb25zLkFwaU9wZXJhdGlvbjsKaW1wb3J0IGlvLnN3YWdnZXIuYW5ub3RhdGlvbnMuQXBpUGFyYW07CmltcG9ydCBvcmcuc3ByaW5nZnJhbWV3b3JrLmJlYW5zLmZhY3RvcnkuYW5ub3RhdGlvbi5BdXRvd2lyZWQ7CmltcG9ydCBvcmcuc3ByaW5nZnJhbWV3b3JrLndlYi5iaW5kLmFubm90YXRpb24uKjsKCmltcG9ydCBqYXZhLnV0aWwuTGlzdDsKCi8qKgogKiA8cD4KICog6K++56iLIOWJjeerr+aOp+WItuWZqAogKiA8L3A+CiAqCiAqIEBhdXRob3IgSGVsZW4KICogQHNpbmNlIDIwMTktMDYtMjQKICovCkBBcGkoZGVzY3JpcHRpb249Iuivvueoi+eroOiKgueuoeeQhiIpCkBDcm9zc09yaWdpbiAvL+i3qOWfnwpAUmVzdENvbnRyb2xsZXIKQFJlcXVlc3RNYXBwaW5nKCIvYWRtaW4vZWR1L2NoYXB0ZXIiKQpwdWJsaWMgY2xhc3MgQ2hhcHRlckFkbWluQ29udHJvbGxlciB7CgoJQEF1dG93aXJlZAoJcHJpdmF0ZSBDaGFwdGVyU2VydmljZSBjaGFwdGVyU2VydmljZTsKCglAQXBpT3BlcmF0aW9uKHZhbHVlID0gIuaWsOWinueroOiKgiIpCglAUG9zdE1hcHBpbmcKCXB1YmxpYyBSIHNhdmUoCgkJCUBBcGlQYXJhbShuYW1lID0gImNoYXB0ZXIiLCB2YWx1ZSA9ICLnq6DoioLlr7nosaEiLCByZXF1aXJlZCA9IHRydWUpCgkJCUBSZXF1ZXN0Qm9keSBDaGFwdGVyIGNoYXB0ZXIpewoKCQljaGFwdGVyU2VydmljZS5zYXZlKGNoYXB0ZXIpOwoJCXJldHVybiBSLm9rKCk7Cgl9CgoJQEFwaU9wZXJhdGlvbih2YWx1ZSA9ICLmoLnmja5JROafpeivoueroOiKgiIpCglAR2V0TWFwcGluZygie2lkfSIpCglwdWJsaWMgUiBnZXRCeUlkKAoJCQlAQXBpUGFyYW0obmFtZSA9ICJpZCIsIHZhbHVlID0gIueroOiKgklEIiwgcmVxdWlyZWQgPSB0cnVlKQoJCQlAUGF0aFZhcmlhYmxlIFN0cmluZyBpZCl7CgoJCUNoYXB0ZXIgY2hhcHRlciA9IGNoYXB0ZXJTZXJ2aWNlLmdldEJ5SWQoaWQpOwoJCXJldHVybiBSLm9rKCkuZGF0YSgiaXRlbSIsIGNoYXB0ZXIpOwoJfQoKCUBBcGlPcGVyYXRpb24odmFsdWUgPSAi5qC55o2uSUTkv67mlLnnq6DoioIiKQoJQFB1dE1hcHBpbmcoIntpZH0iKQoJcHVibGljIFIgdXBkYXRlQnlJZCgKCQkJQEFwaVBhcmFtKG5hbWUgPSAiaWQiLCB2YWx1ZSA9ICLnq6DoioJJRCIsIHJlcXVpcmVkID0gdHJ1ZSkKCQkJQFBhdGhWYXJpYWJsZSBTdHJpbmcgaWQsCgoJCQlAQXBpUGFyYW0obmFtZSA9ICJjaGFwdGVyIiwgdmFsdWUgPSAi56ug6IqC5a+56LGhIiwgcmVxdWlyZWQgPSB0cnVlKQoJCQlAUmVxdWVzdEJvZHkgQ2hhcHRlciBjaGFwdGVyKXsKCgkJY2hhcHRlci5zZXRJZChpZCk7CgkJY2hhcHRlclNlcnZpY2UudXBkYXRlQnlJZChjaGFwdGVyKTsKCQlyZXR1cm4gUi5vaygpOwoJfQoKCUBBcGlPcGVyYXRpb24odmFsdWUgPSAi5qC55o2uSUTliKDpmaTnq6DoioIiKQoJQERlbGV0ZU1hcHBpbmcoIntpZH0iKQoJcHVibGljIFIgcmVtb3ZlQnlJZCgKCQkJQEFwaVBhcmFtKG5hbWUgPSAiaWQiLCB2YWx1ZSA9ICLnq6DoioJJRCIsIHJlcXVpcmVkID0gdHJ1ZSkKCQkJQFBhdGhWYXJpYWJsZSBTdHJpbmcgaWQpewoKCQljaGFwdGVyU2VydmljZS5yZW1vdmVDaGFwdGVyQnlJZChpZCk7CgkJcmV0dXJuIFIub2soKTsKCX0KCglAQXBpT3BlcmF0aW9uKHZhbHVlID0gIuW1jOWll+eroOiKguaVsOaNruWIl+ihqCIpCglAR2V0TWFwcGluZygibmVzdGVkLWxpc3Qve2NvdXJzZUlkfSIpCglwdWJsaWMgUiBuZXN0ZWRMaXN0QnlDb3Vyc2VJZCgKCQkJQEFwaVBhcmFtKG5hbWUgPSAiY291cnNlSWQiLCB2YWx1ZSA9ICLor77nqItJRCIsIHJlcXVpcmVkID0gdHJ1ZSkKCQkJQFBhdGhWYXJpYWJsZSBTdHJpbmcgY291cnNlSWQpewoKCQlMaXN0PENoYXB0ZXJWbz4gY2hhcHRlclZvTGlzdCA9IGNoYXB0ZXJTZXJ2aWNlLm5lc3RlZExpc3QoY291cnNlSWQpOwoJCXJldHVybiBSLm9rKCkuZGF0YSgiaXRlbXMiLCBjaGFwdGVyVm9MaXN0KTsKCX0KfQoK
+package com.mad.edu.controller.admin;
+
+
+import com.mad.common.vo.R;
+import com.mad.edu.entity.Chapter;
+import com.mad.edu.service.ChapterService;
+import com.mad.edu.vo.ChapterVo;
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
+import io.swagger.annotations.ApiParam;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
+
+/**
+ * <p>
+ * 课程 前端控制器
+ * </p>
+ *
+ * @author Helen
+ * @since 2019-06-24
+ */
+@Api(description="课程章节管理")
+@CrossOrigin //跨域
+@RestController
+@RequestMapping("/admin/edu/chapter")
+public class ChapterAdminController {
+
+	@Autowired
+	private ChapterService chapterService;
+
+	@ApiOperation(value = "新增章节")
+	@PostMapping
+	public R save(
+			@ApiParam(name = "chapter", value = "章节对象", required = true)
+			@RequestBody Chapter chapter){
+
+		chapterService.save(chapter);
+		return R.ok();
+	}
+
+	@ApiOperation(value = "根据ID查询章节")
+	@GetMapping("{id}")
+	public R getById(
+			@ApiParam(name = "id", value = "章节ID", required = true)
+			@PathVariable String id){
+
+		Chapter chapter = chapterService.getById(id);
+		return R.ok().data("item", chapter);
+	}
+
+	@ApiOperation(value = "根据ID修改章节")
+	@PutMapping("{id}")
+	public R updateById(
+			@ApiParam(name = "id", value = "章节ID", required = true)
+			@PathVariable String id,
+
+			@ApiParam(name = "chapter", value = "章节对象", required = true)
+			@RequestBody Chapter chapter){
+
+		chapter.setId(id);
+		chapterService.updateById(chapter);
+		return R.ok();
+	}
+
+	@ApiOperation(value = "根据ID删除章节")
+	@DeleteMapping("{id}")
+	public R removeById(
+			@ApiParam(name = "id", value = "章节ID", required = true)
+			@PathVariable String id){
+
+		chapterService.removeChapterById(id);
+		return R.ok();
+	}
+
+	@ApiOperation(value = "嵌套章节数据列表")
+	@GetMapping("nested-list/{courseId}")
+	public R nestedListByCourseId(
+			@ApiParam(name = "courseId", value = "课程ID", required = true)
+			@PathVariable String courseId){
+
+		List<ChapterVo> chapterVoList = chapterService.nestedList(courseId);
+		return R.ok().data("items", chapterVoList);
+	}
+}
+

@@ -1,1 +1,10 @@
-Ly8gTUFE572R6K++57O757ufIMK3IOivvueoi+WIhuexu+agke+8iOS4juaVsOaNruW6kyBlZHVfc3ViamVjdCDlr7nlupTvvIkKZXhwb3J0IGNvbnN0IHN1YmplY3RUcmVlID0gewogICLph5Hono3mipXotYQiOiBbIuS7t+WAvOaKlei1hCIsICLlro/op4LnrZbnlaUiLCAi5YWs5Y+45Lyw5YC8IiwgIumHj+WMluS6pOaYkyIsICLotKLliqHmiqXooagiLCAi6LWE5Lqn566h55CGIl0sCiAgIklU5bel56iLIjogWyLnrpfms5XkuI7mlbDmja7nu5PmnoQiLCAi57O757uf6K6+6K6hIiwgIuaVsOaNruW6kyIsICJKYXZhIOeUn+aAgSIsICLliY3nq6/lt6XnqIsiLCAi5YiG5biD5byP6K6h566XIl0sCiAgIuS6uuW3peaZuuiDvSI6IFsi5py65Zmo5a2m5LmgIiwgIua3seW6puWtpuS5oCIsICLorqHnrpfmnLrop4bop4kiLCAi5aSn5qih5Z6L5bel56iLIiwgIuWFqOagiCBNTE9wcyJdLAp9CgpleHBvcnQgY29uc3QgYWxsU3ViamVjdHMgPSBPYmplY3QuZW50cmllcyhzdWJqZWN0VHJlZSkuZmxhdE1hcCgoW3AsIGNzXSkgPT4KICBjcy5tYXAoKGMpID0+ICh7IHBhcmVudDogcCwgY2hpbGQ6IGMgfSkpCikK
+// MAD网课系统 · 课程分类树（与数据库 edu_subject 对应）
+export const subjectTree = {
+  "金融投资": ["价值投资", "宏观策略", "公司估值", "量化交易", "财务报表", "资产管理"],
+  "IT工程": ["算法与数据结构", "系统设计", "数据库", "Java 生态", "前端工程", "分布式计算"],
+  "人工智能": ["机器学习", "深度学习", "计算机视觉", "大模型工程", "全栈 MLOps"],
+}
+
+export const allSubjects = Object.entries(subjectTree).flatMap(([p, cs]) =>
+  cs.map((c) => ({ parent: p, child: c }))
+)

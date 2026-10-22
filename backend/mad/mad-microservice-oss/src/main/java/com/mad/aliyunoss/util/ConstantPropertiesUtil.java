@@ -1,1 +1,44 @@
-cGFja2FnZSBjb20ubWFkLmFsaXl1bm9zcy51dGlsOwoKaW1wb3J0IG9yZy5zcHJpbmdmcmFtZXdvcmsuYmVhbnMuZmFjdG9yeS5Jbml0aWFsaXppbmdCZWFuOwppbXBvcnQgb3JnLnNwcmluZ2ZyYW1ld29yay5iZWFucy5mYWN0b3J5LmFubm90YXRpb24uVmFsdWU7CmltcG9ydCBvcmcuc3ByaW5nZnJhbWV3b3JrLnN0ZXJlb3R5cGUuQ29tcG9uZW50OwoKLyoqCiAqIEBhdXRob3IgaGVsZW4KICogQHNpbmNlIDIwMTkvNi8yOAogKi8KQENvbXBvbmVudApwdWJsaWMgY2xhc3MgQ29uc3RhbnRQcm9wZXJ0aWVzVXRpbCBpbXBsZW1lbnRzIEluaXRpYWxpemluZ0JlYW4gewoKCUBWYWx1ZSgiJHthbGl5dW4ub3NzLmZpbGUuZW5kcG9pbnR9IikKCXByaXZhdGUgU3RyaW5nIGVuZHBvaW50OwoKCUBWYWx1ZSgiJHthbGl5dW4ub3NzLmZpbGUua2V5aWR9IikKCXByaXZhdGUgU3RyaW5nIGtleUlkOwoKCUBWYWx1ZSgiJHthbGl5dW4ub3NzLmZpbGUua2V5c2VjcmV0fSIpCglwcml2YXRlIFN0cmluZyBrZXlTZWNyZXQ7CgoJQFZhbHVlKCIke2FsaXl1bi5vc3MuZmlsZS5idWNrZXRuYW1lfSIpCglwcml2YXRlIFN0cmluZyBidWNrZXROYW1lOwoKCUBWYWx1ZSgiJHthbGl5dW4ub3NzLmZpbGUuZmlsZWhvc3R9IikKCXByaXZhdGUgU3RyaW5nIGZpbGVIb3N0OwoKCXB1YmxpYyBzdGF0aWMgU3RyaW5nIEVORF9QT0lOVDsKCXB1YmxpYyBzdGF0aWMgU3RyaW5nIEFDQ0VTU19LRVlfSUQ7CglwdWJsaWMgc3RhdGljIFN0cmluZyBBQ0NFU1NfS0VZX1NFQ1JFVDsKCXB1YmxpYyBzdGF0aWMgU3RyaW5nIEJVQ0tFVF9OQU1FOwoJcHVibGljIHN0YXRpYyBTdHJpbmcgRklMRV9IT1NUOwoKCUBPdmVycmlkZQoJcHVibGljIHZvaWQgYWZ0ZXJQcm9wZXJ0aWVzU2V0KCkgdGhyb3dzIEV4Y2VwdGlvbiB7CgoJCUVORF9QT0lOVCA9IGVuZHBvaW50OwoJCUFDQ0VTU19LRVlfSUQgPSBrZXlJZDsKCQlBQ0NFU1NfS0VZX1NFQ1JFVCA9IGtleVNlY3JldDsKCQlCVUNLRVRfTkFNRSA9IGJ1Y2tldE5hbWU7CgkJRklMRV9IT1NUID0gZmlsZUhvc3Q7Cgl9Cn0K
+package com.mad.aliyunoss.util;
+
+import org.springframework.beans.factory.InitializingBean;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
+
+/**
+ * @author helen
+ * @since 2019/6/28
+ */
+@Component
+public class ConstantPropertiesUtil implements InitializingBean {
+
+	@Value("${aliyun.oss.file.endpoint}")
+	private String endpoint;
+
+	@Value("${aliyun.oss.file.keyid}")
+	private String keyId;
+
+	@Value("${aliyun.oss.file.keysecret}")
+	private String keySecret;
+
+	@Value("${aliyun.oss.file.bucketname}")
+	private String bucketName;
+
+	@Value("${aliyun.oss.file.filehost}")
+	private String fileHost;
+
+	public static String END_POINT;
+	public static String ACCESS_KEY_ID;
+	public static String ACCESS_KEY_SECRET;
+	public static String BUCKET_NAME;
+	public static String FILE_HOST;
+
+	@Override
+	public void afterPropertiesSet() throws Exception {
+
+		END_POINT = endpoint;
+		ACCESS_KEY_ID = keyId;
+		ACCESS_KEY_SECRET = keySecret;
+		BUCKET_NAME = bucketName;
+		FILE_HOST = fileHost;
+	}
+}

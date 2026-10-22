@@ -1,1 +1,162 @@
-cGFja2FnZSBjb20ubWFkLnZvZC5zZXJ2aWNlLmltcGw7CgppbXBvcnQgY29tLmFsaXl1bi52b2QudXBsb2FkLmltcGwuVXBsb2FkVmlkZW9JbXBsOwppbXBvcnQgY29tLmFsaXl1bi52b2QudXBsb2FkLnJlcS5VcGxvYWRTdHJlYW1SZXF1ZXN0OwppbXBvcnQgY29tLmFsaXl1bi52b2QudXBsb2FkLnJlc3AuVXBsb2FkU3RyZWFtUmVzcG9uc2U7CmltcG9ydCBjb20uYWxpeXVuY3MuRGVmYXVsdEFjc0NsaWVudDsKaW1wb3J0IGNvbS5hbGl5dW5jcy5leGNlcHRpb25zLkNsaWVudEV4Y2VwdGlvbjsKaW1wb3J0IGNvbS5hbGl5dW5jcy52b2QubW9kZWwudjIwMTcwMzIxLio7CmltcG9ydCBjb20ubWFkLmNvbW1vbi5jb25zdGFudHMuUmVzdWx0Q29kZUVudW07CmltcG9ydCBjb20ubWFkLmNvbW1vbi5leGNlcHRpb24uTWFkRXhjZXB0aW9uOwppbXBvcnQgY29tLm1hZC52b2Quc2VydmljZS5WaWRlb1NlcnZpY2U7CmltcG9ydCBjb20ubWFkLnZvZC51dGlsLkFsaXl1blZPRFNES1V0aWxzOwppbXBvcnQgY29tLm1hZC52b2QudXRpbC5Db25zdGFudFByb3BlcnRpZXNVdGlsOwppbXBvcnQgb3JnLnNwcmluZ2ZyYW1ld29yay5zdGVyZW90eXBlLlNlcnZpY2U7CmltcG9ydCBvcmcuc3ByaW5nZnJhbWV3b3JrLndlYi5tdWx0aXBhcnQuTXVsdGlwYXJ0RmlsZTsKCmltcG9ydCBqYXZhLmlvLklPRXhjZXB0aW9uOwppbXBvcnQgamF2YS5pby5JbnB1dFN0cmVhbTsKCi8qKgogKiBAYXV0aG9yIGhlbGVuCiAqIEBzaW5jZSAyMDE5LzcvMwogKi8KQFNlcnZpY2UKcHVibGljIGNsYXNzIFZpZGVvU2VydmljZUltcGwgaW1wbGVtZW50cyBWaWRlb1NlcnZpY2UgewoKCUBPdmVycmlkZQoJcHVibGljIFN0cmluZyB1cGxvYWRWaWRlbyhNdWx0aXBhcnRGaWxlIGZpbGUpIHsKCgkJU3RyaW5nIHZpZGVvSWQgPSBudWxsOwoJCXRyeXsKCQkJSW5wdXRTdHJlYW0gaW5wdXRTdHJlYW0gPSBmaWxlLmdldElucHV0U3RyZWFtKCk7CgkJCVN0cmluZyBmaWxlTmFtZSA9IGZpbGUuZ2V0T3JpZ2luYWxGaWxlbmFtZSgpOwoJCQlTdHJpbmcgdGl0bGUgPSBmaWxlTmFtZS5zdWJzdHJpbmcoMCwgZmlsZU5hbWUubGFzdEluZGV4T2YoIi4iKSk7CgoJCQkvL+WIm+W7uuivt+axguWvueixoQoJCQlVcGxvYWRTdHJlYW1SZXF1ZXN0IHJlcXVlc3QgPSBuZXcgVXBsb2FkU3RyZWFtUmVxdWVzdCgKCQkJCQlDb25zdGFudFByb3BlcnRpZXNVdGlsLkFDQ0VTU19LRVlfSUQsCgkJCQkJQ29uc3RhbnRQcm9wZXJ0aWVzVXRpbC5BQ0NFU1NfS0VZX1NFQ1JFVCwKCQkJCQl0aXRsZSwKCQkJCQlmaWxlTmFtZSwKCQkJCQlpbnB1dFN0cmVhbSk7CgoJCQkvL+WIm+W7uuaWh+S7tuS4iuS8oOWZqAoJCQlVcGxvYWRWaWRlb0ltcGwgdXBsb2FkZXIgPSBuZXcgVXBsb2FkVmlkZW9JbXBsKCk7CgoJCQkvL+aJp+ihjOaWh+S7tuS4iuS8oO+8jOW+l+WIsOWTjeW6lOWvueixoQoJCQlVcGxvYWRTdHJlYW1SZXNwb25zZSByZXNwb25zZSA9IHVwbG9hZGVyLnVwbG9hZFN0cmVhbShyZXF1ZXN0KTsKCgkJCS8v5b6X5Yiw6KeG6aKR55qEdmlkZW9JZAoJCQl2aWRlb0lkID0gcmVzcG9uc2UuZ2V0VmlkZW9JZCgpOwoKCQl9Y2F0Y2ggKElPRXhjZXB0aW9uIGUpewoJCQl0aHJvdyBuZXcgTWFkRXhjZXB0aW9uKFJlc3VsdENvZGVFbnVtLlZJREVPX1VQTE9BRF9FUlJPUik7CgkJfQoKCQlyZXR1cm4gdmlkZW9JZDsKCX0KCglAT3ZlcnJpZGUKCXB1YmxpYyB2b2lkIHJlbW92ZVZpZGVvKFN0cmluZyB2aWRlb0lkKSB7CgoJCURlZmF1bHRBY3NDbGllbnQgY2xpZW50ID0gbnVsbDsKCQl0cnkgewoJCQljbGllbnQgPSBBbGl5dW5WT0RTREtVdGlscy5pbml0Vm9kQ2xpZW50KAoJCQkJCUNvbnN0YW50UHJvcGVydGllc1V0aWwuQUNDRVNTX0tFWV9JRCwKCQkJCQlDb25zdGFudFByb3BlcnRpZXNVdGlsLkFDQ0VTU19LRVlfU0VDUkVUKTsKCgkJCURlbGV0ZVZpZGVvUmVxdWVzdCByZXF1ZXN0ID0gbmV3IERlbGV0ZVZpZGVvUmVxdWVzdCgpOwoJCQlyZXF1ZXN0LnNldFZpZGVvSWRzKHZpZGVvSWQpOwoKCQkJRGVsZXRlVmlkZW9SZXNwb25zZSByZXNwb25zZSA9IGNsaWVudC5nZXRBY3NSZXNwb25zZShyZXF1ZXN0KTsKCgkJfSBjYXRjaCAoQ2xpZW50RXhjZXB0aW9uIGUpIHsKCQkJdGhyb3cgbmV3IE1hZEV4Y2VwdGlvbihSZXN1bHRDb2RlRW51bS5WSURFT19ERUxFVEVfQUxJWVVOX0VSUk9SKTsKCQl9CgoJfQoKCS8qKgoJICog6I635Y+W5LiK5Lyg5Yet6K+B5ZKM5LiK5Lyg5Zyw5Z2ACgkgKiBAcGFyYW0gdGl0bGUKCSAqIEBwYXJhbSBmaWxlTmFtZQoJICogQHJldHVybgoJICovCglAT3ZlcnJpZGUKCXB1YmxpYyBDcmVhdGVVcGxvYWRWaWRlb1Jlc3BvbnNlIGdldFVwbG9hZEF1dGhBbmRBZGRyZXNzKFN0cmluZyB0aXRsZSwgU3RyaW5nIGZpbGVOYW1lKSB7CgoJCXRyeSB7CgkJCS8v5Yib5bu66K+35rGC5a+56LGhCgkJCURlZmF1bHRBY3NDbGllbnQgY2xpZW50ID0gQWxpeXVuVk9EU0RLVXRpbHMuaW5pdFZvZENsaWVudCgKCQkJCQlDb25zdGFudFByb3BlcnRpZXNVdGlsLkFDQ0VTU19LRVlfSUQsIENvbnN0YW50UHJvcGVydGllc1V0aWwuQUNDRVNTX0tFWV9TRUNSRVQKCQkJKTsKCgkJCS8v5Li66K+35rGC5a+56LGh57uE57uH56eB5pyJ5Y+C5pWwCgkJCUNyZWF0ZVVwbG9hZFZpZGVvUmVxdWVzdCByZXF1ZXN0ID0gbmV3IENyZWF0ZVVwbG9hZFZpZGVvUmVxdWVzdCgpOwoJCQlyZXF1ZXN0LnNldFRpdGxlKHRpdGxlKTsKCQkJcmVxdWVzdC5zZXRGaWxlTmFtZShmaWxlTmFtZSk7CgoJCQkvL+WPkemAgeivt+axgu+8jOiOt+WPluWTjeW6lOWvueixoQoJCQlDcmVhdGVVcGxvYWRWaWRlb1Jlc3BvbnNlIHJlc3BvbnNlID0gY2xpZW50LmdldEFjc1Jlc3BvbnNlKHJlcXVlc3QpOwoKCQkJLy/ku47lk43lupTlr7nosaHkuK3ojrflj5bov5Tlm57lgLwKCQkJcmV0dXJuIHJlc3BvbnNlOwoKCQl9Y2F0Y2ggKENsaWVudEV4Y2VwdGlvbiBlKXsKCQkJdGhyb3cgIG5ldyBNYWRFeGNlcHRpb24oUmVzdWx0Q29kZUVudW0uRkVUQ0hfVklERU9fVVBMT0FEQVVUSF9FUlJPUik7CgkJfQoKCX0KCglAT3ZlcnJpZGUKCXB1YmxpYyBSZWZyZXNoVXBsb2FkVmlkZW9SZXNwb25zZSByZWZyZXNoVXBsb2FkQXV0aEFuZEFkZHJlc3MoU3RyaW5nIHZpZGVvSWQpIHsKCgkJdHJ5IHsKCQkJLy/liJ3lp4vljJYKCQkJRGVmYXVsdEFjc0NsaWVudCBjbGllbnQgPSBBbGl5dW5WT0RTREtVdGlscy5pbml0Vm9kQ2xpZW50KAoJCQkJCUNvbnN0YW50UHJvcGVydGllc1V0aWwuQUNDRVNTX0tFWV9JRCwgQ29uc3RhbnRQcm9wZXJ0aWVzVXRpbC5BQ0NFU1NfS0VZX1NFQ1JFVAoJCQkpOwoKCQkJLy/liJvlu7ror7fmsYLlr7nosaE65Li66K+35rGC5a+56LGh57uE57uH56eB5pyJ5Y+C5pWwCgkJCVJlZnJlc2hVcGxvYWRWaWRlb1JlcXVlc3QgcmVxdWVzdCA9IG5ldyBSZWZyZXNoVXBsb2FkVmlkZW9SZXF1ZXN0KCk7CgkJCXJlcXVlc3Quc2V0VmlkZW9JZCh2aWRlb0lkKTsKCgkJCS8v5Y+R6YCB6K+35rGC77yM6I635Y+W5ZON5bqU5a+56LGhCgkJCVJlZnJlc2hVcGxvYWRWaWRlb1Jlc3BvbnNlIHJlc3BvbnNlID0gY2xpZW50LmdldEFjc1Jlc3BvbnNlKHJlcXVlc3QpOwoKCQkJLy/ku47lk43lupTlr7nosaHkuK3ojrflj5bov5Tlm57lgLwKCQkJcmV0dXJuIHJlc3BvbnNlOwoKCQl9Y2F0Y2ggKENsaWVudEV4Y2VwdGlvbiBlKXsKCQkJdGhyb3cgIG5ldyBNYWRFeGNlcHRpb24oUmVzdWx0Q29kZUVudW0uUkVGUkVTSF9WSURFT19VUExPQURBVVRIX0VSUk9SKTsKCQl9Cgl9CgoJQE92ZXJyaWRlCglwdWJsaWMgU3RyaW5nIGdldFZpZGVvUGxheUF1dGgoU3RyaW5nIHZpZGVvSWQpIHsKCgkJdHJ5IHsKCgkJCS8v5Yid5aeL5YyWCgkJCURlZmF1bHRBY3NDbGllbnQgY2xpZW50ID0gQWxpeXVuVk9EU0RLVXRpbHMuaW5pdFZvZENsaWVudCgKCQkJCQlDb25zdGFudFByb3BlcnRpZXNVdGlsLkFDQ0VTU19LRVlfSUQsIENvbnN0YW50UHJvcGVydGllc1V0aWwuQUNDRVNTX0tFWV9TRUNSRVQKCQkJKTsKCgkJCS8v5Yib5bu66K+35rGC5a+56LGhOuS4uuivt+axguWvueixoee7hOe7h+engeacieWPguaVsAoJCQlHZXRWaWRlb1BsYXlBdXRoUmVxdWVzdCByZXF1ZXN0ID0gbmV3IEdldFZpZGVvUGxheUF1dGhSZXF1ZXN0KCk7CgkJCXJlcXVlc3Quc2V0VmlkZW9JZCh2aWRlb0lkKTsKCgkJCS8v5ZON5bqU5a+56LGhCgkJCUdldFZpZGVvUGxheUF1dGhSZXNwb25zZSByZXNwb25zZSA9IGNsaWVudC5nZXRBY3NSZXNwb25zZShyZXF1ZXN0KTsKCgkJCS8v6I635Y+W5pKt5pS+5Yet6K+BCgkJCVN0cmluZyBwbGF5QXV0aCA9IHJlc3BvbnNlLmdldFBsYXlBdXRoKCk7CgoJCQlyZXR1cm4gcGxheUF1dGg7CgoJCX1jYXRjaCAoQ2xpZW50RXhjZXB0aW9uIGUpewoJCQl0aHJvdyAgbmV3IE1hZEV4Y2VwdGlvbihSZXN1bHRDb2RlRW51bS5GRVRDSF9WSURFT19QTEFZQVVUSF9FUlJPUik7CgkJfQoJfQp9Cg==
+package com.mad.vod.service.impl;
+
+import com.aliyun.vod.upload.impl.UploadVideoImpl;
+import com.aliyun.vod.upload.req.UploadStreamRequest;
+import com.aliyun.vod.upload.resp.UploadStreamResponse;
+import com.aliyuncs.DefaultAcsClient;
+import com.aliyuncs.exceptions.ClientException;
+import com.aliyuncs.vod.model.v20170321.*;
+import com.mad.common.constants.ResultCodeEnum;
+import com.mad.common.exception.MadException;
+import com.mad.vod.service.VideoService;
+import com.mad.vod.util.AliyunVODSDKUtils;
+import com.mad.vod.util.ConstantPropertiesUtil;
+import org.springframework.stereotype.Service;
+import org.springframework.web.multipart.MultipartFile;
+
+import java.io.IOException;
+import java.io.InputStream;
+
+/**
+ * @author helen
+ * @since 2019/7/3
+ */
+@Service
+public class VideoServiceImpl implements VideoService {
+
+	@Override
+	public String uploadVideo(MultipartFile file) {
+
+		String videoId = null;
+		try{
+			InputStream inputStream = file.getInputStream();
+			String fileName = file.getOriginalFilename();
+			String title = fileName.substring(0, fileName.lastIndexOf("."));
+
+			//创建请求对象
+			UploadStreamRequest request = new UploadStreamRequest(
+					ConstantPropertiesUtil.ACCESS_KEY_ID,
+					ConstantPropertiesUtil.ACCESS_KEY_SECRET,
+					title,
+					fileName,
+					inputStream);
+
+			//创建文件上传器
+			UploadVideoImpl uploader = new UploadVideoImpl();
+
+			//执行文件上传，得到响应对象
+			UploadStreamResponse response = uploader.uploadStream(request);
+
+			//得到视频的videoId
+			videoId = response.getVideoId();
+
+		}catch (IOException e){
+			throw new MadException(ResultCodeEnum.VIDEO_UPLOAD_ERROR);
+		}
+
+		return videoId;
+	}
+
+	@Override
+	public void removeVideo(String videoId) {
+
+		DefaultAcsClient client = null;
+		try {
+			client = AliyunVODSDKUtils.initVodClient(
+					ConstantPropertiesUtil.ACCESS_KEY_ID,
+					ConstantPropertiesUtil.ACCESS_KEY_SECRET);
+
+			DeleteVideoRequest request = new DeleteVideoRequest();
+			request.setVideoIds(videoId);
+
+			DeleteVideoResponse response = client.getAcsResponse(request);
+
+		} catch (ClientException e) {
+			throw new MadException(ResultCodeEnum.VIDEO_DELETE_ALIYUN_ERROR);
+		}
+
+	}
+
+	/**
+	 * 获取上传凭证和上传地址
+	 * @param title
+	 * @param fileName
+	 * @return
+	 */
+	@Override
+	public CreateUploadVideoResponse getUploadAuthAndAddress(String title, String fileName) {
+
+		try {
+			//创建请求对象
+			DefaultAcsClient client = AliyunVODSDKUtils.initVodClient(
+					ConstantPropertiesUtil.ACCESS_KEY_ID, ConstantPropertiesUtil.ACCESS_KEY_SECRET
+			);
+
+			//为请求对象组织私有参数
+			CreateUploadVideoRequest request = new CreateUploadVideoRequest();
+			request.setTitle(title);
+			request.setFileName(fileName);
+
+			//发送请求，获取响应对象
+			CreateUploadVideoResponse response = client.getAcsResponse(request);
+
+			//从响应对象中获取返回值
+			return response;
+
+		}catch (ClientException e){
+			throw  new MadException(ResultCodeEnum.FETCH_VIDEO_UPLOADAUTH_ERROR);
+		}
+
+	}
+
+	@Override
+	public RefreshUploadVideoResponse refreshUploadAuthAndAddress(String videoId) {
+
+		try {
+			//初始化
+			DefaultAcsClient client = AliyunVODSDKUtils.initVodClient(
+					ConstantPropertiesUtil.ACCESS_KEY_ID, ConstantPropertiesUtil.ACCESS_KEY_SECRET
+			);
+
+			//创建请求对象:为请求对象组织私有参数
+			RefreshUploadVideoRequest request = new RefreshUploadVideoRequest();
+			request.setVideoId(videoId);
+
+			//发送请求，获取响应对象
+			RefreshUploadVideoResponse response = client.getAcsResponse(request);
+
+			//从响应对象中获取返回值
+			return response;
+
+		}catch (ClientException e){
+			throw  new MadException(ResultCodeEnum.REFRESH_VIDEO_UPLOADAUTH_ERROR);
+		}
+	}
+
+	@Override
+	public String getVideoPlayAuth(String videoId) {
+
+		try {
+
+			//初始化
+			DefaultAcsClient client = AliyunVODSDKUtils.initVodClient(
+					ConstantPropertiesUtil.ACCESS_KEY_ID, ConstantPropertiesUtil.ACCESS_KEY_SECRET
+			);
+
+			//创建请求对象:为请求对象组织私有参数
+			GetVideoPlayAuthRequest request = new GetVideoPlayAuthRequest();
+			request.setVideoId(videoId);
+
+			//响应对象
+			GetVideoPlayAuthResponse response = client.getAcsResponse(request);
+
+			//获取播放凭证
+			String playAuth = response.getPlayAuth();
+
+			return playAuth;
+
+		}catch (ClientException e){
+			throw  new MadException(ResultCodeEnum.FETCH_VIDEO_PLAYAUTH_ERROR);
+		}
+	}
+}

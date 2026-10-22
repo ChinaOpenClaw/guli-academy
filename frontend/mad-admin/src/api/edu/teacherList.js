@@ -1,1 +1,13 @@
-aW1wb3J0IHJlcXVlc3QgZnJvbSAnQC91dGlscy9yZXF1ZXN0JwoKY29uc3QgYXBpX25hbWUgPSAnL2FkbWluL2VkdS90ZWFjaGVyJwoKZXhwb3J0IGRlZmF1bHQgewogIC8vIOWFqOmHj+iusuW4iOWIl+ihqO+8iOivvueoi+ihqOWNleS4i+aLieeUqO+8iQogIGdldExpc3QoKSB7CiAgICByZXR1cm4gcmVxdWVzdCh7CiAgICAgIHVybDogYXBpX25hbWUsCiAgICAgIG1ldGhvZDogJ2dldCcKICAgIH0pCiAgfQp9Cg==
+import request from '@/utils/request'
+
+const api_name = '/admin/edu/teacher'
+
+export default {
+  // 全量讲师列表（课程表单下拉用）
+  getList() {
+    return request({
+      url: api_name,
+      method: 'get'
+    })
+  }
+}

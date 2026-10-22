@@ -1,1 +1,5 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KICAgICAgICA8IURPQ1RZUEUgbWFwcGVyIFBVQkxJQyAiLS8vbXliYXRpcy5vcmcvL0RURCBNYXBwZXIgMy4wLy9FTiIgImh0dHA6Ly9teWJhdGlzLm9yZy9kdGQvbXliYXRpcy0zLW1hcHBlci5kdGQiPgo8bWFwcGVyIG5hbWVzcGFjZT0iY29tLm1hZC5lZHUubWFwcGVyLkNoYXB0ZXJNYXBwZXIiPgoKPC9tYXBwZXI+Cg==
+<?xml version="1.0" encoding="UTF-8"?>
+        <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mad.edu.mapper.ChapterMapper">
+
+</mapper>

@@ -1,1 +1,19 @@
-cGFja2FnZSBjb20ubWFkLnZvZDsKCmltcG9ydCBvcmcuc3ByaW5nZnJhbWV3b3JrLmJvb3QuU3ByaW5nQXBwbGljYXRpb247CmltcG9ydCBvcmcuc3ByaW5nZnJhbWV3b3JrLmJvb3QuYXV0b2NvbmZpZ3VyZS5TcHJpbmdCb290QXBwbGljYXRpb247CmltcG9ydCBvcmcuc3ByaW5nZnJhbWV3b3JrLmJvb3QuYXV0b2NvbmZpZ3VyZS5qZGJjLkRhdGFTb3VyY2VBdXRvQ29uZmlndXJhdGlvbjsKaW1wb3J0IG9yZy5zcHJpbmdmcmFtZXdvcmsuY29udGV4dC5hbm5vdGF0aW9uLkNvbXBvbmVudFNjYW47CgovKioKICogQGF1dGhvciBoZWxlbgogKiBAc2luY2UgMjAxOS83LzMKICovCkBTcHJpbmdCb290QXBwbGljYXRpb24oZXhjbHVkZSA9IERhdGFTb3VyY2VBdXRvQ29uZmlndXJhdGlvbi5jbGFzcykKQENvbXBvbmVudFNjYW4oYmFzZVBhY2thZ2VzPXsiY29tLm1hZC52b2QiLCJjb20ubWFkLmNvbW1vbiJ9KQpwdWJsaWMgY2xhc3MgVm9kQXBwbGljYXRpb24gewoKCXB1YmxpYyBzdGF0aWMgdm9pZCBtYWluKFN0cmluZ1tdIGFyZ3MpIHsKCQlTcHJpbmdBcHBsaWNhdGlvbi5ydW4oVm9kQXBwbGljYXRpb24uY2xhc3MsIGFyZ3MpOwoJfQp9Cg==
+package com.mad.vod;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
+import org.springframework.context.annotation.ComponentScan;
+
+/**
+ * @author helen
+ * @since 2019/7/3
+ */
+@SpringBootApplication(exclude = DataSourceAutoConfiguration.class)
+@ComponentScan(basePackages={"com.mad.vod","com.mad.common"})
+public class VodApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(VodApplication.class, args);
+	}
+}

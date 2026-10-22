@@ -1,1 +1,196 @@
-PHRlbXBsYXRlPgogIDxkaXYgY2xhc3M9ImxvZ2luLWNvbnRhaW5lciI+CiAgICA8ZWwtZm9ybSByZWY9ImxvZ2luRm9ybSIgOm1vZGVsPSJsb2dpbkZvcm0iIDpydWxlcz0ibG9naW5SdWxlcyIgY2xhc3M9ImxvZ2luLWZvcm0iIGF1dG8tY29tcGxldGU9Im9uIiBsYWJlbC1wb3NpdGlvbj0ibGVmdCI+CiAgICAgIDxoMyBjbGFzcz0idGl0bGUiPk1BROe9keivvuezu+e7n+WQjuWPsOeuoeeQhuezu+e7nzwvaDM+CiAgICAgIDxlbC1mb3JtLWl0ZW0gcHJvcD0idXNlcm5hbWUiPgogICAgICAgIDxzcGFuIGNsYXNzPSJzdmctY29udGFpbmVyIj4KICAgICAgICAgIDxzdmctaWNvbiBpY29uLWNsYXNzPSJ1c2VyIiAvPgogICAgICAgIDwvc3Bhbj4KICAgICAgICA8ZWwtaW5wdXQgdi1tb2RlbD0ibG9naW5Gb3JtLnVzZXJuYW1lIiBuYW1lPSJ1c2VybmFtZSIgdHlwZT0idGV4dCIgYXV0by1jb21wbGV0ZT0ib24iIHBsYWNlaG9sZGVyPSJ1c2VybmFtZSIgLz4KICAgICAgPC9lbC1mb3JtLWl0ZW0+CiAgICAgIDxlbC1mb3JtLWl0ZW0gcHJvcD0icGFzc3dvcmQiPgogICAgICAgIDxzcGFuIGNsYXNzPSJzdmctY29udGFpbmVyIj4KICAgICAgICAgIDxzdmctaWNvbiBpY29uLWNsYXNzPSJwYXNzd29yZCIgLz4KICAgICAgICA8L3NwYW4+CiAgICAgICAgPGVsLWlucHV0CiAgICAgICAgICA6dHlwZT0icHdkVHlwZSIKICAgICAgICAgIHYtbW9kZWw9ImxvZ2luRm9ybS5wYXNzd29yZCIKICAgICAgICAgIG5hbWU9InBhc3N3b3JkIgogICAgICAgICAgYXV0by1jb21wbGV0ZT0ib24iCiAgICAgICAgICBwbGFjZWhvbGRlcj0icGFzc3dvcmQiCiAgICAgICAgICBAa2V5dXAuZW50ZXIubmF0aXZlPSJoYW5kbGVMb2dpbiIgLz4KICAgICAgICA8c3BhbiBjbGFzcz0ic2hvdy1wd2QiIEBjbGljaz0ic2hvd1B3ZCI+CiAgICAgICAgICA8c3ZnLWljb24gaWNvbi1jbGFzcz0iZXllIiAvPgogICAgICAgIDwvc3Bhbj4KICAgICAgPC9lbC1mb3JtLWl0ZW0+CiAgICAgIDxlbC1mb3JtLWl0ZW0+CiAgICAgICAgPGVsLWJ1dHRvbiA6bG9hZGluZz0ibG9hZGluZyIgdHlwZT0icHJpbWFyeSIgc3R5bGU9IndpZHRoOjEwMCU7IiBAY2xpY2submF0aXZlLnByZXZlbnQ9ImhhbmRsZUxvZ2luIj4KICAgICAgICAgIOeZu+W9lQogICAgICAgIDwvZWwtYnV0dG9uPgogICAgICA8L2VsLWZvcm0taXRlbT4KICAgICAgPGRpdiBjbGFzcz0idGlwcyI+CiAgICAgICAgPHNwYW4gc3R5bGU9Im1hcmdpbi1yaWdodDoyMHB4OyI+dXNlcm5hbWU6IGFkbWluPC9zcGFuPgogICAgICAgIDxzcGFuPiBwYXNzd29yZDogYWRtaW48L3NwYW4+CiAgICAgIDwvZGl2PgogICAgPC9lbC1mb3JtPgogIDwvZGl2Pgo8L3RlbXBsYXRlPgoKPHNjcmlwdD4KaW1wb3J0IHsgaXN2YWxpZFVzZXJuYW1lIH0gZnJvbSAnQC91dGlscy92YWxpZGF0ZScKCmV4cG9ydCBkZWZhdWx0IHsKICBuYW1lOiAnTG9naW4nLAogIGRhdGEoKSB7CiAgICBjb25zdCB2YWxpZGF0ZVVzZXJuYW1lID0gKHJ1bGUsIHZhbHVlLCBjYWxsYmFjaykgPT4gewogICAgICBpZiAoIWlzdmFsaWRVc2VybmFtZSh2YWx1ZSkpIHsKICAgICAgICBjYWxsYmFjayhuZXcgRXJyb3IoJ+ivt+i+k+WFpeato+ehrueahOeUqOaIt+WQjScpKQogICAgICB9IGVsc2UgewogICAgICAgIGNhbGxiYWNrKCkKICAgICAgfQogICAgfQogICAgY29uc3QgdmFsaWRhdGVQYXNzID0gKHJ1bGUsIHZhbHVlLCBjYWxsYmFjaykgPT4gewogICAgICBpZiAodmFsdWUubGVuZ3RoIDwgNSkgewogICAgICAgIGNhbGxiYWNrKG5ldyBFcnJvcign5a+G56CB5LiN6IO95bCP5LqONeS9jScpKQogICAgICB9IGVsc2UgewogICAgICAgIGNhbGxiYWNrKCkKICAgICAgfQogICAgfQogICAgcmV0dXJuIHsKICAgICAgbG9naW5Gb3JtOiB7CiAgICAgICAgdXNlcm5hbWU6ICdhZG1pbicsCiAgICAgICAgcGFzc3dvcmQ6ICdhZG1pbicKICAgICAgfSwKICAgICAgbG9naW5SdWxlczogewogICAgICAgIHVzZXJuYW1lOiBbeyByZXF1aXJlZDogdHJ1ZSwgdHJpZ2dlcjogJ2JsdXInLCB2YWxpZGF0b3I6IHZhbGlkYXRlVXNlcm5hbWUgfV0sCiAgICAgICAgcGFzc3dvcmQ6IFt7IHJlcXVpcmVkOiB0cnVlLCB0cmlnZ2VyOiAnYmx1cicsIHZhbGlkYXRvcjogdmFsaWRhdGVQYXNzIH1dCiAgICAgIH0sCiAgICAgIGxvYWRpbmc6IGZhbHNlLAogICAgICBwd2RUeXBlOiAncGFzc3dvcmQnLAogICAgICByZWRpcmVjdDogdW5kZWZpbmVkCiAgICB9CiAgfSwKICB3YXRjaDogewogICAgJHJvdXRlOiB7CiAgICAgIGhhbmRsZXI6IGZ1bmN0aW9uKHJvdXRlKSB7CiAgICAgICAgdGhpcy5yZWRpcmVjdCA9IHJvdXRlLnF1ZXJ5ICYmIHJvdXRlLnF1ZXJ5LnJlZGlyZWN0CiAgICAgIH0sCiAgICAgIGltbWVkaWF0ZTogdHJ1ZQogICAgfQogIH0sCiAgbWV0aG9kczogewogICAgc2hvd1B3ZCgpIHsKICAgICAgaWYgKHRoaXMucHdkVHlwZSA9PT0gJ3Bhc3N3b3JkJykgewogICAgICAgIHRoaXMucHdkVHlwZSA9ICcnCiAgICAgIH0gZWxzZSB7CiAgICAgICAgdGhpcy5wd2RUeXBlID0gJ3Bhc3N3b3JkJwogICAgICB9CiAgICB9LAogICAgaGFuZGxlTG9naW4oKSB7CiAgICAgIHRoaXMuJHJlZnMubG9naW5Gb3JtLnZhbGlkYXRlKHZhbGlkID0+IHsKICAgICAgICBpZiAodmFsaWQpIHsKICAgICAgICAgIHRoaXMubG9hZGluZyA9IHRydWUKICAgICAgICAgIHRoaXMuJHN0b3JlLmRpc3BhdGNoKCdMb2dpbicsIHRoaXMubG9naW5Gb3JtKS50aGVuKCgpID0+IHsKICAgICAgICAgICAgdGhpcy5sb2FkaW5nID0gZmFsc2UKICAgICAgICAgICAgdGhpcy4kcm91dGVyLnB1c2goeyBwYXRoOiB0aGlzLnJlZGlyZWN0IHx8ICcvJyB9KQogICAgICAgICAgfSkuY2F0Y2goKCkgPT4gewogICAgICAgICAgICB0aGlzLmxvYWRpbmcgPSBmYWxzZQogICAgICAgICAgfSkKICAgICAgICB9IGVsc2UgewogICAgICAgICAgY29uc29sZS5sb2coJ2Vycm9yIHN1Ym1pdCEhJykKICAgICAgICAgIHJldHVybiBmYWxzZQogICAgICAgIH0KICAgICAgfSkKICAgIH0KICB9Cn0KPC9zY3JpcHQ+Cgo8c3R5bGUgcmVsPSJzdHlsZXNoZWV0L3Njc3MiIGxhbmc9InNjc3MiPgokYmc6IzJkM2E0YjsKJGxpZ2h0X2dyYXk6I2VlZTsKCi8qIHJlc2V0IGVsZW1lbnQtdWkgY3NzICovCi5sb2dpbi1jb250YWluZXIgewogIC5lbC1pbnB1dCB7CiAgICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7CiAgICBoZWlnaHQ6IDQ3cHg7CiAgICB3aWR0aDogODUlOwogICAgaW5wdXQgewogICAgICBiYWNrZ3JvdW5kOiB0cmFuc3BhcmVudDsKICAgICAgYm9yZGVyOiAwcHg7CiAgICAgIC13ZWJraXQtYXBwZWFyYW5jZTogbm9uZTsKICAgICAgYm9yZGVyLXJhZGl1czogMHB4OwogICAgICBwYWRkaW5nOiAxMnB4IDVweCAxMnB4IDE1cHg7CiAgICAgIGNvbG9yOiAkbGlnaHRfZ3JheTsKICAgICAgaGVpZ2h0OiA0N3B4OwogICAgICAmOi13ZWJraXQtYXV0b2ZpbGwgewogICAgICAgIC13ZWJraXQtYm94LXNoYWRvdzogMCAwIDBweCAxMDAwcHggJGJnIGluc2V0ICFpbXBvcnRhbnQ7CiAgICAgICAgLXdlYmtpdC10ZXh0LWZpbGwtY29sb3I6ICNmZmYgIWltcG9ydGFudDsKICAgICAgfQogICAgfQogIH0KICAuZWwtZm9ybS1pdGVtIHsKICAgIGJvcmRlcjogMXB4IHNvbGlkIHJnYmEoMjU1LCAyNTUsIDI1NSwgMC4xKTsKICAgIGJhY2tncm91bmQ6IHJnYmEoMCwgMCwgMCwgMC4xKTsKICAgIGJvcmRlci1yYWRpdXM6IDVweDsKICAgIGNvbG9yOiAjNDU0NTQ1OwogIH0KfQoKPC9zdHlsZT4KCjxzdHlsZSByZWw9InN0eWxlc2hlZXQvc2NzcyIgbGFuZz0ic2NzcyIgc2NvcGVkPgokYmc6IzJkM2E0YjsKJGRhcmtfZ3JheTojODg5YWE0OwokbGlnaHRfZ3JheTojZWVlOwoubG9naW4tY29udGFpbmVyIHsKICBwb3NpdGlvbjogZml4ZWQ7CiAgaGVpZ2h0OiAxMDAlOwogIHdpZHRoOiAxMDAlOwogIGJhY2tncm91bmQtY29sb3I6ICRiZzsKICAubG9naW4tZm9ybSB7CiAgICBwb3NpdGlvbjogYWJzb2x1dGU7CiAgICBsZWZ0OiAwOwogICAgcmlnaHQ6IDA7CiAgICB3aWR0aDogNTIwcHg7CiAgICBtYXgtd2lkdGg6IDEwMCU7CiAgICBwYWRkaW5nOiAzNXB4IDM1cHggMTVweCAzNXB4OwogICAgbWFyZ2luOiAxMjBweCBhdXRvOwogIH0KICAudGlwcyB7CiAgICBmb250LXNpemU6IDE0cHg7CiAgICBjb2xvcjogI2ZmZjsKICAgIG1hcmdpbi1ib3R0b206IDEwcHg7CiAgICBzcGFuIHsKICAgICAgJjpmaXJzdC1vZi10eXBlIHsKICAgICAgICBtYXJnaW4tcmlnaHQ6IDE2cHg7CiAgICAgIH0KICAgIH0KICB9CiAgLnN2Zy1jb250YWluZXIgewogICAgcGFkZGluZzogNnB4IDVweCA2cHggMTVweDsKICAgIGNvbG9yOiAkZGFya19ncmF5OwogICAgdmVydGljYWwtYWxpZ246IG1pZGRsZTsKICAgIHdpZHRoOiAzMHB4OwogICAgZGlzcGxheTogaW5saW5lLWJsb2NrOwogIH0KICAudGl0bGUgewogICAgZm9udC1zaXplOiAyNnB4OwogICAgZm9udC13ZWlnaHQ6IDQwMDsKICAgIGNvbG9yOiAkbGlnaHRfZ3JheTsKICAgIG1hcmdpbjogMHB4IGF1dG8gNDBweCBhdXRvOwogICAgdGV4dC1hbGlnbjogY2VudGVyOwogICAgZm9udC13ZWlnaHQ6IGJvbGQ7CiAgfQogIC5zaG93LXB3ZCB7CiAgICBwb3NpdGlvbjogYWJzb2x1dGU7CiAgICByaWdodDogMTBweDsKICAgIHRvcDogN3B4OwogICAgZm9udC1zaXplOiAxNnB4OwogICAgY29sb3I6ICRkYXJrX2dyYXk7CiAgICBjdXJzb3I6IHBvaW50ZXI7CiAgICB1c2VyLXNlbGVjdDogbm9uZTsKICB9Cn0KPC9zdHlsZT4K
+<template>
+  <div class="login-container">
+    <el-form ref="loginForm" :model="loginForm" :rules="loginRules" class="login-form" auto-complete="on" label-position="left">
+      <h3 class="title">MAD网课系统后台管理系统</h3>
+      <el-form-item prop="username">
+        <span class="svg-container">
+          <svg-icon icon-class="user" />
+        </span>
+        <el-input v-model="loginForm.username" name="username" type="text" auto-complete="on" placeholder="username" />
+      </el-form-item>
+      <el-form-item prop="password">
+        <span class="svg-container">
+          <svg-icon icon-class="password" />
+        </span>
+        <el-input
+          :type="pwdType"
+          v-model="loginForm.password"
+          name="password"
+          auto-complete="on"
+          placeholder="password"
+          @keyup.enter.native="handleLogin" />
+        <span class="show-pwd" @click="showPwd">
+          <svg-icon icon-class="eye" />
+        </span>
+      </el-form-item>
+      <el-form-item>
+        <el-button :loading="loading" type="primary" style="width:100%;" @click.native.prevent="handleLogin">
+          登录
+        </el-button>
+      </el-form-item>
+      <div class="tips">
+        <span style="margin-right:20px;">username: admin</span>
+        <span> password: admin</span>
+      </div>
+    </el-form>
+  </div>
+</template>
+
+<script>
+import { isvalidUsername } from '@/utils/validate'
+
+export default {
+  name: 'Login',
+  data() {
+    const validateUsername = (rule, value, callback) => {
+      if (!isvalidUsername(value)) {
+        callback(new Error('请输入正确的用户名'))
+      } else {
+        callback()
+      }
+    }
+    const validatePass = (rule, value, callback) => {
+      if (value.length < 5) {
+        callback(new Error('密码不能小于5位'))
+      } else {
+        callback()
+      }
+    }
+    return {
+      loginForm: {
+        username: 'admin',
+        password: 'admin'
+      },
+      loginRules: {
+        username: [{ required: true, trigger: 'blur', validator: validateUsername }],
+        password: [{ required: true, trigger: 'blur', validator: validatePass }]
+      },
+      loading: false,
+      pwdType: 'password',
+      redirect: undefined
+    }
+  },
+  watch: {
+    $route: {
+      handler: function(route) {
+        this.redirect = route.query && route.query.redirect
+      },
+      immediate: true
+    }
+  },
+  methods: {
+    showPwd() {
+      if (this.pwdType === 'password') {
+        this.pwdType = ''
+      } else {
+        this.pwdType = 'password'
+      }
+    },
+    handleLogin() {
+      this.$refs.loginForm.validate(valid => {
+        if (valid) {
+          this.loading = true
+          this.$store.dispatch('Login', this.loginForm).then(() => {
+            this.loading = false
+            this.$router.push({ path: this.redirect || '/' })
+          }).catch(() => {
+            this.loading = false
+          })
+        } else {
+          console.log('error submit!!')
+          return false
+        }
+      })
+    }
+  }
+}
+</script>
+
+<style rel="stylesheet/scss" lang="scss">
+$bg:#2d3a4b;
+$light_gray:#eee;
+
+/* reset element-ui css */
+.login-container {
+  .el-input {
+    display: inline-block;
+    height: 47px;
+    width: 85%;
+    input {
+      background: transparent;
+      border: 0px;
+      -webkit-appearance: none;
+      border-radius: 0px;
+      padding: 12px 5px 12px 15px;
+      color: $light_gray;
+      height: 47px;
+      &:-webkit-autofill {
+        -webkit-box-shadow: 0 0 0px 1000px $bg inset !important;
+        -webkit-text-fill-color: #fff !important;
+      }
+    }
+  }
+  .el-form-item {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    color: #454545;
+  }
+}
+
+</style>
+
+<style rel="stylesheet/scss" lang="scss" scoped>
+$bg:#2d3a4b;
+$dark_gray:#889aa4;
+$light_gray:#eee;
+.login-container {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background-color: $bg;
+  .login-form {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 520px;
+    max-width: 100%;
+    padding: 35px 35px 15px 35px;
+    margin: 120px auto;
+  }
+  .tips {
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 10px;
+    span {
+      &:first-of-type {
+        margin-right: 16px;
+      }
+    }
+  }
+  .svg-container {
+    padding: 6px 5px 6px 15px;
+    color: $dark_gray;
+    vertical-align: middle;
+    width: 30px;
+    display: inline-block;
+  }
+  .title {
+    font-size: 26px;
+    font-weight: 400;
+    color: $light_gray;
+    margin: 0px auto 40px auto;
+    text-align: center;
+    font-weight: bold;
+  }
+  .show-pwd {
+    position: absolute;
+    right: 10px;
+    top: 7px;
+    font-size: 16px;
+    color: $dark_gray;
+    cursor: pointer;
+    user-select: none;
+  }
+}
+</style>

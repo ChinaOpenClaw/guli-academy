@@ -1,1 +1,22 @@
-cGFja2FnZSBjb20ubWFkLmVkdS5zZXJ2aWNlOwoKaW1wb3J0IGNvbS5iYW9taWRvdS5teWJhdGlzcGx1cy5leHRlbnNpb24uc2VydmljZS5JU2VydmljZTsKaW1wb3J0IGNvbS5tYWQuZWR1LmVudGl0eS5DaGFwdGVyOwppbXBvcnQgY29tLm1hZC5lZHUudm8uQ2hhcHRlclZvOwoKaW1wb3J0IGphdmEudXRpbC5MaXN0OwoKLyoqCiAqIDxwPgogKiDor77nqIsg5pyN5Yqh57G7CiAqIDwvcD4KICoKICogQGF1dGhvciBIZWxlbgogKiBAc2luY2UgMjAxOS0wNi0yNAogKi8KcHVibGljIGludGVyZmFjZSBDaGFwdGVyU2VydmljZSBleHRlbmRzIElTZXJ2aWNlPENoYXB0ZXI+IHsKCgl2b2lkIHJlbW92ZUNoYXB0ZXJCeUlkKFN0cmluZyBpZCk7CgoJTGlzdDxDaGFwdGVyVm8+IG5lc3RlZExpc3QoU3RyaW5nIGNvdXJzZUlkKTsKfQo=
+package com.mad.edu.service;
+
+import com.baomidou.mybatisplus.extension.service.IService;
+import com.mad.edu.entity.Chapter;
+import com.mad.edu.vo.ChapterVo;
+
+import java.util.List;
+
+/**
+ * <p>
+ * 课程 服务类
+ * </p>
+ *
+ * @author Helen
+ * @since 2019-06-24
+ */
+public interface ChapterService extends IService<Chapter> {
+
+	void removeChapterById(String id);
+
+	List<ChapterVo> nestedList(String courseId);
+}

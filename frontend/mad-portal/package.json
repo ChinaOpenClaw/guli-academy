@@ -1,1 +1,20 @@
-ewogICJuYW1lIjogIm1hZC1wb3J0YWwiLAogICJ2ZXJzaW9uIjogIjEuMC4wIiwKICAicHJpdmF0ZSI6IHRydWUsCiAgInR5cGUiOiAibW9kdWxlIiwKICAiZGVzY3JpcHRpb24iOiAiTUFE572R6K++57O757uf5YmN5Y+w6Zeo5oi3IC0gVnVlIDMgKyBWaXRlIOmHjeaehOeJiO+8iOWOnyAwNC7orr7orqEvTUFE572R6K++57O757uf5YmN56uv6aG16Z2iIOmdmeaAgSBIVE1M77yJIiwKICAic2NyaXB0cyI6IHsKICAgICJkZXYiOiAidml0ZSIsCiAgICAiYnVpbGQiOiAidml0ZSBidWlsZCIsCiAgICAicHJldmlldyI6ICJ2aXRlIHByZXZpZXcgLS1ob3N0IgogIH0sCiAgImRlcGVuZGVuY2llcyI6IHsKICAgICJ2dWUiOiAiXjMuNS4xMyIsCiAgICAidnVlLXJvdXRlciI6ICJeNC41LjAiCiAgfSwKICAiZGV2RGVwZW5kZW5jaWVzIjogewogICAgIkB2aXRlanMvcGx1Z2luLXZ1ZSI6ICJeNS4yLjEiLAogICAgInZpdGUiOiAiXjUuNC4xMSIKICB9Cn0K
+{
+  "name": "mad-portal",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "MAD网课系统前台门户 - Vue 3 + Vite 重构版（原 04.设计/MAD网课系统前端页面 静态 HTML）",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --host"
+  },
+  "dependencies": {
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "vite": "^5.4.11"
+  }
+}

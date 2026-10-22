@@ -1,1 +1,161 @@
-QFJFTSAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCkBSRU0gTGljZW5zZWQgdG8gdGhlIEFwYWNoZSBTb2Z0d2FyZSBGb3VuZGF0aW9uIChBU0YpIHVuZGVyIG9uZQpAUkVNIG9yIG1vcmUgY29udHJpYnV0b3IgbGljZW5zZSBhZ3JlZW1lbnRzLiAgU2VlIHRoZSBOT1RJQ0UgZmlsZQpAUkVNIGRpc3RyaWJ1dGVkIHdpdGggdGhpcyB3b3JrIGZvciBhZGRpdGlvbmFsIGluZm9ybWF0aW9uCkBSRU0gcmVnYXJkaW5nIGNvcHlyaWdodCBvd25lcnNoaXAuICBUaGUgQVNGIGxpY2Vuc2VzIHRoaXMgZmlsZQpAUkVNIHRvIHlvdSB1bmRlciB0aGUgQXBhY2hlIExpY2Vuc2UsIFZlcnNpb24gMi4wICh0aGUKQFJFTSAiTGljZW5zZSIpOyB5b3UgbWF5IG5vdCB1c2UgdGhpcyBmaWxlIGV4Y2VwdCBpbiBjb21wbGlhbmNlCkBSRU0gd2l0aCB0aGUgTGljZW5zZS4gIFlvdSBtYXkgb2J0YWluIGEgY29weSBvZiB0aGUgTGljZW5zZSBhdApAUkVNCkBSRU0gICAgaHR0cHM6Ly93d3cuYXBhY2hlLm9yZy9saWNlbnNlcy9MSUNFTlNFLTIuMApAUkVNCkBSRU0gVW5sZXNzIHJlcXVpcmVkIGJ5IGFwcGxpY2FibGUgbGF3IG9yIGFncmVlZCB0byBpbiB3cml0aW5nLApAUkVNIHNvZnR3YXJlIGRpc3RyaWJ1dGVkIHVuZGVyIHRoZSBMaWNlbnNlIGlzIGRpc3RyaWJ1dGVkIG9uIGFuCkBSRU0gIkFTIElTIiBCQVNJUywgV0lUSE9VVCBXQVJSQU5USUVTIE9SIENPTkRJVElPTlMgT0YgQU5ZCkBSRU0gS0lORCwgZWl0aGVyIGV4cHJlc3Mgb3IgaW1wbGllZC4gIFNlZSB0aGUgTGljZW5zZSBmb3IgdGhlCkBSRU0gc3BlY2lmaWMgbGFuZ3VhZ2UgZ292ZXJuaW5nIHBlcm1pc3Npb25zIGFuZCBsaW1pdGF0aW9ucwpAUkVNIHVuZGVyIHRoZSBMaWNlbnNlLgpAUkVNIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KCkBSRU0gLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQpAUkVNIE1hdmVuMiBTdGFydCBVcCBCYXRjaCBzY3JpcHQKQFJFTQpAUkVNIFJlcXVpcmVkIEVOViB2YXJzOgpAUkVNIEpBVkFfSE9NRSAtIGxvY2F0aW9uIG9mIGEgSkRLIGhvbWUgZGlyCkBSRU0KQFJFTSBPcHRpb25hbCBFTlYgdmFycwpAUkVNIE0yX0hPTUUgLSBsb2NhdGlvbiBvZiBtYXZlbjIncyBpbnN0YWxsZWQgaG9tZSBkaXIKQFJFTSBNQVZFTl9CQVRDSF9FQ0hPIC0gc2V0IHRvICdvbicgdG8gZW5hYmxlIHRoZSBlY2hvaW5nIG9mIHRoZSBiYXRjaCBjb21tYW5kcwpAUkVNIE1BVkVOX0JBVENIX1BBVVNFIC0gc2V0IHRvICdvbicgdG8gd2FpdCBmb3IgYSBrZXkgc3Ryb2tlIGJlZm9yZSBlbmRpbmcKQFJFTSBNQVZFTl9PUFRTIC0gcGFyYW1ldGVycyBwYXNzZWQgdG8gdGhlIEphdmEgVk0gd2hlbiBydW5uaW5nIE1hdmVuCkBSRU0gICAgIGUuZy4gdG8gZGVidWcgTWF2ZW4gaXRzZWxmLCB1c2UKQFJFTSBzZXQgTUFWRU5fT1BUUz0tWGRlYnVnIC1YcnVuamR3cDp0cmFuc3BvcnQ9ZHRfc29ja2V0LHNlcnZlcj15LHN1c3BlbmQ9eSxhZGRyZXNzPTgwMDAKQFJFTSBNQVZFTl9TS0lQX1JDIC0gZmxhZyB0byBkaXNhYmxlIGxvYWRpbmcgb2YgbWF2ZW5yYyBmaWxlcwpAUkVNIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KCkBSRU0gQmVnaW4gYWxsIFJFTSBsaW5lcyB3aXRoICdAJyBpbiBjYXNlIE1BVkVOX0JBVENIX0VDSE8gaXMgJ29uJwpAZWNobyBvZmYKQFJFTSBzZXQgdGl0bGUgb2YgY29tbWFuZCB3aW5kb3cKdGl0bGUgJTAKQFJFTSBlbmFibGUgZWNob2luZyBteSBzZXR0aW5nIE1BVkVOX0JBVENIX0VDSE8gdG8gJ29uJwpAaWYgIiVNQVZFTl9CQVRDSF9FQ0hPJSIgPT0gIm9uIiAgZWNobyAlTUFWRU5fQkFUQ0hfRUNITyUKCkBSRU0gc2V0ICVIT01FJSB0byBlcXVpdmFsZW50IG9mICRIT01FCmlmICIlSE9NRSUiID09ICIiIChzZXQgIkhPTUU9JUhPTUVEUklWRSUlSE9NRVBBVEglIikKCkBSRU0gRXhlY3V0ZSBhIHVzZXIgZGVmaW5lZCBzY3JpcHQgYmVmb3JlIHRoaXMgb25lCmlmIG5vdCAiJU1BVkVOX1NLSVBfUkMlIiA9PSAiIiBnb3RvIHNraXBSY1ByZQpAUkVNIGNoZWNrIGZvciBwcmUgc2NyaXB0LCBvbmNlIHdpdGggbGVnYWN5IC5iYXQgZW5kaW5nIGFuZCBvbmNlIHdpdGggLmNtZCBlbmRpbmcKaWYgZXhpc3QgIiVIT01FJVxtYXZlbnJjX3ByZS5iYXQiIGNhbGwgIiVIT01FJVxtYXZlbnJjX3ByZS5iYXQiCmlmIGV4aXN0ICIlSE9NRSVcbWF2ZW5yY19wcmUuY21kIiBjYWxsICIlSE9NRSVcbWF2ZW5yY19wcmUuY21kIgo6c2tpcFJjUHJlCgpAc2V0bG9jYWwKCnNldCBFUlJPUl9DT0RFPTAKCkBSRU0gVG8gaXNvbGF0ZSBpbnRlcm5hbCB2YXJpYWJsZXMgZnJvbSBwb3NzaWJsZSBwb3N0IHNjcmlwdHMsIHdlIHVzZSBhbm90aGVyIHNldGxvY2FsCkBzZXRsb2NhbAoKQFJFTSA9PT09IFNUQVJUIFZBTElEQVRJT04gPT09PQppZiBub3QgIiVKQVZBX0hPTUUlIiA9PSAiIiBnb3RvIE9rSkhvbWUKCmVjaG8uCmVjaG8gRXJyb3I6IEpBVkFfSE9NRSBub3QgZm91bmQgaW4geW91ciBlbnZpcm9ubWVudC4gPiYyCmVjaG8gUGxlYXNlIHNldCB0aGUgSkFWQV9IT01FIHZhcmlhYmxlIGluIHlvdXIgZW52aXJvbm1lbnQgdG8gbWF0Y2ggdGhlID4mMgplY2hvIGxvY2F0aW9uIG9mIHlvdXIgSmF2YSBpbnN0YWxsYXRpb24uID4mMgplY2hvLgpnb3RvIGVycm9yCgo6T2tKSG9tZQppZiBleGlzdCAiJUpBVkFfSE9NRSVcYmluXGphdmEuZXhlIiBnb3RvIGluaXQKCmVjaG8uCmVjaG8gRXJyb3I6IEpBVkFfSE9NRSBpcyBzZXQgdG8gYW4gaW52YWxpZCBkaXJlY3RvcnkuID4mMgplY2hvIEpBVkFfSE9NRSA9ICIlSkFWQV9IT01FJSIgPiYyCmVjaG8gUGxlYXNlIHNldCB0aGUgSkFWQV9IT01FIHZhcmlhYmxlIGluIHlvdXIgZW52aXJvbm1lbnQgdG8gbWF0Y2ggdGhlID4mMgplY2hvIGxvY2F0aW9uIG9mIHlvdXIgSmF2YSBpbnN0YWxsYXRpb24uID4mMgplY2hvLgpnb3RvIGVycm9yCgpAUkVNID09PT0gRU5EIFZBTElEQVRJT04gPT09PQoKOmluaXQKCkBSRU0gRmluZCB0aGUgcHJvamVjdCBiYXNlIGRpciwgaS5lLiB0aGUgZGlyZWN0b3J5IHRoYXQgY29udGFpbnMgdGhlIGZvbGRlciAiLm12biIuCkBSRU0gRmFsbGJhY2sgdG8gY3VycmVudCB3b3JraW5nIGRpcmVjdG9yeSBpZiBub3QgZm91bmQuCgpzZXQgTUFWRU5fUFJPSkVDVEJBU0VESVI9JU1BVkVOX0JBU0VESVIlCklGIE5PVCAiJU1BVkVOX1BST0pFQ1RCQVNFRElSJSI9PSIiIGdvdG8gZW5kRGV0ZWN0QmFzZURpcgoKc2V0IEVYRUNfRElSPSVDRCUKc2V0IFdESVI9JUVYRUNfRElSJQo6ZmluZEJhc2VEaXIKSUYgRVhJU1QgIiVXRElSJSJcLm12biBnb3RvIGJhc2VEaXJGb3VuZApjZCAuLgpJRiAiJVdESVIlIj09IiVDRCUiIGdvdG8gYmFzZURpck5vdEZvdW5kCnNldCBXRElSPSVDRCUKZ290byBmaW5kQmFzZURpcgoKOmJhc2VEaXJGb3VuZApzZXQgTUFWRU5fUFJPSkVDVEJBU0VESVI9JVdESVIlCmNkICIlRVhFQ19ESVIlIgpnb3RvIGVuZERldGVjdEJhc2VEaXIKCjpiYXNlRGlyTm90Rm91bmQKc2V0IE1BVkVOX1BST0pFQ1RCQVNFRElSPSVFWEVDX0RJUiUKY2QgIiVFWEVDX0RJUiUiCgo6ZW5kRGV0ZWN0QmFzZURpcgoKSUYgTk9UIEVYSVNUICIlTUFWRU5fUFJPSkVDVEJBU0VESVIlXC5tdm5canZtLmNvbmZpZyIgZ290byBlbmRSZWFkQWRkaXRpb25hbENvbmZpZwoKQHNldGxvY2FsIEVuYWJsZUV4dGVuc2lvbnMgRW5hYmxlRGVsYXllZEV4cGFuc2lvbgpmb3IgL0YgInVzZWJhY2txIGRlbGltcz0iICUlYSBpbiAoIiVNQVZFTl9QUk9KRUNUQkFTRURJUiVcLm12blxqdm0uY29uZmlnIikgZG8gc2V0IEpWTV9DT05GSUdfTUFWRU5fUFJPUFM9IUpWTV9DT05GSUdfTUFWRU5fUFJPUFMhICUlYQpAZW5kbG9jYWwgJiBzZXQgSlZNX0NPTkZJR19NQVZFTl9QUk9QUz0lSlZNX0NPTkZJR19NQVZFTl9QUk9QUyUKCjplbmRSZWFkQWRkaXRpb25hbENvbmZpZwoKU0VUIE1BVkVOX0pBVkFfRVhFPSIlSkFWQV9IT01FJVxiaW5camF2YS5leGUiCnNldCBXUkFQUEVSX0pBUj0iJU1BVkVOX1BST0pFQ1RCQVNFRElSJVwubXZuXHdyYXBwZXJcbWF2ZW4td3JhcHBlci5qYXIiCnNldCBXUkFQUEVSX0xBVU5DSEVSPW9yZy5hcGFjaGUubWF2ZW4ud3JhcHBlci5NYXZlbldyYXBwZXJNYWluCgpzZXQgRE9XTkxPQURfVVJMPSJodHRwczovL3JlcG8ubWF2ZW4uYXBhY2hlLm9yZy9tYXZlbjIvaW8vdGFrYXJpL21hdmVuLXdyYXBwZXIvMC40LjIvbWF2ZW4td3JhcHBlci0wLjQuMi5qYXIiCkZPUiAvRiAidG9rZW5zPTEsMiBkZWxpbXM9PSIgJSVBIElOICglTUFWRU5fUFJPSkVDVEJBU0VESVIlXC5tdm5cd3JhcHBlclxtYXZlbi13cmFwcGVyLnByb3BlcnRpZXMpIERPICgKCUlGICIlJUEiPT0id3JhcHBlclVybCIgU0VUIERPV05MT0FEX1VSTD0lJUIgCikKCkBSRU0gRXh0ZW5zaW9uIHRvIGFsbG93IGF1dG9tYXRpY2FsbHkgZG93bmxvYWRpbmcgdGhlIG1hdmVuLXdyYXBwZXIuamFyIGZyb20gTWF2ZW4tY2VudHJhbApAUkVNIFRoaXMgYWxsb3dzIHVzaW5nIHRoZSBtYXZlbiB3cmFwcGVyIGluIHByb2plY3RzIHRoYXQgcHJvaGliaXQgY2hlY2tpbmcgaW4gYmluYXJ5IGRhdGEuCmlmIGV4aXN0ICVXUkFQUEVSX0pBUiUgKAogICAgZWNobyBGb3VuZCAlV1JBUFBFUl9KQVIlCikgZWxzZSAoCiAgICBlY2hvIENvdWxkbid0IGZpbmQgJVdSQVBQRVJfSkFSJSwgZG93bmxvYWRpbmcgaXQgLi4uCgllY2hvIERvd25sb2FkaW5nIGZyb206ICVET1dOTE9BRF9VUkwlCiAgICBwb3dlcnNoZWxsIC1Db21tYW5kICIoTmV3LU9iamVjdCBOZXQuV2ViQ2xpZW50KS5Eb3dubG9hZEZpbGUoJyVET1dOTE9BRF9VUkwlJywgJyVXUkFQUEVSX0pBUiUnKSIKICAgIGVjaG8gRmluaXNoZWQgZG93bmxvYWRpbmcgJVdSQVBQRVJfSkFSJQopCkBSRU0gRW5kIG9mIGV4dGVuc2lvbgoKJU1BVkVOX0pBVkFfRVhFJSAlSlZNX0NPTkZJR19NQVZFTl9QUk9QUyUgJU1BVkVOX09QVFMlICVNQVZFTl9ERUJVR19PUFRTJSAtY2xhc3NwYXRoICVXUkFQUEVSX0pBUiUgIi1EbWF2ZW4ubXVsdGlNb2R1bGVQcm9qZWN0RGlyZWN0b3J5PSVNQVZFTl9QUk9KRUNUQkFTRURJUiUiICVXUkFQUEVSX0xBVU5DSEVSJSAlTUFWRU5fQ09ORklHJSAlKgppZiBFUlJPUkxFVkVMIDEgZ290byBlcnJvcgpnb3RvIGVuZAoKOmVycm9yCnNldCBFUlJPUl9DT0RFPTEKCjplbmQKQGVuZGxvY2FsICYgc2V0IEVSUk9SX0NPREU9JUVSUk9SX0NPREUlCgppZiBub3QgIiVNQVZFTl9TS0lQX1JDJSIgPT0gIiIgZ290byBza2lwUmNQb3N0CkBSRU0gY2hlY2sgZm9yIHBvc3Qgc2NyaXB0LCBvbmNlIHdpdGggbGVnYWN5IC5iYXQgZW5kaW5nIGFuZCBvbmNlIHdpdGggLmNtZCBlbmRpbmcKaWYgZXhpc3QgIiVIT01FJVxtYXZlbnJjX3Bvc3QuYmF0IiBjYWxsICIlSE9NRSVcbWF2ZW5yY19wb3N0LmJhdCIKaWYgZXhpc3QgIiVIT01FJVxtYXZlbnJjX3Bvc3QuY21kIiBjYWxsICIlSE9NRSVcbWF2ZW5yY19wb3N0LmNtZCIKOnNraXBSY1Bvc3QKCkBSRU0gcGF1c2UgdGhlIHNjcmlwdCBpZiBNQVZFTl9CQVRDSF9QQVVTRSBpcyBzZXQgdG8gJ29uJwppZiAiJU1BVkVOX0JBVENIX1BBVVNFJSIgPT0gIm9uIiBwYXVzZQoKaWYgIiVNQVZFTl9URVJNSU5BVEVfQ01EJSIgPT0gIm9uIiBleGl0ICVFUlJPUl9DT0RFJQoKZXhpdCAvQiAlRVJST1JfQ09ERSUK
+@REM ----------------------------------------------------------------------------
+@REM Licensed to the Apache Software Foundation (ASF) under one
+@REM or more contributor license agreements.  See the NOTICE file
+@REM distributed with this work for additional information
+@REM regarding copyright ownership.  The ASF licenses this file
+@REM to you under the Apache License, Version 2.0 (the
+@REM "License"); you may not use this file except in compliance
+@REM with the License.  You may obtain a copy of the License at
+@REM
+@REM    https://www.apache.org/licenses/LICENSE-2.0
+@REM
+@REM Unless required by applicable law or agreed to in writing,
+@REM software distributed under the License is distributed on an
+@REM "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+@REM KIND, either express or implied.  See the License for the
+@REM specific language governing permissions and limitations
+@REM under the License.
+@REM ----------------------------------------------------------------------------
+
+@REM ----------------------------------------------------------------------------
+@REM Maven2 Start Up Batch script
+@REM
+@REM Required ENV vars:
+@REM JAVA_HOME - location of a JDK home dir
+@REM
+@REM Optional ENV vars
+@REM M2_HOME - location of maven2's installed home dir
+@REM MAVEN_BATCH_ECHO - set to 'on' to enable the echoing of the batch commands
+@REM MAVEN_BATCH_PAUSE - set to 'on' to wait for a key stroke before ending
+@REM MAVEN_OPTS - parameters passed to the Java VM when running Maven
+@REM     e.g. to debug Maven itself, use
+@REM set MAVEN_OPTS=-Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=y,address=8000
+@REM MAVEN_SKIP_RC - flag to disable loading of mavenrc files
+@REM ----------------------------------------------------------------------------
+
+@REM Begin all REM lines with '@' in case MAVEN_BATCH_ECHO is 'on'
+@echo off
+@REM set title of command window
+title %0
+@REM enable echoing my setting MAVEN_BATCH_ECHO to 'on'
+@if "%MAVEN_BATCH_ECHO%" == "on"  echo %MAVEN_BATCH_ECHO%
+
+@REM set %HOME% to equivalent of $HOME
+if "%HOME%" == "" (set "HOME=%HOMEDRIVE%%HOMEPATH%")
+
+@REM Execute a user defined script before this one
+if not "%MAVEN_SKIP_RC%" == "" goto skipRcPre
+@REM check for pre script, once with legacy .bat ending and once with .cmd ending
+if exist "%HOME%\mavenrc_pre.bat" call "%HOME%\mavenrc_pre.bat"
+if exist "%HOME%\mavenrc_pre.cmd" call "%HOME%\mavenrc_pre.cmd"
+:skipRcPre
+
+@setlocal
+
+set ERROR_CODE=0
+
+@REM To isolate internal variables from possible post scripts, we use another setlocal
+@setlocal
+
+@REM ==== START VALIDATION ====
+if not "%JAVA_HOME%" == "" goto OkJHome
+
+echo.
+echo Error: JAVA_HOME not found in your environment. >&2
+echo Please set the JAVA_HOME variable in your environment to match the >&2
+echo location of your Java installation. >&2
+echo.
+goto error
+
+:OkJHome
+if exist "%JAVA_HOME%\bin\java.exe" goto init
+
+echo.
+echo Error: JAVA_HOME is set to an invalid directory. >&2
+echo JAVA_HOME = "%JAVA_HOME%" >&2
+echo Please set the JAVA_HOME variable in your environment to match the >&2
+echo location of your Java installation. >&2
+echo.
+goto error
+
+@REM ==== END VALIDATION ====
+
+:init
+
+@REM Find the project base dir, i.e. the directory that contains the folder ".mvn".
+@REM Fallback to current working directory if not found.
+
+set MAVEN_PROJECTBASEDIR=%MAVEN_BASEDIR%
+IF NOT "%MAVEN_PROJECTBASEDIR%"=="" goto endDetectBaseDir
+
+set EXEC_DIR=%CD%
+set WDIR=%EXEC_DIR%
+:findBaseDir
+IF EXIST "%WDIR%"\.mvn goto baseDirFound
+cd ..
+IF "%WDIR%"=="%CD%" goto baseDirNotFound
+set WDIR=%CD%
+goto findBaseDir
+
+:baseDirFound
+set MAVEN_PROJECTBASEDIR=%WDIR%
+cd "%EXEC_DIR%"
+goto endDetectBaseDir
+
+:baseDirNotFound
+set MAVEN_PROJECTBASEDIR=%EXEC_DIR%
+cd "%EXEC_DIR%"
+
+:endDetectBaseDir
+
+IF NOT EXIST "%MAVEN_PROJECTBASEDIR%\.mvn\jvm.config" goto endReadAdditionalConfig
+
+@setlocal EnableExtensions EnableDelayedExpansion
+for /F "usebackq delims=" %%a in ("%MAVEN_PROJECTBASEDIR%\.mvn\jvm.config") do set JVM_CONFIG_MAVEN_PROPS=!JVM_CONFIG_MAVEN_PROPS! %%a
+@endlocal & set JVM_CONFIG_MAVEN_PROPS=%JVM_CONFIG_MAVEN_PROPS%
+
+:endReadAdditionalConfig
+
+SET MAVEN_JAVA_EXE="%JAVA_HOME%\bin\java.exe"
+set WRAPPER_JAR="%MAVEN_PROJECTBASEDIR%\.mvn\wrapper\maven-wrapper.jar"
+set WRAPPER_LAUNCHER=org.apache.maven.wrapper.MavenWrapperMain
+
+set DOWNLOAD_URL="https://repo.maven.apache.org/maven2/io/takari/maven-wrapper/0.4.2/maven-wrapper-0.4.2.jar"
+FOR /F "tokens=1,2 delims==" %%A IN (%MAVEN_PROJECTBASEDIR%\.mvn\wrapper\maven-wrapper.properties) DO (
+	IF "%%A"=="wrapperUrl" SET DOWNLOAD_URL=%%B 
+)
+
+@REM Extension to allow automatically downloading the maven-wrapper.jar from Maven-central
+@REM This allows using the maven wrapper in projects that prohibit checking in binary data.
+if exist %WRAPPER_JAR% (
+    echo Found %WRAPPER_JAR%
+) else (
+    echo Couldn't find %WRAPPER_JAR%, downloading it ...
+	echo Downloading from: %DOWNLOAD_URL%
+    powershell -Command "(New-Object Net.WebClient).DownloadFile('%DOWNLOAD_URL%', '%WRAPPER_JAR%')"
+    echo Finished downloading %WRAPPER_JAR%
+)
+@REM End of extension
+
+%MAVEN_JAVA_EXE% %JVM_CONFIG_MAVEN_PROPS% %MAVEN_OPTS% %MAVEN_DEBUG_OPTS% -classpath %WRAPPER_JAR% "-Dmaven.multiModuleProjectDirectory=%MAVEN_PROJECTBASEDIR%" %WRAPPER_LAUNCHER% %MAVEN_CONFIG% %*
+if ERRORLEVEL 1 goto error
+goto end
+
+:error
+set ERROR_CODE=1
+
+:end
+@endlocal & set ERROR_CODE=%ERROR_CODE%
+
+if not "%MAVEN_SKIP_RC%" == "" goto skipRcPost
+@REM check for post script, once with legacy .bat ending and once with .cmd ending
+if exist "%HOME%\mavenrc_post.bat" call "%HOME%\mavenrc_post.bat"
+if exist "%HOME%\mavenrc_post.cmd" call "%HOME%\mavenrc_post.cmd"
+:skipRcPost
+
+@REM pause the script if MAVEN_BATCH_PAUSE is set to 'on'
+if "%MAVEN_BATCH_PAUSE%" == "on" pause
+
+if "%MAVEN_TERMINATE_CMD%" == "on" exit %ERROR_CODE%
+
+exit /B %ERROR_CODE%

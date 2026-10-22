@@ -1,1 +1,26 @@
-cGFja2FnZSBjb20ubWFkLmVkdS5zZXJ2aWNlOwoKaW1wb3J0IGNvbS5iYW9taWRvdS5teWJhdGlzcGx1cy5leHRlbnNpb24uc2VydmljZS5JU2VydmljZTsKaW1wb3J0IGNvbS5tYWQuZWR1LmVudGl0eS5TdWJqZWN0OwppbXBvcnQgY29tLm1hZC5lZHUudm8uU3ViamVjdE5lc3RlZFZvOwppbXBvcnQgY29tLm1hZC5lZHUudm8uU3ViamVjdFZvMjsKaW1wb3J0IG9yZy5zcHJpbmdmcmFtZXdvcmsud2ViLm11bHRpcGFydC5NdWx0aXBhcnRGaWxlOwoKaW1wb3J0IGphdmEudXRpbC5MaXN0OwoKLyoqCiAqIDxwPgogKiDor77nqIvnp5Hnm64g5pyN5Yqh57G7CiAqIDwvcD4KICoKICogQGF1dGhvciBIZWxlbgogKiBAc2luY2UgMjAxOS0wNi0yNAogKi8KcHVibGljIGludGVyZmFjZSBTdWJqZWN0U2VydmljZSBleHRlbmRzIElTZXJ2aWNlPFN1YmplY3Q+IHsKCglMaXN0PFN0cmluZz4gYmF0Y2hJbXBvcnQoTXVsdGlwYXJ0RmlsZSBmaWxlKSB0aHJvd3MgRXhjZXB0aW9uOwoKCUxpc3Q8U3ViamVjdE5lc3RlZFZvPiBuZXN0ZWRMaXN0KCk7CgoJTGlzdDxTdWJqZWN0Vm8yPiBuZXN0ZWRMaXN0MigpOwp9Cg==
+package com.mad.edu.service;
+
+import com.baomidou.mybatisplus.extension.service.IService;
+import com.mad.edu.entity.Subject;
+import com.mad.edu.vo.SubjectNestedVo;
+import com.mad.edu.vo.SubjectVo2;
+import org.springframework.web.multipart.MultipartFile;
+
+import java.util.List;
+
+/**
+ * <p>
+ * 课程科目 服务类
+ * </p>
+ *
+ * @author Helen
+ * @since 2019-06-24
+ */
+public interface SubjectService extends IService<Subject> {
+
+	List<String> batchImport(MultipartFile file) throws Exception;
+
+	List<SubjectNestedVo> nestedList();
+
+	List<SubjectVo2> nestedList2();
+}

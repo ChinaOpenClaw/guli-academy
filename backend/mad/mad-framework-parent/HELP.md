@@ -1,1 +1,7 @@
-IyBHZXR0aW5nIFN0YXJ0ZWQKCiMjIyBSZWZlcmVuY2UgRG9jdW1lbnRhdGlvbgpGb3IgZnVydGhlciByZWZlcmVuY2UsIHBsZWFzZSBjb25zaWRlciB0aGUgZm9sbG93aW5nIHNlY3Rpb25zOgoKKiBbT2ZmaWNpYWwgQXBhY2hlIE1hdmVuIGRvY3VtZW50YXRpb25dKGh0dHBzOi8vbWF2ZW4uYXBhY2hlLm9yZy9ndWlkZXMvaW5kZXguaHRtbCkKCg==
+# Getting Started
+
+### Reference Documentation
+For further reference, please consider the following sections:
+
+* [Official Apache Maven documentation](https://maven.apache.org/guides/index.html)
+

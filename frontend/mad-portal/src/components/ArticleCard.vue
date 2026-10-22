@@ -1,1 +1,18 @@
-PHRlbXBsYXRlPgogIDxyb3V0ZXItbGluayBjbGFzcz0iYXJ0aWNsZS1jYXJkIiA6dG89ImAvYXJ0aWNsZXMvJHthcnRpY2xlLmlkfWAiPgogICAgPGRpdiBjbGFzcz0iYS1jb3ZlciI+PGltZyA6c3JjPSJhcnRpY2xlLmNvdmVyIiA6YWx0PSJhcnRpY2xlLnRpdGxlIiBsb2FkaW5nPSJsYXp5IiAvPjwvZGl2PgogICAgPGRpdiBjbGFzcz0iYS1ib2R5Ij4KICAgICAgPGRpdiBjbGFzcz0iYS10aXRsZSB0eHRPZiI+e3sgYXJ0aWNsZS50aXRsZSB9fTwvZGl2PgogICAgICA8ZGl2IGNsYXNzPSJhLWV4Y2VycHQiPnt7IGFydGljbGUuZXhjZXJwdCB9fTwvZGl2PgogICAgICA8ZGl2IGNsYXNzPSJjLTk5OSBtdDEwIiBzdHlsZT0iZm9udC1zaXplOjEycHgiPgogICAgICAgIHt7IGFydGljbGUuYXV0aG9yIH19IMK3IHt7IGFydGljbGUuZGF0ZSB9fSDCtyB7eyBhcnRpY2xlLnZpZXdzIH196ZiF6K+7CiAgICAgIDwvZGl2PgogICAgPC9kaXY+CiAgPC9yb3V0ZXItbGluaz4KPC90ZW1wbGF0ZT4KCjxzY3JpcHQgc2V0dXA+CmRlZmluZVByb3BzKHsKICBhcnRpY2xlOiB7IHR5cGU6IE9iamVjdCwgcmVxdWlyZWQ6IHRydWUgfQp9KQo8L3NjcmlwdD4K
+<template>
+  <router-link class="article-card" :to="`/articles/${article.id}`">
+    <div class="a-cover"><img :src="article.cover" :alt="article.title" loading="lazy" /></div>
+    <div class="a-body">
+      <div class="a-title txtOf">{{ article.title }}</div>
+      <div class="a-excerpt">{{ article.excerpt }}</div>
+      <div class="c-999 mt10" style="font-size:12px">
+        {{ article.author }} · {{ article.date }} · {{ article.views }}阅读
+      </div>
+    </div>
+  </router-link>
+</template>
+
+<script setup>
+defineProps({
+  article: { type: Object, required: true }
+})
+</script>

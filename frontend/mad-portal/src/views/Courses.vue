@@ -1,1 +1,88 @@
-PHRlbXBsYXRlPgogIDxkaXYgY2xhc3M9ImNvbnRhaW5lciBtdDIwIj4KICAgIDxTZWN0aW9uVGl0bGUgdGl0bGU9IuWFqOmDqOivvueoiyIgOnN1YnRpdGxlPSJg5YWxICR7ZmlsdGVyZWQubGVuZ3RofSDpl6jor77nqItgIiAvPgoKICAgIDwhLS0g562b6YCJIC0tPgogICAgPGRpdiBjbGFzcz0iYy1zb3J0LWJveCBtdDE1Ij4KICAgICAgPGRpdiBjbGFzcz0iYy1zLWRsIj4KICAgICAgICA8ZGw+CiAgICAgICAgICA8ZHQ+5YiG57G7PC9kdD4KICAgICAgICAgIDxkZD4KICAgICAgICAgICAgPHVsPgogICAgICAgICAgICAgIDxsaSB2LWZvcj0iY2F0IGluIGNhdGVnb3JpZXMiIDprZXk9ImNhdCIKICAgICAgICAgICAgICAgICAgOmNsYXNzPSJ7IGFjdGl2ZTogYWN0aXZlQ2F0ID09PSBjYXQgfSIgQGNsaWNrPSJzZXRDYXQoY2F0KSI+e3sgY2F0IH19PC9saT4KICAgICAgICAgICAgPC91bD4KICAgICAgICAgIDwvZGQ+CiAgICAgICAgPC9kbD4KICAgICAgICA8ZGw+CiAgICAgICAgICA8ZHQ+6Zq+5bqmPC9kdD4KICAgICAgICAgIDxkZD4KICAgICAgICAgICAgPHVsPgogICAgICAgICAgICAgIDxsaSB2LWZvcj0ibHYgaW4gbGV2ZWxzIiA6a2V5PSJsdiIKICAgICAgICAgICAgICAgICAgOmNsYXNzPSJ7IGFjdGl2ZTogYWN0aXZlTGV2ZWwgPT09IGx2IH0iIEBjbGljaz0ic2V0TGV2ZWwobHYpIj57eyBsdiB9fTwvbGk+CiAgICAgICAgICAgIDwvdWw+CiAgICAgICAgICA8L2RkPgogICAgICAgIDwvZGw+CiAgICAgIDwvZGl2PgogICAgICA8ZGl2IGNsYXNzPSJqcy10YXAgbXQxNSI+CiAgICAgICAgPGEgOmNsYXNzPSJ7IGFjdGl2ZTogc29ydCA9PT0gJ2hvdCcgfSIgQGNsaWNrPSJzb3J0ID0gJ2hvdCciPuacgOeDrTwvYT4KICAgICAgICA8YSA6Y2xhc3M9InsgYWN0aXZlOiBzb3J0ID09PSAnbmV3JyB9IiBAY2xpY2s9InNvcnQgPSAnbmV3JyI+5pyA5pawPC9hPgogICAgICA8L2Rpdj4KICAgIDwvZGl2PgoKICAgIDwhLS0g5YiX6KGoIC0tPgogICAgPGRpdiBjbGFzcz0iY29tbS1jb3Vyc2UtbGlzdCBtdDIwIiB2LWlmPSJwYWdlQ291cnNlcy5sZW5ndGgiPgogICAgICA8dWw+CiAgICAgICAgPENvdXJzZUNhcmQgdi1mb3I9ImMgaW4gcGFnZUNvdXJzZXMiIDprZXk9ImMuaWQiIDpjb3Vyc2U9ImMiIC8+CiAgICAgIDwvdWw+CiAgICA8L2Rpdj4KICAgIDxkaXYgY2xhc3M9ImVtcHR5IiB2LWVsc2U+5rKh5pyJ56ym5ZCI5p2h5Lu255qE6K++56iL77yM5o2i5Liq562b6YCJ5p2h5Lu26K+V6K+V772ePC9kaXY+CgogICAgPFBhZ2luYXRpb24gOmN1cnJlbnQ9InBhZ2UiIDp0b3RhbC1wYWdlcz0idG90YWxQYWdlcyIgQGNoYW5nZT0ib25QYWdlIiAvPgogIDwvZGl2Pgo8L3RlbXBsYXRlPgoKPHNjcmlwdCBzZXR1cD4KaW1wb3J0IHsgcmVmLCBjb21wdXRlZCwgd2F0Y2ggfSBmcm9tICd2dWUnCmltcG9ydCB7IHVzZVJvdXRlLCB1c2VSb3V0ZXIgfSBmcm9tICd2dWUtcm91dGVyJwppbXBvcnQgU2VjdGlvblRpdGxlIGZyb20gJ0AvY29tcG9uZW50cy9TZWN0aW9uVGl0bGUudnVlJwppbXBvcnQgQ291cnNlQ2FyZCBmcm9tICdAL2NvbXBvbmVudHMvQ291cnNlQ2FyZC52dWUnCmltcG9ydCBQYWdpbmF0aW9uIGZyb20gJ0AvY29tcG9uZW50cy9QYWdpbmF0aW9uLnZ1ZScKaW1wb3J0IHsgY291cnNlcywgY2F0ZWdvcmllcywgbGV2ZWxzIH0gZnJvbSAnQC9kYXRhL2NvdXJzZXMnCgpjb25zdCByb3V0ZSA9IHVzZVJvdXRlKCkKY29uc3Qgcm91dGVyID0gdXNlUm91dGVyKCkKCmNvbnN0IGFjdGl2ZUNhdCA9IHJlZign5YWo6YOoJykKY29uc3QgYWN0aXZlTGV2ZWwgPSByZWYoJ+WFqOmDqCcpCmNvbnN0IHNvcnQgPSByZWYoJ2hvdCcpCmNvbnN0IHBhZ2UgPSByZWYoMSkKY29uc3QgcGFnZVNpemUgPSA4CgovLyDor7vlj5YgVVJMID9rdz0g5YWz6ZSu6K+NCmNvbnN0IGt3ID0gcmVmKHJvdXRlLnF1ZXJ5Lmt3IHx8ICcnKQp3YXRjaCgoKSA9PiByb3V0ZS5xdWVyeS5rdywgKHYpID0+IHsga3cudmFsdWUgPSB2IHx8ICcnOyBwYWdlLnZhbHVlID0gMSB9KQoKZnVuY3Rpb24gc2V0Q2F0KGMpIHsgYWN0aXZlQ2F0LnZhbHVlID0gYzsgcGFnZS52YWx1ZSA9IDEgfQpmdW5jdGlvbiBzZXRMZXZlbChsKSB7IGFjdGl2ZUxldmVsLnZhbHVlID0gbDsgcGFnZS52YWx1ZSA9IDEgfQpmdW5jdGlvbiBvblBhZ2UocCkgeyBwYWdlLnZhbHVlID0gcDsgd2luZG93LnNjcm9sbFRvKHsgdG9wOiAwLCBiZWhhdmlvcjogJ3Ntb290aCcgfSkgfQoKY29uc3QgZmlsdGVyZWQgPSBjb21wdXRlZCgoKSA9PiB7CiAgbGV0IGxpc3QgPSBjb3Vyc2VzCiAgaWYgKGFjdGl2ZUNhdC52YWx1ZSAhPT0gJ+WFqOmDqCcpIGxpc3QgPSBsaXN0LmZpbHRlcigoYykgPT4gYy5jYXRlZ29yeSA9PT0gYWN0aXZlQ2F0LnZhbHVlKQogIGlmIChhY3RpdmVMZXZlbC52YWx1ZSAhPT0gJ+WFqOmDqCcpIGxpc3QgPSBsaXN0LmZpbHRlcigoYykgPT4gYy5sZXZlbCA9PT0gYWN0aXZlTGV2ZWwudmFsdWUpCiAgaWYgKGt3LnZhbHVlKSB7CiAgICBjb25zdCBrID0gU3RyaW5nKGt3LnZhbHVlKS50b0xvd2VyQ2FzZSgpCiAgICBsaXN0ID0gbGlzdC5maWx0ZXIoKGMpID0+IGMudGl0bGUudG9Mb3dlckNhc2UoKS5pbmNsdWRlcyhrKSB8fCBjLmludHJvLnRvTG93ZXJDYXNlKCkuaW5jbHVkZXMoaykpCiAgfQogIGlmIChzb3J0LnZhbHVlID09PSAnaG90JykgbGlzdCA9IFsuLi5saXN0XS5zb3J0KChhLCBiKSA9PiBiLnN0dWR5Q291bnQgLSBhLnN0dWR5Q291bnQpCiAgZWxzZSBsaXN0ID0gWy4uLmxpc3RdLnNvcnQoKGEsIGIpID0+IGIuaWQgLSBhLmlkKQogIHJldHVybiBsaXN0Cn0pCgpjb25zdCB0b3RhbFBhZ2VzID0gY29tcHV0ZWQoKCkgPT4gTWF0aC5tYXgoMSwgTWF0aC5jZWlsKGZpbHRlcmVkLnZhbHVlLmxlbmd0aCAvIHBhZ2VTaXplKSkpCmNvbnN0IHBhZ2VDb3Vyc2VzID0gY29tcHV0ZWQoKCkgPT4gZmlsdGVyZWQudmFsdWUuc2xpY2UoKHBhZ2UudmFsdWUgLSAxKSAqIHBhZ2VTaXplLCBwYWdlLnZhbHVlICogcGFnZVNpemUpKQoKLy8g6L+H5ruk5ZCO6aG15pWw5Y+Y5YyW77yM6YeN572u6LaK55WM6aG156CBCndhdGNoKHRvdGFsUGFnZXMsICh0KSA9PiB7IGlmIChwYWdlLnZhbHVlID4gdCkgcGFnZS52YWx1ZSA9IHQgfSkKPC9zY3JpcHQ+Cg==
+<template>
+  <div class="container mt20">
+    <SectionTitle title="全部课程" :subtitle="`共 ${filtered.length} 门课程`" />
+
+    <!-- 筛选 -->
+    <div class="c-sort-box mt15">
+      <div class="c-s-dl">
+        <dl>
+          <dt>分类</dt>
+          <dd>
+            <ul>
+              <li v-for="cat in categories" :key="cat"
+                  :class="{ active: activeCat === cat }" @click="setCat(cat)">{{ cat }}</li>
+            </ul>
+          </dd>
+        </dl>
+        <dl>
+          <dt>难度</dt>
+          <dd>
+            <ul>
+              <li v-for="lv in levels" :key="lv"
+                  :class="{ active: activeLevel === lv }" @click="setLevel(lv)">{{ lv }}</li>
+            </ul>
+          </dd>
+        </dl>
+      </div>
+      <div class="js-tap mt15">
+        <a :class="{ active: sort === 'hot' }" @click="sort = 'hot'">最热</a>
+        <a :class="{ active: sort === 'new' }" @click="sort = 'new'">最新</a>
+      </div>
+    </div>
+
+    <!-- 列表 -->
+    <div class="comm-course-list mt20" v-if="pageCourses.length">
+      <ul>
+        <CourseCard v-for="c in pageCourses" :key="c.id" :course="c" />
+      </ul>
+    </div>
+    <div class="empty" v-else>没有符合条件的课程，换个筛选条件试试～</div>
+
+    <Pagination :current="page" :total-pages="totalPages" @change="onPage" />
+  </div>
+</template>
+
+<script setup>
+import { ref, computed, watch } from 'vue'
+import { useRoute, useRouter } from 'vue-router'
+import SectionTitle from '@/components/SectionTitle.vue'
+import CourseCard from '@/components/CourseCard.vue'
+import Pagination from '@/components/Pagination.vue'
+import { courses, categories, levels } from '@/data/courses'
+
+const route = useRoute()
+const router = useRouter()
+
+const activeCat = ref('全部')
+const activeLevel = ref('全部')
+const sort = ref('hot')
+const page = ref(1)
+const pageSize = 8
+
+// 读取 URL ?kw= 关键词
+const kw = ref(route.query.kw || '')
+watch(() => route.query.kw, (v) => { kw.value = v || ''; page.value = 1 })
+
+function setCat(c) { activeCat.value = c; page.value = 1 }
+function setLevel(l) { activeLevel.value = l; page.value = 1 }
+function onPage(p) { page.value = p; window.scrollTo({ top: 0, behavior: 'smooth' }) }
+
+const filtered = computed(() => {
+  let list = courses
+  if (activeCat.value !== '全部') list = list.filter((c) => c.category === activeCat.value)
+  if (activeLevel.value !== '全部') list = list.filter((c) => c.level === activeLevel.value)
+  if (kw.value) {
+    const k = String(kw.value).toLowerCase()
+    list = list.filter((c) => c.title.toLowerCase().includes(k) || c.intro.toLowerCase().includes(k))
+  }
+  if (sort.value === 'hot') list = [...list].sort((a, b) => b.studyCount - a.studyCount)
+  else list = [...list].sort((a, b) => b.id - a.id)
+  return list
+})
+
+const totalPages = computed(() => Math.max(1, Math.ceil(filtered.value.length / pageSize)))
+const pageCourses = computed(() => filtered.value.slice((page.value - 1) * pageSize, page.value * pageSize))
+
+// 过滤后页数变化，重置越界页码
+watch(totalPages, (t) => { if (page.value > t) page.value = t })
+</script>

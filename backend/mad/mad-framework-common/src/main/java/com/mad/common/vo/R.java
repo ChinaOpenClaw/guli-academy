@@ -1,1 +1,81 @@
-cGFja2FnZSBjb20ubWFkLmNvbW1vbi52bzsKCmltcG9ydCBjb20ubWFkLmNvbW1vbi5jb25zdGFudHMuUmVzdWx0Q29kZUVudW07CmltcG9ydCBpby5zd2FnZ2VyLmFubm90YXRpb25zLkFwaU1vZGVsOwppbXBvcnQgaW8uc3dhZ2dlci5hbm5vdGF0aW9ucy5BcGlNb2RlbFByb3BlcnR5OwppbXBvcnQgbG9tYm9rLkRhdGE7CgppbXBvcnQgamF2YS51dGlsLkhhc2hNYXA7CmltcG9ydCBqYXZhLnV0aWwuTWFwOwoKLyoqCiAqIEBhdXRob3IgaGVsZW4KICogQHNpbmNlIDIwMTkvNi8yNAogKi8KQERhdGEKQEFwaU1vZGVsKHZhbHVlPSLlhajlsYDnu5/kuIDov5Tlm57nu5PmnpwiKQpwdWJsaWMgY2xhc3MgUiB7CgoJQEFwaU1vZGVsUHJvcGVydHkodmFsdWUgPSAi5piv5ZCm5oiQ5YqfIikKCXByaXZhdGUgQm9vbGVhbiBzdWNjZXNzOwoKCUBBcGlNb2RlbFByb3BlcnR5KHZhbHVlID0gIui/lOWbnueggSIpCglwcml2YXRlIEludGVnZXIgY29kZTsKCglAQXBpTW9kZWxQcm9wZXJ0eSh2YWx1ZSA9ICLov5Tlm57mtojmga8iKQoJcHJpdmF0ZSBTdHJpbmcgbWVzc2FnZTsKCglAQXBpTW9kZWxQcm9wZXJ0eSh2YWx1ZSA9ICLov5Tlm57mlbDmja4iKQoJcHJpdmF0ZSBNYXA8U3RyaW5nLCBPYmplY3Q+IGRhdGEgPSBuZXcgSGFzaE1hcDxTdHJpbmcsIE9iamVjdD4oKTsKCglwcml2YXRlIFIoKXt9CgoJcHVibGljIHN0YXRpYyBSIG9rKCl7CgkJUiByID0gbmV3IFIoKTsKCQlyLnNldFN1Y2Nlc3MoUmVzdWx0Q29kZUVudW0uU1VDQ0VTUy5nZXRTdWNjZXNzKCkpOwoJCXIuc2V0Q29kZShSZXN1bHRDb2RlRW51bS5TVUNDRVNTLmdldENvZGUoKSk7CgkJci5zZXRNZXNzYWdlKFJlc3VsdENvZGVFbnVtLlNVQ0NFU1MuZ2V0TWVzc2FnZSgpKTsKCQlyZXR1cm4gcjsKCX0KCglwdWJsaWMgc3RhdGljIFIgZXJyb3IoKXsKCQlSIHIgPSBuZXcgUigpOwoJCXIuc2V0U3VjY2VzcyhSZXN1bHRDb2RlRW51bS5VTktOT1dOX1JFQVNPTi5nZXRTdWNjZXNzKCkpOwoJCXIuc2V0Q29kZShSZXN1bHRDb2RlRW51bS5VTktOT1dOX1JFQVNPTi5nZXRDb2RlKCkpOwoJCXIuc2V0TWVzc2FnZShSZXN1bHRDb2RlRW51bS5VTktOT1dOX1JFQVNPTi5nZXRNZXNzYWdlKCkpOwoJCXJldHVybiByOwoJfQoKCXB1YmxpYyBSIGRhdGEoTWFwPFN0cmluZywgT2JqZWN0PiBtYXApewoJCXRoaXMuc2V0RGF0YShtYXApOwoJCXJldHVybiB0aGlzOwoJfQoKCXB1YmxpYyBSIGRhdGEoU3RyaW5nIGtleSwgT2JqZWN0IHZhbHVlKXsKCQl0aGlzLmRhdGEucHV0KGtleSwgdmFsdWUpOwoJCXJldHVybiB0aGlzOwoJfQoKCXB1YmxpYyBSIG1lc3NhZ2UoU3RyaW5nIG1lc3NhZ2UpewoJCXRoaXMuc2V0TWVzc2FnZShtZXNzYWdlKTsKCQlyZXR1cm4gdGhpczsKCX0KCglwdWJsaWMgUiBjb2RlKEludGVnZXIgY29kZSl7CgkJdGhpcy5zZXRDb2RlKGNvZGUpOwoJCXJldHVybiB0aGlzOwoJfQoKCXB1YmxpYyBSIHN1Y2Nlc3MoQm9vbGVhbiBzdWNjZXNzKXsKCQl0aGlzLnNldFN1Y2Nlc3Moc3VjY2Vzcyk7CgkJcmV0dXJuIHRoaXM7Cgl9CgoJcHVibGljIHN0YXRpYyBSIHNldFJlc3VsdChSZXN1bHRDb2RlRW51bSByZXN1bHRDb2RlRW51bSl7CgkJUiByID0gbmV3IFIoKTsKCQlyLnNldFN1Y2Nlc3MocmVzdWx0Q29kZUVudW0uZ2V0U3VjY2VzcygpKTsKCQlyLnNldENvZGUocmVzdWx0Q29kZUVudW0uZ2V0Q29kZSgpKTsKCQlyLnNldE1lc3NhZ2UocmVzdWx0Q29kZUVudW0uZ2V0TWVzc2FnZSgpKTsKCQlyZXR1cm4gcjsKCX0KfQo=
+package com.mad.common.vo;
+
+import com.mad.common.constants.ResultCodeEnum;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
+import lombok.Data;
+
+import java.util.HashMap;
+import java.util.Map;
+
+/**
+ * @author helen
+ * @since 2019/6/24
+ */
+@Data
+@ApiModel(value="全局统一返回结果")
+public class R {
+
+	@ApiModelProperty(value = "是否成功")
+	private Boolean success;
+
+	@ApiModelProperty(value = "返回码")
+	private Integer code;
+
+	@ApiModelProperty(value = "返回消息")
+	private String message;
+
+	@ApiModelProperty(value = "返回数据")
+	private Map<String, Object> data = new HashMap<String, Object>();
+
+	private R(){}
+
+	public static R ok(){
+		R r = new R();
+		r.setSuccess(ResultCodeEnum.SUCCESS.getSuccess());
+		r.setCode(ResultCodeEnum.SUCCESS.getCode());
+		r.setMessage(ResultCodeEnum.SUCCESS.getMessage());
+		return r;
+	}
+
+	public static R error(){
+		R r = new R();
+		r.setSuccess(ResultCodeEnum.UNKNOWN_REASON.getSuccess());
+		r.setCode(ResultCodeEnum.UNKNOWN_REASON.getCode());
+		r.setMessage(ResultCodeEnum.UNKNOWN_REASON.getMessage());
+		return r;
+	}
+
+	public R data(Map<String, Object> map){
+		this.setData(map);
+		return this;
+	}
+
+	public R data(String key, Object value){
+		this.data.put(key, value);
+		return this;
+	}
+
+	public R message(String message){
+		this.setMessage(message);
+		return this;
+	}
+
+	public R code(Integer code){
+		this.setCode(code);
+		return this;
+	}
+
+	public R success(Boolean success){
+		this.setSuccess(success);
+		return this;
+	}
+
+	public static R setResult(ResultCodeEnum resultCodeEnum){
+		R r = new R();
+		r.setSuccess(resultCodeEnum.getSuccess());
+		r.setCode(resultCodeEnum.getCode());
+		r.setMessage(resultCodeEnum.getMessage());
+		return r;
+	}
+}

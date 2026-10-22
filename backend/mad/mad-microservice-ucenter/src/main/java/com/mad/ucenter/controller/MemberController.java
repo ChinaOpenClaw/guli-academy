@@ -1,1 +1,21 @@
-cGFja2FnZSBjb20ubWFkLnVjZW50ZXIuY29udHJvbGxlcjsKCgppbXBvcnQgb3JnLnNwcmluZ2ZyYW1ld29yay53ZWIuYmluZC5hbm5vdGF0aW9uLlJlcXVlc3RNYXBwaW5nOwoKaW1wb3J0IG9yZy5zcHJpbmdmcmFtZXdvcmsud2ViLmJpbmQuYW5ub3RhdGlvbi5SZXN0Q29udHJvbGxlcjsKCi8qKgogKiA8cD4KICog5Lya5ZGY6KGoIOWJjeerr+aOp+WItuWZqAogKiA8L3A+CiAqCiAqIEBhdXRob3IgSGVsZW4KICogQHNpbmNlIDIwMTktMDctMDEKICovCkBSZXN0Q29udHJvbGxlcgpAUmVxdWVzdE1hcHBpbmcoIi91Y2VudGVyL21lbWJlciIpCnB1YmxpYyBjbGFzcyBNZW1iZXJDb250cm9sbGVyIHsKCn0KCg==
+package com.mad.ucenter.controller;
+
+
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import org.springframework.web.bind.annotation.RestController;
+
+/**
+ * <p>
+ * 会员表 前端控制器
+ * </p>
+ *
+ * @author Helen
+ * @since 2019-07-01
+ */
+@RestController
+@RequestMapping("/ucenter/member")
+public class MemberController {
+
+}
+

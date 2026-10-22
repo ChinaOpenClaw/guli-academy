@@ -1,1 +1,37 @@
-cGFja2FnZSBjb20ubWFkLmVkdS5jb250cm9sbGVyOwoKaW1wb3J0IGNvbS5tYWQuY29tbW9uLnZvLlI7CmltcG9ydCBjb20ubWFkLmVkdS5zZXJ2aWNlLkNoYXB0ZXJTZXJ2aWNlOwppbXBvcnQgY29tLm1hZC5lZHUudm8uQ2hhcHRlclZvOwppbXBvcnQgaW8uc3dhZ2dlci5hbm5vdGF0aW9ucy5BcGk7CmltcG9ydCBpby5zd2FnZ2VyLmFubm90YXRpb25zLkFwaU9wZXJhdGlvbjsKaW1wb3J0IGlvLnN3YWdnZXIuYW5ub3RhdGlvbnMuQXBpUGFyYW07CmltcG9ydCBvcmcuc3ByaW5nZnJhbWV3b3JrLmJlYW5zLmZhY3RvcnkuYW5ub3RhdGlvbi5BdXRvd2lyZWQ7CmltcG9ydCBvcmcuc3ByaW5nZnJhbWV3b3JrLndlYi5iaW5kLmFubm90YXRpb24uKjsKCmltcG9ydCBqYXZhLnV0aWwuTGlzdDsKCi8qKgogKiA8cD4KICog6K++56iL56ug6IqCIOWJjeerr+aOp+WItuWZqO+8iOWJjeWPsOWtpuS5oOS4reW/g+iwg+eUqO+8jOaXoOmcgOeZu+W9le+8iQogKiA8L3A+CiAqLwpAUmVzdENvbnRyb2xsZXIKQFJlcXVlc3RNYXBwaW5nKCIvZWR1L2NoYXB0ZXIiKQpAQXBpKGRlc2NyaXB0aW9uID0gIuivvueoi+eroOiKgu+8iOWJjeWPsOWtpuS5oOS4reW/g++8iSIpCkBDcm9zc09yaWdpbgpwdWJsaWMgY2xhc3MgQ2hhcHRlckNvbnRyb2xsZXIgewoKICAgIEBBdXRvd2lyZWQKICAgIHByaXZhdGUgQ2hhcHRlclNlcnZpY2UgY2hhcHRlclNlcnZpY2U7CgogICAgQEFwaU9wZXJhdGlvbih2YWx1ZSA9ICLltYzlpZfnq6DoioLmlbDmja7liJfooajvvIjliY3lj7DlrabkuaDkuK3lv4PvvIkiKQogICAgQEdldE1hcHBpbmcoIm5lc3RlZC1saXN0L3tjb3Vyc2VJZH0iKQogICAgcHVibGljIFIgbmVzdGVkTGlzdEJ5Q291cnNlSWQoCiAgICAgICAgICAgIEBBcGlQYXJhbShuYW1lID0gImNvdXJzZUlkIiwgdmFsdWUgPSAi6K++56iLSUQiLCByZXF1aXJlZCA9IHRydWUpCiAgICAgICAgICAgIEBQYXRoVmFyaWFibGUgU3RyaW5nIGNvdXJzZUlkKSB7CgogICAgICAgIExpc3Q8Q2hhcHRlclZvPiBjaGFwdGVyVm9MaXN0ID0gY2hhcHRlclNlcnZpY2UubmVzdGVkTGlzdChjb3Vyc2VJZCk7CiAgICAgICAgcmV0dXJuIFIub2soKS5kYXRhKCJpdGVtcyIsIGNoYXB0ZXJWb0xpc3QpOwogICAgfQp9Cg==
+package com.mad.edu.controller;
+
+import com.mad.common.vo.R;
+import com.mad.edu.service.ChapterService;
+import com.mad.edu.vo.ChapterVo;
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
+import io.swagger.annotations.ApiParam;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
+
+/**
+ * <p>
+ * 课程章节 前端控制器（前台学习中心调用，无需登录）
+ * </p>
+ */
+@RestController
+@RequestMapping("/edu/chapter")
+@Api(description = "课程章节（前台学习中心）")
+@CrossOrigin
+public class ChapterController {
+
+    @Autowired
+    private ChapterService chapterService;
+
+    @ApiOperation(value = "嵌套章节数据列表（前台学习中心）")
+    @GetMapping("nested-list/{courseId}")
+    public R nestedListByCourseId(
+            @ApiParam(name = "courseId", value = "课程ID", required = true)
+            @PathVariable String courseId) {
+
+        List<ChapterVo> chapterVoList = chapterService.nestedList(courseId);
+        return R.ok().data("items", chapterVoList);
+    }
+}

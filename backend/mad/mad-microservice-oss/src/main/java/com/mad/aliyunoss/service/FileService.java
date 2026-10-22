@@ -1,1 +1,12 @@
-cGFja2FnZSBjb20ubWFkLmFsaXl1bm9zcy5zZXJ2aWNlOwoKaW1wb3J0IG9yZy5zcHJpbmdmcmFtZXdvcmsud2ViLm11bHRpcGFydC5NdWx0aXBhcnRGaWxlOwoKLyoqCiAqIEBhdXRob3IgaGVsZW4KICogQHNpbmNlIDIwMTkvNi8yOAogKi8KcHVibGljIGludGVyZmFjZSBGaWxlU2VydmljZSB7CgoJU3RyaW5nIHVwbG9hZEZpbGUoTXVsdGlwYXJ0RmlsZSBmaWxlKTsKfQo=
+package com.mad.aliyunoss.service;
+
+import org.springframework.web.multipart.MultipartFile;
+
+/**
+ * @author helen
+ * @since 2019/6/28
+ */
+public interface FileService {
+
+	String uploadFile(MultipartFile file);
+}

@@ -1,1 +1,329 @@
-PHRlbXBsYXRlPgogIDxkaXYgY2xhc3M9ImFwcC1jb250YWluZXIiPgoKICAgIDwhLS3mn6Xor6LooajljZUtLT4KICAgIDxlbC1mb3JtIDppbmxpbmU9InRydWUiIGNsYXNzPSJkZW1vLWZvcm0taW5saW5lIj4KICAgICAgPGVsLWZvcm0taXRlbT4KICAgICAgICA8ZWwtaW5wdXQgdi1tb2RlbD0ic2VhcmNoT2JqLnRpdGxlIiBwbGFjZWhvbGRlcj0i6K++56iL5ZCN56ewIi8+CiAgICAgIDwvZWwtZm9ybS1pdGVtPgoKICAgICAgPGVsLWZvcm0taXRlbT4KICAgICAgICA8ZWwtc2VsZWN0IHYtbW9kZWw9InNlYXJjaE9iai50ZWFjaGVySWQiIGNsZWFyYWJsZSBwbGFjZWhvbGRlcj0i5o6I6K++6K6y5biIIiBmaWx0ZXJhYmxlPgogICAgICAgICAgPGVsLW9wdGlvbiB2LWZvcj0idCBpbiB0ZWFjaGVyTGlzdCIgOmtleT0idC5pZCIgOmxhYmVsPSJ0Lm5hbWUiIDp2YWx1ZT0idC5pZCIvPgogICAgICAgIDwvZWwtc2VsZWN0PgogICAgICA8L2VsLWZvcm0taXRlbT4KCiAgICAgIDxlbC1mb3JtLWl0ZW0+CiAgICAgICAgPGVsLXNlbGVjdCB2LW1vZGVsPSJzZWFyY2hPYmouc3ViamVjdFBhcmVudElkIiBjbGVhcmFibGUgcGxhY2Vob2xkZXI9IuS4gOe6p+WIhuexuyIgQGNoYW5nZT0ib25QYXJlbnRDaGFuZ2UiPgogICAgICAgICAgPGVsLW9wdGlvbiB2LWZvcj0icyBpbiBzdWJqZWN0TGlzdCIgOmtleT0icy5pZCIgOmxhYmVsPSJzLnRpdGxlIiA6dmFsdWU9InMuaWQiLz4KICAgICAgICA8L2VsLXNlbGVjdD4KICAgICAgPC9lbC1mb3JtLWl0ZW0+CgogICAgICA8ZWwtZm9ybS1pdGVtPgogICAgICAgIDxlbC1zZWxlY3Qgdi1tb2RlbD0ic2VhcmNoT2JqLnN1YmplY3RJZCIgY2xlYXJhYmxlIHBsYWNlaG9sZGVyPSLkuoznuqfliIbnsbsiPgogICAgICAgICAgPGVsLW9wdGlvbiB2LWZvcj0icyBpbiBjdXJyZW50U3ViamVjdHMiIDprZXk9InMuaWQiIDpsYWJlbD0icy50aXRsZSIgOnZhbHVlPSJzLmlkIi8+CiAgICAgICAgPC9lbC1zZWxlY3Q+CiAgICAgIDwvZWwtZm9ybS1pdGVtPgoKICAgICAgPGVsLWZvcm0taXRlbSBsYWJlbD0i5re75Yqg5pe26Ze0Ij4KICAgICAgICA8ZWwtZGF0ZS1waWNrZXIKICAgICAgICAgIHYtbW9kZWw9InNlYXJjaE9iai5iZWdpbiIKICAgICAgICAgIHR5cGU9ImRhdGV0aW1lIgogICAgICAgICAgcGxhY2Vob2xkZXI9IumAieaLqeW8gOWni+aXtumXtCIKICAgICAgICAgIHZhbHVlLWZvcm1hdD0ieXl5eS1NTS1kZCBISDptbTpzcyIKICAgICAgICAgIGRlZmF1bHQtdGltZT0iMDA6MDA6MDAiCiAgICAgICAgLz4KICAgICAgPC9lbC1mb3JtLWl0ZW0+CiAgICAgIDxlbC1mb3JtLWl0ZW0+CiAgICAgICAgPGVsLWRhdGUtcGlja2VyCiAgICAgICAgICB2LW1vZGVsPSJzZWFyY2hPYmouZW5kIgogICAgICAgICAgdHlwZT0iZGF0ZXRpbWUiCiAgICAgICAgICBwbGFjZWhvbGRlcj0i6YCJ5oup5oiq5q2i5pe26Ze0IgogICAgICAgICAgdmFsdWUtZm9ybWF0PSJ5eXl5LU1NLWRkIEhIOm1tOnNzIgogICAgICAgICAgZGVmYXVsdC10aW1lPSIwMDowMDowMCIKICAgICAgICAvPgogICAgICA8L2VsLWZvcm0taXRlbT4KCiAgICAgIDxlbC1idXR0b24gdHlwZT0icHJpbWFyeSIgaWNvbj0iZWwtaWNvbi1zZWFyY2giIEBjbGljaz0iZmV0Y2hEYXRhKCkiPuafpeivojwvZWwtYnV0dG9uPgogICAgICA8ZWwtYnV0dG9uIHR5cGU9ImRlZmF1bHQiIEBjbGljaz0icmVzZXREYXRhKCkiPua4heepujwvZWwtYnV0dG9uPgogICAgPC9lbC1mb3JtPgoKICAgIDwhLS0g57uf6K6h5Y2h54mHIC0tPgogICAgPGVsLXJvdyA6Z3V0dGVyPSIxNiIgc3R5bGU9Im1hcmdpbi1ib3R0b206IDE4cHgiPgogICAgICA8ZWwtY29sIDpzcGFuPSI2Ij4KICAgICAgICA8ZWwtY2FyZCBzaGFkb3c9ImhvdmVyIiBjbGFzcz0ic3RhdC1jYXJkIj4KICAgICAgICAgIDxkaXYgY2xhc3M9InN0YXQtbnVtIj57eyB0b3RhbCB9fTwvZGl2PgogICAgICAgICAgPGRpdiBjbGFzcz0ic3RhdC1sYWJlbCI+6K++56iL5oC75pWwPC9kaXY+CiAgICAgICAgPC9lbC1jYXJkPgogICAgICA8L2VsLWNvbD4KICAgICAgPGVsLWNvbCA6c3Bhbj0iNiI+CiAgICAgICAgPGVsLWNhcmQgc2hhZG93PSJob3ZlciIgY2xhc3M9InN0YXQtY2FyZCI+CiAgICAgICAgICA8ZGl2IGNsYXNzPSJzdGF0LW51bSI+e3sgdGVhY2hlckxpc3QubGVuZ3RoIH19PC9kaXY+CiAgICAgICAgICA8ZGl2IGNsYXNzPSJzdGF0LWxhYmVsIj7lkI3luIjmlbDph488L2Rpdj4KICAgICAgICA8L2VsLWNhcmQ+CiAgICAgIDwvZWwtY29sPgogICAgICA8ZWwtY29sIDpzcGFuPSI2Ij4KICAgICAgICA8ZWwtY2FyZCBzaGFkb3c9ImhvdmVyIiBjbGFzcz0ic3RhdC1jYXJkIj4KICAgICAgICAgIDxkaXYgY2xhc3M9InN0YXQtbnVtIj57eyBzdWJqZWN0TGlzdC5sZW5ndGggfX08L2Rpdj4KICAgICAgICAgIDxkaXYgY2xhc3M9InN0YXQtbGFiZWwiPuS4gOe6p+WIhuexuzwvZGl2PgogICAgICAgIDwvZWwtY2FyZD4KICAgICAgPC9lbC1jb2w+CiAgICAgIDxlbC1jb2wgOnNwYW49IjYiPgogICAgICAgIDxlbC1jYXJkIHNoYWRvdz0iaG92ZXIiIGNsYXNzPSJzdGF0LWNhcmQiPgogICAgICAgICAgPGRpdiBjbGFzcz0ic3RhdC1udW0iPnt7IHB1Ymxpc2hlZENvdW50IH19PC9kaXY+CiAgICAgICAgICA8ZGl2IGNsYXNzPSJzdGF0LWxhYmVsIj7lt7Llj5HluIPor77nqIs8L2Rpdj4KICAgICAgICA8L2VsLWNhcmQ+CiAgICAgIDwvZWwtY29sPgogICAgPC9lbC1yb3c+CgogICAgPCEtLSDooajmoLwgLS0+CiAgICA8ZWwtdGFibGUKICAgICAgdi1sb2FkaW5nPSJsaXN0TG9hZGluZyIKICAgICAgOmRhdGE9Imxpc3QiCiAgICAgIGVsZW1lbnQtbG9hZGluZy10ZXh0PSLmlbDmja7liqDovb3kuK0iCiAgICAgIGJvcmRlcgogICAgICBmaXQKICAgICAgaGlnaGxpZ2h0LWN1cnJlbnQtcm93PgoKICAgICAgPGVsLXRhYmxlLWNvbHVtbgogICAgICAgIGxhYmVsPSLluo/lj7ciCiAgICAgICAgd2lkdGg9IjcwIgogICAgICAgIGFsaWduPSJjZW50ZXIiPgogICAgICAgIDx0ZW1wbGF0ZSBzbG90LXNjb3BlPSJzY29wZSI+CiAgICAgICAgICB7eyAocGFnZSAtIDEpICogbGltaXQgKyBzY29wZS4kaW5kZXggKyAxIH19CiAgICAgICAgPC90ZW1wbGF0ZT4KICAgICAgPC9lbC10YWJsZS1jb2x1bW4+CgogICAgICA8ZWwtdGFibGUtY29sdW1uIGxhYmVsPSLlsIHpnaIiIHdpZHRoPSIxMjAiIGFsaWduPSJjZW50ZXIiPgogICAgICAgIDx0ZW1wbGF0ZSBzbG90LXNjb3BlPSJzY29wZSI+CiAgICAgICAgICA8aW1nIDpzcmM9InNjb3BlLnJvdy5jb3ZlciIgY2xhc3M9ImNvdmVyLXRodW1iIiBhbHQ9IuWwgemdoiI+CiAgICAgICAgPC90ZW1wbGF0ZT4KICAgICAgPC9lbC10YWJsZS1jb2x1bW4+CgogICAgICA8ZWwtdGFibGUtY29sdW1uIHByb3A9InRpdGxlIiBsYWJlbD0i6K++56iL5ZCN56ewIiBtaW4td2lkdGg9IjIyMCIgc2hvdy1vdmVyZmxvdy10b29sdGlwLz4KCiAgICAgIDxlbC10YWJsZS1jb2x1bW4gbGFiZWw9IuWIhuexuyIgd2lkdGg9IjE4MCI+CiAgICAgICAgPHRlbXBsYXRlIHNsb3Qtc2NvcGU9InNjb3BlIj4KICAgICAgICAgIDxlbC10YWcgc2l6ZT0ibWluaSIgdHlwZT0iaW5mbyI+e3sgc3ViamVjdE5hbWUoc2NvcGUucm93LnN1YmplY3RQYXJlbnRJZCkgfX08L2VsLXRhZz4KICAgICAgICAgIDxlbC10YWcgc2l6ZT0ibWluaSIgc3R5bGU9Im1hcmdpbi1sZWZ0OjRweCI+e3sgc3ViamVjdE5hbWUoc2NvcGUucm93LnN1YmplY3RJZCkgfX08L2VsLXRhZz4KICAgICAgICA8L3RlbXBsYXRlPgogICAgICA8L2VsLXRhYmxlLWNvbHVtbj4KCiAgICAgIDxlbC10YWJsZS1jb2x1bW4gbGFiZWw9IuiusuW4iCIgd2lkdGg9IjExMCI+CiAgICAgICAgPHRlbXBsYXRlIHNsb3Qtc2NvcGU9InNjb3BlIj4KICAgICAgICAgIHt7IHRlYWNoZXJOYW1lKHNjb3BlLnJvdy50ZWFjaGVySWQpIH19CiAgICAgICAgPC90ZW1wbGF0ZT4KICAgICAgPC9lbC10YWJsZS1jb2x1bW4+CgogICAgICA8ZWwtdGFibGUtY29sdW1uIHByb3A9Imxlc3Nvbk51bSIgbGFiZWw9IuivvuaXtuaVsCIgd2lkdGg9IjgwIiBhbGlnbj0iY2VudGVyIi8+CgogICAgICA8ZWwtdGFibGUtY29sdW1uIGxhYmVsPSLku7fmoLwiIHdpZHRoPSI5MCIgYWxpZ249ImNlbnRlciI+CiAgICAgICAgPHRlbXBsYXRlIHNsb3Qtc2NvcGU9InNjb3BlIj4KICAgICAgICAgIDxzcGFuIHYtaWY9Ik51bWJlcihzY29wZS5yb3cucHJpY2UpID09PSAwIiBjbGFzcz0iZnJlZS10YWciPuWFjei0uTwvc3Bhbj4KICAgICAgICAgIDxzcGFuIHYtZWxzZT7CpSB7eyBzY29wZS5yb3cucHJpY2UgfX08L3NwYW4+CiAgICAgICAgPC90ZW1wbGF0ZT4KICAgICAgPC9lbC10YWJsZS1jb2x1bW4+CgogICAgICA8ZWwtdGFibGUtY29sdW1uIGxhYmVsPSLnirbmgIEiIHdpZHRoPSI5MCIgYWxpZ249ImNlbnRlciI+CiAgICAgICAgPHRlbXBsYXRlIHNsb3Qtc2NvcGU9InNjb3BlIj4KICAgICAgICAgIDxlbC10YWcgOnR5cGU9InNjb3BlLnJvdy5zdGF0dXMgPT09ICdOb3JtYWwnID8gJ3N1Y2Nlc3MnIDogJ3dhcm5pbmcnIiBzaXplPSJtaW5pIj4KICAgICAgICAgICAge3sgc2NvcGUucm93LnN0YXR1cyA9PT0gJ05vcm1hbCcgPyAn5bey5Y+R5biDJyA6ICfmnKrlj5HluIMnIH19CiAgICAgICAgICA8L2VsLXRhZz4KICAgICAgICA8L3RlbXBsYXRlPgogICAgICA8L2VsLXRhYmxlLWNvbHVtbj4KCiAgICAgIDxlbC10YWJsZS1jb2x1bW4gcHJvcD0iZ210Q3JlYXRlIiBsYWJlbD0i5re75Yqg5pe26Ze0IiB3aWR0aD0iMTYwIi8+CgogICAgICA8ZWwtdGFibGUtY29sdW1uIGxhYmVsPSLmk43kvZwiIHdpZHRoPSIyNjAiIGFsaWduPSJjZW50ZXIiPgogICAgICAgIDx0ZW1wbGF0ZSBzbG90LXNjb3BlPSJzY29wZSI+CiAgICAgICAgICA8cm91dGVyLWxpbmsgOnRvPSInL2VkdS9jb3Vyc2UvZWRpdC8nK3Njb3BlLnJvdy5pZCI+CiAgICAgICAgICAgIDxlbC1idXR0b24gdHlwZT0icHJpbWFyeSIgc2l6ZT0ibWluaSIgaWNvbj0iZWwtaWNvbi1lZGl0Ij7kv67mlLk8L2VsLWJ1dHRvbj4KICAgICAgICAgIDwvcm91dGVyLWxpbms+CiAgICAgICAgICA8cm91dGVyLWxpbmsgOnRvPSInL2VkdS9jb3Vyc2UvY29udGVudC8nK3Njb3BlLnJvdy5pZCI+CiAgICAgICAgICAgIDxlbC1idXR0b24gdHlwZT0ic3VjY2VzcyIgc2l6ZT0ibWluaSIgaWNvbj0iZWwtaWNvbi10aWNrZXRzIj7nq6DoioI8L2VsLWJ1dHRvbj4KICAgICAgICAgIDwvcm91dGVyLWxpbms+CiAgICAgICAgICA8ZWwtYnV0dG9uIHYtaWY9InNjb3BlLnJvdy5zdGF0dXMgIT09ICdOb3JtYWwnIiB0eXBlPSJ3YXJuaW5nIiBzaXplPSJtaW5pIiBpY29uPSJlbC1pY29uLXVwbG9hZDIiIEBjbGljaz0icHVibGlzaENvdXJzZShzY29wZS5yb3cuaWQpIj7lj5HluIM8L2VsLWJ1dHRvbj4KICAgICAgICAgIDxlbC1idXR0b24gdHlwZT0iZGFuZ2VyIiBzaXplPSJtaW5pIiBpY29uPSJlbC1pY29uLWRlbGV0ZSIgQGNsaWNrPSJyZW1vdmVEYXRhQnlJZChzY29wZS5yb3cuaWQpIj7liKDpmaQ8L2VsLWJ1dHRvbj4KICAgICAgICA8L3RlbXBsYXRlPgogICAgICA8L2VsLXRhYmxlLWNvbHVtbj4KICAgIDwvZWwtdGFibGU+CgogICAgPCEtLSDliIbpobUgLS0+CiAgICA8ZWwtcGFnaW5hdGlvbgogICAgICA6Y3VycmVudC1wYWdlPSJwYWdlIgogICAgICA6cGFnZS1zaXplPSJsaW1pdCIKICAgICAgOnRvdGFsPSJ0b3RhbCIKICAgICAgc3R5bGU9InBhZGRpbmc6IDMwcHggMDsgdGV4dC1hbGlnbjogY2VudGVyOyIKICAgICAgbGF5b3V0PSJ0b3RhbCwgcHJldiwgcGFnZXIsIG5leHQsIGp1bXBlciIKICAgICAgQGN1cnJlbnQtY2hhbmdlPSJmZXRjaERhdGEiCiAgICAvPgoKICA8L2Rpdj4KPC90ZW1wbGF0ZT4KCjxzY3JpcHQ+CmltcG9ydCBjb3Vyc2UgZnJvbSAnQC9hcGkvZWR1L2NvdXJzZScKaW1wb3J0IHN1YmplY3QgZnJvbSAnQC9hcGkvZWR1L3N1YmplY3QnCmltcG9ydCB0ZWFjaGVyTGlzdEFwaSBmcm9tICdAL2FwaS9lZHUvdGVhY2hlckxpc3QnCgpleHBvcnQgZGVmYXVsdCB7CgogIGRhdGEoKSB7CiAgICByZXR1cm4gewogICAgICBsaXN0TG9hZGluZzogdHJ1ZSwKICAgICAgbGlzdDogbnVsbCwKICAgICAgdG90YWw6IDAsCiAgICAgIHBhZ2U6IDEsCiAgICAgIGxpbWl0OiA4LAogICAgICBzZWFyY2hPYmo6IHt9LAogICAgICBzdWJqZWN0TGlzdDogW10sIC8vIOS4gOe6p+WIhuexuwogICAgICBhbGxTdWJqZWN0czogW10sIC8vIOWFqOmDqO+8iOWQq+S6jOe6p++8iQogICAgICB0ZWFjaGVyTGlzdDogW10KICAgIH0KICB9LAoKICBjb21wdXRlZDogewogICAgY3VycmVudFN1YmplY3RzKCkgewogICAgICBpZiAoIXRoaXMuc2VhcmNoT2JqLnN1YmplY3RQYXJlbnRJZCkgcmV0dXJuIFtdCiAgICAgIGNvbnN0IHBhcmVudCA9IHRoaXMuYWxsU3ViamVjdHMuZmluZChzID0+IHMuaWQgPT09IHRoaXMuc2VhcmNoT2JqLnN1YmplY3RQYXJlbnRJZCkKICAgICAgcmV0dXJuIHBhcmVudCA/IHBhcmVudC5jaGlsZHJlbiB8fCBbXSA6IFtdCiAgICB9LAogICAgcHVibGlzaGVkQ291bnQoKSB7CiAgICAgIHJldHVybiB0aGlzLmxpc3QgPyB0aGlzLmxpc3QuZmlsdGVyKGMgPT4gYy5zdGF0dXMgPT09ICdOb3JtYWwnKS5sZW5ndGggOiAwCiAgICB9CiAgfSwKCiAgY3JlYXRlZCgpIHsKICAgIHRoaXMuZmV0Y2hEYXRhKCkKICAgIHRoaXMubG9hZFN1YmplY3RzKCkKICAgIHRoaXMubG9hZFRlYWNoZXJzKCkKICB9LAoKICBtZXRob2RzOiB7CiAgICBsb2FkU3ViamVjdHMoKSB7CiAgICAgIHN1YmplY3QuZ2V0TmVzdGVkTGlzdCgpLnRoZW4ocmVzcG9uc2UgPT4gewogICAgICAgIGlmIChyZXNwb25zZS5zdWNjZXNzID09PSB0cnVlKSB7CiAgICAgICAgICB0aGlzLnN1YmplY3RMaXN0ID0gcmVzcG9uc2UuZGF0YS5pdGVtcyB8fCBbXQogICAgICAgICAgdGhpcy5hbGxTdWJqZWN0cyA9IHRoaXMuZmxhdHRlblN1YmplY3RzKHRoaXMuc3ViamVjdExpc3QpCiAgICAgICAgfQogICAgICB9KQogICAgfSwKCiAgICBmbGF0dGVuU3ViamVjdHMobGlzdCkgewogICAgICBjb25zdCByZXN1bHQgPSBbXQogICAgICA7KGxpc3QgfHwgW10pLmZvckVhY2gocyA9PiB7CiAgICAgICAgcmVzdWx0LnB1c2gocykKICAgICAgICA7KHMuY2hpbGRyZW4gfHwgW10pLmZvckVhY2goYyA9PiByZXN1bHQucHVzaChjKSkKICAgICAgfSkKICAgICAgcmV0dXJuIHJlc3VsdAogICAgfSwKCiAgICBsb2FkVGVhY2hlcnMoKSB7CiAgICAgIHRlYWNoZXJMaXN0QXBpLmdldExpc3QoKS50aGVuKHJlc3BvbnNlID0+IHsKICAgICAgICBpZiAocmVzcG9uc2Uuc3VjY2VzcyA9PT0gdHJ1ZSkgewogICAgICAgICAgdGhpcy50ZWFjaGVyTGlzdCA9IHJlc3BvbnNlLmRhdGEuaXRlbXMgfHwgW10KICAgICAgICB9CiAgICAgIH0pCiAgICB9LAoKICAgIHN1YmplY3ROYW1lKGlkKSB7CiAgICAgIGNvbnN0IGhpdCA9IHRoaXMuYWxsU3ViamVjdHMuZmluZChzID0+IHMuaWQgPT09IGlkKQogICAgICByZXR1cm4gaGl0ID8gaGl0LnRpdGxlIDogJy0nCiAgICB9LAoKICAgIHRlYWNoZXJOYW1lKGlkKSB7CiAgICAgIGNvbnN0IGhpdCA9IHRoaXMudGVhY2hlckxpc3QuZmluZCh0ID0+IHQuaWQgPT09IGlkKQogICAgICByZXR1cm4gaGl0ID8gaGl0Lm5hbWUgOiAnLScKICAgIH0sCgogICAgb25QYXJlbnRDaGFuZ2UoKSB7CiAgICAgIC8vIOWIh+aNouS4gOe6p+WIhuexu+aXtua4heepuuS6jOe6p+WIhuexu++8jOmBv+WFjeafpeivouadoeS7tuWGsueqgQogICAgICB0aGlzLnNlYXJjaE9iai5zdWJqZWN0SWQgPSAnJwogICAgfSwKCiAgICBmZXRjaERhdGEocGFnZSA9IDEpIHsKICAgICAgdGhpcy5wYWdlID0gcGFnZQogICAgICB0aGlzLmxpc3RMb2FkaW5nID0gdHJ1ZQogICAgICBjb3Vyc2UuZ2V0UGFnZUxpc3QodGhpcy5wYWdlLCB0aGlzLmxpbWl0LCB0aGlzLnNlYXJjaE9iaikudGhlbihyZXNwb25zZSA9PiB7CiAgICAgICAgaWYgKHJlc3BvbnNlLnN1Y2Nlc3MgPT09IHRydWUpIHsKICAgICAgICAgIHRoaXMubGlzdCA9IHJlc3BvbnNlLmRhdGEucm93cwogICAgICAgICAgdGhpcy50b3RhbCA9IHJlc3BvbnNlLmRhdGEudG90YWwKICAgICAgICB9CiAgICAgICAgdGhpcy5saXN0TG9hZGluZyA9IGZhbHNlCiAgICAgIH0pLmNhdGNoKCgpID0+IHsKICAgICAgICB0aGlzLmxpc3RMb2FkaW5nID0gZmFsc2UKICAgICAgfSkKICAgIH0sCgogICAgcmVzZXREYXRhKCkgewogICAgICB0aGlzLnNlYXJjaE9iaiA9IHt9CiAgICAgIHRoaXMuZmV0Y2hEYXRhKCkKICAgIH0sCgogICAgcHVibGlzaENvdXJzZShpZCkgewogICAgICB0aGlzLiRjb25maXJtKCflj5HluIPlkI7or6Xor77nqIvlsIblnKjliY3lj7Dlj6/op4EsIOaYr+WQpue7p+e7rT8nLCAn5o+Q56S6JywgewogICAgICAgIGNvbmZpcm1CdXR0b25UZXh0OiAn56Gu5a6aJywKICAgICAgICBjYW5jZWxCdXR0b25UZXh0OiAn5Y+W5raIJywKICAgICAgICB0eXBlOiAnd2FybmluZycKICAgICAgfSkudGhlbigoKSA9PiB7CiAgICAgICAgcmV0dXJuIGNvdXJzZS5wdWJsaXNoQ291cnNlQnlJZChpZCkKICAgICAgfSkudGhlbigoKSA9PiB7CiAgICAgICAgdGhpcy5mZXRjaERhdGEoKQogICAgICAgIHRoaXMuJG1lc3NhZ2UoeyB0eXBlOiAnc3VjY2VzcycsIG1lc3NhZ2U6ICflj5HluIPmiJDlip8hJyB9KQogICAgICB9KS5jYXRjaChyZXNwb25zZSA9PiB7CiAgICAgICAgaWYgKHJlc3BvbnNlID09PSAnY2FuY2VsJykgewogICAgICAgICAgdGhpcy4kbWVzc2FnZSh7IHR5cGU6ICdpbmZvJywgbWVzc2FnZTogJ+W3suWPlua2iCcgfSkKICAgICAgICB9CiAgICAgIH0pCiAgICB9LAoKICAgIHJlbW92ZURhdGFCeUlkKGlkKSB7CiAgICAgIHRoaXMuJGNvbmZpcm0oJ+atpOaTjeS9nOWwhuawuOS5heWIoOmZpOivpeivvueoi+WPiuWFtueroOiKguivvuaXtiwg5piv5ZCm57un57utPycsICfmj5DnpLonLCB7CiAgICAgICAgY29uZmlybUJ1dHRvblRleHQ6ICfnoa7lrponLAogICAgICAgIGNhbmNlbEJ1dHRvblRleHQ6ICflj5bmtognLAogICAgICAgIHR5cGU6ICd3YXJuaW5nJwogICAgICB9KS50aGVuKCgpID0+IHsKICAgICAgICByZXR1cm4gY291cnNlLnJlbW92ZUJ5SWQoaWQpCiAgICAgIH0pLnRoZW4oKCkgPT4gewogICAgICAgIHRoaXMuZmV0Y2hEYXRhKCkKICAgICAgICB0aGlzLiRtZXNzYWdlKHsgdHlwZTogJ3N1Y2Nlc3MnLCBtZXNzYWdlOiAn5Yig6Zmk5oiQ5YqfIScgfSkKICAgICAgfSkuY2F0Y2gocmVzcG9uc2UgPT4gewogICAgICAgIGlmIChyZXNwb25zZSA9PT0gJ2NhbmNlbCcpIHsKICAgICAgICAgIHRoaXMuJG1lc3NhZ2UoeyB0eXBlOiAnaW5mbycsIG1lc3NhZ2U6ICflt7Llj5bmtojliKDpmaQnIH0pCiAgICAgICAgfQogICAgICB9KQogICAgfQogIH0KfQo8L3NjcmlwdD4KCjxzdHlsZSBzY29wZWQ+Ci5jb3Zlci10aHVtYiB7CiAgd2lkdGg6IDk2cHg7CiAgaGVpZ2h0OiA1NHB4OwogIG9iamVjdC1maXQ6IGNvdmVyOwogIGJvcmRlci1yYWRpdXM6IDRweDsKICBiYWNrZ3JvdW5kOiAjZjBmMmY1Owp9CgouZnJlZS10YWcgewogIGNvbG9yOiAjNjdjMjNhOwogIGZvbnQtd2VpZ2h0OiA2MDA7Cn0KCi5zdGF0LWNhcmQgewogIHRleHQtYWxpZ246IGNlbnRlcjsKfQoKLnN0YXQtbnVtIHsKICBmb250LXNpemU6IDI4cHg7CiAgZm9udC13ZWlnaHQ6IDcwMDsKICBjb2xvcjogIzJjN2E1ZDsKICBsaW5lLWhlaWdodDogMS40Owp9Cgouc3RhdC1sYWJlbCB7CiAgY29sb3I6ICM5MDkzOTk7CiAgZm9udC1zaXplOiAxM3B4Owp9Cjwvc3R5bGU+Cg==
+<template>
+  <div class="app-container">
+
+    <!--查询表单-->
+    <el-form :inline="true" class="demo-form-inline">
+      <el-form-item>
+        <el-input v-model="searchObj.title" placeholder="课程名称"/>
+      </el-form-item>
+
+      <el-form-item>
+        <el-select v-model="searchObj.teacherId" clearable placeholder="授课讲师" filterable>
+          <el-option v-for="t in teacherList" :key="t.id" :label="t.name" :value="t.id"/>
+        </el-select>
+      </el-form-item>
+
+      <el-form-item>
+        <el-select v-model="searchObj.subjectParentId" clearable placeholder="一级分类" @change="onParentChange">
+          <el-option v-for="s in subjectList" :key="s.id" :label="s.title" :value="s.id"/>
+        </el-select>
+      </el-form-item>
+
+      <el-form-item>
+        <el-select v-model="searchObj.subjectId" clearable placeholder="二级分类">
+          <el-option v-for="s in currentSubjects" :key="s.id" :label="s.title" :value="s.id"/>
+        </el-select>
+      </el-form-item>
+
+      <el-form-item label="添加时间">
+        <el-date-picker
+          v-model="searchObj.begin"
+          type="datetime"
+          placeholder="选择开始时间"
+          value-format="yyyy-MM-dd HH:mm:ss"
+          default-time="00:00:00"
+        />
+      </el-form-item>
+      <el-form-item>
+        <el-date-picker
+          v-model="searchObj.end"
+          type="datetime"
+          placeholder="选择截止时间"
+          value-format="yyyy-MM-dd HH:mm:ss"
+          default-time="00:00:00"
+        />
+      </el-form-item>
+
+      <el-button type="primary" icon="el-icon-search" @click="fetchData()">查询</el-button>
+      <el-button type="default" @click="resetData()">清空</el-button>
+    </el-form>
+
+    <!-- 统计卡片 -->
+    <el-row :gutter="16" style="margin-bottom: 18px">
+      <el-col :span="6">
+        <el-card shadow="hover" class="stat-card">
+          <div class="stat-num">{{ total }}</div>
+          <div class="stat-label">课程总数</div>
+        </el-card>
+      </el-col>
+      <el-col :span="6">
+        <el-card shadow="hover" class="stat-card">
+          <div class="stat-num">{{ teacherList.length }}</div>
+          <div class="stat-label">名师数量</div>
+        </el-card>
+      </el-col>
+      <el-col :span="6">
+        <el-card shadow="hover" class="stat-card">
+          <div class="stat-num">{{ subjectList.length }}</div>
+          <div class="stat-label">一级分类</div>
+        </el-card>
+      </el-col>
+      <el-col :span="6">
+        <el-card shadow="hover" class="stat-card">
+          <div class="stat-num">{{ publishedCount }}</div>
+          <div class="stat-label">已发布课程</div>
+        </el-card>
+      </el-col>
+    </el-row>
+
+    <!-- 表格 -->
+    <el-table
+      v-loading="listLoading"
+      :data="list"
+      element-loading-text="数据加载中"
+      border
+      fit
+      highlight-current-row>
+
+      <el-table-column
+        label="序号"
+        width="70"
+        align="center">
+        <template slot-scope="scope">
+          {{ (page - 1) * limit + scope.$index + 1 }}
+        </template>
+      </el-table-column>
+
+      <el-table-column label="封面" width="120" align="center">
+        <template slot-scope="scope">
+          <img :src="scope.row.cover" class="cover-thumb" alt="封面">
+        </template>
+      </el-table-column>
+
+      <el-table-column prop="title" label="课程名称" min-width="220" show-overflow-tooltip/>
+
+      <el-table-column label="分类" width="180">
+        <template slot-scope="scope">
+          <el-tag size="mini" type="info">{{ subjectName(scope.row.subjectParentId) }}</el-tag>
+          <el-tag size="mini" style="margin-left:4px">{{ subjectName(scope.row.subjectId) }}</el-tag>
+        </template>
+      </el-table-column>
+
+      <el-table-column label="讲师" width="110">
+        <template slot-scope="scope">
+          {{ teacherName(scope.row.teacherId) }}
+        </template>
+      </el-table-column>
+
+      <el-table-column prop="lessonNum" label="课时数" width="80" align="center"/>
+
+      <el-table-column label="价格" width="90" align="center">
+        <template slot-scope="scope">
+          <span v-if="Number(scope.row.price) === 0" class="free-tag">免费</span>
+          <span v-else>¥ {{ scope.row.price }}</span>
+        </template>
+      </el-table-column>
+
+      <el-table-column label="状态" width="90" align="center">
+        <template slot-scope="scope">
+          <el-tag :type="scope.row.status === 'Normal' ? 'success' : 'warning'" size="mini">
+            {{ scope.row.status === 'Normal' ? '已发布' : '未发布' }}
+          </el-tag>
+        </template>
+      </el-table-column>
+
+      <el-table-column prop="gmtCreate" label="添加时间" width="160"/>
+
+      <el-table-column label="操作" width="260" align="center">
+        <template slot-scope="scope">
+          <router-link :to="'/edu/course/edit/'+scope.row.id">
+            <el-button type="primary" size="mini" icon="el-icon-edit">修改</el-button>
+          </router-link>
+          <router-link :to="'/edu/course/content/'+scope.row.id">
+            <el-button type="success" size="mini" icon="el-icon-tickets">章节</el-button>
+          </router-link>
+          <el-button v-if="scope.row.status !== 'Normal'" type="warning" size="mini" icon="el-icon-upload2" @click="publishCourse(scope.row.id)">发布</el-button>
+          <el-button type="danger" size="mini" icon="el-icon-delete" @click="removeDataById(scope.row.id)">删除</el-button>
+        </template>
+      </el-table-column>
+    </el-table>
+
+    <!-- 分页 -->
+    <el-pagination
+      :current-page="page"
+      :page-size="limit"
+      :total="total"
+      style="padding: 30px 0; text-align: center;"
+      layout="total, prev, pager, next, jumper"
+      @current-change="fetchData"
+    />
+
+  </div>
+</template>
+
+<script>
+import course from '@/api/edu/course'
+import subject from '@/api/edu/subject'
+import teacherListApi from '@/api/edu/teacherList'
+
+export default {
+
+  data() {
+    return {
+      listLoading: true,
+      list: null,
+      total: 0,
+      page: 1,
+      limit: 8,
+      searchObj: {},
+      subjectList: [], // 一级分类
+      allSubjects: [], // 全部（含二级）
+      teacherList: []
+    }
+  },
+
+  computed: {
+    currentSubjects() {
+      if (!this.searchObj.subjectParentId) return []
+      const parent = this.allSubjects.find(s => s.id === this.searchObj.subjectParentId)
+      return parent ? parent.children || [] : []
+    },
+    publishedCount() {
+      return this.list ? this.list.filter(c => c.status === 'Normal').length : 0
+    }
+  },
+
+  created() {
+    this.fetchData()
+    this.loadSubjects()
+    this.loadTeachers()
+  },
+
+  methods: {
+    loadSubjects() {
+      subject.getNestedList().then(response => {
+        if (response.success === true) {
+          this.subjectList = response.data.items || []
+          this.allSubjects = this.flattenSubjects(this.subjectList)
+        }
+      })
+    },
+
+    flattenSubjects(list) {
+      const result = []
+      ;(list || []).forEach(s => {
+        result.push(s)
+        ;(s.children || []).forEach(c => result.push(c))
+      })
+      return result
+    },
+
+    loadTeachers() {
+      teacherListApi.getList().then(response => {
+        if (response.success === true) {
+          this.teacherList = response.data.items || []
+        }
+      })
+    },
+
+    subjectName(id) {
+      const hit = this.allSubjects.find(s => s.id === id)
+      return hit ? hit.title : '-'
+    },
+
+    teacherName(id) {
+      const hit = this.teacherList.find(t => t.id === id)
+      return hit ? hit.name : '-'
+    },
+
+    onParentChange() {
+      // 切换一级分类时清空二级分类，避免查询条件冲突
+      this.searchObj.subjectId = ''
+    },
+
+    fetchData(page = 1) {
+      this.page = page
+      this.listLoading = true
+      course.getPageList(this.page, this.limit, this.searchObj).then(response => {
+        if (response.success === true) {
+          this.list = response.data.rows
+          this.total = response.data.total
+        }
+        this.listLoading = false
+      }).catch(() => {
+        this.listLoading = false
+      })
+    },
+
+    resetData() {
+      this.searchObj = {}
+      this.fetchData()
+    },
+
+    publishCourse(id) {
+      this.$confirm('发布后该课程将在前台可见, 是否继续?', '提示', {
+        confirmButtonText: '确定',
+        cancelButtonText: '取消',
+        type: 'warning'
+      }).then(() => {
+        return course.publishCourseById(id)
+      }).then(() => {
+        this.fetchData()
+        this.$message({ type: 'success', message: '发布成功!' })
+      }).catch(response => {
+        if (response === 'cancel') {
+          this.$message({ type: 'info', message: '已取消' })
+        }
+      })
+    },
+
+    removeDataById(id) {
+      this.$confirm('此操作将永久删除该课程及其章节课时, 是否继续?', '提示', {
+        confirmButtonText: '确定',
+        cancelButtonText: '取消',
+        type: 'warning'
+      }).then(() => {
+        return course.removeById(id)
+      }).then(() => {
+        this.fetchData()
+        this.$message({ type: 'success', message: '删除成功!' })
+      }).catch(response => {
+        if (response === 'cancel') {
+          this.$message({ type: 'info', message: '已取消删除' })
+        }
+      })
+    }
+  }
+}
+</script>
+
+<style scoped>
+.cover-thumb {
+  width: 96px;
+  height: 54px;
+  object-fit: cover;
+  border-radius: 4px;
+  background: #f0f2f5;
+}
+
+.free-tag {
+  color: #67c23a;
+  font-weight: 600;
+}
+
+.stat-card {
+  text-align: center;
+}
+
+.stat-num {
+  font-size: 28px;
+  font-weight: 700;
+  color: #2c7a5d;
+  line-height: 1.4;
+}
+
+.stat-label {
+  color: #909399;
+  font-size: 13px;
+}
+</style>

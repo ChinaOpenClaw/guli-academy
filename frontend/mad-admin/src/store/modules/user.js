@@ -1,1 +1,87 @@
-aW1wb3J0IHsgbG9naW4sIGxvZ291dCwgZ2V0SW5mbyB9IGZyb20gJ0AvYXBpL2xvZ2luJwppbXBvcnQgeyBnZXRUb2tlbiwgc2V0VG9rZW4sIHJlbW92ZVRva2VuIH0gZnJvbSAnQC91dGlscy9hdXRoJwoKY29uc3QgdXNlciA9IHsKICBzdGF0ZTogewogICAgdG9rZW46IGdldFRva2VuKCksCiAgICBuYW1lOiAnJywKICAgIGF2YXRhcjogJycsCiAgICByb2xlczogW10KICB9LAoKICBtdXRhdGlvbnM6IHsKICAgIFNFVF9UT0tFTjogKHN0YXRlLCB0b2tlbikgPT4gewogICAgICBzdGF0ZS50b2tlbiA9IHRva2VuCiAgICB9LAogICAgU0VUX05BTUU6IChzdGF0ZSwgbmFtZSkgPT4gewogICAgICBzdGF0ZS5uYW1lID0gbmFtZQogICAgfSwKICAgIFNFVF9BVkFUQVI6IChzdGF0ZSwgYXZhdGFyKSA9PiB7CiAgICAgIHN0YXRlLmF2YXRhciA9IGF2YXRhcgogICAgfSwKICAgIFNFVF9ST0xFUzogKHN0YXRlLCByb2xlcykgPT4gewogICAgICBzdGF0ZS5yb2xlcyA9IHJvbGVzCiAgICB9CiAgfSwKCiAgYWN0aW9uczogewogICAgLy8g55m75b2VCiAgICBMb2dpbih7IGNvbW1pdCB9LCB1c2VySW5mbykgewogICAgICBjb25zdCB1c2VybmFtZSA9IHVzZXJJbmZvLnVzZXJuYW1lLnRyaW0oKQogICAgICByZXR1cm4gbmV3IFByb21pc2UoKHJlc29sdmUsIHJlamVjdCkgPT4gewogICAgICAgIGxvZ2luKHVzZXJuYW1lLCB1c2VySW5mby5wYXNzd29yZCkudGhlbihyZXNwb25zZSA9PiB7CiAgICAgICAgICBjb25zdCBkYXRhID0gcmVzcG9uc2UuZGF0YQogICAgICAgICAgc2V0VG9rZW4oZGF0YS50b2tlbikKICAgICAgICAgIGNvbW1pdCgnU0VUX1RPS0VOJywgZGF0YS50b2tlbikKICAgICAgICAgIHJlc29sdmUoKQogICAgICAgIH0pLmNhdGNoKGVycm9yID0+IHsKICAgICAgICAgIHJlamVjdChlcnJvcikKICAgICAgICB9KQogICAgICB9KQogICAgfSwKCiAgICAvLyDojrflj5bnlKjmiLfkv6Hmga8KICAgIEdldEluZm8oeyBjb21taXQsIHN0YXRlIH0pIHsKICAgICAgcmV0dXJuIG5ldyBQcm9taXNlKChyZXNvbHZlLCByZWplY3QpID0+IHsKICAgICAgICBnZXRJbmZvKHN0YXRlLnRva2VuKS50aGVuKHJlc3BvbnNlID0+IHsKICAgICAgICAgIGNvbnN0IGRhdGEgPSByZXNwb25zZS5kYXRhCiAgICAgICAgICBpZiAoZGF0YS5yb2xlcyAmJiBkYXRhLnJvbGVzLmxlbmd0aCA+IDApIHsgLy8g6aqM6K+B6L+U5Zue55qEcm9sZXPmmK/lkKbmmK/kuIDkuKrpnZ7nqbrmlbDnu4QKICAgICAgICAgICAgY29tbWl0KCdTRVRfUk9MRVMnLCBkYXRhLnJvbGVzKQogICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgcmVqZWN0KCdnZXRJbmZvOiByb2xlcyBtdXN0IGJlIGEgbm9uLW51bGwgYXJyYXkgIScpCiAgICAgICAgICB9CiAgICAgICAgICBjb21taXQoJ1NFVF9OQU1FJywgZGF0YS5uYW1lKQogICAgICAgICAgY29tbWl0KCdTRVRfQVZBVEFSJywgZGF0YS5hdmF0YXIpCiAgICAgICAgICByZXNvbHZlKHJlc3BvbnNlKQogICAgICAgIH0pLmNhdGNoKGVycm9yID0+IHsKICAgICAgICAgIHJlamVjdChlcnJvcikKICAgICAgICB9KQogICAgICB9KQogICAgfSwKCiAgICAvLyDnmbvlh7oKICAgIExvZ091dCh7IGNvbW1pdCwgc3RhdGUgfSkgewogICAgICByZXR1cm4gbmV3IFByb21pc2UoKHJlc29sdmUsIHJlamVjdCkgPT4gewogICAgICAgIGxvZ291dChzdGF0ZS50b2tlbikudGhlbigoKSA9PiB7CiAgICAgICAgICBjb21taXQoJ1NFVF9UT0tFTicsICcnKQogICAgICAgICAgY29tbWl0KCdTRVRfUk9MRVMnLCBbXSkKICAgICAgICAgIHJlbW92ZVRva2VuKCkKICAgICAgICAgIHJlc29sdmUoKQogICAgICAgIH0pLmNhdGNoKGVycm9yID0+IHsKICAgICAgICAgIHJlamVjdChlcnJvcikKICAgICAgICB9KQogICAgICB9KQogICAgfSwKCiAgICAvLyDliY3nq68g55m75Ye6CiAgICBGZWRMb2dPdXQoeyBjb21taXQgfSkgewogICAgICByZXR1cm4gbmV3IFByb21pc2UocmVzb2x2ZSA9PiB7CiAgICAgICAgY29tbWl0KCdTRVRfVE9LRU4nLCAnJykKICAgICAgICByZW1vdmVUb2tlbigpCiAgICAgICAgcmVzb2x2ZSgpCiAgICAgIH0pCiAgICB9CiAgfQp9CgpleHBvcnQgZGVmYXVsdCB1c2VyCg==
+import { login, logout, getInfo } from '@/api/login'
+import { getToken, setToken, removeToken } from '@/utils/auth'
+
+const user = {
+  state: {
+    token: getToken(),
+    name: '',
+    avatar: '',
+    roles: []
+  },
+
+  mutations: {
+    SET_TOKEN: (state, token) => {
+      state.token = token
+    },
+    SET_NAME: (state, name) => {
+      state.name = name
+    },
+    SET_AVATAR: (state, avatar) => {
+      state.avatar = avatar
+    },
+    SET_ROLES: (state, roles) => {
+      state.roles = roles
+    }
+  },
+
+  actions: {
+    // 登录
+    Login({ commit }, userInfo) {
+      const username = userInfo.username.trim()
+      return new Promise((resolve, reject) => {
+        login(username, userInfo.password).then(response => {
+          const data = response.data
+          setToken(data.token)
+          commit('SET_TOKEN', data.token)
+          resolve()
+        }).catch(error => {
+          reject(error)
+        })
+      })
+    },
+
+    // 获取用户信息
+    GetInfo({ commit, state }) {
+      return new Promise((resolve, reject) => {
+        getInfo(state.token).then(response => {
+          const data = response.data
+          if (data.roles && data.roles.length > 0) { // 验证返回的roles是否是一个非空数组
+            commit('SET_ROLES', data.roles)
+          } else {
+            reject('getInfo: roles must be a non-null array !')
+          }
+          commit('SET_NAME', data.name)
+          commit('SET_AVATAR', data.avatar)
+          resolve(response)
+        }).catch(error => {
+          reject(error)
+        })
+      })
+    },
+
+    // 登出
+    LogOut({ commit, state }) {
+      return new Promise((resolve, reject) => {
+        logout(state.token).then(() => {
+          commit('SET_TOKEN', '')
+          commit('SET_ROLES', [])
+          removeToken()
+          resolve()
+        }).catch(error => {
+          reject(error)
+        })
+      })
+    },
+
+    // 前端 登出
+    FedLogOut({ commit }) {
+      return new Promise(resolve => {
+        commit('SET_TOKEN', '')
+        removeToken()
+        resolve()
+      })
+    }
+  }
+}
+
+export default user

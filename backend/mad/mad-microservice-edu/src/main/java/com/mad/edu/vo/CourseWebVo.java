@@ -1,1 +1,67 @@
-cGFja2FnZSBjb20ubWFkLmVkdS52bzsKCmltcG9ydCBpby5zd2FnZ2VyLmFubm90YXRpb25zLkFwaU1vZGVsOwppbXBvcnQgaW8uc3dhZ2dlci5hbm5vdGF0aW9ucy5BcGlNb2RlbFByb3BlcnR5OwppbXBvcnQgbG9tYm9rLkRhdGE7CgppbXBvcnQgamF2YS5pby5TZXJpYWxpemFibGU7CmltcG9ydCBqYXZhLm1hdGguQmlnRGVjaW1hbDsKCi8qKgogKiBAYXV0aG9yIGhlbGVuCiAqIEBzaW5jZSAyMDE5LzcvNgogKi8KQEFwaU1vZGVsKHZhbHVlPSLor77nqIvkv6Hmga8iLCBkZXNjcmlwdGlvbj0i572R56uZ6K++56iL6K+m5oOF6aG16ZyA6KaB55qE55u45YWz5a2X5q61IikKQERhdGEKcHVibGljIGNsYXNzIENvdXJzZVdlYlZvIGltcGxlbWVudHMgU2VyaWFsaXphYmxlIHsKCglwcml2YXRlIHN0YXRpYyBmaW5hbCBsb25nIHNlcmlhbFZlcnNpb25VSUQgPSAxTDsKCglwcml2YXRlIFN0cmluZyBpZDsKCglAQXBpTW9kZWxQcm9wZXJ0eSh2YWx1ZSA9ICLor77nqIvmoIfpopgiKQoJcHJpdmF0ZSBTdHJpbmcgdGl0bGU7CgoJQEFwaU1vZGVsUHJvcGVydHkodmFsdWUgPSAi6K++56iL6ZSA5ZSu5Lu35qC877yM6K6+572u5Li6MOWImeWPr+WFjei0ueingueciyIpCglwcml2YXRlIEJpZ0RlY2ltYWwgcHJpY2U7CgoJQEFwaU1vZGVsUHJvcGVydHkodmFsdWUgPSAi5oC76K++5pe2IikKCXByaXZhdGUgSW50ZWdlciBsZXNzb25OdW07CgoJQEFwaU1vZGVsUHJvcGVydHkodmFsdWUgPSAi6K++56iL5bCB6Z2i5Zu+54mH6Lev5b6EIikKCXByaXZhdGUgU3RyaW5nIGNvdmVyOwoKCUBBcGlNb2RlbFByb3BlcnR5KHZhbHVlID0gIumUgOWUruaVsOmHjyIpCglwcml2YXRlIExvbmcgYnV5Q291bnQ7CgoJQEFwaU1vZGVsUHJvcGVydHkodmFsdWUgPSAi5rWP6KeI5pWw6YePIikKCXByaXZhdGUgTG9uZyB2aWV3Q291bnQ7CgoJQEFwaU1vZGVsUHJvcGVydHkodmFsdWUgPSAi6K++56iL566A5LuLIikKCXByaXZhdGUgU3RyaW5nIGRlc2NyaXB0aW9uOwoKCUBBcGlNb2RlbFByb3BlcnR5KHZhbHVlID0gIuiusuW4iElEIikKCXByaXZhdGUgU3RyaW5nIHRlYWNoZXJJZDsKCglAQXBpTW9kZWxQcm9wZXJ0eSh2YWx1ZSA9ICLorrLluIjlp5PlkI0iKQoJcHJpdmF0ZSBTdHJpbmcgdGVhY2hlck5hbWU7CgoJQEFwaU1vZGVsUHJvcGVydHkodmFsdWUgPSAi6K6y5biI6LWE5Y6GLOS4gOWPpeivneivtOaYjuiusuW4iCIpCglwcml2YXRlIFN0cmluZyBpbnRybzsKCglAQXBpTW9kZWxQcm9wZXJ0eSh2YWx1ZSA9ICLorrLluIjlpLTlg48iKQoJcHJpdmF0ZSBTdHJpbmcgYXZhdGFyOwoKCUBBcGlNb2RlbFByb3BlcnR5KHZhbHVlID0gIuivvueoi+exu+WIq0lEIikKCXByaXZhdGUgU3RyaW5nIHN1YmplY3RMZXZlbE9uZUlkOwoKCUBBcGlNb2RlbFByb3BlcnR5KHZhbHVlID0gIuexu+WIq+WQjeensCIpCglwcml2YXRlIFN0cmluZyBzdWJqZWN0TGV2ZWxPbmU7CgoJQEFwaU1vZGVsUHJvcGVydHkodmFsdWUgPSAi6K++56iL57G75YirSUQiKQoJcHJpdmF0ZSBTdHJpbmcgc3ViamVjdExldmVsVHdvSWQ7CgoJQEFwaU1vZGVsUHJvcGVydHkodmFsdWUgPSAi57G75Yir5ZCN56ewIikKCXByaXZhdGUgU3RyaW5nIHN1YmplY3RMZXZlbFR3bzsKCn0=
+package com.mad.edu.vo;
+
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
+import lombok.Data;
+
+import java.io.Serializable;
+import java.math.BigDecimal;
+
+/**
+ * @author helen
+ * @since 2019/7/6
+ */
+@ApiModel(value="课程信息", description="网站课程详情页需要的相关字段")
+@Data
+public class CourseWebVo implements Serializable {
+
+	private static final long serialVersionUID = 1L;
+
+	private String id;
+
+	@ApiModelProperty(value = "课程标题")
+	private String title;
+
+	@ApiModelProperty(value = "课程销售价格，设置为0则可免费观看")
+	private BigDecimal price;
+
+	@ApiModelProperty(value = "总课时")
+	private Integer lessonNum;
+
+	@ApiModelProperty(value = "课程封面图片路径")
+	private String cover;
+
+	@ApiModelProperty(value = "销售数量")
+	private Long buyCount;
+
+	@ApiModelProperty(value = "浏览数量")
+	private Long viewCount;
+
+	@ApiModelProperty(value = "课程简介")
+	private String description;
+
+	@ApiModelProperty(value = "讲师ID")
+	private String teacherId;
+
+	@ApiModelProperty(value = "讲师姓名")
+	private String teacherName;
+
+	@ApiModelProperty(value = "讲师资历,一句话说明讲师")
+	private String intro;
+
+	@ApiModelProperty(value = "讲师头像")
+	private String avatar;
+
+	@ApiModelProperty(value = "课程类别ID")
+	private String subjectLevelOneId;
+
+	@ApiModelProperty(value = "类别名称")
+	private String subjectLevelOne;
+
+	@ApiModelProperty(value = "课程类别ID")
+	private String subjectLevelTwoId;
+
+	@ApiModelProperty(value = "类别名称")
+	private String subjectLevelTwo;
+
+}

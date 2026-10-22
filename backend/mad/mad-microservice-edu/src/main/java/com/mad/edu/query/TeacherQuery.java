@@ -1,1 +1,30 @@
-cGFja2FnZSBjb20ubWFkLmVkdS5xdWVyeTsKCmltcG9ydCBpby5zd2FnZ2VyLmFubm90YXRpb25zLkFwaU1vZGVsOwppbXBvcnQgaW8uc3dhZ2dlci5hbm5vdGF0aW9ucy5BcGlNb2RlbFByb3BlcnR5OwppbXBvcnQgbG9tYm9rLkRhdGE7CgppbXBvcnQgamF2YS5pby5TZXJpYWxpemFibGU7CgovKioKICogQGF1dGhvciBoZWxlbgogKiBAc2luY2UgMjAxOS82LzI0CiAqLwpAQXBpTW9kZWwodmFsdWUgPSAiVGVhY2hlcuafpeivouWvueixoSIsIGRlc2NyaXB0aW9uID0gIuiusuW4iOafpeivouWvueixoeWwgeijhSIpCkBEYXRhCnB1YmxpYyBjbGFzcyBUZWFjaGVyUXVlcnkgaW1wbGVtZW50cyBTZXJpYWxpemFibGUgewoKCXByaXZhdGUgc3RhdGljIGZpbmFsIGxvbmcgc2VyaWFsVmVyc2lvblVJRCA9IDFMOwoKCUBBcGlNb2RlbFByb3BlcnR5KHZhbHVlID0gIuaVmeW4iOWQjeensCzmqKHns4rmn6Xor6IiKQoJcHJpdmF0ZSBTdHJpbmcgbmFtZTsKCglAQXBpTW9kZWxQcm9wZXJ0eSh2YWx1ZSA9ICLlpLTooZQgMemrmOe6p+iusuW4iCAy6aaW5bit6K6y5biIIikKCXByaXZhdGUgSW50ZWdlciBsZXZlbDsKCglAQXBpTW9kZWxQcm9wZXJ0eSh2YWx1ZSA9ICLmn6Xor6LlvIDlp4vml7bpl7QiLCBleGFtcGxlID0gIjIwMTktMDEtMDEgMTA6MTA6MTAiKQoJcHJpdmF0ZSBTdHJpbmcgYmVnaW47Ly/ms6jmhI/vvIzov5nph4zkvb/nlKjnmoTmmK9TdHJpbmfnsbvlnovvvIzliY3nq6/kvKDov4fmnaXnmoTmlbDmja7ml6DpnIDov5vooYznsbvlnovovazmjaIKCglAQXBpTW9kZWxQcm9wZXJ0eSh2YWx1ZSA9ICLmn6Xor6Lnu5PmnZ/ml7bpl7QiLCBleGFtcGxlID0gIjIwMTktMTItMDEgMTA6MTA6MTAiKQoJcHJpdmF0ZSBTdHJpbmcgZW5kOwp9
+package com.mad.edu.query;
+
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
+import lombok.Data;
+
+import java.io.Serializable;
+
+/**
+ * @author helen
+ * @since 2019/6/24
+ */
+@ApiModel(value = "Teacher查询对象", description = "讲师查询对象封装")
+@Data
+public class TeacherQuery implements Serializable {
+
+	private static final long serialVersionUID = 1L;
+
+	@ApiModelProperty(value = "教师名称,模糊查询")
+	private String name;
+
+	@ApiModelProperty(value = "头衔 1高级讲师 2首席讲师")
+	private Integer level;
+
+	@ApiModelProperty(value = "查询开始时间", example = "2019-01-01 10:10:10")
+	private String begin;//注意，这里使用的是String类型，前端传过来的数据无需进行类型转换
+
+	@ApiModelProperty(value = "查询结束时间", example = "2019-12-01 10:10:10")
+	private String end;
+}

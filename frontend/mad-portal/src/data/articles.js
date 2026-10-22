@@ -1,1 +1,71 @@
-Ly8g5paH56ug5pWw5o2u77yI5bCB6Z2i5rK/55SoIHBob3RvL2FydGljbGUvMFguanBn77yJCmV4cG9ydCBjb25zdCBhcnRpY2xlcyA9IFsKICB7CiAgICBpZDogMSwKICAgIHRpdGxlOiAnMjAyNuW5tElU6KGM5Lia5bCx5Lia6LaL5Yq/5LiO5a2m5Lmg6Lev5b6E5bu66K6uJywKICAgIGNvdmVyOiAnL3Bob3RvL2FydGljbGUvMDEuanBnJywKICAgIGF1dGhvcjogJ01BROe9keivvuezu+e7n+aVmeeglCcsCiAgICBkYXRlOiAnMjAyNi0wOS0xMicsCiAgICB2aWV3czogMzI4MCwKICAgIGV4Y2VycHQ6ICfku47lpKfmqKHlnovluK3ljbfliLDkupHljp/nlJ/mma7lj4rvvIzmioDmnK/moIjlv6vpgJ/ov63ku6PjgILmnKzmlofmorPnkIblkI7nq6/jgIHliY3nq6/jgIHmlbDmja7kuInkuKrmlrnlkJHnmoTlsLHkuJrnjrDnirbvvIzlubbnu5nlh7rlj6/okL3lnLDnmoTkuIDlubTlrabkuaDot6/nur/jgIInLAogICAgY29udGVudDoKICAgICAgJ+i/h+WOu+S4gOW5tO+8jEFJIOi+heWKqee8lueoi+Wkp+W5heaPkOWNh+S6huS4quS6uuS6p+iDve+8jOS9huS5n+aKrOmrmOS6huS8geS4muWvueW3peeoi+W4iOe7vOWQiOe0oOWFu+eahOimgeaxguOAglxuXG7lkI7nq6/mlrnlkJHvvIxKYXZhIOS+neaXp+aYr+aLm+iBmOWfuuacrOebmO+8jFNwcmluZyBCb290ICsg5b6u5pyN5YqhICsg5LqR5Y6f55Sf77yISzhz77yJ5oiQ5Li65qCH6YWN77yb5YmN56uv5pa55ZCR77yMVnVlMyDkuI4gUmVhY3Qg5Y+M6ZuE5bm256uL77yM5bel56iL5YyW5LiO5Y+v6KeG5YyW6IO95Yqb5oSI5Y+R6YeN6KaB77yb5pWw5o2u5pa55ZCR77yM5a6e5pe26K6h566X77yIRmxpbmvvvInkuI7muZbku5PkuIDkvZPvvIhJY2ViZXJn77yJ6ZyA5rGC5pe655ub44CCXG5cbuW7uuiuru+8muWFiOaJk+eJouS4gOmXqOivreiogOS4juiuoeeul+acuuWfuuehgO+8jOWGjeeUqOS4gOS4quWujOaVtOmhueebruS4suiBlOahhuaetu+8jOacgOWQjuihpeWIhuW4g+W8j+S4jui/kOe7tOinhumHjuOAgicKICB9LAogIHsKICAgIGlkOiAyLAogICAgdGl0bGU6ICfku47pm7bnkIbop6MgSlZNIOWGheWtmOaooeWei+S4juWeg+WcvuWbnuaUticsCiAgICBjb3ZlcjogJy9waG90by9hcnRpY2xlLzAyLmpwZycsCiAgICBhdXRob3I6ICfpn6nogIHluIgnLAogICAgZGF0ZTogJzIwMjYtMDgtMjgnLAogICAgdmlld3M6IDIxNTYsCiAgICBleGNlcnB0OiAn5aCG44CB5qCI44CB5pa55rOV5Yy65Yiw5bqV5a2Y5LqG5LuA5LmI77yfR0Mg5Li65LuA5LmI5Lya6K6p5pyN5Yqh5YG25Y+R5Y2h6aG/77yf55So5LiA5byg5Zu+6K6y5riFIEpWTSDlhoXlrZjkuI7lm57mlLblmajpgInlnovjgIInLAogICAgY29udGVudDoKICAgICAgJ0pWTSDov5DooYzml7bmlbDmja7ljLrliIbkuLrnur/nqIvnp4HmnInvvIjnqIvluo/orqHmlbDlmajjgIHomZrmi5/mnLrmoIjjgIHmnKzlnLDmlrnms5XmoIjvvInkuI7nur/nqIvlhbHkuqvvvIjloIbjgIHmlrnms5XljLrvvInjgIJcblxu5Z6D5Zy+5Zue5pS25Li76KaB6ZKI5a+55aCG44CC5YiG5Luj5YGH6K+05LiL77yM5bm06L275Luj55So5aSN5Yi2566X5rOV77yITWlub3IgR0PvvInvvIzogIHlubTku6PnlKjmoIforrAt5pW055CG77yIRnVsbCBHQ++8ieOAgkcxIOmAmui/hyBSZWdpb24g5YyW5oqK5YGc6aG/5Y+v5o6n77yMWkdDIOWImeaKiuWBnOmhv+WOi+e8qeWIsOavq+enkue6p+OAglxuXG7osIPkvJjnrKzkuIDmraXmsLjov5zmmK/nnIvmh4IgR0Mg5pel5b+X77yM5YaN6LCI5Y+C5pWw44CCJwogIH0sCiAgewogICAgaWQ6IDMsCiAgICB0aXRsZTogJ1Z1ZTMgQ29tcG9zaXRpb24gQVBJIOWIsOW6leino+WGs+S6huS7gOS5iOmXrumimCcsCiAgICBjb3ZlcjogJy9waG90by9hcnRpY2xlLzAzLmpwZycsCiAgICBhdXRob3I6ICfpmYjogIHluIgnLAogICAgZGF0ZTogJzIwMjYtMDgtMTUnLAogICAgdmlld3M6IDQwMTIsCiAgICBleGNlcnB0OiAnT3B0aW9ucyBBUEkg5Zyo5aSN5p2C57uE5Lu26YeM5a655piT6YC76L6R56KO54mH5YyW77yMQ29tcG9zaXRpb24gQVBJIOeUqOWHveaVsOaKiuebuOWFs+mAu+i+keiBmuWQiO+8jOWkjeeUqOS4juexu+Wei+aOqOWvvOmDveabtOmhuuaJi+OAgicsCiAgICBjb250ZW50OgogICAgICAnT3B0aW9ucyBBUEkg5oqK5pWw5o2u44CB5pa55rOV44CB55Sf5ZG95ZGo5pyf5YiG5pWj5Zyo5LiN5ZCM6YCJ6aG56YeM77yM57uE5Lu25LiA5aSn5bCx6Zq+5Lul6L+96Liq5LiA5q616YC76L6R55qE5p2l6b6Z5Y676ISJ44CCXG5cbkNvbXBvc2l0aW9uIEFQSSDlhYHorrjnlKggc2V0dXAoKSDmiorlkIzkuIDkuJrliqHnmoTnirbmgIHkuI7ooYzkuLrlhpnlnKjkuIDotbfvvIzphY3lkIggY29tcG9zYWJsZSDlh73mlbDot6jnu4Tku7blpI3nlKjjgILphY3lkIggPHNjcmlwdCBzZXR1cD4g6K+t5rOV57OW77yM5qih5p2/5LiO6YC76L6R5pu057Sn5YeR77yMVFMg5o6o5a+85Lmf5pu06Ieq54S244CCJwogIH0sCiAgewogICAgaWQ6IDQsCiAgICB0aXRsZTogJ015U1FMIOe0ouW8leS4uuS7gOS5iOS8muWkseaViO+8n+WNgeS4quW4uOingeWdkScsCiAgICBjb3ZlcjogJy9waG90by9hcnRpY2xlLzA0LmpwZycsCiAgICBhdXRob3I6ICfliJjogIHluIgnLAogICAgZGF0ZTogJzIwMjYtMDctMzAnLAogICAgdmlld3M6IDE4NzcsCiAgICBleGNlcnB0OiAn5pyA5bem5YmN57yA44CB6ZqQ5byP6L2s5o2i44CB5Ye95pWw5YyF6KO544CB5qih57OK5p+l6K+i4oCm4oCm6L+Z5Lqb5YaZ5rOV5Lya6K6p57Si5byV5oKE5oKE5aSx5pWI77yM5pys5paH6YCQ5LiA5ouG6Kej5bm257uZ5Ye65pS55YaZ5pa55qGI44CCJywKICAgIGNvbnRlbnQ6CiAgICAgICfntKLlvJXlpLHmlYjluLjop4Hkuo7vvJrlr7nliJflgZrlh73mlbDov5DnrpfjgIHpmpDlvI/nsbvlnovovazmjaLjgIHkvb/nlKjliY3lr7zpgJrphY3nrKYgTElLReOAgei/neWPjeacgOW3puWJjee8gOOAgW9yIOi/nuaOpemdnue0ouW8leWIl+etieOAglxuXG7lrprkvY3miYvmrrXmmK/nlKggRVhQTEFJTiDnnIsgdHlwZSDkuI4ga2V5IOWtl+auteOAguaUueWGmeWOn+WIme+8muaKiuiuoeeul+enu+WIsOetieWPt+WPs+S+p+OAgeS/neivgeiBlOWQiOe0ouW8lemhuuW6j+OAgeW/heimgeaXtuW7uuimhueblue0ouW8leOAgicKICB9LAogIHsKICAgIGlkOiA1LAogICAgdGl0bGU6ICfljYrlsI/ml7bmkJ7mh4IgUkVTVGZ1bCBBUEkg6K6+6K6h6KeE6IyDJywKICAgIGNvdmVyOiAnL3Bob3RvL2FydGljbGUvMDUuanBnJywKICAgIGF1dGhvcjogJ+Wui+iAgeW4iCcsCiAgICBkYXRlOiAnMjAyNi0wNy0xOCcsCiAgICB2aWV3czogMjY0MCwKICAgIGV4Y2VycHQ6ICfotYTmupDnlKjlkI3or43jgIHliqjkvZzkuqTnu5kgSFRUUCDmlrnms5XjgIHnirbmgIHnoIHooajovr7nu5PmnpzjgILkuIDlpZfmuIXmmbDnmoQgQVBJIOinhOiMg+iDveecgeS4i+WboumYn+S4gOWNiueahOayn+mAmuaIkOacrOOAgicsCiAgICBjb250ZW50OgogICAgICAnUkVTVGZ1bCDlvLrosIPotYTmupDlr7zlkJHvvJpVUkwg55So5ZCN6K+N5aSN5pWw77yIL2NvdXJzZXPvvInvvIzlop7liKDmlLnnlKggUE9TVC9ERUxFVEUvUFVU77yM5p+l6K+i55SoIEdFVOOAglxuXG7niYjmnKzmlL4gVVJMIOWJjee8gOaIluivt+axguWktO+8m+e7n+S4gOi/lOWbnue7k+aehO+8iGNvZGUvbWVzc2FnZS9kYXRh77yJ77yb55SoIDIwMC8yMDEvNDAwLzQwMS80MDMvNDA0LzUwMCDooajovr7or63kuYnjgILmlofmoaPkvJjlhYjnlKggT3BlbkFQSeOAgicKICB9LAogIHsKICAgIGlkOiA2LAogICAgdGl0bGU6ICfliIbluIPlvI/kuovliqHvvJrku47kuKTpmLbmrrXmj5DkuqTliLDmnIDnu4jkuIDoh7QnLAogICAgY292ZXI6ICcvcGhvdG8vYXJ0aWNsZS8wNi5qcGcnLAogICAgYXV0aG9yOiAn5YiY6ICB5biIJywKICAgIGRhdGU6ICcyMDI2LTA2LTIyJywKICAgIHZpZXdzOiAxOTkwLAogICAgZXhjZXJwdDogJ+W8uuS4gOiHtOeahOS4pOmYtuauteaPkOS6pOaAp+iDveW3ru+8jOS6kuiBlOe9keabtOW4uOeUqOa2iOaBr+mYn+WIl+WunueOsOacgOe7iOS4gOiHtOOAguacrOaWh+WvueavlOS4u+a1geaWueahiOeahOWPluiIjeOAgicsCiAgICBjb250ZW50OgogICAgICAnMlBDIOeugOWNleS9huWQjOatpemYu+WhnuOAgeWNleeCuemjjumZqemrmO+8m1RDQyDmiorkuovliqHmi4bkuLogdHJ5L2NvbmZpcm0vY2FuY2Vs77yM6YCC5ZCI5qC45b+D6LWE6YeR6ZO+6Lev44CCXG5cbuWkmuaVsOS4muWKoeWPr+eUqOacrOWcsOa2iOaBr+ihqCArIE1RIOWunueOsOacgOe7iOS4gOiHtO+8muacrOWcsOS6i+WKoeS4jua2iOaBr+WFpeW6k+WQjOW6k++8jOW8guatpeaKlemAkuW5tuS/neivgeW5guetiea2iOi0ue+8jOeJuueJsuW8uuS4gOiHtOaNouWPluWPr+eUqOaAp+S4juWQnuWQkOOAgicKICB9Cl0KCmV4cG9ydCBjb25zdCBnZXRBcnRpY2xlID0gKGlkKSA9PiBhcnRpY2xlcy5maW5kKChhKSA9PiBhLmlkID09PSBOdW1iZXIoaWQpKQo=
+// 文章数据（封面沿用 photo/article/0X.jpg）
+export const articles = [
+  {
+    id: 1,
+    title: '2026年IT行业就业趋势与学习路径建议',
+    cover: '/photo/article/01.jpg',
+    author: 'MAD网课系统教研',
+    date: '2026-09-12',
+    views: 3280,
+    excerpt: '从大模型席卷到云原生普及，技术栈快速迭代。本文梳理后端、前端、数据三个方向的就业现状，并给出可落地的一年学习路线。',
+    content:
+      '过去一年，AI 辅助编程大幅提升了个人产能，但也抬高了企业对工程师综合素养的要求。\n\n后端方向，Java 依旧是招聘基本盘，Spring Boot + 微服务 + 云原生（K8s）成为标配；前端方向，Vue3 与 React 双雄并立，工程化与可视化能力愈发重要；数据方向，实时计算（Flink）与湖仓一体（Iceberg）需求旺盛。\n\n建议：先打牢一门语言与计算机基础，再用一个完整项目串联框架，最后补分布式与运维视野。'
+  },
+  {
+    id: 2,
+    title: '从零理解 JVM 内存模型与垃圾回收',
+    cover: '/photo/article/02.jpg',
+    author: '韩老师',
+    date: '2026-08-28',
+    views: 2156,
+    excerpt: '堆、栈、方法区到底存了什么？GC 为什么会让服务偶发卡顿？用一张图讲清 JVM 内存与回收器选型。',
+    content:
+      'JVM 运行时数据区分为线程私有（程序计数器、虚拟机栈、本地方法栈）与线程共享（堆、方法区）。\n\n垃圾回收主要针对堆。分代假说下，年轻代用复制算法（Minor GC），老年代用标记-整理（Full GC）。G1 通过 Region 化把停顿可控，ZGC 则把停顿压缩到毫秒级。\n\n调优第一步永远是看懂 GC 日志，再谈参数。'
+  },
+  {
+    id: 3,
+    title: 'Vue3 Composition API 到底解决了什么问题',
+    cover: '/photo/article/03.jpg',
+    author: '陈老师',
+    date: '2026-08-15',
+    views: 4012,
+    excerpt: 'Options API 在复杂组件里容易逻辑碎片化，Composition API 用函数把相关逻辑聚合，复用与类型推导都更顺手。',
+    content:
+      'Options API 把数据、方法、生命周期分散在不同选项里，组件一大就难以追踪一段逻辑的来龙去脉。\n\nComposition API 允许用 setup() 把同一业务的状态与行为写在一起，配合 composable 函数跨组件复用。配合 <script setup> 语法糖，模板与逻辑更紧凑，TS 推导也更自然。'
+  },
+  {
+    id: 4,
+    title: 'MySQL 索引为什么会失效？十个常见坑',
+    cover: '/photo/article/04.jpg',
+    author: '刘老师',
+    date: '2026-07-30',
+    views: 1877,
+    excerpt: '最左前缀、隐式转换、函数包裹、模糊查询……这些写法会让索引悄悄失效，本文逐一拆解并给出改写方案。',
+    content:
+      '索引失效常见于：对列做函数运算、隐式类型转换、使用前导通配符 LIKE、违反最左前缀、or 连接非索引列等。\n\n定位手段是用 EXPLAIN 看 type 与 key 字段。改写原则：把计算移到等号右侧、保证联合索引顺序、必要时建覆盖索引。'
+  },
+  {
+    id: 5,
+    title: '半小时搞懂 RESTful API 设计规范',
+    cover: '/photo/article/05.jpg',
+    author: '宋老师',
+    date: '2026-07-18',
+    views: 2640,
+    excerpt: '资源用名词、动作交给 HTTP 方法、状态码表达结果。一套清晰的 API 规范能省下团队一半的沟通成本。',
+    content:
+      'RESTful 强调资源导向：URL 用名词复数（/courses），增删改用 POST/DELETE/PUT，查询用 GET。\n\n版本放 URL 前缀或请求头；统一返回结构（code/message/data）；用 200/201/400/401/403/404/500 表达语义。文档优先用 OpenAPI。'
+  },
+  {
+    id: 6,
+    title: '分布式事务：从两阶段提交到最终一致',
+    cover: '/photo/article/06.jpg',
+    author: '刘老师',
+    date: '2026-06-22',
+    views: 1990,
+    excerpt: '强一致的两阶段提交性能差，互联网更常用消息队列实现最终一致。本文对比主流方案的取舍。',
+    content:
+      '2PC 简单但同步阻塞、单点风险高；TCC 把事务拆为 try/confirm/cancel，适合核心资金链路。\n\n多数业务可用本地消息表 + MQ 实现最终一致：本地事务与消息入库同库，异步投递并保证幂等消费，牺牲强一致换取可用性与吞吐。'
+  }
+]
+
+export const getArticle = (id) => articles.find((a) => a.id === Number(id))

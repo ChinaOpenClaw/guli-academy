@@ -1,1 +1,20 @@
-PHRlbXBsYXRlPgogIDxkaXYgY2xhc3M9ImNvbnRhaW5lciBtdDIwIj4KICAgIDxTZWN0aW9uVGl0bGUgdGl0bGU9IuWtpuWRmOmXruetlCIgc3VidGl0bGU9IuS4jeaHguWwsemXru+8jOiAgeW4iOS4juWQjOWtpuS4gOi1t+etlCIgLz4KICAgIDxkaXYgY2xhc3M9Im10MjAiPgogICAgICA8ZGl2IGNsYXNzPSJxLWl0ZW0iIHYtZm9yPSJxIGluIHF1ZXN0aW9ucyIgOmtleT0icS5pZCI+CiAgICAgICAgPGRpdiBjbGFzcz0icS1hdmF0YXIiPnt7IHEuYXNrZXIuc2xpY2UoMCwgMSkgfX08L2Rpdj4KICAgICAgICA8ZGl2IGNsYXNzPSJxLWJvZHkiPgogICAgICAgICAgPHJvdXRlci1saW5rIDp0bz0iYC9xdWVzdGlvbnMvJHtxLmlkfWAiIGNsYXNzPSJjLTMzMyI+PGgzPnt7IHEudGl0bGUgfX08L2gzPjwvcm91dGVyLWxpbms+CiAgICAgICAgICA8cCBjbGFzcz0idHh0T2YiPnt7IHEuY29udGVudCB9fTwvcD4KICAgICAgICAgIDxkaXYgY2xhc3M9InEtbWV0YSI+e3sgcS5hc2tlciB9fSDCtyB7eyBxLmRhdGUgfX0gwrcge3sgcS52aWV3cyB9fSDmtY/op4ggwrcge3sgcS5hbnN3ZXJzLmxlbmd0aCB9fSDlm57nrZQ8L2Rpdj4KICAgICAgICA8L2Rpdj4KICAgICAgPC9kaXY+CiAgICA8L2Rpdj4KICA8L2Rpdj4KPC90ZW1wbGF0ZT4KCjxzY3JpcHQgc2V0dXA+CmltcG9ydCBTZWN0aW9uVGl0bGUgZnJvbSAnQC9jb21wb25lbnRzL1NlY3Rpb25UaXRsZS52dWUnCmltcG9ydCB7IHF1ZXN0aW9ucyB9IGZyb20gJ0AvZGF0YS9xdWVzdGlvbnMnCjwvc2NyaXB0Pgo=
+<template>
+  <div class="container mt20">
+    <SectionTitle title="学员问答" subtitle="不懂就问，老师与同学一起答" />
+    <div class="mt20">
+      <div class="q-item" v-for="q in questions" :key="q.id">
+        <div class="q-avatar">{{ q.asker.slice(0, 1) }}</div>
+        <div class="q-body">
+          <router-link :to="`/questions/${q.id}`" class="c-333"><h3>{{ q.title }}</h3></router-link>
+          <p class="txtOf">{{ q.content }}</p>
+          <div class="q-meta">{{ q.asker }} · {{ q.date }} · {{ q.views }} 浏览 · {{ q.answers.length }} 回答</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script setup>
+import SectionTitle from '@/components/SectionTitle.vue'
+import { questions } from '@/data/questions'
+</script>

@@ -1,1 +1,106 @@
-PHRlbXBsYXRlPgogIDxkaXYgY2xhc3M9InBsYXllciI+CiAgICA8IS0tIFlvdVR1YmUg5pKt5pS+5YiX6KGo5bWM5YWlIC0tPgogICAgPGlmcmFtZQogICAgICB2LWlmPSJwbGF5bGlzdElkIgogICAgICBjbGFzcz0icGxheWVyLWlmcmFtZSIKICAgICAgOnNyYz0iZW1iZWRTcmMiCiAgICAgIHNjcm9sbGluZz0ibm8iCiAgICAgIGJvcmRlcj0iMCIKICAgICAgZnJhbWVib3JkZXI9Im5vIgogICAgICBmcmFtZXNwYWNpbmc9IjAiCiAgICAgIGFsbG93ZnVsbHNjcmVlbj0idHJ1ZSIKICAgICAgOnRpdGxlPSJ0aXRsZSIKICAgID48L2lmcmFtZT4KCiAgICA8IS0tIEIg56uZ5q2j54mI5bWM5YWlIC0tPgogICAgPGlmcmFtZQogICAgICB2LWVsc2UtaWY9ImJ2aWQiCiAgICAgIGNsYXNzPSJwbGF5ZXItaWZyYW1lIgogICAgICA6c3JjPSJlbWJlZFNyYyIKICAgICAgc2Nyb2xsaW5nPSJubyIKICAgICAgYm9yZGVyPSIwIgogICAgICBmcmFtZWJvcmRlcj0ibm8iCiAgICAgIGZyYW1lc3BhY2luZz0iMCIKICAgICAgYWxsb3dmdWxsc2NyZWVuPSJ0cnVlIgogICAgICA6dGl0bGU9InRpdGxlIgogICAgPjwvaWZyYW1lPgoKICAgIDwhLS0g5ryU56S6IE1QNO+8iOaXoOWklumDqOaSreaUvua6kOaXtuWbnumAgO+8iSAtLT4KICAgIDx2aWRlbwogICAgICB2LWVsc2UKICAgICAgcmVmPSJ2aWQiCiAgICAgIGNsYXNzPSJwbGF5ZXItdmlkZW8iCiAgICAgIDpzcmM9InNyYyIKICAgICAgOnBvc3Rlcj0icG9zdGVyIgogICAgICBjb250cm9scwogICAgICBwcmVsb2FkPSJtZXRhZGF0YSIKICAgICAgcGxheXNpbmxpbmUKICAgICAgQGVuZGVkPSIkZW1pdCgnZW5kZWQnKSIKICAgID7mgqjnmoTmtY/op4jlmajkuI3mlK/mjIEgSFRNTDUg6KeG6aKR44CCPC92aWRlbz4KCiAgICA8ZGl2IGNsYXNzPSJwbGF5ZXItYmFyIj4KICAgICAgPHNwYW4gY2xhc3M9InBsYXllci10aXRsZSB0eHRPZiI+e3sgdGl0bGUgfX08L3NwYW4+CiAgICAgIDxzcGFuIHYtaWY9InBsYXlsaXN0SWQiIGNsYXNzPSJwbGF5ZXIteXQiPllvdVR1YmUg5Y6f6K++PC9zcGFuPgogICAgICA8c3BhbiB2LWVsc2UtaWY9ImJ2aWQiIGNsYXNzPSJwbGF5ZXItYmlsaSI+Quermeato+eJiDwvc3Bhbj4KICAgICAgPHNwYW4gdi1lbHNlLWlmPSJmcmVlIiBjbGFzcz0icGxheWVyLWZyZWUiPuWFjei0ueivleecizwvc3Bhbj4KICAgIDwvZGl2PgogIDwvZGl2Pgo8L3RlbXBsYXRlPgoKPHNjcmlwdCBzZXR1cD4KaW1wb3J0IHsgcmVmLCBjb21wdXRlZCwgd2F0Y2ggfSBmcm9tICd2dWUnCgpjb25zdCBwcm9wcyA9IGRlZmluZVByb3BzKHsKICBzcmM6IHsgdHlwZTogU3RyaW5nLCBkZWZhdWx0OiAnJyB9LAogIHRpdGxlOiB7IHR5cGU6IFN0cmluZywgZGVmYXVsdDogJycgfSwKICBmcmVlOiB7IHR5cGU6IEJvb2xlYW4sIGRlZmF1bHQ6IGZhbHNlIH0sCiAgcG9zdGVyOiB7IHR5cGU6IFN0cmluZywgZGVmYXVsdDogJycgfSwKICBidmlkOiB7IHR5cGU6IFN0cmluZywgZGVmYXVsdDogJycgfSwKICBwYWdlOiB7IHR5cGU6IE51bWJlciwgZGVmYXVsdDogMSB9LAogIHBsYXlsaXN0SWQ6IHsgdHlwZTogU3RyaW5nLCBkZWZhdWx0OiAnJyB9LAogIGluZGV4OiB7IHR5cGU6IE51bWJlciwgZGVmYXVsdDogMCB9Cn0pCmRlZmluZUVtaXRzKFsnZW5kZWQnXSkKCmNvbnN0IHZpZCA9IHJlZihudWxsKQoKY29uc3QgZW1iZWRTcmMgPSBjb21wdXRlZCgoKSA9PiB7CiAgaWYgKHByb3BzLnBsYXlsaXN0SWQpIHsKICAgIC8vIFlvdVR1YmUg5a6Y5pa55pSv5oyBIHZpZGVvc2VyaWVzICsgbGlzdCArIGluZGV4IOW1jOWFpeaSreaUvuWIl+ihqOW5tuWumuS9jeWIsOesrCBpbmRleCDmnaEKICAgIHJldHVybiBgaHR0cHM6Ly93d3cueW91dHViZS5jb20vZW1iZWQvdmlkZW9zZXJpZXM/bGlzdD0ke3Byb3BzLnBsYXlsaXN0SWR9JmluZGV4PSR7cHJvcHMuaW5kZXggfHwgMH0maGw9emgtQ05gCiAgfQogIGlmIChwcm9wcy5idmlkKSB7CiAgICByZXR1cm4gYGh0dHBzOi8vcGxheWVyLmJpbGliaWxpLmNvbS9wbGF5ZXIuaHRtbD9idmlkPSR7cHJvcHMuYnZpZH0mcGFnZT0ke3Byb3BzLnBhZ2UgfHwgMX0maGlnaF9xdWFsaXR5PTEmZGFubWFrdT0wJmF1dG9wbGF5PTBgCiAgfQogIHJldHVybiAnJwp9KQoKLy8g5YiH5o2i6KeG6aKR5pe277yITVA0IOaooeW8j++8ieS7juWktOWKoOi9vQp3YXRjaCgoKSA9PiBwcm9wcy5zcmMsICgpID0+IHsKICBpZiAodmlkLnZhbHVlICYmICFwcm9wcy5idmlkICYmICFwcm9wcy5wbGF5bGlzdElkKSB2aWQudmFsdWUubG9hZCgpCn0pCjwvc2NyaXB0PgoKPHN0eWxlIHNjb3BlZD4KLnBsYXllciB7IGJhY2tncm91bmQ6ICMwMDA7IGJvcmRlci1yYWRpdXM6IDEwcHg7IG92ZXJmbG93OiBoaWRkZW47IH0KLnBsYXllci12aWRlbyB7IHdpZHRoOiAxMDAlOyBhc3BlY3QtcmF0aW86IDE2IC8gOTsgYmFja2dyb3VuZDogIzAwMDsgZGlzcGxheTogYmxvY2s7IH0KLnBsYXllci1pZnJhbWUgeyB3aWR0aDogMTAwJTsgYXNwZWN0LXJhdGlvOiAxNiAvIDk7IGJvcmRlcjogMDsgZGlzcGxheTogYmxvY2s7IGJhY2tncm91bmQ6ICMwMDA7IH0KLnBsYXllci1iYXIgewogIGRpc3BsYXk6IGZsZXg7IGFsaWduLWl0ZW1zOiBjZW50ZXI7IGdhcDogMTBweDsgcGFkZGluZzogMTBweCAxNHB4OwogIGJhY2tncm91bmQ6ICMxMTE2MWM7IGNvbG9yOiAjZmZmOwp9Ci5wbGF5ZXItdGl0bGUgeyBmbGV4OiAxOyBmb250LXNpemU6IDE1cHg7IH0KLnBsYXllci1mcmVlIHsKICBmbGV4OiBub25lOyBmb250LXNpemU6IDEycHg7IGNvbG9yOiAjZmZmOyBiYWNrZ3JvdW5kOiB2YXIoLS1icmFuZCk7CiAgYm9yZGVyLXJhZGl1czogM3B4OyBwYWRkaW5nOiAxcHggOHB4Owp9Ci5wbGF5ZXItYmlsaSB7CiAgZmxleDogbm9uZTsgZm9udC1zaXplOiAxMnB4OyBjb2xvcjogI2ZmZjsgYmFja2dyb3VuZDogI2ZiNzI5OTsKICBib3JkZXItcmFkaXVzOiAzcHg7IHBhZGRpbmc6IDFweCA4cHg7Cn0KLnBsYXllci15dCB7CiAgZmxleDogbm9uZTsgZm9udC1zaXplOiAxMnB4OyBjb2xvcjogI2ZmZjsgYmFja2dyb3VuZDogI2ZmMDAzMzsKICBib3JkZXItcmFkaXVzOiAzcHg7IHBhZGRpbmc6IDFweCA4cHg7Cn0KPC9zdHlsZT4K
+<template>
+  <div class="player">
+    <!-- YouTube 播放列表嵌入 -->
+    <iframe
+      v-if="playlistId"
+      class="player-iframe"
+      :src="embedSrc"
+      scrolling="no"
+      border="0"
+      frameborder="no"
+      framespacing="0"
+      allowfullscreen="true"
+      :title="title"
+    ></iframe>
+
+    <!-- B 站正版嵌入 -->
+    <iframe
+      v-else-if="bvid"
+      class="player-iframe"
+      :src="embedSrc"
+      scrolling="no"
+      border="0"
+      frameborder="no"
+      framespacing="0"
+      allowfullscreen="true"
+      :title="title"
+    ></iframe>
+
+    <!-- 演示 MP4（无外部播放源时回退） -->
+    <video
+      v-else
+      ref="vid"
+      class="player-video"
+      :src="src"
+      :poster="poster"
+      controls
+      preload="metadata"
+      playsinline
+      @ended="$emit('ended')"
+    >您的浏览器不支持 HTML5 视频。</video>
+
+    <div class="player-bar">
+      <span class="player-title txtOf">{{ title }}</span>
+      <span v-if="playlistId" class="player-yt">YouTube 原课</span>
+      <span v-else-if="bvid" class="player-bili">B站正版</span>
+      <span v-else-if="free" class="player-free">免费试看</span>
+    </div>
+  </div>
+</template>
+
+<script setup>
+import { ref, computed, watch } from 'vue'
+
+const props = defineProps({
+  src: { type: String, default: '' },
+  title: { type: String, default: '' },
+  free: { type: Boolean, default: false },
+  poster: { type: String, default: '' },
+  bvid: { type: String, default: '' },
+  page: { type: Number, default: 1 },
+  playlistId: { type: String, default: '' },
+  index: { type: Number, default: 0 }
+})
+defineEmits(['ended'])
+
+const vid = ref(null)
+
+const embedSrc = computed(() => {
+  if (props.playlistId) {
+    // YouTube 官方支持 videoseries + list + index 嵌入播放列表并定位到第 index 条
+    return `https://www.youtube.com/embed/videoseries?list=${props.playlistId}&index=${props.index || 0}&hl=zh-CN`
+  }
+  if (props.bvid) {
+    return `https://player.bilibili.com/player.html?bvid=${props.bvid}&page=${props.page || 1}&high_quality=1&danmaku=0&autoplay=0`
+  }
+  return ''
+})
+
+// 切换视频时（MP4 模式）从头加载
+watch(() => props.src, () => {
+  if (vid.value && !props.bvid && !props.playlistId) vid.value.load()
+})
+</script>
+
+<style scoped>
+.player { background: #000; border-radius: 10px; overflow: hidden; }
+.player-video { width: 100%; aspect-ratio: 16 / 9; background: #000; display: block; }
+.player-iframe { width: 100%; aspect-ratio: 16 / 9; border: 0; display: block; background: #000; }
+.player-bar {
+  display: flex; align-items: center; gap: 10px; padding: 10px 14px;
+  background: #11161c; color: #fff;
+}
+.player-title { flex: 1; font-size: 15px; }
+.player-free {
+  flex: none; font-size: 12px; color: #fff; background: var(--brand);
+  border-radius: 3px; padding: 1px 8px;
+}
+.player-bili {
+  flex: none; font-size: 12px; color: #fff; background: #fb7299;
+  border-radius: 3px; padding: 1px 8px;
+}
+.player-yt {
+  flex: none; font-size: 12px; color: #fff; background: #ff0033;
+  border-radius: 3px; padding: 1px 8px;
+}
+</style>

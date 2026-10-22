@@ -1,1 +1,90 @@
-cGFja2FnZSBjb20ubWFkLmVkdS5zZXJ2aWNlLmltcGw7CgppbXBvcnQgY29tLmJhb21pZG91Lm15YmF0aXNwbHVzLmNvcmUuY29uZGl0aW9ucy5xdWVyeS5RdWVyeVdyYXBwZXI7CmltcG9ydCBjb20uYmFvbWlkb3UubXliYXRpc3BsdXMuZXh0ZW5zaW9uLnBsdWdpbnMucGFnaW5hdGlvbi5QYWdlOwppbXBvcnQgY29tLmJhb21pZG91Lm15YmF0aXNwbHVzLmV4dGVuc2lvbi5zZXJ2aWNlLmltcGwuU2VydmljZUltcGw7CmltcG9ydCBjb20ubWFkLmVkdS5lbnRpdHkuVGVhY2hlcjsKaW1wb3J0IGNvbS5tYWQuZWR1Lm1hcHBlci5UZWFjaGVyTWFwcGVyOwppbXBvcnQgY29tLm1hZC5lZHUucXVlcnkuVGVhY2hlclF1ZXJ5OwppbXBvcnQgY29tLm1hZC5lZHUuc2VydmljZS5UZWFjaGVyU2VydmljZTsKaW1wb3J0IG9yZy5zcHJpbmdmcmFtZXdvcmsuc3RlcmVvdHlwZS5TZXJ2aWNlOwppbXBvcnQgb3JnLnNwcmluZ2ZyYW1ld29yay51dGlsLlN0cmluZ1V0aWxzOwoKaW1wb3J0IGphdmEudXRpbC5IYXNoTWFwOwppbXBvcnQgamF2YS51dGlsLkxpc3Q7CmltcG9ydCBqYXZhLnV0aWwuTWFwOwoKLyoqCiAqIDxwPgogKiDorrLluIgg5pyN5Yqh5a6e546w57G7CiAqIDwvcD4KICoKICogQGF1dGhvciBIZWxlbgogKiBAc2luY2UgMjAxOS0wNi0yNAogKi8KQFNlcnZpY2UKcHVibGljIGNsYXNzIFRlYWNoZXJTZXJ2aWNlSW1wbCBleHRlbmRzIFNlcnZpY2VJbXBsPFRlYWNoZXJNYXBwZXIsIFRlYWNoZXI+IGltcGxlbWVudHMgVGVhY2hlclNlcnZpY2UgewoKCUBPdmVycmlkZQoJcHVibGljIHZvaWQgcGFnZVF1ZXJ5KFBhZ2U8VGVhY2hlcj4gcGFnZVBhcmFtLCBUZWFjaGVyUXVlcnkgdGVhY2hlclF1ZXJ5KSB7CgoJCVF1ZXJ5V3JhcHBlcjxUZWFjaGVyPiBxdWVyeVdyYXBwZXIgPSBuZXcgUXVlcnlXcmFwcGVyPD4oKTsKCQlxdWVyeVdyYXBwZXIub3JkZXJCeUFzYygic29ydCIpOwoKCQlpZiAodGVhY2hlclF1ZXJ5ID09IG51bGwpewoJCQliYXNlTWFwcGVyLnNlbGVjdFBhZ2UocGFnZVBhcmFtLCBxdWVyeVdyYXBwZXIpOwoJCQlyZXR1cm47CgkJfQoKCQlTdHJpbmcgbmFtZSA9IHRlYWNoZXJRdWVyeS5nZXROYW1lKCk7CgkJSW50ZWdlciBsZXZlbCA9IHRlYWNoZXJRdWVyeS5nZXRMZXZlbCgpOwoJCVN0cmluZyBiZWdpbiA9IHRlYWNoZXJRdWVyeS5nZXRCZWdpbigpOwoJCVN0cmluZyBlbmQgPSB0ZWFjaGVyUXVlcnkuZ2V0RW5kKCk7CgoJCWlmICghU3RyaW5nVXRpbHMuaXNFbXB0eShuYW1lKSkgewoJCQlxdWVyeVdyYXBwZXIubGlrZSgibmFtZSIsIG5hbWUpOwoJCX0KCgkJaWYgKCFTdHJpbmdVdGlscy5pc0VtcHR5KGxldmVsKSApIHsKCQkJcXVlcnlXcmFwcGVyLmVxKCJsZXZlbCIsIGxldmVsKTsKCQl9CgoJCWlmICghU3RyaW5nVXRpbHMuaXNFbXB0eShiZWdpbikpIHsKCQkJcXVlcnlXcmFwcGVyLmdlKCJnbXRfY3JlYXRlIiwgYmVnaW4pOwoJCX0KCgkJaWYgKCFTdHJpbmdVdGlscy5pc0VtcHR5KGVuZCkpIHsKCQkJcXVlcnlXcmFwcGVyLmxlKCJnbXRfY3JlYXRlIiwgZW5kKTsKCQl9CgoJCWJhc2VNYXBwZXIuc2VsZWN0UGFnZShwYWdlUGFyYW0sIHF1ZXJ5V3JhcHBlcik7Cgl9CgoJQE92ZXJyaWRlCglwdWJsaWMgTWFwPFN0cmluZywgT2JqZWN0PiBwYWdlTGlzdFdlYihQYWdlPFRlYWNoZXI+IHBhZ2VQYXJhbSkgewoKCQlRdWVyeVdyYXBwZXI8VGVhY2hlcj4gcXVlcnlXcmFwcGVyID0gbmV3IFF1ZXJ5V3JhcHBlcjw+KCk7CgkJcXVlcnlXcmFwcGVyLm9yZGVyQnlBc2MoInNvcnQiKTsKCgkJYmFzZU1hcHBlci5zZWxlY3RQYWdlKHBhZ2VQYXJhbSwgcXVlcnlXcmFwcGVyKTsKCgkJTGlzdDxUZWFjaGVyPiByZWNvcmRzID0gcGFnZVBhcmFtLmdldFJlY29yZHMoKTsKCQlsb25nIGN1cnJlbnQgPSBwYWdlUGFyYW0uZ2V0Q3VycmVudCgpOwoJCWxvbmcgcGFnZXMgPSBwYWdlUGFyYW0uZ2V0UGFnZXMoKTsKCQlsb25nIHNpemUgPSBwYWdlUGFyYW0uZ2V0U2l6ZSgpOwoJCWxvbmcgdG90YWwgPSBwYWdlUGFyYW0uZ2V0VG90YWwoKTsKCQlib29sZWFuIGhhc05leHQgPSBwYWdlUGFyYW0uaGFzTmV4dCgpOwoJCWJvb2xlYW4gaGFzUHJldmlvdXMgPSBwYWdlUGFyYW0uaGFzUHJldmlvdXMoKTsKCgkJTWFwPFN0cmluZywgT2JqZWN0PiBtYXAgPSBuZXcgSGFzaE1hcDxTdHJpbmcsIE9iamVjdD4oKTsKCQltYXAucHV0KCJpdGVtcyIsIHJlY29yZHMpOwoJCW1hcC5wdXQoImN1cnJlbnQiLCBjdXJyZW50KTsKCQltYXAucHV0KCJwYWdlcyIsIHBhZ2VzKTsKCQltYXAucHV0KCJzaXplIiwgc2l6ZSk7CgkJbWFwLnB1dCgidG90YWwiLCB0b3RhbCk7CgkJbWFwLnB1dCgiaGFzTmV4dCIsIGhhc05leHQpOwoJCW1hcC5wdXQoImhhc1ByZXZpb3VzIiwgaGFzUHJldmlvdXMpOwoKCQlyZXR1cm4gbWFwOwoJfQp9Cg==
+package com.mad.edu.service.impl;
+
+import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.mad.edu.entity.Teacher;
+import com.mad.edu.mapper.TeacherMapper;
+import com.mad.edu.query.TeacherQuery;
+import com.mad.edu.service.TeacherService;
+import org.springframework.stereotype.Service;
+import org.springframework.util.StringUtils;
+
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+/**
+ * <p>
+ * 讲师 服务实现类
+ * </p>
+ *
+ * @author Helen
+ * @since 2019-06-24
+ */
+@Service
+public class TeacherServiceImpl extends ServiceImpl<TeacherMapper, Teacher> implements TeacherService {
+
+	@Override
+	public void pageQuery(Page<Teacher> pageParam, TeacherQuery teacherQuery) {
+
+		QueryWrapper<Teacher> queryWrapper = new QueryWrapper<>();
+		queryWrapper.orderByAsc("sort");
+
+		if (teacherQuery == null){
+			baseMapper.selectPage(pageParam, queryWrapper);
+			return;
+		}
+
+		String name = teacherQuery.getName();
+		Integer level = teacherQuery.getLevel();
+		String begin = teacherQuery.getBegin();
+		String end = teacherQuery.getEnd();
+
+		if (!StringUtils.isEmpty(name)) {
+			queryWrapper.like("name", name);
+		}
+
+		if (!StringUtils.isEmpty(level) ) {
+			queryWrapper.eq("level", level);
+		}
+
+		if (!StringUtils.isEmpty(begin)) {
+			queryWrapper.ge("gmt_create", begin);
+		}
+
+		if (!StringUtils.isEmpty(end)) {
+			queryWrapper.le("gmt_create", end);
+		}
+
+		baseMapper.selectPage(pageParam, queryWrapper);
+	}
+
+	@Override
+	public Map<String, Object> pageListWeb(Page<Teacher> pageParam) {
+
+		QueryWrapper<Teacher> queryWrapper = new QueryWrapper<>();
+		queryWrapper.orderByAsc("sort");
+
+		baseMapper.selectPage(pageParam, queryWrapper);
+
+		List<Teacher> records = pageParam.getRecords();
+		long current = pageParam.getCurrent();
+		long pages = pageParam.getPages();
+		long size = pageParam.getSize();
+		long total = pageParam.getTotal();
+		boolean hasNext = pageParam.hasNext();
+		boolean hasPrevious = pageParam.hasPrevious();
+
+		Map<String, Object> map = new HashMap<String, Object>();
+		map.put("items", records);
+		map.put("current", current);
+		map.put("pages", pages);
+		map.put("size", size);
+		map.put("total", total);
+		map.put("hasNext", hasNext);
+		map.put("hasPrevious", hasPrevious);
+
+		return map;
+	}
+}

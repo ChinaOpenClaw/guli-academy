@@ -1,1 +1,15 @@
-aW1wb3J0IENvb2tpZXMgZnJvbSAnanMtY29va2llJwoKY29uc3QgVG9rZW5LZXkgPSAnQWRtaW4tVG9rZW4nCgpleHBvcnQgZnVuY3Rpb24gZ2V0VG9rZW4oKSB7CiAgcmV0dXJuIENvb2tpZXMuZ2V0KFRva2VuS2V5KQp9CgpleHBvcnQgZnVuY3Rpb24gc2V0VG9rZW4odG9rZW4pIHsKICByZXR1cm4gQ29va2llcy5zZXQoVG9rZW5LZXksIHRva2VuKQp9CgpleHBvcnQgZnVuY3Rpb24gcmVtb3ZlVG9rZW4oKSB7CiAgcmV0dXJuIENvb2tpZXMucmVtb3ZlKFRva2VuS2V5KQp9Cg==
+import Cookies from 'js-cookie'
+
+const TokenKey = 'Admin-Token'
+
+export function getToken() {
+  return Cookies.get(TokenKey)
+}
+
+export function setToken(token) {
+  return Cookies.set(TokenKey, token)
+}
+
+export function removeToken() {
+  return Cookies.remove(TokenKey)
+}

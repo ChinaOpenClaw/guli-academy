@@ -1,1 +1,73 @@
-aW1wb3J0IGF4aW9zIGZyb20gJ2F4aW9zJwppbXBvcnQgeyBNZXNzYWdlLCBNZXNzYWdlQm94IH0gZnJvbSAnZWxlbWVudC11aScKaW1wb3J0IHN0b3JlIGZyb20gJy4uL3N0b3JlJwppbXBvcnQgeyBnZXRUb2tlbiB9IGZyb20gJ0AvdXRpbHMvYXV0aCcKCi8vIOWIm+W7umF4aW9z5a6e5L6LCmNvbnN0IHNlcnZpY2UgPSBheGlvcy5jcmVhdGUoewogIGJhc2VVUkw6IHByb2Nlc3MuZW52LkJBU0VfQVBJLCAvLyBhcGkg55qEIGJhc2VfdXJsCiAgdGltZW91dDogNTAwMCAvLyDor7fmsYLotoXml7bml7bpl7QKfSkKCi8vIHJlcXVlc3Tmi6bmiKrlmagKc2VydmljZS5pbnRlcmNlcHRvcnMucmVxdWVzdC51c2UoCiAgY29uZmlnID0+IHsKICAgIGlmIChzdG9yZS5nZXR0ZXJzLnRva2VuKSB7CiAgICAgIGNvbmZpZy5oZWFkZXJzWydYLVRva2VuJ10gPSBnZXRUb2tlbigpIC8vIOiuqeavj+S4quivt+axguaQuuW4puiHquWumuS5iXRva2VuIOivt+agueaNruWunumZheaDheWGteiHquihjOS/ruaUuQogICAgfQogICAgcmV0dXJuIGNvbmZpZwogIH0sCiAgZXJyb3IgPT4gewogICAgLy8gRG8gc29tZXRoaW5nIHdpdGggcmVxdWVzdCBlcnJvcgogICAgY29uc29sZS5sb2coZXJyb3IpIC8vIGZvciBkZWJ1ZwogICAgUHJvbWlzZS5yZWplY3QoZXJyb3IpCiAgfQopCgovLyByZXNwb25zZSDmi6bmiKrlmagKc2VydmljZS5pbnRlcmNlcHRvcnMucmVzcG9uc2UudXNlKAogIHJlc3BvbnNlID0+IHsKICAgIC8qKgogICAgICogY29kZeS4uumdnjIwMDAw5piv5oqb6ZSZIOWPr+e7k+WQiOiHquW3seS4muWKoei/m+ihjOS/ruaUuQogICAgICovCiAgICBjb25zdCByZXMgPSByZXNwb25zZS5kYXRhCiAgICBpZiAocmVzLmNvZGUgIT09IDIwMDAwKSB7CiAgICAgIE1lc3NhZ2UoewogICAgICAgIG1lc3NhZ2U6IHJlcy5tZXNzYWdlLAogICAgICAgIHR5cGU6ICdlcnJvcicsCiAgICAgICAgZHVyYXRpb246IDUgKiAxMDAwCiAgICAgIH0pCgogICAgICAvLyA1MDAwODrpnZ7ms5XnmoR0b2tlbjsgNTAwMTI65YW25LuW5a6i5oi356uv55m75b2V5LqGOyAgNTAwMTQ6VG9rZW4g6L+H5pyf5LqGOwogICAgICBpZiAocmVzLmNvZGUgPT09IDUwMDA4IHx8IHJlcy5jb2RlID09PSA1MDAxMiB8fCByZXMuY29kZSA9PT0gNTAwMTQpIHsKICAgICAgICBNZXNzYWdlQm94LmNvbmZpcm0oCiAgICAgICAgICAn5L2g5bey6KKr55m75Ye677yM5Y+v5Lul5Y+W5raI57un57ut55WZ5Zyo6K+l6aG16Z2i77yM5oiW6ICF6YeN5paw55m75b2VJywKICAgICAgICAgICfnoa7lrprnmbvlh7onLAogICAgICAgICAgewogICAgICAgICAgICBjb25maXJtQnV0dG9uVGV4dDogJ+mHjeaWsOeZu+W9lScsCiAgICAgICAgICAgIGNhbmNlbEJ1dHRvblRleHQ6ICflj5bmtognLAogICAgICAgICAgICB0eXBlOiAnd2FybmluZycKICAgICAgICAgIH0KICAgICAgICApLnRoZW4oKCkgPT4gewogICAgICAgICAgc3RvcmUuZGlzcGF0Y2goJ0ZlZExvZ091dCcpLnRoZW4oKCkgPT4gewogICAgICAgICAgICBsb2NhdGlvbi5yZWxvYWQoKSAvLyDkuLrkuobph43mlrDlrp7kvovljJZ2dWUtcm91dGVy5a+56LGhIOmBv+WFjWJ1ZwogICAgICAgICAgfSkKICAgICAgICB9KQogICAgICB9CiAgICAgIHJldHVybiBQcm9taXNlLnJlamVjdCgnZXJyb3InKQogICAgfSBlbHNlIHsKICAgICAgcmV0dXJuIHJlc3BvbnNlLmRhdGEKICAgIH0KICB9LAogIGVycm9yID0+IHsKICAgIGNvbnNvbGUubG9nKCdlcnInICsgZXJyb3IpIC8vIGZvciBkZWJ1ZwogICAgTWVzc2FnZSh7CiAgICAgIG1lc3NhZ2U6IGVycm9yLm1lc3NhZ2UsCiAgICAgIHR5cGU6ICdlcnJvcicsCiAgICAgIGR1cmF0aW9uOiA1ICogMTAwMAogICAgfSkKICAgIHJldHVybiBQcm9taXNlLnJlamVjdChlcnJvcikKICB9CikKCmV4cG9ydCBkZWZhdWx0IHNlcnZpY2UK
+import axios from 'axios'
+import { Message, MessageBox } from 'element-ui'
+import store from '../store'
+import { getToken } from '@/utils/auth'
+
+// 创建axios实例
+const service = axios.create({
+  baseURL: process.env.BASE_API, // api 的 base_url
+  timeout: 5000 // 请求超时时间
+})
+
+// request拦截器
+service.interceptors.request.use(
+  config => {
+    if (store.getters.token) {
+      config.headers['X-Token'] = getToken() // 让每个请求携带自定义token 请根据实际情况自行修改
+    }
+    return config
+  },
+  error => {
+    // Do something with request error
+    console.log(error) // for debug
+    Promise.reject(error)
+  }
+)
+
+// response 拦截器
+service.interceptors.response.use(
+  response => {
+    /**
+     * code为非20000是抛错 可结合自己业务进行修改
+     */
+    const res = response.data
+    if (res.code !== 20000) {
+      Message({
+        message: res.message,
+        type: 'error',
+        duration: 5 * 1000
+      })
+
+      // 50008:非法的token; 50012:其他客户端登录了;  50014:Token 过期了;
+      if (res.code === 50008 || res.code === 50012 || res.code === 50014) {
+        MessageBox.confirm(
+          '你已被登出，可以取消继续留在该页面，或者重新登录',
+          '确定登出',
+          {
+            confirmButtonText: '重新登录',
+            cancelButtonText: '取消',
+            type: 'warning'
+          }
+        ).then(() => {
+          store.dispatch('FedLogOut').then(() => {
+            location.reload() // 为了重新实例化vue-router对象 避免bug
+          })
+        })
+      }
+      return Promise.reject('error')
+    } else {
+      return response.data
+    }
+  },
+  error => {
+    console.log('err' + error) // for debug
+    Message({
+      message: error.message,
+      type: 'error',
+      duration: 5 * 1000
+    })
+    return Promise.reject(error)
+  }
+)
+
+export default service

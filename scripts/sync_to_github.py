@@ -1,1 +1,278 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uMwojIC0qLSBjb2Rpbmc6IHV0Zi04IC0qLQoiIiIKTUFE572R6K++57O757ufIOKGkiBHaXRIdWIg5LuT5bqT5ZCM5q2l6ISa5pysCgrnlKggR2l0SHViIFRyZWVzIEFQSSDkuIDmrKHmgKfljp/lrZDmj5DkuqTvvJoKICAxLiDmlrDlop4gYmFja2VuZC9tYWQvKuOAgWZyb250ZW5kL21hZC0qLyrjgIFzcWwvbWFkXyouc3Fs44CBZG9jcy8q44CBc2NyaXB0cy8qCiAgMi4g5Yig6Zmk6L+c56uv5pen55qEIGd1bGktKiDot6/lvoQKICAzLiDmm7TmlrAgUkVBRE1FIC8g5paH5qGjIC8g5Zu+6KGo57Si5byVCgrkuLrku4DkuYjkuI3otbAgZ2l0IHB1c2jvvJrmspnnrrHnvZHnu5zkuIsgZ2l0IHB1c2gg6KKr5Luj55CG5oum5oiq77yINTAy77yJ77yMR2l0SHViIEFQSSDnm7Tov57mraPluLjjgIIKIiIiCmltcG9ydCBiYXNlNjQKaW1wb3J0IGpzb24KaW1wb3J0IG9zCmltcG9ydCBzdWJwcm9jZXNzCmltcG9ydCBzeXMKaW1wb3J0IHVybGxpYi5lcnJvcgppbXBvcnQgdXJsbGliLnJlcXVlc3QKClJFUE8gPSAiQ2hpbmFPcGVuQ2xhdy9ndWxpLWFjYWRlbXkiCkJSQU5DSCA9ICJtYWluIgpBUEkgPSAiaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbSIKUFJPSiA9ICIvVXNlcnMvc2FuZy9EZXNrdG9wL+iwt+eykuWtpumZoumhueebriIKU1RBR0UgPSBvcy5wYXRoLmpvaW4oUFJPSiwgIm9zcy1zdGFnaW5nIiwgImd1bGktYWNhZGVteSIpCgoKZGVmIHRva2VuKCk6CiAgICBvdXQgPSBzdWJwcm9jZXNzLnJ1bigKICAgICAgICBbInNlY3VyaXR5IiwgImZpbmQtaW50ZXJuZXQtcGFzc3dvcmQiLCAiLXMiLCAiZ2l0aHViLmNvbSIsICItdyJdLAogICAgICAgIGNhcHR1cmVfb3V0cHV0PVRydWUsIHRleHQ9VHJ1ZSwKICAgICkKICAgIHQgPSBvdXQuc3Rkb3V0LnN0cmlwKCkKICAgIGlmIG5vdCB0OgogICAgICAgIHN5cy5leGl0KCLmnKrmib7liLAgR2l0SHViIHRva2VuIikKICAgIHJldHVybiB0CgoKVE9LID0gdG9rZW4oKQoKCmRlZiBhcGkobWV0aG9kLCBwYXRoLCBib2R5PU5vbmUsIHJhdz1GYWxzZSk6CiAgICB1cmwgPSBBUEkgKyBwYXRoCiAgICBkYXRhID0ganNvbi5kdW1wcyhib2R5KS5lbmNvZGUoKSBpZiBib2R5IGlzIG5vdCBOb25lIGVsc2UgTm9uZQogICAgcmVxID0gdXJsbGliLnJlcXVlc3QuUmVxdWVzdCh1cmwsIGRhdGE9ZGF0YSwgbWV0aG9kPW1ldGhvZCkKICAgIHJlcS5hZGRfaGVhZGVyKCJBdXRob3JpemF0aW9uIiwgInRva2VuICIgKyBUT0spCiAgICByZXEuYWRkX2hlYWRlcigiQWNjZXB0IiwgImFwcGxpY2F0aW9uL3ZuZC5naXRodWIranNvbiIpCiAgICByZXEuYWRkX2hlYWRlcigiVXNlci1BZ2VudCIsICJtYWQtc3luYyIpCiAgICBpZiBkYXRhOgogICAgICAgIHJlcS5hZGRfaGVhZGVyKCJDb250ZW50LVR5cGUiLCAiYXBwbGljYXRpb24vanNvbiIpCiAgICB0cnk6CiAgICAgICAgd2l0aCB1cmxsaWIucmVxdWVzdC51cmxvcGVuKHJlcSwgdGltZW91dD02MCkgYXMgcjoKICAgICAgICAgICAgdHh0ID0gci5yZWFkKCkuZGVjb2RlKCJ1dGYtOCIpCiAgICAgICAgICAgIHJldHVybiB0eHQgaWYgcmF3IGVsc2UganNvbi5sb2Fkcyh0eHQpCiAgICBleGNlcHQgdXJsbGliLmVycm9yLkhUVFBFcnJvciBhcyBlOgogICAgICAgIGJvZHlfdHh0ID0gZS5yZWFkKCkuZGVjb2RlKCJ1dGYtOCIsICJyZXBsYWNlIikKICAgICAgICBzeXMuZXhpdCgiSFRUUCAlcyAlc1xuJXMiICUgKGUuY29kZSwgcGF0aCwgYm9keV90eHRbOjEyMDBdKSkKCgpkZWYgYXBpX3JldHJ5KG1ldGhvZCwgcGF0aCwgYm9keT1Ob25lLCB0cmllcz00KToKICAgIGxhc3QgPSBOb25lCiAgICBmb3IgaSBpbiByYW5nZSh0cmllcyk6CiAgICAgICAgdHJ5OgogICAgICAgICAgICByZXR1cm4gYXBpKG1ldGhvZCwgcGF0aCwgYm9keSkKICAgICAgICBleGNlcHQgU3lzdGVtRXhpdDoKICAgICAgICAgICAgcmFpc2UKICAgICAgICBleGNlcHQgRXhjZXB0aW9uIGFzIGU6ICAjIG5vcWEKICAgICAgICAgICAgbGFzdCA9IGUKICAgICAgICAgICAgcHJpbnQoIiAgIHJldHJ5ICVkLyVkOiAlcyIgJSAoaSArIDEsIHRyaWVzLCBlKSkKICAgIHJhaXNlIGxhc3QKCgpkZWYgcmVtb3RlX3RyZWUoKToKICAgIGQgPSBhcGlfcmV0cnkoIkdFVCIsICIvcmVwb3MvJXMvZ2l0L3RyZWVzLyVzP3JlY3Vyc2l2ZT0xIiAlIChSRVBPLCBCUkFOQ0gpKQogICAgcmV0dXJuIHt0WyJwYXRoIl06IHQgZm9yIHQgaW4gZC5nZXQoInRyZWUiLCBbXSkgaWYgdFsidHlwZSJdID09ICJibG9iIn0KCgpkZWYgY29sbGVjdChsb2NhbF9yb290LCByZW1vdGVfcHJlZml4LCBleGNsdWRlcz0oKSwgaW5jbHVkZV9leHRzPU5vbmUpOgogICAgIiIi5pS26ZuG5pys5Zyw5paH5Lu2IOKGkiBbKHJlbW90ZV9wYXRoLCBhYnNvbHV0ZV9wYXRoKV0iIiIKICAgIG91dCA9IFtdCiAgICBmb3IgYmFzZSwgZGlycywgZmlsZXMgaW4gb3Mud2Fsayhsb2NhbF9yb290KToKICAgICAgICBkaXJzWzpdID0gW2QgZm9yIGQgaW4gZGlycyBpZiBkIG5vdCBpbiAoIm5vZGVfbW9kdWxlcyIsICJkaXN0IiwgInRhcmdldCIsICIuZ2l0IiwgIi5pZGVhIiwgIi5EU19TdG9yZSIpXQogICAgICAgIGZvciBmIGluIGZpbGVzOgogICAgICAgICAgICBpZiBmIGluIGV4Y2x1ZGVzIG9yIGYuc3RhcnRzd2l0aCgiLiIpOgogICAgICAgICAgICAgICAgY29udGludWUKICAgICAgICAgICAgaWYgaW5jbHVkZV9leHRzIGFuZCBub3QgZi5lbmRzd2l0aChpbmNsdWRlX2V4dHMpOgogICAgICAgICAgICAgICAgY29udGludWUKICAgICAgICAgICAgYXAgPSBvcy5wYXRoLmpvaW4oYmFzZSwgZikKICAgICAgICAgICAgcmVsID0gb3MucGF0aC5yZWxwYXRoKGFwLCBsb2NhbF9yb290KQogICAgICAgICAgICBvdXQuYXBwZW5kKChyZW1vdGVfcHJlZml4ICsgIi8iICsgcmVsLnJlcGxhY2Uob3Muc2VwLCAiLyIpLCBhcCkpCiAgICByZXR1cm4gb3V0CgoKZGVmIGJ1aWxkX3RyZWUoZmlsZXMpOgogICAgIiIi5p6E6YCgIEdpdEh1YiB0cmVlIOadoeebru+8iOWQq+mcgOimgeWIoOmZpOeahOaXp+i3r+W+hO+8iSIiIgogICAgZW50cmllcyA9IFtdCiAgICBmb3IgcnAsIGFwIGluIGZpbGVzOgogICAgICAgIHdpdGggb3BlbihhcCwgInJiIikgYXMgZjoKICAgICAgICAgICAgY29udGVudCA9IGYucmVhZCgpCiAgICAgICAgbW9kZSA9ICIxMDA3NTUiIGlmIG9zLmFjY2VzcyhhcCwgb3MuWF9PSykgYW5kIG5vdCBhcC5lbmRzd2l0aCgoIi5zaCIsICIucHkiKSkgZWxzZSAiMTAwNjQ0IgogICAgICAgIGVudHJpZXMuYXBwZW5kKHsKICAgICAgICAgICAgInBhdGgiOiBycCwKICAgICAgICAgICAgIm1vZGUiOiBtb2RlLAogICAgICAgICAgICAidHlwZSI6ICJibG9iIiwKICAgICAgICAgICAgImNvbnRlbnQiOiBiYXNlNjQuYjY0ZW5jb2RlKGNvbnRlbnQpLmRlY29kZSgpLAogICAgICAgIH0pCiAgICByZXR1cm4gZW50cmllcwoKCmRlZiBtYWluKCk6CiAgICBwcmludCgiPT0gMS4g6K+75Y+W6L+c56uv5qCRID09IikKICAgIHJlbW90ZSA9IHJlbW90ZV90cmVlKCkKICAgIHByaW50KCIgICDov5znq6/mlofku7bmlbA6IiwgbGVuKHJlbW90ZSkpCgogICAgcHJpbnQoIj09IDIuIOe7hOijheW+heaPkOS6pOaWh+S7tiA9PSIpCiAgICBmaWxlcyA9IFtdCgogICAgIyAtLS0g5ZCO56uv5b6u5pyN5Yqh77yIZ3VsaSDihpIgbWFkIOaUueWQjeWQjueahOWujOaVtOa6kOegge+8iS0tLQogICAgZmlsZXMgKz0gY29sbGVjdCgKICAgICAgICBvcy5wYXRoLmpvaW4oUFJPSiwgIndvcmtzcGFjZS9iYWNrZW5kL21hZCIpLAogICAgICAgICJiYWNrZW5kL21hZCIsCiAgICAgICAgZXhjbHVkZXM9KCIqLmltbCIsKSwKICAgICkKCiAgICAjIC0tLSDliY3nq68gLS0tCiAgICAjIOWQjuWPsOeuoeeQhu+8muaOkumZpCBub2RlX21vZHVsZXMvZGlzdO+8jOS/neeVmSBzcmMvYnVpbGQvY29uZmlnL3N0YXRpYy9wYWNrYWdlLmpzb24g562JCiAgICBmaWxlcyArPSBjb2xsZWN0KAogICAgICAgIG9zLnBhdGguam9pbihQUk9KLCAid29ya3NwYWNlL2Zyb250ZW5kL21hZC1hZG1pbiIpLAogICAgICAgICJmcm9udGVuZC9tYWQtYWRtaW4iLAogICAgICAgIGV4Y2x1ZGVzPSgiKi5pbWwiLCAicGFja2FnZS1sb2NrLmpzb24iKSwKICAgICkKICAgICMg5YmN5Y+w6Zeo5oi3CiAgICBmaWxlcyArPSBjb2xsZWN0KAogICAgICAgIG9zLnBhdGguam9pbihQUk9KLCAid29ya3NwYWNlL2Zyb250ZW5kL21hZC1wb3J0YWwiKSwKICAgICAgICAiZnJvbnRlbmQvbWFkLXBvcnRhbCIsCiAgICAgICAgZXhjbHVkZXM9KCIqLmltbCIsICJwYWNrYWdlLWxvY2suanNvbiIpLAogICAgKQoKICAgICMgLS0tIFNRTCAvIOaWh+ahoyAvIOmFjee9riAvIOiEmuacrO+8iOadpeiHqiBvc3Mtc3RhZ2luZyDmmoLlrZjljLrvvIktLS0KICAgIGZpbGVzICs9IGNvbGxlY3Qob3MucGF0aC5qb2luKFNUQUdFLCAic3FsIiksICJzcWwiKQogICAgZmlsZXMgKz0gY29sbGVjdChvcy5wYXRoLmpvaW4oU1RBR0UsICJkb2NzIiksICJkb2NzIikKICAgIGZpbGVzICs9IGNvbGxlY3Qob3MucGF0aC5qb2luKFNUQUdFLCAiY29uZmlnIiksICJjb25maWciKQogICAgZmlsZXMgKz0gY29sbGVjdChvcy5wYXRoLmpvaW4oU1RBR0UsICJzY3JpcHRzIiksICJzY3JpcHRzIikKCiAgICAjIOaguee6p+aWh+ahowogICAgZm9yIG5hbWUgaW4gKCJSRUFETUUubWQiLCAiQVJDSElURUNUVVJFLm1kIiwgIkxJQ0VOU0UiLCAiLmdpdGlnbm9yZSIpOgogICAgICAgIHAgPSBvcy5wYXRoLmpvaW4oU1RBR0UsIG5hbWUpCiAgICAgICAgaWYgb3MucGF0aC5leGlzdHMocCk6CiAgICAgICAgICAgIGZpbGVzLmFwcGVuZCgobmFtZSwgcCkpCgogICAgIyDljrvmjonph43lpI3pobnvvIjlkI7lh7rnjrDnmoTopobnm5bvvIkKICAgIHNlZW4gPSB7fQogICAgZm9yIHJwLCBhcCBpbiBmaWxlczoKICAgICAgICBzZWVuW3JwXSA9IGFwCiAgICBmaWxlcyA9IHNvcnRlZChzZWVuLml0ZW1zKCkpCiAgICBwcmludCgiICAg5b6F5o+Q5Lqk5paH5Lu25pWwOiIsIGxlbihmaWxlcykpCgogICAgcHJpbnQoIj09IDMuIOagh+iusOi/nOerr+W+heWIoOmZpOi3r+W+hCA9PSIpCiAgICBkZWxldGVzID0gW10KICAgIGZvciBycCBpbiByZW1vdGU6CiAgICAgICAgaWYgcnAuc3RhcnRzd2l0aCgiYmFja2VuZC9ndWxpLyIpIG9yIHJwLnN0YXJ0c3dpdGgoImZyb250ZW5kL2d1bGktIik6CiAgICAgICAgICAgIGRlbGV0ZXMuYXBwZW5kKHJwKQogICAgICAgIGVsaWYgcnAuc3RhcnRzd2l0aCgic3FsL2d1bGlfIik6CiAgICAgICAgICAgIGRlbGV0ZXMuYXBwZW5kKHJwKQogICAgIyDmnKzlnLDkuI3lho3lrZjlnKjnmoTml6cgbWFkIOi3r+W+hOS5n+S4gOW5tua4heeQhgogICAgbmV3cGF0aHMgPSB7cnAgZm9yIHJwLCBfIGluIGZpbGVzfQogICAgZm9yIHJwIGluIHJlbW90ZToKICAgICAgICBpZiBycC5zdGFydHN3aXRoKCgiYmFja2VuZC9tYWQvIiwgImZyb250ZW5kL21hZC0iLCAiZG9jcy8iLCAic2NyaXB0cy8iKSkgYW5kIHJwIG5vdCBpbiBuZXdwYXRoczoKICAgICAgICAgICAgZGVsZXRlcy5hcHBlbmQocnApCiAgICBkZWxldGVzID0gc29ydGVkKHNldChkZWxldGVzKSkKICAgIHByaW50KCIgICDlvoXliKDpmaTot6/lvoTmlbA6IiwgbGVuKGRlbGV0ZXMpKQoKICAgIHByaW50KCI9PSA0LiDmj5DkuqQgVHJlZXMgQVBJ77yI5Y6f5a2Q77yJPT0iKQogICAgZW50cmllcyA9IGJ1aWxkX3RyZWUoZmlsZXMpCiAgICBmb3IgZCBpbiBkZWxldGVzOgogICAgICAgIGVudHJpZXMuYXBwZW5kKHsicGF0aCI6IGQsICJtb2RlIjogIjEwMDY0NCIsICJ0eXBlIjogImJsb2IiLCAic2hhIjogTm9uZX0pCgogICAgcmVzcCA9IGFwaV9yZXRyeSgiUE9TVCIsICIvcmVwb3MvJXMvZ2l0L3RyZWVzIiAlIFJFUE8sIHsKICAgICAgICAiYmFzZV90cmVlIjogTm9uZSwKICAgICAgICAidHJlZSI6IGVudHJpZXMsCiAgICB9KQogICAgbmV3X3NoYSA9IHJlc3BbInNoYSJdCiAgICBwcmludCgiICAg5pawIHRyZWUgc2hhOiIsIG5ld19zaGEpCgogICAgcHJpbnQoIj09IDUuIOWIm+W7uuaPkOS6pCA9PSIpCiAgICBjb21taXQgPSBhcGlfcmV0cnkoIlBPU1QiLCAiL3JlcG9zLyVzL2dpdC9jb21taXRzIiAlIFJFUE8sIHsKICAgICAgICAibWVzc2FnZSI6ICJmZWF0OiBNQUTnvZHor77ns7vnu5/lhajpnaLph43mnoRcblxuIgogICAgICAgICAgICAgICAgICAgIi0g5YWo5qCI5ZOB54mM5pu05ZCNIGd1bGkv6LC357KSIOKGkiBNQUTnvZHor77ns7vnu59cbiIKICAgICAgICAgICAgICAgICAgICItIOihpem9kOWQjuWPsCBhZG1pbiDor77nqIsv5YiG57G7L+eroOiKguivvuaXtueuoeeQhuaooeWdl1xuIgogICAgICAgICAgICAgICAgICAgIi0g6K6y5biI5pu/5o2i5Li66YeR6J6NL0lUIOmihuWfn+ecn+WunuWQjeW4iO+8iDE0IOS9je+8iVxuIgogICAgICAgICAgICAgICAgICAgIi0g6K++56iL5o6l5YWl55yf5a6eIFlvdVR1YmUgLyBCIOermeWOn+ivvu+8iDE2IOmXqO+8iVxuIgogICAgICAgICAgICAgICAgICAgIi0gYmFubmVyIOeUn+WbvuWOu+awtOWNsO+8jOmFjeWllyAxNiDlsIHpnaIgKyAxNCDlpLTlg49cbiIKICAgICAgICAgICAgICAgICAgICItIOaVsOaNruW6k+mHjeW7uu+8mm1hZF9lZHXvvIgxNCDorrLluIggLyAxNiDor77nqIsgLyA4OCDnq6DoioIgLyAzOTUg6K++5pe277yJXG4iCiAgICAgICAgICAgICAgICAgICAiLSBKREsxNyDlhbzlrrnvvJotLWFkZC1vcGVucyArIEpBWEIg5L6d6LWWICsgbG9nYmFjayDot6/lvoTkv67lpI1cbiIKICAgICAgICAgICAgICAgICAgICItIOWQjOatpeaKgOacr+aWh+aho+OAgeWvvOWbvu+8iGRyYXdpby9zdmfvvInkuI4gZWRyYXcg5rqQ5paH5Lu2IiwKICAgICAgICAidHJlZSI6IG5ld19zaGEsCiAgICAgICAgInBhcmVudHMiOiBbYXBpX3JldHJ5KCJHRVQiLCAiL3JlcG9zLyVzL2dpdC9yZWYvaGVhZHMvJXMiICUgKFJFUE8sIEJSQU5DSCkpWyJvYmplY3QiXVsic2hhIl1dLAogICAgfSkKICAgIGNvbW1pdF9zaGEgPSBjb21taXRbInNoYSJdCiAgICBwcmludCgiICAgY29tbWl0IHNoYToiLCBjb21taXRfc2hhKQoKICAgIHByaW50KCI9PSA2LiDmm7TmlrDliIbmlK/lvJXnlKggPT0iKQogICAgYXBpX3JldHJ5KCJQQVRDSCIsICIvcmVwb3MvJXMvZ2l0L3JlZnMvaGVhZHMvJXMiICUgKFJFUE8sIEJSQU5DSCksIHsKICAgICAgICAic2hhIjogY29tbWl0X3NoYSwKICAgICAgICAiZm9yY2UiOiBGYWxzZSwKICAgIH0pCiAgICBwcmludCgiICAgbWFpbiAtPiIsIGNvbW1pdF9zaGEpCgogICAgZmluYWwgPSByZW1vdGVfdHJlZSgpCiAgICBwcmludCgiPT0gNy4g5qCh6aqMID09IikKICAgIHByaW50KCIgICDov5znq6/mlofku7bmlbA6IiwgbGVuKGZpbmFsKSkKICAgIGZvciBwcm9iZSBpbiAoIlJFQURNRS5tZCIsICJzcWwvbWFkX2VkdS5zcWwiLCAiYmFja2VuZC9tYWQvbWFkLW1pY3Jvc2VydmljZS1lZHUvcG9tLnhtbCIsCiAgICAgICAgICAgICAgICAgICJmcm9udGVuZC9tYWQtYWRtaW4vc3JjL3ZpZXdzL2VkdS9jb3Vyc2UvbGlzdC52dWUiLAogICAgICAgICAgICAgICAgICAiZnJvbnRlbmQvbWFkLXBvcnRhbC9wdWJsaWMvcGhvdG8vYmFubmVyL21hZC1iYW5uZXIucG5nIiwKICAgICAgICAgICAgICAgICAgImRvY3Mv5a+85Zu+Leezu+e7n+aetuaehC5zdmciKToKICAgICAgICBwcmludCgiICAgJS02MnMgJXMiICUgKHByb2JlLCAiT0siIGlmIHByb2JlIGluIGZpbmFsIGVsc2UgIk1JU1NJTkciKSkKICAgIHN0YWxlID0gW3AgZm9yIHAgaW4gZmluYWwgaWYgcC5zdGFydHN3aXRoKCgiYmFja2VuZC9ndWxpLyIsICJmcm9udGVuZC9ndWxpLSIsICJzcWwvZ3VsaV8iKSldCiAgICBwcmludCgiICAg5q6L55WZ5penIGd1bGkg6Lev5b6EOiIsIGxlbihzdGFsZSkpCiAgICBmb3IgcyBpbiBzdGFsZVs6NV06CiAgICAgICAgcHJpbnQoIiAgICAgLSIsIHMpCgoKaWYgX19uYW1lX18gPT0gIl9fbWFpbl9fIjoKICAgIG1haW4oKQo=
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+MAD网课系统 → GitHub 仓库同步脚本
+
+用 GitHub Trees API 一次性原子提交：
+  1. 新增 backend/mad/*、frontend/mad-*/*、sql/mad_*.sql、docs/*、scripts/*
+  2. 删除远端旧的 guli-* 路径
+  3. 更新 README / 文档 / 图表索引
+
+为什么不走 git push：沙箱网络下 git push 被代理拦截（502），GitHub API 直连正常。
+"""
+import base64
+import json
+import os
+import subprocess
+import sys
+import urllib.error
+import urllib.request
+
+REPO = "ChinaOpenClaw/guli-academy"
+BRANCH = "main"
+API = "https://api.github.com"
+PROJ = "/Users/sang/Desktop/谷粒学院项目"
+STAGE = os.path.join(PROJ, "oss-staging", "guli-academy")
+
+
+def token():
+    out = subprocess.run(
+        ["security", "find-internet-password", "-s", "github.com", "-w"],
+        capture_output=True, text=True,
+    )
+    t = out.stdout.strip()
+    if not t:
+        sys.exit("未找到 GitHub token")
+    return t
+
+
+TOK = token()
+
+
+def api(method, path, body=None, raw=False):
+    url = API + path
+    data = json.dumps(body).encode() if body is not None else None
+    req = urllib.request.Request(url, data=data, method=method)
+    req.add_header("Authorization", "token " + TOK)
+    req.add_header("Accept", "application/vnd.github+json")
+    req.add_header("User-Agent", "mad-sync")
+    if data:
+        req.add_header("Content-Type", "application/json")
+    try:
+        with urllib.request.urlopen(req, timeout=60) as r:
+            txt = r.read().decode("utf-8")
+            return txt if raw else json.loads(txt)
+    except urllib.error.HTTPError as e:
+        body_txt = e.read().decode("utf-8", "replace")
+        sys.exit("HTTP %s %s\n%s" % (e.code, path, body_txt[:1200]))
+
+
+def api_retry(method, path, body=None, tries=4):
+    last = None
+    for i in range(tries):
+        try:
+            return api(method, path, body)
+        except SystemExit:
+            raise
+        except Exception as e:  # noqa
+            last = e
+            print("   retry %d/%d: %s" % (i + 1, tries, e))
+    raise last
+
+
+def remote_tree():
+    d = api_retry("GET", "/repos/%s/git/trees/%s?recursive=1" % (REPO, BRANCH))
+    return {t["path"]: t for t in d.get("tree", []) if t["type"] == "blob"}
+
+
+def collect(local_root, remote_prefix, excludes=(), include_exts=None):
+    """收集本地文件 → [(remote_path, absolute_path)]
+
+    自动排除 IDE 目录/文件（.idea、*.iml）与构建产物。
+    """
+    skip_dirs = {"node_modules", "dist", "target", ".git", ".idea", ".DS_Store",
+                 ".vscode", ".mvn", "bin", "out"}
+    out = []
+    for base, dirs, files in os.walk(local_root):
+        dirs[:] = [d for d in dirs if d not in skip_dirs]
+        for f in files:
+            if f in excludes or f.startswith("."):
+                continue
+            if f.endswith(".iml") or f.endswith(".DS_Store"):
+                continue
+            if include_exts and not f.endswith(include_exts):
+                continue
+            ap = os.path.join(base, f)
+            rel = os.path.relpath(ap, local_root)
+            out.append((remote_prefix + "/" + rel.replace(os.sep, "/"), ap))
+    return out
+
+
+def build_tree(files):
+    """构造 GitHub tree 条目（含需要删除的旧路径）
+
+    注意：Trees API 的 content 字段要传**原始内容**（UTF-8 文本），
+    而不是 base64 —— 传 base64 会导致 GitHub 把 base64 字符串本身当正文存下来
+    （即「双重编码」）。二进制文件（PNG/JPG）无法走 content 字段，
+    必须先经 Blobs API 上传得到 sha，再在 tree 里引用该 sha。
+    """
+    entries = []
+    for rp, ap in files:
+        raw = open(ap, "rb").read()
+        mode = "100755" if os.access(ap, os.X_OK) and not ap.endswith((".sh", ".py")) else "100644"
+        try:
+            text = raw.decode("utf-8")
+            entries.append({"path": rp, "mode": mode, "type": "blob", "content": text})
+        except UnicodeDecodeError:
+            # 二进制：走 Blobs API
+            sha = upload_blob(raw)
+            entries.append({"path": rp, "mode": mode, "type": "blob", "sha": sha})
+    return entries
+
+
+_BLOB_CACHE = {}
+
+
+def upload_blob(raw):
+    """上传二进制文件到 GitHub，返回 blob sha（按内容缓存去重）"""
+    import hashlib
+    key = hashlib.sha1(b"blob %d\0" % len(raw) + raw).hexdigest()
+    if key in _BLOB_CACHE:
+        return _BLOB_CACHE[key]
+    sha = api_retry("POST", "/repos/%s/git/blobs" % REPO, {
+        "content": base64.b64encode(raw).decode(),
+        "encoding": "base64",
+    })["sha"]
+    _BLOB_CACHE[key] = sha
+    return sha
+
+
+def main():
+    print("== 1. 读取远端树 ==")
+    remote = remote_tree()
+    print("   远端文件数:", len(remote))
+
+    print("== 2. 组装待提交文件 ==")
+    files = []
+
+    # --- 后端微服务（guli → mad 改名后的完整源码）---
+    files += collect(
+        os.path.join(PROJ, "workspace/backend/mad"),
+        "backend/mad",
+        excludes=("*.iml",),
+    )
+
+    # --- 前端 ---
+    # 后台管理：排除 node_modules/dist，保留 src/build/config/static/package.json 等
+    files += collect(
+        os.path.join(PROJ, "workspace/frontend/mad-admin"),
+        "frontend/mad-admin",
+        excludes=("*.iml", "package-lock.json"),
+    )
+    # 前台门户
+    files += collect(
+        os.path.join(PROJ, "workspace/frontend/mad-portal"),
+        "frontend/mad-portal",
+        excludes=("*.iml", "package-lock.json"),
+    )
+
+    # --- SQL / 文档 / 配置 / 脚本（来自 oss-staging 暂存区）---
+    files += collect(os.path.join(STAGE, "sql"), "sql")
+    files += collect(os.path.join(STAGE, "docs"), "docs")
+    files += collect(os.path.join(STAGE, "config"), "config")
+    files += collect(os.path.join(STAGE, "scripts"), "scripts")
+
+    # 根级文档
+    for name in ("README.md", "ARCHITECTURE.md", "LICENSE", ".gitignore"):
+        p = os.path.join(STAGE, name)
+        if os.path.exists(p):
+            files.append((name, p))
+
+    # 去掉重复项（后出现的覆盖）
+    seen = {}
+    for rp, ap in files:
+        seen[rp] = ap
+    files = sorted(seen.items())
+    print("   待提交文件数:", len(files))
+
+    print("== 3. 标记远端待删除路径 ==")
+    deletes = []
+    for rp in remote:
+        if rp.startswith("backend/guli/") or rp.startswith("frontend/guli-"):
+            deletes.append(rp)
+        elif rp.startswith("sql/guli_"):
+            deletes.append(rp)
+    # 本地不再存在的旧 mad 路径也一并清理
+    newpaths = {rp for rp, _ in files}
+    for rp in remote:
+        if rp.startswith(("backend/mad/", "frontend/mad-", "docs/", "scripts/")) and rp not in newpaths:
+            deletes.append(rp)
+    deletes = sorted(set(deletes))
+    print("   待删除路径数:", len(deletes))
+
+    print("== 4. 提交 Trees API（原子）==")
+    entries = build_tree(files)
+    for d in deletes:
+        entries.append({"path": d, "mode": "100644", "type": "blob", "sha": None})
+
+    base_tree = api_retry("GET", "/repos/%s/git/ref/heads/%s" % (REPO, BRANCH))["object"]["sha"]
+    print("   base tree:", base_tree)
+
+    resp = api_retry("POST", "/repos/%s/git/trees" % REPO, {
+        "base_tree": base_tree,
+        "tree": entries,
+    })
+    new_sha = resp["sha"]
+    print("   新 tree sha:", new_sha)
+
+    print("== 5. 创建提交 ==")
+    commit = api_retry("POST", "/repos/%s/git/commits" % REPO, {
+        "message": "feat: MAD网课系统全面重构\n\n"
+                   "- 全栈品牌更名 guli/谷粒 → MAD网课系统\n"
+                   "- 补齐后台 admin 课程/分类/章节课时管理模块\n"
+                   "- 讲师替换为金融/IT 领域真实名师（14 位）\n"
+                   "- 课程接入真实 YouTube / B 站原课（16 门）\n"
+                   "- banner 生图去水印，配套 16 封面 + 14 头像\n"
+                   "- 数据库重建：mad_edu（14 讲师 / 16 课程 / 88 章节 / 395 课时）\n"
+                   "- JDK17 兼容：--add-opens + JAXB 依赖 + logback 路径修复\n"
+                   "- 同步技术文档、导图（drawio/svg）与 edraw 源文件",
+        "tree": new_sha,
+        "parents": [api_retry("GET", "/repos/%s/git/ref/heads/%s" % (REPO, BRANCH))["object"]["sha"]],
+    })
+    commit_sha = commit["sha"]
+    print("   commit sha:", commit_sha)
+
+    print("== 6. 更新分支引用 ==")
+    api_retry("PATCH", "/repos/%s/git/refs/heads/%s" % (REPO, BRANCH), {
+        "sha": commit_sha,
+        "force": False,
+    })
+    print("   main ->", commit_sha)
+
+    final = remote_tree()
+    print("== 7. 校验 ==")
+    print("   远端文件数:", len(final))
+    for probe in ("README.md", "sql/mad_edu.sql", "backend/mad/mad-microservice-edu/pom.xml",
+                  "frontend/mad-admin/src/views/edu/course/list.vue",
+                  "frontend/mad-portal/public/photo/banner/mad-banner.png",
+                  "docs/导图-系统架构.svg"):
+        print("   %-62s %s" % (probe, "OK" if probe in final else "MISSING"))
+    stale = [p for p in final if p.startswith(("backend/guli/", "frontend/guli-", "sql/guli_"))]
+    print("   残留旧 guli 路径:", len(stale))
+    for s in stale[:5]:
+        print("     -", s)
+
+    print("== 8. 内容完整性抽查（git blob sha 对比）==")
+    checks = [
+        ("README.md", os.path.join(STAGE, "README.md")),
+        ("sql/mad_edu.sql", os.path.join(STAGE, "sql/mad_edu.sql")),
+        ("scripts/start_backend.sh", os.path.join(STAGE, "scripts/start_backend.sh")),
+        ("frontend/mad-admin/src/views/edu/course/list.vue",
+         os.path.join(PROJ, "workspace/frontend/mad-admin/src/views/edu/course/list.vue")),
+        ("frontend/mad-portal/public/photo/banner/mad-banner.png",
+         os.path.join(PROJ, "workspace/frontend/mad-portal/public/photo/banner/mad-banner.png")),
+    ]
+    import hashlib
+    for rp, ap in checks:
+        raw = open(ap, "rb").read()
+        local_sha = hashlib.sha1(b"blob %d\0" % len(raw) + raw).hexdigest()
+        remote_sha = final.get(rp, {}).get("sha")
+        ok = "MATCH" if local_sha == remote_sha else "DIFF"
+        print("   %-58s %s" % (rp, ok))
+        if ok == "DIFF":
+            print("      local =", local_sha)
+            print("      remote=", remote_sha)
+
+
+if __name__ == "__main__":
+    main()

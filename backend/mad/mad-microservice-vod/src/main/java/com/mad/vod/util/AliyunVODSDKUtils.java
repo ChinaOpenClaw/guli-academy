@@ -1,1 +1,26 @@
-cGFja2FnZSBjb20ubWFkLnZvZC51dGlsOwoKaW1wb3J0IGNvbS5hbGl5dW5jcy5EZWZhdWx0QWNzQ2xpZW50OwppbXBvcnQgY29tLmFsaXl1bmNzLmV4Y2VwdGlvbnMuQ2xpZW50RXhjZXB0aW9uOwppbXBvcnQgY29tLmFsaXl1bmNzLnByb2ZpbGUuRGVmYXVsdFByb2ZpbGU7CgovKioKICogQGF1dGhvciBoZWxlbgogKiBAc2luY2UgMjAxOS83LzMKICovCnB1YmxpYyBjbGFzcyBBbGl5dW5WT0RTREtVdGlscyB7CgoJLyoqCgkgKiDliJ3lp4vljJZ2b2TlrqLmiLfnq6/osIPnlKjlr7nosaEKCSAqIEBwYXJhbSBhY2Nlc3NLZXlJZAoJICogQHBhcmFtIGFjY2Vzc0tleVNlY3JldAoJICogQHJldHVybgoJICogQHRocm93cyBDbGllbnRFeGNlcHRpb24KCSAqLwoJcHVibGljIHN0YXRpYyBEZWZhdWx0QWNzQ2xpZW50IGluaXRWb2RDbGllbnQoU3RyaW5nIGFjY2Vzc0tleUlkLCBTdHJpbmcgYWNjZXNzS2V5U2VjcmV0KSB0aHJvd3MgQ2xpZW50RXhjZXB0aW9uIHsKCQlTdHJpbmcgcmVnaW9uSWQgPSAiY24tc2hhbmdoYWkiOyAgLy8g54K55pKt5pyN5Yqh5o6l5YWl5Yy65Z+fCgkJRGVmYXVsdFByb2ZpbGUgcHJvZmlsZSA9IERlZmF1bHRQcm9maWxlLmdldFByb2ZpbGUocmVnaW9uSWQsIGFjY2Vzc0tleUlkLCBhY2Nlc3NLZXlTZWNyZXQpOwoJCURlZmF1bHRBY3NDbGllbnQgY2xpZW50ID0gbmV3IERlZmF1bHRBY3NDbGllbnQocHJvZmlsZSk7CgkJcmV0dXJuIGNsaWVudDsKCX0KfQo=
+package com.mad.vod.util;
+
+import com.aliyuncs.DefaultAcsClient;
+import com.aliyuncs.exceptions.ClientException;
+import com.aliyuncs.profile.DefaultProfile;
+
+/**
+ * @author helen
+ * @since 2019/7/3
+ */
+public class AliyunVODSDKUtils {
+
+	/**
+	 * 初始化vod客户端调用对象
+	 * @param accessKeyId
+	 * @param accessKeySecret
+	 * @return
+	 * @throws ClientException
+	 */
+	public static DefaultAcsClient initVodClient(String accessKeyId, String accessKeySecret) throws ClientException {
+		String regionId = "cn-shanghai";  // 点播服务接入区域
+		DefaultProfile profile = DefaultProfile.getProfile(regionId, accessKeyId, accessKeySecret);
+		DefaultAcsClient client = new DefaultAcsClient(profile);
+		return client;
+	}
+}

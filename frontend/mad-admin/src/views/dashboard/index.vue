@@ -1,1 +1,32 @@
-PHRlbXBsYXRlPgogIDxkaXYgY2xhc3M9ImRhc2hib2FyZC1jb250YWluZXIiPgogICAgPGRpdiBjbGFzcz0iZGFzaGJvYXJkLXRleHQiPuWnk+WQjTp7eyBuYW1lIH19PC9kaXY+CiAgICA8ZGl2IGNsYXNzPSJkYXNoYm9hcmQtdGV4dCI+6KeS6ImyOjxzcGFuIHYtZm9yPSJyb2xlIGluIHJvbGVzIiA6a2V5PSJyb2xlIj57eyByb2xlIH19PC9zcGFuPjwvZGl2PgogIDwvZGl2Pgo8L3RlbXBsYXRlPgoKPHNjcmlwdD4KaW1wb3J0IHsgbWFwR2V0dGVycyB9IGZyb20gJ3Z1ZXgnCgpleHBvcnQgZGVmYXVsdCB7CiAgbmFtZTogJ0Rhc2hib2FyZCcsCiAgY29tcHV0ZWQ6IHsKICAgIC4uLm1hcEdldHRlcnMoWwogICAgICAnbmFtZScsCiAgICAgICdyb2xlcycKICAgIF0pCiAgfQp9Cjwvc2NyaXB0PgoKPHN0eWxlIHJlbD0ic3R5bGVzaGVldC9zY3NzIiBsYW5nPSJzY3NzIiBzY29wZWQ+Ci5kYXNoYm9hcmQgewogICYtY29udGFpbmVyIHsKICAgIG1hcmdpbjogMzBweDsKICB9CiAgJi10ZXh0IHsKICAgIGZvbnQtc2l6ZTogMzBweDsKICAgIGxpbmUtaGVpZ2h0OiA0NnB4OwogIH0KfQo8L3N0eWxlPgo=
+<template>
+  <div class="dashboard-container">
+    <div class="dashboard-text">姓名:{{ name }}</div>
+    <div class="dashboard-text">角色:<span v-for="role in roles" :key="role">{{ role }}</span></div>
+  </div>
+</template>
+
+<script>
+import { mapGetters } from 'vuex'
+
+export default {
+  name: 'Dashboard',
+  computed: {
+    ...mapGetters([
+      'name',
+      'roles'
+    ])
+  }
+}
+</script>
+
+<style rel="stylesheet/scss" lang="scss" scoped>
+.dashboard {
+  &-container {
+    margin: 30px;
+  }
+  &-text {
+    font-size: 30px;
+    line-height: 46px;
+  }
+}
+</style>

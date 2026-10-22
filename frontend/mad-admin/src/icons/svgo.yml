@@ -1,1 +1,22 @@
-IyByZXBsYWNlIGRlZmF1bHQgY29uZmlnCgojIG11bHRpcGFzczogdHJ1ZQojIGZ1bGw6IHRydWUKCnBsdWdpbnM6CgogICMgLSBuYW1lCiAgIwogICMgb3I6CiAgIyAtIG5hbWU6IGZhbHNlCiAgIyAtIG5hbWU6IHRydWUKICAjCiAgIyBvcjoKICAjIC0gbmFtZToKICAjICAgICBwYXJhbTE6IDEKICAjICAgICBwYXJhbTI6IDIKCi0gcmVtb3ZlQXR0cnM6CiAgICBhdHRyczoKICAgICAgLSAnZmlsbCcKICAgICAgLSAnZmlsbC1ydWxlJwo=
+# replace default config
+
+# multipass: true
+# full: true
+
+plugins:
+
+  # - name
+  #
+  # or:
+  # - name: false
+  # - name: true
+  #
+  # or:
+  # - name:
+  #     param1: 1
+  #     param2: 2
+
+- removeAttrs:
+    attrs:
+      - 'fill'
+      - 'fill-rule'

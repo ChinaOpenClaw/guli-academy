@@ -1,1 +1,165 @@
-IyBNQUTnvZHor77ns7vnu5/vvIhNYWQgQWNhZGVtee+8iQoKPiDkuIDkuKrlvIDmupDnmoTlnKjnur/mlZnogrLlubPlj7DvvJoqKuWQjuWPsOeuoeeQhuivvueoiyoq77yI6K++56iLIC8g6K6y5biIIC8g56ug6IqCIC8g56eR55uuIC8g6K++5pe277yJ77yM5YmN5Y+w6Zeo5oi35L6b5a2m5ZGY5rWP6KeI5LiO5a2m5Lmg77yb5ZCO56uv6YeH55SoIFNwcmluZyBDbG91ZCDlvq7mnI3liqHmnrbmnoTvvIzop4bpopHog73lipvln7rkuo4qKumYv+mHjOS6keinhumikeeCueaSre+8iFZPRO+8iVNESyoq44CCCj4KPiDmnKzpobnnm67ogZrnhKYgKirph5Hono3mipXotYQgLyBJVCDlt6XnqIsgLyDkurrlt6Xmmbrog70qKiDkuInlpKfmlrnlkJHvvIzluIjotYTlr7nmoIflt7Toj7LnibnjgIHluK3li5LjgIHovr7liKnmrKfjgIHopb/okpnmlq/jgIHovr7mkanovr7lhbDjgIFKZWZmIERlYW7jgIFLZXJuaWdoYW7jgIFLYXJwYXRoeSDnrYnkuIDnur/lkI3luIjvvIzor77nqIvlhoXlrrnlhajpg6jmnaXoh6oqKuecn+WuniBZb3VUdWJlIOaSreaUvuWIl+ihqOS4jiBCIOermeato+eJiOivvueoiyoq44CCCgpbIVtsaWNlbnNlXShodHRwczovL2ltZy5zaGllbGRzLmlvL2JhZGdlL2xpY2Vuc2UtTUlULWJsdWUuc3ZnKV0oLi9MSUNFTlNFKQpbIVvmnrbmnoRdKGh0dHBzOi8vaW1nLnNoaWVsZHMuaW8vYmFkZ2UvYXJjaC1TcHJpbmclMjBDbG91ZCUyMCUyQiUyMFZ1ZS1icmlnaHRncmVlbi5zdmcpXSguL0FSQ0hJVEVDVFVSRS5tZCkKCi0tLQoKIyMg4pyoIOeJueaApwoKLSAqKuWJjeWQjuWPsOWIhuemuyoq77yaVnVlIDMg5YmN5Y+w6Zeo5oi377yI5a2m5ZGY56uv77yJKyBWdWUgMiArIEVsZW1lbnRVSSDlkI7lj7DnrqHnkIbvvIjov5DokKXnq6/vvInjgIIKLSAqKuWujOaVtOivvueoi+WQjuWPsOeuoeeQhioq77ya6K++56iL44CB6K6y5biI44CB56ug6IqC44CB6K++5pe244CB56eR55uu5LqU5aSn5qih5Z2X55qE5YWo5aWXIENSVUTvvIzor77nqIvkuIDplK7lj5HluIPjgIIKLSAqKuecn+WunuWQjeW4iOW4iOi1hCoq77yaMTQg5L2N6YeR6J6NIC8gSVQg6aKG5Z+f5LiA57q/5a2m6ICF77yM5ZCr5be06I+y54m544CB6IqS5qC844CB5qC86Zu35Y6E5aeG44CB5bit5YuS44CB6L6+5Yip5qyn44CB6ams5YWL5pav44CB6L6+5pGp6L6+5YWw44CB6KW/6JKZ5pav44CBSmVmZiBEZWFu44CBS2VybmlnaGFu44CB6auY5pav5p6X44CBS2FycGF0aHnjgIHmlr3lr4bnibnjgIFTdG9pY2HjgIIKLSAqKuecn+WunuWOn+ivvuadpea6kCoq77yaMTYg6Zeo6K++56iL5YWo6YOo5a+55bqU55yf5a6eIFlvdVR1YmUg5pKt5pS+5YiX6KGo77yI6IC26bKBIEVDT04gMjUy44CBTUlUIDYuMDA244CBU3RhbmZvcmQgQ1MyMzFu44CB5ZC05oGp6L6+IE1MIOS4k+mhueOAgURhbW9kYXJhbiDkvLDlgLzor77nrYnvvInmiJYgQiDnq5nmraPniYjns7vliJfor77vvIzliY3lj7DmjInnq6DoioLluo/lj7fnsr7lh4blrprkvY3liLDljp/niYfjgIIKLSAqKuW+ruacjeWKoeaetuaehCoq77yaRXVyZWthIOazqOWGjOS4reW/gyArIOWkmuW+ruacjeWKoe+8iGVkdSAvIHZvZCAvIG9zcyAvIHVjZW50ZXIgLyBzdGF0aXN0aWNzIC8gc3lzdXNlcu+8ieOAggotICoqSkRLIDE3IOWFvOWuuSoq77ya5YaF572uIGAtLWFkZC1vcGVuc2Ag5ZCv5Yqo6ISa5pys5LiOIEpBWEIg5L6d6LWW6KGl5LiB77yM5Y+v55u05o6l5ZyoIEpESyAxNyDkuIrov5DooYwgU3ByaW5nIEJvb3QgMi4wLjfjgIIKLSAqKuW8gOaUvuW8gOa6kCoq77yaTUlUIOWNj+iuru+8jOaWh+aho+S4juaetuaehOWbvum9kOWkh++8jOW8gOeuseWNs+ivu+OAggoKIyMg8J+nsSDmioDmnK/moIgKCnwg5bGCIHwg5oqA5pyvIHwKfCAtLS0gfCAtLS0gfAp8IOWJjeWPsOmXqOaItyB8IFZ1ZSAzLjUgwrcgVml0ZSA1IMK3IHZ1ZS1yb3V0ZXIgNCB8Cnwg5ZCO5Y+w566h55CGIHwgVnVlIDIgwrcgRWxlbWVudFVJIMK3IEF4aW9zIMK3IEVDaGFydHMgfAp8IOWQjuerr+W+ruacjeWKoSB8IFNwcmluZyBCb290IDIuMC43IMK3IFNwcmluZyBDbG91ZCDCtyBFdXJla2EgwrcgTXlCYXRpcy1QbHVzIHwKfCDop4bpopEgLyDlrZjlgqggfCDpmL/ph4zkupEgVk9EIFNESyDCtyDpmL/ph4zkupEgT1NTIHwKfCDmlbDmja4gLyDnvJPlrZggfCBNeVNRTCA477yIMzMwNyDni6znq4vlrp7kvovvvInCtyBSZWRpcyB8Cnwg5Y+v6KeG5YyW57Sg5p2QIHwgZHJhdy5pb++8iC5kcmF3aW8g5rqQ5paH5Lu2ICsgU1ZH77yJwrcg5Lq/5Zu+77yILmVkZHjvvInCtyBTVkcg5oCd57u05a+85Zu+IHwKCiMjIPCfl7rvuI8g57O757uf5p625p6ECgohW+aetuaehOWbvl0oLi9kb2NzL2FyY2hpdGVjdHVyZS5zdmcpCgrliIblsYLor7TmmI7kuI7osIPnlKjlhbPns7vop4EgW0FSQ0hJVEVDVFVSRS5tZF0oLi9BUkNISVRFQ1RVUkUubWQp44CCCgojIyDwn5OBIOebruW9lee7k+aehAoKYGBgCmd1bGktYWNhZGVteS8K4pSc4pSA4pSAIGJhY2tlbmQvCuKUgiAgIOKUlOKUgOKUgCBtYWQvICAgICAgICAgICAgICAgICAgICAgICAgIyBTcHJpbmcgQ2xvdWQg5b6u5pyN5Yqh77yI54i25bel56iLICsg5ZCE5b6u5pyN5Yqh77yJCuKUgiAgICAgICDilJzilIDilIAgbWFkLWNvbW1vbnNlcnZpY2UtZXVyZWthLyAgICMg5rOo5YaM5Lit5b+D77yIODIyMO+8iQrilIIgICAgICAg4pSc4pSA4pSAIG1hZC1taWNyb3NlcnZpY2UtZWR1LyAgICAgICAjIOivvueoiy/orrLluIgv56ug6IqCL+enkeebri/or77ml7blhbPogZTvvIg4MTEw77yJCuKUgiAgICAgICDilJzilIDilIAgbWFkLW1pY3Jvc2VydmljZS12b2QvICAgICAgICMg6Zi/6YeM5LqR6KeG6aKR54K55pKtIFNESyDlsIHoo4UK4pSCICAgICAgIOKUnOKUgOKUgCBtYWQtbWljcm9zZXJ2aWNlLW9zcy8gICAgICAgIyDlr7nosaHlrZjlgqgK4pSCICAgICAgIOKUnOKUgOKUgCBtYWQtbWljcm9zZXJ2aWNlLXVjZW50ZXIvICAgIyDnlKjmiLfkuK3lv4MK4pSCICAgICAgIOKUnOKUgOKUgCBtYWQtbWljcm9zZXJ2aWNlLXN0YXRpc3RpY3MvIyDnu5/orqEK4pSCICAgICAgIOKUnOKUgOKUgCBtYWQtbWljcm9zZXJ2aWNlLXN5c3VzZXIvICAgIyDnmbvlvZXpibTmnYPvvIg4MTIw77yJCuKUgiAgICAgICDilJTilIDilIAgbWFkLWZyYW1ld29yay0qLyAgICAgICAgICAgICMg5YWs5YWx5L6d6LWWCuKUnOKUgOKUgCBmcm9udGVuZC8K4pSCICAg4pSc4pSA4pSAIG1hZC1hZG1pbi8gICAgICAgICAgICAgICAgIyBWdWUyIOWQjuWPsOeuoeeQhu+8iOivvueoi+WGheWuueeuoeeQhu+8jDk1MjjvvIkK4pSCICAg4pSU4pSA4pSAIG1hZC1wb3J0YWwvICAgICAgICAgICAgICAgIyBWdWUzIOWJjeWPsOmXqOaIt++8iOWtpuWRmOerr++8jDk1MjnvvIkK4pSc4pSA4pSAIHNxbC8K4pSCICAg4pSc4pSA4pSAIG1hZF9lZHUuc3FsICAgICAgICAgICAgICAgIyAgIOivvueoi+W6k++8muiusuW4iC/or77nqIsv56ug6IqCL+ivvuaXti/liIbnsbvvvIjlkKvlrozmlbTliJ3lp4vmlbDmja7vvIkK4pSCICAg4pSc4pSA4pSAIG1hZF91Y2VudGVyLnNxbCAgICAgICAgICAgIyAgIOeUqOaIt+W6kwrilIIgICDilJTilIDilIAgbWFkX3N0YXRpc3RpY3Muc3FsICAgICAgICAjICAg57uf6K6h5bqTCuKUnOKUgOKUgCBzY3JpcHRzLwrilIIgICDilJzilIDilIAgbWFkX2RhdGEucHkgICAgICAgICAgICAgICAjIOe7n+S4gOaVsOaNrua6kO+8iOiusuW4iC/or77nqIsv56ug6IqCL+adpea6kO+8iQrilIIgICDilJzilIDilIAgZ2VuX21hZF9hc3NldHMucHkgICAgICAgICAjIOi1hOa6kOeUn+aIkOWZqO+8iOWJjeerryBKUyArIOWwgemdoi/lpLTlg48gKyBTUUzvvIkK4pSCICAg4pSc4pSA4pSAIHN0YXJ0X2JhY2tlbmQuc2ggICAgICAgICAgIyBKREsxNyDlhbzlrrnkuIDplK7lkK/liqjohJrmnKwK4pSCICAg4pSU4pSA4pSAIHN5bmNfdG9fZ2l0aHViLnB5ICAgICAgICAgIyDku5PlupPlkIzmraXohJrmnKwK4pSc4pSA4pSAIGNvbmZpZy8K4pSCICAg4pSU4pSA4pSAIG15c3FsLWRldi0zMzA3LmV4YW1wbGUuY25mICAgIyDni6znq4sgTXlTUUwg5a6e5L6L77yIMzMwN++8ieekuuS+i+mFjee9rgrilJTilIDilIAgZG9jcy8KICAgIOKUnOKUgOKUgCBhcmNoaXRlY3R1cmUuc3ZnICAgICAjIOaetuaehOWbvgogICAg4pSc4pSA4pSAIOaVsOaNruW6k+ivtOaYji5tZCAgICAgICAgICAjIOW7uuW6ky/lr7zmlbDmja4v6amx5Yqo5YW85a655oCn77yITXlTUUwgOC8577yJCiAgICDilJzilIDilIAg6YOo572y5oyH5Y2XLm1kICAgICAgICAgICAgIyDmnKzlnLDpg6jnvbLmraXpqqQKICAgIOKUnOKUgOKUgCDlm77ooajntKLlvJUubWQgICAgICAgICAgICAjIOWFqOmDqOWbvuihqOWvvOiIqgogICAg4pSc4pSA4pSAIFNES+mFjee9ri5tZCAgICAgICAgICAgICMg6Zi/6YeM5LqRIFZPRCAvIE9TUyBTREsg6YWN572uCiAgICDilJzilIDilIAg5a+85Zu+LSouc3ZnICAgICAgICAgICAgIyDmgJ3nu7Tlr7zlm77vvIjmnrbmnoQv5oqA5pyv5qCIL+WKn+iDveaooeWdl++8iQogICAg4pSc4pSA4pSAIGRyYXdpby8gICAgICAgICAgICAgICAjIOWPr+e8lui+keaetuaehOWbvu+8iC5kcmF3aW8g5rqQ5paH5Lu2ICsgU1ZHIOmihOiniO+8iQogICAg4pSU4pSA4pSAIGVkcmF3LyAgICAgICAgICAgICAgICAjIOS6v+WbvuWOn+Wni+ivvuS7tuWbvu+8iC5lZGR477yJCmBgYAoKIyMg8J+agCDlv6vpgJ/lvIDlp4sKCiMjIyAxLiDliY3lj7Dpl6jmiLfvvIjlrablkZjnq6/vvIkKCmBgYGJhc2gKY2QgZnJvbnRlbmQvbWFkLXBvcnRhbApucG0gaW5zdGFsbApucG0gcnVuIGRldiAgICAgICAgICAjIGh0dHA6Ly9sb2NhbGhvc3Q6OTUyOQpgYGAKCiMjIyAyLiDlkI7lj7DnrqHnkIbvvIjor77nqIvnrqHnkIbvvIkKCmBgYGJhc2gKY2QgZnJvbnRlbmQvbWFkLWFkbWluCm5wbSBpbnN0YWxsIC0tbGVnYWN5LXBlZXItZGVwcwpOT0RFX09QVElPTlM9LS1vcGVuc3NsLWxlZ2FjeS1wcm92aWRlciBucG0gcnVuIGRldiAgICMgaHR0cDovL2xvY2FsaG9zdDo5NTI4CmBgYAoKPiBgTk9ERV9PUFRJT05TPS0tb3BlbnNzbC1sZWdhY3ktcHJvdmlkZXJgIOaYr+W/hemcgOeahO+8mndlYnBhY2sgNCDlnKggTm9kZSAxNysg55qEIE9wZW5TU0wgMyDkuIvkvJrmiqUKPiBgZXJyb3I6MDMwODAxMEM6ZGlnaXRhbCBlbnZlbG9wZSByb3V0aW5lczo6dW5zdXBwb3J0ZWRg44CCCgrpu5jorqTotKblj7cgYGFkbWluIC8gYWRtaW5g44CCCgojIyMgMy4g5ZCO56uv5b6u5pyN5YqhCgpgYGBiYXNoCiMg6ZyAIEpESyA4K++8iOW3suWcqCBKREsgMTcg5LiK6aqM6K+B77yJ5LiOIE15U1FM77yI6buY6K6kIDMzMDcg56uv5Y+j77yM5bqT5ZCNIG1hZF9lZHXvvIkKbXlzcWwgLXUgcm9vdCAtcCAtZSAiQ1JFQVRFIERBVEFCQVNFIG1hZF9lZHUgREVGQVVMVCBDSEFSQUNURVIgU0VUIHV0ZjhtYjQ7CkNSRUFURSBVU0VSICdtYWQnQCclJyBJREVOVElGSUVEIEJZICdtYWQnOwpHUkFOVCBBTEwgUFJJVklMRUdFUyBPTiBtYWRfZWR1LiogVE8gJ21hZCdAJyUnOyIKbXlzcWwgLXUgbWFkIC1wbWFkIG1hZF9lZHUgPCBzcWwvbWFkX2VkdS5zcWwKCmNkIGJhY2tlbmQvbWFkCm12biAtcGwgbWFkLWNvbW1vbnNlcnZpY2UtZXVyZWthIC1hbSBzcHJpbmctYm9vdDpydW4gICAjIDgyMjAKbXZuIC1wbCBtYWQtbWljcm9zZXJ2aWNlLWVkdSAgICAgLWFtIHNwcmluZy1ib290OnJ1biAgICMgODExMAptdm4gLXBsIG1hZC1taWNyb3NlcnZpY2Utc3lzdXNlciAtYW0gc3ByaW5nLWJvb3Q6cnVuICAgIyA4MTIwCmBgYAoK5oiW55u05o6l5L2/55So5YaF572u6ISa5pys77yI5bey5YaF572uIEpESyAxNyDmiYDpnIDnmoTlhajpg6ggYC0tYWRkLW9wZW5zYO+8ie+8mgoKYGBgYmFzaApiYXNoIHNjcmlwdHMvc3RhcnRfYmFja2VuZC5zaCBhbGwKYGBgCgo+IOKaoO+4jyBNeVNRTCA4Lzkg55So5oi35rOo5oSP77ya6aG555uu5bey5ZyoIGBtYWQtbWljcm9zZXJ2aWNlLWVkdS9wb20ueG1sYCDpkonkvY8KPiBgbXlzcWwtY29ubmVjdG9yLWphdmFgIDguMC4zM++8iFNwcmluZyBCb290IDIuMC43IOm7mOiupOino+aekOeahCA1LjEuNDcg6L+e5LiN5LiKIE15U1FMIDgr77yJ44CCCj4g6K+m6KeBIFtkb2NzL+aVsOaNruW6k+ivtOaYji5tZF0oLi9kb2NzL+aVsOaNruW6k+ivtOaYji5tZCnjgIIKPgo+IOKaoO+4jyBKREsgMTcg55So5oi35rOo5oSP77yaU3ByaW5nIEJvb3QgMi4wLjcg5L6d6LWWIENHTElCIOS4jiBKQVhC77yI5bey6KKrIEpESyAxMSDnp7vpmaTvvInvvIwKPiDpnIAgYC0tYWRkLW9wZW5zIGphdmEuYmFzZS9qYXZhLmxhbmc9QUxMLVVOTkFNRURgIOetieWPguaVsO+8jOW5tuihpSBgamF4Yi1hcGlgIC8gYGpheGItaW1wbGAgLwo+IGBqYXZheC5hY3RpdmF0aW9uLWFwaWAgLyBgaXN0YWNrLWNvbW1vbnMtcnVudGltZWAg5L6d6LWW77yMYHNjcmlwdHMvc3RhcnRfYmFja2VuZC5zaGAg5bey5aSE55CG44CCCgror6bnu4bnmoTpmL/ph4zkupEgKipWT0QgLyBPU1MgU0RLIOmFjee9rioq77yIQWNjZXNzS2V544CB5Zyw5Z+f44CB5LiK5Lyg5Yet6K+B77yJ6KeBIFtkb2NzL1NES+mFjee9ri5tZF0oLi9kb2NzL1NES+mFjee9ri5tZCnvvJvlrozmlbTpg6jnvbLmraXpqqTop4EgW2RvY3Mv6YOo572y5oyH5Y2XLm1kXSguL2RvY3Mv6YOo572y5oyH5Y2XLm1kKe+8m+WbvuihqO+8iOaAnee7tOWvvOWbviAvIGRyYXcuaW8g5Y+v57yW6L6R5p625p6E5Zu+IC8g5Lq/5Zu+6K++5Lu25Zu+77yJ5a+86Iiq6KeBIFtkb2NzL+WbvuihqOe0ouW8lS5tZF0oLi9kb2NzL+WbvuihqOe0ouW8lS5tZCnjgIIKCiMjIPCfjpMg5biI6LWE5LiO6K++56iLCgojIyMg6K6y5biI77yIMTQg5L2NIMK3IOmHkeiejSAvIElUIOWPjOmihuWfn++8iQoKfCDpoobln58gfCDorrLluIggfAp8IC0tLSB8IC0tLSB8Cnwg6YeR6J6N5oqV6LWEIHwg5rKD5Lymwrflt7Toj7LnibnjgIHmn6XnkIbCt+iKkuagvOOAgeacrOadsOaYjsK35qC86Zu35Y6E5aeG44CB572X5Lyv54m5wrfluK3li5LjgIHnkZ7Ct+i+vuWIqeasp+OAgemcjeWNjuW+t8K36ams5YWL5pav44CB6Zi/5pav55Om54m5wrfovr7mkanovr7lhbDjgIHlkInlp4bCt+ilv+iSmeaWryB8CnwgSVQg5bel56iLIHwg5p2w5aSrwrfov6rmganjgIHluIPojrHmganCt+WFi+WwvOaxieOAgeipueWnhuaWr8K36auY5pav5p6X44CB5a6J5b6354OIwrfljaHluJXmlq/jgIHln4Pph4zlhYvCt+aWveWvhueJueOAgeacrMK35pav5omY5LyK5Y2hIHwKCiMjIyDor77nqIvvvIgxNiDpl6ggwrcg5LiJ5aSn5pa55ZCR77yJCgp8IOaWueWQkSB8IOivvueoiyB8CnwgLS0tIHwgLS0tIHwKfCDph5Hono3mipXotYQgfCDph5Hono3luILlnLrlhajmma/vvIjogLbpsoEgRUNPTiAyNTLvvInjgIHlhazlj7jkvLDlgLzvvIhEYW1vZGFyYW4g5a6e5oiY77yJ44CB5Lu35YC85oqV6LWE77yI5oqk5Z+O5rKz5oCd57u077yJ44CB6LSi5Yqh5oql6KGo5YiG5p6Q44CB5a6P6KeC57uP5rWO5LiO5ZGo5pyf77yI6L6+5Yip5qyn55qE57uP5rWO5py65Zmo77yJ44CB6YeP5YyW5oqV6LWE77yI6KW/6JKZ5pav5L2T57O777yJIHwKfCBJVCDlt6XnqIsgfCDnrpfms5XkuI7mlbDmja7nu5PmnoTvvIhNSVQgNi4wMDbvvInjgIHlpKfop4TmqKHns7vnu5/mnrbmnoTvvIhCZXJrZWxleSBGU0RM77yJ44CB5pWw5o2u5bqT57O757uf44CBSmF2YSDlhajmoIjlvIDlj5HjgIHliY3nq6/lt6XnqIvljJbvvIhWdWUzICsgVFPvvInjgIHlvq7mnI3liqHkuI7liIbluIPlvI/jgIHlpKfmlbDmja7kuI4gU3BhcmsgfAp8IOS6uuW3peaZuuiDvSB8IOiuoeeul+acuuinhuiniea3seW6puWtpuS5oO+8iFN0YW5mb3JkIENTMjMxbu+8ieOAgeacuuWZqOWtpuS5oOWfuuehgO+8iOWQtOaBqei+vuS4k+mhue+8ieOAgeWFqOagiCBNTE9wcyB8CgojIyMg5pKt5pS+5p2l5rqQ6Lev55SxCgrliY3lj7Dmkq3mlL7lmajmjIkgYGVkdV92aWRlby52aWRlb19zb3VyY2VfaWRgIOWJjee8gOiHquWKqOi3r+eUse+8mgoKfCDliY3nvIAgfCDlubPlj7AgfCDltYzlhaXmlrnlvI8gfAp8IC0tLSB8IC0tLSB8IC0tLSB8CnwgYFlUOmAgfCBZb3VUdWJlIHwgYHlvdXR1YmUuY29tL2VtYmVkL3ZpZGVvc2VyaWVzP2xpc3Q9e3BsYXlsaXN0SWR9JmluZGV4PXtufWAgfAp8IGBCSTpgIHwgQiDnq5kgfCBgcGxheWVyLmJpbGliaWxpLmNvbS9wbGF5ZXIuaHRtbD9idmlkPXtidmlkfSZwYWdlPXtufWAgfAoKIyMg8J+UkSDlkI7lj7DlhoXlrrnnrqHnkIbkuI4gU0RLIOmFjee9rgoKLSAqKuivvueoi+WGheWuueeuoeeQhioq77yaYG1hZC1taWNyb3NlcnZpY2UtZWR1YCDmj5DkvpsgYENvdXJzZUFkbWluQ29udHJvbGxlcmAgLyBgQ2hhcHRlckFkbWluQ29udHJvbGxlcmAgLyBgVGVhY2hlckFkbWluQ29udHJvbGxlcmAgLyBgU3ViamVjdEFkbWluQ29udHJvbGxlcmAgLyBgVmlkZW9BZG1pbkNvbnRyb2xsZXJg77yM5ZCO5Y+wIGBtYWQtYWRtaW5gIOmAmui/h+e7n+S4gCBgUmAg57uT5p6c5a+56LGh6LCD55So44CCCi0gKirop4bpopEgU0RLKirvvJpgbWFkLW1pY3Jvc2VydmljZS12b2RgIOeahCBgQWxpeXVuVk9EU0RLVXRpbHNgIOWIneWni+WMliBgY24tc2hhbmdoYWlgIOWuouaIt+err++8jGBWaWRlb0FkbWluQ29udHJvbGxlcmAg5pq06Zyy5LiK5LygIC8g5Yig6ZmkIC8g5LiK5Lyg5Yet6K+B5o6l5Y+j77yM5a+G6ZKl5p2l6IeqIGBhcHBsaWNhdGlvbi5wcm9wZXJ0aWVzYCDnmoQgYGFsaXl1bi52b2QuZmlsZS5rZXlpZC9rZXlzZWNyZXRg44CCCgojIyDwn5OEIOW8gOa6kOWNj+iurgoKW01JVF0oLi9MSUNFTlNFKSDCqSBNQUTnvZHor77ns7vnu58gLyBDaGluYU9wZW5DbGF3Cg==
+# MAD网课系统（Mad Academy）
+
+> 一个开源的在线教育平台：**后台管理课程**（课程 / 讲师 / 章节 / 科目 / 课时），前台门户供学员浏览与学习；后端采用 Spring Cloud 微服务架构，视频能力基于**阿里云视频点播（VOD）SDK**。
+>
+> 本项目聚焦 **金融投资 / IT 工程 / 人工智能** 三大方向，师资对标巴菲特、席勒、达利欧、西蒙斯、达摩达兰、Jeff Dean、Kernighan、Karpathy 等一线名师，课程内容全部来自**真实 YouTube 播放列表与 B 站正版课程**。
+
+[![license](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
+[![架构](https://img.shields.io/badge/arch-Spring%20Cloud%20%2B%20Vue-brightgreen.svg)](./ARCHITECTURE.md)
+
+---
+
+## ✨ 特性
+
+- **前后台分离**：Vue 3 前台门户（学员端）+ Vue 2 + ElementUI 后台管理（运营端）。
+- **完整课程后台管理**：课程、讲师、章节、课时、科目五大模块的全套 CRUD，课程一键发布。
+- **真实名师师资**：14 位金融 / IT 领域一线学者，含巴菲特、芒格、格雷厄姆、席勒、达利欧、马克斯、达摩达兰、西蒙斯、Jeff Dean、Kernighan、高斯林、Karpathy、施密特、Stoica。
+- **真实原课来源**：16 门课程全部对应真实 YouTube 播放列表（耶鲁 ECON 252、MIT 6.006、Stanford CS231n、吴恩达 ML 专项、Damodaran 估值课等）或 B 站正版系列课，前台按章节序号精准定位到原片。
+- **微服务架构**：Eureka 注册中心 + 多微服务（edu / vod / oss / ucenter / statistics / sysuser）。
+- **JDK 17 兼容**：内置 `--add-opens` 启动脚本与 JAXB 依赖补丁，可直接在 JDK 17 上运行 Spring Boot 2.0.7。
+- **开放开源**：MIT 协议，文档与架构图齐备，开箱即读。
+
+## 🧱 技术栈
+
+| 层 | 技术 |
+| --- | --- |
+| 前台门户 | Vue 3.5 · Vite 5 · vue-router 4 |
+| 后台管理 | Vue 2 · ElementUI · Axios · ECharts |
+| 后端微服务 | Spring Boot 2.0.7 · Spring Cloud · Eureka · MyBatis-Plus |
+| 视频 / 存储 | 阿里云 VOD SDK · 阿里云 OSS |
+| 数据 / 缓存 | MySQL 8（3307 独立实例）· Redis |
+| 可视化素材 | draw.io（.drawio 源文件 + SVG）· 亿图（.eddx）· SVG 思维导图 |
+
+## 🗺️ 系统架构
+
+![架构图](./docs/architecture.svg)
+
+分层说明与调用关系见 [ARCHITECTURE.md](./ARCHITECTURE.md)。
+
+## 📁 目录结构
+
+```
+guli-academy/
+├── backend/
+│   └── mad/                        # Spring Cloud 微服务（父工程 + 各微服务）
+│       ├── mad-commonservice-eureka/   # 注册中心（8220）
+│       ├── mad-microservice-edu/       # 课程/讲师/章节/科目/课时关联（8110）
+│       ├── mad-microservice-vod/       # 阿里云视频点播 SDK 封装
+│       ├── mad-microservice-oss/       # 对象存储
+│       ├── mad-microservice-ucenter/   # 用户中心
+│       ├── mad-microservice-statistics/# 统计
+│       ├── mad-microservice-sysuser/   # 登录鉴权（8120）
+│       └── mad-framework-*/            # 公共依赖
+├── frontend/
+│   ├── mad-admin/                # Vue2 后台管理（课程内容管理，9528）
+│   └── mad-portal/               # Vue3 前台门户（学员端，9529）
+├── sql/
+│   ├── mad_edu.sql               #   课程库：讲师/课程/章节/课时/分类（含完整初始数据）
+│   ├── mad_ucenter.sql           #   用户库
+│   └── mad_statistics.sql        #   统计库
+├── scripts/
+│   ├── mad_data.py               # 统一数据源（讲师/课程/章节/来源）
+│   ├── gen_mad_assets.py         # 资源生成器（前端 JS + 封面/头像 + SQL）
+│   ├── start_backend.sh          # JDK17 兼容一键启动脚本
+│   └── sync_to_github.py         # 仓库同步脚本
+├── config/
+│   └── mysql-dev-3307.example.cnf   # 独立 MySQL 实例（3307）示例配置
+└── docs/
+    ├── architecture.svg     # 架构图
+    ├── 数据库说明.md          # 建库/导数据/驱动兼容性（MySQL 8/9）
+    ├── 部署指南.md            # 本地部署步骤
+    ├── 图表索引.md            # 全部图表导航
+    ├── SDK配置.md            # 阿里云 VOD / OSS SDK 配置
+    ├── 导图-*.svg            # 思维导图（架构/技术栈/功能模块）
+    ├── drawio/               # 可编辑架构图（.drawio 源文件 + SVG 预览）
+    └── edraw/                # 亿图原始课件图（.eddx）
+```
+
+## 🚀 快速开始
+
+### 1. 前台门户（学员端）
+
+```bash
+cd frontend/mad-portal
+npm install
+npm run dev          # http://localhost:9529
+```
+
+### 2. 后台管理（课程管理）
+
+```bash
+cd frontend/mad-admin
+npm install --legacy-peer-deps
+NODE_OPTIONS=--openssl-legacy-provider npm run dev   # http://localhost:9528
+```
+
+> `NODE_OPTIONS=--openssl-legacy-provider` 是必需的：webpack 4 在 Node 17+ 的 OpenSSL 3 下会报
+> `error:0308010C:digital envelope routines::unsupported`。
+
+默认账号 `admin / admin`。
+
+### 3. 后端微服务
+
+```bash
+# 需 JDK 8+（已在 JDK 17 上验证）与 MySQL（默认 3307 端口，库名 mad_edu）
+mysql -u root -p -e "CREATE DATABASE mad_edu DEFAULT CHARACTER SET utf8mb4;
+CREATE USER 'mad'@'%' IDENTIFIED BY 'mad';
+GRANT ALL PRIVILEGES ON mad_edu.* TO 'mad'@'%';"
+mysql -u mad -pmad mad_edu < sql/mad_edu.sql
+
+cd backend/mad
+mvn -pl mad-commonservice-eureka -am spring-boot:run   # 8220
+mvn -pl mad-microservice-edu     -am spring-boot:run   # 8110
+mvn -pl mad-microservice-sysuser -am spring-boot:run   # 8120
+```
+
+或直接使用内置脚本（已内置 JDK 17 所需的全部 `--add-opens`）：
+
+```bash
+bash scripts/start_backend.sh all
+```
+
+> ⚠️ MySQL 8/9 用户注意：项目已在 `mad-microservice-edu/pom.xml` 钉住
+> `mysql-connector-java` 8.0.33（Spring Boot 2.0.7 默认解析的 5.1.47 连不上 MySQL 8+）。
+> 详见 [docs/数据库说明.md](./docs/数据库说明.md)。
+>
+> ⚠️ JDK 17 用户注意：Spring Boot 2.0.7 依赖 CGLIB 与 JAXB（已被 JDK 11 移除），
+> 需 `--add-opens java.base/java.lang=ALL-UNNAMED` 等参数，并补 `jaxb-api` / `jaxb-impl` /
+> `javax.activation-api` / `istack-commons-runtime` 依赖，`scripts/start_backend.sh` 已处理。
+
+详细的阿里云 **VOD / OSS SDK 配置**（AccessKey、地域、上传凭证）见 [docs/SDK配置.md](./docs/SDK配置.md)；完整部署步骤见 [docs/部署指南.md](./docs/部署指南.md)；图表（思维导图 / draw.io 可编辑架构图 / 亿图课件图）导航见 [docs/图表索引.md](./docs/图表索引.md)。
+
+## 🎓 师资与课程
+
+### 讲师（14 位 · 金融 / IT 双领域）
+
+| 领域 | 讲师 |
+| --- | --- |
+| 金融投资 | 沃伦·巴菲特、查理·芒格、本杰明·格雷厄姆、罗伯特·席勒、瑞·达利欧、霍华德·马克斯、阿斯瓦特·达摩达兰、吉姆·西蒙斯 |
+| IT 工程 | 杰夫·迪恩、布莱恩·克尼汉、詹姆斯·高斯林、安德烈·卡帕斯、埃里克·施密特、本·斯托伊卡 |
+
+### 课程（16 门 · 三大方向）
+
+| 方向 | 课程 |
+| --- | --- |
+| 金融投资 | 金融市场全景（耶鲁 ECON 252）、公司估值（Damodaran 实战）、价值投资（护城河思维）、财务报表分析、宏观经济与周期（达利欧的经济机器）、量化投资（西蒙斯体系） |
+| IT 工程 | 算法与数据结构（MIT 6.006）、大规模系统架构（Berkeley FSDL）、数据库系统、Java 全栈开发、前端工程化（Vue3 + TS）、微服务与分布式、大数据与 Spark |
+| 人工智能 | 计算机视觉深度学习（Stanford CS231n）、机器学习基础（吴恩达专项）、全栈 MLOps |
+
+### 播放来源路由
+
+前台播放器按 `edu_video.video_source_id` 前缀自动路由：
+
+| 前缀 | 平台 | 嵌入方式 |
+| --- | --- | --- |
+| `YT:` | YouTube | `youtube.com/embed/videoseries?list={playlistId}&index={n}` |
+| `BI:` | B 站 | `player.bilibili.com/player.html?bvid={bvid}&page={n}` |
+
+## 🔑 后台内容管理与 SDK 配置
+
+- **课程内容管理**：`mad-microservice-edu` 提供 `CourseAdminController` / `ChapterAdminController` / `TeacherAdminController` / `SubjectAdminController` / `VideoAdminController`，后台 `mad-admin` 通过统一 `R` 结果对象调用。
+- **视频 SDK**：`mad-microservice-vod` 的 `AliyunVODSDKUtils` 初始化 `cn-shanghai` 客户端，`VideoAdminController` 暴露上传 / 删除 / 上传凭证接口，密钥来自 `application.properties` 的 `aliyun.vod.file.keyid/keysecret`。
+
+## 📄 开源协议
+
+[MIT](./LICENSE) © MAD网课系统 / ChinaOpenClaw

@@ -1,1 +1,21 @@
-cGFja2FnZSBjb20ubWFkLnN0YXRpc3RpY3Muc2VydmljZTsKCmltcG9ydCBjb20ubWFkLnN0YXRpc3RpY3MuZW50aXR5LkRhaWx5OwppbXBvcnQgY29tLmJhb21pZG91Lm15YmF0aXNwbHVzLmV4dGVuc2lvbi5zZXJ2aWNlLklTZXJ2aWNlOwoKaW1wb3J0IGphdmEudXRpbC5NYXA7CgovKioKICogPHA+CiAqIOe9keermee7n+iuoeaXpeaVsOaNriDmnI3liqHnsbsKICogPC9wPgogKgogKiBAYXV0aG9yIEhlbGVuCiAqIEBzaW5jZSAyMDE5LTA3LTAxCiAqLwpwdWJsaWMgaW50ZXJmYWNlIERhaWx5U2VydmljZSBleHRlbmRzIElTZXJ2aWNlPERhaWx5PiB7CgoJdm9pZCBjcmVhdGVTdGF0aXN0aWNzQnlEYXkoU3RyaW5nIGRheSk7CgoJTWFwPFN0cmluZyxPYmplY3Q+IGdldENoYXJ0RGF0YShTdHJpbmcgYmVnaW4sIFN0cmluZyBlbmQsIFN0cmluZyB0eXBlKTsKfQo=
+package com.mad.statistics.service;
+
+import com.mad.statistics.entity.Daily;
+import com.baomidou.mybatisplus.extension.service.IService;
+
+import java.util.Map;
+
+/**
+ * <p>
+ * 网站统计日数据 服务类
+ * </p>
+ *
+ * @author Helen
+ * @since 2019-07-01
+ */
+public interface DailyService extends IService<Daily> {
+
+	void createStatisticsByDay(String day);
+
+	Map<String,Object> getChartData(String begin, String end, String type);
+}

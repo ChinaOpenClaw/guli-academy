@@ -1,1 +1,71 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHByb2plY3QgeG1sbnM9Imh0dHA6Ly9tYXZlbi5hcGFjaGUub3JnL1BPTS80LjAuMCIKICAgICAgICAgeG1sbnM6eHNpPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxL1hNTFNjaGVtYS1pbnN0YW5jZSIKICAgICAgICAgeHNpOnNjaGVtYUxvY2F0aW9uPSJodHRwOi8vbWF2ZW4uYXBhY2hlLm9yZy9QT00vNC4wLjAgaHR0cDovL21hdmVuLmFwYWNoZS5vcmcveHNkL21hdmVuLTQuMC4wLnhzZCI+CiAgICA8cGFyZW50PgogICAgICAgIDxhcnRpZmFjdElkPm1hZC1mcmFtZXdvcmstcGFyZW50PC9hcnRpZmFjdElkPgogICAgICAgIDxncm91cElkPmNvbS5tYWQ8L2dyb3VwSWQ+CiAgICAgICAgPHZlcnNpb24+MC4wLjEtU05BUFNIT1Q8L3ZlcnNpb24+CiAgICAgICAgPHJlbGF0aXZlUGF0aD4uLi9tYWQtZnJhbWV3b3JrLXBhcmVudC9wb20ueG1sPC9yZWxhdGl2ZVBhdGg+CiAgICA8L3BhcmVudD4KICAgIDxtb2RlbFZlcnNpb24+NC4wLjA8L21vZGVsVmVyc2lvbj4KCiAgICA8YXJ0aWZhY3RJZD5tYWQtbWljcm9zZXJ2aWNlLW9zczwvYXJ0aWZhY3RJZD4KCiAgICA8ZGVwZW5kZW5jaWVzPgogICAgICAgIDxkZXBlbmRlbmN5PgogICAgICAgICAgICA8Z3JvdXBJZD5jb20ubWFkPC9ncm91cElkPgogICAgICAgICAgICA8YXJ0aWZhY3RJZD5tYWQtZnJhbWV3b3JrLWNvbW1vbjwvYXJ0aWZhY3RJZD4KICAgICAgICA8L2RlcGVuZGVuY3k+CgogICAgICAgIDxkZXBlbmRlbmN5PgogICAgICAgICAgICA8Z3JvdXBJZD5vcmcuc3ByaW5nZnJhbWV3b3JrLmJvb3Q8L2dyb3VwSWQ+CiAgICAgICAgICAgIDxhcnRpZmFjdElkPnNwcmluZy1ib290LXN0YXJ0ZXItd2ViPC9hcnRpZmFjdElkPgogICAgICAgIDwvZGVwZW5kZW5jeT4KCiAgICAgICAgPCEtLXN3YWdnZXItLT4KICAgICAgICA8ZGVwZW5kZW5jeT4KICAgICAgICAgICAgPGdyb3VwSWQ+aW8uc3ByaW5nZm94PC9ncm91cElkPgogICAgICAgICAgICA8YXJ0aWZhY3RJZD5zcHJpbmdmb3gtc3dhZ2dlcjI8L2FydGlmYWN0SWQ+CiAgICAgICAgPC9kZXBlbmRlbmN5PgogICAgICAgIDxkZXBlbmRlbmN5PgogICAgICAgICAgICA8Z3JvdXBJZD5pby5zcHJpbmdmb3g8L2dyb3VwSWQ+CiAgICAgICAgICAgIDxhcnRpZmFjdElkPnNwcmluZ2ZveC1zd2FnZ2VyLXVpPC9hcnRpZmFjdElkPgogICAgICAgIDwvZGVwZW5kZW5jeT4KCiAgICAgICAgPCEtLWFsaXl1bk9TUy0tPgogICAgICAgIDxkZXBlbmRlbmN5PgogICAgICAgICAgICA8Z3JvdXBJZD5jb20uYWxpeXVuLm9zczwvZ3JvdXBJZD4KICAgICAgICAgICAgPGFydGlmYWN0SWQ+YWxpeXVuLXNkay1vc3M8L2FydGlmYWN0SWQ+CiAgICAgICAgPC9kZXBlbmRlbmN5PgoKICAgICAgICA8IS0t5pel5pyf5pe26Ze05bel5YW3LS0+CiAgICAgICAgPGRlcGVuZGVuY3k+CiAgICAgICAgICAgIDxncm91cElkPmpvZGEtdGltZTwvZ3JvdXBJZD4KICAgICAgICAgICAgPGFydGlmYWN0SWQ+am9kYS10aW1lPC9hcnRpZmFjdElkPgogICAgICAgIDwvZGVwZW5kZW5jeT4KCiAgICAgICAgPCEtLWxvbWJva+eUqOadpeeugOWMluWunuS9k+exu++8mumcgOimgeWuieijhWxvbWJva+aPkuS7ti0tPgogICAgICAgIDxkZXBlbmRlbmN5PgogICAgICAgICAgICA8Z3JvdXBJZD5vcmcucHJvamVjdGxvbWJvazwvZ3JvdXBJZD4KICAgICAgICAgICAgPGFydGlmYWN0SWQ+bG9tYm9rPC9hcnRpZmFjdElkPgogICAgICAgICAgICA8b3B0aW9uYWw+dHJ1ZTwvb3B0aW9uYWw+CiAgICAgICAgPC9kZXBlbmRlbmN5PgoKICAgICAgICA8IS0tbXliYXRpcy1wbHVzLS0+CiAgICAgICAgPGRlcGVuZGVuY3k+CiAgICAgICAgICAgIDxncm91cElkPmNvbS5iYW9taWRvdTwvZ3JvdXBJZD4KICAgICAgICAgICAgPGFydGlmYWN0SWQ+bXliYXRpcy1wbHVzLWJvb3Qtc3RhcnRlcjwvYXJ0aWZhY3RJZD4KICAgICAgICAgICAgPG9wdGlvbmFsPnRydWU8L29wdGlvbmFsPgogICAgICAgIDwvZGVwZW5kZW5jeT4KCiAgICAgICAgPCEtLeW8gOWPkeiAheW3peWFty0tPgogICAgICAgIDxkZXBlbmRlbmN5PgogICAgICAgICAgICA8Z3JvdXBJZD5vcmcuc3ByaW5nZnJhbWV3b3JrLmJvb3Q8L2dyb3VwSWQ+CiAgICAgICAgICAgIDxhcnRpZmFjdElkPnNwcmluZy1ib290LWRldnRvb2xzPC9hcnRpZmFjdElkPgogICAgICAgICAgICA8b3B0aW9uYWw+dHJ1ZTwvb3B0aW9uYWw+CiAgICAgICAgPC9kZXBlbmRlbmN5PgogICAgPC9kZXBlbmRlbmNpZXM+CgoKPC9wcm9qZWN0Pg==
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>mad-framework-parent</artifactId>
+        <groupId>com.mad</groupId>
+        <version>0.0.1-SNAPSHOT</version>
+        <relativePath>../mad-framework-parent/pom.xml</relativePath>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>mad-microservice-oss</artifactId>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.mad</groupId>
+            <artifactId>mad-framework-common</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <!--swagger-->
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger2</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger-ui</artifactId>
+        </dependency>
+
+        <!--aliyunOSS-->
+        <dependency>
+            <groupId>com.aliyun.oss</groupId>
+            <artifactId>aliyun-sdk-oss</artifactId>
+        </dependency>
+
+        <!--日期时间工具-->
+        <dependency>
+            <groupId>joda-time</groupId>
+            <artifactId>joda-time</artifactId>
+        </dependency>
+
+        <!--lombok用来简化实体类：需要安装lombok插件-->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <optional>true</optional>
+        </dependency>
+
+        <!--mybatis-plus-->
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-boot-starter</artifactId>
+            <optional>true</optional>
+        </dependency>
+
+        <!--开发者工具-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-devtools</artifactId>
+            <optional>true</optional>
+        </dependency>
+    </dependencies>
+
+
+</project>

@@ -1,1 +1,44 @@
-cGFja2FnZSBjb20ubWFkLmFsaXl1bm9zcy5jb250cm9sbGVyOwoKaW1wb3J0IGNvbS5tYWQuYWxpeXVub3NzLnNlcnZpY2UuRmlsZVNlcnZpY2U7CmltcG9ydCBjb20ubWFkLmFsaXl1bm9zcy51dGlsLkNvbnN0YW50UHJvcGVydGllc1V0aWw7CmltcG9ydCBjb20ubWFkLmNvbW1vbi52by5SOwppbXBvcnQgaW8uc3dhZ2dlci5hbm5vdGF0aW9ucy5BcGk7CmltcG9ydCBpby5zd2FnZ2VyLmFubm90YXRpb25zLkFwaU9wZXJhdGlvbjsKaW1wb3J0IGlvLnN3YWdnZXIuYW5ub3RhdGlvbnMuQXBpUGFyYW07CmltcG9ydCBvcmcuc3ByaW5nZnJhbWV3b3JrLmJlYW5zLmZhY3RvcnkuYW5ub3RhdGlvbi5BdXRvd2lyZWQ7CmltcG9ydCBvcmcuc3ByaW5nZnJhbWV3b3JrLnV0aWwuU3RyaW5nVXRpbHM7CmltcG9ydCBvcmcuc3ByaW5nZnJhbWV3b3JrLndlYi5iaW5kLmFubm90YXRpb24uKjsKaW1wb3J0IG9yZy5zcHJpbmdmcmFtZXdvcmsud2ViLm11bHRpcGFydC5NdWx0aXBhcnRGaWxlOwoKLyoqCiAqIEBhdXRob3IgaGVsZW4KICogQHNpbmNlIDIwMTkvNi8yOAogKi8KQEFwaShkZXNjcmlwdGlvbiA9ICLpmL/ph4zkupHmlofku7bnrqHnkIYiKQpAQ3Jvc3NPcmlnaW4KQFJlc3RDb250cm9sbGVyCkBSZXF1ZXN0TWFwcGluZygiL2FkbWluL29zcy9maWxlIikKcHVibGljIGNsYXNzIEZpbGVDb250cm9sbGVyIHsKCglAQXV0b3dpcmVkCglwcml2YXRlIEZpbGVTZXJ2aWNlIGZpbGVTZXJ2aWNlOwoKCUBBcGlPcGVyYXRpb24odmFsdWUgPSAi5paH5Lu25LiK5LygIikKCUBQb3N0TWFwcGluZygidXBsb2FkIikKCXB1YmxpYyBSIHVwbG9hZEZpbGUoCgkJCUBBcGlQYXJhbShuYW1lID0gImZpbGUiLCB2YWx1ZSA9ICLmlofku7YiLCByZXF1aXJlZCA9IHRydWUpCgkJCUBSZXF1ZXN0UGFyYW0oImZpbGUiKSBNdWx0aXBhcnRGaWxlIGZpbGUsCgoJCQlAQXBpUGFyYW0obmFtZT0iaG9zdCIsIHZhbHVlPSLmlofku7bkuIrkvKDot6/lvoQiLCByZXF1aXJlZCA9IGZhbHNlKQoJCQlAUmVxdWVzdFBhcmFtKHZhbHVlID0gImhvc3QiLCByZXF1aXJlZCA9IGZhbHNlKSBTdHJpbmcgaG9zdCl7CgoJCWlmKCFTdHJpbmdVdGlscy5pc0VtcHR5KGhvc3QpKXsKCQkJQ29uc3RhbnRQcm9wZXJ0aWVzVXRpbC5GSUxFX0hPU1QgPSBob3N0OwoJCX0KCgkJU3RyaW5nIHVwbG9hZFVybCA9IGZpbGVTZXJ2aWNlLnVwbG9hZEZpbGUoZmlsZSk7CgoJCXJldHVybiBSLm9rKCkubWVzc2FnZSgi5paH5Lu25LiK5Lyg5oiQ5YqfIikuZGF0YSgidXJsIiwgdXBsb2FkVXJsKTsKCX0KfQo=
+package com.mad.aliyunoss.controller;
+
+import com.mad.aliyunoss.service.FileService;
+import com.mad.aliyunoss.util.ConstantPropertiesUtil;
+import com.mad.common.vo.R;
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
+import io.swagger.annotations.ApiParam;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.util.StringUtils;
+import org.springframework.web.bind.annotation.*;
+import org.springframework.web.multipart.MultipartFile;
+
+/**
+ * @author helen
+ * @since 2019/6/28
+ */
+@Api(description = "阿里云文件管理")
+@CrossOrigin
+@RestController
+@RequestMapping("/admin/oss/file")
+public class FileController {
+
+	@Autowired
+	private FileService fileService;
+
+	@ApiOperation(value = "文件上传")
+	@PostMapping("upload")
+	public R uploadFile(
+			@ApiParam(name = "file", value = "文件", required = true)
+			@RequestParam("file") MultipartFile file,
+
+			@ApiParam(name="host", value="文件上传路径", required = false)
+			@RequestParam(value = "host", required = false) String host){
+
+		if(!StringUtils.isEmpty(host)){
+			ConstantPropertiesUtil.FILE_HOST = host;
+		}
+
+		String uploadUrl = fileService.uploadFile(file);
+
+		return R.ok().message("文件上传成功").data("url", uploadUrl);
+	}
+}

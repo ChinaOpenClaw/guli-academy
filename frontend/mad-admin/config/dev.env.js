@@ -1,1 +1,9 @@
-J3VzZSBzdHJpY3QnCmNvbnN0IG1lcmdlID0gcmVxdWlyZSgnd2VicGFjay1tZXJnZScpCmNvbnN0IHByb2RFbnYgPSByZXF1aXJlKCcuL3Byb2QuZW52JykKCm1vZHVsZS5leHBvcnRzID0gbWVyZ2UocHJvZEVudiwgewogIE5PREVfRU5WOiAnImRldmVsb3BtZW50IicsCiAgQkFTRV9BUEk6ICciIicsIC8vIGVtcHR5ID0+IHNhbWUtb3JpZ2luOyBkZXYgc2VydmVyIHByb3hpZXMgL2FkbWluL2VkdSAtPiA4MTEwIGFuZCAvYWRtaW4vc3lzdXNlciAtPiA4MTIwIChzZWUgY29uZmlnL2luZGV4LmpzIHByb3h5VGFibGUpCiAgT1NTX1BBVEg6ICciaHR0cHM6Ly9tYWQtZmlsZS1zejE5MDEwNS5vc3MtY24tYmVpamluZy5hbGl5dW5jcy5jb20iJwp9KQo=
+'use strict'
+const merge = require('webpack-merge')
+const prodEnv = require('./prod.env')
+
+module.exports = merge(prodEnv, {
+  NODE_ENV: '"development"',
+  BASE_API: '""', // empty => same-origin; dev server proxies /admin/edu -> 8110 and /admin/sysuser -> 8120 (see config/index.js proxyTable)
+  OSS_PATH: '"https://mad-file-sz190105.oss-cn-beijing.aliyuncs.com"'
+})

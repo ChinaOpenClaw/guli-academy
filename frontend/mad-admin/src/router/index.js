@@ -1,1 +1,132 @@
-aW1wb3J0IFZ1ZSBmcm9tICd2dWUnCmltcG9ydCBSb3V0ZXIgZnJvbSAndnVlLXJvdXRlcicKCi8vIGluIGRldmVsb3BtZW50LWVudiBub3QgdXNlIGxhenktbG9hZGluZywgYmVjYXVzZSBsYXp5LWxvYWRpbmcgdG9vIG1hbnkgcGFnZXMgd2lsbCBjYXVzZSB3ZWJwYWNrIGhvdCB1cGRhdGUgdG9vIHNsb3cuIHNvIG9ubHkgaW4gcHJvZHVjdGlvbiB1c2UgbGF6eS1sb2FkaW5nOwovLyBkZXRhaWw6IGh0dHBzOi8vcGFuamlhY2hlbi5naXRodWIuaW8vdnVlLWVsZW1lbnQtYWRtaW4tc2l0ZS8jL2xhenktbG9hZGluZwoKVnVlLnVzZShSb3V0ZXIpCgovKiBMYXlvdXQgKi8KaW1wb3J0IExheW91dCBmcm9tICcuLi92aWV3cy9sYXlvdXQvTGF5b3V0JwoKLyoqCiogaGlkZGVuOiB0cnVlICAgICAgICAgICAgICAgICAgIGlmIGBoaWRkZW46dHJ1ZWAgd2lsbCBub3Qgc2hvdyBpbiB0aGUgc2lkZWJhcihkZWZhdWx0IGlzIGZhbHNlKQoqIGFsd2F5c1Nob3c6IHRydWUgICAgICAgICAgICAgICBpZiBzZXQgdHJ1ZSwgd2lsbCBhbHdheXMgc2hvdyB0aGUgcm9vdCBtZW51LCB3aGF0ZXZlciBpdHMgY2hpbGQgcm91dGVzIGxlbmd0aAoqICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBpZiBub3Qgc2V0IGFsd2F5c1Nob3csIG9ubHkgbW9yZSB0aGFuIG9uZSByb3V0ZSB1bmRlciB0aGUgY2hpbGRyZW4KKiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaXQgd2lsbCBiZWNvbWVzIG5lc3RlZCBtb2RlLCBvdGhlcndpc2Ugbm90IHNob3cgdGhlIHJvb3QgbWVudQoqIHJlZGlyZWN0OiBub3JlZGlyZWN0ICAgICAgICAgICBpZiBgcmVkaXJlY3Q6bm9yZWRpcmVjdGAgd2lsbCBubyByZWRpcmVjdCBpbiB0aGUgYnJlYWRjcnVtYgoqIG5hbWU6J3JvdXRlci1uYW1lJyAgICAgICAgICAgICB0aGUgbmFtZSBpcyB1c2VkIGJ5IDxrZWVwLWFsaXZlPiAobXVzdCBzZXQhISEpCiogbWV0YSA6IHsKICAgIHRpdGxlOiAndGl0bGUnICAgICAgICAgICAgICAgdGhlIG5hbWUgc2hvdyBpbiBzdWJtZW51IGFuZCBicmVhZGNydW1iIChyZWNvbW1lbmQgc2V0KQogICAgaWNvbjogJ3N2Zy1uYW1lJyAgICAgICAgICAgICB0aGUgaWNvbiBzaG93IGluIHRoZSBzaWRlYmFyLAogIH0KKiovCmV4cG9ydCBjb25zdCBjb25zdGFudFJvdXRlck1hcCA9IFsKICB7IHBhdGg6ICcvbG9naW4nLCBjb21wb25lbnQ6ICgpID0+IGltcG9ydCgnQC92aWV3cy9sb2dpbi9pbmRleCcpLCBoaWRkZW46IHRydWUgfSwKICB7IHBhdGg6ICcvNDA0JywgY29tcG9uZW50OiAoKSA9PiBpbXBvcnQoJ0Avdmlld3MvNDA0JyksIGhpZGRlbjogdHJ1ZSB9LAoKICAvLyDpppbpobUKICB7CiAgICBwYXRoOiAnLycsCiAgICBjb21wb25lbnQ6IExheW91dCwKICAgIHJlZGlyZWN0OiAnL2Rhc2hib2FyZCcsCiAgICBuYW1lOiAnRGFzaGJvYXJkJywKICAgIGNoaWxkcmVuOiBbewogICAgICBwYXRoOiAnZGFzaGJvYXJkJywKICAgICAgY29tcG9uZW50OiAoKSA9PiBpbXBvcnQoJ0Avdmlld3MvZGFzaGJvYXJkL2luZGV4JyksCiAgICAgIG1ldGE6IHsgdGl0bGU6ICdNQUTnvZHor77ns7vnu5/lkI7lj7DpppbpobUnLCBpY29uOiAnZGFzaGJvYXJkJyB9CiAgICB9XQogIH0sCgogIC8vIOiusuW4iOeuoeeQhgogIHsKICAgIHBhdGg6ICcvZWR1L3RlYWNoZXInLAogICAgY29tcG9uZW50OiBMYXlvdXQsCiAgICByZWRpcmVjdDogJy9lZHUvdGVhY2hlci9saXN0JywKICAgIG5hbWU6ICdUZWFjaGVyJywKICAgIG1ldGE6IHsgdGl0bGU6ICforrLluIjnrqHnkIYnLCBpY29uOiAncGVvcGxlcycgfSwKICAgIGNoaWxkcmVuOiBbCiAgICAgIHsKICAgICAgICBwYXRoOiAnbGlzdCcsCiAgICAgICAgbmFtZTogJ0VkdVRlYWNoZXJMaXN0JywKICAgICAgICBjb21wb25lbnQ6ICgpID0+IGltcG9ydCgnQC92aWV3cy9lZHUvdGVhY2hlci9saXN0JyksCiAgICAgICAgbWV0YTogeyB0aXRsZTogJ+iusuW4iOWIl+ihqCcgfQogICAgICB9LAogICAgICB7CiAgICAgICAgcGF0aDogJ2NyZWF0ZScsCiAgICAgICAgbmFtZTogJ0VkdVRlYWNoZXJDcmVhdGUnLAogICAgICAgIGNvbXBvbmVudDogKCkgPT4gaW1wb3J0KCdAL3ZpZXdzL2VkdS90ZWFjaGVyL2Zvcm0nKSwKICAgICAgICBtZXRhOiB7IHRpdGxlOiAn5re75Yqg6K6y5biIJyB9CiAgICAgIH0sCiAgICAgIHsKICAgICAgICBwYXRoOiAnZWRpdC86aWQnLAogICAgICAgIG5hbWU6ICdFZHVUZWFjaGVyRWRpdCcsCiAgICAgICAgY29tcG9uZW50OiAoKSA9PiBpbXBvcnQoJ0Avdmlld3MvZWR1L3RlYWNoZXIvZm9ybScpLAogICAgICAgIG1ldGE6IHsgdGl0bGU6ICfnvJbovpHorrLluIgnLCBub0NhY2hlOiB0cnVlIH0sCiAgICAgICAgaGlkZGVuOiB0cnVlCiAgICAgIH0KICAgIF0KICB9LAoKICAvLyDor77nqIvnrqHnkIYKICB7CiAgICBwYXRoOiAnL2VkdS9jb3Vyc2UnLAogICAgY29tcG9uZW50OiBMYXlvdXQsCiAgICByZWRpcmVjdDogJy9lZHUvY291cnNlL2xpc3QnLAogICAgbmFtZTogJ0NvdXJzZScsCiAgICBtZXRhOiB7IHRpdGxlOiAn6K++56iL566h55CGJywgaWNvbjogJ2VsLWljb24tbWVudScgfSwKICAgIGNoaWxkcmVuOiBbCiAgICAgIHsKICAgICAgICBwYXRoOiAnbGlzdCcsCiAgICAgICAgbmFtZTogJ0VkdUNvdXJzZUxpc3QnLAogICAgICAgIGNvbXBvbmVudDogKCkgPT4gaW1wb3J0KCdAL3ZpZXdzL2VkdS9jb3Vyc2UvbGlzdCcpLAogICAgICAgIG1ldGE6IHsgdGl0bGU6ICfor77nqIvliJfooagnIH0KICAgICAgfSwKICAgICAgewogICAgICAgIHBhdGg6ICdjcmVhdGUnLAogICAgICAgIG5hbWU6ICdFZHVDb3Vyc2VDcmVhdGUnLAogICAgICAgIGNvbXBvbmVudDogKCkgPT4gaW1wb3J0KCdAL3ZpZXdzL2VkdS9jb3Vyc2UvZm9ybScpLAogICAgICAgIG1ldGE6IHsgdGl0bGU6ICfmt7vliqDor77nqIsnIH0KICAgICAgfSwKICAgICAgewogICAgICAgIHBhdGg6ICdlZGl0LzppZCcsCiAgICAgICAgbmFtZTogJ0VkdUNvdXJzZUVkaXQnLAogICAgICAgIGNvbXBvbmVudDogKCkgPT4gaW1wb3J0KCdAL3ZpZXdzL2VkdS9jb3Vyc2UvZm9ybScpLAogICAgICAgIG1ldGE6IHsgdGl0bGU6ICfnvJbovpHor77nqIsnLCBub0NhY2hlOiB0cnVlIH0sCiAgICAgICAgaGlkZGVuOiB0cnVlCiAgICAgIH0sCiAgICAgIHsKICAgICAgICBwYXRoOiAnY29udGVudC86aWQnLAogICAgICAgIG5hbWU6ICdFZHVDb3Vyc2VDb250ZW50JywKICAgICAgICBjb21wb25lbnQ6ICgpID0+IGltcG9ydCgnQC92aWV3cy9lZHUvY291cnNlL2NvbnRlbnQnKSwKICAgICAgICBtZXRhOiB7IHRpdGxlOiAn56ug6IqC6K++5pe2Jywgbm9DYWNoZTogdHJ1ZSB9LAogICAgICAgIGhpZGRlbjogdHJ1ZQogICAgICB9CiAgICBdCiAgfSwKCiAgLy8g6K++56iL5YiG57G7566h55CGCiAgewogICAgcGF0aDogJy9lZHUvc3ViamVjdCcsCiAgICBjb21wb25lbnQ6IExheW91dCwKICAgIHJlZGlyZWN0OiAnL2VkdS9zdWJqZWN0L2xpc3QnLAogICAgbmFtZTogJ1N1YmplY3QnLAogICAgbWV0YTogeyB0aXRsZTogJ+ivvueoi+WIhuexuycsIGljb246ICdlbC1pY29uLWNvbGxlY3Rpb24tdGFnJyB9LAogICAgY2hpbGRyZW46IFsKICAgICAgewogICAgICAgIHBhdGg6ICdsaXN0JywKICAgICAgICBuYW1lOiAnRWR1U3ViamVjdExpc3QnLAogICAgICAgIGNvbXBvbmVudDogKCkgPT4gaW1wb3J0KCdAL3ZpZXdzL2VkdS9zdWJqZWN0L2xpc3QnKSwKICAgICAgICBtZXRhOiB7IHRpdGxlOiAn5YiG57G75YiX6KGoJyB9CiAgICAgIH0KICAgIF0KICB9LAoKICB7IHBhdGg6ICcqJywgcmVkaXJlY3Q6ICcvNDA0JywgaGlkZGVuOiB0cnVlIH0KXQoKZXhwb3J0IGRlZmF1bHQgbmV3IFJvdXRlcih7CiAgLy8gbW9kZTogJ2hpc3RvcnknLCAvL+WQjuerr+aUr+aMgeWPr+W8gAogIHNjcm9sbEJlaGF2aW9yOiAoKSA9PiAoeyB5OiAwIH0pLAogIHJvdXRlczogY29uc3RhbnRSb3V0ZXJNYXAKfSkK
+import Vue from 'vue'
+import Router from 'vue-router'
+
+// in development-env not use lazy-loading, because lazy-loading too many pages will cause webpack hot update too slow. so only in production use lazy-loading;
+// detail: https://panjiachen.github.io/vue-element-admin-site/#/lazy-loading
+
+Vue.use(Router)
+
+/* Layout */
+import Layout from '../views/layout/Layout'
+
+/**
+* hidden: true                   if `hidden:true` will not show in the sidebar(default is false)
+* alwaysShow: true               if set true, will always show the root menu, whatever its child routes length
+*                                if not set alwaysShow, only more than one route under the children
+*                                it will becomes nested mode, otherwise not show the root menu
+* redirect: noredirect           if `redirect:noredirect` will no redirect in the breadcrumb
+* name:'router-name'             the name is used by <keep-alive> (must set!!!)
+* meta : {
+    title: 'title'               the name show in submenu and breadcrumb (recommend set)
+    icon: 'svg-name'             the icon show in the sidebar,
+  }
+**/
+export const constantRouterMap = [
+  { path: '/login', component: () => import('@/views/login/index'), hidden: true },
+  { path: '/404', component: () => import('@/views/404'), hidden: true },
+
+  // 首页
+  {
+    path: '/',
+    component: Layout,
+    redirect: '/dashboard',
+    name: 'Dashboard',
+    children: [{
+      path: 'dashboard',
+      component: () => import('@/views/dashboard/index'),
+      meta: { title: 'MAD网课系统后台首页', icon: 'dashboard' }
+    }]
+  },
+
+  // 讲师管理
+  {
+    path: '/edu/teacher',
+    component: Layout,
+    redirect: '/edu/teacher/list',
+    name: 'Teacher',
+    meta: { title: '讲师管理', icon: 'peoples' },
+    children: [
+      {
+        path: 'list',
+        name: 'EduTeacherList',
+        component: () => import('@/views/edu/teacher/list'),
+        meta: { title: '讲师列表' }
+      },
+      {
+        path: 'create',
+        name: 'EduTeacherCreate',
+        component: () => import('@/views/edu/teacher/form'),
+        meta: { title: '添加讲师' }
+      },
+      {
+        path: 'edit/:id',
+        name: 'EduTeacherEdit',
+        component: () => import('@/views/edu/teacher/form'),
+        meta: { title: '编辑讲师', noCache: true },
+        hidden: true
+      }
+    ]
+  },
+
+  // 课程管理
+  {
+    path: '/edu/course',
+    component: Layout,
+    redirect: '/edu/course/list',
+    name: 'Course',
+    meta: { title: '课程管理', icon: 'el-icon-menu' },
+    children: [
+      {
+        path: 'list',
+        name: 'EduCourseList',
+        component: () => import('@/views/edu/course/list'),
+        meta: { title: '课程列表' }
+      },
+      {
+        path: 'create',
+        name: 'EduCourseCreate',
+        component: () => import('@/views/edu/course/form'),
+        meta: { title: '添加课程' }
+      },
+      {
+        path: 'edit/:id',
+        name: 'EduCourseEdit',
+        component: () => import('@/views/edu/course/form'),
+        meta: { title: '编辑课程', noCache: true },
+        hidden: true
+      },
+      {
+        path: 'content/:id',
+        name: 'EduCourseContent',
+        component: () => import('@/views/edu/course/content'),
+        meta: { title: '章节课时', noCache: true },
+        hidden: true
+      }
+    ]
+  },
+
+  // 课程分类管理
+  {
+    path: '/edu/subject',
+    component: Layout,
+    redirect: '/edu/subject/list',
+    name: 'Subject',
+    meta: { title: '课程分类', icon: 'el-icon-collection-tag' },
+    children: [
+      {
+        path: 'list',
+        name: 'EduSubjectList',
+        component: () => import('@/views/edu/subject/list'),
+        meta: { title: '分类列表' }
+      }
+    ]
+  },
+
+  { path: '*', redirect: '/404', hidden: true }
+]
+
+export default new Router({
+  // mode: 'history', //后端支持可开
+  scrollBehavior: () => ({ y: 0 }),
+  routes: constantRouterMap
+})

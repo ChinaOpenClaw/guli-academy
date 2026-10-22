@@ -1,1 +1,77 @@
-cGFja2FnZSBjb20ubWFkLmVkdS5jb250cm9sbGVyLmFkbWluOwoKCmltcG9ydCBjb20ubWFkLmNvbW1vbi5jb25zdGFudHMuUmVzdWx0Q29kZUVudW07CmltcG9ydCBjb20ubWFkLmNvbW1vbi5leGNlcHRpb24uTWFkRXhjZXB0aW9uOwppbXBvcnQgY29tLm1hZC5jb21tb24udm8uUjsKaW1wb3J0IGNvbS5tYWQuZWR1LnNlcnZpY2UuU3ViamVjdFNlcnZpY2U7CmltcG9ydCBjb20ubWFkLmVkdS52by5TdWJqZWN0TmVzdGVkVm87CmltcG9ydCBjb20ubWFkLmVkdS52by5TdWJqZWN0Vm8yOwppbXBvcnQgaW8uc3dhZ2dlci5hbm5vdGF0aW9ucy5BcGk7CmltcG9ydCBpby5zd2FnZ2VyLmFubm90YXRpb25zLkFwaU9wZXJhdGlvbjsKaW1wb3J0IGlvLnN3YWdnZXIuYW5ub3RhdGlvbnMuQXBpUGFyYW07CmltcG9ydCBsb21ib2suZXh0ZXJuLnNsZjRqLlNsZjRqOwppbXBvcnQgb3JnLnNwcmluZ2ZyYW1ld29yay5iZWFucy5mYWN0b3J5LmFubm90YXRpb24uQXV0b3dpcmVkOwppbXBvcnQgb3JnLnNwcmluZ2ZyYW1ld29yay53ZWIuYmluZC5hbm5vdGF0aW9uLio7CmltcG9ydCBvcmcuc3ByaW5nZnJhbWV3b3JrLndlYi5tdWx0aXBhcnQuTXVsdGlwYXJ0RmlsZTsKCmltcG9ydCBqYXZhLnV0aWwuTGlzdDsKCi8qKgogKiA8cD4KICog6K++56iL56eR55uuIOWJjeerr+aOp+WItuWZqAogKiA8L3A+CiAqCiAqIEBhdXRob3IgSGVsZW4KICogQHNpbmNlIDIwMTktMDYtMjQKICovCkBBcGkoZGVzY3JpcHRpb249Iuivvueoi+WIhuexu+euoeeQhiIpCkBDcm9zc09yaWdpbiAvL+i3qOWfnwpAUmVzdENvbnRyb2xsZXIKQFJlcXVlc3RNYXBwaW5nKCIvYWRtaW4vZWR1L3N1YmplY3QiKQpAU2xmNGoKcHVibGljIGNsYXNzIFN1YmplY3RBZG1pbkNvbnRyb2xsZXIgewoKCUBBdXRvd2lyZWQKCXByaXZhdGUgU3ViamVjdFNlcnZpY2Ugc3ViamVjdFNlcnZpY2U7CgoJQEFwaU9wZXJhdGlvbih2YWx1ZSA9ICJFeGNlbOaJuemHj+WvvOWFpSIpCglAUG9zdE1hcHBpbmcoImltcG9ydCIpCglwdWJsaWMgUiBiYXRjaEltcG9ydCgKCQkJQEFwaVBhcmFtKG5hbWUgPSAiZmlsZSIsIHZhbHVlID0gIkV4Y2Vs5paH5Lu2IiwgcmVxdWlyZWQgPSB0cnVlKQoJCQlAUmVxdWVzdFBhcmFtKCJmaWxlIikgTXVsdGlwYXJ0RmlsZSBmaWxlKSB7CgoKCQl0cnkgewoJCQlMaXN0PFN0cmluZz4gZXJyb3JNc2cgPSBzdWJqZWN0U2VydmljZS5iYXRjaEltcG9ydChmaWxlKTsKCQkJaWYoZXJyb3JNc2cuc2l6ZSgpID09IDApewoJCQkJcmV0dXJuIFIub2soKS5tZXNzYWdlKCLmibnph4/mlbDmja7lr7zlhaXmiJDlip8iKTsKCQkJfWVsc2V7CgkJCQlyZXR1cm4gUi5lcnJvcigpLm1lc3NhZ2UoIumDqOWIhuaVsOaNruWvvOWFpeWksei0pSIpLmRhdGEoImVycm9yTXNnTGlzdCIsIGVycm9yTXNnKTsKCQkJfQoKCQl9IGNhdGNoIChFeGNlcHRpb24gZSkgewoJCQlsb2cuZXJyb3IoZS5nZXRNZXNzYWdlKCkpOwoJCQl0aHJvdyAgbmV3IE1hZEV4Y2VwdGlvbihSZXN1bHRDb2RlRW51bS5FWENFTF9EQVRBX0lNUE9SVF9FUlJPUik7CgkJfQoJfQoKCglAQXBpT3BlcmF0aW9uKHZhbHVlID0gIuW1jOWll+aVsOaNruWIl+ihqCIpCglAR2V0TWFwcGluZygibGlzdCIpCglwdWJsaWMgUiBuZXN0ZWRMaXN0KCl7CgoJCUxpc3Q8U3ViamVjdE5lc3RlZFZvPiBzdWJqZWN0TmVzdGVkVm9MaXN0ID0gc3ViamVjdFNlcnZpY2UubmVzdGVkTGlzdCgpOwoJCXJldHVybiBSLm9rKCkuZGF0YSgiaXRlbXMiLCBzdWJqZWN0TmVzdGVkVm9MaXN0KTsKCX0KCglAQXBpT3BlcmF0aW9uKHZhbHVlID0gIuW1jOWll+aVsOaNruWIl+ihqCIpCglAR2V0TWFwcGluZygibGlzdDIiKQoJcHVibGljIFIgbmVzdGVkTGlzdDIoKXsKCgkJTGlzdDxTdWJqZWN0Vm8yPiBzdWJqZWN0TmVzdGVkVm9MaXN0ID0gc3ViamVjdFNlcnZpY2UubmVzdGVkTGlzdDIoKTsKCQlyZXR1cm4gUi5vaygpLmRhdGEoIml0ZW1zIiwgc3ViamVjdE5lc3RlZFZvTGlzdCk7Cgl9Cgp9Cgo=
+package com.mad.edu.controller.admin;
+
+
+import com.mad.common.constants.ResultCodeEnum;
+import com.mad.common.exception.MadException;
+import com.mad.common.vo.R;
+import com.mad.edu.service.SubjectService;
+import com.mad.edu.vo.SubjectNestedVo;
+import com.mad.edu.vo.SubjectVo2;
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
+import io.swagger.annotations.ApiParam;
+import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
+import org.springframework.web.multipart.MultipartFile;
+
+import java.util.List;
+
+/**
+ * <p>
+ * 课程科目 前端控制器
+ * </p>
+ *
+ * @author Helen
+ * @since 2019-06-24
+ */
+@Api(description="课程分类管理")
+@CrossOrigin //跨域
+@RestController
+@RequestMapping("/admin/edu/subject")
+@Slf4j
+public class SubjectAdminController {
+
+	@Autowired
+	private SubjectService subjectService;
+
+	@ApiOperation(value = "Excel批量导入")
+	@PostMapping("import")
+	public R batchImport(
+			@ApiParam(name = "file", value = "Excel文件", required = true)
+			@RequestParam("file") MultipartFile file) {
+
+
+		try {
+			List<String> errorMsg = subjectService.batchImport(file);
+			if(errorMsg.size() == 0){
+				return R.ok().message("批量数据导入成功");
+			}else{
+				return R.error().message("部分数据导入失败").data("errorMsgList", errorMsg);
+			}
+
+		} catch (Exception e) {
+			log.error(e.getMessage());
+			throw  new MadException(ResultCodeEnum.EXCEL_DATA_IMPORT_ERROR);
+		}
+	}
+
+
+	@ApiOperation(value = "嵌套数据列表")
+	@GetMapping("list")
+	public R nestedList(){
+
+		List<SubjectNestedVo> subjectNestedVoList = subjectService.nestedList();
+		return R.ok().data("items", subjectNestedVoList);
+	}
+
+	@ApiOperation(value = "嵌套数据列表")
+	@GetMapping("list2")
+	public R nestedList2(){
+
+		List<SubjectVo2> subjectNestedVoList = subjectService.nestedList2();
+		return R.ok().data("items", subjectNestedVoList);
+	}
+
+}
+

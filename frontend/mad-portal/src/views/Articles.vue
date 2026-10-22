@@ -1,1 +1,16 @@
-PHRlbXBsYXRlPgogIDxkaXYgY2xhc3M9ImNvbnRhaW5lciBtdDIwIj4KICAgIDxTZWN0aW9uVGl0bGUgdGl0bGU9IuaKgOacr+aWh+eroCIgc3VidGl0bGU9IuihjOS4mui2i+WKv+OAgeWOn+eQhuaLhuino+S4juWunuaImOe7j+mqjCIgLz4KICAgIDxkaXYgY2xhc3M9ImNvbW0tYXJ0aWNsZS1saXN0IG10MjAiPgogICAgICA8dWw+CiAgICAgICAgPEFydGljbGVDYXJkIHYtZm9yPSJhIGluIGFydGljbGVzIiA6a2V5PSJhLmlkIiA6YXJ0aWNsZT0iYSIgLz4KICAgICAgPC91bD4KICAgIDwvZGl2PgogIDwvZGl2Pgo8L3RlbXBsYXRlPgoKPHNjcmlwdCBzZXR1cD4KaW1wb3J0IFNlY3Rpb25UaXRsZSBmcm9tICdAL2NvbXBvbmVudHMvU2VjdGlvblRpdGxlLnZ1ZScKaW1wb3J0IEFydGljbGVDYXJkIGZyb20gJ0AvY29tcG9uZW50cy9BcnRpY2xlQ2FyZC52dWUnCmltcG9ydCB7IGFydGljbGVzIH0gZnJvbSAnQC9kYXRhL2FydGljbGVzJwo8L3NjcmlwdD4K
+<template>
+  <div class="container mt20">
+    <SectionTitle title="技术文章" subtitle="行业趋势、原理拆解与实战经验" />
+    <div class="comm-article-list mt20">
+      <ul>
+        <ArticleCard v-for="a in articles" :key="a.id" :article="a" />
+      </ul>
+    </div>
+  </div>
+</template>
+
+<script setup>
+import SectionTitle from '@/components/SectionTitle.vue'
+import ArticleCard from '@/components/ArticleCard.vue'
+import { articles } from '@/data/articles'
+</script>

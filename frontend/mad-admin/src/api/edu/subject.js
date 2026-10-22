@@ -1,1 +1,21 @@
-aW1wb3J0IHJlcXVlc3QgZnJvbSAnQC91dGlscy9yZXF1ZXN0JwoKY29uc3QgYXBpX25hbWUgPSAnL2FkbWluL2VkdS9zdWJqZWN0JwoKZXhwb3J0IGRlZmF1bHQgewogIC8vIOW1jOWll+WIhuexu+WIl+ihqO+8iOS4pOe6p++8muS4gOe6p+WIhuexuyDihpIg5LqM57qn5YiG57G777yJCiAgZ2V0TmVzdGVkTGlzdCgpIHsKICAgIHJldHVybiByZXF1ZXN0KHsKICAgICAgdXJsOiBgJHthcGlfbmFtZX0vbGlzdDJgLAogICAgICBtZXRob2Q6ICdnZXQnCiAgICB9KQogIH0sCgogIC8vIOW1jOWll+WIhuexu+WIl+ihqO+8iOaXp+eJiOe7k+aehO+8iQogIGdldE5lc3RlZExpc3RWMSgpIHsKICAgIHJldHVybiByZXF1ZXN0KHsKICAgICAgdXJsOiBgJHthcGlfbmFtZX0vbGlzdGAsCiAgICAgIG1ldGhvZDogJ2dldCcKICAgIH0pCiAgfQp9Cg==
+import request from '@/utils/request'
+
+const api_name = '/admin/edu/subject'
+
+export default {
+  // 嵌套分类列表（两级：一级分类 → 二级分类）
+  getNestedList() {
+    return request({
+      url: `${api_name}/list2`,
+      method: 'get'
+    })
+  },
+
+  // 嵌套分类列表（旧版结构）
+  getNestedListV1() {
+    return request({
+      url: `${api_name}/list`,
+      method: 'get'
+    })
+  }
+}

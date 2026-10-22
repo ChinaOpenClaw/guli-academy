@@ -1,1 +1,47 @@
-aW1wb3J0IHJlcXVlc3QgZnJvbSAnQC91dGlscy9yZXF1ZXN0JwoKY29uc3QgYXBpX25hbWUgPSAnL2FkbWluL2VkdS9jaGFwdGVyJwoKZXhwb3J0IGRlZmF1bHQgewogIC8vIOaWsOWinueroOiKggogIHNhdmUoY2hhcHRlcikgewogICAgcmV0dXJuIHJlcXVlc3QoewogICAgICB1cmw6IGFwaV9uYW1lLAogICAgICBtZXRob2Q6ICdwb3N0JywKICAgICAgZGF0YTogY2hhcHRlcgogICAgfSkKICB9LAoKICAvLyDmoLnmja5JROafpeivoueroOiKggogIGdldEJ5SWQoaWQpIHsKICAgIHJldHVybiByZXF1ZXN0KHsKICAgICAgdXJsOiBgJHthcGlfbmFtZX0vJHtpZH1gLAogICAgICBtZXRob2Q6ICdnZXQnCiAgICB9KQogIH0sCgogIC8vIOagueaNrklE5L+u5pS556ug6IqCCiAgdXBkYXRlQnlJZChpZCwgY2hhcHRlcikgewogICAgcmV0dXJuIHJlcXVlc3QoewogICAgICB1cmw6IGAke2FwaV9uYW1lfS8ke2lkfWAsCiAgICAgIG1ldGhvZDogJ3B1dCcsCiAgICAgIGRhdGE6IGNoYXB0ZXIKICAgIH0pCiAgfSwKCiAgLy8g5qC55o2uSUTliKDpmaTnq6DoioIKICByZW1vdmVCeUlkKGlkKSB7CiAgICByZXR1cm4gcmVxdWVzdCh7CiAgICAgIHVybDogYCR7YXBpX25hbWV9LyR7aWR9YCwKICAgICAgbWV0aG9kOiAnZGVsZXRlJwogICAgfSkKICB9LAoKICAvLyDmjInor77nqIvojrflj5bnq6DoioIt6K++5pe25bWM5aWX5YiX6KGoCiAgbmVzdGVkTGlzdEJ5Q291cnNlSWQoY291cnNlSWQpIHsKICAgIHJldHVybiByZXF1ZXN0KHsKICAgICAgdXJsOiBgJHthcGlfbmFtZX0vbmVzdGVkLWxpc3QvJHtjb3Vyc2VJZH1gLAogICAgICBtZXRob2Q6ICdnZXQnCiAgICB9KQogIH0KfQo=
+import request from '@/utils/request'
+
+const api_name = '/admin/edu/chapter'
+
+export default {
+  // 新增章节
+  save(chapter) {
+    return request({
+      url: api_name,
+      method: 'post',
+      data: chapter
+    })
+  },
+
+  // 根据ID查询章节
+  getById(id) {
+    return request({
+      url: `${api_name}/${id}`,
+      method: 'get'
+    })
+  },
+
+  // 根据ID修改章节
+  updateById(id, chapter) {
+    return request({
+      url: `${api_name}/${id}`,
+      method: 'put',
+      data: chapter
+    })
+  },
+
+  // 根据ID删除章节
+  removeById(id) {
+    return request({
+      url: `${api_name}/${id}`,
+      method: 'delete'
+    })
+  },
+
+  // 按课程获取章节-课时嵌套列表
+  nestedListByCourseId(courseId) {
+    return request({
+      url: `${api_name}/nested-list/${courseId}`,
+      method: 'get'
+    })
+  }
+}

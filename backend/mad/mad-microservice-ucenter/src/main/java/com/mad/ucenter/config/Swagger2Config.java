@@ -1,1 +1,62 @@
-cGFja2FnZSBjb20ubWFkLnVjZW50ZXIuY29uZmlnOwoKaW1wb3J0IGNvbS5nb29nbGUuY29tbW9uLmJhc2UuUHJlZGljYXRlczsKaW1wb3J0IG9yZy5zcHJpbmdmcmFtZXdvcmsuY29udGV4dC5hbm5vdGF0aW9uLkJlYW47CmltcG9ydCBvcmcuc3ByaW5nZnJhbWV3b3JrLmNvbnRleHQuYW5ub3RhdGlvbi5Db25maWd1cmF0aW9uOwppbXBvcnQgc3ByaW5nZm94LmRvY3VtZW50YXRpb24uYnVpbGRlcnMuQXBpSW5mb0J1aWxkZXI7CmltcG9ydCBzcHJpbmdmb3guZG9jdW1lbnRhdGlvbi5idWlsZGVycy5QYXRoU2VsZWN0b3JzOwppbXBvcnQgc3ByaW5nZm94LmRvY3VtZW50YXRpb24uc2VydmljZS5BcGlJbmZvOwppbXBvcnQgc3ByaW5nZm94LmRvY3VtZW50YXRpb24uc2VydmljZS5Db250YWN0OwppbXBvcnQgc3ByaW5nZm94LmRvY3VtZW50YXRpb24uc3BpLkRvY3VtZW50YXRpb25UeXBlOwppbXBvcnQgc3ByaW5nZm94LmRvY3VtZW50YXRpb24uc3ByaW5nLndlYi5wbHVnaW5zLkRvY2tldDsKaW1wb3J0IHNwcmluZ2ZveC5kb2N1bWVudGF0aW9uLnN3YWdnZXIyLmFubm90YXRpb25zLkVuYWJsZVN3YWdnZXIyOwoKLyoqCiAqIEBhdXRob3IgaGVsZW4KICogQHNpbmNlIDIwMTkvNi8yNAogKi8KQENvbmZpZ3VyYXRpb24KQEVuYWJsZVN3YWdnZXIyCnB1YmxpYyBjbGFzcyBTd2FnZ2VyMkNvbmZpZyB7CgoJQEJlYW4KCXB1YmxpYyBEb2NrZXQgYWRtaW5BcGlDb25maWcoKXsKCQlyZXR1cm4gbmV3IERvY2tldChEb2N1bWVudGF0aW9uVHlwZS5TV0FHR0VSXzIpCgkJCQkuZ3JvdXBOYW1lKCJhZG1pbkFwaSIpCgkJCQkuYXBpSW5mbyhhZG1pbkFwaUluZm8oKSkKCQkJCS5zZWxlY3QoKQoJCQkJLnBhdGhzKFByZWRpY2F0ZXMuYW5kKFBhdGhTZWxlY3RvcnMucmVnZXgoIi9hZG1pbi8uKiIpKSkKCQkJCS5idWlsZCgpOwoJfQoKCUBCZWFuCglwdWJsaWMgRG9ja2V0IHdlYkFwaUNvbmZpZygpewoJCXJldHVybiBuZXcgRG9ja2V0KERvY3VtZW50YXRpb25UeXBlLlNXQUdHRVJfMikKCQkJCS5ncm91cE5hbWUoIndlYkFwaSIpCgkJCQkuYXBpSW5mbyh3ZWJBcGlJbmZvKCkpCgkJCQkuc2VsZWN0KCkKCQkJCS5wYXRocyhQcmVkaWNhdGVzLm5vdChQYXRoU2VsZWN0b3JzLnJlZ2V4KCIvYWRtaW4vLioiKSkpCgkJCQkucGF0aHMoUHJlZGljYXRlcy5ub3QoUGF0aFNlbGVjdG9ycy5yZWdleCgiL2Vycm9yLioiKSkpCgkJCQkuYnVpbGQoKTsKCX0KCglwcml2YXRlIEFwaUluZm8gYWRtaW5BcGlJbmZvKCl7CgoJCXJldHVybiBuZXcgQXBpSW5mb0J1aWxkZXIoKQoJCQkJLnRpdGxlKCLlkI7lj7DnrqHnkIbns7vnu58t55So5oi35Lit5b+DQVBJ5paH5qGjIikKCQkJCS5kZXNjcmlwdGlvbigi5pys5paH5qGj5o+P6L+w5LqG5ZCO5Y+w566h55CG57O757uf55So5oi35Lit5b+D5b6u5pyN5Yqh5o6l5Y+j5a6a5LmJIikKCQkJCS52ZXJzaW9uKCIxLjAiKQoJCQkJLmNvbnRhY3QobmV3IENvbnRhY3QoIkhlbGVuIiwgImh0dHA6Ly9hdGd1aWd1LmNvbSIsICI1NTMxNzMzMkBxcS5jb20iKSkKCQkJCS5idWlsZCgpOwoJfQoKCXByaXZhdGUgQXBpSW5mbyB3ZWJBcGlJbmZvKCl7CgoJCXJldHVybiBuZXcgQXBpSW5mb0J1aWxkZXIoKQoJCQkJLnRpdGxlKCLnvZHnq5kt55So5oi35Lit5b+DQVBJ5paH5qGjIikKCQkJCS5kZXNjcmlwdGlvbigi5pys5paH5qGj5o+P6L+w5LqG55So5oi35Lit5b+D5b6u5pyN5Yqh5o6l5Y+j5a6a5LmJIikKCQkJCS52ZXJzaW9uKCIxLjAiKQoJCQkJLmNvbnRhY3QobmV3IENvbnRhY3QoIkhlbGVuIiwgImh0dHA6Ly9hdGd1aWd1LmNvbSIsICI1NTMxNzMzMkBxcS5jb20iKSkKCQkJCS5idWlsZCgpOwoJfQp9Cg==
+package com.mad.ucenter.config;
+
+import com.google.common.base.Predicates;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import springfox.documentation.builders.ApiInfoBuilder;
+import springfox.documentation.builders.PathSelectors;
+import springfox.documentation.service.ApiInfo;
+import springfox.documentation.service.Contact;
+import springfox.documentation.spi.DocumentationType;
+import springfox.documentation.spring.web.plugins.Docket;
+import springfox.documentation.swagger2.annotations.EnableSwagger2;
+
+/**
+ * @author helen
+ * @since 2019/6/24
+ */
+@Configuration
+@EnableSwagger2
+public class Swagger2Config {
+
+	@Bean
+	public Docket adminApiConfig(){
+		return new Docket(DocumentationType.SWAGGER_2)
+				.groupName("adminApi")
+				.apiInfo(adminApiInfo())
+				.select()
+				.paths(Predicates.and(PathSelectors.regex("/admin/.*")))
+				.build();
+	}
+
+	@Bean
+	public Docket webApiConfig(){
+		return new Docket(DocumentationType.SWAGGER_2)
+				.groupName("webApi")
+				.apiInfo(webApiInfo())
+				.select()
+				.paths(Predicates.not(PathSelectors.regex("/admin/.*")))
+				.paths(Predicates.not(PathSelectors.regex("/error.*")))
+				.build();
+	}
+
+	private ApiInfo adminApiInfo(){
+
+		return new ApiInfoBuilder()
+				.title("后台管理系统-用户中心API文档")
+				.description("本文档描述了后台管理系统用户中心微服务接口定义")
+				.version("1.0")
+				.contact(new Contact("Helen", "http://atguigu.com", "55317332@qq.com"))
+				.build();
+	}
+
+	private ApiInfo webApiInfo(){
+
+		return new ApiInfoBuilder()
+				.title("网站-用户中心API文档")
+				.description("本文档描述了用户中心微服务接口定义")
+				.version("1.0")
+				.contact(new Contact("Helen", "http://atguigu.com", "55317332@qq.com"))
+				.build();
+	}
+}

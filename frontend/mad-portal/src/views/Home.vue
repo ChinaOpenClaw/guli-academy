@@ -1,1 +1,122 @@
-PHRlbXBsYXRlPgogIDxkaXYgY2xhc3M9ImhvbWUiPgogICAgPCEtLSBCYW5uZXIgLS0+CiAgICA8c2VjdGlvbiBjbGFzcz0iZy1iYW5uZXIgZy1iYW5uZXItLW1hZCI+CiAgICAgIDxpbWcgc3JjPSIvcGhvdG8vYmFubmVyL21hZC1iYW5uZXIucG5nIiBhbHQ9Ik1BROe9keivvuezu+e7nyDigJQg6YeR6J6N5LiOIElUIOWQjeW4iOivvuWggiIgLz4KICAgICAgPGRpdiBjbGFzcz0iYmFubmVyLW1hc2siPgogICAgICAgIDxkaXYgY2xhc3M9ImNvbnRhaW5lciI+CiAgICAgICAgICA8aDE+TUFE572R6K++57O757ufIMK3IOmHkeiejeS4jiBJVCDlkI3luIjor77loII8L2gxPgogICAgICAgICAgPHA+5be06I+y54m5IC8g6L6+5Yip5qynIC8g6KW/6JKZ5pavIC8gSmVmZiBEZWFuIC8gS2VybmlnaGFuIOWQjeW4iOS6suaOiCDCtyDnnJ/lrp4gWW91VHViZSDkuI4gQiDnq5nljp/or74gwrcg5qGI5L6L5a6e5oiY5YWo6KaG55uWPC9wPgogICAgICAgICAgPHJvdXRlci1saW5rIHRvPSIvY291cnNlcyIgY2xhc3M9ImNvbW0tYnRuIGMtYnRuLTEgYmFubmVyLWJ0biI+5YWN6LS56K+V5a2mPC9yb3V0ZXItbGluaz4KICAgICAgICA8L2Rpdj4KICAgICAgPC9kaXY+CiAgICA8L3NlY3Rpb24+CgogICAgPCEtLSDng63pl6jor77nqIsgLS0+CiAgICA8c2VjdGlvbiBjbGFzcz0iY29udGFpbmVyIG10NDAiPgogICAgICA8U2VjdGlvblRpdGxlIHRpdGxlPSLng63pl6jor77nqIsiIHN1YnRpdGxlPSLopobnm5bph5Hono3mipXotYQgLyBJVCDlt6XnqIsgLyDkurrlt6Xmmbrog70g5LiJ5aSn5pa55ZCRIiAvPgogICAgICA8ZGl2IGNsYXNzPSJjb21tLWNvdXJzZS1saXN0Ij4KICAgICAgICA8dWw+CiAgICAgICAgICA8Q291cnNlQ2FyZCB2LWZvcj0iYyBpbiBob3RDb3Vyc2VzIiA6a2V5PSJjLmlkIiA6Y291cnNlPSJjIiAvPgogICAgICAgIDwvdWw+CiAgICAgIDwvZGl2PgogICAgICA8ZGl2IGNsYXNzPSJ0YWMgbXQyMCI+CiAgICAgICAgPHJvdXRlci1saW5rIHRvPSIvY291cnNlcyIgY2xhc3M9ImNvbW0tYnRuIGMtYnRuLTIiPuafpeeci+WFqOmDqOivvueoizwvcm91dGVyLWxpbms+CiAgICAgIDwvZGl2PgogICAgPC9zZWN0aW9uPgoKICAgIDwhLS0g5ZCN5biI5aSn5ZKWIC0tPgogICAgPHNlY3Rpb24gY2xhc3M9ImNvbnRhaW5lciBtdDQwIj4KICAgICAgPFNlY3Rpb25UaXRsZSB0aXRsZT0i5ZCN5biI5aSn5ZKWIiBzdWJ0aXRsZT0i5be06I+y54m5IMK3IOW4reWLkiDCtyDovr7liKnmrKcgwrcg6L6+5pGp6L6+5YWwIMK3IEplZmYgRGVhbiDCtyBLYXJwYXRoeSIgLz4KICAgICAgPGRpdiBjbGFzcz0iaS10ZWFjaGVyLWxpc3QiPgogICAgICAgIDx1bD4KICAgICAgICAgIDxUZWFjaGVyQ2FyZCB2LWZvcj0idCBpbiB0ZWFjaGVycyIgOmtleT0idC5pZCIgOnRlYWNoZXI9InQiIC8+CiAgICAgICAgPC91bD4KICAgICAgPC9kaXY+CiAgICA8L3NlY3Rpb24+CgogICAgPCEtLSDmioDmnK/mlofnq6AgLS0+CiAgICA8c2VjdGlvbiBjbGFzcz0iY29udGFpbmVyIG10NDAiPgogICAgICA8U2VjdGlvblRpdGxlIHRpdGxlPSLmioDmnK/mlofnq6AiIHN1YnRpdGxlPSLmr4/lkajmm7TmlrDvvIzntKfot5/ooYzkuJrotovlir8iIC8+CiAgICAgIDxkaXYgY2xhc3M9ImNvbW0tYXJ0aWNsZS1saXN0Ij4KICAgICAgICA8dWw+CiAgICAgICAgICA8QXJ0aWNsZUNhcmQgdi1mb3I9ImEgaW4gbGF0ZXN0QXJ0aWNsZXMiIDprZXk9ImEuaWQiIDphcnRpY2xlPSJhIiAvPgogICAgICAgIDwvdWw+CiAgICAgIDwvZGl2PgogICAgPC9zZWN0aW9uPgoKICAgIDwhLS0gQUkg55+l6K+G5qGI5L6LIC0tPgogICAgPHNlY3Rpb24gY2xhc3M9ImNvbnRhaW5lciBtdDQwIj4KICAgICAgPFNlY3Rpb25UaXRsZSB0aXRsZT0iQUkg55+l6K+G5qGI5L6LIiBzdWJ0aXRsZT0iVmliZSBDb2RpbmcgJiDmmbrog73kvZMgwrcg55yf5a6e6KGM5Lia6aG555uu5b2i5oCBIiAvPgogICAgICA8ZGl2IGNsYXNzPSJob21lLWFpIj4KICAgICAgICA8ZGl2IGNsYXNzPSJob21lLWFpLWludHJvIj4KICAgICAgICAgIDxoMz57eyBhaU92ZXJ2aWV3LnRpdGxlIH19PC9oMz4KICAgICAgICAgIDxwPnt7IGFpT3ZlcnZpZXcuZGVzYyB9fTwvcD4KICAgICAgICAgIDxyb3V0ZXItbGluayB0bz0iL2FpLWNhc2VzIiBjbGFzcz0iY29tbS1idG4gYy1idG4tMiI+5p+l55yL5YWo6YOo5qGI5L6LPC9yb3V0ZXItbGluaz4KICAgICAgICA8L2Rpdj4KICAgICAgICA8ZGl2IGNsYXNzPSJob21lLWFpLWdyaWQiPgogICAgICAgICAgPHJvdXRlci1saW5rCiAgICAgICAgICAgIHYtZm9yPSJwIGluIGFpSGlnaGxpZ2h0cyIKICAgICAgICAgICAgOmtleT0icC5pZCIKICAgICAgICAgICAgOnRvPSInL2FpLWNhc2VzJyIKICAgICAgICAgICAgY2xhc3M9ImhvbWUtYWktY2FyZCIKICAgICAgICAgID4KICAgICAgICAgICAgPHNwYW4gY2xhc3M9ImhvbWUtYWktY2F0Ij57eyBwLmNhdCB9fTwvc3Bhbj4KICAgICAgICAgICAgPGRpdiBjbGFzcz0iaG9tZS1haS1uYW1lIj57eyBwLm5hbWUgfX08L2Rpdj4KICAgICAgICAgICAgPGRpdiBjbGFzcz0iaG9tZS1haS1kZXNjIj57eyBwLmRlc2MgfX08L2Rpdj4KICAgICAgICAgIDwvcm91dGVyLWxpbms+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvZGl2PgogICAgPC9zZWN0aW9uPgogIDwvZGl2Pgo8L3RlbXBsYXRlPgoKPHNjcmlwdCBzZXR1cD4KaW1wb3J0IHsgY29tcHV0ZWQgfSBmcm9tICd2dWUnCmltcG9ydCBTZWN0aW9uVGl0bGUgZnJvbSAnQC9jb21wb25lbnRzL1NlY3Rpb25UaXRsZS52dWUnCmltcG9ydCBDb3Vyc2VDYXJkIGZyb20gJ0AvY29tcG9uZW50cy9Db3Vyc2VDYXJkLnZ1ZScKaW1wb3J0IFRlYWNoZXJDYXJkIGZyb20gJ0AvY29tcG9uZW50cy9UZWFjaGVyQ2FyZC52dWUnCmltcG9ydCBBcnRpY2xlQ2FyZCBmcm9tICdAL2NvbXBvbmVudHMvQXJ0aWNsZUNhcmQudnVlJwppbXBvcnQgeyBjb3Vyc2VzIH0gZnJvbSAnQC9kYXRhL2NvdXJzZXMnCmltcG9ydCB7IHRlYWNoZXJzIH0gZnJvbSAnQC9kYXRhL3RlYWNoZXJzJwppbXBvcnQgeyBhcnRpY2xlcyB9IGZyb20gJ0AvZGF0YS9hcnRpY2xlcycKaW1wb3J0IHsgYWlDYXNlT3ZlcnZpZXcsIGFpUHJvamVjdHMgfSBmcm9tICdAL2RhdGEvY2FzZXMnCgpjb25zdCBob3RDb3Vyc2VzID0gY29tcHV0ZWQoKCkgPT4gWy4uLmNvdXJzZXNdLnNvcnQoKGEsIGIpID0+IGIuc3R1ZHlDb3VudCAtIGEuc3R1ZHlDb3VudCkuc2xpY2UoMCwgOCkpCmNvbnN0IGxhdGVzdEFydGljbGVzID0gY29tcHV0ZWQoKCkgPT4gWy4uLmFydGljbGVzXS5zbGljZSgwLCAzKSkKY29uc3QgYWlPdmVydmlldyA9IGFpQ2FzZU92ZXJ2aWV3CmNvbnN0IGFpSGlnaGxpZ2h0cyA9IGNvbXB1dGVkKCgpID0+IGFpUHJvamVjdHMuZmlsdGVyKChwKSA9PiBwLmZlYXR1cmVkKS5jb25jYXQoYWlQcm9qZWN0cy5maWx0ZXIoKHApID0+ICFwLmZlYXR1cmVkKSkuc2xpY2UoMCwgNCkpCjwvc2NyaXB0PgoKPHN0eWxlIHNjb3BlZD4KLmJhbm5lci1tYXNrIHsKICBwb3NpdGlvbjogYWJzb2x1dGU7IGluc2V0OiAwOyBkaXNwbGF5OiBmbGV4OyBhbGlnbi1pdGVtczogZmxleC1lbmQ7CiAgcGFkZGluZy1ib3R0b206IDMwcHg7CiAgYmFja2dyb3VuZDogbGluZWFyLWdyYWRpZW50KDE4MGRlZywgcmdiYSg0LDExLDI3LDApIDQ1JSwgcmdiYSg0LDExLDI3LC43MikgMTAwJSk7Cn0KLmJhbm5lci1tYXNrIGgxIHsgY29sb3I6ICNmZmY7IGZvbnQtc2l6ZTogMzZweDsgZm9udC13ZWlnaHQ6IDgwMDsgdGV4dC1zaGFkb3c6IDAgMnB4IDE0cHggcmdiYSgwLDAsMCwuNDUpOyB9Ci5iYW5uZXItbWFzayBwIHsgY29sb3I6ICNkN2U5ZTA7IG1hcmdpbjogMTJweCAwIDIycHg7IGZvbnQtc2l6ZTogMTVweDsgdGV4dC1zaGFkb3c6IDAgMXB4IDhweCByZ2JhKDAsMCwwLC40KTsgfQouYmFubmVyLWJ0biB7IHBhZGRpbmc6IDExcHggMzRweDsgZm9udC1zaXplOiAxNnB4OyB9CgpAbWVkaWEgKG1heC13aWR0aDogNzY4cHgpIHsKICAuYmFubmVyLW1hc2sgeyBwYWRkaW5nLWJvdHRvbTogMThweDsgfQogIC5iYW5uZXItbWFzayBoMSB7IGZvbnQtc2l6ZTogMjJweDsgfQogIC5iYW5uZXItbWFzayBwIHsgZm9udC1zaXplOiAxMnB4OyBtYXJnaW46IDhweCAwIDE0cHg7IH0KfQoKLmhvbWUtYWkgeyBkaXNwbGF5OiBncmlkOyBncmlkLXRlbXBsYXRlLWNvbHVtbnM6IDMwMHB4IDFmcjsgZ2FwOiAyMnB4OyBhbGlnbi1pdGVtczogc3RhcnQ7IH0KLmhvbWUtYWktaW50cm8geyBiYWNrZ3JvdW5kOiBsaW5lYXItZ3JhZGllbnQoMTIwZGVnLCB2YXIoLS1icmFuZC1saWdodCksICNmZmYpOyBib3JkZXI6IDFweCBzb2xpZCB2YXIoLS1saW5lKTsgYm9yZGVyLXJhZGl1czogMTJweDsgcGFkZGluZzogMjBweDsgfQouaG9tZS1haS1pbnRybyBoMyB7IGZvbnQtc2l6ZTogMThweDsgbWFyZ2luLWJvdHRvbTogMTBweDsgfQouaG9tZS1haS1pbnRybyBwIHsgY29sb3I6ICM2NjY7IGZvbnQtc2l6ZTogMTNweDsgbGluZS1oZWlnaHQ6IDEuODsgbWFyZ2luLWJvdHRvbTogMTZweDsgfQouaG9tZS1haS1ncmlkIHsgZGlzcGxheTogZ3JpZDsgZ3JpZC10ZW1wbGF0ZS1jb2x1bW5zOiByZXBlYXQoMiwgMWZyKTsgZ2FwOiAxNHB4OyB9Ci5ob21lLWFpLWNhcmQgeyBkaXNwbGF5OiBmbGV4OyBmbGV4LWRpcmVjdGlvbjogY29sdW1uOyBnYXA6IDZweDsgYmFja2dyb3VuZDogI2ZmZjsgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tbGluZSk7IGJvcmRlci1yYWRpdXM6IDEwcHg7IHBhZGRpbmc6IDE0cHggMTZweDsgdGV4dC1kZWNvcmF0aW9uOiBub25lOyBjb2xvcjogaW5oZXJpdDsgdHJhbnNpdGlvbjogYm94LXNoYWRvdyAuMnMsIHRyYW5zZm9ybSAuMnM7IH0KLmhvbWUtYWktY2FyZDpob3ZlciB7IGJveC1zaGFkb3c6IDAgOHB4IDIycHggcmdiYSgwLDAsMCwuMDgpOyB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoLTJweCk7IGJvcmRlci1jb2xvcjogdmFyKC0tYnJhbmQpOyB9Ci5ob21lLWFpLWNhdCB7IGZvbnQtc2l6ZTogMTJweDsgY29sb3I6ICM5OTk7IH0KLmhvbWUtYWktbmFtZSB7IGZvbnQtc2l6ZTogMTZweDsgZm9udC13ZWlnaHQ6IDcwMDsgfQouaG9tZS1haS1kZXNjIHsgZm9udC1zaXplOiAxMnB4OyBjb2xvcjogIzc3NzsgbGluZS1oZWlnaHQ6IDEuNjsgfQoKQG1lZGlhIChtYXgtd2lkdGg6IDk5MnB4KSB7CiAgLmhvbWUtYWkgeyBncmlkLXRlbXBsYXRlLWNvbHVtbnM6IDFmcjsgfQogIC5ob21lLWFpLWdyaWQgeyBncmlkLXRlbXBsYXRlLWNvbHVtbnM6IDFmcjsgfQp9Cjwvc3R5bGU+Cg==
+<template>
+  <div class="home">
+    <!-- Banner -->
+    <section class="g-banner g-banner--mad">
+      <img src="/photo/banner/mad-banner.png" alt="MAD网课系统 — 金融与 IT 名师课堂" />
+      <div class="banner-mask">
+        <div class="container">
+          <h1>MAD网课系统 · 金融与 IT 名师课堂</h1>
+          <p>巴菲特 / 达利欧 / 西蒙斯 / Jeff Dean / Kernighan 名师亲授 · 真实 YouTube 与 B 站原课 · 案例实战全覆盖</p>
+          <router-link to="/courses" class="comm-btn c-btn-1 banner-btn">免费试学</router-link>
+        </div>
+      </div>
+    </section>
+
+    <!-- 热门课程 -->
+    <section class="container mt40">
+      <SectionTitle title="热门课程" subtitle="覆盖金融投资 / IT 工程 / 人工智能 三大方向" />
+      <div class="comm-course-list">
+        <ul>
+          <CourseCard v-for="c in hotCourses" :key="c.id" :course="c" />
+        </ul>
+      </div>
+      <div class="tac mt20">
+        <router-link to="/courses" class="comm-btn c-btn-2">查看全部课程</router-link>
+      </div>
+    </section>
+
+    <!-- 名师大咖 -->
+    <section class="container mt40">
+      <SectionTitle title="名师大咖" subtitle="巴菲特 · 席勒 · 达利欧 · 达摩达兰 · Jeff Dean · Karpathy" />
+      <div class="i-teacher-list">
+        <ul>
+          <TeacherCard v-for="t in teachers" :key="t.id" :teacher="t" />
+        </ul>
+      </div>
+    </section>
+
+    <!-- 技术文章 -->
+    <section class="container mt40">
+      <SectionTitle title="技术文章" subtitle="每周更新，紧跟行业趋势" />
+      <div class="comm-article-list">
+        <ul>
+          <ArticleCard v-for="a in latestArticles" :key="a.id" :article="a" />
+        </ul>
+      </div>
+    </section>
+
+    <!-- AI 知识案例 -->
+    <section class="container mt40">
+      <SectionTitle title="AI 知识案例" subtitle="Vibe Coding & 智能体 · 真实行业项目形态" />
+      <div class="home-ai">
+        <div class="home-ai-intro">
+          <h3>{{ aiOverview.title }}</h3>
+          <p>{{ aiOverview.desc }}</p>
+          <router-link to="/ai-cases" class="comm-btn c-btn-2">查看全部案例</router-link>
+        </div>
+        <div class="home-ai-grid">
+          <router-link
+            v-for="p in aiHighlights"
+            :key="p.id"
+            :to="'/ai-cases'"
+            class="home-ai-card"
+          >
+            <span class="home-ai-cat">{{ p.cat }}</span>
+            <div class="home-ai-name">{{ p.name }}</div>
+            <div class="home-ai-desc">{{ p.desc }}</div>
+          </router-link>
+        </div>
+      </div>
+    </section>
+  </div>
+</template>
+
+<script setup>
+import { computed } from 'vue'
+import SectionTitle from '@/components/SectionTitle.vue'
+import CourseCard from '@/components/CourseCard.vue'
+import TeacherCard from '@/components/TeacherCard.vue'
+import ArticleCard from '@/components/ArticleCard.vue'
+import { courses } from '@/data/courses'
+import { teachers } from '@/data/teachers'
+import { articles } from '@/data/articles'
+import { aiCaseOverview, aiProjects } from '@/data/cases'
+
+const hotCourses = computed(() => [...courses].sort((a, b) => b.studyCount - a.studyCount).slice(0, 8))
+const latestArticles = computed(() => [...articles].slice(0, 3))
+const aiOverview = aiCaseOverview
+const aiHighlights = computed(() => aiProjects.filter((p) => p.featured).concat(aiProjects.filter((p) => !p.featured)).slice(0, 4))
+</script>
+
+<style scoped>
+.banner-mask {
+  position: absolute; inset: 0; display: flex; align-items: flex-end;
+  padding-bottom: 30px;
+  background: linear-gradient(180deg, rgba(4,11,27,0) 45%, rgba(4,11,27,.72) 100%);
+}
+.banner-mask h1 { color: #fff; font-size: 36px; font-weight: 800; text-shadow: 0 2px 14px rgba(0,0,0,.45); }
+.banner-mask p { color: #d7e9e0; margin: 12px 0 22px; font-size: 15px; text-shadow: 0 1px 8px rgba(0,0,0,.4); }
+.banner-btn { padding: 11px 34px; font-size: 16px; }
+
+@media (max-width: 768px) {
+  .banner-mask { padding-bottom: 18px; }
+  .banner-mask h1 { font-size: 22px; }
+  .banner-mask p { font-size: 12px; margin: 8px 0 14px; }
+}
+
+.home-ai { display: grid; grid-template-columns: 300px 1fr; gap: 22px; align-items: start; }
+.home-ai-intro { background: linear-gradient(120deg, var(--brand-light), #fff); border: 1px solid var(--line); border-radius: 12px; padding: 20px; }
+.home-ai-intro h3 { font-size: 18px; margin-bottom: 10px; }
+.home-ai-intro p { color: #666; font-size: 13px; line-height: 1.8; margin-bottom: 16px; }
+.home-ai-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 14px; }
+.home-ai-card { display: flex; flex-direction: column; gap: 6px; background: #fff; border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px; text-decoration: none; color: inherit; transition: box-shadow .2s, transform .2s; }
+.home-ai-card:hover { box-shadow: 0 8px 22px rgba(0,0,0,.08); transform: translateY(-2px); border-color: var(--brand); }
+.home-ai-cat { font-size: 12px; color: #999; }
+.home-ai-name { font-size: 16px; font-weight: 700; }
+.home-ai-desc { font-size: 12px; color: #777; line-height: 1.6; }
+
+@media (max-width: 992px) {
+  .home-ai { grid-template-columns: 1fr; }
+  .home-ai-grid { grid-template-columns: 1fr; }
+}
+</style>

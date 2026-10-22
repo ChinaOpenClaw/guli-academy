@@ -1,1 +1,6 @@
-aW1wb3J0IHsgY3JlYXRlQXBwIH0gZnJvbSAndnVlJwppbXBvcnQgQXBwIGZyb20gJy4vQXBwLnZ1ZScKaW1wb3J0IHJvdXRlciBmcm9tICcuL3JvdXRlcicKaW1wb3J0ICcuL3N0eWxlcy9nbG9iYWwuY3NzJwoKY3JlYXRlQXBwKEFwcCkudXNlKHJvdXRlcikubW91bnQoJyNhcHAnKQo=
+import { createApp } from 'vue'
+import App from './App.vue'
+import router from './router'
+import './styles/global.css'
+
+createApp(App).use(router).mount('#app')

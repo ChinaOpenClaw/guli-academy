@@ -1,1 +1,95 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHByb2plY3QgeG1sbnM9Imh0dHA6Ly9tYXZlbi5hcGFjaGUub3JnL1BPTS80LjAuMCIKICAgICAgICAgeG1sbnM6eHNpPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxL1hNTFNjaGVtYS1pbnN0YW5jZSIKICAgICAgICAgeHNpOnNjaGVtYUxvY2F0aW9uPSJodHRwOi8vbWF2ZW4uYXBhY2hlLm9yZy9QT00vNC4wLjAgaHR0cDovL21hdmVuLmFwYWNoZS5vcmcveHNkL21hdmVuLTQuMC4wLnhzZCI+CiAgICA8cGFyZW50PgogICAgICAgIDxhcnRpZmFjdElkPm1hZC1mcmFtZXdvcmstcGFyZW50PC9hcnRpZmFjdElkPgogICAgICAgIDxncm91cElkPmNvbS5tYWQ8L2dyb3VwSWQ+CiAgICAgICAgPHZlcnNpb24+MC4wLjEtU05BUFNIT1Q8L3ZlcnNpb24+CiAgICAgICAgPHJlbGF0aXZlUGF0aD4uLi9tYWQtZnJhbWV3b3JrLXBhcmVudC9wb20ueG1sPC9yZWxhdGl2ZVBhdGg+CiAgICA8L3BhcmVudD4KICAgIDxtb2RlbFZlcnNpb24+NC4wLjA8L21vZGVsVmVyc2lvbj4KCiAgICA8YXJ0aWZhY3RJZD5tYWQtbWljcm9zZXJ2aWNlLXZvZDwvYXJ0aWZhY3RJZD4KCiAgICA8ZGVwZW5kZW5jaWVzPgogICAgICAgIDxkZXBlbmRlbmN5PgogICAgICAgICAgICA8Z3JvdXBJZD5jb20ubWFkPC9ncm91cElkPgogICAgICAgICAgICA8YXJ0aWZhY3RJZD5tYWQtZnJhbWV3b3JrLWNvbW1vbjwvYXJ0aWZhY3RJZD4KICAgICAgICA8L2RlcGVuZGVuY3k+CgogICAgICAgIDxkZXBlbmRlbmN5PgogICAgICAgICAgICA8Z3JvdXBJZD5vcmcuc3ByaW5nZnJhbWV3b3JrLmJvb3Q8L2dyb3VwSWQ+CiAgICAgICAgICAgIDxhcnRpZmFjdElkPnNwcmluZy1ib290LXN0YXJ0ZXItd2ViPC9hcnRpZmFjdElkPgogICAgICAgIDwvZGVwZW5kZW5jeT4KCiAgICAgICAgPGRlcGVuZGVuY3k+CiAgICAgICAgICAgIDxncm91cElkPmNvbS5hbGl5dW48L2dyb3VwSWQ+CiAgICAgICAgICAgIDxhcnRpZmFjdElkPmFsaXl1bi1qYXZhLXNkay1jb3JlPC9hcnRpZmFjdElkPgogICAgICAgIDwvZGVwZW5kZW5jeT4KICAgICAgICA8ZGVwZW5kZW5jeT4KICAgICAgICAgICAgPGdyb3VwSWQ+Y29tLmFsaXl1bi5vc3M8L2dyb3VwSWQ+CiAgICAgICAgICAgIDxhcnRpZmFjdElkPmFsaXl1bi1zZGstb3NzPC9hcnRpZmFjdElkPgogICAgICAgIDwvZGVwZW5kZW5jeT4KICAgICAgICA8ZGVwZW5kZW5jeT4KICAgICAgICAgICAgPGdyb3VwSWQ+Y29tLmFsaXl1bjwvZ3JvdXBJZD4KICAgICAgICAgICAgPGFydGlmYWN0SWQ+YWxpeXVuLWphdmEtc2RrLXZvZDwvYXJ0aWZhY3RJZD4KICAgICAgICA8L2RlcGVuZGVuY3k+CiAgICAgICAgPGRlcGVuZGVuY3k+CiAgICAgICAgICAgIDxncm91cElkPmNvbS5hbGl5dW48L2dyb3VwSWQ+CiAgICAgICAgICAgIDxhcnRpZmFjdElkPmFsaXl1bi1zZGstdm9kLXVwbG9hZDwvYXJ0aWZhY3RJZD4KICAgICAgICA8L2RlcGVuZGVuY3k+CiAgICAgICAgPGRlcGVuZGVuY3k+CiAgICAgICAgICAgIDxncm91cElkPmNvbS5hbGliYWJhPC9ncm91cElkPgogICAgICAgICAgICA8YXJ0aWZhY3RJZD5mYXN0anNvbjwvYXJ0aWZhY3RJZD4KICAgICAgICA8L2RlcGVuZGVuY3k+CiAgICAgICAgPGRlcGVuZGVuY3k+CiAgICAgICAgICAgIDxncm91cElkPm9yZy5qc29uPC9ncm91cElkPgogICAgICAgICAgICA8YXJ0aWZhY3RJZD5qc29uPC9hcnRpZmFjdElkPgogICAgICAgIDwvZGVwZW5kZW5jeT4KICAgICAgICA8ZGVwZW5kZW5jeT4KICAgICAgICAgICAgPGdyb3VwSWQ+Y29tLmdvb2dsZS5jb2RlLmdzb248L2dyb3VwSWQ+CiAgICAgICAgICAgIDxhcnRpZmFjdElkPmdzb248L2FydGlmYWN0SWQ+CiAgICAgICAgPC9kZXBlbmRlbmN5PgoKICAgICAgICA8IS0tc3dhZ2dlci0tPgogICAgICAgIDxkZXBlbmRlbmN5PgogICAgICAgICAgICA8Z3JvdXBJZD5pby5zcHJpbmdmb3g8L2dyb3VwSWQ+CiAgICAgICAgICAgIDxhcnRpZmFjdElkPnNwcmluZ2ZveC1zd2FnZ2VyMjwvYXJ0aWZhY3RJZD4KICAgICAgICA8L2RlcGVuZGVuY3k+CiAgICAgICAgPGRlcGVuZGVuY3k+CiAgICAgICAgICAgIDxncm91cElkPmlvLnNwcmluZ2ZveDwvZ3JvdXBJZD4KICAgICAgICAgICAgPGFydGlmYWN0SWQ+c3ByaW5nZm94LXN3YWdnZXItdWk8L2FydGlmYWN0SWQ+CiAgICAgICAgPC9kZXBlbmRlbmN5PgoKICAgICAgICA8IS0tbXliYXRpcy1wbHVzLS0+CiAgICAgICAgPGRlcGVuZGVuY3k+CiAgICAgICAgICAgIDxncm91cElkPmNvbS5iYW9taWRvdTwvZ3JvdXBJZD4KICAgICAgICAgICAgPGFydGlmYWN0SWQ+bXliYXRpcy1wbHVzLWJvb3Qtc3RhcnRlcjwvYXJ0aWZhY3RJZD4KICAgICAgICAgICAgPG9wdGlvbmFsPnRydWU8L29wdGlvbmFsPgogICAgICAgIDwvZGVwZW5kZW5jeT4KCiAgICAgICAgPCEtLeW8gOWPkeiAheW3peWFty0tPgogICAgICAgIDxkZXBlbmRlbmN5PgogICAgICAgICAgICA8Z3JvdXBJZD5vcmcuc3ByaW5nZnJhbWV3b3JrLmJvb3Q8L2dyb3VwSWQ+CiAgICAgICAgICAgIDxhcnRpZmFjdElkPnNwcmluZy1ib290LWRldnRvb2xzPC9hcnRpZmFjdElkPgogICAgICAgICAgICA8b3B0aW9uYWw+dHJ1ZTwvb3B0aW9uYWw+CiAgICAgICAgPC9kZXBlbmRlbmN5PgoKICAgIDwvZGVwZW5kZW5jaWVzPgoKICAgIDxyZXBvc2l0b3JpZXM+CiAgICAgICAgPHJlcG9zaXRvcnk+CiAgICAgICAgICAgIDxpZD5zb25hdHlwZS1uZXh1cy1zdGFnaW5nPC9pZD4KICAgICAgICAgICAgPG5hbWU+U29uYXR5cGUgTmV4dXMgU3RhZ2luZzwvbmFtZT4KICAgICAgICAgICAgPHVybD5odHRwczovL29zcy5zb25hdHlwZS5vcmcvc2VydmljZS9sb2NhbC9zdGFnaW5nL2RlcGxveS9tYXZlbjIvPC91cmw+CiAgICAgICAgICAgIDxyZWxlYXNlcz4KICAgICAgICAgICAgICAgIDxlbmFibGVkPnRydWU8L2VuYWJsZWQ+CiAgICAgICAgICAgIDwvcmVsZWFzZXM+CiAgICAgICAgICAgIDxzbmFwc2hvdHM+CiAgICAgICAgICAgICAgICA8ZW5hYmxlZD50cnVlPC9lbmFibGVkPgogICAgICAgICAgICA8L3NuYXBzaG90cz4KICAgICAgICA8L3JlcG9zaXRvcnk+CiAgICA8L3JlcG9zaXRvcmllcz4KICAgIAo8L3Byb2plY3Q+
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>mad-framework-parent</artifactId>
+        <groupId>com.mad</groupId>
+        <version>0.0.1-SNAPSHOT</version>
+        <relativePath>../mad-framework-parent/pom.xml</relativePath>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>mad-microservice-vod</artifactId>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.mad</groupId>
+            <artifactId>mad-framework-common</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.aliyun</groupId>
+            <artifactId>aliyun-java-sdk-core</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.aliyun.oss</groupId>
+            <artifactId>aliyun-sdk-oss</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.aliyun</groupId>
+            <artifactId>aliyun-java-sdk-vod</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.aliyun</groupId>
+            <artifactId>aliyun-sdk-vod-upload</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.json</groupId>
+            <artifactId>json</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+        </dependency>
+
+        <!--swagger-->
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger2</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger-ui</artifactId>
+        </dependency>
+
+        <!--mybatis-plus-->
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-boot-starter</artifactId>
+            <optional>true</optional>
+        </dependency>
+
+        <!--开发者工具-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-devtools</artifactId>
+            <optional>true</optional>
+        </dependency>
+
+    </dependencies>
+
+    <repositories>
+        <repository>
+            <id>sonatype-nexus-staging</id>
+            <name>Sonatype Nexus Staging</name>
+            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
+    
+</project>

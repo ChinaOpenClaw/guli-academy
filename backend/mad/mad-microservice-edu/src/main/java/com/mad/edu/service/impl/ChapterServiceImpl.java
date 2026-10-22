@@ -1,1 +1,91 @@
-cGFja2FnZSBjb20ubWFkLmVkdS5zZXJ2aWNlLmltcGw7CgppbXBvcnQgY29tLmJhb21pZG91Lm15YmF0aXNwbHVzLmNvcmUuY29uZGl0aW9ucy5xdWVyeS5RdWVyeVdyYXBwZXI7CmltcG9ydCBjb20uYmFvbWlkb3UubXliYXRpc3BsdXMuZXh0ZW5zaW9uLnNlcnZpY2UuaW1wbC5TZXJ2aWNlSW1wbDsKaW1wb3J0IGNvbS5tYWQuZWR1LmVudGl0eS5DaGFwdGVyOwppbXBvcnQgY29tLm1hZC5lZHUuZW50aXR5LlZpZGVvOwppbXBvcnQgY29tLm1hZC5lZHUubWFwcGVyLkNoYXB0ZXJNYXBwZXI7CmltcG9ydCBjb20ubWFkLmVkdS5tYXBwZXIuVmlkZW9NYXBwZXI7CmltcG9ydCBjb20ubWFkLmVkdS5zZXJ2aWNlLkNoYXB0ZXJTZXJ2aWNlOwppbXBvcnQgY29tLm1hZC5lZHUudm8uQ2hhcHRlclZvOwppbXBvcnQgY29tLm1hZC5lZHUudm8uVmlkZW9WbzsKaW1wb3J0IG9yZy5zcHJpbmdmcmFtZXdvcmsuYmVhbnMuQmVhblV0aWxzOwppbXBvcnQgb3JnLnNwcmluZ2ZyYW1ld29yay5iZWFucy5mYWN0b3J5LmFubm90YXRpb24uQXV0b3dpcmVkOwppbXBvcnQgb3JnLnNwcmluZ2ZyYW1ld29yay5zdGVyZW90eXBlLlNlcnZpY2U7CgppbXBvcnQgamF2YS51dGlsLkFycmF5TGlzdDsKaW1wb3J0IGphdmEudXRpbC5MaXN0OwoKLyoqCiAqIDxwPgogKiDor77nqIsg5pyN5Yqh5a6e546w57G7CiAqIDwvcD4KICoKICogQGF1dGhvciBIZWxlbgogKiBAc2luY2UgMjAxOS0wNi0yNAogKi8KQFNlcnZpY2UKcHVibGljIGNsYXNzIENoYXB0ZXJTZXJ2aWNlSW1wbCBleHRlbmRzIFNlcnZpY2VJbXBsPENoYXB0ZXJNYXBwZXIsIENoYXB0ZXI+IGltcGxlbWVudHMgQ2hhcHRlclNlcnZpY2UgewoKCUBBdXRvd2lyZWQKCXByaXZhdGUgVmlkZW9NYXBwZXIgdmlkZW9NYXBwZXI7CgoJQE92ZXJyaWRlCglwdWJsaWMgdm9pZCByZW1vdmVDaGFwdGVyQnlJZChTdHJpbmcgaWQpIHsKCgkJLy/liKDpmaTkupHop4bpopHvvJrlkJFtceWPkeivt+axggoKCQkvL+agueaNrueroOiKgmlk5Yig6Zmk5omA5pyJ6KeG6aKRCgkJUXVlcnlXcmFwcGVyPFZpZGVvPiBxdWVyeVdyYXBwZXJWaWRlbyA9IG5ldyBRdWVyeVdyYXBwZXI8PigpOwoJCXF1ZXJ5V3JhcHBlclZpZGVvLmVxKCJjaGFwdGVyX2lkIiwgaWQpOwoJCXZpZGVvTWFwcGVyLmRlbGV0ZShxdWVyeVdyYXBwZXJWaWRlbyk7CgoJCS8v5qC55o2u56ug6IqCaWTliKDpmaTnq6DoioIKCQliYXNlTWFwcGVyLmRlbGV0ZUJ5SWQoaWQpOwoJfQoKCUBPdmVycmlkZQoJcHVibGljIExpc3Q8Q2hhcHRlclZvPiBuZXN0ZWRMaXN0KFN0cmluZyBjb3Vyc2VJZCkgewoKCQkvL+acgOe7iOimgeeahOWIsOeahOaVsOaNruWIl+ihqAoJCUFycmF5TGlzdDxDaGFwdGVyVm8+IGNoYXB0ZXJWb0FycmF5TGlzdCA9IG5ldyBBcnJheUxpc3Q8PigpOwoKCQkvL+iOt+WPlueroOiKguS/oeaBrwoJCVF1ZXJ5V3JhcHBlcjxDaGFwdGVyPiBxdWVyeVdyYXBwZXJDaGFwdGVyID0gbmV3IFF1ZXJ5V3JhcHBlcjw+KCk7CgkJcXVlcnlXcmFwcGVyQ2hhcHRlci5lcSgiY291cnNlX2lkIiwgY291cnNlSWQpOwoJCXF1ZXJ5V3JhcHBlckNoYXB0ZXIub3JkZXJCeUFzYygic29ydCIsICJpZCIpOwoJCUxpc3Q8Q2hhcHRlcj4gY2hhcHRlcnMgPSBiYXNlTWFwcGVyLnNlbGVjdExpc3QocXVlcnlXcmFwcGVyQ2hhcHRlcik7CgoJCS8v6I635Y+W6K++5pe25L+h5oGvCgkJUXVlcnlXcmFwcGVyPFZpZGVvPiBxdWVyeVdyYXBwZXJWaWRlbyA9IG5ldyBRdWVyeVdyYXBwZXI8PigpOwoJCXF1ZXJ5V3JhcHBlclZpZGVvLmVxKCJjb3Vyc2VfaWQiLCBjb3Vyc2VJZCk7CgkJcXVlcnlXcmFwcGVyVmlkZW8ub3JkZXJCeUFzYygic29ydCIsICJpZCIpOwoJCUxpc3Q8VmlkZW8+IHZpZGVvcyA9IHZpZGVvTWFwcGVyLnNlbGVjdExpc3QocXVlcnlXcmFwcGVyVmlkZW8pOwoKCQkvL+Whq+WFheeroOiKgnZv5pWw5o2uCgkJZm9yIChpbnQgaSA9IDA7IGkgPCBjaGFwdGVycy5zaXplKCk7IGkrKykgewoJCQlDaGFwdGVyIGNoYXB0ZXIgPSBjaGFwdGVycy5nZXQoaSk7CgoJCQkvL+WIm+W7uueroOiKgnZv5a+56LGhCgkJCUNoYXB0ZXJWbyBjaGFwdGVyVm8gPSBuZXcgQ2hhcHRlclZvKCk7CgkJCUJlYW5VdGlscy5jb3B5UHJvcGVydGllcyhjaGFwdGVyLCBjaGFwdGVyVm8pOwoJCQljaGFwdGVyVm9BcnJheUxpc3QuYWRkKGNoYXB0ZXJWbyk7CgoJCQkvL+Whq+WFheinhumikXZv5pWw5o2uCgkJCUFycmF5TGlzdDxWaWRlb1ZvPiB2aWRlb1ZvQXJyYXlMaXN0ID0gbmV3IEFycmF5TGlzdDw+KCk7CgkJCWZvciAoaW50IGogPSAwOyBqIDwgdmlkZW9zLnNpemUoKTsgaisrKSB7CgoJCQkJVmlkZW8gdmlkZW8gPSB2aWRlb3MuZ2V0KGopOwoJCQkJaWYoY2hhcHRlci5nZXRJZCgpLmVxdWFscyh2aWRlby5nZXRDaGFwdGVySWQoKSkpewoKCQkJCQkvL+WIm+W7uuinhumikXZv5a+56LGhCgkJCQkJVmlkZW9WbyB2aWRlb1ZvID0gbmV3IFZpZGVvVm8oKTsKCQkJCQlCZWFuVXRpbHMuY29weVByb3BlcnRpZXModmlkZW8sIHZpZGVvVm8pOwoJCQkJCXZpZGVvVm9BcnJheUxpc3QuYWRkKHZpZGVvVm8pOwoJCQkJfQoJCQl9CgkJCWNoYXB0ZXJWby5zZXRDaGlsZHJlbih2aWRlb1ZvQXJyYXlMaXN0KTsKCQl9CgkJcmV0dXJuIGNoYXB0ZXJWb0FycmF5TGlzdDsKCX0KfQo=
+package com.mad.edu.service.impl;
+
+import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
+import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.mad.edu.entity.Chapter;
+import com.mad.edu.entity.Video;
+import com.mad.edu.mapper.ChapterMapper;
+import com.mad.edu.mapper.VideoMapper;
+import com.mad.edu.service.ChapterService;
+import com.mad.edu.vo.ChapterVo;
+import com.mad.edu.vo.VideoVo;
+import org.springframework.beans.BeanUtils;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import java.util.ArrayList;
+import java.util.List;
+
+/**
+ * <p>
+ * 课程 服务实现类
+ * </p>
+ *
+ * @author Helen
+ * @since 2019-06-24
+ */
+@Service
+public class ChapterServiceImpl extends ServiceImpl<ChapterMapper, Chapter> implements ChapterService {
+
+	@Autowired
+	private VideoMapper videoMapper;
+
+	@Override
+	public void removeChapterById(String id) {
+
+		//删除云视频：向mq发请求
+
+		//根据章节id删除所有视频
+		QueryWrapper<Video> queryWrapperVideo = new QueryWrapper<>();
+		queryWrapperVideo.eq("chapter_id", id);
+		videoMapper.delete(queryWrapperVideo);
+
+		//根据章节id删除章节
+		baseMapper.deleteById(id);
+	}
+
+	@Override
+	public List<ChapterVo> nestedList(String courseId) {
+
+		//最终要的到的数据列表
+		ArrayList<ChapterVo> chapterVoArrayList = new ArrayList<>();
+
+		//获取章节信息
+		QueryWrapper<Chapter> queryWrapperChapter = new QueryWrapper<>();
+		queryWrapperChapter.eq("course_id", courseId);
+		queryWrapperChapter.orderByAsc("sort", "id");
+		List<Chapter> chapters = baseMapper.selectList(queryWrapperChapter);
+
+		//获取课时信息
+		QueryWrapper<Video> queryWrapperVideo = new QueryWrapper<>();
+		queryWrapperVideo.eq("course_id", courseId);
+		queryWrapperVideo.orderByAsc("sort", "id");
+		List<Video> videos = videoMapper.selectList(queryWrapperVideo);
+
+		//填充章节vo数据
+		for (int i = 0; i < chapters.size(); i++) {
+			Chapter chapter = chapters.get(i);
+
+			//创建章节vo对象
+			ChapterVo chapterVo = new ChapterVo();
+			BeanUtils.copyProperties(chapter, chapterVo);
+			chapterVoArrayList.add(chapterVo);
+
+			//填充视频vo数据
+			ArrayList<VideoVo> videoVoArrayList = new ArrayList<>();
+			for (int j = 0; j < videos.size(); j++) {
+
+				Video video = videos.get(j);
+				if(chapter.getId().equals(video.getChapterId())){
+
+					//创建视频vo对象
+					VideoVo videoVo = new VideoVo();
+					BeanUtils.copyProperties(video, videoVo);
+					videoVoArrayList.add(videoVo);
+				}
+			}
+			chapterVo.setChildren(videoVoArrayList);
+		}
+		return chapterVoArrayList;
+	}
+}

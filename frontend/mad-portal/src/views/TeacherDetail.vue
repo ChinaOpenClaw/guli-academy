@@ -1,1 +1,40 @@
-PHRlbXBsYXRlPgogIDxkaXYgY2xhc3M9ImNvbnRhaW5lciBtdDIwIiB2LWlmPSJ0ZWFjaGVyIj4KICAgIDwhLS0g6K6y5biI5L+h5oGvIC0tPgogICAgPHNlY3Rpb24gY2xhc3M9ImNvdXJzZS1kZXRhaWwtaGVybyIgc3R5bGU9ImFsaWduLWl0ZW1zOmNlbnRlciI+CiAgICAgIDxkaXYgY2xhc3M9InRlYWNoZXItcGljIiBzdHlsZT0id2lkdGg6MTIwcHg7aGVpZ2h0OjEyMHB4O21hcmdpbjowIj4KICAgICAgICA8aW1nIDpzcmM9InRlYWNoZXIuYXZhdGFyIiA6YWx0PSJ0ZWFjaGVyLm5hbWUiIC8+CiAgICAgIDwvZGl2PgogICAgICA8ZGl2IGNsYXNzPSJjZC1pbmZvIj4KICAgICAgICA8aDE+e3sgdGVhY2hlci5uYW1lIH19PC9oMT4KICAgICAgICA8cCBjbGFzcz0iY2QtbGluZSBjLW1hc3RlciI+e3sgdGVhY2hlci50aXRsZSB9fTwvcD4KICAgICAgICA8cCBjbGFzcz0iY2QtaW50cm8iPnt7IHRlYWNoZXIuaW50cm8gfX08L3A+CiAgICAgIDwvZGl2PgogICAgPC9zZWN0aW9uPgoKICAgIDwhLS0g6K+l6K6y5biI55qE6K++56iLIC0tPgogICAgPHNlY3Rpb24gY2xhc3M9Im10NDAiPgogICAgICA8U2VjdGlvblRpdGxlIHRpdGxlPSJUQSDnmoTor77nqIsiIC8+CiAgICAgIDxkaXYgY2xhc3M9ImNvbW0tY291cnNlLWxpc3QgbXQxNSIgdi1pZj0idGVhY2hlckNvdXJzZXMubGVuZ3RoIj4KICAgICAgICA8dWw+CiAgICAgICAgICA8Q291cnNlQ2FyZCB2LWZvcj0iYyBpbiB0ZWFjaGVyQ291cnNlcyIgOmtleT0iYy5pZCIgOmNvdXJzZT0iYyIgLz4KICAgICAgICA8L3VsPgogICAgICA8L2Rpdj4KICAgICAgPGRpdiBjbGFzcz0iZW1wdHkiIHYtZWxzZT7or6XorrLluIjmmoLml6DkuIrnur/or77nqIvjgII8L2Rpdj4KICAgIDwvc2VjdGlvbj4KICA8L2Rpdj4KICA8ZGl2IGNsYXNzPSJlbXB0eSBjb250YWluZXIiIHYtZWxzZT7orrLluIjkuI3lrZjlnKjjgII8L2Rpdj4KPC90ZW1wbGF0ZT4KCjxzY3JpcHQgc2V0dXA+CmltcG9ydCB7IGNvbXB1dGVkIH0gZnJvbSAndnVlJwppbXBvcnQgeyB1c2VSb3V0ZSB9IGZyb20gJ3Z1ZS1yb3V0ZXInCmltcG9ydCBTZWN0aW9uVGl0bGUgZnJvbSAnQC9jb21wb25lbnRzL1NlY3Rpb25UaXRsZS52dWUnCmltcG9ydCBDb3Vyc2VDYXJkIGZyb20gJ0AvY29tcG9uZW50cy9Db3Vyc2VDYXJkLnZ1ZScKaW1wb3J0IHsgZ2V0VGVhY2hlciB9IGZyb20gJ0AvZGF0YS90ZWFjaGVycycKaW1wb3J0IHsgZ2V0Q291cnNlc0J5VGVhY2hlciB9IGZyb20gJ0AvZGF0YS9jb3Vyc2VzJwoKY29uc3Qgcm91dGUgPSB1c2VSb3V0ZSgpCmNvbnN0IHRlYWNoZXIgPSBjb21wdXRlZCgoKSA9PiBnZXRUZWFjaGVyKHJvdXRlLnBhcmFtcy5pZCkpCmNvbnN0IHRlYWNoZXJDb3Vyc2VzID0gY29tcHV0ZWQoKCkgPT4gKHRlYWNoZXIudmFsdWUgPyBnZXRDb3Vyc2VzQnlUZWFjaGVyKHRlYWNoZXIudmFsdWUuaWQpIDogW10pKQo8L3NjcmlwdD4K
+<template>
+  <div class="container mt20" v-if="teacher">
+    <!-- 讲师信息 -->
+    <section class="course-detail-hero" style="align-items:center">
+      <div class="teacher-pic" style="width:120px;height:120px;margin:0">
+        <img :src="teacher.avatar" :alt="teacher.name" />
+      </div>
+      <div class="cd-info">
+        <h1>{{ teacher.name }}</h1>
+        <p class="cd-line c-master">{{ teacher.title }}</p>
+        <p class="cd-intro">{{ teacher.intro }}</p>
+      </div>
+    </section>
+
+    <!-- 该讲师的课程 -->
+    <section class="mt40">
+      <SectionTitle title="TA 的课程" />
+      <div class="comm-course-list mt15" v-if="teacherCourses.length">
+        <ul>
+          <CourseCard v-for="c in teacherCourses" :key="c.id" :course="c" />
+        </ul>
+      </div>
+      <div class="empty" v-else>该讲师暂无上线课程。</div>
+    </section>
+  </div>
+  <div class="empty container" v-else>讲师不存在。</div>
+</template>
+
+<script setup>
+import { computed } from 'vue'
+import { useRoute } from 'vue-router'
+import SectionTitle from '@/components/SectionTitle.vue'
+import CourseCard from '@/components/CourseCard.vue'
+import { getTeacher } from '@/data/teachers'
+import { getCoursesByTeacher } from '@/data/courses'
+
+const route = useRoute()
+const teacher = computed(() => getTeacher(route.params.id))
+const teacherCourses = computed(() => (teacher.value ? getCoursesByTeacher(teacher.value.id) : []))
+</script>

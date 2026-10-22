@@ -1,1 +1,19 @@
-cGFja2FnZSBjb20ubWFkLnVjZW50ZXI7CgppbXBvcnQgb3JnLnNwcmluZ2ZyYW1ld29yay5ib290LlNwcmluZ0FwcGxpY2F0aW9uOwppbXBvcnQgb3JnLnNwcmluZ2ZyYW1ld29yay5ib290LmF1dG9jb25maWd1cmUuU3ByaW5nQm9vdEFwcGxpY2F0aW9uOwppbXBvcnQgb3JnLnNwcmluZ2ZyYW1ld29yay5jbG91ZC5uZXRmbGl4LmV1cmVrYS5FbmFibGVFdXJla2FDbGllbnQ7CmltcG9ydCBvcmcuc3ByaW5nZnJhbWV3b3JrLmNvbnRleHQuYW5ub3RhdGlvbi5Db21wb25lbnRTY2FuOwoKLyoqCiAqIEBhdXRob3IgaGVsZW4KICogQHNpbmNlIDIwMTkvNy8xCiAqLwpAU3ByaW5nQm9vdEFwcGxpY2F0aW9uCkBDb21wb25lbnRTY2FuKGJhc2VQYWNrYWdlcz17ImNvbS5tYWQudWNlbnRlciIsImNvbS5tYWQuY29tbW9uIn0pCkBFbmFibGVFdXJla2FDbGllbnQKcHVibGljIGNsYXNzIFVjZW50ZXJBcHBsaWNhdGlvbiB7CglwdWJsaWMgc3RhdGljIHZvaWQgbWFpbihTdHJpbmdbXSBhcmdzKSB7CgkJU3ByaW5nQXBwbGljYXRpb24ucnVuKFVjZW50ZXJBcHBsaWNhdGlvbi5jbGFzcywgYXJncyk7Cgl9Cn0=
+package com.mad.ucenter;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
+import org.springframework.context.annotation.ComponentScan;
+
+/**
+ * @author helen
+ * @since 2019/7/1
+ */
+@SpringBootApplication
+@ComponentScan(basePackages={"com.mad.ucenter","com.mad.common"})
+@EnableEurekaClient
+public class UcenterApplication {
+	public static void main(String[] args) {
+		SpringApplication.run(UcenterApplication.class, args);
+	}
+}

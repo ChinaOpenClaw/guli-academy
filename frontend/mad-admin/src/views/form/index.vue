@@ -1,1 +1,85 @@
-PHRlbXBsYXRlPgogIDxkaXYgY2xhc3M9ImFwcC1jb250YWluZXIiPgogICAgPGVsLWZvcm0gcmVmPSJmb3JtIiA6bW9kZWw9ImZvcm0iIGxhYmVsLXdpZHRoPSIxMjBweCI+CiAgICAgIDxlbC1mb3JtLWl0ZW0gbGFiZWw9IkFjdGl2aXR5IG5hbWUiPgogICAgICAgIDxlbC1pbnB1dCB2LW1vZGVsPSJmb3JtLm5hbWUiLz4KICAgICAgPC9lbC1mb3JtLWl0ZW0+CiAgICAgIDxlbC1mb3JtLWl0ZW0gbGFiZWw9IkFjdGl2aXR5IHpvbmUiPgogICAgICAgIDxlbC1zZWxlY3Qgdi1tb2RlbD0iZm9ybS5yZWdpb24iIHBsYWNlaG9sZGVyPSJwbGVhc2Ugc2VsZWN0IHlvdXIgem9uZSI+CiAgICAgICAgICA8ZWwtb3B0aW9uIGxhYmVsPSJab25lIG9uZSIgdmFsdWU9InNoYW5naGFpIi8+CiAgICAgICAgICA8ZWwtb3B0aW9uIGxhYmVsPSJab25lIHR3byIgdmFsdWU9ImJlaWppbmciLz4KICAgICAgICA8L2VsLXNlbGVjdD4KICAgICAgPC9lbC1mb3JtLWl0ZW0+CiAgICAgIDxlbC1mb3JtLWl0ZW0gbGFiZWw9IkFjdGl2aXR5IHRpbWUiPgogICAgICAgIDxlbC1jb2wgOnNwYW49IjExIj4KICAgICAgICAgIDxlbC1kYXRlLXBpY2tlciB2LW1vZGVsPSJmb3JtLmRhdGUxIiB0eXBlPSJkYXRlIiBwbGFjZWhvbGRlcj0iUGljayBhIGRhdGUiIHN0eWxlPSJ3aWR0aDogMTAwJTsiLz4KICAgICAgICA8L2VsLWNvbD4KICAgICAgICA8ZWwtY29sIDpzcGFuPSIyIiBjbGFzcz0ibGluZSI+LTwvZWwtY29sPgogICAgICAgIDxlbC1jb2wgOnNwYW49IjExIj4KICAgICAgICAgIDxlbC10aW1lLXBpY2tlciB2LW1vZGVsPSJmb3JtLmRhdGUyIiB0eXBlPSJmaXhlZC10aW1lIiBwbGFjZWhvbGRlcj0iUGljayBhIHRpbWUiIHN0eWxlPSJ3aWR0aDogMTAwJTsiLz4KICAgICAgICA8L2VsLWNvbD4KICAgICAgPC9lbC1mb3JtLWl0ZW0+CiAgICAgIDxlbC1mb3JtLWl0ZW0gbGFiZWw9Ikluc3RhbnQgZGVsaXZlcnkiPgogICAgICAgIDxlbC1zd2l0Y2ggdi1tb2RlbD0iZm9ybS5kZWxpdmVyeSIvPgogICAgICA8L2VsLWZvcm0taXRlbT4KICAgICAgPGVsLWZvcm0taXRlbSBsYWJlbD0iQWN0aXZpdHkgdHlwZSI+CiAgICAgICAgPGVsLWNoZWNrYm94LWdyb3VwIHYtbW9kZWw9ImZvcm0udHlwZSI+CiAgICAgICAgICA8ZWwtY2hlY2tib3ggbGFiZWw9Ik9ubGluZSBhY3Rpdml0aWVzIiBuYW1lPSJ0eXBlIi8+CiAgICAgICAgICA8ZWwtY2hlY2tib3ggbGFiZWw9IlByb21vdGlvbiBhY3Rpdml0aWVzIiBuYW1lPSJ0eXBlIi8+CiAgICAgICAgICA8ZWwtY2hlY2tib3ggbGFiZWw9Ik9mZmxpbmUgYWN0aXZpdGllcyIgbmFtZT0idHlwZSIvPgogICAgICAgICAgPGVsLWNoZWNrYm94IGxhYmVsPSJTaW1wbGUgYnJhbmQgZXhwb3N1cmUiIG5hbWU9InR5cGUiLz4KICAgICAgICA8L2VsLWNoZWNrYm94LWdyb3VwPgogICAgICA8L2VsLWZvcm0taXRlbT4KICAgICAgPGVsLWZvcm0taXRlbSBsYWJlbD0iUmVzb3VyY2VzIj4KICAgICAgICA8ZWwtcmFkaW8tZ3JvdXAgdi1tb2RlbD0iZm9ybS5yZXNvdXJjZSI+CiAgICAgICAgICA8ZWwtcmFkaW8gbGFiZWw9IlNwb25zb3IiLz4KICAgICAgICAgIDxlbC1yYWRpbyBsYWJlbD0iVmVudWUiLz4KICAgICAgICA8L2VsLXJhZGlvLWdyb3VwPgogICAgICA8L2VsLWZvcm0taXRlbT4KICAgICAgPGVsLWZvcm0taXRlbSBsYWJlbD0iQWN0aXZpdHkgZm9ybSI+CiAgICAgICAgPGVsLWlucHV0IHYtbW9kZWw9ImZvcm0uZGVzYyIgdHlwZT0idGV4dGFyZWEiLz4KICAgICAgPC9lbC1mb3JtLWl0ZW0+CiAgICAgIDxlbC1mb3JtLWl0ZW0+CiAgICAgICAgPGVsLWJ1dHRvbiB0eXBlPSJwcmltYXJ5IiBAY2xpY2s9Im9uU3VibWl0Ij5DcmVhdGU8L2VsLWJ1dHRvbj4KICAgICAgICA8ZWwtYnV0dG9uIEBjbGljaz0ib25DYW5jZWwiPkNhbmNlbDwvZWwtYnV0dG9uPgogICAgICA8L2VsLWZvcm0taXRlbT4KICAgIDwvZWwtZm9ybT4KICA8L2Rpdj4KPC90ZW1wbGF0ZT4KCjxzY3JpcHQ+CmV4cG9ydCBkZWZhdWx0IHsKICBkYXRhKCkgewogICAgcmV0dXJuIHsKICAgICAgZm9ybTogewogICAgICAgIG5hbWU6ICcnLAogICAgICAgIHJlZ2lvbjogJycsCiAgICAgICAgZGF0ZTE6ICcnLAogICAgICAgIGRhdGUyOiAnJywKICAgICAgICBkZWxpdmVyeTogZmFsc2UsCiAgICAgICAgdHlwZTogW10sCiAgICAgICAgcmVzb3VyY2U6ICcnLAogICAgICAgIGRlc2M6ICcnCiAgICAgIH0KICAgIH0KICB9LAogIG1ldGhvZHM6IHsKICAgIG9uU3VibWl0KCkgewogICAgICB0aGlzLiRtZXNzYWdlKCdzdWJtaXQhJykKICAgIH0sCiAgICBvbkNhbmNlbCgpIHsKICAgICAgdGhpcy4kbWVzc2FnZSh7CiAgICAgICAgbWVzc2FnZTogJ2NhbmNlbCEnLAogICAgICAgIHR5cGU6ICd3YXJuaW5nJwogICAgICB9KQogICAgfQogIH0KfQo8L3NjcmlwdD4KCjxzdHlsZSBzY29wZWQ+Ci5saW5lewogIHRleHQtYWxpZ246IGNlbnRlcjsKfQo8L3N0eWxlPgoK
+<template>
+  <div class="app-container">
+    <el-form ref="form" :model="form" label-width="120px">
+      <el-form-item label="Activity name">
+        <el-input v-model="form.name"/>
+      </el-form-item>
+      <el-form-item label="Activity zone">
+        <el-select v-model="form.region" placeholder="please select your zone">
+          <el-option label="Zone one" value="shanghai"/>
+          <el-option label="Zone two" value="beijing"/>
+        </el-select>
+      </el-form-item>
+      <el-form-item label="Activity time">
+        <el-col :span="11">
+          <el-date-picker v-model="form.date1" type="date" placeholder="Pick a date" style="width: 100%;"/>
+        </el-col>
+        <el-col :span="2" class="line">-</el-col>
+        <el-col :span="11">
+          <el-time-picker v-model="form.date2" type="fixed-time" placeholder="Pick a time" style="width: 100%;"/>
+        </el-col>
+      </el-form-item>
+      <el-form-item label="Instant delivery">
+        <el-switch v-model="form.delivery"/>
+      </el-form-item>
+      <el-form-item label="Activity type">
+        <el-checkbox-group v-model="form.type">
+          <el-checkbox label="Online activities" name="type"/>
+          <el-checkbox label="Promotion activities" name="type"/>
+          <el-checkbox label="Offline activities" name="type"/>
+          <el-checkbox label="Simple brand exposure" name="type"/>
+        </el-checkbox-group>
+      </el-form-item>
+      <el-form-item label="Resources">
+        <el-radio-group v-model="form.resource">
+          <el-radio label="Sponsor"/>
+          <el-radio label="Venue"/>
+        </el-radio-group>
+      </el-form-item>
+      <el-form-item label="Activity form">
+        <el-input v-model="form.desc" type="textarea"/>
+      </el-form-item>
+      <el-form-item>
+        <el-button type="primary" @click="onSubmit">Create</el-button>
+        <el-button @click="onCancel">Cancel</el-button>
+      </el-form-item>
+    </el-form>
+  </div>
+</template>
+
+<script>
+export default {
+  data() {
+    return {
+      form: {
+        name: '',
+        region: '',
+        date1: '',
+        date2: '',
+        delivery: false,
+        type: [],
+        resource: '',
+        desc: ''
+      }
+    }
+  },
+  methods: {
+    onSubmit() {
+      this.$message('submit!')
+    },
+    onCancel() {
+      this.$message({
+        message: 'cancel!',
+        type: 'warning'
+      })
+    }
+  }
+}
+</script>
+
+<style scoped>
+.line{
+  text-align: center;
+}
+</style>
+

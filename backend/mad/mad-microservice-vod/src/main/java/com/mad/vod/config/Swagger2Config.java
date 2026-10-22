@@ -1,1 +1,62 @@
-cGFja2FnZSBjb20ubWFkLnZvZC5jb25maWc7CgppbXBvcnQgY29tLmdvb2dsZS5jb21tb24uYmFzZS5QcmVkaWNhdGVzOwppbXBvcnQgb3JnLnNwcmluZ2ZyYW1ld29yay5jb250ZXh0LmFubm90YXRpb24uQmVhbjsKaW1wb3J0IG9yZy5zcHJpbmdmcmFtZXdvcmsuY29udGV4dC5hbm5vdGF0aW9uLkNvbmZpZ3VyYXRpb247CmltcG9ydCBzcHJpbmdmb3guZG9jdW1lbnRhdGlvbi5idWlsZGVycy5BcGlJbmZvQnVpbGRlcjsKaW1wb3J0IHNwcmluZ2ZveC5kb2N1bWVudGF0aW9uLmJ1aWxkZXJzLlBhdGhTZWxlY3RvcnM7CmltcG9ydCBzcHJpbmdmb3guZG9jdW1lbnRhdGlvbi5zZXJ2aWNlLkFwaUluZm87CmltcG9ydCBzcHJpbmdmb3guZG9jdW1lbnRhdGlvbi5zZXJ2aWNlLkNvbnRhY3Q7CmltcG9ydCBzcHJpbmdmb3guZG9jdW1lbnRhdGlvbi5zcGkuRG9jdW1lbnRhdGlvblR5cGU7CmltcG9ydCBzcHJpbmdmb3guZG9jdW1lbnRhdGlvbi5zcHJpbmcud2ViLnBsdWdpbnMuRG9ja2V0OwppbXBvcnQgc3ByaW5nZm94LmRvY3VtZW50YXRpb24uc3dhZ2dlcjIuYW5ub3RhdGlvbnMuRW5hYmxlU3dhZ2dlcjI7CgovKioKICogQGF1dGhvciBoZWxlbgogKiBAc2luY2UgMjAxOS82LzI0CiAqLwpAQ29uZmlndXJhdGlvbgpARW5hYmxlU3dhZ2dlcjIKcHVibGljIGNsYXNzIFN3YWdnZXIyQ29uZmlnIHsKCglAQmVhbgoJcHVibGljIERvY2tldCBhZG1pbkFwaUNvbmZpZygpewoJCXJldHVybiBuZXcgRG9ja2V0KERvY3VtZW50YXRpb25UeXBlLlNXQUdHRVJfMikKCQkJCS5hcGlJbmZvKGFkbWluQXBpSW5mbygpKQoJCQkJLnNlbGVjdCgpCgkJCQkucGF0aHMoUHJlZGljYXRlcy5hbmQoUGF0aFNlbGVjdG9ycy5yZWdleCgiL2FkbWluLy4qIikpKQoJCQkJLmJ1aWxkKCk7Cgl9CgoJQEJlYW4KCXB1YmxpYyBEb2NrZXQgd2ViQXBpQ29uZmlnKCl7CgkJcmV0dXJuIG5ldyBEb2NrZXQoRG9jdW1lbnRhdGlvblR5cGUuU1dBR0dFUl8yKQoJCQkJLmdyb3VwTmFtZSgid2ViQXBpIikKCQkJCS5hcGlJbmZvKHdlYkFwaUluZm8oKSkKCQkJCS5zZWxlY3QoKQoJCQkJLnBhdGhzKFByZWRpY2F0ZXMubm90KFBhdGhTZWxlY3RvcnMucmVnZXgoIi9hZG1pbi8uKiIpKSkKCQkJCS5wYXRocyhQcmVkaWNhdGVzLm5vdChQYXRoU2VsZWN0b3JzLnJlZ2V4KCIvZXJyb3IuKiIpKSkKCQkJCS5idWlsZCgpOwoJfQoKCglwcml2YXRlIEFwaUluZm8gYWRtaW5BcGlJbmZvKCl7CgoJCXJldHVybiBuZXcgQXBpSW5mb0J1aWxkZXIoKQoJCQkJLnRpdGxlKCLop4bpopHnrqHnkIblvq7mnI3liqEiKQoJCQkJLmRlc2NyaXB0aW9uKCLmnKzmlofmoaPmj4/ov7Dkuobop4bpopHnrqHnkIblvq7mnI3liqHmjqXlj6PlrprkuYkiKQoJCQkJLnZlcnNpb24oIjEuMCIpCgkJCQkuY29udGFjdChuZXcgQ29udGFjdCgiSGVsZW4iLCAiaHR0cDovL2F0Z3VpZ3UuY29tIiwgIjU1MzE3MzMyQHFxLmNvbSIpKQoJCQkJLmJ1aWxkKCk7Cgl9CgoJcHJpdmF0ZSBBcGlJbmZvIHdlYkFwaUluZm8oKXsKCgkJcmV0dXJuIG5ldyBBcGlJbmZvQnVpbGRlcigpCgkJCQkudGl0bGUoIue9keermS3op4bpopHmkq3mlL5BUEnmlofmoaMiKQoJCQkJLmRlc2NyaXB0aW9uKCLmnKzmlofmoaPmj4/ov7Dkuobop4bpopHmkq3mlL7lvq7mnI3liqHmjqXlj6PlrprkuYkiKQoJCQkJLnZlcnNpb24oIjEuMCIpCgkJCQkuY29udGFjdChuZXcgQ29udGFjdCgiSGVsZW4iLCAiaHR0cDovL2F0Z3VpZ3UuY29tIiwgIjU1MzE3MzMyQHFxLmNvbSIpKQoJCQkJLmJ1aWxkKCk7Cgl9Cn0K
+package com.mad.vod.config;
+
+import com.google.common.base.Predicates;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import springfox.documentation.builders.ApiInfoBuilder;
+import springfox.documentation.builders.PathSelectors;
+import springfox.documentation.service.ApiInfo;
+import springfox.documentation.service.Contact;
+import springfox.documentation.spi.DocumentationType;
+import springfox.documentation.spring.web.plugins.Docket;
+import springfox.documentation.swagger2.annotations.EnableSwagger2;
+
+/**
+ * @author helen
+ * @since 2019/6/24
+ */
+@Configuration
+@EnableSwagger2
+public class Swagger2Config {
+
+	@Bean
+	public Docket adminApiConfig(){
+		return new Docket(DocumentationType.SWAGGER_2)
+				.apiInfo(adminApiInfo())
+				.select()
+				.paths(Predicates.and(PathSelectors.regex("/admin/.*")))
+				.build();
+	}
+
+	@Bean
+	public Docket webApiConfig(){
+		return new Docket(DocumentationType.SWAGGER_2)
+				.groupName("webApi")
+				.apiInfo(webApiInfo())
+				.select()
+				.paths(Predicates.not(PathSelectors.regex("/admin/.*")))
+				.paths(Predicates.not(PathSelectors.regex("/error.*")))
+				.build();
+	}
+
+
+	private ApiInfo adminApiInfo(){
+
+		return new ApiInfoBuilder()
+				.title("视频管理微服务")
+				.description("本文档描述了视频管理微服务接口定义")
+				.version("1.0")
+				.contact(new Contact("Helen", "http://atguigu.com", "55317332@qq.com"))
+				.build();
+	}
+
+	private ApiInfo webApiInfo(){
+
+		return new ApiInfoBuilder()
+				.title("网站-视频播放API文档")
+				.description("本文档描述了视频播放微服务接口定义")
+				.version("1.0")
+				.contact(new Contact("Helen", "http://atguigu.com", "55317332@qq.com"))
+				.build();
+	}
+}

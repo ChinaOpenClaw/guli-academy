@@ -1,1 +1,167 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPGNvbmZpZ3VyYXRpb24gIHNjYW49InRydWUiIHNjYW5QZXJpb2Q9IjEwIHNlY29uZHMiPgogICAgPCEtLSDml6Xlv5fnuqfliKvku47kvY7liLDpq5jliIbkuLpUUkFDRSA8IERFQlVHIDwgSU5GTyA8IFdBUk4gPCBFUlJPUiA8IEZBVEFM77yM5aaC5p6c6K6+572u5Li6V0FSTu+8jOWImeS9juS6jldBUk7nmoTkv6Hmga/pg73kuI3kvJrovpPlh7ogLS0+CiAgICA8IS0tIHNjYW465b2T5q2k5bGe5oCn6K6+572u5Li6dHJ1ZeaXtu+8jOmFjee9ruaWh+S7tuWmguaenOWPkeeUn+aUueWPmO+8jOWwhuS8muiiq+mHjeaWsOWKoOi9ve+8jOm7mOiupOWAvOS4unRydWUgLS0+CiAgICA8IS0tIHNjYW5QZXJpb2Q66K6+572u55uR5rWL6YWN572u5paH5Lu25piv5ZCm5pyJ5L+u5pS555qE5pe26Ze06Ze06ZqU77yM5aaC5p6c5rKh5pyJ57uZ5Ye65pe26Ze05Y2V5L2N77yM6buY6K6k5Y2V5L2N5piv5q+r56eS44CC5b2Tc2NhbuS4unRydWXml7bvvIzmraTlsZ7mgKfnlJ/mlYjjgILpu5jorqTnmoTml7bpl7Tpl7TpmpTkuLox5YiG6ZKf44CCIC0tPgogICAgPCEtLSBkZWJ1ZzrlvZPmraTlsZ7mgKforr7nva7kuLp0cnVl5pe277yM5bCG5omT5Y2w5Ye6bG9nYmFja+WGhemDqOaXpeW/l+S/oeaBr++8jOWunuaXtuafpeeci2xvZ2JhY2vov5DooYznirbmgIHjgILpu5jorqTlgLzkuLpmYWxzZeOAgiAtLT4KCiAgICA8Y29udGV4dE5hbWU+bG9nYmFjazwvY29udGV4dE5hbWU+CiAgICA8IS0tIG5hbWXnmoTlgLzmmK/lj5jph4/nmoTlkI3np7DvvIx2YWx1ZeeahOWAvOaXtuWPmOmHj+WumuS5ieeahOWAvOOAgumAmui/h+WumuS5ieeahOWAvOS8muiiq+aPkuWFpeWIsGxvZ2dlcuS4iuS4i+aWh+S4reOAguWumuS5ieWPmOmHj+WQju+8jOWPr+S7peS9v+KAnCR7feKAneadpeS9v+eUqOWPmOmHj+OAgiAtLT4KICAgIDwhLS0g5pel5b+X5qC555uu5b2V77ya5Y+v55So546v5aKD5Y+Y6YePIE1BRF9MT0dfUEFUSCDopobnm5bvvIzpu5jorqTlhpnliLDns7vnu5/kuLTml7bnm67lvZUgLS0+CiAgICA8cHJvcGVydHkgbmFtZT0ibWFkLmxvZy5wYXRoIiB2YWx1ZT0iJHtNQURfTE9HX1BBVEg6LS90bXAvbWFkX2xvZ18xOTAxMDV9IiAvPgoKICAgIDxwcm9wZXJ0eSBuYW1lPSJsb2cucGF0aCIgdmFsdWU9IiR7bWFkLmxvZy5wYXRofS9zeXN1c2VyIiAvPgoKICAgIDwhLS0g5b2p6Imy5pel5b+XIC0tPgogICAgPCEtLSDphY3nva7moLzlvI/lj5jph4/vvJpDT05TT0xFX0xPR19QQVRURVJOIOW9qeiJsuaXpeW/l+agvOW8jyAtLT4KICAgIDwhLS0gbWFnZW50YTrmtIvnuqIgLS0+CiAgICA8IS0tIGJvbGRNYWdlbnRhOueyl+e6oi0tPgogICAgPCEtLSBjeWFuOumdkuiJsiAtLT4KICAgIDwhLS0gd2hpdGU655m96ImyIC0tPgogICAgPCEtLSBtYWdlbnRhOua0i+e6oiAtLT4KICAgIDxwcm9wZXJ0eSBuYW1lPSJDT05TT0xFX0xPR19QQVRURVJOIgogICAgICAgICAgICAgIHZhbHVlPSIleWVsbG93KCVkYXRle3l5eXktTU0tZGQgSEg6bW06c3N9KSB8JWhpZ2hsaWdodCglLTVsZXZlbCkgfCVibHVlKCV0aHJlYWQpIHwlYmx1ZSglZmlsZTolbGluZSkgfCVncmVlbiglbG9nZ2VyKSB8JWN5YW4oJW1zZyVuKSIvPgoKCiAgICA8IS0t6L6T5Ye65Yiw5o6n5Yi25Y+wLS0+CiAgICA8YXBwZW5kZXIgbmFtZT0iQ09OU09MRSIgY2xhc3M9ImNoLnFvcy5sb2diYWNrLmNvcmUuQ29uc29sZUFwcGVuZGVyIj4KICAgICAgICA8IS0t5q2k5pel5b+XYXBwZW5kZXLmmK/kuLrlvIDlj5Hkvb/nlKjvvIzlj6rphY3nva7mnIDlupXnuqfliKvvvIzmjqfliLblj7DovpPlh7rnmoTml6Xlv5fnuqfliKvmmK/lpKfkuo7miJbnrYnkuo7mraTnuqfliKvnmoTml6Xlv5fkv6Hmga8tLT4KICAgICAgICA8IS0tIOS+i+Wmgu+8muWmguaenOatpOWkhOmFjee9ruS6hklORk/nuqfliKvvvIzliJnlkI7pnaLlhbbku5bkvY3nva7ljbPkvb/phY3nva7kuoZERUJVR+e6p+WIq+eahOaXpeW/l++8jOS5n+S4jeS8muiiq+i+k+WHuiAtLT4KICAgICAgICA8ZmlsdGVyIGNsYXNzPSJjaC5xb3MubG9nYmFjay5jbGFzc2ljLmZpbHRlci5UaHJlc2hvbGRGaWx0ZXIiPgogICAgICAgICAgICA8bGV2ZWw+SU5GTzwvbGV2ZWw+CiAgICAgICAgPC9maWx0ZXI+CiAgICAgICAgPGVuY29kZXI+CiAgICAgICAgICAgIDxQYXR0ZXJuPiR7Q09OU09MRV9MT0dfUEFUVEVSTn08L1BhdHRlcm4+CiAgICAgICAgICAgIDwhLS0g6K6+572u5a2X56ym6ZuGIC0tPgogICAgICAgICAgICA8Y2hhcnNldD5VVEYtODwvY2hhcnNldD4KICAgICAgICA8L2VuY29kZXI+CiAgICA8L2FwcGVuZGVyPgoKCiAgICA8IS0t6L6T5Ye65Yiw5paH5Lu2LS0+CgogICAgPCEtLSDml7bpl7Tmu5rliqjovpPlh7ogbGV2ZWzkuLogSU5GTyDml6Xlv5cgLS0+CiAgICA8YXBwZW5kZXIgbmFtZT0iSU5GT19GSUxFIiBjbGFzcz0iY2gucW9zLmxvZ2JhY2suY29yZS5yb2xsaW5nLlJvbGxpbmdGaWxlQXBwZW5kZXIiPgogICAgICAgIDwhLS0g5q2j5Zyo6K6w5b2V55qE5pel5b+X5paH5Lu255qE6Lev5b6E5Y+K5paH5Lu25ZCNIC0tPgogICAgICAgIDxmaWxlPiR7bG9nLnBhdGh9L2xvZ19pbmZvLmxvZzwvZmlsZT4KICAgICAgICA8IS0t5pel5b+X5paH5Lu26L6T5Ye65qC85byPLS0+CiAgICAgICAgPGVuY29kZXI+CiAgICAgICAgICAgIDxwYXR0ZXJuPiVke3l5eXktTU0tZGQgSEg6bW06c3MuU1NTfSBbJXRocmVhZF0gJS01bGV2ZWwgJWxvZ2dlcns1MH0gLSAlbXNnJW48L3BhdHRlcm4+CiAgICAgICAgICAgIDxjaGFyc2V0PlVURi04PC9jaGFyc2V0PgogICAgICAgIDwvZW5jb2Rlcj4KICAgICAgICA8IS0tIOaXpeW/l+iusOW9leWZqOeahOa7muWKqOetlueVpe+8jOaMieaXpeacn++8jOaMieWkp+Wwj+iusOW9lSAtLT4KICAgICAgICA8cm9sbGluZ1BvbGljeSBjbGFzcz0iY2gucW9zLmxvZ2JhY2suY29yZS5yb2xsaW5nLlRpbWVCYXNlZFJvbGxpbmdQb2xpY3kiPgogICAgICAgICAgICA8IS0tIOavj+WkqeaXpeW/l+W9kuaho+i3r+W+hOS7peWPiuagvOW8jyAtLT4KICAgICAgICAgICAgPGZpbGVOYW1lUGF0dGVybj4ke2xvZy5wYXRofS9pbmZvL2xvZy1pbmZvLSVke3l5eXktTU0tZGR9LiVpLmxvZzwvZmlsZU5hbWVQYXR0ZXJuPgogICAgICAgICAgICA8dGltZUJhc2VkRmlsZU5hbWluZ0FuZFRyaWdnZXJpbmdQb2xpY3kgY2xhc3M9ImNoLnFvcy5sb2diYWNrLmNvcmUucm9sbGluZy5TaXplQW5kVGltZUJhc2VkRk5BVFAiPgogICAgICAgICAgICAgICAgPG1heEZpbGVTaXplPjFLQjwvbWF4RmlsZVNpemU+CiAgICAgICAgICAgIDwvdGltZUJhc2VkRmlsZU5hbWluZ0FuZFRyaWdnZXJpbmdQb2xpY3k+CiAgICAgICAgICAgIDwhLS3ml6Xlv5fmlofku7bkv53nlZnlpKnmlbAtLT4KICAgICAgICAgICAgPG1heEhpc3Rvcnk+MTU8L21heEhpc3Rvcnk+CiAgICAgICAgPC9yb2xsaW5nUG9saWN5PgogICAgICAgIDwhLS0g5q2k5pel5b+X5paH5Lu25Y+q6K6w5b2VaW5mb+e6p+WIq+eahCAtLT4KICAgICAgICA8ZmlsdGVyIGNsYXNzPSJjaC5xb3MubG9nYmFjay5jbGFzc2ljLmZpbHRlci5MZXZlbEZpbHRlciI+CiAgICAgICAgICAgIDxsZXZlbD5JTkZPPC9sZXZlbD4KICAgICAgICAgICAgPG9uTWF0Y2g+QUNDRVBUPC9vbk1hdGNoPgogICAgICAgICAgICA8b25NaXNtYXRjaD5ERU5ZPC9vbk1pc21hdGNoPgogICAgICAgIDwvZmlsdGVyPgogICAgPC9hcHBlbmRlcj4KCiAgICA8IS0tIOaXtumXtOa7muWKqOi+k+WHuiBsZXZlbOS4uiBXQVJOIOaXpeW/lyAtLT4KICAgIDxhcHBlbmRlciBuYW1lPSJXQVJOX0ZJTEUiIGNsYXNzPSJjaC5xb3MubG9nYmFjay5jb3JlLnJvbGxpbmcuUm9sbGluZ0ZpbGVBcHBlbmRlciI+CiAgICAgICAgPCEtLSDmraPlnKjorrDlvZXnmoTml6Xlv5fmlofku7bnmoTot6/lvoTlj4rmlofku7blkI0gLS0+CiAgICAgICAgPGZpbGU+JHtsb2cucGF0aH0vbG9nX3dhcm4ubG9nPC9maWxlPgogICAgICAgIDwhLS3ml6Xlv5fmlofku7bovpPlh7rmoLzlvI8tLT4KICAgICAgICA8ZW5jb2Rlcj4KICAgICAgICAgICAgPHBhdHRlcm4+JWR7eXl5eS1NTS1kZCBISDptbTpzcy5TU1N9IFsldGhyZWFkXSAlLTVsZXZlbCAlbG9nZ2VyezUwfSAtICVtc2clbjwvcGF0dGVybj4KICAgICAgICAgICAgPGNoYXJzZXQ+VVRGLTg8L2NoYXJzZXQ+IDwhLS0g5q2k5aSE6K6+572u5a2X56ym6ZuGIC0tPgogICAgICAgIDwvZW5jb2Rlcj4KICAgICAgICA8IS0tIOaXpeW/l+iusOW9leWZqOeahOa7muWKqOetlueVpe+8jOaMieaXpeacn++8jOaMieWkp+Wwj+iusOW9lSAtLT4KICAgICAgICA8cm9sbGluZ1BvbGljeSBjbGFzcz0iY2gucW9zLmxvZ2JhY2suY29yZS5yb2xsaW5nLlRpbWVCYXNlZFJvbGxpbmdQb2xpY3kiPgogICAgICAgICAgICA8ZmlsZU5hbWVQYXR0ZXJuPiR7bG9nLnBhdGh9L3dhcm4vbG9nLXdhcm4tJWR7eXl5eS1NTS1kZH0uJWkubG9nPC9maWxlTmFtZVBhdHRlcm4+CiAgICAgICAgICAgIDx0aW1lQmFzZWRGaWxlTmFtaW5nQW5kVHJpZ2dlcmluZ1BvbGljeSBjbGFzcz0iY2gucW9zLmxvZ2JhY2suY29yZS5yb2xsaW5nLlNpemVBbmRUaW1lQmFzZWRGTkFUUCI+CiAgICAgICAgICAgICAgICA8bWF4RmlsZVNpemU+MTAwTUI8L21heEZpbGVTaXplPgogICAgICAgICAgICA8L3RpbWVCYXNlZEZpbGVOYW1pbmdBbmRUcmlnZ2VyaW5nUG9saWN5PgogICAgICAgICAgICA8IS0t5pel5b+X5paH5Lu25L+d55WZ5aSp5pWwLS0+CiAgICAgICAgICAgIDxtYXhIaXN0b3J5PjE1PC9tYXhIaXN0b3J5PgogICAgICAgIDwvcm9sbGluZ1BvbGljeT4KICAgICAgICA8IS0tIOatpOaXpeW/l+aWh+S7tuWPquiusOW9lXdhcm7nuqfliKvnmoQgLS0+CiAgICAgICAgPGZpbHRlciBjbGFzcz0iY2gucW9zLmxvZ2JhY2suY2xhc3NpYy5maWx0ZXIuTGV2ZWxGaWx0ZXIiPgogICAgICAgICAgICA8bGV2ZWw+d2FybjwvbGV2ZWw+CiAgICAgICAgICAgIDxvbk1hdGNoPkFDQ0VQVDwvb25NYXRjaD4KICAgICAgICAgICAgPG9uTWlzbWF0Y2g+REVOWTwvb25NaXNtYXRjaD4KICAgICAgICA8L2ZpbHRlcj4KICAgIDwvYXBwZW5kZXI+CgoKICAgIDwhLS0g5pe26Ze05rua5Yqo6L6T5Ye6IGxldmVs5Li6IEVSUk9SIOaXpeW/lyAtLT4KICAgIDxhcHBlbmRlciBuYW1lPSJFUlJPUl9GSUxFIiBjbGFzcz0iY2gucW9zLmxvZ2JhY2suY29yZS5yb2xsaW5nLlJvbGxpbmdGaWxlQXBwZW5kZXIiPgogICAgICAgIDwhLS0g5q2j5Zyo6K6w5b2V55qE5pel5b+X5paH5Lu255qE6Lev5b6E5Y+K5paH5Lu25ZCNIC0tPgogICAgICAgIDxmaWxlPiR7bG9nLnBhdGh9L2xvZ19lcnJvci5sb2c8L2ZpbGU+CiAgICAgICAgPCEtLeaXpeW/l+aWh+S7tui+k+WHuuagvOW8jy0tPgogICAgICAgIDxlbmNvZGVyPgogICAgICAgICAgICA8cGF0dGVybj4lZHt5eXl5LU1NLWRkIEhIOm1tOnNzLlNTU30gWyV0aHJlYWRdICUtNWxldmVsICVsb2dnZXJ7NTB9IC0gJW1zZyVuPC9wYXR0ZXJuPgogICAgICAgICAgICA8Y2hhcnNldD5VVEYtODwvY2hhcnNldD4gPCEtLSDmraTlpITorr7nva7lrZfnrKbpm4YgLS0+CiAgICAgICAgPC9lbmNvZGVyPgogICAgICAgIDwhLS0g5pel5b+X6K6w5b2V5Zmo55qE5rua5Yqo562W55Wl77yM5oyJ5pel5pyf77yM5oyJ5aSn5bCP6K6w5b2VIC0tPgogICAgICAgIDxyb2xsaW5nUG9saWN5IGNsYXNzPSJjaC5xb3MubG9nYmFjay5jb3JlLnJvbGxpbmcuVGltZUJhc2VkUm9sbGluZ1BvbGljeSI+CiAgICAgICAgICAgIDxmaWxlTmFtZVBhdHRlcm4+JHtsb2cucGF0aH0vZXJyb3IvbG9nLWVycm9yLSVke3l5eXktTU0tZGR9LiVpLmxvZzwvZmlsZU5hbWVQYXR0ZXJuPgogICAgICAgICAgICA8dGltZUJhc2VkRmlsZU5hbWluZ0FuZFRyaWdnZXJpbmdQb2xpY3kgY2xhc3M9ImNoLnFvcy5sb2diYWNrLmNvcmUucm9sbGluZy5TaXplQW5kVGltZUJhc2VkRk5BVFAiPgogICAgICAgICAgICAgICAgPG1heEZpbGVTaXplPjEwME1CPC9tYXhGaWxlU2l6ZT4KICAgICAgICAgICAgPC90aW1lQmFzZWRGaWxlTmFtaW5nQW5kVHJpZ2dlcmluZ1BvbGljeT4KICAgICAgICAgICAgPCEtLeaXpeW/l+aWh+S7tuS/neeVmeWkqeaVsC0tPgogICAgICAgICAgICA8bWF4SGlzdG9yeT4xNTwvbWF4SGlzdG9yeT4KICAgICAgICA8L3JvbGxpbmdQb2xpY3k+CiAgICAgICAgPCEtLSDmraTml6Xlv5fmlofku7blj6rorrDlvZVFUlJPUue6p+WIq+eahCAtLT4KICAgICAgICA8ZmlsdGVyIGNsYXNzPSJjaC5xb3MubG9nYmFjay5jbGFzc2ljLmZpbHRlci5MZXZlbEZpbHRlciI+CiAgICAgICAgICAgIDxsZXZlbD5FUlJPUjwvbGV2ZWw+CiAgICAgICAgICAgIDxvbk1hdGNoPkFDQ0VQVDwvb25NYXRjaD4KICAgICAgICAgICAgPG9uTWlzbWF0Y2g+REVOWTwvb25NaXNtYXRjaD4KICAgICAgICA8L2ZpbHRlcj4KICAgIDwvYXBwZW5kZXI+CgogICAgPCEtLQogICAgICAgIDxsb2dnZXI+55So5p2l6K6+572u5p+Q5LiA5Liq5YyF5oiW6ICF5YW35L2T55qE5p+Q5LiA5Liq57G755qE5pel5b+X5omT5Y2w57qn5Yir44CB5Lul5Y+K5oyH5a6aPGFwcGVuZGVyPuOAggogICAgICAgIDxsb2dnZXI+5LuF5pyJ5LiA5LiqbmFtZeWxnuaAp++8jAogICAgICAgIOS4gOS4quWPr+mAieeahGxldmVs5ZKM5LiA5Liq5Y+v6YCJ55qEYWRkdGl2aXR55bGe5oCn44CCCiAgICAgICAgbmFtZTrnlKjmnaXmjIflrprlj5fmraRsb2dnZXLnuqbmnZ/nmoTmn5DkuIDkuKrljIXmiJbogIXlhbfkvZPnmoTmn5DkuIDkuKrnsbvjgIIKICAgICAgICBsZXZlbDrnlKjmnaXorr7nva7miZPljbDnuqfliKvvvIzlpKflsI/lhpnml6DlhbPvvJpUUkFDRSwgREVCVUcsIElORk8sIFdBUk4sIEVSUk9SLCBBTEwg5ZKMIE9GRu+8jAogICAgICAgICAgICAgIOWmguaenOacquiuvue9ruatpOWxnuaAp++8jOmCo+S5iOW9k+WJjWxvZ2dlcuWwhuS8mue7p+aJv+S4iue6p+eahOe6p+WIq+OAggogICAgLS0+CiAgICA8IS0tCiAgICAgICAg5L2/55SobXliYXRpc+eahOaXtuWAme+8jHNxbOivreWPpeaYr2RlYnVn5LiL5omN5Lya5omT5Y2w77yM6ICM6L+Z6YeM5oiR5Lus5Y+q6YWN572u5LqGaW5mb++8jOaJgOS7peaDs+imgeafpeeci3NxbOivreWPpeeahOivne+8jOacieS7peS4i+S4pOenjeaTjeS9nO+8mgogICAgICAgIOesrOS4gOenjeaKijxyb290IGxldmVsPSJJTkZPIj7mlLnmiJA8cm9vdCBsZXZlbD0iREVCVUciPui/meagt+WwseS8muaJk+WNsHNxbO+8jOS4jei/h+i/meagt+aXpeW/l+mCo+i+ueS8muWHuueOsOW+iOWkmuWFtuS7lua2iOaBrwogICAgICAgIOesrOS6jOenjeWwseaYr+WNleeLrOe7mW1hcHBlcuS4i+ebruW9lemFjee9rkRFQlVH5qih5byP77yM5Luj56CB5aaC5LiL77yM6L+Z5qC36YWN572uc3Fs6K+t5Y+l5Lya5omT5Y2w77yM5YW25LuW6L+Y5piv5q2j5bi4REVCVUfnuqfliKvvvJoKICAgICAtLT4KICAgIDwhLS3lvIDlj5Hnjq/looM65omT5Y2w5o6n5Yi25Y+wLS0+CiAgICA8c3ByaW5nUHJvZmlsZSBuYW1lPSJkZXYiPgogICAgICAgIDwhLS3lj6/ku6XovpPlh7rpobnnm67kuK3nmoRkZWJ1Z+aXpeW/l++8jOWMheaLrG15YmF0aXPnmoRzcWzml6Xlv5ctLT4KICAgICAgICA8bG9nZ2VyIG5hbWU9ImNvbS5tYWQiIGxldmVsPSJJTkZPIiAvPgoKICAgICAgICA8IS0tCiAgICAgICAgICAgIHJvb3ToioLngrnmmK/lv4XpgInoioLngrnvvIznlKjmnaXmjIflrprmnIDln7rnoYDnmoTml6Xlv5fovpPlh7rnuqfliKvvvIzlj6rmnInkuIDkuKpsZXZlbOWxnuaApwogICAgICAgICAgICBsZXZlbDrnlKjmnaXorr7nva7miZPljbDnuqfliKvvvIzlpKflsI/lhpnml6DlhbPvvJpUUkFDRSwgREVCVUcsIElORk8sIFdBUk4sIEVSUk9SLCBBTEwg5ZKMIE9GRu+8jOm7mOiupOaYr0RFQlVHCiAgICAgICAgICAgIOWPr+S7peWMheWQq+mbtuS4quaIluWkmuS4qmFwcGVuZGVy5YWD57Sg44CCCiAgICAgICAgLS0+CiAgICAgICAgPHJvb3QgbGV2ZWw9IklORk8iPgogICAgICAgICAgICA8YXBwZW5kZXItcmVmIHJlZj0iQ09OU09MRSIgLz4KICAgICAgICAgICAgPGFwcGVuZGVyLXJlZiByZWY9IklORk9fRklMRSIgLz4KICAgICAgICAgICAgPGFwcGVuZGVyLXJlZiByZWY9IldBUk5fRklMRSIgLz4KICAgICAgICAgICAgPGFwcGVuZGVyLXJlZiByZWY9IkVSUk9SX0ZJTEUiIC8+CiAgICAgICAgPC9yb290PgogICAgPC9zcHJpbmdQcm9maWxlPgoKCiAgICA8IS0t55Sf5Lqn546v5aKDOui+k+WHuuWIsOaWh+S7ti0tPgogICAgPHNwcmluZ1Byb2ZpbGUgbmFtZT0icHJvIj4KCiAgICAgICAgPCEtLeWPr+S7pei+k+WHuumhueebruS4reeahGRlYnVn5pel5b+X77yM5YyF5ousbXliYXRpc+eahHNxbOaXpeW/ly0tPgogICAgICAgIDxsb2dnZXIgbmFtZT0iY29tLm1hZCIgbGV2ZWw9IldBUk4iIC8+CgogICAgICAgIDxyb290IGxldmVsPSJJTkZPIj4KICAgICAgICAgICAgPGFwcGVuZGVyLXJlZiByZWY9IkVSUk9SX0ZJTEUiIC8+CiAgICAgICAgICAgIDxhcHBlbmRlci1yZWYgcmVmPSJXQVJOX0ZJTEUiIC8+CiAgICAgICAgPC9yb290PgogICAgPC9zcHJpbmdQcm9maWxlPgoKPC9jb25maWd1cmF0aW9uPg==
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration  scan="true" scanPeriod="10 seconds">
+    <!-- 日志级别从低到高分为TRACE < DEBUG < INFO < WARN < ERROR < FATAL，如果设置为WARN，则低于WARN的信息都不会输出 -->
+    <!-- scan:当此属性设置为true时，配置文件如果发生改变，将会被重新加载，默认值为true -->
+    <!-- scanPeriod:设置监测配置文件是否有修改的时间间隔，如果没有给出时间单位，默认单位是毫秒。当scan为true时，此属性生效。默认的时间间隔为1分钟。 -->
+    <!-- debug:当此属性设置为true时，将打印出logback内部日志信息，实时查看logback运行状态。默认值为false。 -->
+
+    <contextName>logback</contextName>
+    <!-- name的值是变量的名称，value的值时变量定义的值。通过定义的值会被插入到logger上下文中。定义变量后，可以使“${}”来使用变量。 -->
+    <!-- 日志根目录：可用环境变量 MAD_LOG_PATH 覆盖，默认写到系统临时目录 -->
+    <property name="mad.log.path" value="${MAD_LOG_PATH:-/tmp/mad_log_190105}" />
+
+    <property name="log.path" value="${mad.log.path}/sysuser" />
+
+    <!-- 彩色日志 -->
+    <!-- 配置格式变量：CONSOLE_LOG_PATTERN 彩色日志格式 -->
+    <!-- magenta:洋红 -->
+    <!-- boldMagenta:粗红-->
+    <!-- cyan:青色 -->
+    <!-- white:白色 -->
+    <!-- magenta:洋红 -->
+    <property name="CONSOLE_LOG_PATTERN"
+              value="%yellow(%date{yyyy-MM-dd HH:mm:ss}) |%highlight(%-5level) |%blue(%thread) |%blue(%file:%line) |%green(%logger) |%cyan(%msg%n)"/>
+
+
+    <!--输出到控制台-->
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <!--此日志appender是为开发使用，只配置最底级别，控制台输出的日志级别是大于或等于此级别的日志信息-->
+        <!-- 例如：如果此处配置了INFO级别，则后面其他位置即使配置了DEBUG级别的日志，也不会被输出 -->
+        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+            <level>INFO</level>
+        </filter>
+        <encoder>
+            <Pattern>${CONSOLE_LOG_PATTERN}</Pattern>
+            <!-- 设置字符集 -->
+            <charset>UTF-8</charset>
+        </encoder>
+    </appender>
+
+
+    <!--输出到文件-->
+
+    <!-- 时间滚动输出 level为 INFO 日志 -->
+    <appender name="INFO_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <!-- 正在记录的日志文件的路径及文件名 -->
+        <file>${log.path}/log_info.log</file>
+        <!--日志文件输出格式-->
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{50} - %msg%n</pattern>
+            <charset>UTF-8</charset>
+        </encoder>
+        <!-- 日志记录器的滚动策略，按日期，按大小记录 -->
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!-- 每天日志归档路径以及格式 -->
+            <fileNamePattern>${log.path}/info/log-info-%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+            <timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+                <maxFileSize>1KB</maxFileSize>
+            </timeBasedFileNamingAndTriggeringPolicy>
+            <!--日志文件保留天数-->
+            <maxHistory>15</maxHistory>
+        </rollingPolicy>
+        <!-- 此日志文件只记录info级别的 -->
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>INFO</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+    </appender>
+
+    <!-- 时间滚动输出 level为 WARN 日志 -->
+    <appender name="WARN_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <!-- 正在记录的日志文件的路径及文件名 -->
+        <file>${log.path}/log_warn.log</file>
+        <!--日志文件输出格式-->
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{50} - %msg%n</pattern>
+            <charset>UTF-8</charset> <!-- 此处设置字符集 -->
+        </encoder>
+        <!-- 日志记录器的滚动策略，按日期，按大小记录 -->
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>${log.path}/warn/log-warn-%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+            <timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+                <maxFileSize>100MB</maxFileSize>
+            </timeBasedFileNamingAndTriggeringPolicy>
+            <!--日志文件保留天数-->
+            <maxHistory>15</maxHistory>
+        </rollingPolicy>
+        <!-- 此日志文件只记录warn级别的 -->
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>warn</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+    </appender>
+
+
+    <!-- 时间滚动输出 level为 ERROR 日志 -->
+    <appender name="ERROR_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <!-- 正在记录的日志文件的路径及文件名 -->
+        <file>${log.path}/log_error.log</file>
+        <!--日志文件输出格式-->
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{50} - %msg%n</pattern>
+            <charset>UTF-8</charset> <!-- 此处设置字符集 -->
+        </encoder>
+        <!-- 日志记录器的滚动策略，按日期，按大小记录 -->
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>${log.path}/error/log-error-%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+            <timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+                <maxFileSize>100MB</maxFileSize>
+            </timeBasedFileNamingAndTriggeringPolicy>
+            <!--日志文件保留天数-->
+            <maxHistory>15</maxHistory>
+        </rollingPolicy>
+        <!-- 此日志文件只记录ERROR级别的 -->
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>ERROR</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+    </appender>
+
+    <!--
+        <logger>用来设置某一个包或者具体的某一个类的日志打印级别、以及指定<appender>。
+        <logger>仅有一个name属性，
+        一个可选的level和一个可选的addtivity属性。
+        name:用来指定受此logger约束的某一个包或者具体的某一个类。
+        level:用来设置打印级别，大小写无关：TRACE, DEBUG, INFO, WARN, ERROR, ALL 和 OFF，
+              如果未设置此属性，那么当前logger将会继承上级的级别。
+    -->
+    <!--
+        使用mybatis的时候，sql语句是debug下才会打印，而这里我们只配置了info，所以想要查看sql语句的话，有以下两种操作：
+        第一种把<root level="INFO">改成<root level="DEBUG">这样就会打印sql，不过这样日志那边会出现很多其他消息
+        第二种就是单独给mapper下目录配置DEBUG模式，代码如下，这样配置sql语句会打印，其他还是正常DEBUG级别：
+     -->
+    <!--开发环境:打印控制台-->
+    <springProfile name="dev">
+        <!--可以输出项目中的debug日志，包括mybatis的sql日志-->
+        <logger name="com.mad" level="INFO" />
+
+        <!--
+            root节点是必选节点，用来指定最基础的日志输出级别，只有一个level属性
+            level:用来设置打印级别，大小写无关：TRACE, DEBUG, INFO, WARN, ERROR, ALL 和 OFF，默认是DEBUG
+            可以包含零个或多个appender元素。
+        -->
+        <root level="INFO">
+            <appender-ref ref="CONSOLE" />
+            <appender-ref ref="INFO_FILE" />
+            <appender-ref ref="WARN_FILE" />
+            <appender-ref ref="ERROR_FILE" />
+        </root>
+    </springProfile>
+
+
+    <!--生产环境:输出到文件-->
+    <springProfile name="pro">
+
+        <!--可以输出项目中的debug日志，包括mybatis的sql日志-->
+        <logger name="com.mad" level="WARN" />
+
+        <root level="INFO">
+            <appender-ref ref="ERROR_FILE" />
+            <appender-ref ref="WARN_FILE" />
+        </root>
+    </springProfile>
+
+</configuration>

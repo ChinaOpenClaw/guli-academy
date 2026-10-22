@@ -1,1 +1,228 @@
-PHRlbXBsYXRlPgogIDxkaXYgY2xhc3M9IndzY24taHR0cDQwNC1jb250YWluZXIiPgogICAgPGRpdiBjbGFzcz0id3Njbi1odHRwNDA0Ij4KICAgICAgPGRpdiBjbGFzcz0icGljLTQwNCI+CiAgICAgICAgPGltZyBjbGFzcz0icGljLTQwNF9fcGFyZW50IiBzcmM9IkAvYXNzZXRzLzQwNF9pbWFnZXMvNDA0LnBuZyIgYWx0PSI0MDQiPgogICAgICAgIDxpbWcgY2xhc3M9InBpYy00MDRfX2NoaWxkIGxlZnQiIHNyYz0iQC9hc3NldHMvNDA0X2ltYWdlcy80MDRfY2xvdWQucG5nIiBhbHQ9IjQwNCI+CiAgICAgICAgPGltZyBjbGFzcz0icGljLTQwNF9fY2hpbGQgbWlkIiBzcmM9IkAvYXNzZXRzLzQwNF9pbWFnZXMvNDA0X2Nsb3VkLnBuZyIgYWx0PSI0MDQiPgogICAgICAgIDxpbWcgY2xhc3M9InBpYy00MDRfX2NoaWxkIHJpZ2h0IiBzcmM9IkAvYXNzZXRzLzQwNF9pbWFnZXMvNDA0X2Nsb3VkLnBuZyIgYWx0PSI0MDQiPgogICAgICA8L2Rpdj4KICAgICAgPGRpdiBjbGFzcz0iYnVsbHNoaXQiPgogICAgICAgIDxkaXYgY2xhc3M9ImJ1bGxzaGl0X19vb3BzIj5PT1BTITwvZGl2PgogICAgICAgIDxkaXYgY2xhc3M9ImJ1bGxzaGl0X19pbmZvIj7niYjmnYPmiYDmnIkKICAgICAgICAgIDxhIGNsYXNzPSJsaW5rLXR5cGUiIGhyZWY9Imh0dHBzOi8vd2FsbHN0cmVldGNuLmNvbSIgdGFyZ2V0PSJfYmxhbmsiPuWNjuWwlOihl+ingemXuzwvYT4KICAgICAgICA8L2Rpdj4KICAgICAgICA8ZGl2IGNsYXNzPSJidWxsc2hpdF9faGVhZGxpbmUiPnt7IG1lc3NhZ2UgfX08L2Rpdj4KICAgICAgICA8ZGl2IGNsYXNzPSJidWxsc2hpdF9faW5mbyI+6K+35qOA5p+l5oKo6L6T5YWl55qE572R5Z2A5piv5ZCm5q2j56Gu77yM6K+354K55Ye75Lul5LiL5oyJ6ZKu6L+U5Zue5Li76aG15oiW6ICF5Y+R6YCB6ZSZ6K+v5oql5ZGKPC9kaXY+CiAgICAgICAgPGEgaHJlZj0iIiBjbGFzcz0iYnVsbHNoaXRfX3JldHVybi1ob21lIj7ov5Tlm57pppbpobU8L2E+CiAgICAgIDwvZGl2PgogICAgPC9kaXY+CiAgPC9kaXY+CjwvdGVtcGxhdGU+Cgo8c2NyaXB0PgoKZXhwb3J0IGRlZmF1bHQgewogIG5hbWU6ICdQYWdlNDA0JywKICBjb21wdXRlZDogewogICAgbWVzc2FnZSgpIHsKICAgICAgcmV0dXJuICfnvZHnrqHor7Tov5nkuKrpobXpnaLkvaDkuI3og73ov5suLi4uLi4nCiAgICB9CiAgfQp9Cjwvc2NyaXB0PgoKPHN0eWxlIHJlbD0ic3R5bGVzaGVldC9zY3NzIiBsYW5nPSJzY3NzIiBzY29wZWQ+Ci53c2NuLWh0dHA0MDQtY29udGFpbmVyewogIHRyYW5zZm9ybTogdHJhbnNsYXRlKC01MCUsLTUwJSk7CiAgcG9zaXRpb246IGFic29sdXRlOwogIHRvcDogNDAlOwogIGxlZnQ6IDUwJTsKfQoud3Njbi1odHRwNDA0IHsKICBwb3NpdGlvbjogcmVsYXRpdmU7CiAgd2lkdGg6IDEyMDBweDsKICBwYWRkaW5nOiAwIDUwcHg7CiAgb3ZlcmZsb3c6IGhpZGRlbjsKICAucGljLTQwNCB7CiAgICBwb3NpdGlvbjogcmVsYXRpdmU7CiAgICBmbG9hdDogbGVmdDsKICAgIHdpZHRoOiA2MDBweDsKICAgIG92ZXJmbG93OiBoaWRkZW47CiAgICAmX19wYXJlbnQgewogICAgICB3aWR0aDogMTAwJTsKICAgIH0KICAgICZfX2NoaWxkIHsKICAgICAgcG9zaXRpb246IGFic29sdXRlOwogICAgICAmLmxlZnQgewogICAgICAgIHdpZHRoOiA4MHB4OwogICAgICAgIHRvcDogMTdweDsKICAgICAgICBsZWZ0OiAyMjBweDsKICAgICAgICBvcGFjaXR5OiAwOwogICAgICAgIGFuaW1hdGlvbi1uYW1lOiBjbG91ZExlZnQ7CiAgICAgICAgYW5pbWF0aW9uLWR1cmF0aW9uOiAyczsKICAgICAgICBhbmltYXRpb24tdGltaW5nLWZ1bmN0aW9uOiBsaW5lYXI7CiAgICAgICAgYW5pbWF0aW9uLWZpbGwtbW9kZTogZm9yd2FyZHM7CiAgICAgICAgYW5pbWF0aW9uLWRlbGF5OiAxczsKICAgICAgfQogICAgICAmLm1pZCB7CiAgICAgICAgd2lkdGg6IDQ2cHg7CiAgICAgICAgdG9wOiAxMHB4OwogICAgICAgIGxlZnQ6IDQyMHB4OwogICAgICAgIG9wYWNpdHk6IDA7CiAgICAgICAgYW5pbWF0aW9uLW5hbWU6IGNsb3VkTWlkOwogICAgICAgIGFuaW1hdGlvbi1kdXJhdGlvbjogMnM7CiAgICAgICAgYW5pbWF0aW9uLXRpbWluZy1mdW5jdGlvbjogbGluZWFyOwogICAgICAgIGFuaW1hdGlvbi1maWxsLW1vZGU6IGZvcndhcmRzOwogICAgICAgIGFuaW1hdGlvbi1kZWxheTogMS4yczsKICAgICAgfQogICAgICAmLnJpZ2h0IHsKICAgICAgICB3aWR0aDogNjJweDsKICAgICAgICB0b3A6IDEwMHB4OwogICAgICAgIGxlZnQ6IDUwMHB4OwogICAgICAgIG9wYWNpdHk6IDA7CiAgICAgICAgYW5pbWF0aW9uLW5hbWU6IGNsb3VkUmlnaHQ7CiAgICAgICAgYW5pbWF0aW9uLWR1cmF0aW9uOiAyczsKICAgICAgICBhbmltYXRpb24tdGltaW5nLWZ1bmN0aW9uOiBsaW5lYXI7CiAgICAgICAgYW5pbWF0aW9uLWZpbGwtbW9kZTogZm9yd2FyZHM7CiAgICAgICAgYW5pbWF0aW9uLWRlbGF5OiAxczsKICAgICAgfQogICAgICBAa2V5ZnJhbWVzIGNsb3VkTGVmdCB7CiAgICAgICAgMCUgewogICAgICAgICAgdG9wOiAxN3B4OwogICAgICAgICAgbGVmdDogMjIwcHg7CiAgICAgICAgICBvcGFjaXR5OiAwOwogICAgICAgIH0KICAgICAgICAyMCUgewogICAgICAgICAgdG9wOiAzM3B4OwogICAgICAgICAgbGVmdDogMTg4cHg7CiAgICAgICAgICBvcGFjaXR5OiAxOwogICAgICAgIH0KICAgICAgICA4MCUgewogICAgICAgICAgdG9wOiA4MXB4OwogICAgICAgICAgbGVmdDogOTJweDsKICAgICAgICAgIG9wYWNpdHk6IDE7CiAgICAgICAgfQogICAgICAgIDEwMCUgewogICAgICAgICAgdG9wOiA5N3B4OwogICAgICAgICAgbGVmdDogNjBweDsKICAgICAgICAgIG9wYWNpdHk6IDA7CiAgICAgICAgfQogICAgICB9CiAgICAgIEBrZXlmcmFtZXMgY2xvdWRNaWQgewogICAgICAgIDAlIHsKICAgICAgICAgIHRvcDogMTBweDsKICAgICAgICAgIGxlZnQ6IDQyMHB4OwogICAgICAgICAgb3BhY2l0eTogMDsKICAgICAgICB9CiAgICAgICAgMjAlIHsKICAgICAgICAgIHRvcDogNDBweDsKICAgICAgICAgIGxlZnQ6IDM2MHB4OwogICAgICAgICAgb3BhY2l0eTogMTsKICAgICAgICB9CiAgICAgICAgNzAlIHsKICAgICAgICAgIHRvcDogMTMwcHg7CiAgICAgICAgICBsZWZ0OiAxODBweDsKICAgICAgICAgIG9wYWNpdHk6IDE7CiAgICAgICAgfQogICAgICAgIDEwMCUgewogICAgICAgICAgdG9wOiAxNjBweDsKICAgICAgICAgIGxlZnQ6IDEyMHB4OwogICAgICAgICAgb3BhY2l0eTogMDsKICAgICAgICB9CiAgICAgIH0KICAgICAgQGtleWZyYW1lcyBjbG91ZFJpZ2h0IHsKICAgICAgICAwJSB7CiAgICAgICAgICB0b3A6IDEwMHB4OwogICAgICAgICAgbGVmdDogNTAwcHg7CiAgICAgICAgICBvcGFjaXR5OiAwOwogICAgICAgIH0KICAgICAgICAyMCUgewogICAgICAgICAgdG9wOiAxMjBweDsKICAgICAgICAgIGxlZnQ6IDQ2MHB4OwogICAgICAgICAgb3BhY2l0eTogMTsKICAgICAgICB9CiAgICAgICAgODAlIHsKICAgICAgICAgIHRvcDogMTgwcHg7CiAgICAgICAgICBsZWZ0OiAzNDBweDsKICAgICAgICAgIG9wYWNpdHk6IDE7CiAgICAgICAgfQogICAgICAgIDEwMCUgewogICAgICAgICAgdG9wOiAyMDBweDsKICAgICAgICAgIGxlZnQ6IDMwMHB4OwogICAgICAgICAgb3BhY2l0eTogMDsKICAgICAgICB9CiAgICAgIH0KICAgIH0KICB9CiAgLmJ1bGxzaGl0IHsKICAgIHBvc2l0aW9uOiByZWxhdGl2ZTsKICAgIGZsb2F0OiBsZWZ0OwogICAgd2lkdGg6IDMwMHB4OwogICAgcGFkZGluZzogMzBweCAwOwogICAgb3ZlcmZsb3c6IGhpZGRlbjsKICAgICZfX29vcHMgewogICAgICBmb250LXNpemU6IDMycHg7CiAgICAgIGZvbnQtd2VpZ2h0OiBib2xkOwogICAgICBsaW5lLWhlaWdodDogNDBweDsKICAgICAgY29sb3I6ICMxNDgyZjA7CiAgICAgIG9wYWNpdHk6IDA7CiAgICAgIG1hcmdpbi1ib3R0b206IDIwcHg7CiAgICAgIGFuaW1hdGlvbi1uYW1lOiBzbGlkZVVwOwogICAgICBhbmltYXRpb24tZHVyYXRpb246IDAuNXM7CiAgICAgIGFuaW1hdGlvbi1maWxsLW1vZGU6IGZvcndhcmRzOwogICAgfQogICAgJl9faGVhZGxpbmUgewogICAgICBmb250LXNpemU6IDIwcHg7CiAgICAgIGxpbmUtaGVpZ2h0OiAyNHB4OwogICAgICBjb2xvcjogIzIyMjsKICAgICAgZm9udC13ZWlnaHQ6IGJvbGQ7CiAgICAgIG9wYWNpdHk6IDA7CiAgICAgIG1hcmdpbi1ib3R0b206IDEwcHg7CiAgICAgIGFuaW1hdGlvbi1uYW1lOiBzbGlkZVVwOwogICAgICBhbmltYXRpb24tZHVyYXRpb246IDAuNXM7CiAgICAgIGFuaW1hdGlvbi1kZWxheTogMC4xczsKICAgICAgYW5pbWF0aW9uLWZpbGwtbW9kZTogZm9yd2FyZHM7CiAgICB9CiAgICAmX19pbmZvIHsKICAgICAgZm9udC1zaXplOiAxM3B4OwogICAgICBsaW5lLWhlaWdodDogMjFweDsKICAgICAgY29sb3I6IGdyZXk7CiAgICAgIG9wYWNpdHk6IDA7CiAgICAgIG1hcmdpbi1ib3R0b206IDMwcHg7CiAgICAgIGFuaW1hdGlvbi1uYW1lOiBzbGlkZVVwOwogICAgICBhbmltYXRpb24tZHVyYXRpb246IDAuNXM7CiAgICAgIGFuaW1hdGlvbi1kZWxheTogMC4yczsKICAgICAgYW5pbWF0aW9uLWZpbGwtbW9kZTogZm9yd2FyZHM7CiAgICB9CiAgICAmX19yZXR1cm4taG9tZSB7CiAgICAgIGRpc3BsYXk6IGJsb2NrOwogICAgICBmbG9hdDogbGVmdDsKICAgICAgd2lkdGg6IDExMHB4OwogICAgICBoZWlnaHQ6IDM2cHg7CiAgICAgIGJhY2tncm91bmQ6ICMxNDgyZjA7CiAgICAgIGJvcmRlci1yYWRpdXM6IDEwMHB4OwogICAgICB0ZXh0LWFsaWduOiBjZW50ZXI7CiAgICAgIGNvbG9yOiAjZmZmZmZmOwogICAgICBvcGFjaXR5OiAwOwogICAgICBmb250LXNpemU6IDE0cHg7CiAgICAgIGxpbmUtaGVpZ2h0OiAzNnB4OwogICAgICBjdXJzb3I6IHBvaW50ZXI7CiAgICAgIGFuaW1hdGlvbi1uYW1lOiBzbGlkZVVwOwogICAgICBhbmltYXRpb24tZHVyYXRpb246IDAuNXM7CiAgICAgIGFuaW1hdGlvbi1kZWxheTogMC4zczsKICAgICAgYW5pbWF0aW9uLWZpbGwtbW9kZTogZm9yd2FyZHM7CiAgICB9CiAgICBAa2V5ZnJhbWVzIHNsaWRlVXAgewogICAgICAwJSB7CiAgICAgICAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKDYwcHgpOwogICAgICAgIG9wYWNpdHk6IDA7CiAgICAgIH0KICAgICAgMTAwJSB7CiAgICAgICAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKDApOwogICAgICAgIG9wYWNpdHk6IDE7CiAgICAgIH0KICAgIH0KICB9Cn0KPC9zdHlsZT4K
+<template>
+  <div class="wscn-http404-container">
+    <div class="wscn-http404">
+      <div class="pic-404">
+        <img class="pic-404__parent" src="@/assets/404_images/404.png" alt="404">
+        <img class="pic-404__child left" src="@/assets/404_images/404_cloud.png" alt="404">
+        <img class="pic-404__child mid" src="@/assets/404_images/404_cloud.png" alt="404">
+        <img class="pic-404__child right" src="@/assets/404_images/404_cloud.png" alt="404">
+      </div>
+      <div class="bullshit">
+        <div class="bullshit__oops">OOPS!</div>
+        <div class="bullshit__info">版权所有
+          <a class="link-type" href="https://wallstreetcn.com" target="_blank">华尔街见闻</a>
+        </div>
+        <div class="bullshit__headline">{{ message }}</div>
+        <div class="bullshit__info">请检查您输入的网址是否正确，请点击以下按钮返回主页或者发送错误报告</div>
+        <a href="" class="bullshit__return-home">返回首页</a>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+
+export default {
+  name: 'Page404',
+  computed: {
+    message() {
+      return '网管说这个页面你不能进......'
+    }
+  }
+}
+</script>
+
+<style rel="stylesheet/scss" lang="scss" scoped>
+.wscn-http404-container{
+  transform: translate(-50%,-50%);
+  position: absolute;
+  top: 40%;
+  left: 50%;
+}
+.wscn-http404 {
+  position: relative;
+  width: 1200px;
+  padding: 0 50px;
+  overflow: hidden;
+  .pic-404 {
+    position: relative;
+    float: left;
+    width: 600px;
+    overflow: hidden;
+    &__parent {
+      width: 100%;
+    }
+    &__child {
+      position: absolute;
+      &.left {
+        width: 80px;
+        top: 17px;
+        left: 220px;
+        opacity: 0;
+        animation-name: cloudLeft;
+        animation-duration: 2s;
+        animation-timing-function: linear;
+        animation-fill-mode: forwards;
+        animation-delay: 1s;
+      }
+      &.mid {
+        width: 46px;
+        top: 10px;
+        left: 420px;
+        opacity: 0;
+        animation-name: cloudMid;
+        animation-duration: 2s;
+        animation-timing-function: linear;
+        animation-fill-mode: forwards;
+        animation-delay: 1.2s;
+      }
+      &.right {
+        width: 62px;
+        top: 100px;
+        left: 500px;
+        opacity: 0;
+        animation-name: cloudRight;
+        animation-duration: 2s;
+        animation-timing-function: linear;
+        animation-fill-mode: forwards;
+        animation-delay: 1s;
+      }
+      @keyframes cloudLeft {
+        0% {
+          top: 17px;
+          left: 220px;
+          opacity: 0;
+        }
+        20% {
+          top: 33px;
+          left: 188px;
+          opacity: 1;
+        }
+        80% {
+          top: 81px;
+          left: 92px;
+          opacity: 1;
+        }
+        100% {
+          top: 97px;
+          left: 60px;
+          opacity: 0;
+        }
+      }
+      @keyframes cloudMid {
+        0% {
+          top: 10px;
+          left: 420px;
+          opacity: 0;
+        }
+        20% {
+          top: 40px;
+          left: 360px;
+          opacity: 1;
+        }
+        70% {
+          top: 130px;
+          left: 180px;
+          opacity: 1;
+        }
+        100% {
+          top: 160px;
+          left: 120px;
+          opacity: 0;
+        }
+      }
+      @keyframes cloudRight {
+        0% {
+          top: 100px;
+          left: 500px;
+          opacity: 0;
+        }
+        20% {
+          top: 120px;
+          left: 460px;
+          opacity: 1;
+        }
+        80% {
+          top: 180px;
+          left: 340px;
+          opacity: 1;
+        }
+        100% {
+          top: 200px;
+          left: 300px;
+          opacity: 0;
+        }
+      }
+    }
+  }
+  .bullshit {
+    position: relative;
+    float: left;
+    width: 300px;
+    padding: 30px 0;
+    overflow: hidden;
+    &__oops {
+      font-size: 32px;
+      font-weight: bold;
+      line-height: 40px;
+      color: #1482f0;
+      opacity: 0;
+      margin-bottom: 20px;
+      animation-name: slideUp;
+      animation-duration: 0.5s;
+      animation-fill-mode: forwards;
+    }
+    &__headline {
+      font-size: 20px;
+      line-height: 24px;
+      color: #222;
+      font-weight: bold;
+      opacity: 0;
+      margin-bottom: 10px;
+      animation-name: slideUp;
+      animation-duration: 0.5s;
+      animation-delay: 0.1s;
+      animation-fill-mode: forwards;
+    }
+    &__info {
+      font-size: 13px;
+      line-height: 21px;
+      color: grey;
+      opacity: 0;
+      margin-bottom: 30px;
+      animation-name: slideUp;
+      animation-duration: 0.5s;
+      animation-delay: 0.2s;
+      animation-fill-mode: forwards;
+    }
+    &__return-home {
+      display: block;
+      float: left;
+      width: 110px;
+      height: 36px;
+      background: #1482f0;
+      border-radius: 100px;
+      text-align: center;
+      color: #ffffff;
+      opacity: 0;
+      font-size: 14px;
+      line-height: 36px;
+      cursor: pointer;
+      animation-name: slideUp;
+      animation-duration: 0.5s;
+      animation-delay: 0.3s;
+      animation-fill-mode: forwards;
+    }
+    @keyframes slideUp {
+      0% {
+        transform: translateY(60px);
+        opacity: 0;
+      }
+      100% {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+  }
+}
+</style>

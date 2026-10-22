@@ -1,1 +1,14 @@
-cGFja2FnZSBjb20ubWFkLmVkdS52bzsKCi8qKgogKiBAYXV0aG9yIGhlbGVuCiAqIEBzaW5jZSAyMDE5LzYvMjkKICovCgppbXBvcnQgbG9tYm9rLkRhdGE7CkBEYXRhCnB1YmxpYyBjbGFzcyBTdWJqZWN0Vm8gewoKCXByaXZhdGUgU3RyaW5nIGlkOwoJcHJpdmF0ZSBTdHJpbmcgdGl0bGU7Cn0K
+package com.mad.edu.vo;
+
+/**
+ * @author helen
+ * @since 2019/6/29
+ */
+
+import lombok.Data;
+@Data
+public class SubjectVo {
+
+	private String id;
+	private String title;
+}

@@ -1,1 +1,46 @@
-cGFja2FnZSBjb20ubWFkLmVkdS5lbnRpdHk7CgppbXBvcnQgY29tLmJhb21pZG91Lm15YmF0aXNwbHVzLmFubm90YXRpb24uKjsKaW1wb3J0IGlvLnN3YWdnZXIuYW5ub3RhdGlvbnMuQXBpTW9kZWw7CmltcG9ydCBpby5zd2FnZ2VyLmFubm90YXRpb25zLkFwaU1vZGVsUHJvcGVydHk7CmltcG9ydCBsb21ib2suRGF0YTsKaW1wb3J0IGxvbWJvay5FcXVhbHNBbmRIYXNoQ29kZTsKaW1wb3J0IGxvbWJvay5leHBlcmltZW50YWwuQWNjZXNzb3JzOwoKaW1wb3J0IGphdmEuaW8uU2VyaWFsaXphYmxlOwppbXBvcnQgamF2YS51dGlsLkRhdGU7CgovKioKICogPHA+CiAqIOivvueoi+eugOS7iwogKiA8L3A+CiAqCiAqIEBhdXRob3IgSGVsZW4KICogQHNpbmNlIDIwMTktMDYtMjQKICovCkBEYXRhCkBFcXVhbHNBbmRIYXNoQ29kZShjYWxsU3VwZXIgPSBmYWxzZSkKQEFjY2Vzc29ycyhjaGFpbiA9IHRydWUpCkBUYWJsZU5hbWUoImVkdV9jb3Vyc2VfZGVzY3JpcHRpb24iKQpAQXBpTW9kZWwodmFsdWU9IkNvdXJzZURlc2NyaXB0aW9u5a+56LGhIiwgZGVzY3JpcHRpb249Iuivvueoi+eugOS7iyIpCnB1YmxpYyBjbGFzcyBDb3Vyc2VEZXNjcmlwdGlvbiBpbXBsZW1lbnRzIFNlcmlhbGl6YWJsZSB7CgogICAgcHJpdmF0ZSBzdGF0aWMgZmluYWwgbG9uZyBzZXJpYWxWZXJzaW9uVUlEID0gMUw7CgogICAgQEFwaU1vZGVsUHJvcGVydHkodmFsdWUgPSAi6K++56iLSUQiKQogICAgQFRhYmxlSWQodmFsdWUgPSAiaWQiLCB0eXBlID0gSWRUeXBlLklOUFVUKQogICAgcHJpdmF0ZSBTdHJpbmcgaWQ7CgogICAgQEFwaU1vZGVsUHJvcGVydHkodmFsdWUgPSAi6K++56iL566A5LuLIikKICAgIHByaXZhdGUgU3RyaW5nIGRlc2NyaXB0aW9uOwoKICAgIEBBcGlNb2RlbFByb3BlcnR5KHZhbHVlID0gIuWIm+W7uuaXtumXtCIpCiAgICBAVGFibGVGaWVsZChmaWxsID0gRmllbGRGaWxsLklOU0VSVCkKICAgIHByaXZhdGUgRGF0ZSBnbXRDcmVhdGU7CgogICAgQEFwaU1vZGVsUHJvcGVydHkodmFsdWUgPSAi5pu05paw5pe26Ze0IikKICAgIEBUYWJsZUZpZWxkKGZpbGwgPSBGaWVsZEZpbGwuSU5TRVJUX1VQREFURSkKICAgIHByaXZhdGUgRGF0ZSBnbXRNb2RpZmllZDsKCgp9Cg==
+package com.mad.edu.entity;
+
+import com.baomidou.mybatisplus.annotation.*;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
+import lombok.experimental.Accessors;
+
+import java.io.Serializable;
+import java.util.Date;
+
+/**
+ * <p>
+ * 课程简介
+ * </p>
+ *
+ * @author Helen
+ * @since 2019-06-24
+ */
+@Data
+@EqualsAndHashCode(callSuper = false)
+@Accessors(chain = true)
+@TableName("edu_course_description")
+@ApiModel(value="CourseDescription对象", description="课程简介")
+public class CourseDescription implements Serializable {
+
+    private static final long serialVersionUID = 1L;
+
+    @ApiModelProperty(value = "课程ID")
+    @TableId(value = "id", type = IdType.INPUT)
+    private String id;
+
+    @ApiModelProperty(value = "课程简介")
+    private String description;
+
+    @ApiModelProperty(value = "创建时间")
+    @TableField(fill = FieldFill.INSERT)
+    private Date gmtCreate;
+
+    @ApiModelProperty(value = "更新时间")
+    @TableField(fill = FieldFill.INSERT_UPDATE)
+    private Date gmtModified;
+
+
+}

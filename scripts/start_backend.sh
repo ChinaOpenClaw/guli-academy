@@ -1,1 +1,66 @@
-IyEvYmluL2Jhc2gKIyBNQUTnvZHor77ns7vnu58g4oCUIOWQjuerr+acjeWKoeWQr+WKqOiEmuacrAojIOino+WGsyBTcHJpbmcgQm9vdCAyLjAuNyAvIFNwcmluZyBDbG91ZCDlnKggSkRLIDE3IOS4i+eahOS4pOexu+WFvOWuuemXrumimO+8mgojICAgMSkgQ0dMSUIg5Y+N5bCE6ZyA6KaBIC0tYWRkLW9wZW5zIGphdmEuYmFzZS9qYXZhLmxhbmc9QUxMLVVOTkFNRUQKIyAgIDIpIEpBWEIgLyBqYXZhLmRlc2t0b3Ag5Y+N5bCE6ZyA6KaB6aKd5aSWIG9wZW5zCiMg55So5rOV77yaLi9zY3JpcHRzL3N0YXJ0X2JhY2tlbmQuc2ggW2V1cmVrYXxlZHV8c3lzdXNlcnx1Y2VudGVyfGFsbF0KCnNldCAtZQpCQUNLRU5EPSIvVXNlcnMvc2FuZy9EZXNrdG9wL+iwt+eykuWtpumZoumhueebri93b3Jrc3BhY2UvYmFja2VuZC9tYWQiCkpBVkE9Ii9vcHQvaG9tZWJyZXcvb3B0L29wZW5qZGtAMTcvYmluL2phdmEiCkpBUj0iJEJBQ0tFTkQvbWFkLW1pY3Jvc2VydmljZS1lZHUvdGFyZ2V0L21hZC1taWNyb3NlcnZpY2UtZWR1LTAuMC4xLVNOQVBTSE9ULmphciIKCiMg5omA5pyJ5b6u5pyN5Yqh6YCa55So55qEIC0tYWRkLW9wZW5zCk9QRU5TPSItLWFkZC1vcGVucyBqYXZhLmJhc2UvamF2YS5sYW5nPUFMTC1VTk5BTUVEIFwKLS1hZGQtb3BlbnMgamF2YS5iYXNlL2phdmEudXRpbD1BTEwtVU5OQU1FRCBcCi0tYWRkLW9wZW5zIGphdmEuYmFzZS9qYXZhLmxhbmcucmVmbGVjdD1BTEwtVU5OQU1FRCBcCi0tYWRkLW9wZW5zIGphdmEuYmFzZS9qYXZhLnRleHQ9QUxMLVVOTkFNRUQgXAotLWFkZC1vcGVucyBqYXZhLmJhc2UvamF2YS5uZXQ9QUxMLVVOTkFNRUQgXAotLWFkZC1vcGVucyBqYXZhLmJhc2UvamF2YS5pbz1BTEwtVU5OQU1FRCBcCi0tYWRkLW9wZW5zIGphdmEuYmFzZS9qYXZhLm5pbz1BTEwtVU5OQU1FRCBcCi0tYWRkLW9wZW5zIGphdmEuYmFzZS9qYXZhLnV0aWwuY29uY3VycmVudD1BTEwtVU5OQU1FRCBcCi0tYWRkLW9wZW5zIGphdmEuYmFzZS9qYXZhLnRpbWU9QUxMLVVOTkFNRUQgXAotLWFkZC1vcGVucyBqYXZhLmJhc2Uvc3VuLm5pby5jaD1BTEwtVU5OQU1FRCBcCi0tYWRkLW9wZW5zIGphdmEuZGVza3RvcC9qYXZhLmF3dC5mb250PUFMTC1VTk5BTUVEIFwKLS1hZGQtb3BlbnMgamF2YS5ybWkvc3VuLnJtaS50cmFuc3BvcnQ9QUxMLVVOTkFNRUQiCgpydW5famFyKCkgewogIGxvY2FsIGRpcj0iJDEiIGphcj0iJDIiIHBvcnQ9IiQzIiBuYW1lPSIkNCIKICBpZiBsc29mIC1uUCAtaVRDUDokcG9ydCAtc1RDUDpMSVNURU4gPi9kZXYvbnVsbCAyPiYxOyB0aGVuCiAgICBlY2hvICLinJMgJG5hbWUg5bey5Zyo6L+Q6KGMICjnq6/lj6MgJHBvcnQpIgogICAgcmV0dXJuIDAKICBmaQogIGNkICIkZGlyIgogIHVuc2V0IFNFUlZFUl9fUE9SVAogICMgbm9odXAgKyBkaXNvd24g6K6p5pyN5Yqh6ISx56a75b2T5YmNIHNoZWxsIOeUn+WRveWRqOacnwogIG5vaHVwICRKQVZBICRPUEVOUyAtamFyICIkamFyIiAtLXNlcnZlci5wb3J0PSRwb3J0ID4gIi90bXAvbWFkLSRuYW1lLmxvZyIgMj4mMSAmCiAgZGlzb3duCiAgZWNobyAi4oaSICRuYW1lIOWQr+WKqOS4rSAo56uv5Y+jICRwb3J0Ke+8jOaXpeW/lyAvdG1wL21hZC0kbmFtZS5sb2ciCn0KCmNhc2UgIiR7MTotYWxsfSIgaW4KICBldXJla2EpCiAgICBydW5famFyICIkQkFDS0VORC9tYWQtY29tbW9uc2VydmljZS1ldXJla2EiIFwKICAgICAgICAgICAgIiRCQUNLRU5EL21hZC1jb21tb25zZXJ2aWNlLWV1cmVrYS90YXJnZXQvbWFkLWNvbW1vbnNlcnZpY2UtZXVyZWthLTAuMC4xLVNOQVBTSE9ULmphciIgODIyMCBldXJla2EKICAgIDs7CiAgZWR1KQogICAgcnVuX2phciAiJEJBQ0tFTkQvbWFkLW1pY3Jvc2VydmljZS1lZHUiICIkSkFSIiA4MTEwIGVkdQogICAgOzsKICBzeXN1c2VyKQogICAgcnVuX2phciAiJEJBQ0tFTkQvbWFkLW1pY3Jvc2VydmljZS1zeXN1c2VyIiBcCiAgICAgICAgICAgICIkQkFDS0VORC9tYWQtbWljcm9zZXJ2aWNlLXN5c3VzZXIvdGFyZ2V0L21hZC1taWNyb3NlcnZpY2Utc3lzdXNlci0wLjAuMS1TTkFQU0hPVC5qYXIiIDgxMjAgc3lzdXNlcgogICAgOzsKICB1Y2VudGVyKQogICAgcnVuX2phciAiJEJBQ0tFTkQvbWFkLW1pY3Jvc2VydmljZS11Y2VudGVyIiBcCiAgICAgICAgICAgICIkQkFDS0VORC9tYWQtbWljcm9zZXJ2aWNlLXVjZW50ZXIvdGFyZ2V0L21hZC1taWNyb3NlcnZpY2UtdWNlbnRlci0wLjAuMS1TTkFQU0hPVC5qYXIiIDgxMzAgdWNlbnRlcgogICAgOzsKICBhbGwpCiAgICBydW5famFyICIkQkFDS0VORC9tYWQtY29tbW9uc2VydmljZS1ldXJla2EiIFwKICAgICAgICAgICAgIiRCQUNLRU5EL21hZC1jb21tb25zZXJ2aWNlLWV1cmVrYS90YXJnZXQvbWFkLWNvbW1vbnNlcnZpY2UtZXVyZWthLTAuMC4xLVNOQVBTSE9ULmphciIgODIyMCBldXJla2EKICAgIHNsZWVwIDEyCiAgICBydW5famFyICIkQkFDS0VORC9tYWQtbWljcm9zZXJ2aWNlLWVkdSIgIiRKQVIiIDgxMTAgZWR1CiAgICA7OwogICopCiAgICBlY2hvICLnlKjms5U6ICQwIFtldXJla2F8ZWR1fHN5c3VzZXJ8dWNlbnRlcnxhbGxdIjsgZXhpdCAxCiAgICA7Owplc2FjCg==
+#!/bin/bash
+# MAD网课系统 — 后端服务启动脚本
+# 解决 Spring Boot 2.0.7 / Spring Cloud 在 JDK 17 下的两类兼容问题：
+#   1) CGLIB 反射需要 --add-opens java.base/java.lang=ALL-UNNAMED
+#   2) JAXB / java.desktop 反射需要额外 opens
+# 用法：./scripts/start_backend.sh [eureka|edu|sysuser|ucenter|all]
+
+set -e
+BACKEND="/Users/sang/Desktop/谷粒学院项目/workspace/backend/mad"
+JAVA="/opt/homebrew/opt/openjdk@17/bin/java"
+JAR="$BACKEND/mad-microservice-edu/target/mad-microservice-edu-0.0.1-SNAPSHOT.jar"
+
+# 所有微服务通用的 --add-opens
+OPENS="--add-opens java.base/java.lang=ALL-UNNAMED \
+--add-opens java.base/java.util=ALL-UNNAMED \
+--add-opens java.base/java.lang.reflect=ALL-UNNAMED \
+--add-opens java.base/java.text=ALL-UNNAMED \
+--add-opens java.base/java.net=ALL-UNNAMED \
+--add-opens java.base/java.io=ALL-UNNAMED \
+--add-opens java.base/java.nio=ALL-UNNAMED \
+--add-opens java.base/java.util.concurrent=ALL-UNNAMED \
+--add-opens java.base/java.time=ALL-UNNAMED \
+--add-opens java.base/sun.nio.ch=ALL-UNNAMED \
+--add-opens java.desktop/java.awt.font=ALL-UNNAMED \
+--add-opens java.rmi/sun.rmi.transport=ALL-UNNAMED"
+
+run_jar() {
+  local dir="$1" jar="$2" port="$3" name="$4"
+  if lsof -nP -iTCP:$port -sTCP:LISTEN >/dev/null 2>&1; then
+    echo "✓ $name 已在运行 (端口 $port)"
+    return 0
+  fi
+  cd "$dir"
+  unset SERVER__PORT
+  # nohup + disown 让服务脱离当前 shell 生命周期
+  nohup $JAVA $OPENS -jar "$jar" --server.port=$port > "/tmp/mad-$name.log" 2>&1 &
+  disown
+  echo "→ $name 启动中 (端口 $port)，日志 /tmp/mad-$name.log"
+}
+
+case "${1:-all}" in
+  eureka)
+    run_jar "$BACKEND/mad-commonservice-eureka" \
+            "$BACKEND/mad-commonservice-eureka/target/mad-commonservice-eureka-0.0.1-SNAPSHOT.jar" 8220 eureka
+    ;;
+  edu)
+    run_jar "$BACKEND/mad-microservice-edu" "$JAR" 8110 edu
+    ;;
+  sysuser)
+    run_jar "$BACKEND/mad-microservice-sysuser" \
+            "$BACKEND/mad-microservice-sysuser/target/mad-microservice-sysuser-0.0.1-SNAPSHOT.jar" 8120 sysuser
+    ;;
+  ucenter)
+    run_jar "$BACKEND/mad-microservice-ucenter" \
+            "$BACKEND/mad-microservice-ucenter/target/mad-microservice-ucenter-0.0.1-SNAPSHOT.jar" 8130 ucenter
+    ;;
+  all)
+    run_jar "$BACKEND/mad-commonservice-eureka" \
+            "$BACKEND/mad-commonservice-eureka/target/mad-commonservice-eureka-0.0.1-SNAPSHOT.jar" 8220 eureka
+    sleep 12
+    run_jar "$BACKEND/mad-microservice-edu" "$JAR" 8110 edu
+    ;;
+  *)
+    echo "用法: $0 [eureka|edu|sysuser|ucenter|all]"; exit 1
+    ;;
+esac

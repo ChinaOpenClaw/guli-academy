@@ -1,1 +1,41 @@
-cGFja2FnZSBjb20ubWFkLmNvbW1vbi5leGNlcHRpb247CgppbXBvcnQgY29tLm1hZC5jb21tb24uY29uc3RhbnRzLlJlc3VsdENvZGVFbnVtOwppbXBvcnQgaW8uc3dhZ2dlci5hbm5vdGF0aW9ucy5BcGlNb2RlbDsKaW1wb3J0IGlvLnN3YWdnZXIuYW5ub3RhdGlvbnMuQXBpTW9kZWxQcm9wZXJ0eTsKaW1wb3J0IGxvbWJvay5EYXRhOwoKLyoqCiAqIEBhdXRob3IgaGVsZW4KICogQHNpbmNlIDIwMTkvNi8yNQogKi8KQERhdGEKQEFwaU1vZGVsKHZhbHVlID0gIuiHquWumuS5ieWFqOWxgOW8guW4uOexuyIpCnB1YmxpYyBjbGFzcyBNYWRFeGNlcHRpb24gZXh0ZW5kcyBSdW50aW1lRXhjZXB0aW9uIHsKCglAQXBpTW9kZWxQcm9wZXJ0eSh2YWx1ZSA9ICLnirbmgIHnoIEiKQoJcHJpdmF0ZSBJbnRlZ2VyIGNvZGU7CgoJLyoqCgkgKiDmjqXmlLbnirbmgIHnoIHlkozplJnor6/mtojmga8KCSAqIEBwYXJhbSBjb2RlCgkgKiBAcGFyYW0gbWVzc2FnZQoJICovCglwdWJsaWMgTWFkRXhjZXB0aW9uKEludGVnZXIgY29kZSwgU3RyaW5nIG1lc3NhZ2UpewoJCXN1cGVyKG1lc3NhZ2UpOwoJCXRoaXMuY29kZSA9IGNvZGU7Cgl9CgoJcHVibGljIE1hZEV4Y2VwdGlvbihSZXN1bHRDb2RlRW51bSByZXN1bHRDb2RlRW51bSl7CgkJc3VwZXIocmVzdWx0Q29kZUVudW0uZ2V0TWVzc2FnZSgpKTsKCQl0aGlzLmNvZGUgPSByZXN1bHRDb2RlRW51bS5nZXRDb2RlKCk7Cgl9CgoJQE92ZXJyaWRlCglwdWJsaWMgU3RyaW5nIHRvU3RyaW5nKCkgewoJCXJldHVybiAiTWFkRXhjZXB0aW9ueyIgKwoJCQkJImNvZGU9IiArIGNvZGUgKwoJCQkJIiwgbWVzc2FnZT0iICsgdGhpcy5nZXRNZXNzYWdlKCkgKwoJCQkJJ30nOwoJfQp9Cg==
+package com.mad.common.exception;
+
+import com.mad.common.constants.ResultCodeEnum;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
+import lombok.Data;
+
+/**
+ * @author helen
+ * @since 2019/6/25
+ */
+@Data
+@ApiModel(value = "自定义全局异常类")
+public class MadException extends RuntimeException {
+
+	@ApiModelProperty(value = "状态码")
+	private Integer code;
+
+	/**
+	 * 接收状态码和错误消息
+	 * @param code
+	 * @param message
+	 */
+	public MadException(Integer code, String message){
+		super(message);
+		this.code = code;
+	}
+
+	public MadException(ResultCodeEnum resultCodeEnum){
+		super(resultCodeEnum.getMessage());
+		this.code = resultCodeEnum.getCode();
+	}
+
+	@Override
+	public String toString() {
+		return "MadException{" +
+				"code=" + code +
+				", message=" + this.getMessage() +
+				'}';
+	}
+}

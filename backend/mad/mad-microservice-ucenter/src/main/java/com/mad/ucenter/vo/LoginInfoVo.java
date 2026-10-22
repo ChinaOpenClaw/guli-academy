@@ -1,1 +1,19 @@
-cGFja2FnZSBjb20ubWFkLnVjZW50ZXIudm87CgppbXBvcnQgbG9tYm9rLkRhdGE7CgppbXBvcnQgamF2YS5pby5TZXJpYWxpemFibGU7CgovKioKICogQGF1dGhvciBoZWxlbgogKiBAc2luY2UgMjAxOS83LzcKICovCkBEYXRhCnB1YmxpYyBjbGFzcyBMb2dpbkluZm9WbyBpbXBsZW1lbnRzIFNlcmlhbGl6YWJsZSB7CgoJcHJpdmF0ZSBzdGF0aWMgZmluYWwgbG9uZyBzZXJpYWxWZXJzaW9uVUlEID0gMUw7CgoJcHJpdmF0ZSBTdHJpbmcgaWQ7Cglwcml2YXRlIFN0cmluZyBuaWNrbmFtZTsKCXByaXZhdGUgU3RyaW5nIGF2YXRhcjsKfQo=
+package com.mad.ucenter.vo;
+
+import lombok.Data;
+
+import java.io.Serializable;
+
+/**
+ * @author helen
+ * @since 2019/7/7
+ */
+@Data
+public class LoginInfoVo implements Serializable {
+
+	private static final long serialVersionUID = 1L;
+
+	private String id;
+	private String nickname;
+	private String avatar;
+}

@@ -1,1 +1,61 @@
-Ly8g6Zeu562U5pWw5o2uCmV4cG9ydCBjb25zdCBxdWVzdGlvbnMgPSBbCiAgewogICAgaWQ6IDEsCiAgICB0aXRsZTogJ0phdmEg5LitIFN0cmluZyDkuLrku4DkuYjorr7orqHmiJDkuI3lj6/lj5jvvJ8nLAogICAgYXNrZXI6ICfliJ3lrabogIXlsI/njosnLAogICAgZGF0ZTogJzIwMjYtMDktMjAnLAogICAgdmlld3M6IDU0MCwKICAgIGNvbnRlbnQ6ICfnnIvkuabor7QgU3RyaW5nIOS4jeWPr+WPmO+8jOS9huS4jeWkqueQhuino+i/meS5iOiuvuiuoeeahOWlveWkhOaYr+S7gOS5iO+8jOiDvemAmuS/l+iusuiusuWQl++8nycsCiAgICBhbnN3ZXJzOiBbCiAgICAgIHsgYXV0aG9yOiAn5a6L6ICB5biIJywgdGV4dDogJ+S4jeWPr+WPmOW4puadpeS4ieS4quWlveWkhO+8muWtl+espuS4suW4uOmHj+axoOWkjeeUqOiKguecgeWGheWtmO+8m+WkqeeEtue6v+eoi+WuieWFqO+8jOWPr+iHqueUseWFseS6q++8m+WFtiBoYXNoIOWAvOWPr+e8k+WtmO+8jOmAguWQiOWBmiBIYXNoTWFwIOeahCBrZXnjgIInIH0sCiAgICAgIHsgYXV0aG9yOiAn6ZmI5ZCM5a2mJywgdGV4dDogJ+ihpeWFheS4gOeCue+8muexu+WKoOi9veWZqOS5n+eUqCBTdHJpbmcg5YGa57G75ZCN77yM5LiN5Y+v5Y+Y6IO95L+d6K+B5a6J5YWo5oCn77yM6YG/5YWN6KKr56+h5pS544CCJyB9CiAgICBdCiAgfSwKICB7CiAgICBpZDogMiwKICAgIHRpdGxlOiAnVnVlMyDlkowgVnVlMiDlnKjlk43lupTlvI/kuIrmnInku4DkuYjljLrliKvvvJ8nLAogICAgYXNrZXI6ICfliY3nq69MaXNhJywKICAgIGRhdGU6ICcyMDI2LTA5LTE1JywKICAgIHZpZXdzOiA4ODAsCiAgICBjb250ZW50OiAn5ZCs6K+0IFZ1ZTMg55SoIFByb3h5IOmHjeWGmeS6huWTjeW6lOW8j++8jOebuOavlCBWdWUyIOeahCBPYmplY3QuZGVmaW5lUHJvcGVydHkg5aW95Zyo5ZOq77yfJywKICAgIGFuc3dlcnM6IFsKICAgICAgeyBhdXRob3I6ICfpmYjogIHluIgnLCB0ZXh0OiAnZGVmaW5lUHJvcGVydHkg5Y+q6IO95Yqr5oyB5bey5pyJ5bGe5oCn77yM5a+55paw5aKeL+WIoOmZpOWxnuaAp+mcgOimgSAkc2V077ybUHJveHkg6IO95Luj55CG5pW05Liq5a+56LGh77yM5aSp54S25pSv5oyB5pWw57uE57Si5byV44CB5Yqo5oCB5bGe5oCn77yM5LiU5peg6ZyA6YCS5b2S5Yid5aeL5YyW44CCJyB9CiAgICBdCiAgfSwKICB7CiAgICBpZDogMywKICAgIHRpdGxlOiAnTXlTUUwg5rex5YiG6aG177yIbGltaXQgMTAwMDAwMCwxMO+8ieaFouaAjuS5iOS8mOWMlu+8nycsCiAgICBhc2tlcjogJ0RCQeiAgeW8oCcsCiAgICBkYXRlOiAnMjAyNi0wOS0wMicsCiAgICB2aWV3czogNzEyLAogICAgY29udGVudDogJ+e/u+WIsOW+iOa3seeahOmhteaXtuafpeivoui2iuadpei2iuaFou+8jOacieS7gOS5iOW4uOingeeahOS8mOWMluaJi+aute+8nycsCiAgICBhbnN3ZXJzOiBbCiAgICAgIHsgYXV0aG9yOiAn5YiY6ICB5biIJywgdGV4dDogJ+eUqCLlu7bov5/lhbPogZQi77ya5YWI5oyJ57Si5byV5ou/5Yiw5Li76ZSuIGlk77yM5YaN5Zue6KGo5Y+W5pWw5o2u77yIc2VsZWN0ICogZnJvbSB0IGpvaW4gKHNlbGVjdCBpZCBmcm9tIHQgb3JkZXIgYnkgaWQgbGltaXQgMTAwMDAwMCwxMCkgYiB1c2luZyhpZCnvvInjgILmiJbmlLnnlKjmuLjmoIfliIbpobXvvIh3aGVyZSBpZD4/IG9yZGVyIGJ5IGlkIGxpbWl0IDEw77yJ44CCJyB9CiAgICBdCiAgfSwKICB7CiAgICBpZDogNCwKICAgIHRpdGxlOiAn5b6u5pyN5Yqh5LmL6Ze05oCO5LmI5L+d6K+B5pWw5o2u5LiA6Ie05oCn77yfJywKICAgIGFza2VyOiAn5p625p6E5biITWlrZScsCiAgICBkYXRlOiAnMjAyNi0wOC0yMScsCiAgICB2aWV3czogNjAzLAogICAgY29udGVudDogJ+S4i+WNleimgeaJo+W6k+WtmOOAgeWHj+S9memine+8jOi3qOacjeWKoeaAjuS5iOS/neivgeimgeS5iOmDveaIkOWKn+imgeS5iOmDveWbnua7mu+8nycsCiAgICBhbnN3ZXJzOiBbCiAgICAgIHsgYXV0aG9yOiAn5YiY6ICB5biIJywgdGV4dDogJ+W8uuS4gOiHtOWPr+eUqCBUQ0MvU2FnYe+8m+WkmuaVsOWcuuaZr+eUqCLmnKzlnLDmtojmga/ooaggKyBNUSLlgZrmnIDnu4jkuIDoh7TvvIzkv53or4HluYLnrYnljbPlj6/jgILlhYjmg7PmuIXmpZrkuJrliqHog73lkKbmjqXlj5fnn63mmoLkuI3kuIDoh7TjgIInIH0KICAgIF0KICB9LAogIHsKICAgIGlkOiA1LAogICAgdGl0bGU6ICdIYWRvb3Ag5ZKMIFNwYXJrIOWIsOW6leS7gOS5iOWFs+ezu++8nycsCiAgICBhc2tlcjogJ+Wkp+aVsOaNruiQjOaWsCcsCiAgICBkYXRlOiAnMjAyNi0wOC0xMCcsCiAgICB2aWV3czogNDU1LAogICAgY29udGVudDogJ+aAu+aYr+aQnua3t++8jOWug+S7rOaYr+abv+S7o+WFs+ezu+i/mOaYr+S6kuihpeWFs+ezu++8nycsCiAgICBhbnN3ZXJzOiBbCiAgICAgIHsgYXV0aG9yOiAn546L6ICB5biIJywgdGV4dDogJ+S6kuihpeOAgkhhZG9vcCDmj5DkvpsgSERGUyDlrZjlgqggKyBNYXBSZWR1Y2Ug5om56K6h566X77ybU3Bhcmsg5piv5pu05b+r55qE5YaF5a2Y6K6h566X5byV5pOO77yM6YCa5bi46LeR5ZyoIEhhZG9vcCDnmoQgSERGUyDkuYvkuIrvvIzmm7/ku6PnmoTmmK8gTWFwUmVkdWNlIOiAjOmdniBIREZT44CCJyB9CiAgICBdCiAgfQpdCgpleHBvcnQgY29uc3QgZ2V0UXVlc3Rpb24gPSAoaWQpID0+IHF1ZXN0aW9ucy5maW5kKChxKSA9PiBxLmlkID09PSBOdW1iZXIoaWQpKQo=
+// 问答数据
+export const questions = [
+  {
+    id: 1,
+    title: 'Java 中 String 为什么设计成不可变？',
+    asker: '初学者小王',
+    date: '2026-09-20',
+    views: 540,
+    content: '看书说 String 不可变，但不太理解这么设计的好处是什么，能通俗讲讲吗？',
+    answers: [
+      { author: '宋老师', text: '不可变带来三个好处：字符串常量池复用节省内存；天然线程安全，可自由共享；其 hash 值可缓存，适合做 HashMap 的 key。' },
+      { author: '陈同学', text: '补充一点：类加载器也用 String 做类名，不可变能保证安全性，避免被篡改。' }
+    ]
+  },
+  {
+    id: 2,
+    title: 'Vue3 和 Vue2 在响应式上有什么区别？',
+    asker: '前端Lisa',
+    date: '2026-09-15',
+    views: 880,
+    content: '听说 Vue3 用 Proxy 重写了响应式，相比 Vue2 的 Object.defineProperty 好在哪？',
+    answers: [
+      { author: '陈老师', text: 'defineProperty 只能劫持已有属性，对新增/删除属性需要 $set；Proxy 能代理整个对象，天然支持数组索引、动态属性，且无需递归初始化。' }
+    ]
+  },
+  {
+    id: 3,
+    title: 'MySQL 深分页（limit 1000000,10）慢怎么优化？',
+    asker: 'DBA老张',
+    date: '2026-09-02',
+    views: 712,
+    content: '翻到很深的页时查询越来越慢，有什么常见的优化手段？',
+    answers: [
+      { author: '刘老师', text: '用"延迟关联"：先按索引拿到主键 id，再回表取数据（select * from t join (select id from t order by id limit 1000000,10) b using(id)）。或改用游标分页（where id>? order by id limit 10）。' }
+    ]
+  },
+  {
+    id: 4,
+    title: '微服务之间怎么保证数据一致性？',
+    asker: '架构师Mike',
+    date: '2026-08-21',
+    views: 603,
+    content: '下单要扣库存、减余额，跨服务怎么保证要么都成功要么都回滚？',
+    answers: [
+      { author: '刘老师', text: '强一致可用 TCC/Saga；多数场景用"本地消息表 + MQ"做最终一致，保证幂等即可。先想清楚业务能否接受短暂不一致。' }
+    ]
+  },
+  {
+    id: 5,
+    title: 'Hadoop 和 Spark 到底什么关系？',
+    asker: '大数据萌新',
+    date: '2026-08-10',
+    views: 455,
+    content: '总是搞混，它们是替代关系还是互补关系？',
+    answers: [
+      { author: '王老师', text: '互补。Hadoop 提供 HDFS 存储 + MapReduce 批计算；Spark 是更快的内存计算引擎，通常跑在 Hadoop 的 HDFS 之上，替代的是 MapReduce 而非 HDFS。' }
+    ]
+  }
+]
+
+export const getQuestion = (id) => questions.find((q) => q.id === Number(id))

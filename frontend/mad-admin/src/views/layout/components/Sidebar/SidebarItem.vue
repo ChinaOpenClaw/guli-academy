@@ -1,1 +1,101 @@
-PHRlbXBsYXRlPgogIDxkaXYgdi1pZj0iIWl0ZW0uaGlkZGVuJiZpdGVtLmNoaWxkcmVuIiBjbGFzcz0ibWVudS13cmFwcGVyIj4KCiAgICA8dGVtcGxhdGUgdi1pZj0iaGFzT25lU2hvd2luZ0NoaWxkKGl0ZW0uY2hpbGRyZW4saXRlbSkgJiYgKCFvbmx5T25lQ2hpbGQuY2hpbGRyZW58fG9ubHlPbmVDaGlsZC5ub1Nob3dpbmdDaGlsZHJlbikmJiFpdGVtLmFsd2F5c1Nob3ciPgogICAgICA8YXBwLWxpbmsgOnRvPSJyZXNvbHZlUGF0aChvbmx5T25lQ2hpbGQucGF0aCkiPgogICAgICAgIDxlbC1tZW51LWl0ZW0gOmluZGV4PSJyZXNvbHZlUGF0aChvbmx5T25lQ2hpbGQucGF0aCkiIDpjbGFzcz0ieydzdWJtZW51LXRpdGxlLW5vRHJvcGRvd24nOiFpc05lc3R9Ij4KICAgICAgICAgIDxpdGVtIHYtaWY9Im9ubHlPbmVDaGlsZC5tZXRhIiA6aWNvbj0ib25seU9uZUNoaWxkLm1ldGEuaWNvbnx8aXRlbS5tZXRhLmljb24iIDp0aXRsZT0ib25seU9uZUNoaWxkLm1ldGEudGl0bGUiIC8+CiAgICAgICAgPC9lbC1tZW51LWl0ZW0+CiAgICAgIDwvYXBwLWxpbms+CiAgICA8L3RlbXBsYXRlPgoKICAgIDxlbC1zdWJtZW51IHYtZWxzZSA6aW5kZXg9InJlc29sdmVQYXRoKGl0ZW0ucGF0aCkiPgogICAgICA8dGVtcGxhdGUgc2xvdD0idGl0bGUiPgogICAgICAgIDxpdGVtIHYtaWY9Iml0ZW0ubWV0YSIgOmljb249Iml0ZW0ubWV0YS5pY29uIiA6dGl0bGU9Iml0ZW0ubWV0YS50aXRsZSIgLz4KICAgICAgPC90ZW1wbGF0ZT4KCiAgICAgIDx0ZW1wbGF0ZSB2LWZvcj0iY2hpbGQgaW4gaXRlbS5jaGlsZHJlbiIgdi1pZj0iIWNoaWxkLmhpZGRlbiI+CiAgICAgICAgPHNpZGViYXItaXRlbQogICAgICAgICAgdi1pZj0iY2hpbGQuY2hpbGRyZW4mJmNoaWxkLmNoaWxkcmVuLmxlbmd0aD4wIgogICAgICAgICAgOmlzLW5lc3Q9InRydWUiCiAgICAgICAgICA6aXRlbT0iY2hpbGQiCiAgICAgICAgICA6a2V5PSJjaGlsZC5wYXRoIgogICAgICAgICAgOmJhc2UtcGF0aD0icmVzb2x2ZVBhdGgoY2hpbGQucGF0aCkiCiAgICAgICAgICBjbGFzcz0ibmVzdC1tZW51IiAvPgogICAgICAgIDxhcHAtbGluayB2LWVsc2UgOnRvPSJyZXNvbHZlUGF0aChjaGlsZC5wYXRoKSIgOmtleT0iY2hpbGQubmFtZSI+CiAgICAgICAgICA8ZWwtbWVudS1pdGVtIDppbmRleD0icmVzb2x2ZVBhdGgoY2hpbGQucGF0aCkiPgogICAgICAgICAgICA8aXRlbSB2LWlmPSJjaGlsZC5tZXRhIiA6aWNvbj0iY2hpbGQubWV0YS5pY29uIiA6dGl0bGU9ImNoaWxkLm1ldGEudGl0bGUiIC8+CiAgICAgICAgICA8L2VsLW1lbnUtaXRlbT4KICAgICAgICA8L2FwcC1saW5rPgogICAgICA8L3RlbXBsYXRlPgogICAgPC9lbC1zdWJtZW51PgoKICA8L2Rpdj4KPC90ZW1wbGF0ZT4KCjxzY3JpcHQ+CmltcG9ydCBwYXRoIGZyb20gJ3BhdGgnCmltcG9ydCB7IGlzRXh0ZXJuYWwgfSBmcm9tICdAL3V0aWxzJwppbXBvcnQgSXRlbSBmcm9tICcuL0l0ZW0nCmltcG9ydCBBcHBMaW5rIGZyb20gJy4vTGluaycKCmV4cG9ydCBkZWZhdWx0IHsKICBuYW1lOiAnU2lkZWJhckl0ZW0nLAogIGNvbXBvbmVudHM6IHsgSXRlbSwgQXBwTGluayB9LAogIHByb3BzOiB7CiAgICAvLyByb3V0ZSBvYmplY3QKICAgIGl0ZW06IHsKICAgICAgdHlwZTogT2JqZWN0LAogICAgICByZXF1aXJlZDogdHJ1ZQogICAgfSwKICAgIGlzTmVzdDogewogICAgICB0eXBlOiBCb29sZWFuLAogICAgICBkZWZhdWx0OiBmYWxzZQogICAgfSwKICAgIGJhc2VQYXRoOiB7CiAgICAgIHR5cGU6IFN0cmluZywKICAgICAgZGVmYXVsdDogJycKICAgIH0KICB9LAogIGRhdGEoKSB7CiAgICByZXR1cm4gewogICAgICBvbmx5T25lQ2hpbGQ6IG51bGwKICAgIH0KICB9LAogIG1ldGhvZHM6IHsKICAgIGhhc09uZVNob3dpbmdDaGlsZChjaGlsZHJlbiwgcGFyZW50KSB7CiAgICAgIGNvbnN0IHNob3dpbmdDaGlsZHJlbiA9IGNoaWxkcmVuLmZpbHRlcihpdGVtID0+IHsKICAgICAgICBpZiAoaXRlbS5oaWRkZW4pIHsKICAgICAgICAgIHJldHVybiBmYWxzZQogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAvLyBUZW1wIHNldCh3aWxsIGJlIHVzZWQgaWYgb25seSBoYXMgb25lIHNob3dpbmcgY2hpbGQpCiAgICAgICAgICB0aGlzLm9ubHlPbmVDaGlsZCA9IGl0ZW0KICAgICAgICAgIHJldHVybiB0cnVlCiAgICAgICAgfQogICAgICB9KQoKICAgICAgLy8gV2hlbiB0aGVyZSBpcyBvbmx5IG9uZSBjaGlsZCByb3V0ZXIsIHRoZSBjaGlsZCByb3V0ZXIgaXMgZGlzcGxheWVkIGJ5IGRlZmF1bHQKICAgICAgaWYgKHNob3dpbmdDaGlsZHJlbi5sZW5ndGggPT09IDEpIHsKICAgICAgICByZXR1cm4gdHJ1ZQogICAgICB9CgogICAgICAvLyBTaG93IHBhcmVudCBpZiB0aGVyZSBhcmUgbm8gY2hpbGQgcm91dGVyIHRvIGRpc3BsYXkKICAgICAgaWYgKHNob3dpbmdDaGlsZHJlbi5sZW5ndGggPT09IDApIHsKICAgICAgICB0aGlzLm9ubHlPbmVDaGlsZCA9IHsgLi4uIHBhcmVudCwgcGF0aDogJycsIG5vU2hvd2luZ0NoaWxkcmVuOiB0cnVlIH0KICAgICAgICByZXR1cm4gdHJ1ZQogICAgICB9CgogICAgICByZXR1cm4gZmFsc2UKICAgIH0sCiAgICByZXNvbHZlUGF0aChyb3V0ZVBhdGgpIHsKICAgICAgaWYgKHRoaXMuaXNFeHRlcm5hbExpbmsocm91dGVQYXRoKSkgewogICAgICAgIHJldHVybiByb3V0ZVBhdGgKICAgICAgfQogICAgICByZXR1cm4gcGF0aC5yZXNvbHZlKHRoaXMuYmFzZVBhdGgsIHJvdXRlUGF0aCkKICAgIH0sCiAgICBpc0V4dGVybmFsTGluayhyb3V0ZVBhdGgpIHsKICAgICAgcmV0dXJuIGlzRXh0ZXJuYWwocm91dGVQYXRoKQogICAgfQogIH0KfQo8L3NjcmlwdD4K
+<template>
+  <div v-if="!item.hidden&&item.children" class="menu-wrapper">
+
+    <template v-if="hasOneShowingChild(item.children,item) && (!onlyOneChild.children||onlyOneChild.noShowingChildren)&&!item.alwaysShow">
+      <app-link :to="resolvePath(onlyOneChild.path)">
+        <el-menu-item :index="resolvePath(onlyOneChild.path)" :class="{'submenu-title-noDropdown':!isNest}">
+          <item v-if="onlyOneChild.meta" :icon="onlyOneChild.meta.icon||item.meta.icon" :title="onlyOneChild.meta.title" />
+        </el-menu-item>
+      </app-link>
+    </template>
+
+    <el-submenu v-else :index="resolvePath(item.path)">
+      <template slot="title">
+        <item v-if="item.meta" :icon="item.meta.icon" :title="item.meta.title" />
+      </template>
+
+      <template v-for="child in item.children" v-if="!child.hidden">
+        <sidebar-item
+          v-if="child.children&&child.children.length>0"
+          :is-nest="true"
+          :item="child"
+          :key="child.path"
+          :base-path="resolvePath(child.path)"
+          class="nest-menu" />
+        <app-link v-else :to="resolvePath(child.path)" :key="child.name">
+          <el-menu-item :index="resolvePath(child.path)">
+            <item v-if="child.meta" :icon="child.meta.icon" :title="child.meta.title" />
+          </el-menu-item>
+        </app-link>
+      </template>
+    </el-submenu>
+
+  </div>
+</template>
+
+<script>
+import path from 'path'
+import { isExternal } from '@/utils'
+import Item from './Item'
+import AppLink from './Link'
+
+export default {
+  name: 'SidebarItem',
+  components: { Item, AppLink },
+  props: {
+    // route object
+    item: {
+      type: Object,
+      required: true
+    },
+    isNest: {
+      type: Boolean,
+      default: false
+    },
+    basePath: {
+      type: String,
+      default: ''
+    }
+  },
+  data() {
+    return {
+      onlyOneChild: null
+    }
+  },
+  methods: {
+    hasOneShowingChild(children, parent) {
+      const showingChildren = children.filter(item => {
+        if (item.hidden) {
+          return false
+        } else {
+          // Temp set(will be used if only has one showing child)
+          this.onlyOneChild = item
+          return true
+        }
+      })
+
+      // When there is only one child router, the child router is displayed by default
+      if (showingChildren.length === 1) {
+        return true
+      }
+
+      // Show parent if there are no child router to display
+      if (showingChildren.length === 0) {
+        this.onlyOneChild = { ... parent, path: '', noShowingChildren: true }
+        return true
+      }
+
+      return false
+    },
+    resolvePath(routePath) {
+      if (this.isExternalLink(routePath)) {
+        return routePath
+      }
+      return path.resolve(this.basePath, routePath)
+    },
+    isExternalLink(routePath) {
+      return isExternal(routePath)
+    }
+  }
+}
+</script>

@@ -1,1 +1,192 @@
-cGFja2FnZSBjb20ubWFkLmVkdS5zZXJ2aWNlLmltcGw7CgppbXBvcnQgY29tLmJhb21pZG91Lm15YmF0aXNwbHVzLmNvcmUuY29uZGl0aW9ucy5xdWVyeS5RdWVyeVdyYXBwZXI7CmltcG9ydCBjb20uYmFvbWlkb3UubXliYXRpc3BsdXMuZXh0ZW5zaW9uLnNlcnZpY2UuaW1wbC5TZXJ2aWNlSW1wbDsKaW1wb3J0IGNvbS5tYWQuY29tbW9uLnV0aWwuRXhjZWxJbXBvcnRVdGlsOwppbXBvcnQgY29tLm1hZC5lZHUuZW50aXR5LlN1YmplY3Q7CmltcG9ydCBjb20ubWFkLmVkdS5tYXBwZXIuU3ViamVjdE1hcHBlcjsKaW1wb3J0IGNvbS5tYWQuZWR1LnNlcnZpY2UuU3ViamVjdFNlcnZpY2U7CmltcG9ydCBjb20ubWFkLmVkdS52by5TdWJqZWN0TmVzdGVkVm87CmltcG9ydCBjb20ubWFkLmVkdS52by5TdWJqZWN0Vm87CmltcG9ydCBjb20ubWFkLmVkdS52by5TdWJqZWN0Vm8yOwppbXBvcnQgb3JnLmFwYWNoZS5wb2kuc3MudXNlcm1vZGVsLkNlbGw7CmltcG9ydCBvcmcuYXBhY2hlLnBvaS5zcy51c2VybW9kZWwuUm93OwppbXBvcnQgb3JnLmFwYWNoZS5wb2kuc3MudXNlcm1vZGVsLlNoZWV0OwppbXBvcnQgb3JnLnNwcmluZ2ZyYW1ld29yay5iZWFucy5CZWFuVXRpbHM7CmltcG9ydCBvcmcuc3ByaW5nZnJhbWV3b3JrLnN0ZXJlb3R5cGUuU2VydmljZTsKaW1wb3J0IG9yZy5zcHJpbmdmcmFtZXdvcmsudHJhbnNhY3Rpb24uYW5ub3RhdGlvbi5UcmFuc2FjdGlvbmFsOwppbXBvcnQgb3JnLnNwcmluZ2ZyYW1ld29yay51dGlsLlN0cmluZ1V0aWxzOwppbXBvcnQgb3JnLnNwcmluZ2ZyYW1ld29yay53ZWIubXVsdGlwYXJ0Lk11bHRpcGFydEZpbGU7CgppbXBvcnQgamF2YS51dGlsLkFycmF5TGlzdDsKaW1wb3J0IGphdmEudXRpbC5MaXN0OwoKLyoqCiAqIDxwPgogKiDor77nqIvnp5Hnm64g5pyN5Yqh5a6e546w57G7CiAqIDwvcD4KICoKICogQGF1dGhvciBIZWxlbgogKiBAc2luY2UgMjAxOS0wNi0yNAogKi8KQFNlcnZpY2UKcHVibGljIGNsYXNzIFN1YmplY3RTZXJ2aWNlSW1wbCBleHRlbmRzIFNlcnZpY2VJbXBsPFN1YmplY3RNYXBwZXIsIFN1YmplY3Q+IGltcGxlbWVudHMgU3ViamVjdFNlcnZpY2UgewoKCglAVHJhbnNhY3Rpb25hbAoJQE92ZXJyaWRlCglwdWJsaWMgTGlzdDxTdHJpbmc+IGJhdGNoSW1wb3J0KE11bHRpcGFydEZpbGUgZmlsZSkgdGhyb3dzIEV4Y2VwdGlvbiB7CgoJCS8v6ZSZ6K+v5raI5oGv5YiX6KGoCgkJTGlzdDxTdHJpbmc+IGVycm9yTXNnID0gbmV3IEFycmF5TGlzdDw+KCk7CgoJCS8v5Yib5bu65bel5YW357G75a+56LGhCgkJRXhjZWxJbXBvcnRVdGlsIGV4Y2VsSFNTRlV0aWwgPSBuZXcgRXhjZWxJbXBvcnRVdGlsKGZpbGUuZ2V0SW5wdXRTdHJlYW0oKSk7CgkJLy/ojrflj5blt6XkvZzooagKCQlTaGVldCBzaGVldCA9IGV4Y2VsSFNTRlV0aWwuZ2V0U2hlZXQoKTsKCgkJaW50IHJvd0NvdW50ID0gc2hlZXQuZ2V0UGh5c2ljYWxOdW1iZXJPZlJvd3MoKTsKCQlpZiAocm93Q291bnQgPD0gMSkgewoJCQllcnJvck1zZy5hZGQoIuivt+Whq+WGmeaVsOaNriIpOwoJCQlyZXR1cm4gZXJyb3JNc2c7CgkJfQoKCQlmb3IgKGludCByb3dOdW0gPSAxOyByb3dOdW0gPCByb3dDb3VudDsgcm93TnVtKyspIHsKCgkJCVJvdyByb3dEYXRhID0gc2hlZXQuZ2V0Um93KHJvd051bSk7CgkJCWlmIChyb3dEYXRhICE9IG51bGwpIHsvLyDooYzkuI3kuLrnqboKCgkJCQkvL+iOt+WPluS4gOe6p+WIhuexuwoJCQkJU3RyaW5nIGxldmVsT25lVmFsdWUgPSAiIjsKCQkJCUNlbGwgbGV2ZWxPbmVDZWxsID0gcm93RGF0YS5nZXRDZWxsKDApOwoJCQkJaWYobGV2ZWxPbmVDZWxsICE9IG51bGwpewoJCQkJCWxldmVsT25lVmFsdWUgPSBleGNlbEhTU0ZVdGlsLmdldENlbGxWYWx1ZShsZXZlbE9uZUNlbGwpLnRyaW0oKTsKCQkJCQlpZiAoU3RyaW5nVXRpbHMuaXNFbXB0eShsZXZlbE9uZVZhbHVlKSkgewoJCQkJCQllcnJvck1zZy5hZGQoIuesrCIgKyByb3dOdW0gKyAi6KGM5LiA57qn5YiG57G75Li656m6Iik7CgkJCQkJCWNvbnRpbnVlOwoJCQkJCX0KCQkJCX0KCgkJCQkvL+WIpOaWreS4gOe6p+WIhuexu+aYr+WQpumHjeWkjQoJCQkJU3ViamVjdCBzdWJqZWN0ID0gdGhpcy5nZXRCeVRpdGxlKGxldmVsT25lVmFsdWUpOwoJCQkJU3RyaW5nIHBhcmVudElkID0gbnVsbDsKCQkJCWlmKHN1YmplY3QgPT0gbnVsbCl7CgkJCQkJLy/lsIbkuIDnuqfliIbnsbvlrZjlhaXmlbDmja7lupMKCQkJCQlTdWJqZWN0IHN1YmplY3RMZXZlbE9uZSA9IG5ldyBTdWJqZWN0KCk7CgkJCQkJc3ViamVjdExldmVsT25lLnNldFRpdGxlKGxldmVsT25lVmFsdWUpOwoJCQkJCXN1YmplY3RMZXZlbE9uZS5zZXRTb3J0KHJvd051bSk7CgkJCQkJYmFzZU1hcHBlci5pbnNlcnQoc3ViamVjdExldmVsT25lKTsvL+a3u+WKoAoJCQkJCXBhcmVudElkID0gc3ViamVjdExldmVsT25lLmdldElkKCk7CgkJCQl9ZWxzZXsKCQkJCQlwYXJlbnRJZCA9IHN1YmplY3QuZ2V0SWQoKTsKCQkJCX0KCgoJCQkJLy/ojrflj5bkuoznuqfliIbnsbsKCQkJCVN0cmluZyBsZXZlbFR3b1ZhbHVlID0gIiI7CgkJCQlDZWxsIGxldmVsVHdvQ2VsbCA9IHJvd0RhdGEuZ2V0Q2VsbCgxKTsKCQkJCWlmKGxldmVsVHdvQ2VsbCAhPSBudWxsKXsKCQkJCQlsZXZlbFR3b1ZhbHVlID0gZXhjZWxIU1NGVXRpbC5nZXRDZWxsVmFsdWUobGV2ZWxUd29DZWxsKS50cmltKCk7CgkJCQkJaWYgKFN0cmluZ1V0aWxzLmlzRW1wdHkobGV2ZWxUd29WYWx1ZSkpIHsKCQkJCQkJZXJyb3JNc2cuYWRkKCLnrKwiICsgcm93TnVtICsgIuihjOS6jOe6p+WIhuexu+S4uuepuiIpOwoJCQkJCQljb250aW51ZTsKCQkJCQl9CgkJCQl9CgoJCQkJLy/liKTmlq3kuoznuqfliIbnsbvmmK/lkKbph43lpI0KCQkJCVN1YmplY3Qgc3ViamVjdFN1YiA9IHRoaXMuZ2V0U3ViQnlUaXRsZShsZXZlbFR3b1ZhbHVlLCBwYXJlbnRJZCk7CgkJCQlTdWJqZWN0IHN1YmplY3RMZXZlbFR3byA9IG51bGw7CgkJCQlpZihzdWJqZWN0U3ViID09IG51bGwpewoJCQkJCS8v5bCG5LqM57qn5YiG57G75a2Y5YWl5pWw5o2u5bqTCgkJCQkJc3ViamVjdExldmVsVHdvID0gbmV3IFN1YmplY3QoKTsKCQkJCQlzdWJqZWN0TGV2ZWxUd28uc2V0VGl0bGUobGV2ZWxUd29WYWx1ZSk7CgkJCQkJc3ViamVjdExldmVsVHdvLnNldFBhcmVudElkKHBhcmVudElkKTsKCQkJCQlzdWJqZWN0TGV2ZWxUd28uc2V0U29ydChyb3dOdW0pOwoJCQkJCWJhc2VNYXBwZXIuaW5zZXJ0KHN1YmplY3RMZXZlbFR3byk7Ly/mt7vliqAKCQkJCX0KCQkJfQoJCX0KCgkJcmV0dXJuIGVycm9yTXNnOwoJfQoKCUBPdmVycmlkZQoJcHVibGljIExpc3Q8U3ViamVjdE5lc3RlZFZvPiBuZXN0ZWRMaXN0KCkgewoKCQkvL+acgOe7iOimgeeahOWIsOeahOaVsOaNruWIl+ihqAoJCUFycmF5TGlzdDxTdWJqZWN0TmVzdGVkVm8+IHN1YmplY3ROZXN0ZWRWb0FycmF5TGlzdCA9IG5ldyBBcnJheUxpc3Q8PigpOwoKCQkvL+iOt+WPluS4gOe6p+WIhuexu+aVsOaNruiusOW9lQoJCVF1ZXJ5V3JhcHBlcjxTdWJqZWN0PiBxdWVyeVdyYXBwZXIgPSBuZXcgUXVlcnlXcmFwcGVyPD4oKTsKCQlxdWVyeVdyYXBwZXIuZXEoInBhcmVudF9pZCIsIDApOwoJCXF1ZXJ5V3JhcHBlci5vcmRlckJ5QXNjKCJzb3J0IiwgImlkIik7CgkJTGlzdDxTdWJqZWN0PiBzdWJqZWN0cyA9IGJhc2VNYXBwZXIuc2VsZWN0TGlzdChxdWVyeVdyYXBwZXIpOwoKCQkvL+iOt+WPluS6jOe6p+WIhuexu+aVsOaNruiusOW9lQoJCVF1ZXJ5V3JhcHBlcjxTdWJqZWN0PiBxdWVyeVdyYXBwZXIyID0gbmV3IFF1ZXJ5V3JhcHBlcjw+KCk7CgkJcXVlcnlXcmFwcGVyMi5uZSgicGFyZW50X2lkIiwgMCk7CgkJcXVlcnlXcmFwcGVyMi5vcmRlckJ5QXNjKCJzb3J0IiwgImlkIik7CgkJTGlzdDxTdWJqZWN0PiBzdWJTdWJqZWN0cyA9IGJhc2VNYXBwZXIuc2VsZWN0TGlzdChxdWVyeVdyYXBwZXIyKTsKCgkJLy/loavlhYXkuIDnuqfliIbnsbt2b+aVsOaNrgoJCWludCBjb3VudCA9IHN1YmplY3RzLnNpemUoKTsKCQlmb3IgKGludCBpID0gMDsgaSA8IGNvdW50OyBpKyspIHsKCQkJU3ViamVjdCBzdWJqZWN0ID0gc3ViamVjdHMuZ2V0KGkpOwoKCQkJLy/liJvlu7rkuIDnuqfnsbvliKt2b+WvueixoQoJCQlTdWJqZWN0TmVzdGVkVm8gc3ViamVjdE5lc3RlZFZvID0gbmV3IFN1YmplY3ROZXN0ZWRWbygpOwoJCQlCZWFuVXRpbHMuY29weVByb3BlcnRpZXMoc3ViamVjdCwgc3ViamVjdE5lc3RlZFZvKTsKCQkJc3ViamVjdE5lc3RlZFZvQXJyYXlMaXN0LmFkZChzdWJqZWN0TmVzdGVkVm8pOwoKCQkJLy/loavlhYXkuoznuqfliIbnsbt2b+aVsOaNrgoJCQlBcnJheUxpc3Q8U3ViamVjdFZvPiBzdWJqZWN0Vm9BcnJheUxpc3QgPSBuZXcgQXJyYXlMaXN0PD4oKTsKCQkJaW50IGNvdW50MiA9IHN1YlN1YmplY3RzLnNpemUoKTsKCQkJZm9yIChpbnQgaiA9IDA7IGogPCBjb3VudDI7IGorKykgewoKCQkJCVN1YmplY3Qgc3ViU3ViamVjdCA9IHN1YlN1YmplY3RzLmdldChqKTsKCQkJCWlmKHN1YmplY3QuZ2V0SWQoKS5lcXVhbHMoc3ViU3ViamVjdC5nZXRQYXJlbnRJZCgpKSl7CgoJCQkJCS8v5Yib5bu65LqM57qn57G75Yirdm/lr7nosaEKCQkJCQlTdWJqZWN0Vm8gc3ViamVjdFZvID0gbmV3IFN1YmplY3RWbygpOwoJCQkJCUJlYW5VdGlscy5jb3B5UHJvcGVydGllcyhzdWJTdWJqZWN0LCBzdWJqZWN0Vm8pOwoJCQkJCXN1YmplY3RWb0FycmF5TGlzdC5hZGQoc3ViamVjdFZvKTsKCQkJCX0KCQkJfQoJCQlzdWJqZWN0TmVzdGVkVm8uc2V0Q2hpbGRyZW4oc3ViamVjdFZvQXJyYXlMaXN0KTsKCQl9CgoJCXJldHVybiBzdWJqZWN0TmVzdGVkVm9BcnJheUxpc3Q7Cgl9CgoJQE92ZXJyaWRlCglwdWJsaWMgTGlzdDxTdWJqZWN0Vm8yPiBuZXN0ZWRMaXN0MigpIHsKCQlyZXR1cm4gYmFzZU1hcHBlci5zZWxlY3ROZXN0ZWRMaXN0QnlQYXJlbnRJZCgiMCIpOwoJfQoKCgkvKioKCSAqIOagueaNruWIhuexu+WQjeensOafpeivoui/meS4quS4gOe6p+WIhuexu+S4reWQpuWtmOWcqAoJICogQHBhcmFtIHRpdGxlCgkgKiBAcmV0dXJuCgkgKi8KCXByaXZhdGUgU3ViamVjdCBnZXRCeVRpdGxlKFN0cmluZyB0aXRsZSkgewoKCQlRdWVyeVdyYXBwZXI8U3ViamVjdD4gcXVlcnlXcmFwcGVyID0gbmV3IFF1ZXJ5V3JhcHBlcjw+KCk7CgkJcXVlcnlXcmFwcGVyLmVxKCJ0aXRsZSIsIHRpdGxlKTsKCQlxdWVyeVdyYXBwZXIuZXEoInBhcmVudF9pZCIsICIwIik7Ly/kuIDnuqfliIbnsbsKCQlyZXR1cm4gYmFzZU1hcHBlci5zZWxlY3RPbmUocXVlcnlXcmFwcGVyKTsKCX0KCgkvKioKCSAqIOagueaNruWIhuexu+WQjeensOWSjOeItmlk5p+l6K+i6L+Z5Liq5LqM57qn5YiG57G75Lit5ZCm5a2Y5ZyoCgkgKiBAcGFyYW0gdGl0bGUKCSAqIEByZXR1cm4KCSAqLwoJcHJpdmF0ZSBTdWJqZWN0IGdldFN1YkJ5VGl0bGUoU3RyaW5nIHRpdGxlLCBTdHJpbmcgcGFyZW50SWQpIHsKCgkJUXVlcnlXcmFwcGVyPFN1YmplY3Q+IHF1ZXJ5V3JhcHBlciA9IG5ldyBRdWVyeVdyYXBwZXI8PigpOwoJCXF1ZXJ5V3JhcHBlci5lcSgidGl0bGUiLCB0aXRsZSk7CgkJcXVlcnlXcmFwcGVyLmVxKCJwYXJlbnRfaWQiLCBwYXJlbnRJZCk7CgkJcmV0dXJuIGJhc2VNYXBwZXIuc2VsZWN0T25lKHF1ZXJ5V3JhcHBlcik7Cgl9Cn0K
+package com.mad.edu.service.impl;
+
+import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
+import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.mad.common.util.ExcelImportUtil;
+import com.mad.edu.entity.Subject;
+import com.mad.edu.mapper.SubjectMapper;
+import com.mad.edu.service.SubjectService;
+import com.mad.edu.vo.SubjectNestedVo;
+import com.mad.edu.vo.SubjectVo;
+import com.mad.edu.vo.SubjectVo2;
+import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.ss.usermodel.Sheet;
+import org.springframework.beans.BeanUtils;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+import org.springframework.util.StringUtils;
+import org.springframework.web.multipart.MultipartFile;
+
+import java.util.ArrayList;
+import java.util.List;
+
+/**
+ * <p>
+ * 课程科目 服务实现类
+ * </p>
+ *
+ * @author Helen
+ * @since 2019-06-24
+ */
+@Service
+public class SubjectServiceImpl extends ServiceImpl<SubjectMapper, Subject> implements SubjectService {
+
+
+	@Transactional
+	@Override
+	public List<String> batchImport(MultipartFile file) throws Exception {
+
+		//错误消息列表
+		List<String> errorMsg = new ArrayList<>();
+
+		//创建工具类对象
+		ExcelImportUtil excelHSSFUtil = new ExcelImportUtil(file.getInputStream());
+		//获取工作表
+		Sheet sheet = excelHSSFUtil.getSheet();
+
+		int rowCount = sheet.getPhysicalNumberOfRows();
+		if (rowCount <= 1) {
+			errorMsg.add("请填写数据");
+			return errorMsg;
+		}
+
+		for (int rowNum = 1; rowNum < rowCount; rowNum++) {
+
+			Row rowData = sheet.getRow(rowNum);
+			if (rowData != null) {// 行不为空
+
+				//获取一级分类
+				String levelOneValue = "";
+				Cell levelOneCell = rowData.getCell(0);
+				if(levelOneCell != null){
+					levelOneValue = excelHSSFUtil.getCellValue(levelOneCell).trim();
+					if (StringUtils.isEmpty(levelOneValue)) {
+						errorMsg.add("第" + rowNum + "行一级分类为空");
+						continue;
+					}
+				}
+
+				//判断一级分类是否重复
+				Subject subject = this.getByTitle(levelOneValue);
+				String parentId = null;
+				if(subject == null){
+					//将一级分类存入数据库
+					Subject subjectLevelOne = new Subject();
+					subjectLevelOne.setTitle(levelOneValue);
+					subjectLevelOne.setSort(rowNum);
+					baseMapper.insert(subjectLevelOne);//添加
+					parentId = subjectLevelOne.getId();
+				}else{
+					parentId = subject.getId();
+				}
+
+
+				//获取二级分类
+				String levelTwoValue = "";
+				Cell levelTwoCell = rowData.getCell(1);
+				if(levelTwoCell != null){
+					levelTwoValue = excelHSSFUtil.getCellValue(levelTwoCell).trim();
+					if (StringUtils.isEmpty(levelTwoValue)) {
+						errorMsg.add("第" + rowNum + "行二级分类为空");
+						continue;
+					}
+				}
+
+				//判断二级分类是否重复
+				Subject subjectSub = this.getSubByTitle(levelTwoValue, parentId);
+				Subject subjectLevelTwo = null;
+				if(subjectSub == null){
+					//将二级分类存入数据库
+					subjectLevelTwo = new Subject();
+					subjectLevelTwo.setTitle(levelTwoValue);
+					subjectLevelTwo.setParentId(parentId);
+					subjectLevelTwo.setSort(rowNum);
+					baseMapper.insert(subjectLevelTwo);//添加
+				}
+			}
+		}
+
+		return errorMsg;
+	}
+
+	@Override
+	public List<SubjectNestedVo> nestedList() {
+
+		//最终要的到的数据列表
+		ArrayList<SubjectNestedVo> subjectNestedVoArrayList = new ArrayList<>();
+
+		//获取一级分类数据记录
+		QueryWrapper<Subject> queryWrapper = new QueryWrapper<>();
+		queryWrapper.eq("parent_id", 0);
+		queryWrapper.orderByAsc("sort", "id");
+		List<Subject> subjects = baseMapper.selectList(queryWrapper);
+
+		//获取二级分类数据记录
+		QueryWrapper<Subject> queryWrapper2 = new QueryWrapper<>();
+		queryWrapper2.ne("parent_id", 0);
+		queryWrapper2.orderByAsc("sort", "id");
+		List<Subject> subSubjects = baseMapper.selectList(queryWrapper2);
+
+		//填充一级分类vo数据
+		int count = subjects.size();
+		for (int i = 0; i < count; i++) {
+			Subject subject = subjects.get(i);
+
+			//创建一级类别vo对象
+			SubjectNestedVo subjectNestedVo = new SubjectNestedVo();
+			BeanUtils.copyProperties(subject, subjectNestedVo);
+			subjectNestedVoArrayList.add(subjectNestedVo);
+
+			//填充二级分类vo数据
+			ArrayList<SubjectVo> subjectVoArrayList = new ArrayList<>();
+			int count2 = subSubjects.size();
+			for (int j = 0; j < count2; j++) {
+
+				Subject subSubject = subSubjects.get(j);
+				if(subject.getId().equals(subSubject.getParentId())){
+
+					//创建二级类别vo对象
+					SubjectVo subjectVo = new SubjectVo();
+					BeanUtils.copyProperties(subSubject, subjectVo);
+					subjectVoArrayList.add(subjectVo);
+				}
+			}
+			subjectNestedVo.setChildren(subjectVoArrayList);
+		}
+
+		return subjectNestedVoArrayList;
+	}
+
+	@Override
+	public List<SubjectVo2> nestedList2() {
+		return baseMapper.selectNestedListByParentId("0");
+	}
+
+
+	/**
+	 * 根据分类名称查询这个一级分类中否存在
+	 * @param title
+	 * @return
+	 */
+	private Subject getByTitle(String title) {
+
+		QueryWrapper<Subject> queryWrapper = new QueryWrapper<>();
+		queryWrapper.eq("title", title);
+		queryWrapper.eq("parent_id", "0");//一级分类
+		return baseMapper.selectOne(queryWrapper);
+	}
+
+	/**
+	 * 根据分类名称和父id查询这个二级分类中否存在
+	 * @param title
+	 * @return
+	 */
+	private Subject getSubByTitle(String title, String parentId) {
+
+		QueryWrapper<Subject> queryWrapper = new QueryWrapper<>();
+		queryWrapper.eq("title", title);
+		queryWrapper.eq("parent_id", parentId);
+		return baseMapper.selectOne(queryWrapper);
+	}
+}
